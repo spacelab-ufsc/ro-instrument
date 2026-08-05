@@ -1,0 +1,143 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 38932
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+
+# Written on Wed Aug  5 15:47:31 2026
+
+##### DESIGN INFO #######################################################
+
+Top View:                "Complex_multiplier"
+Constraint File(s):      "/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                   Ending                     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Complex_multiplier|clk     Complex_multiplier|clk     |     10.000           |     No paths         |     No paths         |     No paths                         
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:a_imag[0]
+p:a_imag[1]
+p:a_imag[2]
+p:a_imag[3]
+p:a_imag[4]
+p:a_imag[5]
+p:a_imag[6]
+p:a_imag[7]
+p:a_real[0]
+p:a_real[1]
+p:a_real[2]
+p:a_real[3]
+p:a_real[4]
+p:a_real[5]
+p:a_real[6]
+p:a_real[7]
+p:b_imag[0]
+p:b_imag[1]
+p:b_imag[2]
+p:b_imag[3]
+p:b_imag[4]
+p:b_imag[5]
+p:b_imag[6]
+p:b_imag[7]
+p:b_real[0]
+p:b_real[1]
+p:b_real[2]
+p:b_real[3]
+p:b_real[4]
+p:b_real[5]
+p:b_real[6]
+p:b_real[7]
+p:en
+p:overflow
+p:p_imag[0]
+p:p_imag[1]
+p:p_imag[2]
+p:p_imag[3]
+p:p_imag[4]
+p:p_imag[5]
+p:p_imag[6]
+p:p_imag[7]
+p:p_imag[8]
+p:p_imag[9]
+p:p_imag[10]
+p:p_imag[11]
+p:p_imag[12]
+p:p_imag[13]
+p:p_imag[14]
+p:p_imag[15]
+p:p_real[0]
+p:p_real[1]
+p:p_real[2]
+p:p_real[3]
+p:p_real[4]
+p:p_real[5]
+p:p_real[6]
+p:p_real[7]
+p:p_real[8]
+p:p_real[9]
+p:p_real[10]
+p:p_real[11]
+p:p_real[12]
+p:p_real[13]
+p:p_real[14]
+p:p_real[15]
+p:rst
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

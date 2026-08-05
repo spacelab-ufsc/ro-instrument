@@ -1,0 +1,156 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+Date: Wed Aug  5 15:47:38 2026
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS025T     |
+| Package                | FCVG484      |
+| Speed Grade            | STD          |
+| Core Voltage           | 1.0V         |
+| Part Range             | EXT          |
+| Default I/O technology | LVCMOS 1.8V  |
++------------------------+--------------+
+
+Source Files
++---------+-------------------------------------------------------------------------------------+
+| Topcell | Complex_multiplier                                                                  |
+| Format  | Verilog                                                                             |
+| Source  | /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm |
++---------+-------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++-----------------------------+------+-------+------------+
+| Type                        | Used | Total | Percentage |
++-----------------------------+------+-------+------------+
+| 4LUT                        | 170  | 22956 | 0.74       |
+| DFF                         | 221  | 22956 | 0.96       |
+| User I/O                    | 68   | 108   | 62.96      |
+| -- Single-ended I/O         | 68   | 108   | 62.96      |
+| -- Differential I/O Pairs   | 0    | 54    | 0.00       |
+| -- I/Os using I/O Registers | 0    | 108   | 0.00       |
+| I/O Register Flip-Flops     | 0    | 324   | 0.00       |
+| -- Input  I/O Flip-Flops    | 0    | 108   | 0.00       |
+| -- Output I/O Flip-Flops    | 0    | 108   | 0.00       |
+| -- Enable I/O Flip-Flops    | 0    | 108   | 0.00       |
+| uSRAM                       | 0    | 204   | 0.00       |
+| LSRAM                       | 0    | 84    | 0.00       |
+| Math                        | 3    | 68    | 4.41       |
+| H-Chip Global               | 1    | 24    | 4.17       |
+| PLL                         | 0    | 8     | 0.00       |
+| DLL                         | 0    | 8     | 0.00       |
+| Transceiver Lanes           | 0    | 4     | 0.00       |
+| Transceiver PCIe            | 0    | 2     | 0.00       |
+| MSS                         | 0    | 1     | 0.00       |
++-----------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+-----+
+| Type                  | 4LUT | DFF |
++-----------------------+------+-----+
+| Fabric Logic          | 62   | 113 |
+| uSRAM Interface Logic | 0    | 0   |
+| LSRAM Interface Logic | 0    | 0   |
+| Math Interface Logic  | 108  | 108 |
+| Total Used            | 170  | 221 |
++-----------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 8      | 3    |
+| 16     | 2    |
+| Total  | 5    |
++--------+------+
+
+Detailed Math Chains Resource Usage
++--------+------+
+| Length | Used |
+| 1      | 3    |
+| Total  | 3    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 35           | 0           | 0               |
+| Output I/O                    | 33           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------+
+| Fanout | Type    | Name                |
++--------+---------+---------------------+
+| 116    | INT_NET | Net   : NN_1        |
+|        |         | Driver: I_1/U0_RGB1 |
+|        |         | Source: NETLIST     |
++--------+---------+---------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+------------------------+
+| Fanout | Type    | Name                   |
++--------+---------+------------------------+
+| 119    | INT_NET | Net   : en_c           |
+|        |         | Driver: en_ibuf        |
+| 116    | INT_NET | Net   : rst_c          |
+|        |         | Driver: rst_ibuf       |
+| 12     | INT_NET | Net   : aai[7]         |
+|        |         | Driver: aai_0_cry_0    |
+| 12     | INT_NET | Net   : bbi[7]         |
+|        |         | Driver: bbi_0_cry_0    |
+| 12     | INT_NET | Net   : a_real_c[7]    |
+|        |         | Driver: a_real_ibuf[7] |
+| 12     | INT_NET | Net   : b_real_c[7]    |
+|        |         | Driver: b_real_ibuf[7] |
+| 12     | INT_NET | Net   : b_imag_c[7]    |
+|        |         | Driver: b_imag_ibuf[7] |
+| 12     | INT_NET | Net   : aia[7]         |
+|        |         | Driver: aia_0_cry_0    |
+| 3      | INT_NET | Net   : a[7]           |
+|        |         | Driver: REG_IN_A/Q[7]  |
+| 3      | INT_NET | Net   : a[0]           |
+|        |         | Driver: REG_IN_A/Q[0]  |
++--------+---------+------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+------------------------+
+| Fanout | Type    | Name                   |
++--------+---------+------------------------+
+| 119    | INT_NET | Net   : en_c           |
+|        |         | Driver: en_ibuf        |
+| 116    | INT_NET | Net   : rst_c          |
+|        |         | Driver: rst_ibuf       |
+| 12     | INT_NET | Net   : aai[7]         |
+|        |         | Driver: aai_0_cry_0    |
+| 12     | INT_NET | Net   : bbi[7]         |
+|        |         | Driver: bbi_0_cry_0    |
+| 12     | INT_NET | Net   : a_real_c[7]    |
+|        |         | Driver: a_real_ibuf[7] |
+| 12     | INT_NET | Net   : b_real_c[7]    |
+|        |         | Driver: b_real_ibuf[7] |
+| 12     | INT_NET | Net   : b_imag_c[7]    |
+|        |         | Driver: b_imag_ibuf[7] |
+| 12     | INT_NET | Net   : aia[7]         |
+|        |         | Driver: aia_0_cry_0    |
+| 3      | INT_NET | Net   : a[7]           |
+|        |         | Driver: REG_IN_A/Q[7]  |
+| 3      | INT_NET | Net   : a[0]           |
+|        |         | Driver: REG_IN_A/Q[0]  |
++--------+---------+------------------------+
+

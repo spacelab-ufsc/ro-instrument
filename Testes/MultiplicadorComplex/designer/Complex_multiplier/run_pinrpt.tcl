@@ -1,0 +1,11 @@
+DESIGN=Complex_multiplier
+DESDIR=/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier
+TARGET_DIR=/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier
+FAM=PolarFireSoC
+DIE=PA5SOC025T
+PACKAGE=fcvg484
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+PINRPT_BOARDLAYOUT=1
+BANK_REPORT=1
+IOREG_REPORT=1

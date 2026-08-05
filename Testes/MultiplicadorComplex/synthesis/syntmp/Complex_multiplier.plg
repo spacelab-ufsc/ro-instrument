@@ -1,0 +1,11 @@
+@P:  Worst Slack : 5.858
+@P:  Complex_multiplier|clk - Estimated Frequency : 241.4 MHz
+@P:  Complex_multiplier|clk - Requested Frequency : 100.0 MHz
+@P:  Complex_multiplier|clk - Estimated Period : 4.142
+@P:  Complex_multiplier|clk - Requested Period : 10.000
+@P:  Complex_multiplier|clk - Slack : 5.858
+@P: Complex_multiplier Part : mpfs025tfcvg484std
+@P: Complex_multiplier Register bits  : 113 
+@P: Complex_multiplier DSP Blocks  : 3
+@P: Complex_multiplier I/O primitives : 68
+@P:  CPU Time : 0h:00m:02s

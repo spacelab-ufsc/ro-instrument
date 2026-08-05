@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e vcom 2024.3 2024.09, Sep 11 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/rian/Documents/RO/Testes/MultiplicadorComplex/simulation
+Ecomplex_multiplier
+Z1 w1785955745
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 8
+R0
+Z4 8/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/Complex_multiplier_ba.vhd
+Z5 F/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/Complex_multiplier_ba.vhd
+l0
+L9 1
+V107ISzLW:9bOQ0Mm=X2B:1
+!s100 [jRdc@;@IHNDHDdHL2J@62
+Z6 OW;C;2024.3;79
+33
+Z7 !s110 1785955750
+!i10b 1
+Z8 !s108 1785955750.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/Complex_multiplier_ba.vhd|
+Z10 !s107 /home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/Complex_multiplier_ba.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postlayout -O0
+Z12 tCvgOpt 0
+Adef_arch
+R2
+R3
+DEx4 work 18 complex_multiplier 0 22 107ISzLW:9bOQ0Mm=X2B:1
+!i122 8
+l872
+L25 5820
+VoJ3ZI?Fb3P]Q4?>@i>]<S0
+!s100 6Ug6?W?jaeN8oMDECC[[m3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench_complex_multiplier
+Z13 w1785954310
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 9
+R0
+Z15 8/home/rian/Documents/RO/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd
+Z16 F/home/rian/Documents/RO/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd
+l0
+L33 1
+VAMlkRmUT>g@HkCK34@[872
+!s100 X[E32DinlBh[ig4<m_>::3
+R6
+33
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|/home/rian/Documents/RO/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd|
+Z18 !s107 /home/rian/Documents/RO/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R2
+R3
+Z19 DEx4 work 28 testbench_complex_multiplier 0 22 AMlkRmUT>g@HkCK34@[872
+!i122 9
+l68
+Z20 L36 125
+Z21 VGB7l1^8e_A@@h?LiLM7ME2
+Z22 !s100 lhOk`Gde`D0iC2Z>^KCZ;2
+R6
+33
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12

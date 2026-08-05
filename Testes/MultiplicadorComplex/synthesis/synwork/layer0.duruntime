@@ -1,0 +1,15 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: work, Entity: reg_signed_8, Architecture: architecture_reg_signed
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: reg_signed_16, Architecture: architecture_reg_signed
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: reg_gen_16, Architecture: architecture_reg_gen
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: reg_gen_1, Architecture: architecture_reg_gen
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Complex_multiplier, Architecture: architecture_complex_multiplier
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time

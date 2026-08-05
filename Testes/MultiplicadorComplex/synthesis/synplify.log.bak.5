@@ -1,0 +1,106 @@
+
+                               Synplify Pro (R) 
+
+                Version V-2023.09M-5 for linux64 - Apr 29, 2025 
+
+                    Copyright (c) 1988 - 2025 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/linux_a_64/mbin/synbatch
+Install:     /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+Hostname:    rian-notebook
+Date:        Wed Aug  5 14:57:10 2026
+Version:     V-2023.09M-5
+
+Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log Complex_multiplier_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server localhost 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+add_dut_hierarchy is not supported in current product.
+prepare_readback is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+log file: "/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.srr"
+Running: synthesis in foreground
+
+Running Complex_multiplier_syn|synthesis
+
+Running Flow: compile (Compile) on Complex_multiplier_syn|synthesis
+# Wed Aug  5 14:57:11 2026
+
+Running Flow: compile_flow (Compile Process) on Complex_multiplier_syn|synthesis
+# Wed Aug  5 14:57:11 2026
+
+Running: compiler (Compile Input) on Complex_multiplier_syn|synthesis
+# Wed Aug  5 14:57:11 2026
+Process ID: 5523
+Copied /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_comp.srs to /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.srs
+
+compiler completed
+# Wed Aug  5 14:57:13 2026
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on Complex_multiplier_syn|synthesis
+# Wed Aug  5 14:57:13 2026
+Process ID: 5635
+
+multi_srs_gen completed
+# Wed Aug  5 14:57:13 2026
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_mult.srs to /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.srs
+Complete: Compile Process on Complex_multiplier_syn|synthesis
+
+Running: premap (Premap) on Complex_multiplier_syn|synthesis
+# Wed Aug  5 14:57:14 2026
+Process ID: 5653
+
+premap completed with warnings
+# Wed Aug  5 14:57:15 2026
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on Complex_multiplier_syn|synthesis
+
+Running Flow: map (Map) on Complex_multiplier_syn|synthesis
+# Wed Aug  5 14:57:15 2026
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on Complex_multiplier_syn|synthesis
+# Wed Aug  5 14:57:15 2026
+Process ID: 5669
+Copied /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_m.srm to /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.srm
+
+fpga_mapper completed with warnings
+# Wed Aug  5 14:57:17 2026
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on Complex_multiplier_syn|synthesis
+Complete: Logic Synthesis on Complex_multiplier_syn|synthesis
+TCL script complete: "Complex_multiplier_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

@@ -1,0 +1,138 @@
+m255
+K4
+z2
+!s11e vcom 2024.3 2024.09, Sep 11 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/rian/Documents/RO/Testes/MultiplicadorComplex/simulation
+Ecomplex_multiplier
+Z1 w1781022913
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 19
+R0
+Z5 8/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd
+Z6 F/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd
+l0
+L24 1
+ViRJOP@?;j]6oP`ei8Q32b3
+!s100 Td4_J5?RQM;IoD4PKjO[U2
+Z7 OW;C;2024.3;79
+33
+Z8 !s110 1781211253
+!i10b 1
+Z9 !s108 1781211253.000000
+Z10 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd|
+Z11 !s107 /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd|
+!i113 1
+Z12 o-2008 -explicit -work presynth -O0
+Z13 tCvgOpt 0
+Aarchitecture_complex_multiplier
+R2
+R3
+R4
+DEx4 work 18 complex_multiplier 0 22 iRJOP@?;j]6oP`ei8Q32b3
+!i122 19
+l64
+L45 49
+VA]PmlJLW[dPzI1:f?60SZ1
+!s100 e5BbIkRh7j^6LP626IE9Q3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ereg_gen
+Z14 w1781023182
+R3
+R4
+!i122 18
+R0
+Z15 8/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd
+Z16 F/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd
+l0
+L22 1
+V7kJ79Vcd053fj9]0n3dmT1
+!s100 aji;7L;=N7Cd^^54Kk_J13
+R7
+33
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd|
+Z18 !s107 /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd|
+!i113 1
+R12
+R13
+Aarchitecture_reg_gen
+R3
+R4
+DEx4 work 7 reg_gen 0 22 7kJ79Vcd053fj9]0n3dmT1
+!i122 18
+l35
+L34 13
+V:lo`JU`k=e:UCl<0`R7Ta0
+!s100 bS9kiAeE0<S_b4UiV:UAM2
+R7
+33
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Etestbench_complex_multiplier
+Z19 w1781025711
+R2
+R3
+R4
+!i122 20
+R0
+Z20 8/home/rian/Documents/RO/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd
+Z21 F/home/rian/Documents/RO/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd
+l0
+L33 1
+Vo<=jAD8Yd6EW<]W7Vl06P3
+!s100 X[E32DinlBh[ig4<m_>::3
+R7
+33
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/rian/Documents/RO/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd|
+Z23 !s107 /home/rian/Documents/RO/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+Z24 DEx4 work 28 testbench_complex_multiplier 0 22 o<=jAD8Yd6EW<]W7Vl06P3
+!i122 20
+l66
+Z25 L36 123
+Z26 V;08OmQVXM9=YThY5iV<<L3
+Z27 !s100 ]Ua7zG1[9fjdf0Lh;[W:c3
+R7
+33
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13

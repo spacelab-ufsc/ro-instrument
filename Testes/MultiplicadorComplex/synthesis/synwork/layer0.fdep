@@ -1,0 +1,45 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.Complex_multiplier|-layerid|0|-orig_srs|/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/linux_a_64/c_vhdl":1745933903
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/location.map":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std.vhd":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/snps_haps_pkg.vhd":1745933276
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std_textio.vhd":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/numeric.vhd":1745933901
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/umr_capim.vhd":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/arith.vhd":1745933276
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/unsigned.vhd":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/hyperents.vhd":1745933276
+#CUR:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":1781023182
+#CUR:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":1785955449
+#CUR:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":1785955616
+0 "/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd" vhdl
+1 "/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd" vhdl
+2 "/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 1 0 
+
+# Dependency Lists (Users Of)
+0 2 
+1 2 
+2 -1
+
+# Design Unit to File Association
+arch work reg_gen architecture_reg_gen 0
+module work reg_gen 0
+arch work reg_signed architecture_reg_signed 1
+module work reg_signed 1
+arch work complex_multiplier architecture_complex_multiplier 2
+module work complex_multiplier 2
+
+# Unbound Instances to File Association
+
+#identified top module
+top_module Complex_multiplier
+
+
+# Configuration files used

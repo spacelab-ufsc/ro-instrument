@@ -1,0 +1,90 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "14:57:17    05-ago-2026",
+	"Working Directory" : "/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis",
+	"CDPL Log file" : "-",
+	"Install" : "/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "14:57:11",
+   "Runtime" : "06s",
+   "Executable Run Time" : "04s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "14:57:11",
+      "Runtime" : "06s",
+      "Executable Run Time" : "04s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "14:57:11",
+         "Runtime" : "04s",
+         "Executable Run Time" : "02s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "14:57:11",
+            "Runtime" : "03s",
+            "Executable Run Time" : "01s",
+            "compiler" : {
+               "executable" : "bin/c_hdl",
+               "Run Directory" : "/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "14:57:11",
+               "Run Time" : "02s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "2.896000",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin/syn_nfilter",
+               "Run Directory" : "/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "14:57:13",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "2.896000",
+               "CDPL" : "off",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin/m_generic",
+            "Run Directory" : "/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "14:57:14",
+            "Run Time" : "01s",
+            "Exe Run Time" : "01s",
+            "Memory Usage" : "2.900000",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "14:57:15",
+         "Runtime" : "02s",
+         "Executable Run Time" : "02s",
+         "fpga_mapper" : {
+            "executable" : "bin/m_generic",
+            "Run Directory" : "/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "14:57:15",
+            "Run Time" : "02s",
+            "Exe Run Time" : "02s",
+            "Memory Usage" : "2.900000",
+            "CDPL" : "off",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

@@ -1,0 +1,1 @@
+ -link  -top  work.Complex_multiplier  -multisrs  /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_comp.srs  -osyn  /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_mult.srs  -log  /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/Complex_multiplier_multi_srs_gen.srr 

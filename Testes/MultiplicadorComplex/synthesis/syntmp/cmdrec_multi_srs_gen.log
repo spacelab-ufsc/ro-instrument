@@ -1,0 +1,8 @@
+/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/bin/syn_nfilter  -link  -top  work.Complex_multiplier  -multisrs  /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_comp.srs  -osyn  /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_mult.srs  -log  /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/Complex_multiplier_multi_srs_gen.srr 
+relcom:../../../../../../Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/bin/syn_nfilter -link -top work.Complex_multiplier -multisrs ../synwork/Complex_multiplier_comp.srs -osyn ../synwork/Complex_multiplier_mult.srs -log ../synlog/Complex_multiplier_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/Complex_multiplier_comp.srs|io:i|time:1785955623|size:6566|exec:0|csum:904B3E2F780DD09F15F717B64321A935
+file:../synwork/Complex_multiplier_mult.srs|io:o|time:1785955624|size:4950|exec:0|csum:
+file:../synlog/Complex_multiplier_multi_srs_gen.srr|io:o|time:1785955624|size:1284|exec:0|csum:
+file:../../../../../../Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/linux_a_64/syn_nfilter|io:i|time:1745933905|size:18297968|exec:1|csum:06CF4D589DA985322FE761F0EE4260BE
+file:../../../../../../Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/bin/syn_nfilter|io:i|time:1745933292|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

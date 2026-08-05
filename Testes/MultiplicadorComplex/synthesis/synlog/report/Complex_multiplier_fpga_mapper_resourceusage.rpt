@@ -1,0 +1,40 @@
+Resource Usage Report for Complex_multiplier 
+
+Mapping to part: mpfs025tfcvg484std
+Cell usage:
+CLKINT          1 use
+CFG1           1 use
+CFG2           2 uses
+CFG3           3 uses
+CFG4           2 uses
+
+Carry cells:
+ARI1            56 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            113 uses
+
+DSP Blocks:    3 of 68 (4%)
+ MACC_PA:         3 Mults
+
+I/O ports: 68
+I/O primitives: 68
+INBUF          35 uses
+OUTBUF         33 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    64
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 108; LUTs = 108;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  113 + 0 + 0 + 108 = 221;
+Total number of LUTs after P&R:  64 + 0 + 0 + 108 = 172;
+
