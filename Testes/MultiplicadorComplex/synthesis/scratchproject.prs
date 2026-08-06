@@ -1,18 +1,18 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M-5
-#--  Project file /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/scratchproject.prs
+#--  Project file /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/scratchproject.prs
 
 #project files
-add_file -verilog "/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v"
-add_file -vhdl -lib work "/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd"
-add_file -vhdl -lib work "/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd"
-add_file -vhdl -lib work "/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd"
-add_file -verilog "/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/MSS_syn_comps.v"
-add_file -fpga_constraint "/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/synthesis.fdc"
+add_file -verilog "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v"
+add_file -vhdl -lib work "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg16.vhd"
+add_file -vhdl -lib work "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd"
+add_file -vhdl -lib work "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd"
+add_file -verilog "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/MSS_syn_comps.v"
+add_file -fpga_constraint "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/designer/Complex_multiplier/synthesis.fdc"
 
 
 #implementation: "synthesis"
-impl -add /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis -type fpga
+impl -add /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis -type fpga
 
 #device options
 set_option -technology PolarFireSoC
@@ -101,5 +101,5 @@ set_option -vhdl2008 1
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm"
+project -result_file "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm"
 impl -active "synthesis"

@@ -1,0 +1,389 @@
+m255
+K4
+z2
+!s11e vcom 2024.3 2024.09, Sep 11 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/simulation
+Ecomplex_multiplier
+Z1 w1786017073
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vhd
+Z5 F/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vhd
+l0
+L720 1
+VYJ9^fUVR>5_]@lZQVoScN3
+!s100 VVdK8U5WOPTMWgW_MRIVH3
+Z6 OW;C;2024.3;79
+33
+Z7 !s110 1786017078
+!i10b 1
+Z8 !s108 1786017077.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vhd|
+Z10 !s107 /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postsynth -O0
+Z12 tCvgOpt 0
+Adef_arch
+Z13 DEx4 work 12 reg_gen_16_0 0 22 fzL4?:2=DBTT7;X9aAc]j1
+Z14 DEx4 work 9 reg_gen_1 0 22 LN[S3MDh^485TkG8OKe6S3
+Z15 DEx4 work 10 reg_gen_16 0 22 _Qilb`[UV__Ql96HeJhh?3
+Z16 DEx4 work 14 reg_signed_8_1 0 22 18bamclfb5:iLT<DGT=?h3
+Z17 DEx4 work 14 reg_signed_8_2 0 22 YIblTDBIzWU_:NkE6oDMA3
+Z18 DEx4 work 12 reg_signed_8 0 22 <:ZE3V3Q_Aaj0TMKmV_Dm3
+Z19 DEx4 work 14 reg_signed_8_0 0 22 Cg4`7=WVM_1Q>cIC1KGKW3
+R2
+R3
+DEx4 work 18 complex_multiplier 0 22 YJ9^fUVR>5_]@lZQVoScN3
+!i122 0
+l1017
+L736 1342
+VlXXgL?0Z<X5kiNSEV8dVS1
+!s100 =zV>@fVZ<^TCOB3=WdeUo2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ereg_gen_1
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L524 1
+VLN[S3MDh^485TkG8OKe6S3
+!s100 aTm98EoWczGRD`P;iL=1h0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R14
+!i122 0
+l562
+L535 43
+VWH=Aif;m@NJXmi9>a[>o73
+!s100 O[BAmm?zm@h;m9VISK;@c3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ereg_gen_16
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L388 1
+V_Qilb`[UV__Ql96HeJhh?3
+!s100 FUdY0VVTOfFZ[4ZKGEz``1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R15
+!i122 0
+l427
+L400 118
+VbNY0`732_]Of]QT@kO<kJ2
+!s100 @C@ZEzfY>H3mV=kQ>Ffia0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ereg_gen_16_0
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L584 1
+VfzL4?:2=DBTT7;X9aAc]j1
+!s100 9L<K9I8oh3>DI`:YO:[kN2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R13
+!i122 0
+l623
+L596 118
+V2PdYB[J:1>cc]A`JjEKY73
+!s100 ?Dcz]JHealkZ:@I9R_K6C2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ereg_signed_8
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L103 1
+V<:ZE3V3Q_Aaj0TMKmV_Dm3
+!s100 `O:1aZJ5_iimS8_28LY`a2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R18
+!i122 0
+l141
+L114 78
+V:SXmgj1>cEAIe;OabND_10
+!s100 fM:QLZjJ4RbWhGzZm1JZ[3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ereg_signed_8_0
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L8 1
+VCg4`7=WVM_1Q>cIC1KGKW3
+!s100 mblg[29g536Pa@hj[7iNW2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R19
+!i122 0
+l46
+L19 78
+VGN1>5P=0VU9=o3=eZEn3B1
+!s100 Pi:RIz?lYiQ3IdAfTF>AC3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ereg_signed_8_1
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L293 1
+V18bamclfb5:iLT<DGT=?h3
+!s100 oQecYAg4S0FY:nnS98]QE0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R16
+!i122 0
+l331
+L304 78
+V?1f8AibISaACnDhYgF:eJ1
+!s100 R@69nzZdI2E6o?]nYImPl0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ereg_signed_8_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L198 1
+VYIblTDBIzWU_:NkE6oDMA3
+!s100 Y`e5HA3Xh5fYQ41Nib`je0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R17
+!i122 0
+l236
+L209 78
+V1Z:6Y`KXlMi:_a26Nll3g1
+!s100 8k`QG`P@C_dzOK9ZD<ReV3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench_complex_multiplier
+Z20 w1785954310
+Z21 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 1
+R0
+Z22 8/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd
+Z23 F/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd
+l0
+L33 1
+Va9WTo0?NF9AZ_4B=lXn3z0
+!s100 X[E32DinlBh[ig4<m_>::3
+R6
+33
+R7
+!i10b 1
+Z24 !s108 1786017078.000000
+Z25 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd|
+!s107 /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R21
+R2
+R3
+DEx4 work 28 testbench_complex_multiplier 0 22 a9WTo0?NF9AZ_4B=lXn3z0
+!i122 1
+l68
+L36 125
+VN8>dge7C]9h9i[X>mnXQm1
+!s100 lhOk`Gde`D0iC2Z>^KCZ;2
+R6
+33
+R7
+!i10b 1
+R24
+R25
+Z26 !s107 /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/stimulus/Testbench_Complex_multiplier.vhd|
+!i113 1
+R11
+R12

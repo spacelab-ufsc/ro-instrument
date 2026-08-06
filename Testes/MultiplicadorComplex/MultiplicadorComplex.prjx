@@ -54,23 +54,23 @@ ENDLIST
 LIST FileManager
 VALUE "<project>/designer/Complex_multiplier/Complex_multiplier_ba.vhd,ba_hdl"
 STATE="utd"
-TIME="1785955745"
-SIZE="251078"
+TIME="1786026749"
+SIZE="235303"
 ENDFILE
 VALUE "<project>/designer/Complex_multiplier/Complex_multiplier_fast_hv_lt_ba.sdf,ba_sdf"
 STATE="utd"
-TIME="1785955745"
-SIZE="511739"
+TIME="1786026749"
+SIZE="411781"
 ENDFILE
 VALUE "<project>/designer/Complex_multiplier/Complex_multiplier_slow_lv_ht_ba.sdf,ba_sdf"
 STATE="utd"
-TIME="1785955745"
-SIZE="519815"
+TIME="1786026749"
+SIZE="414072"
 ENDFILE
 VALUE "<project>/designer/Complex_multiplier/Complex_multiplier_slow_lv_lt_ba.sdf,ba_sdf"
 STATE="utd"
-TIME="1785955745"
-SIZE="520147"
+TIME="1786026749"
+SIZE="414055"
 ENDFILE
 VALUE "<project>/hdl/Complex_multiplier.vhd,hdl"
 STATE="utd"
@@ -92,6 +92,16 @@ STATE="utd"
 TIME="1785955745"
 SIZE="1219"
 ENDFILE
+VALUE "<project>/simulation/Testbench_Complex_multiplier_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1786026756"
+SIZE="2847"
+ENDFILE
+VALUE "<project>/simulation/Testbench_Complex_multiplier_postsynth_simulation.log,log"
+STATE="utd"
+TIME="1786017079"
+SIZE="3347"
+ENDFILE
 VALUE "<project>/stimulus/Testbench_Complex_multiplier.vhd,tb_hdl"
 STATE="utd"
 TIME="1785954310"
@@ -103,14 +113,14 @@ TIME="1785955654"
 SIZE="256"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier.vm,syn_vm"
-STATE="ood"
+STATE="utd"
 TIME="1785955653"
 SIZE="48449"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier_syn.prj,prj"
 STATE="utd"
-TIME="1785955654"
-SIZE="3066"
+TIME="1785965494"
+SIZE="3126"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier_vm.sdc,syn_sdc"
 STATE="utd"
@@ -134,6 +144,7 @@ ENDLIST
 LIST ProjectState5.1
 LIST Impl1
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>/synthesis/Complex_multiplier.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -142,9 +153,6 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
-ENDLIST
-LIST synthesis_implementations
-VALUE "synthesis"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -226,8 +234,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/bin/synplify_pro"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -235,7 +243,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/ModelSim_Pro/linuxacoem/vsim"
-PARAM=""
+PARAM=" -l Testbench_Complex_multiplier_postlayout_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -254,6 +262,7 @@ LIST ProjectState5.1
 LIST "Complex_multiplier::work"
 LIST Impl1
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>/synthesis/Complex_multiplier.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -276,9 +285,11 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-HDL;stimulus/Testbench_Complex_multiplier.vhd;0
+Reports;Reports;0
+ReportsCurrentItem;Place and Route:Complex_multiplier_glb_net_report.xml
 HDL;hdl/Complex_multiplier.vhd;0
-ACTIVEVIEW;hdl/Complex_multiplier.vhd
+HDL;stimulus/Testbench_Complex_multiplier.vhd;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Complex_multiplier::work","hdl/Complex_multiplier.vhd","FALSE","FALSE"

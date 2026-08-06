@@ -6,47 +6,62 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: V-2023.09M-5
-Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+Install: /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
 OS: Ubuntu 22.04.5 LTS
-Hostname: rian-notebook
+Hostname: tuzinho-IdeaPad-L340-15IRH-Gaming
 max virtual memory: unlimited (bytes)
-max user processes: 38932
+max user processes: 62960
 max stack size: 8388608 (bytes)
 
 
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
 
-Modified Files: 0
+Modified Files: 26
 FID:  path (prevtimestamp, timestamp)
+12       /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd (2026-08-05 15:46:56, N/A)
+13       /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd (2026-06-09 13:39:42, N/A)
+14       /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd (2026-08-05 15:44:09, N/A)
+2        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/hyperents.vhd (2025-04-29 10:27:56, N/A)
+3        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/snps_haps_pkg.vhd (2025-04-29 10:27:56, N/A)
+4        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/umr_capim.vhd (2025-04-29 10:27:57, N/A)
+5        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/arith.vhd (2025-04-29 10:27:56, N/A)
+6        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/location.map (2025-04-29 10:27:57, N/A)
+7        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/numeric.vhd (2025-04-29 10:38:21, N/A)
+8        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std.vhd (2025-04-29 10:27:57, N/A)
+9        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd (2025-04-29 10:27:57, N/A)
+10       /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std_textio.vhd (2025-04-29 10:27:57, N/A)
+11       /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/unsigned.vhd (2025-04-29 10:27:57, N/A)
+15       /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd (N/A, 2026-08-06 00:51:02)
+16       /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg16.vhd (N/A, 2026-06-09 13:39:42)
+17       /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd (N/A, 2026-08-05 15:44:09)
+18       /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/hyperents.vhd (N/A, 2025-04-29 10:27:56)
+19       /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/snps_haps_pkg.vhd (N/A, 2025-04-29 10:27:56)
+20       /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/umr_capim.vhd (N/A, 2025-04-29 10:27:57)
+21       /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/arith.vhd (N/A, 2025-04-29 10:27:56)
+22       /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/location.map (N/A, 2025-04-29 10:27:57)
+23       /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/numeric.vhd (N/A, 2025-04-29 10:38:21)
+24       /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std.vhd (N/A, 2025-04-29 10:27:57)
+25       /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd (N/A, 2025-04-29 10:27:57)
+26       /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std_textio.vhd (N/A, 2025-04-29 10:27:57)
+27       /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/unsigned.vhd (N/A, 2025-04-29 10:27:57)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 0
+Modules that may have changed as a result of file changes: 3
 MID:  lib.cell.view
+0        work.complex_multiplier.architecture_complex_multiplier may have changed because the following files changed:
+                        /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd (N/A, 2026-08-06 00:51:02) <-- (architecture and entity definition)
+2        work.reg_gen.architecture_reg_gen may have changed because the following files changed:
+                        /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd (N/A, 2026-08-06 00:51:02) <-- (may instantiate this module)
+                        /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg16.vhd (N/A, 2026-06-09 13:39:42) <-- (architecture and entity definition)
+4        work.reg_signed.architecture_reg_signed may have changed because the following files changed:
+                        /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd (N/A, 2026-08-06 00:51:02) <-- (may instantiate this module)
+                        /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd (N/A, 2026-08-05 15:44:09) <-- (architecture and entity definition)
 
 *******************************************************************
-Unmodified files: 13
+Unmodified files: 0
 FID:  path (timestamp)
-12       /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd (2026-08-05 15:46:56)
-13       /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd (2026-06-09 13:39:42)
-14       /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd (2026-08-05 15:44:09)
-2        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/hyperents.vhd (2025-04-29 10:27:56)
-3        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/snps_haps_pkg.vhd (2025-04-29 10:27:56)
-4        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/umr_capim.vhd (2025-04-29 10:27:57)
-5        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/arith.vhd (2025-04-29 10:27:56)
-6        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/location.map (2025-04-29 10:27:57)
-7        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/numeric.vhd (2025-04-29 10:38:21)
-8        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std.vhd (2025-04-29 10:27:57)
-9        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd (2025-04-29 10:27:57)
-10       /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std_textio.vhd (2025-04-29 10:27:57)
-11       /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/unsigned.vhd (2025-04-29 10:27:57)
 
 *******************************************************************
-Unchanged modules: 6
+Unchanged modules: 0
 MID:  lib.cell.view
-0        work.complex_multiplier.architecture_complex_multiplier
-1        work.complex_multiplier.vhdl
-2        work.reg_gen.architecture_reg_gen
-3        work.reg_gen.vhdl
-4        work.reg_signed.architecture_reg_signed
-5        work.reg_signed.vhdl

@@ -1,4 +1,4 @@
-# Wed Aug  5 15:47:31 2026
+# Thu Aug  6 08:50:06 2026
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -8,11 +8,11 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: V-2023.09M-5
-Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+Install: /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
 OS: Ubuntu 22.04.5 LTS
-Hostname: rian-notebook
+Hostname: tuzinho-IdeaPad-L340-15IRH-Gaming
 max virtual memory: unlimited (bytes)
-max user processes: 38932
+max user processes: 62960
 max stack size: 8388608 (bytes)
 
 
@@ -48,78 +48,78 @@ Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 561MB peak: 561MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 561MB peak: 561MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 561MB peak: 561MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		     5.53ns		  65 /       113
+   1		0h:00m:00s		     5.15ns		  64 /        65
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 566MB peak: 566MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 566MB peak: 566MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 566MB peak: 566MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 566MB peak: 566MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 566MB peak: 566MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
 
-Writing Analyst data base /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_m.srm
+Writing Analyst data base /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 566MB peak: 566MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 566MB peak: 566MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 566MB peak: 566MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 566MB peak: 566MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
 
 @W: MT420 |Found inferred clock Complex_multiplier|clk with period 10.00ns. Please declare a user-defined clock on port clk.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Aug  5 15:47:34 2026
+# Timing report written on Thu Aug  6 08:50:07 2026
 #
 
 
@@ -127,7 +127,7 @@ Top view:               Complex_multiplier
 Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    /home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/synthesis.fdc
+Constraint File(s):    /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/designer/Complex_multiplier/synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -139,12 +139,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 5.858
+Worst slack in design: 6.503
 
                            Requested     Estimated     Requested     Estimated               Clock        Clock     
 Starting Clock             Frequency     Frequency     Period        Period        Slack     Type         Group     
 --------------------------------------------------------------------------------------------------------------------
-Complex_multiplier|clk     100.0 MHz     241.4 MHz     10.000        4.142         5.858     inferred     (multiple)
+Complex_multiplier|clk     100.0 MHz     285.9 MHz     10.000        3.497         6.503     inferred     (multiple)
 ====================================================================================================================
 
 
@@ -158,7 +158,7 @@ Clocks                                          |    rise  to  rise   |    fall 
 --------------------------------------------------------------------------------------------------------------------------------------
 Starting                Ending                  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------------------------------------
-Complex_multiplier|clk  Complex_multiplier|clk  |  10.000      5.858  |  No paths    -      |  No paths    -      |  No paths    -    
+Complex_multiplier|clk  Complex_multiplier|clk  |  10.000      6.503  |  No paths    -      |  No paths    -      |  No paths    -    
 ======================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -181,41 +181,41 @@ Detailed Report for Clock: Complex_multiplier|clk
 Starting Points with Worst Slack
 ********************************
 
-                       Starting                                                    Arrival          
-Instance               Reference                  Type        Pin       Net        Time        Slack
-                       Clock                                                                        
-----------------------------------------------------------------------------------------------------
-k1_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     P[15]     k1[15]     2.670       5.858
-k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     P[15]     k2[15]     2.670       6.428
-REG_IN_AI.Q[0]         Complex_multiplier|clk     SLE         Q         ai[0]      0.257       6.717
-REG_IN_A.Q[0]          Complex_multiplier|clk     SLE         Q         a[0]       0.257       6.767
-k3_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     P[15]     k3[15]     2.670       6.786
-k1_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     P[0]      k1[0]      2.670       7.191
-k1_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     P[1]      k1[1]      2.670       7.191
-k1_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     P[2]      k1[2]      2.670       7.191
-k1_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     P[3]      k1[3]      2.670       7.191
-k1_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     P[4]      k1[4]      2.670       7.191
-====================================================================================================
+                       Starting                                                   Arrival          
+Instance               Reference                  Type        Pin      Net        Time        Slack
+                       Clock                                                                       
+---------------------------------------------------------------------------------------------------
+k1_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     P[0]     p_0        0.344       6.503
+REG_IN_AI.Q[0]         Complex_multiplier|clk     SLE         Q        ai[0]      0.257       6.717
+REG_IN_A.Q[0]          Complex_multiplier|clk     SLE         Q        a[0]       0.257       6.767
+REG_IN_BI.Q[0]         Complex_multiplier|clk     SLE         Q        bi[0]      0.257       6.909
+REG_IN_BI.Q[1]         Complex_multiplier|clk     SLE         Q        bi[1]      0.257       6.918
+REG_IN_BI.Q[2]         Complex_multiplier|clk     SLE         Q        bi[2]      0.257       6.928
+REG_IN_BI.Q[3]         Complex_multiplier|clk     SLE         Q        bi[3]      0.257       6.937
+REG_IN_BI.Q[4]         Complex_multiplier|clk     SLE         Q        bi[4]      0.257       6.947
+k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     P[0]     k2r[0]     0.344       6.951
+REG_IN_BI.Q[5]         Complex_multiplier|clk     SLE         Q        bi[5]      0.257       6.956
+===================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                    Starting                                               Required          
-Instance            Reference                  Type     Pin     Net        Time         Slack
-                    Clock                                                                    
----------------------------------------------------------------------------------------------
-REG_OUT_OV.Q[0]     Complex_multiplier|clk     SLE      D       ov         10.000       5.858
-REG_K1.Q[15]        Complex_multiplier|clk     SLE      D       k1[15]     10.000       6.685
-REG_K2.Q[15]        Complex_multiplier|clk     SLE      D       k2[15]     10.000       7.184
-REG_K3.Q[15]        Complex_multiplier|clk     SLE      D       k3[15]     10.000       7.184
-REG_K2.Q[0]         Complex_multiplier|clk     SLE      D       k2[0]      10.000       7.191
-REG_K3.Q[0]         Complex_multiplier|clk     SLE      D       k3[0]      10.000       7.191
-REG_K1.Q[0]         Complex_multiplier|clk     SLE      D       k1[0]      10.000       7.191
-REG_K3.Q[1]         Complex_multiplier|clk     SLE      D       k3[1]      10.000       7.191
-REG_K1.Q[1]         Complex_multiplier|clk     SLE      D       k1[1]      10.000       7.191
-REG_K2.Q[1]         Complex_multiplier|clk     SLE      D       k2[1]      10.000       7.191
-=============================================================================================
+                       Starting                                                    Required          
+Instance               Reference                  Type        Pin       Net        Time         Slack
+                       Clock                                                                         
+-----------------------------------------------------------------------------------------------------
+REG_OUT_OV.Q[0]        Complex_multiplier|clk     SLE         D         ov         10.000       6.503
+k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     B[7]      aai[7]     10.099       7.542
+k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     B[8]      aai[7]     10.099       7.542
+k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     B[9]      aai[7]     10.099       7.542
+k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     B[10]     aai[7]     10.099       7.542
+k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     B[11]     aai[7]     10.099       7.542
+k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     B[12]     aai[7]     10.099       7.542
+k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     B[13]     aai[7]     10.099       7.542
+k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     B[14]     aai[7]     10.099       7.542
+k2_mulonly_0[15:0]     Complex_multiplier|clk     MACC_PA     B[15]     aai[7]     10.099       7.542
+=====================================================================================================
 
 
 
@@ -229,33 +229,87 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         10.000
 
-    - Propagation time:                      4.142
+    - Propagation time:                      3.497
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     5.858
+    = Slack (critical) :                     6.503
 
-    Number of logic level(s):                3
-    Starting point:                          k1_mulonly_0[15:0] / P[15]
+    Number of logic level(s):                21
+    Starting point:                          k1_mulonly_0[15:0] / P[0]
     Ending point:                            REG_OUT_OV.Q[0] / D
     The start point is clocked by            Complex_multiplier|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
     The end   point is clocked by            Complex_multiplier|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
 
-Instance / Net                     Pin       Pin               Arrival     No. of    
-Name                   Type        Name      Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------
-k1_mulonly_0[15:0]     MACC_PA     P[15]     Out     2.670     2.670 f     -         
-k1[15]                 Net         -         -       0.645     -           3         
-of_p                   CFG3        C         In      -         3.315 f     -         
-of_p                   CFG3        Y         Out     0.175     3.490 r     -         
-of_p                   Net         -         -       0.139     -           1         
-ov_1                   CFG4        C         In      -         3.629 r     -         
-ov_1                   CFG4        Y         Out     0.175     3.804 r     -         
-ov_1                   Net         -         -       0.139     -           1         
-ov                     CFG3        A         In      -         3.943 r     -         
-ov                     CFG3        Y         Out     0.060     4.003 r     -         
-ov                     Net         -         -       0.139     -           1         
-REG_OUT_OV.Q[0]        SLE         D         In      -         4.142 r     -         
-=====================================================================================
-Total path delay (propagation time + setup) of 4.142 is 3.079(74.3%) logic and 1.063(25.7%) route.
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+k1_mulonly_0[15:0]     MACC_PA     P[0]     Out     0.344     0.344 f     -         
+p_0                    Net         -        -       0.645     -           3         
+p_0_cry_0              ARI1        A        In      -         0.989 f     -         
+p_0_cry_0              ARI1        FCO      Out     0.336     1.325 f     -         
+p_0_cry_0              Net         -        -       0.000     -           1         
+p_0_cry_1              ARI1        FCI      In      -         1.325 f     -         
+p_0_cry_1              ARI1        FCO      Out     0.009     1.335 f     -         
+p_0_cry_1              Net         -        -       0.000     -           1         
+p_0_cry_2              ARI1        FCI      In      -         1.335 f     -         
+p_0_cry_2              ARI1        FCO      Out     0.009     1.344 f     -         
+p_0_cry_2              Net         -        -       0.000     -           1         
+p_0_cry_3              ARI1        FCI      In      -         1.344 f     -         
+p_0_cry_3              ARI1        FCO      Out     0.009     1.353 f     -         
+p_0_cry_3              Net         -        -       0.000     -           1         
+p_0_cry_4              ARI1        FCI      In      -         1.353 f     -         
+p_0_cry_4              ARI1        FCO      Out     0.009     1.363 f     -         
+p_0_cry_4              Net         -        -       0.000     -           1         
+p_0_cry_5              ARI1        FCI      In      -         1.363 f     -         
+p_0_cry_5              ARI1        FCO      Out     0.009     1.372 f     -         
+p_0_cry_5              Net         -        -       0.000     -           1         
+p_0_cry_6              ARI1        FCI      In      -         1.372 f     -         
+p_0_cry_6              ARI1        FCO      Out     0.009     1.381 f     -         
+p_0_cry_6              Net         -        -       0.000     -           1         
+p_0_cry_7              ARI1        FCI      In      -         1.381 f     -         
+p_0_cry_7              ARI1        FCO      Out     0.009     1.391 f     -         
+p_0_cry_7              Net         -        -       0.000     -           1         
+p_0_cry_8              ARI1        FCI      In      -         1.391 f     -         
+p_0_cry_8              ARI1        FCO      Out     0.009     1.400 f     -         
+p_0_cry_8              Net         -        -       0.000     -           1         
+p_0_cry_9              ARI1        FCI      In      -         1.400 f     -         
+p_0_cry_9              ARI1        FCO      Out     0.009     1.410 f     -         
+p_0_cry_9              Net         -        -       0.000     -           1         
+p_0_cry_10             ARI1        FCI      In      -         1.410 f     -         
+p_0_cry_10             ARI1        FCO      Out     0.009     1.419 f     -         
+p_0_cry_10             Net         -        -       0.000     -           1         
+p_0_cry_11             ARI1        FCI      In      -         1.419 f     -         
+p_0_cry_11             ARI1        FCO      Out     0.009     1.429 f     -         
+p_0_cry_11             Net         -        -       0.000     -           1         
+p_0_cry_12             ARI1        FCI      In      -         1.429 f     -         
+p_0_cry_12             ARI1        FCO      Out     0.009     1.438 f     -         
+p_0_cry_12             Net         -        -       0.000     -           1         
+p_0_cry_13             ARI1        FCI      In      -         1.438 f     -         
+p_0_cry_13             ARI1        FCO      Out     0.009     1.447 f     -         
+p_0_cry_13             Net         -        -       0.000     -           1         
+p_0_cry_14             ARI1        FCI      In      -         1.447 f     -         
+p_0_cry_14             ARI1        FCO      Out     0.009     1.457 f     -         
+p_0_cry_14             Net         -        -       0.000     -           1         
+p_0_s_15               ARI1        FCI      In      -         1.457 f     -         
+p_0_s_15               ARI1        S        Out     0.354     1.811 r     -         
+p[15]                  Net         -        -       0.146     -           2         
+of_p                   CFG3        B        In      -         1.957 r     -         
+of_p                   CFG3        Y        Out     0.103     2.060 f     -         
+of_p                   Net         -        -       0.139     -           1         
+ov_0                   CFG4        D        In      -         2.200 f     -         
+ov_0                   CFG4        Y        Out     0.226     2.426 f     -         
+ov_0                   Net         -        -       0.139     -           1         
+ov_1                   CFG4        C        In      -         2.565 f     -         
+ov_1                   CFG4        Y        Out     0.172     2.737 f     -         
+ov_1                   Net         -        -       0.139     -           1         
+ov_2                   CFG4        C        In      -         2.876 f     -         
+ov_2                   CFG4        Y        Out     0.172     3.047 f     -         
+ov_2                   Net         -        -       0.139     -           1         
+ov                     CFG4        C        In      -         3.187 f     -         
+ov                     CFG4        Y        Out     0.172     3.358 f     -         
+ov                     Net         -        -       0.139     -           1         
+REG_OUT_OV.Q[0]        SLE         D        In      -         3.497 f     -         
+====================================================================================
+Total path delay (propagation time + setup) of 3.497 is 2.010(57.5%) logic and 1.488(42.5%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -264,10 +318,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 566MB peak: 566MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 566MB peak: 566MB)
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
 
 ---------------------------------------
 Resource Usage Report for Complex_multiplier 
@@ -277,15 +331,15 @@ Cell usage:
 CLKINT          1 use
 CFG1           1 use
 CFG2           2 uses
-CFG3           3 uses
-CFG4           2 uses
+CFG3           1 use
+CFG4           4 uses
 
 Carry cells:
 ARI1            56 uses - used for arithmetic functions
 
 
 Sequential Cells: 
-SLE            113 uses
+SLE            65 uses
 
 DSP Blocks:    3 of 68 (4%)
  MACC_PA:         3 Mults
@@ -307,14 +361,14 @@ RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA     Interface Logic : SLEs = 108; LUTs = 108;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  113 + 0 + 0 + 108 = 221;
+Total number of SLEs after P&R:  65 + 0 + 0 + 108 = 173;
 Total number of LUTs after P&R:  64 + 0 + 0 + 108 = 172;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 478MB peak: 566MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 478MB peak: 567MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Wed Aug  5 15:47:34 2026
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Aug  6 08:50:07 2026
 
 ###########################################################]

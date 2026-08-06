@@ -5,18 +5,18 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/report/Complex_multiplier_fpga_mapper_resourceusage.rpt</data>
+<data>/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synlog/report/Complex_multiplier_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <report_link name="Hierarchical Area report">
-<data>/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/report/Complex_multiplier_fpga_mapper_hier_area_report.xml</data>
+<data>/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synlog/report/Complex_multiplier_fpga_mapper_hier_area_report.xml</data>
 <title>Hierarchical Area Report</title>
 </report_link>
 <parameter tooltip="Total Carry Cells used" name="Carry Cells">
 <data>56</data>
 </parameter>
 <parameter tooltip="Total Sequential Cells used" name="Sequential Cells">
-<data>113</data>
+<data>65</data>
 </parameter>
 <parameter tcl_name="dsp_used" tooltip="Total DSP Blocks used" name="DSP Blocks">
 <data>3</data>

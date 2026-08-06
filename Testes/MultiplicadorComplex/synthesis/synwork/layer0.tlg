@@ -1,18 +1,21 @@
-@N: CD231 :"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Synthesizing work.complex_multiplier.architecture_complex_multiplier.
-@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
+@N: CD231 :"/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Synthesizing work.complex_multiplier.architecture_complex_multiplier.
+@W: CD638 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":50:15:50:19|Signal of_k1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":50:22:50:26|Signal of_k2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":50:29:50:33|Signal of_k3 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
 Post processing for work.reg_gen.architecture_reg_gen
 Running optimization stage 1 on reg_gen .......
 Finished optimization stage 1 on reg_gen (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 186MB)
-@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
+@N: CD630 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
 Post processing for work.reg_gen.architecture_reg_gen
 Running optimization stage 1 on reg_gen .......
 Finished optimization stage 1 on reg_gen (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
-@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":23:7:23:16|Synthesizing work.reg_signed.architecture_reg_signed.
+@N: CD630 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":23:7:23:16|Synthesizing work.reg_signed.architecture_reg_signed.
 Post processing for work.reg_signed.architecture_reg_signed
 Running optimization stage 1 on reg_signed .......
 Finished optimization stage 1 on reg_signed (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
-@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":23:7:23:16|Synthesizing work.reg_signed.architecture_reg_signed.
+@N: CD630 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":23:7:23:16|Synthesizing work.reg_signed.architecture_reg_signed.
 Post processing for work.reg_signed.architecture_reg_signed
 Running optimization stage 1 on reg_signed .......
 Finished optimization stage 1 on reg_signed (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
@@ -32,6 +35,6 @@ Finished optimization stage 2 on Complex_multiplier (CPU Time 0h:00m:00s, Memory
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
-@L: /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/layer0.duruntime
+@L: /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synwork/layer0.duruntime
 
 

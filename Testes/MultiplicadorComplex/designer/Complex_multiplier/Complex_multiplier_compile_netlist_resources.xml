@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)</text>
-<text>Date: Wed Aug  5 15:47:38 2026
+<text>Date: Thu Aug  6 08:50:11 2026
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -52,7 +52,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm</cell>
+ <cell>/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -80,9 +80,9 @@
 </row>
 <row>
  <cell>DFF</cell>
- <cell>221</cell>
+ <cell>173</cell>
  <cell>22956</cell>
- <cell>0.96</cell>
+ <cell>0.75</cell>
 </row>
 <row>
  <cell>User I/O</cell>
@@ -197,7 +197,7 @@
 <row>
  <cell>Fabric Logic</cell>
  <cell>62</cell>
- <cell>113</cell>
+ <cell>65</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -217,7 +217,7 @@
 <row>
  <cell>Total Used</cell>
  <cell>170</cell>
- <cell>221</cell>
+ <cell>173</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -305,7 +305,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>116</cell>
+ <cell>68</cell>
  <cell>INT_NET</cell>
  <cell>Net   : NN_1</cell>
 </row>
@@ -336,7 +336,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>119</cell>
+ <cell>74</cell>
  <cell>INT_NET</cell>
  <cell>Net   : en_c</cell>
 </row>
@@ -346,7 +346,7 @@
  <cell>Driver: en_ibuf</cell>
 </row>
 <row>
- <cell>116</cell>
+ <cell>68</cell>
  <cell>INT_NET</cell>
  <cell>Net   : rst_c</cell>
 </row>
@@ -416,7 +416,7 @@
  <cell>Driver: aia_0_cry_0</cell>
 </row>
 <row>
- <cell>3</cell>
+ <cell>4</cell>
  <cell>INT_NET</cell>
  <cell>Net   : a[7]</cell>
 </row>
@@ -426,14 +426,14 @@
  <cell>Driver: REG_IN_A/Q[7]</cell>
 </row>
 <row>
- <cell>3</cell>
+ <cell>4</cell>
  <cell>INT_NET</cell>
- <cell>Net   : a[0]</cell>
+ <cell>Net   : ai[7]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: REG_IN_A/Q[0]</cell>
+ <cell>Driver: REG_IN_AI/Q[7]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -444,7 +444,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>119</cell>
+ <cell>74</cell>
  <cell>INT_NET</cell>
  <cell>Net   : en_c</cell>
 </row>
@@ -454,7 +454,7 @@
  <cell>Driver: en_ibuf</cell>
 </row>
 <row>
- <cell>116</cell>
+ <cell>68</cell>
  <cell>INT_NET</cell>
  <cell>Net   : rst_c</cell>
 </row>
@@ -524,7 +524,7 @@
  <cell>Driver: aia_0_cry_0</cell>
 </row>
 <row>
- <cell>3</cell>
+ <cell>4</cell>
  <cell>INT_NET</cell>
  <cell>Net   : a[7]</cell>
 </row>
@@ -534,14 +534,14 @@
  <cell>Driver: REG_IN_A/Q[7]</cell>
 </row>
 <row>
- <cell>3</cell>
+ <cell>4</cell>
  <cell>INT_NET</cell>
- <cell>Net   : a[0]</cell>
+ <cell>Net   : ai[7]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: REG_IN_A/Q[0]</cell>
+ <cell>Driver: REG_IN_AI/Q[7]</cell>
 </row>
 </table>
 </doc>

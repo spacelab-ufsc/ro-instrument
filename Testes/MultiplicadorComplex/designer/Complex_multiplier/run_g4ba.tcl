@@ -15,7 +15,7 @@ set_operating_conditions -name {slow_lv_lt}
 set_operating_conditions -name {slow_lv_ht}
 set_operating_conditions -name {fast_hv_lt}
 set_name Complex_multiplier
-set_workdir {/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier}
-set_filename    {/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/Complex_multiplier_ba}
+set_workdir {/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/designer/Complex_multiplier}
+set_filename    {/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/designer/Complex_multiplier/Complex_multiplier_ba}
 set_design_state post_layout
 set_language vhdl

@@ -1,6 +1,6 @@
 DESIGN=Complex_multiplier
-DESDIR=/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier
-TARGET_DIR=/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier
+DESDIR=/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/designer/Complex_multiplier
+TARGET_DIR=/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/designer/Complex_multiplier
 FAM=PolarFireSoC
 DIE=PA5SOC025T
 PACKAGE=fcvg484

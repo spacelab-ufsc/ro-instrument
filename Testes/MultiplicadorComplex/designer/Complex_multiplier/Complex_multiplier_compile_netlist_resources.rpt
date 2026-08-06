@@ -1,6 +1,6 @@
 Compile Report
 Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
-Date: Wed Aug  5 15:47:38 2026
+Date: Thu Aug  6 08:50:11 2026
 
 Device Selection
 +------------------------+--------------+
@@ -14,11 +14,11 @@ Device Selection
 +------------------------+--------------+
 
 Source Files
-+---------+-------------------------------------------------------------------------------------+
-| Topcell | Complex_multiplier                                                                  |
-| Format  | Verilog                                                                             |
-| Source  | /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm |
-+---------+-------------------------------------------------------------------------------------+
++---------+-------------------------------------------------------------------------------------------------+
+| Topcell | Complex_multiplier                                                                              |
+| Format  | Verilog                                                                                         |
+| Source  | /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm |
++---------+-------------------------------------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+----+
@@ -30,7 +30,7 @@ Resource Usage
 | Type                        | Used | Total | Percentage |
 +-----------------------------+------+-------+------------+
 | 4LUT                        | 170  | 22956 | 0.74       |
-| DFF                         | 221  | 22956 | 0.96       |
+| DFF                         | 173  | 22956 | 0.75       |
 | User I/O                    | 68   | 108   | 62.96      |
 | -- Single-ended I/O         | 68   | 108   | 62.96      |
 | -- Differential I/O Pairs   | 0    | 54    | 0.00       |
@@ -54,11 +54,11 @@ Detailed Logic Resource Usage
 +-----------------------+------+-----+
 | Type                  | 4LUT | DFF |
 +-----------------------+------+-----+
-| Fabric Logic          | 62   | 113 |
+| Fabric Logic          | 62   | 65  |
 | uSRAM Interface Logic | 0    | 0   |
 | LSRAM Interface Logic | 0    | 0   |
 | Math Interface Logic  | 108  | 108 |
-| Total Used            | 170  | 221 |
+| Total Used            | 170  | 173 |
 +-----------------------+------+-----+
 
 Detailed Carry Chains Resource Usage
@@ -91,7 +91,7 @@ Nets assigned to chip global resources
 +--------+---------+---------------------+
 | Fanout | Type    | Name                |
 +--------+---------+---------------------+
-| 116    | INT_NET | Net   : NN_1        |
+| 68     | INT_NET | Net   : NN_1        |
 |        |         | Driver: I_1/U0_RGB1 |
 |        |         | Source: NETLIST     |
 +--------+---------+---------------------+
@@ -106,9 +106,9 @@ High fanout nets
 +--------+---------+------------------------+
 | Fanout | Type    | Name                   |
 +--------+---------+------------------------+
-| 119    | INT_NET | Net   : en_c           |
+| 74     | INT_NET | Net   : en_c           |
 |        |         | Driver: en_ibuf        |
-| 116    | INT_NET | Net   : rst_c          |
+| 68     | INT_NET | Net   : rst_c          |
 |        |         | Driver: rst_ibuf       |
 | 12     | INT_NET | Net   : aai[7]         |
 |        |         | Driver: aai_0_cry_0    |
@@ -122,19 +122,19 @@ High fanout nets
 |        |         | Driver: b_imag_ibuf[7] |
 | 12     | INT_NET | Net   : aia[7]         |
 |        |         | Driver: aia_0_cry_0    |
-| 3      | INT_NET | Net   : a[7]           |
+| 4      | INT_NET | Net   : a[7]           |
 |        |         | Driver: REG_IN_A/Q[7]  |
-| 3      | INT_NET | Net   : a[0]           |
-|        |         | Driver: REG_IN_A/Q[0]  |
+| 4      | INT_NET | Net   : ai[7]          |
+|        |         | Driver: REG_IN_AI/Q[7] |
 +--------+---------+------------------------+
 
 High fanout nets (through buffer trees)
 +--------+---------+------------------------+
 | Fanout | Type    | Name                   |
 +--------+---------+------------------------+
-| 119    | INT_NET | Net   : en_c           |
+| 74     | INT_NET | Net   : en_c           |
 |        |         | Driver: en_ibuf        |
-| 116    | INT_NET | Net   : rst_c          |
+| 68     | INT_NET | Net   : rst_c          |
 |        |         | Driver: rst_ibuf       |
 | 12     | INT_NET | Net   : aai[7]         |
 |        |         | Driver: aai_0_cry_0    |
@@ -148,9 +148,9 @@ High fanout nets (through buffer trees)
 |        |         | Driver: b_imag_ibuf[7] |
 | 12     | INT_NET | Net   : aia[7]         |
 |        |         | Driver: aia_0_cry_0    |
-| 3      | INT_NET | Net   : a[7]           |
+| 4      | INT_NET | Net   : a[7]           |
 |        |         | Driver: REG_IN_A/Q[7]  |
-| 3      | INT_NET | Net   : a[0]           |
-|        |         | Driver: REG_IN_A/Q[0]  |
+| 4      | INT_NET | Net   : ai[7]          |
+|        |         | Driver: REG_IN_AI/Q[7] |
 +--------+---------+------------------------+
 

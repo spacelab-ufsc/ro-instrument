@@ -8,221 +8,173 @@
 
 # Family: PolarFireSoC , Die: MPFS025T , Package: FCVG484 , Speed grade: STD 
 
-# Date generated: Wed Aug  5 15:48:22 2026 
+# Date generated: Thu Aug  6 10:38:12 2026 
 
 
 #
 # I/O constraints
 #
 
-set_io a_imag[0] Y20
-set_io a_imag[1] AB20
-set_io a_imag[2] D19
-set_io a_imag[3] V16
-set_io a_imag[4] T17
-set_io a_imag[5] E19
-set_io a_imag[6] AA22
-set_io a_imag[7] R16
-set_io a_real[0] AA21
-set_io a_real[1] W21
-set_io a_real[2] AA20
-set_io a_real[3] C17
-set_io a_real[4] B17
-set_io a_real[5] V21
-set_io a_real[6] V22
+set_io a_imag[0] E19
+set_io a_imag[1] AB19
+set_io a_imag[2] W21
+set_io a_imag[3] AA20
+set_io a_imag[4] T16
+set_io a_imag[5] V16
+set_io a_imag[6] F16
+set_io a_imag[7] D18
+set_io a_real[0] AA22
+set_io a_real[1] Y21
+set_io a_real[2] V21
+set_io a_real[3] D19
+set_io a_real[4] W22
+set_io a_real[5] B17
+set_io a_real[6] AB21
 set_io a_real[7] V19
 set_io b_imag[0] W13
-set_io b_imag[1] AA12
-set_io b_imag[2] U15
-set_io b_imag[3] Y13
-set_io b_imag[4] U14
-set_io b_imag[5] W12
-set_io b_imag[6] T15
+set_io b_imag[1] V14
+set_io b_imag[2] T12
+set_io b_imag[3] T13
+set_io b_imag[4] T15
+set_io b_imag[5] AB12
+set_io b_imag[6] Y13
 set_io b_imag[7] Y14
-set_io b_real[0] T13
-set_io b_real[1] AB12
-set_io b_real[2] R12
-set_io b_real[3] V15
-set_io b_real[4] U13
-set_io b_real[5] U12
-set_io b_real[6] Y18
+set_io b_real[0] AA12
+set_io b_real[1] U15
+set_io b_real[2] U14
+set_io b_real[3] W14
+set_io b_real[4] V12
+set_io b_real[5] U13
+set_io b_real[6] V15
 set_io b_real[7] W18
 set_io clk E15
 set_io en U17
-set_io overflow AB15
-set_io p_imag[0] W14
-set_io p_imag[1] AA17
-set_io p_imag[2] AA15
-set_io p_imag[3] AA18
-set_io p_imag[4] AB13
-set_io p_imag[5] V12
-set_io p_imag[6] W16
-set_io p_imag[7] V14
-set_io p_imag[8] Y15
-set_io p_imag[9] AA16
-set_io p_imag[10] W17
-set_io p_imag[11] AB18
-set_io p_imag[12] AB14
-set_io p_imag[13] R15
-set_io p_imag[14] Y16
-set_io p_imag[15] Y19
-set_io p_real[0] T12
-set_io p_real[1] U18
-set_io p_real[2] D18
-set_io p_real[3] T16
-set_io p_real[4] W22
-set_io p_real[5] E18
-set_io p_real[6] AA13
-set_io p_real[7] F16
-set_io p_real[8] AB17
-set_io p_real[9] AB21
-set_io p_real[10] Y21
-set_io p_real[11] W19
-set_io p_real[12] V17
-set_io p_real[13] AB19
-set_io p_real[14] U19
-set_io p_real[15] R14
+set_io overflow AB20
+set_io p_imag[0] AA15
+set_io p_imag[1] W16
+set_io p_imag[2] T17
+set_io p_imag[3] E18
+set_io p_imag[4] R14
+set_io p_imag[5] V22
+set_io p_imag[6] AB17
+set_io p_imag[7] AA21
+set_io p_imag[8] W19
+set_io p_imag[9] U12
+set_io p_imag[10] V17
+set_io p_imag[11] R16
+set_io p_imag[12] R15
+set_io p_imag[13] U18
+set_io p_imag[14] U19
+set_io p_imag[15] Y20
+set_io p_real[0] C17
+set_io p_real[1] AA17
+set_io p_real[2] AA16
+set_io p_real[3] W17
+set_io p_real[4] Y15
+set_io p_real[5] W12
+set_io p_real[6] Y18
+set_io p_real[7] AB15
+set_io p_real[8] AB18
+set_io p_real[9] R12
+set_io p_real[10] AA13
+set_io p_real[11] AA18
+set_io p_real[12] AB14
+set_io p_real[13] Y19
+set_io p_real[14] Y16
+set_io p_real[15] AB13
 set_io rst V20
 
 #
 # Core cell constraints
 #
 
-set_location REG_K3/Q[10] 946 184
-set_location REG_OUT_R/Q[12] 960 181
-set_location REG_K2/Q[1] 936 181
-set_location REG_IN_AI/Q[7] 964 175
-set_location REG_IN_A/Q[2] 958 175
-set_location REG_K3/Q[12] 965 184
-set_location REG_OUT_R/Q[15] 963 181
-set_location REG_OUT_I/Q[4] 952 184
-set_location REG_K1/Q[1] 952 166
-set_location ov 966 183
-set_location REG_K3/Q[14] 967 184
-set_location REG_K2/Q[11] 932 181
-set_location REG_OUT_R/Q[6] 954 181
-set_location REG_K1/Q[11] 956 166
-set_location REG_OUT_I/Q[0] 948 184
-set_location REG_OUT_I/Q[2] 950 184
-set_location REG_OUT_I/Q[1] 949 184
-set_location REG_OUT_I/Q[12] 960 184
-set_location REG_K3/Q[2] 948 178
-set_location REG_OUT_R/Q[10] 958 181
-set_location REG_OUT_OV/Q[0] 966 184
-set_location REG_IN_BI/Q[2] 935 184
-set_location REG_K2/Q[10] 931 181
-set_location REG_OUT_I/Q[15] 963 184
-set_location REG_K1/Q[10] 949 166
-set_location REG_OUT_I/Q[8] 956 184
-set_location REG_IN_B/Q[3] 943 184
-set_location p_0_axb_0_i_0 942 180
-set_location REG_OUT_R/Q[8] 956 181
-set_location REG_OUT_R/Q[5] 953 181
-set_location REG_K2/Q[12] 968 181
-set_location REG_K1/Q[9] 950 166
-set_location REG_K1/Q[12] 968 175
-set_location REG_K2/Q[7] 930 181
-set_location of_p 966 180
-set_location REG_IN_A/Q[3] 951 175
-set_location REG_K2/Q[9] 929 181
-set_location REG_IN_BI/Q[0] 940 184
-set_location REG_IN_A/Q[4] 952 175
-set_location REG_OUT_R/Q[2] 950 181
-set_location REG_K2/Q[14] 965 181
-set_location ov_1 964 183
-set_location REG_K1/Q[14] 969 181
-set_location REG_IN_B/Q[7] 945 184
-set_location REG_K1/Q[6] 954 166
-set_location REG_K2/Q[0] 947 181
-set_location REG_IN_A/Q[1] 949 175
-set_location REG_OUT_I/Q[10] 958 184
-set_location REG_OUT_I/Q[5] 953 184
-set_location REG_K2/Q[4] 928 181
+set_location REG_OUT_R/Q[12] 960 184
+set_location REG_IN_AI/Q[7] 953 175
+set_location REG_IN_A/Q[2] 954 175
+set_location REG_OUT_R/Q[15] 963 184
+set_location REG_OUT_I/Q[4] 952 181
+set_location ov 956 174
+set_location REG_OUT_R/Q[6] 954 184
+set_location REG_OUT_I/Q[0] 948 181
+set_location REG_OUT_I/Q[2] 950 181
+set_location REG_OUT_I/Q[1] 949 181
+set_location REG_OUT_I/Q[12] 960 181
+set_location REG_OUT_R/Q[10] 958 184
+set_location REG_OUT_OV/Q[0] 956 175
+set_location REG_IN_BI/Q[2] 938 181
+set_location REG_OUT_I/Q[15] 963 181
+set_location REG_OUT_I/Q[8] 956 181
+set_location REG_IN_B/Q[3] 946 181
+set_location p_0_axb_0_i_0 957 174
+set_location REG_OUT_R/Q[8] 956 184
+set_location REG_OUT_R/Q[5] 953 184
+set_location of_p 964 183
+set_location REG_IN_A/Q[3] 939 175
+set_location REG_IN_BI/Q[0] 936 181
+set_location REG_IN_A/Q[4] 940 175
+set_location REG_OUT_R/Q[2] 950 184
+set_location ov_1 944 180
+set_location REG_IN_B/Q[7] 943 181
+set_location REG_IN_A/Q[1] 947 175
+set_location REG_OUT_I/Q[10] 958 181
+set_location REG_OUT_I/Q[5] 953 181
 set_location I_1 720 0
-set_location REG_IN_B/Q[2] 938 184
-set_location REG_IN_AI/Q[3] 970 175
-set_location REG_K2/Q[2] 943 181
-set_location of_k1 944 183
-set_location REG_IN_BI/Q[7] 944 184
-set_location REG_K1/Q[0] 948 181
-set_location REG_IN_AI/Q[6] 962 175
-set_location REG_OUT_R/Q[7] 955 181
-set_location REG_K3/Q[15] 969 184
-set_location REG_K2/Q[5] 938 181
-set_location REG_IN_AI/Q[5] 953 175
-set_location REG_K3/Q[13] 968 184
-set_location REG_IN_AI/Q[4] 960 175
-set_location REG_IN_B/Q[0] 936 184
-set_location REG_OUT_R/Q[9] 957 181
-set_location REG_K3/Q[8] 929 184
-set_location REG_OUT_R/Q[14] 962 181
-set_location REG_K1/Q[8] 948 166
-set_location REG_IN_B/Q[6] 947 184
-set_location REG_OUT_R/Q[3] 951 181
-set_location REG_IN_B/Q[1] 937 184
-set_location REG_IN_A/Q[5] 961 175
-set_location REG_OUT_R/Q[4] 952 181
-set_location REG_IN_AI/Q[1] 957 175
-set_location REG_K3/Q[0] 959 178
-set_location REG_K3/Q[5] 944 181
-set_location REG_K1/Q[5] 953 166
-set_location REG_K1/Q[3] 957 166
-set_location REG_OUT_I/Q[9] 957 184
-set_location REG_IN_B/Q[4] 927 184
-set_location REG_K2/Q[15] 964 181
-set_location REG_K1/Q[4] 959 175
-set_location REG_IN_A/Q[6] 954 175
-set_location REG_OUT_I/Q[14] 962 184
-set_location REG_K1/Q[15] 970 181
-set_location REG_K2/Q[13] 971 181
-set_location REG_OUT_R/Q[11] 959 181
-set_location REG_K2/Q[3] 937 181
-set_location REG_K1/Q[13] 966 181
-set_location REG_OUT_I/Q[6] 954 184
-set_location REG_K3/Q[4] 970 184
-set_location REG_K3/Q[9] 967 181
-set_location REG_IN_BI/Q[3] 939 184
-set_location REG_K1/Q[7] 955 166
-set_location REG_K1/Q[2] 959 166
-set_location REG_OUT_R/Q[1] 949 181
-set_location REG_IN_AI/Q[2] 950 175
-set_location REG_OUT_I/Q[11] 959 184
-set_location REG_IN_BI/Q[6] 942 184
-set_location REG_K3/Q[6] 941 181
-set_location REG_OUT_R/Q[13] 961 181
-set_location REG_OUT_R/Q[0] 942 181
-set_location REG_IN_BI/Q[5] 926 184
-set_location REG_IN_A/Q[0] 948 175
-set_location REG_K3/Q[3] 946 181
-set_location REG_IN_BI/Q[4] 925 184
-set_location REG_K2/Q[8] 925 181
+set_location REG_IN_B/Q[2] 947 181
+set_location REG_IN_AI/Q[3] 949 175
+set_location REG_IN_BI/Q[7] 944 181
+set_location REG_IN_AI/Q[6] 942 175
+set_location REG_OUT_R/Q[7] 955 184
+set_location REG_IN_AI/Q[5] 951 175
+set_location REG_IN_AI/Q[4] 950 175
+set_location REG_IN_B/Q[0] 942 181
+set_location REG_OUT_R/Q[9] 957 184
+set_location REG_OUT_R/Q[14] 962 184
+set_location REG_IN_B/Q[6] 939 184
+set_location REG_OUT_R/Q[3] 951 184
+set_location REG_IN_B/Q[1] 938 184
+set_location ov_0 964 180
+set_location REG_IN_A/Q[5] 941 175
+set_location REG_OUT_R/Q[4] 952 184
+set_location REG_IN_AI/Q[1] 937 175
+set_location REG_OUT_I/Q[9] 957 181
+set_location REG_IN_B/Q[4] 945 181
+set_location REG_IN_A/Q[6] 952 175
+set_location REG_OUT_I/Q[14] 962 181
+set_location REG_OUT_R/Q[11] 959 184
+set_location REG_OUT_I/Q[6] 954 181
+set_location REG_IN_BI/Q[3] 939 181
+set_location REG_OUT_R/Q[1] 949 184
+set_location REG_IN_AI/Q[2] 948 175
+set_location REG_OUT_I/Q[11] 959 181
+set_location REG_IN_BI/Q[6] 937 184
+set_location REG_OUT_R/Q[13] 961 184
+set_location REG_OUT_R/Q[0] 957 175
+set_location REG_IN_BI/Q[5] 936 184
+set_location REG_IN_A/Q[0] 959 175
+set_location REG_IN_BI/Q[4] 940 181
 set_location I_1/U0_RGB1 726 177
-set_location REG_IN_AI/Q[0] 956 175
-set_location REG_OUT_I/Q[7] 955 184
-set_location REG_K3/Q[11] 933 184
-set_location REG_IN_A/Q[7] 955 175
-set_location REG_K3/Q[7] 957 178
-set_location REG_IN_BI/Q[1] 924 184
-set_location REG_OUT_I/Q[3] 951 184
-set_location REG_K3/Q[1] 945 181
-set_location REG_OUT_I/Q[13] 961 184
-set_location ov_1_0 966 174
-set_location REG_K2/Q[6] 924 181
-set_location REG_IN_B/Q[5] 941 184
+set_location REG_IN_AI/Q[0] 936 175
+set_location REG_OUT_I/Q[7] 955 181
+set_location REG_IN_A/Q[7] 958 175
+set_location ov_2 944 174
+set_location REG_IN_BI/Q[1] 937 181
+set_location REG_OUT_I/Q[3] 951 181
+set_location REG_OUT_I/Q[13] 961 181
+set_location REG_IN_B/Q[5] 941 181
 set_location k1_mulonly_0[15:0]/MACC_PHYS_INST 948 161
 set_location k3_mulonly_0[15:0]/MACC_PHYS_INST 948 188
 set_location k2_mulonly_0[15:0]/MACC_PHYS_INST 912 188
-set_location p_0_cry_0 948 180
-set_location pi_0_cry_0 948 183
-set_location bbi_0_cry_0 936 183
-set_location aia_0_cry_0 956 174
-set_location aai_0_cry_0 948 174
+set_location p_0_cry_0 948 183
+set_location pi_0_cry_0 948 180
+set_location bbi_0_cry_0 936 180
+set_location aia_0_cry_0 946 174
+set_location aai_0_cry_0 936 174
 set_location I_1/U0_RGB1_RGB0 726 150
-set_location aai_0_cry_0_CC_0 948 176
-set_location aia_0_cry_0_CC_0 956 176
-set_location aia_0_cry_0_CC_1 960 176
-set_location bbi_0_cry_0_CC_0 936 185
-set_location pi_0_cry_0_CC_0 948 185
-set_location pi_0_cry_0_CC_1 960 185
-set_location p_0_cry_0_CC_0 948 182
-set_location p_0_cry_0_CC_1 960 182
+set_location aai_0_cry_0_CC_0 936 176
+set_location aia_0_cry_0_CC_0 946 176
+set_location aia_0_cry_0_CC_1 948 176
+set_location bbi_0_cry_0_CC_0 936 182
+set_location pi_0_cry_0_CC_0 948 182
+set_location pi_0_cry_0_CC_1 960 182
+set_location p_0_cry_0_CC_0 948 185
+set_location p_0_cry_0_CC_1 960 185

@@ -20,7 +20,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 1 seconds
 
 Placer V5.0 - 2025.1.0
-Design: Complex_multiplier              Started: Wed Aug  5 15:47:44 2026
+Design: Complex_multiplier              Started: Thu Aug  6 10:37:39 2026
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -36,22 +36,22 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: Complex_multiplier
-Finished: Wed Aug  5 15:48:13 2026
-Total CPU Time:     00:00:27            Total Elapsed Time: 00:00:29
-Total Memory Usage: 1137.9 Mbytes
+Finished: Thu Aug  6 10:38:04 2026
+Total CPU Time:     00:00:23            Total Elapsed Time: 00:00:25
+Total Memory Usage: 1141.9 Mbytes
                         o - o - o - o - o - o
 
 
 Router
-Design: Complex_multiplier              Started: Wed Aug  5 15:48:17 2026
+Design: Complex_multiplier              Started: Thu Aug  6 10:38:08 2026
 
 
 Router completed successfully.
 
 Design: Complex_multiplier
-Finished: Wed Aug  5 15:48:21 2026
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:04
-Total Memory Usage: 754.5 Mbytes
+Finished: Thu Aug  6 10:38:12 2026
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 770.5 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
@@ -59,8 +59,8 @@ Resource Usage
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
 | 4LUT                      | 170  | 22956 | 0.74       |
-| DFF                       | 221  | 22956 | 0.96       |
-| Logic Element             | 224  | 22956 | 0.98       |
+| DFF                       | 173  | 22956 | 0.75       |
+| Logic Element             | 180  | 22956 | 0.78       |
 | I/Os using I/O Registers  | 0    | 108   | 0.00       |
 | I/O Register Flip-Flops   | 0    | 324   | 0.00       |
 | -- Input  I/O Flip-Flops  | 0    | 108   | 0.00       |

@@ -24,12 +24,6 @@ end Complex_multiplier;
 
 architecture DEF_ARCH of Complex_multiplier is 
 
-  component INV_BA
-    port( A : in    std_logic := 'U';
-          Y : out   std_logic
-        );
-  end component;
-
   component SLE_IP_EN
     port( EN   : in    std_logic := 'U';
           IPEN : out   std_logic
@@ -50,6 +44,12 @@ architecture DEF_ARCH of Complex_multiplier is
     port( Y   : out   std_logic;
           E   : in    std_logic := 'U';
           YIN : in    std_logic := 'U'
+        );
+  end component;
+
+  component INV_BA
+    port( A : in    std_logic := 'U';
+          Y : out   std_logic
         );
   end component;
 
@@ -126,17 +126,6 @@ architecture DEF_ARCH of Complex_multiplier is
           P   : out   std_logic;
           Y3  : out   std_logic;
           Y3A : out   std_logic
-        );
-  end component;
-
-  component CFG4
-    generic (INIT:std_logic_vector(15 downto 0) := x"0000");
-
-    port( A : in    std_logic := 'U';
-          B : in    std_logic := 'U';
-          C : in    std_logic := 'U';
-          D : in    std_logic := 'U';
-          Y : out   std_logic
         );
   end component;
 
@@ -223,6 +212,17 @@ architecture DEF_ARCH of Complex_multiplier is
         );
   end component;
 
+  component CFG4
+    generic (INIT:std_logic_vector(15 downto 0) := x"0000");
+
+    port( A : in    std_logic := 'U';
+          B : in    std_logic := 'U';
+          C : in    std_logic := 'U';
+          D : in    std_logic := 'U';
+          Y : out   std_logic
+        );
+  end component;
+
   component GB
     port( A  : in    std_logic := 'U';
           EN : in    std_logic := 'U';
@@ -264,60 +264,45 @@ architecture DEF_ARCH of Complex_multiplier is
         \bi[4]\, \bi[3]\, \bi[2]\, \bi[1]\, \bi[0]\, \aai[7]\, 
         \aai[6]\, \aai[5]\, \aai[4]\, \aai[3]\, \aai[2]\, 
         \aai[1]\, \bbi[7]\, \bbi[6]\, \bbi[5]\, \bbi[4]\, 
-        \bbi[3]\, \bbi[2]\, \bbi[1]\, \k1[15]\, \k1[14]\, 
-        \k1[13]\, \k1[12]\, \k1[11]\, \k1[10]\, \k1[9]\, \k1[8]\, 
-        \k1[7]\, \k1[6]\, \k1[5]\, \k1[4]\, \k1[3]\, \k1[2]\, 
-        \k1[1]\, \k1[0]\, \k1r[15]\, \k1r[14]\, \k1r[13]\, 
-        \k1r[12]\, \k1r[11]\, \k1r[10]\, \k1r[9]\, \k1r[8]\, 
-        \k1r[7]\, \k1r[6]\, \k1r[5]\, \k1r[4]\, \k1r[3]\, 
-        \k1r[2]\, \k1r[1]\, \k2[15]\, \k2[14]\, \k2[13]\, 
-        \k2[12]\, \k2[11]\, \k2[10]\, \k2[9]\, \k2[8]\, \k2[7]\, 
-        \k2[6]\, \k2[5]\, \k2[4]\, \k2[3]\, \k2[2]\, \k2[1]\, 
-        \k2[0]\, \k2r[15]\, \k2r[14]\, \k2r[13]\, \k2r[12]\, 
-        \k2r[11]\, \k2r[10]\, \k2r[9]\, \k2r[8]\, \k2r[7]\, 
-        \k2r[6]\, \k2r[5]\, \k2r[4]\, \k2r[3]\, \k2r[2]\, 
-        \k2r[1]\, \k2r[0]\, \k3[15]\, \k3[14]\, \k3[13]\, 
-        \k3[12]\, \k3[11]\, \k3[10]\, \k3[9]\, \k3[8]\, \k3[7]\, 
-        \k3[6]\, \k3[5]\, \k3[4]\, \k3[3]\, \k3[2]\, \k3[1]\, 
-        \k3[0]\, \k3r[15]\, \k3r[14]\, \k3r[13]\, \k3r[12]\, 
-        \k3r[11]\, \k3r[10]\, \k3r[9]\, \k3r[8]\, \k3r[7]\, 
-        \k3r[6]\, \k3r[5]\, \k3r[4]\, \k3r[3]\, \k3r[2]\, 
-        \k3r[1]\, \k3r[0]\, \pi[15]\, \pi[14]\, \pi[13]\, 
-        \pi[12]\, \pi[11]\, \pi[10]\, \pi[9]\, \pi[8]\, \pi[7]\, 
-        \pi[6]\, \pi[5]\, \pi[4]\, \pi[3]\, \pi[2]\, \pi[1]\, 
-        \a_real_c[7]\, \a_real_c[6]\, \a_real_c[5]\, 
-        \a_real_c[4]\, \a_real_c[3]\, \a_real_c[2]\, 
-        \a_real_c[1]\, \a_real_c[0]\, \a_imag_c[7]\, 
-        \a_imag_c[6]\, \a_imag_c[5]\, \a_imag_c[4]\, 
-        \a_imag_c[3]\, \a_imag_c[2]\, \a_imag_c[1]\, 
-        \a_imag_c[0]\, \b_real_c[7]\, \b_real_c[6]\, 
-        \b_real_c[5]\, \b_real_c[4]\, \b_real_c[3]\, 
-        \b_real_c[2]\, \b_real_c[1]\, \b_real_c[0]\, 
-        \b_imag_c[7]\, \b_imag_c[6]\, \b_imag_c[5]\, 
-        \b_imag_c[4]\, \b_imag_c[3]\, \b_imag_c[2]\, 
-        \b_imag_c[1]\, \b_imag_c[0]\, \p_real_c[15]\, 
-        \p_real_c[14]\, \p_real_c[13]\, \p_real_c[12]\, 
-        \p_real_c[11]\, \p_real_c[10]\, \p_real_c[9]\, 
-        \p_real_c[8]\, \p_real_c[7]\, \p_real_c[6]\, 
-        \p_real_c[5]\, \p_real_c[4]\, \p_real_c[3]\, 
-        \p_real_c[2]\, \p_real_c[1]\, \p_real_c[0]\, 
-        \p_imag_c[15]\, \p_imag_c[14]\, \p_imag_c[13]\, 
-        \p_imag_c[12]\, \p_imag_c[11]\, \p_imag_c[10]\, 
-        \p_imag_c[9]\, \p_imag_c[8]\, \p_imag_c[7]\, 
-        \p_imag_c[6]\, \p_imag_c[5]\, \p_imag_c[4]\, 
-        \p_imag_c[3]\, \p_imag_c[2]\, \p_imag_c[1]\, 
-        \p_imag_c[0]\, \aia[7]\, \aia[6]\, \aia[5]\, \aia[4]\, 
-        \aia[3]\, \aia[2]\, \aia[1]\, \p[15]\, \p[14]\, \p[13]\, 
-        \p[12]\, \p[11]\, \p[10]\, \p[9]\, \p[8]\, \p[7]\, \p[6]\, 
-        \p[5]\, \p[4]\, \p[3]\, \p[2]\, \p[1]\, \I_1/U0_Y\, p_0, 
-        ov_Z, of_p_Z, of_k1_Z, clk_ibuf_Z, en_c, rst_c, 
-        overflow_c, aia_0_cry_0_Z, aia_0_cry_1_Z, aia_0_cry_2_Z, 
-        aia_0_cry_3_Z, aia_0_cry_4_Z, aia_0_cry_5_Z, 
-        aia_0_cry_6_Z, bbi_0_cry_0_Z, bbi_0_cry_1_Z, 
-        bbi_0_cry_2_Z, bbi_0_cry_3_Z, bbi_0_cry_4_Z, 
-        bbi_0_cry_5_Z, bbi_0_cry_6_Z, aai_0_cry_0_Z, 
-        aai_0_cry_1_Z, aai_0_cry_2_Z, aai_0_cry_3_Z, 
-        aai_0_cry_4_Z, aai_0_cry_5_Z, aai_0_cry_6_Z, p_0_cry_0_Z, 
+        \bbi[3]\, \bbi[2]\, \bbi[1]\, \k1r[15]\, \k1r[14]\, 
+        \k1r[13]\, \k1r[12]\, \k1r[11]\, \k1r[10]\, \k1r[9]\, 
+        \k1r[8]\, \k1r[7]\, \k1r[6]\, \k1r[5]\, \k1r[4]\, 
+        \k1r[3]\, \k1r[2]\, \k1r[1]\, \k2r[15]\, \k2r[14]\, 
+        \k2r[13]\, \k2r[12]\, \k2r[11]\, \k2r[10]\, \k2r[9]\, 
+        \k2r[8]\, \k2r[7]\, \k2r[6]\, \k2r[5]\, \k2r[4]\, 
+        \k2r[3]\, \k2r[2]\, \k2r[1]\, \k2r[0]\, \k3r[15]\, 
+        \k3r[14]\, \k3r[13]\, \k3r[12]\, \k3r[11]\, \k3r[10]\, 
+        \k3r[9]\, \k3r[8]\, \k3r[7]\, \k3r[6]\, \k3r[5]\, 
+        \k3r[4]\, \k3r[3]\, \k3r[2]\, \k3r[1]\, \k3r[0]\, 
+        \pi[15]\, \pi[14]\, \pi[13]\, \pi[12]\, \pi[11]\, 
+        \pi[10]\, \pi[9]\, \pi[8]\, \pi[7]\, \pi[6]\, \pi[5]\, 
+        \pi[4]\, \pi[3]\, \pi[2]\, \pi[1]\, \a_real_c[7]\, 
+        \a_real_c[6]\, \a_real_c[5]\, \a_real_c[4]\, 
+        \a_real_c[3]\, \a_real_c[2]\, \a_real_c[1]\, 
+        \a_real_c[0]\, \a_imag_c[7]\, \a_imag_c[6]\, 
+        \a_imag_c[5]\, \a_imag_c[4]\, \a_imag_c[3]\, 
+        \a_imag_c[2]\, \a_imag_c[1]\, \a_imag_c[0]\, 
+        \b_real_c[7]\, \b_real_c[6]\, \b_real_c[5]\, 
+        \b_real_c[4]\, \b_real_c[3]\, \b_real_c[2]\, 
+        \b_real_c[1]\, \b_real_c[0]\, \b_imag_c[7]\, 
+        \b_imag_c[6]\, \b_imag_c[5]\, \b_imag_c[4]\, 
+        \b_imag_c[3]\, \b_imag_c[2]\, \b_imag_c[1]\, 
+        \b_imag_c[0]\, \p_real_c[15]\, \p_real_c[14]\, 
+        \p_real_c[13]\, \p_real_c[12]\, \p_real_c[11]\, 
+        \p_real_c[10]\, \p_real_c[9]\, \p_real_c[8]\, 
+        \p_real_c[7]\, \p_real_c[6]\, \p_real_c[5]\, 
+        \p_real_c[4]\, \p_real_c[3]\, \p_real_c[2]\, 
+        \p_real_c[1]\, \p_real_c[0]\, \p_imag_c[15]\, 
+        \p_imag_c[14]\, \p_imag_c[13]\, \p_imag_c[12]\, 
+        \p_imag_c[11]\, \p_imag_c[10]\, \p_imag_c[9]\, 
+        \p_imag_c[8]\, \p_imag_c[7]\, \p_imag_c[6]\, 
+        \p_imag_c[5]\, \p_imag_c[4]\, \p_imag_c[3]\, 
+        \p_imag_c[2]\, \p_imag_c[1]\, \p_imag_c[0]\, \p[15]\, 
+        \p[14]\, \p[13]\, \p[12]\, \p[11]\, \p[10]\, \p[9]\, 
+        \p[8]\, \p[7]\, \p[6]\, \p[5]\, \p[4]\, \p[3]\, \p[2]\, 
+        \p[1]\, \aia[7]\, \aia[6]\, \aia[5]\, \aia[4]\, \aia[3]\, 
+        \aia[2]\, \aia[1]\, \I_1/U0_Y\, p_0, ov_Z, of_p_Z, 
+        clk_ibuf_Z, en_c, rst_c, overflow_c, p_0_cry_0_Z, 
         p_0_cry_1_Z, p_0_cry_2_Z, p_0_cry_3_Z, p_0_cry_4_Z, 
         p_0_cry_5_Z, p_0_cry_6_Z, p_0_cry_7_Z, p_0_cry_8_Z, 
         p_0_cry_9_Z, p_0_cry_10_Z, p_0_cry_11_Z, p_0_cry_12_Z, 
@@ -325,8 +310,15 @@ architecture DEF_ARCH of Complex_multiplier is
         pi_0_cry_2_Z, pi_0_cry_3_Z, pi_0_cry_4_Z, pi_0_cry_5_Z, 
         pi_0_cry_6_Z, pi_0_cry_7_Z, pi_0_cry_8_Z, pi_0_cry_9_Z, 
         pi_0_cry_10_Z, pi_0_cry_11_Z, pi_0_cry_12_Z, 
-        pi_0_cry_13_Z, pi_0_cry_14_Z, ov_1_Z, p_0_axb_0_i, 
-        ov_1_0_Z, bbi_0_cry_0_Y, aai_0_cry_0_Y, pi_0_cry_0_Y, 
+        pi_0_cry_13_Z, pi_0_cry_14_Z, aia_0_cry_0_Z, 
+        aia_0_cry_1_Z, aia_0_cry_2_Z, aia_0_cry_3_Z, 
+        aia_0_cry_4_Z, aia_0_cry_5_Z, aia_0_cry_6_Z, 
+        bbi_0_cry_0_Z, bbi_0_cry_1_Z, bbi_0_cry_2_Z, 
+        bbi_0_cry_3_Z, bbi_0_cry_4_Z, bbi_0_cry_5_Z, 
+        bbi_0_cry_6_Z, aai_0_cry_0_Z, aai_0_cry_1_Z, 
+        aai_0_cry_2_Z, aai_0_cry_3_Z, aai_0_cry_4_Z, 
+        aai_0_cry_5_Z, aai_0_cry_6_Z, ov_0_Z, ov_1_Z, ov_2_Z, 
+        p_0_axb_0_i, pi_0_cry_0_Y, bbi_0_cry_0_Y, aai_0_cry_0_Y, 
         \p_real_obuf[8]/DOUT\, \p_real_obuf[8]/EOUT\, 
         \p_real_obuf[6]/DOUT\, \p_real_obuf[6]/EOUT\, 
         \p_imag_obuf[10]/DOUT\, \p_imag_obuf[10]/EOUT\, 
@@ -801,23 +793,7 @@ architecture DEF_ARCH of Complex_multiplier is
         \AFLSDF_INV_221\, \AFLSDF_INV_222\, \AFLSDF_INV_223\, 
         \AFLSDF_INV_224\, \AFLSDF_INV_225\, \AFLSDF_INV_226\, 
         \AFLSDF_INV_227\, \AFLSDF_INV_228\, \AFLSDF_INV_229\, 
-        \AFLSDF_INV_230\, \AFLSDF_INV_231\, \AFLSDF_INV_232\, 
-        \AFLSDF_INV_233\, \AFLSDF_INV_234\, \AFLSDF_INV_235\, 
-        \AFLSDF_INV_236\, \AFLSDF_INV_237\, \AFLSDF_INV_238\, 
-        \AFLSDF_INV_239\, \AFLSDF_INV_240\, \AFLSDF_INV_241\, 
-        \AFLSDF_INV_242\, \AFLSDF_INV_243\, \AFLSDF_INV_244\, 
-        \AFLSDF_INV_245\, \AFLSDF_INV_246\, \AFLSDF_INV_247\, 
-        \AFLSDF_INV_248\, \AFLSDF_INV_249\, \AFLSDF_INV_250\, 
-        \AFLSDF_INV_251\, \AFLSDF_INV_252\, \AFLSDF_INV_253\, 
-        \AFLSDF_INV_254\, \AFLSDF_INV_255\, \AFLSDF_INV_256\, 
-        \AFLSDF_INV_257\, \AFLSDF_INV_258\, \AFLSDF_INV_259\, 
-        \AFLSDF_INV_260\, \AFLSDF_INV_261\, \AFLSDF_INV_262\, 
-        \AFLSDF_INV_263\, \AFLSDF_INV_264\, \AFLSDF_INV_265\, 
-        \AFLSDF_INV_266\, \AFLSDF_INV_267\, \AFLSDF_INV_268\, 
-        \AFLSDF_INV_269\, \AFLSDF_INV_270\, \AFLSDF_INV_271\, 
-        \AFLSDF_INV_272\, \AFLSDF_INV_273\, \AFLSDF_INV_274\, 
-        \AFLSDF_INV_275\, \AFLSDF_INV_276\, \AFLSDF_INV_277\, 
-        \AFLSDF_INV_278\, \AFLSDF_INV_279\ : std_logic;
+        \AFLSDF_INV_230\, \AFLSDF_INV_231\ : std_logic;
     signal GND_power_net1 : std_logic;
     signal VCC_power_net1 : std_logic;
     signal nc228, nc203, nc265, nc216, nc194, nc151, nc23, nc175, 
@@ -876,14 +852,6 @@ begin
     AFLSDF_VCC <= VCC_power_net1;
     ADLIB_VCC <= VCC_power_net1;
 
-    AFLSDF_INV_235 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[17]\, 
-        Y => \AFLSDF_INV_235\);
-    
-    AFLSDF_INV_268 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[0]\, 
-        Y => \AFLSDF_INV_268\);
-    
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_28\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
@@ -903,11 +871,10 @@ begin
         \b_real_ibuf[5]/YIN\);
     
     AFLSDF_INV_161 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[19]\, 
-        Y => \AFLSDF_INV_161\);
+      port map(A => rst_c, Y => \AFLSDF_INV_161\);
     
     AFLSDF_INV_64 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[26]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[0]\, 
         Y => \AFLSDF_INV_64\);
     
     \p_imag_obuf[9]/U_IOPAD\ : IOPAD_TRI
@@ -929,7 +896,7 @@ begin
     
     \REG_OUT_R/Q[6]\ : SLE
       port map(D => \p[6]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_11\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_5\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[6]\);
     
     \a_imag_ibuf[6]/U_IOIN\ : IOIN_IB_E
@@ -973,7 +940,7 @@ begin
     
     \REG_OUT_R/Q[4]\ : SLE
       port map(D => \p[4]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_122\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_95\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[4]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_20\ : CFG4_IP_ABCD
@@ -985,7 +952,7 @@ begin
         OPEN, IPC => OPEN, IPD => OPEN);
     
     AFLSDF_INV_53 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[43]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[11]\, 
         Y => \AFLSDF_INV_53\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_22\ : CFG4_IP_ABCD
@@ -996,16 +963,8 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[11]\, IPB => 
         OPEN, IPC => OPEN, IPD => OPEN);
     
-    AFLSDF_INV_255 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[13]\, 
-        Y => \AFLSDF_INV_255\);
-    
     \b_imag_ibuf[6]/U_IOPAD\ : IOPAD_IN
       port map(PAD => b_imag(6), Y => \b_imag_ibuf[6]/YIN\);
-    
-    AFLSDF_INV_242 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[8]\, 
-        Y => \AFLSDF_INV_242\);
     
     \a_real_ibuf[2]/U_IOIN\ : IOIN_IB_E
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -1018,12 +977,12 @@ begin
     
     \REG_OUT_R/Q[13]\ : SLE
       port map(D => \p[13]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_205\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_163\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[13]\);
     
     \REG_OUT_I/Q[13]\ : SLE
       port map(D => \pi[13]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_277\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_230\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[13]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_34\ : CFG4_IP_ABCD
@@ -1038,13 +997,9 @@ begin
       port map(PAD => p_imag(14), D => \p_imag_obuf[14]/DOUT\, E
          => \p_imag_obuf[14]/EOUT\);
     
-    AFLSDF_INV_240 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[10]\, 
-        Y => \AFLSDF_INV_240\);
-    
     \REG_IN_AI/Q[5]\ : SLE
       port map(D => \a_imag_c[5]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_110\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_86\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \ai[5]\);
     
     \en_ibuf/U_IOPAD\ : IOPAD_IN
@@ -1054,27 +1009,23 @@ begin
       port map(PAD => p_imag(10), D => \p_imag_obuf[10]/DOUT\, E
          => \p_imag_obuf[10]/EOUT\);
     
-    \REG_K3/Q[11]\ : SLE
-      port map(D => \k3[11]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_270\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[11]\);
-    
     AFLSDF_INV_55 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[40]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[9]\, 
         Y => \AFLSDF_INV_55\);
     
     AFLSDF_INV_207 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_207\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[17]\, 
+        Y => \AFLSDF_INV_207\);
     
     AFLSDF_INV_20 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_20\);
     
     AFLSDF_INV_162 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[17]\, 
-        Y => \AFLSDF_INV_162\);
+      port map(A => rst_c, Y => \AFLSDF_INV_162\);
     
     AFLSDF_INV_140 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_140\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[17]\, 
+        Y => \AFLSDF_INV_140\);
     
     \clk_ibuf/U_IOIN\ : IOIN_IB_E
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -1087,11 +1038,12 @@ begin
     
     \REG_IN_B/Q[5]\ : SLE
       port map(D => \b_real_c[5]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_279\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_231\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \b[5]\);
     
     AFLSDF_INV_47 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_47\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[20]\, 
+        Y => \AFLSDF_INV_47\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_13\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -1108,17 +1060,8 @@ begin
         NET_CC_CONFIG131, P => NET_CC_CONFIG128, Y3 => 
         NET_CC_CONFIG129, Y3A => NET_CC_CONFIG130);
     
-    AFLSDF_INV_271 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_271\);
-    
     AFLSDF_INV_9 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_9\);
-    
-    ov_1_0 : CFG4
-      generic map(INIT => x"35AC")
-
-      port map(A => \ai[7]\, B => \a[7]\, C => \aia[7]\, D => 
-        \aai[7]\, Y => ov_1_0_Z);
     
     \clk_ibuf/U_IOPAD\ : IOPAD_IN
       port map(PAD => clk, Y => \clk_ibuf/YIN\);
@@ -1137,12 +1080,12 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_76 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[9]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[6]\, 
         Y => \AFLSDF_INV_76\);
     
     \REG_IN_BI/Q[0]\ : SLE
       port map(D => \b_imag_c[0]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_34\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_19\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \bi[0]\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_5\ : SLE_IP_EN
@@ -1162,25 +1105,24 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[41]\);
     
     AFLSDF_INV_168 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[9]\, 
-        Y => \AFLSDF_INV_168\);
+      port map(A => \AFLSDF_INV_168\, Y => NN_1);
     
     \I_1/U0_RGB1_RGB0\ : RGB
       port map(A => \I_1/U0_Y\, EN => ADLIB_VCC, Y => 
-        \AFLSDF_INV_273\);
+        \AFLSDF_INV_227\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_32\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_225 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[32]\, 
-        Y => \AFLSDF_INV_225\);
+      port map(A => rst_c, Y => \AFLSDF_INV_225\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_4\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_49 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_49\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[17]\, 
+        Y => \AFLSDF_INV_49\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_22\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -1238,19 +1180,12 @@ begin
          => \p_real_obuf[2]/EOUT\);
     
     AFLSDF_INV_203 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_203\);
-    
-    \REG_K1/Q[9]\ : SLE
-      port map(D => \k1[9]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_29\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[9]\);
-    
-    AFLSDF_INV_236 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[16]\, 
-        Y => \AFLSDF_INV_236\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[3]\, 
+        Y => \AFLSDF_INV_203\);
     
     AFLSDF_INV_106 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_106\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[44]\, 
+        Y => \AFLSDF_INV_106\);
     
     \p_real_obuf[1]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_real(1), D => \p_real_obuf[1]/DOUT\, E
@@ -1260,7 +1195,7 @@ begin
       port map(PAD => a_imag(2), Y => \a_imag_ibuf[2]/YIN\);
     
     AFLSDF_INV_52 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[44]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[13]\, 
         Y => \AFLSDF_INV_52\);
     
     p_0_cry_4 : ARI1_CC
@@ -1274,16 +1209,16 @@ begin
     
     \REG_OUT_R/Q[12]\ : SLE
       port map(D => \p[12]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_1\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_0\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[12]\);
     
     \REG_OUT_I/Q[12]\ : SLE
       port map(D => \pi[12]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_16\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_9\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[12]\);
     
     AFLSDF_INV_179 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[16]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[35]\, 
         Y => \AFLSDF_INV_179\);
     
     AFLSDF_INV_16 : INV_BA
@@ -1307,7 +1242,8 @@ begin
         \p_real_obuf[0]/DOUT\, EOUT => \p_real_obuf[0]/EOUT\);
     
     AFLSDF_INV_104 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_104\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[47]\, 
+        Y => \AFLSDF_INV_104\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_12\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -1318,39 +1254,30 @@ begin
         IPC => OPEN, IPD => OPEN);
     
     AFLSDF_INV_208 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_208\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[16]\, 
+        Y => \AFLSDF_INV_208\);
     
     AFLSDF_INV_215 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[47]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[9]\, 
         Y => \AFLSDF_INV_215\);
     
     AFLSDF_INV_185 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[10]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[26]\, 
         Y => \AFLSDF_INV_185\);
     
     AFLSDF_INV_66 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[23]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[16]\, 
         Y => \AFLSDF_INV_66\);
     
     AFLSDF_INV_101 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[2]\, 
-        Y => \AFLSDF_INV_101\);
+      port map(A => rst_c, Y => \AFLSDF_INV_101\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_18\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
-    \REG_K1/Q[13]\ : SLE
-      port map(D => \k1[13]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_138\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[13]\);
-    
     \p_real_obuf[10]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_real(10), D => \p_real_obuf[10]/DOUT\, E
          => \p_real_obuf[10]/EOUT\);
-    
-    AFLSDF_INV_256 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[12]\, 
-        Y => \AFLSDF_INV_256\);
     
     \a_real_ibuf[0]/U_IOIN\ : IOIN_IB_E
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -1361,14 +1288,9 @@ begin
       port map(Y => \a_real_c[0]\, E => ADLIB_GND, YIN => 
         \a_real_ibuf[0]/YIN\);
     
-    \REG_K3/Q[9]\ : SLE
-      port map(D => \k3[9]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_196\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[9]\);
-    
     \REG_IN_AI/Q[1]\ : SLE
       port map(D => \a_imag_c[1]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_123\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_96\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \ai[1]\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_4\ : CFG4_IP_ABCD
@@ -1381,33 +1303,27 @@ begin
     
     \REG_IN_BI/Q[4]\ : SLE
       port map(D => \b_imag_c[4]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_210\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_167\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \bi[4]\);
     
     AFLSDF_INV_199 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_199\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[7]\, 
+        Y => \AFLSDF_INV_199\);
     
     AFLSDF_INV_44 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_44\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[25]\, 
+        Y => \AFLSDF_INV_44\);
     
     AFLSDF_INV_97 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[6]\, 
-        Y => \AFLSDF_INV_97\);
+      port map(A => rst_c, Y => \AFLSDF_INV_97\);
     
     AFLSDF_INV_51 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[46]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[14]\, 
         Y => \AFLSDF_INV_51\);
     
     AFLSDF_INV_38 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_38\);
-    
-    AFLSDF_INV_262 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[6]\, 
-        Y => \AFLSDF_INV_262\);
-    
-    AFLSDF_INV_241 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[9]\, 
-        Y => \AFLSDF_INV_241\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[34]\, 
+        Y => \AFLSDF_INV_38\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_17\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -1430,12 +1346,9 @@ begin
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_12\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
-    AFLSDF_INV_260 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[8]\, 
-        Y => \AFLSDF_INV_260\);
-    
     AFLSDF_INV_135 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_135\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[4]\, 
+        Y => \AFLSDF_INV_135\);
     
     \p_real_obuf[12]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_real(12), D => \p_real_obuf[12]/DOUT\, E
@@ -1445,28 +1358,26 @@ begin
       port map(CI => ADLIB_VCC, CO => CI_TO_CO160, P(0) => 
         ADLIB_VCC, P(1) => ADLIB_VCC, P(2) => ADLIB_VCC, P(3) => 
         ADLIB_VCC, P(4) => ADLIB_VCC, P(5) => ADLIB_VCC, P(6) => 
-        ADLIB_VCC, P(7) => ADLIB_GND, P(8) => NET_CC_CONFIG161, 
-        P(9) => NET_CC_CONFIG165, P(10) => NET_CC_CONFIG169, 
-        P(11) => NET_CC_CONFIG173, Y3(0) => ADLIB_VCC, Y3(1) => 
-        ADLIB_VCC, Y3(2) => ADLIB_VCC, Y3(3) => ADLIB_VCC, Y3(4)
-         => ADLIB_VCC, Y3(5) => ADLIB_VCC, Y3(6) => ADLIB_VCC, 
-        Y3(7) => ADLIB_GND, Y3(8) => NET_CC_CONFIG162, Y3(9) => 
-        NET_CC_CONFIG166, Y3(10) => NET_CC_CONFIG170, Y3(11) => 
-        NET_CC_CONFIG174, Y3A(0) => ADLIB_VCC, Y3A(1) => 
-        ADLIB_VCC, Y3A(2) => ADLIB_VCC, Y3A(3) => ADLIB_VCC, 
-        Y3A(4) => ADLIB_VCC, Y3A(5) => ADLIB_VCC, Y3A(6) => 
-        ADLIB_VCC, Y3A(7) => ADLIB_GND, Y3A(8) => 
-        NET_CC_CONFIG163, Y3A(9) => NET_CC_CONFIG167, Y3A(10) => 
-        NET_CC_CONFIG171, Y3A(11) => NET_CC_CONFIG175, CC(0) => 
-        nc228, CC(1) => nc203, CC(2) => nc265, CC(3) => nc216, 
-        CC(4) => nc194, CC(5) => nc151, CC(6) => nc23, CC(7) => 
-        nc175, CC(8) => NET_CC_CONFIG164, CC(9) => 
-        NET_CC_CONFIG168, CC(10) => NET_CC_CONFIG172, CC(11) => 
-        NET_CC_CONFIG176);
+        ADLIB_VCC, P(7) => ADLIB_VCC, P(8) => ADLIB_VCC, P(9) => 
+        ADLIB_GND, P(10) => NET_CC_CONFIG161, P(11) => 
+        NET_CC_CONFIG165, Y3(0) => ADLIB_VCC, Y3(1) => ADLIB_VCC, 
+        Y3(2) => ADLIB_VCC, Y3(3) => ADLIB_VCC, Y3(4) => 
+        ADLIB_VCC, Y3(5) => ADLIB_VCC, Y3(6) => ADLIB_VCC, Y3(7)
+         => ADLIB_VCC, Y3(8) => ADLIB_VCC, Y3(9) => ADLIB_GND, 
+        Y3(10) => NET_CC_CONFIG162, Y3(11) => NET_CC_CONFIG166, 
+        Y3A(0) => ADLIB_VCC, Y3A(1) => ADLIB_VCC, Y3A(2) => 
+        ADLIB_VCC, Y3A(3) => ADLIB_VCC, Y3A(4) => ADLIB_VCC, 
+        Y3A(5) => ADLIB_VCC, Y3A(6) => ADLIB_VCC, Y3A(7) => 
+        ADLIB_VCC, Y3A(8) => ADLIB_VCC, Y3A(9) => ADLIB_GND, 
+        Y3A(10) => NET_CC_CONFIG163, Y3A(11) => NET_CC_CONFIG167, 
+        CC(0) => nc228, CC(1) => nc203, CC(2) => nc265, CC(3) => 
+        nc216, CC(4) => nc194, CC(5) => nc151, CC(6) => nc23, 
+        CC(7) => nc175, CC(8) => nc250, CC(9) => nc58, CC(10) => 
+        NET_CC_CONFIG164, CC(11) => NET_CC_CONFIG168);
     
     \REG_IN_AI/Q[7]\ : SLE
       port map(D => \a_imag_c[7]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_3\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_1\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \ai[7]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_11\ : SLE_IP_EN
@@ -1482,21 +1393,13 @@ begin
         NET_CC_CONFIG37);
     
     AFLSDF_INV_99 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[4]\, 
-        Y => \AFLSDF_INV_99\);
-    
-    \REG_K1/Q[7]\ : SLE
-      port map(D => \k1[7]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_198\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[7]\);
+      port map(A => rst_c, Y => \AFLSDF_INV_99\);
     
     AFLSDF_INV_160 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[20]\, 
-        Y => \AFLSDF_INV_160\);
+      port map(A => rst_c, Y => \AFLSDF_INV_160\);
     
     AFLSDF_INV_102 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[1]\, 
-        Y => \AFLSDF_INV_102\);
+      port map(A => rst_c, Y => \AFLSDF_INV_102\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_5\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -1521,7 +1424,7 @@ begin
     
     \REG_IN_A/Q[0]\ : SLE
       port map(D => \a_real_c[0]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_208\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_166\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \a[0]\);
     
     \a_real_ibuf[6]/U_IOPAD\ : IOPAD_IN
@@ -1531,26 +1434,18 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_33 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_33\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[41]\, 
+        Y => \AFLSDF_INV_33\);
     
     AFLSDF_INV_226 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[31]\, 
-        Y => \AFLSDF_INV_226\);
+      port map(A => rst_c, Y => \AFLSDF_INV_226\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_3\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_155 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[28]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[2]\, 
         Y => \AFLSDF_INV_155\);
-    
-    AFLSDF_INV_274 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_274\);
-    
-    \REG_K3/Q[10]\ : SLE
-      port map(D => \k3[10]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_0\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[10]\);
     
     p_0_cry_0_CC_1 : CC_CONFIG
       port map(CI => CI_TO_CO, CO => OPEN, P(0) => 
@@ -1571,74 +1466,74 @@ begin
         ADLIB_VCC, Y3A(10) => ADLIB_VCC, Y3A(11) => ADLIB_VCC, 
         CC(0) => NET_CC_CONFIG50, CC(1) => NET_CC_CONFIG54, CC(2)
          => NET_CC_CONFIG58, CC(3) => NET_CC_CONFIG62, CC(4) => 
-        nc250, CC(5) => nc58, CC(6) => nc379, CC(7) => nc116, 
-        CC(8) => nc74, CC(9) => nc133, CC(10) => nc238, CC(11)
-         => nc167);
+        nc379, CC(5) => nc116, CC(6) => nc74, CC(7) => nc133, 
+        CC(8) => nc238, CC(9) => nc167, CC(10) => nc84, CC(11)
+         => nc39);
     
     \p_imag_obuf[8]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_imag(8), D => \p_imag_obuf[8]/DOUT\, E
          => \p_imag_obuf[8]/EOUT\);
     
     AFLSDF_INV_70 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[17]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[12]\, 
         Y => \AFLSDF_INV_70\);
     
     AFLSDF_INV_149 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[37]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[8]\, 
         Y => \AFLSDF_INV_149\);
     
     \a_imag_ibuf[6]/U_IOPAD\ : IOPAD_IN
       port map(PAD => a_imag(6), Y => \a_imag_ibuf[6]/YIN\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/INST_MACC_IP\ : MACC_IP
-      port map(OVFL_CARRYOUT => OPEN, P(47) => nc84, P(46) => 
-        nc39, P(45) => nc72, P(44) => nc256, P(43) => nc212, 
-        P(42) => nc205, P(41) => nc82, P(40) => nc367, P(39) => 
-        nc145, P(38) => nc181, P(37) => nc160, P(36) => nc57, 
-        P(35) => nc349, P(34) => nc156, P(33) => nc280, P(32) => 
-        nc125, P(31) => nc211, P(30) => nc73, P(29) => nc107, 
-        P(28) => nc329, P(27) => nc66, P(26) => nc83, P(25) => 
-        nc9, P(24) => nc252, P(23) => nc171, P(22) => nc54, P(21)
-         => nc286, P(20) => nc307, P(19) => nc135, P(18) => nc41, 
-        P(17) => nc100, P(16) => nc270, P(15) => \k2[15]\, P(14)
-         => \k2[14]\, P(13) => \k2[13]\, P(12) => \k2[12]\, P(11)
-         => \k2[11]\, P(10) => \k2[10]\, P(9) => \k2[9]\, P(8)
-         => \k2[8]\, P(7) => \k2[7]\, P(6) => \k2[6]\, P(5) => 
-        \k2[5]\, P(4) => \k2[4]\, P(3) => \k2[3]\, P(2) => 
-        \k2[2]\, P(1) => \k2[1]\, P(0) => \k2[0]\, A_ADDR_D_SH
-         => OPEN, B2_EN_SH => OPEN, BCOUT(17) => nc339, BCOUT(16)
-         => nc52, BCOUT(15) => nc251, BCOUT(14) => nc186, 
-        BCOUT(13) => nc29, BCOUT(12) => nc269, BCOUT(11) => nc118, 
-        BCOUT(10) => nc60, BCOUT(9) => nc141, BCOUT(8) => nc311, 
-        BCOUT(7) => nc276, BCOUT(6) => nc193, BCOUT(5) => nc214, 
-        BCOUT(4) => nc298, BCOUT(3) => nc282, BCOUT(2) => nc240, 
-        BCOUT(1) => nc45, BCOUT(0) => nc53, B1(17) => nc121, 
-        B1(16) => nc176, B1(15) => nc360, B1(14) => nc220, B1(13)
-         => nc158, B1(12) => nc281, B1(11) => nc209, B1(10) => 
-        nc246, B1(9) => nc368, B1(8) => nc351, B1(7) => nc162, 
-        B1(6) => nc11, B1(5) => nc272, B1(4) => nc131, B1(3) => 
-        nc364, B1(2) => nc254, B1(1) => nc267, B1(0) => nc96, 
-        A_ADDR_D => ADLIB_VCC, CARRYIN => ADLIB_GND, CLK => NN_1, 
-        AL_N => \AFLSDF_INV_214\, A(17) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[17]\, A(16) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[16]\, A(15) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[15]\, A(14) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[14]\, A(13) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[13]\, A(12) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[12]\, A(11) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[11]\, A(10) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[10]\, A(9) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[9]\, A(8) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[8]\, A(7) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[7]\, A(6) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[6]\, A(5) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[5]\, A(4) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[4]\, A(3) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[3]\, A(2) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[2]\, A(1) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[1]\, A(0) => 
-        \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[0]\, A_EN => 
-        en_c, A_SRST_N => ADLIB_VCC, B(17) => 
+      port map(OVFL_CARRYOUT => OPEN, P(47) => nc72, P(46) => 
+        nc256, P(45) => nc212, P(44) => nc205, P(43) => nc82, 
+        P(42) => nc367, P(41) => nc145, P(40) => nc181, P(39) => 
+        nc160, P(38) => nc57, P(37) => nc349, P(36) => nc156, 
+        P(35) => nc280, P(34) => nc125, P(33) => nc211, P(32) => 
+        nc73, P(31) => nc107, P(30) => nc329, P(29) => nc66, 
+        P(28) => nc83, P(27) => nc9, P(26) => nc252, P(25) => 
+        nc171, P(24) => nc54, P(23) => nc286, P(22) => nc307, 
+        P(21) => nc135, P(20) => nc41, P(19) => nc100, P(18) => 
+        nc270, P(17) => nc339, P(16) => nc52, P(15) => \k2r[15]\, 
+        P(14) => \k2r[14]\, P(13) => \k2r[13]\, P(12) => 
+        \k2r[12]\, P(11) => \k2r[11]\, P(10) => \k2r[10]\, P(9)
+         => \k2r[9]\, P(8) => \k2r[8]\, P(7) => \k2r[7]\, P(6)
+         => \k2r[6]\, P(5) => \k2r[5]\, P(4) => \k2r[4]\, P(3)
+         => \k2r[3]\, P(2) => \k2r[2]\, P(1) => \k2r[1]\, P(0)
+         => \k2r[0]\, A_ADDR_D_SH => OPEN, B2_EN_SH => OPEN, 
+        BCOUT(17) => nc251, BCOUT(16) => nc186, BCOUT(15) => nc29, 
+        BCOUT(14) => nc269, BCOUT(13) => nc118, BCOUT(12) => nc60, 
+        BCOUT(11) => nc141, BCOUT(10) => nc311, BCOUT(9) => nc276, 
+        BCOUT(8) => nc193, BCOUT(7) => nc214, BCOUT(6) => nc298, 
+        BCOUT(5) => nc282, BCOUT(4) => nc240, BCOUT(3) => nc45, 
+        BCOUT(2) => nc53, BCOUT(1) => nc121, BCOUT(0) => nc176, 
+        B1(17) => nc360, B1(16) => nc220, B1(15) => nc158, B1(14)
+         => nc281, B1(13) => nc209, B1(12) => nc246, B1(11) => 
+        nc368, B1(10) => nc351, B1(9) => nc162, B1(8) => nc11, 
+        B1(7) => nc272, B1(6) => nc131, B1(5) => nc364, B1(4) => 
+        nc254, B1(3) => nc267, B1(2) => nc96, B1(1) => nc79, 
+        B1(0) => nc226, A_ADDR_D => ADLIB_VCC, CARRYIN => 
+        ADLIB_GND, CLK => NN_1, AL_N => \AFLSDF_INV_170\, A(17)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[17]\, A(16)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[16]\, A(15)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[15]\, A(14)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[14]\, A(13)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[13]\, A(12)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[12]\, A(11)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[11]\, A(10)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[10]\, A(9)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[9]\, A(8)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[8]\, A(7)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[7]\, A(6)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[6]\, A(5)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[5]\, A(4)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[4]\, A(3)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[3]\, A(2)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[2]\, A(1)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[1]\, A(0)
+         => \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[0]\, A_EN
+         => en_c, A_SRST_N => ADLIB_VCC, B(17) => 
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/B_net[17]\, B(16) => 
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/B_net[16]\, B(15) => 
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/B_net[15]\, B(14) => 
@@ -1657,43 +1552,43 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/B_net[2]\, B(1) => 
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/B_net[1]\, B(0) => 
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/B_net[0]\, B_EN => 
-        en_c, B_SRST_N => ADLIB_VCC, C(47) => \AFLSDF_INV_215\, 
-        C(46) => \AFLSDF_INV_216\, C(45) => ADLIB_GND, C(44) => 
-        \AFLSDF_INV_217\, C(43) => \AFLSDF_INV_218\, C(42) => 
-        ADLIB_GND, C(41) => \AFLSDF_INV_219\, C(40) => 
-        \AFLSDF_INV_220\, C(39) => ADLIB_GND, C(38) => 
-        \AFLSDF_INV_221\, C(37) => \AFLSDF_INV_222\, C(36) => 
-        ADLIB_GND, C(35) => \AFLSDF_INV_223\, C(34) => 
-        \AFLSDF_INV_224\, C(33) => ADLIB_GND, C(32) => 
-        \AFLSDF_INV_225\, C(31) => \AFLSDF_INV_226\, C(30) => 
-        ADLIB_GND, C(29) => \AFLSDF_INV_227\, C(28) => 
-        \AFLSDF_INV_228\, C(27) => ADLIB_GND, C(26) => 
-        \AFLSDF_INV_229\, C(25) => \AFLSDF_INV_230\, C(24) => 
-        ADLIB_GND, C(23) => \AFLSDF_INV_231\, C(22) => 
-        \AFLSDF_INV_232\, C(21) => ADLIB_GND, C(20) => 
-        \AFLSDF_INV_233\, C(19) => \AFLSDF_INV_234\, C(18) => 
-        ADLIB_GND, C(17) => \AFLSDF_INV_235\, C(16) => 
-        \AFLSDF_INV_236\, C(15) => ADLIB_GND, C(14) => 
-        \AFLSDF_INV_237\, C(13) => \AFLSDF_INV_238\, C(12) => 
-        ADLIB_GND, C(11) => \AFLSDF_INV_239\, C(10) => 
-        \AFLSDF_INV_240\, C(9) => \AFLSDF_INV_241\, C(8) => 
-        \AFLSDF_INV_242\, C(7) => \AFLSDF_INV_243\, C(6) => 
-        \AFLSDF_INV_244\, C(5) => \AFLSDF_INV_245\, C(4) => 
-        \AFLSDF_INV_246\, C(3) => \AFLSDF_INV_247\, C(2) => 
-        \AFLSDF_INV_248\, C(1) => \AFLSDF_INV_249\, C(0) => 
-        \AFLSDF_INV_250\, C_EN => ADLIB_VCC, C_SRST_N => 
+        en_c, B_SRST_N => ADLIB_VCC, C(47) => \AFLSDF_INV_171\, 
+        C(46) => \AFLSDF_INV_172\, C(45) => ADLIB_GND, C(44) => 
+        \AFLSDF_INV_173\, C(43) => \AFLSDF_INV_174\, C(42) => 
+        ADLIB_GND, C(41) => \AFLSDF_INV_175\, C(40) => 
+        \AFLSDF_INV_176\, C(39) => ADLIB_GND, C(38) => 
+        \AFLSDF_INV_177\, C(37) => \AFLSDF_INV_178\, C(36) => 
+        ADLIB_GND, C(35) => \AFLSDF_INV_179\, C(34) => 
+        \AFLSDF_INV_180\, C(33) => ADLIB_GND, C(32) => 
+        \AFLSDF_INV_181\, C(31) => \AFLSDF_INV_182\, C(30) => 
+        ADLIB_GND, C(29) => \AFLSDF_INV_183\, C(28) => 
+        \AFLSDF_INV_184\, C(27) => ADLIB_GND, C(26) => 
+        \AFLSDF_INV_185\, C(25) => \AFLSDF_INV_186\, C(24) => 
+        ADLIB_GND, C(23) => \AFLSDF_INV_187\, C(22) => 
+        \AFLSDF_INV_188\, C(21) => ADLIB_GND, C(20) => 
+        \AFLSDF_INV_189\, C(19) => \AFLSDF_INV_190\, C(18) => 
+        ADLIB_GND, C(17) => \AFLSDF_INV_191\, C(16) => 
+        \AFLSDF_INV_192\, C(15) => ADLIB_GND, C(14) => 
+        \AFLSDF_INV_193\, C(13) => \AFLSDF_INV_194\, C(12) => 
+        ADLIB_GND, C(11) => \AFLSDF_INV_195\, C(10) => 
+        \AFLSDF_INV_196\, C(9) => \AFLSDF_INV_197\, C(8) => 
+        \AFLSDF_INV_198\, C(7) => \AFLSDF_INV_199\, C(6) => 
+        \AFLSDF_INV_200\, C(5) => \AFLSDF_INV_201\, C(4) => 
+        \AFLSDF_INV_202\, C(3) => \AFLSDF_INV_203\, C(2) => 
+        \AFLSDF_INV_204\, C(1) => \AFLSDF_INV_205\, C(0) => 
+        \AFLSDF_INV_206\, C_EN => ADLIB_VCC, C_SRST_N => 
         ADLIB_VCC, C_ARST_N => ADLIB_VCC, D(17) => 
-        \AFLSDF_INV_251\, D(16) => \AFLSDF_INV_252\, D(15) => 
-        \AFLSDF_INV_253\, D(14) => \AFLSDF_INV_254\, D(13) => 
-        \AFLSDF_INV_255\, D(12) => \AFLSDF_INV_256\, D(11) => 
-        \AFLSDF_INV_257\, D(10) => \AFLSDF_INV_258\, D(9) => 
-        \AFLSDF_INV_259\, D(8) => \AFLSDF_INV_260\, D(7) => 
-        \AFLSDF_INV_261\, D(6) => \AFLSDF_INV_262\, D(5) => 
-        \AFLSDF_INV_263\, D(4) => \AFLSDF_INV_264\, D(3) => 
-        \AFLSDF_INV_265\, D(2) => \AFLSDF_INV_266\, D(1) => 
-        \AFLSDF_INV_267\, D(0) => \AFLSDF_INV_268\, D_EN => 
+        \AFLSDF_INV_207\, D(16) => \AFLSDF_INV_208\, D(15) => 
+        \AFLSDF_INV_209\, D(14) => \AFLSDF_INV_210\, D(13) => 
+        \AFLSDF_INV_211\, D(12) => \AFLSDF_INV_212\, D(11) => 
+        \AFLSDF_INV_213\, D(10) => \AFLSDF_INV_214\, D(9) => 
+        \AFLSDF_INV_215\, D(8) => \AFLSDF_INV_216\, D(7) => 
+        \AFLSDF_INV_217\, D(6) => \AFLSDF_INV_218\, D(5) => 
+        \AFLSDF_INV_219\, D(4) => \AFLSDF_INV_220\, D(3) => 
+        \AFLSDF_INV_221\, D(2) => \AFLSDF_INV_222\, D(1) => 
+        \AFLSDF_INV_223\, D(0) => \AFLSDF_INV_224\, D_EN => 
         ADLIB_VCC, D_SRST_N => ADLIB_VCC, D_ARST_N => ADLIB_VCC, 
-        P_EN => ADLIB_VCC, P_SRST_N => ADLIB_VCC, ARSHFT17 => 
+        P_EN => en_c, P_SRST_N => ADLIB_VCC, ARSHFT17 => 
         ADLIB_GND, ARSHFT17_EN => ADLIB_VCC, ARSHFT17_SL_N => 
         ADLIB_VCC, SUB => ADLIB_GND, SUB_EN => ADLIB_VCC, 
         SUB_SL_N => ADLIB_VCC, PASUB => ADLIB_GND, PASUB_EN => 
@@ -1710,7 +1605,7 @@ begin
         ADLIB_VCC, B2_EN => ADLIB_VCC, SIMD => ADLIB_GND, DOTP
          => ADLIB_GND, OVFL_CARRYOUT_SEL => ADLIB_GND, A_BYPASS
          => ADLIB_GND, B_BYPASS => ADLIB_GND, C_BYPASS => 
-        ADLIB_VCC, D_BYPASS => ADLIB_VCC, P_BYPASS => ADLIB_VCC, 
+        ADLIB_VCC, D_BYPASS => ADLIB_VCC, P_BYPASS => ADLIB_GND, 
         SUB_BYPASS => ADLIB_VCC, SUB_SD_N => ADLIB_VCC, SUB_AD_N
          => ADLIB_VCC, ARSHFT17_BYPASS => ADLIB_VCC, 
         ARSHFT17_SD_N => ADLIB_GND, ARSHFT17_AD_N => ADLIB_VCC, 
@@ -1739,26 +1634,28 @@ begin
         ADLIB_GND, CDIN(6) => ADLIB_GND, CDIN(5) => ADLIB_GND, 
         CDIN(4) => ADLIB_GND, CDIN(3) => ADLIB_GND, CDIN(2) => 
         ADLIB_GND, CDIN(1) => ADLIB_GND, CDIN(0) => ADLIB_GND, 
-        CDOUT(47) => nc79, CDOUT(46) => nc226, CDOUT(45) => nc146, 
-        CDOUT(44) => nc230, CDOUT(43) => nc89, CDOUT(42) => nc119, 
-        CDOUT(41) => nc48, CDOUT(40) => nc271, CDOUT(39) => nc213, 
-        CDOUT(38) => nc366, CDOUT(37) => nc300, CDOUT(36) => 
-        nc126, CDOUT(35) => nc195, CDOUT(34) => nc188, CDOUT(33)
-         => nc242, CDOUT(32) => nc15, CDOUT(31) => nc308, 
-        CDOUT(30) => nc236, CDOUT(29) => nc102, CDOUT(28) => 
-        nc381, CDOUT(27) => nc304, CDOUT(26) => nc3, CDOUT(25)
-         => nc207, CDOUT(24) => nc47, CDOUT(23) => nc90, 
-        CDOUT(22) => nc284, CDOUT(21) => nc222, CDOUT(20) => 
-        nc159, CDOUT(19) => nc136, CDOUT(18) => nc241, CDOUT(17)
-         => nc253, CDOUT(16) => nc178, CDOUT(15) => nc306, 
-        CDOUT(14) => nc215, CDOUT(13) => nc59, CDOUT(12) => nc362, 
-        CDOUT(11) => nc221, CDOUT(10) => nc371, CDOUT(9) => nc232, 
-        CDOUT(8) => nc274, CDOUT(7) => nc18, CDOUT(6) => nc44, 
-        CDOUT(5) => nc117, CDOUT(4) => nc189, CDOUT(3) => nc164, 
-        CDOUT(2) => nc148, CDOUT(1) => nc42, CDOUT(0) => nc231);
+        CDOUT(47) => nc146, CDOUT(46) => nc230, CDOUT(45) => nc89, 
+        CDOUT(44) => nc119, CDOUT(43) => nc48, CDOUT(42) => nc271, 
+        CDOUT(41) => nc213, CDOUT(40) => nc366, CDOUT(39) => 
+        nc300, CDOUT(38) => nc126, CDOUT(37) => nc195, CDOUT(36)
+         => nc188, CDOUT(35) => nc242, CDOUT(34) => nc15, 
+        CDOUT(33) => nc308, CDOUT(32) => nc236, CDOUT(31) => 
+        nc102, CDOUT(30) => nc381, CDOUT(29) => nc304, CDOUT(28)
+         => nc3, CDOUT(27) => nc207, CDOUT(26) => nc47, CDOUT(25)
+         => nc90, CDOUT(24) => nc284, CDOUT(23) => nc222, 
+        CDOUT(22) => nc159, CDOUT(21) => nc136, CDOUT(20) => 
+        nc241, CDOUT(19) => nc253, CDOUT(18) => nc178, CDOUT(17)
+         => nc306, CDOUT(16) => nc215, CDOUT(15) => nc59, 
+        CDOUT(14) => nc362, CDOUT(13) => nc221, CDOUT(12) => 
+        nc371, CDOUT(11) => nc232, CDOUT(10) => nc274, CDOUT(9)
+         => nc18, CDOUT(8) => nc44, CDOUT(7) => nc117, CDOUT(6)
+         => nc189, CDOUT(5) => nc164, CDOUT(4) => nc148, CDOUT(3)
+         => nc42, CDOUT(2) => nc231, CDOUT(1) => nc191, CDOUT(0)
+         => nc255);
     
     AFLSDF_INV_108 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_108\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[41]\, 
+        Y => \AFLSDF_INV_108\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_26\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -1772,11 +1669,6 @@ begin
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[7]\, IPC => 
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[16]\, IPD => 
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[17]\);
-    
-    \REG_K2/Q[4]\ : SLE
-      port map(D => \k2[4]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_45\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[4]\);
     
     \p_imag_obuf[7]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_imag(7), D => \p_imag_obuf[7]/DOUT\, E
@@ -1804,7 +1696,8 @@ begin
         \p_imag_obuf[2]/DOUT\, EOUT => \p_imag_obuf[2]/EOUT\);
     
     AFLSDF_INV_35 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_35\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[38]\, 
+        Y => \AFLSDF_INV_35\);
     
     p_0_cry_12 : ARI1_CC
       generic map(INIT => x"5AA55")
@@ -1844,7 +1737,7 @@ begin
         \b_imag_ibuf[5]/YIN\);
     
     AFLSDF_INV_216 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[46]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[8]\, 
         Y => \AFLSDF_INV_216\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_13\ : SLE_IP_EN
@@ -1866,8 +1759,7 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_94 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[9]\, 
-        Y => \AFLSDF_INV_94\);
+      port map(A => rst_c, Y => \AFLSDF_INV_94\);
     
     \p_imag_obuf[8]/U_IOTRI\ : IOTRI_OB_EB
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -1901,16 +1793,12 @@ begin
         OPEN, IPC => OPEN, IPD => OPEN);
     
     AFLSDF_INV_60 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[32]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[4]\, 
         Y => \AFLSDF_INV_60\);
     
     AFLSDF_INV_125 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_125\);
-    
-    \REG_K1/Q[1]\ : SLE
-      port map(D => \k1[1]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_8\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[1]\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[16]\, 
+        Y => \AFLSDF_INV_125\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_34\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -1941,12 +1829,12 @@ begin
     
     \REG_OUT_R/Q[10]\ : SLE
       port map(D => \p[10]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_18\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_10\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[10]\);
     
     \REG_OUT_I/Q[10]\ : SLE
       port map(D => \pi[10]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_43\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_24\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[10]\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_24\ : SLE_IP_EN
@@ -1983,25 +1871,17 @@ begin
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_31\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
-    \REG_K1/Q[11]\ : SLE
-      port map(D => \k1[11]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_12\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[11]\);
-    
     AFLSDF_INV_46 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_46\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[22]\, 
+        Y => \AFLSDF_INV_46\);
     
     AFLSDF_INV_183 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[12]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[29]\, 
         Y => \AFLSDF_INV_183\);
-    
-    AFLSDF_INV_261 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[7]\, 
-        Y => \AFLSDF_INV_261\);
     
     \REG_IN_B/Q[7]\ : SLE
       port map(D => \b_real_c[7]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_39\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_22\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \b[7]\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_0\ : SLE_IP_EN
@@ -2018,10 +1898,12 @@ begin
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[32]\);
     
     AFLSDF_INV_32 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_32\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[43]\, 
+        Y => \AFLSDF_INV_32\);
     
     AFLSDF_INV_202 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_202\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[4]\, 
+        Y => \AFLSDF_INV_202\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_5\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -2039,20 +1921,10 @@ begin
     AFLSDF_INV_5 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_5\);
     
-    \REG_K2/Q[2]\ : SLE
-      port map(D => \k2[2]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_48\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[2]\);
-    
     \REG_IN_AI/Q[0]\ : SLE
       port map(D => \a_imag_c[0]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_213\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_169\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \ai[0]\);
-    
-    \REG_K3/Q[5]\ : SLE
-      port map(D => \k3[5]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_125\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[5]\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_17\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -2064,18 +1936,16 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[19]\, IPD => 
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[20]\);
     
-    AFLSDF_INV_244 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[6]\, 
-        Y => \AFLSDF_INV_244\);
-    
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_16\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_200 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_200\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[6]\, 
+        Y => \AFLSDF_INV_200\);
     
     AFLSDF_INV_115 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_115\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[31]\, 
+        Y => \AFLSDF_INV_115\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_18\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -2105,8 +1975,7 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_100 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[3]\, 
-        Y => \AFLSDF_INV_100\);
+      port map(A => rst_c, Y => \AFLSDF_INV_100\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_31\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -2124,33 +1993,36 @@ begin
       port map(PAD => b_real(1), Y => \b_real_ibuf[1]/YIN\);
     
     AFLSDF_INV_133 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_133\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[6]\, 
+        Y => \AFLSDF_INV_133\);
     
     aia_0_cry_0_CC_1 : CC_CONFIG
       port map(CI => CI_TO_CO160, CO => OPEN, P(0) => 
-        NET_CC_CONFIG177, P(1) => NET_CC_CONFIG181, P(2) => 
-        NET_CC_CONFIG185, P(3) => NET_CC_CONFIG189, P(4) => 
-        ADLIB_VCC, P(5) => ADLIB_VCC, P(6) => ADLIB_VCC, P(7) => 
-        ADLIB_VCC, P(8) => ADLIB_VCC, P(9) => ADLIB_VCC, P(10)
-         => ADLIB_VCC, P(11) => ADLIB_VCC, Y3(0) => 
-        NET_CC_CONFIG178, Y3(1) => NET_CC_CONFIG182, Y3(2) => 
-        NET_CC_CONFIG186, Y3(3) => NET_CC_CONFIG190, Y3(4) => 
-        ADLIB_VCC, Y3(5) => ADLIB_VCC, Y3(6) => ADLIB_VCC, Y3(7)
-         => ADLIB_VCC, Y3(8) => ADLIB_VCC, Y3(9) => ADLIB_VCC, 
-        Y3(10) => ADLIB_VCC, Y3(11) => ADLIB_VCC, Y3A(0) => 
-        NET_CC_CONFIG179, Y3A(1) => NET_CC_CONFIG183, Y3A(2) => 
-        NET_CC_CONFIG187, Y3A(3) => NET_CC_CONFIG191, Y3A(4) => 
-        ADLIB_VCC, Y3A(5) => ADLIB_VCC, Y3A(6) => ADLIB_VCC, 
-        Y3A(7) => ADLIB_VCC, Y3A(8) => ADLIB_VCC, Y3A(9) => 
-        ADLIB_VCC, Y3A(10) => ADLIB_VCC, Y3A(11) => ADLIB_VCC, 
-        CC(0) => NET_CC_CONFIG180, CC(1) => NET_CC_CONFIG184, 
-        CC(2) => NET_CC_CONFIG188, CC(3) => NET_CC_CONFIG192, 
-        CC(4) => nc191, CC(5) => nc255, CC(6) => nc283, CC(7) => 
-        nc363, CC(8) => nc341, CC(9) => nc317, CC(10) => nc290, 
-        CC(11) => nc17);
+        NET_CC_CONFIG169, P(1) => NET_CC_CONFIG173, P(2) => 
+        NET_CC_CONFIG177, P(3) => NET_CC_CONFIG181, P(4) => 
+        NET_CC_CONFIG185, P(5) => NET_CC_CONFIG189, P(6) => 
+        ADLIB_VCC, P(7) => ADLIB_VCC, P(8) => ADLIB_VCC, P(9) => 
+        ADLIB_VCC, P(10) => ADLIB_VCC, P(11) => ADLIB_VCC, Y3(0)
+         => NET_CC_CONFIG170, Y3(1) => NET_CC_CONFIG174, Y3(2)
+         => NET_CC_CONFIG178, Y3(3) => NET_CC_CONFIG182, Y3(4)
+         => NET_CC_CONFIG186, Y3(5) => NET_CC_CONFIG190, Y3(6)
+         => ADLIB_VCC, Y3(7) => ADLIB_VCC, Y3(8) => ADLIB_VCC, 
+        Y3(9) => ADLIB_VCC, Y3(10) => ADLIB_VCC, Y3(11) => 
+        ADLIB_VCC, Y3A(0) => NET_CC_CONFIG171, Y3A(1) => 
+        NET_CC_CONFIG175, Y3A(2) => NET_CC_CONFIG179, Y3A(3) => 
+        NET_CC_CONFIG183, Y3A(4) => NET_CC_CONFIG187, Y3A(5) => 
+        NET_CC_CONFIG191, Y3A(6) => ADLIB_VCC, Y3A(7) => 
+        ADLIB_VCC, Y3A(8) => ADLIB_VCC, Y3A(9) => ADLIB_VCC, 
+        Y3A(10) => ADLIB_VCC, Y3A(11) => ADLIB_VCC, CC(0) => 
+        NET_CC_CONFIG172, CC(1) => NET_CC_CONFIG176, CC(2) => 
+        NET_CC_CONFIG180, CC(3) => NET_CC_CONFIG184, CC(4) => 
+        NET_CC_CONFIG188, CC(5) => NET_CC_CONFIG192, CC(6) => 
+        nc283, CC(7) => nc363, CC(8) => nc341, CC(9) => nc317, 
+        CC(10) => nc290, CC(11) => nc17);
     
     AFLSDF_INV_31 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_31\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[44]\, 
+        Y => \AFLSDF_INV_31\);
     
     \p_real_obuf[2]/U_IOTRI\ : IOTRI_OB_EB
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -2168,10 +2040,6 @@ begin
         D => ADLIB_VCC, Y => 
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[5]\, IPB => OPEN, 
         IPC => OPEN, IPD => OPEN);
-    
-    AFLSDF_INV_239 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[11]\, 
-        Y => \AFLSDF_INV_239\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_9\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -2191,14 +2059,19 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[11]\, IPB => 
         OPEN, IPC => OPEN, IPD => OPEN);
     
+    ov_2 : CFG4
+      generic map(INIT => x"F1F8")
+
+      port map(A => \a[7]\, B => \ai[7]\, C => ov_1_Z, D => 
+        \aai[7]\, Y => ov_2_Z);
+    
     \REG_OUT_I/Q[7]\ : SLE
       port map(D => \pi[7]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_269\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_225\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[7]\);
     
     AFLSDF_INV_169 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[8]\, 
-        Y => \AFLSDF_INV_169\);
+      port map(A => rst_c, Y => \AFLSDF_INV_169\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_33\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -2225,20 +2098,12 @@ begin
         NET_CC_CONFIG152, Y3 => NET_CC_CONFIG153, Y3A => 
         NET_CC_CONFIG154);
     
-    AFLSDF_INV_275 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_275\);
-    
-    \REG_K1/Q[8]\ : SLE
-      port map(D => \k1[8]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_117\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[8]\);
-    
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_14\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     \REG_IN_BI/Q[3]\ : SLE
       port map(D => \b_imag_c[3]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_197\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_158\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \bi[3]\);
     
     \a_imag_ibuf[5]/U_IOPAD\ : IOPAD_IN
@@ -2249,19 +2114,19 @@ begin
     
     \REG_IN_AI/Q[4]\ : SLE
       port map(D => \a_imag_c[4]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_112\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_87\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \ai[4]\);
     
     \REG_IN_B/Q[0]\ : SLE
       port map(D => \b_real_c[0]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_113\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_88\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \b[0]\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_16\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_153 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[31]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[4]\, 
         Y => \AFLSDF_INV_153\);
     
     \p_imag_obuf[12]/U_IOTRI\ : IOTRI_OB_EB
@@ -2301,10 +2166,6 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[8]\, IPB => OPEN, 
         IPC => OPEN, IPD => OPEN);
     
-    AFLSDF_INV_259 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[9]\, 
-        Y => \AFLSDF_INV_259\);
-    
     p_0_cry_3 : ARI1_CC
       generic map(INIT => x"5AA55")
 
@@ -2336,11 +2197,10 @@ begin
         \p_imag_obuf[11]/DOUT\, EOUT => \p_imag_obuf[11]/EOUT\);
     
     AFLSDF_INV_96 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[7]\, 
-        Y => \AFLSDF_INV_96\);
+      port map(A => rst_c, Y => \AFLSDF_INV_96\);
     
     AFLSDF_INV_57 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[37]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[7]\, 
         Y => \AFLSDF_INV_57\);
     
     \b_imag_ibuf[2]/U_IOPAD\ : IOPAD_IN
@@ -2361,8 +2221,14 @@ begin
     
     \REG_OUT_R/Q[0]\ : SLE
       port map(D => p_0_axb_0_i, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_206\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_164\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[0]\);
+    
+    ov_0 : CFG4
+      generic map(INIT => x"FF18")
+
+      port map(A => \k3r[15]\, B => \k1r[15]\, C => \pi[15]\, D
+         => of_p_Z, Y => ov_0_Z);
     
     \overflow_obuf/U_IOTRI\ : IOTRI_OB_EB
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -2382,7 +2248,7 @@ begin
         OPEN, IPC => OPEN, IPD => OPEN);
     
     AFLSDF_INV_187 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[8]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[23]\, 
         Y => \AFLSDF_INV_187\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_34\ : CFG4_IP_ABCD
@@ -2404,7 +2270,7 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[7]\);
     
     AFLSDF_INV_59 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[34]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[5]\, 
         Y => \AFLSDF_INV_59\);
     
     \p_real_obuf[14]/U_IOTRI\ : IOTRI_OB_EB
@@ -2429,45 +2295,45 @@ begin
         P(28) => nc303, P(27) => nc150, P(26) => nc365, P(25) => 
         nc331, P(24) => nc196, P(23) => nc234, P(22) => nc149, 
         P(21) => nc12, P(20) => nc219, P(19) => nc30, P(18) => 
-        nc243, P(17) => nc187, P(16) => nc65, P(15) => \k3[15]\, 
-        P(14) => \k3[14]\, P(13) => \k3[13]\, P(12) => \k3[12]\, 
-        P(11) => \k3[11]\, P(10) => \k3[10]\, P(9) => \k3[9]\, 
-        P(8) => \k3[8]\, P(7) => \k3[7]\, P(6) => \k3[6]\, P(5)
-         => \k3[5]\, P(4) => \k3[4]\, P(3) => \k3[3]\, P(2) => 
-        \k3[2]\, P(1) => \k3[1]\, P(0) => \k3[0]\, A_ADDR_D_SH
-         => OPEN, B2_EN_SH => OPEN, BCOUT(17) => nc7, BCOUT(16)
-         => nc292, BCOUT(15) => nc129, BCOUT(14) => nc275, 
-        BCOUT(13) => nc8, BCOUT(12) => nc223, BCOUT(11) => nc13, 
-        BCOUT(10) => nc387, BCOUT(9) => nc305, BCOUT(8) => nc180, 
-        BCOUT(7) => nc26, BCOUT(6) => nc291, BCOUT(5) => nc177, 
-        BCOUT(4) => nc139, BCOUT(3) => nc310, BCOUT(2) => nc259, 
-        BCOUT(1) => nc245, BCOUT(0) => nc233, B1(17) => nc163, 
-        B1(16) => nc318, B1(15) => nc268, B1(14) => nc112, B1(13)
-         => nc68, B1(12) => nc49, B1(11) => nc377, B1(10) => 
-        nc314, B1(9) => nc217, B1(8) => nc170, B1(7) => nc91, 
-        B1(6) => nc225, B1(5) => nc5, B1(4) => nc20, B1(3) => 
-        nc198, B1(2) => nc147, B1(1) => nc350, B1(0) => nc316, 
-        A_ADDR_D => ADLIB_VCC, CARRYIN => ADLIB_GND, CLK => NN_1, 
-        AL_N => \AFLSDF_INV_49\, A(17) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[17]\, A(16) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[16]\, A(15) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[15]\, A(14) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[14]\, A(13) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[13]\, A(12) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[12]\, A(11) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[11]\, A(10) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[10]\, A(9) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[9]\, A(8) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[8]\, A(7) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[7]\, A(6) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[6]\, A(5) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[5]\, A(4) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[4]\, A(3) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[3]\, A(2) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[2]\, A(1) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[1]\, A(0) => 
-        \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[0]\, A_EN => 
-        en_c, A_SRST_N => ADLIB_VCC, B(17) => 
+        nc243, P(17) => nc187, P(16) => nc65, P(15) => \k3r[15]\, 
+        P(14) => \k3r[14]\, P(13) => \k3r[13]\, P(12) => 
+        \k3r[12]\, P(11) => \k3r[11]\, P(10) => \k3r[10]\, P(9)
+         => \k3r[9]\, P(8) => \k3r[8]\, P(7) => \k3r[7]\, P(6)
+         => \k3r[6]\, P(5) => \k3r[5]\, P(4) => \k3r[4]\, P(3)
+         => \k3r[3]\, P(2) => \k3r[2]\, P(1) => \k3r[1]\, P(0)
+         => \k3r[0]\, A_ADDR_D_SH => OPEN, B2_EN_SH => OPEN, 
+        BCOUT(17) => nc7, BCOUT(16) => nc292, BCOUT(15) => nc129, 
+        BCOUT(14) => nc275, BCOUT(13) => nc8, BCOUT(12) => nc223, 
+        BCOUT(11) => nc13, BCOUT(10) => nc387, BCOUT(9) => nc305, 
+        BCOUT(8) => nc180, BCOUT(7) => nc26, BCOUT(6) => nc291, 
+        BCOUT(5) => nc177, BCOUT(4) => nc139, BCOUT(3) => nc310, 
+        BCOUT(2) => nc259, BCOUT(1) => nc245, BCOUT(0) => nc233, 
+        B1(17) => nc163, B1(16) => nc318, B1(15) => nc268, B1(14)
+         => nc112, B1(13) => nc68, B1(12) => nc49, B1(11) => 
+        nc377, B1(10) => nc314, B1(9) => nc217, B1(8) => nc170, 
+        B1(7) => nc91, B1(6) => nc225, B1(5) => nc5, B1(4) => 
+        nc20, B1(3) => nc198, B1(2) => nc147, B1(1) => nc350, 
+        B1(0) => nc316, A_ADDR_D => ADLIB_VCC, CARRYIN => 
+        ADLIB_GND, CLK => NN_1, AL_N => \AFLSDF_INV_28\, A(17)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[17]\, A(16)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[16]\, A(15)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[15]\, A(14)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[14]\, A(13)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[13]\, A(12)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[12]\, A(11)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[11]\, A(10)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[10]\, A(9)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[9]\, A(8)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[8]\, A(7)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[7]\, A(6)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[6]\, A(5)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[5]\, A(4)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[4]\, A(3)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[3]\, A(2)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[2]\, A(1)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[1]\, A(0)
+         => \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[0]\, A_EN
+         => en_c, A_SRST_N => ADLIB_VCC, B(17) => 
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/B_net[17]\, B(16) => 
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/B_net[16]\, B(15) => 
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/B_net[15]\, B(14) => 
@@ -2486,120 +2352,123 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/B_net[2]\, B(1) => 
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/B_net[1]\, B(0) => 
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/B_net[0]\, B_EN => 
-        en_c, B_SRST_N => ADLIB_VCC, C(47) => \AFLSDF_INV_50\, 
-        C(46) => \AFLSDF_INV_51\, C(45) => ADLIB_GND, C(44) => 
-        \AFLSDF_INV_52\, C(43) => \AFLSDF_INV_53\, C(42) => 
-        ADLIB_GND, C(41) => \AFLSDF_INV_54\, C(40) => 
-        \AFLSDF_INV_55\, C(39) => ADLIB_GND, C(38) => 
-        \AFLSDF_INV_56\, C(37) => \AFLSDF_INV_57\, C(36) => 
-        ADLIB_GND, C(35) => \AFLSDF_INV_58\, C(34) => 
-        \AFLSDF_INV_59\, C(33) => ADLIB_GND, C(32) => 
-        \AFLSDF_INV_60\, C(31) => \AFLSDF_INV_61\, C(30) => 
-        ADLIB_GND, C(29) => \AFLSDF_INV_62\, C(28) => 
-        \AFLSDF_INV_63\, C(27) => ADLIB_GND, C(26) => 
-        \AFLSDF_INV_64\, C(25) => \AFLSDF_INV_65\, C(24) => 
-        ADLIB_GND, C(23) => \AFLSDF_INV_66\, C(22) => 
-        \AFLSDF_INV_67\, C(21) => ADLIB_GND, C(20) => 
-        \AFLSDF_INV_68\, C(19) => \AFLSDF_INV_69\, C(18) => 
-        ADLIB_GND, C(17) => \AFLSDF_INV_70\, C(16) => 
-        \AFLSDF_INV_71\, C(15) => ADLIB_GND, C(14) => 
-        \AFLSDF_INV_72\, C(13) => \AFLSDF_INV_73\, C(12) => 
-        ADLIB_GND, C(11) => \AFLSDF_INV_74\, C(10) => 
-        \AFLSDF_INV_75\, C(9) => \AFLSDF_INV_76\, C(8) => 
-        \AFLSDF_INV_77\, C(7) => \AFLSDF_INV_78\, C(6) => 
-        \AFLSDF_INV_79\, C(5) => \AFLSDF_INV_80\, C(4) => 
-        \AFLSDF_INV_81\, C(3) => \AFLSDF_INV_82\, C(2) => 
-        \AFLSDF_INV_83\, C(1) => \AFLSDF_INV_84\, C(0) => 
-        \AFLSDF_INV_85\, C_EN => ADLIB_VCC, C_SRST_N => ADLIB_VCC, 
-        C_ARST_N => ADLIB_GND, D(17) => \AFLSDF_INV_86\, D(16)
-         => \AFLSDF_INV_87\, D(15) => \AFLSDF_INV_88\, D(14) => 
-        \AFLSDF_INV_89\, D(13) => \AFLSDF_INV_90\, D(12) => 
-        \AFLSDF_INV_91\, D(11) => \AFLSDF_INV_92\, D(10) => 
-        \AFLSDF_INV_93\, D(9) => \AFLSDF_INV_94\, D(8) => 
-        \AFLSDF_INV_95\, D(7) => \AFLSDF_INV_96\, D(6) => 
-        \AFLSDF_INV_97\, D(5) => \AFLSDF_INV_98\, D(4) => 
-        \AFLSDF_INV_99\, D(3) => \AFLSDF_INV_100\, D(2) => 
-        \AFLSDF_INV_101\, D(1) => \AFLSDF_INV_102\, D(0) => 
-        \AFLSDF_INV_103\, D_EN => ADLIB_VCC, D_SRST_N => 
-        ADLIB_VCC, D_ARST_N => ADLIB_VCC, P_EN => ADLIB_VCC, 
-        P_SRST_N => ADLIB_VCC, ARSHFT17 => ADLIB_GND, ARSHFT17_EN
-         => ADLIB_VCC, ARSHFT17_SL_N => ADLIB_VCC, SUB => 
-        ADLIB_GND, SUB_EN => ADLIB_VCC, SUB_SL_N => ADLIB_VCC, 
-        PASUB => ADLIB_GND, PASUB_EN => ADLIB_VCC, PASUB_SL_N => 
-        ADLIB_VCC, CDIN_FDBK_SEL(1) => ADLIB_GND, 
-        CDIN_FDBK_SEL(0) => ADLIB_GND, CDIN_FDBK_SEL_EN => 
-        ADLIB_VCC, CDIN_FDBK_SEL_SL_N => ADLIB_VCC, B2(17) => 
-        ADLIB_VCC, B2(16) => ADLIB_VCC, B2(15) => ADLIB_VCC, 
-        B2(14) => ADLIB_VCC, B2(13) => ADLIB_VCC, B2(12) => 
-        ADLIB_VCC, B2(11) => ADLIB_VCC, B2(10) => ADLIB_VCC, 
-        B2(9) => ADLIB_VCC, B2(8) => ADLIB_VCC, B2(7) => 
-        ADLIB_VCC, B2(6) => ADLIB_VCC, B2(5) => ADLIB_VCC, B2(4)
-         => ADLIB_VCC, B2(3) => ADLIB_VCC, B2(2) => ADLIB_VCC, 
-        B2(1) => ADLIB_VCC, B2(0) => ADLIB_VCC, B2_EN => 
-        ADLIB_VCC, SIMD => ADLIB_GND, DOTP => ADLIB_GND, 
-        OVFL_CARRYOUT_SEL => ADLIB_GND, A_BYPASS => ADLIB_GND, 
-        B_BYPASS => ADLIB_GND, C_BYPASS => ADLIB_GND, D_BYPASS
-         => ADLIB_VCC, P_BYPASS => ADLIB_VCC, SUB_BYPASS => 
-        ADLIB_VCC, SUB_SD_N => ADLIB_VCC, SUB_AD_N => ADLIB_VCC, 
-        ARSHFT17_BYPASS => ADLIB_VCC, ARSHFT17_SD_N => ADLIB_GND, 
-        ARSHFT17_AD_N => ADLIB_VCC, CDIN_FDBK_SEL_BYPASS => 
-        ADLIB_VCC, CDIN_FDBK_SEL_SD_N(1) => ADLIB_GND, 
-        CDIN_FDBK_SEL_SD_N(0) => ADLIB_GND, CDIN_FDBK_SEL_AD_N(1)
-         => ADLIB_VCC, CDIN_FDBK_SEL_AD_N(0) => ADLIB_VCC, 
-        PASUB_SD_N => ADLIB_GND, PASUB_AD_N => ADLIB_VCC, 
-        PASUB_BYPASS => ADLIB_VCC, CDIN(47) => ADLIB_GND, 
-        CDIN(46) => ADLIB_GND, CDIN(45) => ADLIB_GND, CDIN(44)
-         => ADLIB_GND, CDIN(43) => ADLIB_GND, CDIN(42) => 
-        ADLIB_GND, CDIN(41) => ADLIB_GND, CDIN(40) => ADLIB_GND, 
-        CDIN(39) => ADLIB_GND, CDIN(38) => ADLIB_GND, CDIN(37)
-         => ADLIB_GND, CDIN(36) => ADLIB_GND, CDIN(35) => 
-        ADLIB_GND, CDIN(34) => ADLIB_GND, CDIN(33) => ADLIB_GND, 
-        CDIN(32) => ADLIB_GND, CDIN(31) => ADLIB_GND, CDIN(30)
-         => ADLIB_GND, CDIN(29) => ADLIB_GND, CDIN(28) => 
-        ADLIB_GND, CDIN(27) => ADLIB_GND, CDIN(26) => ADLIB_GND, 
-        CDIN(25) => ADLIB_GND, CDIN(24) => ADLIB_GND, CDIN(23)
-         => ADLIB_GND, CDIN(22) => ADLIB_GND, CDIN(21) => 
-        ADLIB_GND, CDIN(20) => ADLIB_GND, CDIN(19) => ADLIB_GND, 
-        CDIN(18) => ADLIB_GND, CDIN(17) => ADLIB_GND, CDIN(16)
-         => ADLIB_GND, CDIN(15) => ADLIB_GND, CDIN(14) => 
-        ADLIB_GND, CDIN(13) => ADLIB_GND, CDIN(12) => ADLIB_GND, 
-        CDIN(11) => ADLIB_GND, CDIN(10) => ADLIB_GND, CDIN(9) => 
-        ADLIB_GND, CDIN(8) => ADLIB_GND, CDIN(7) => ADLIB_GND, 
-        CDIN(6) => ADLIB_GND, CDIN(5) => ADLIB_GND, CDIN(4) => 
-        ADLIB_GND, CDIN(3) => ADLIB_GND, CDIN(2) => ADLIB_GND, 
-        CDIN(1) => ADLIB_GND, CDIN(0) => ADLIB_GND, CDOUT(47) => 
-        nc67, CDOUT(46) => nc289, CDOUT(45) => nc358, CDOUT(44)
-         => nc294, CDOUT(43) => nc152, CDOUT(42) => nc127, 
-        CDOUT(41) => nc103, CDOUT(40) => nc235, CDOUT(39) => nc76, 
-        CDOUT(38) => nc347, CDOUT(37) => nc208, CDOUT(36) => 
-        nc354, CDOUT(35) => nc140, CDOUT(34) => nc257, CDOUT(33)
-         => nc86, CDOUT(32) => nc95, CDOUT(31) => nc327, 
-        CDOUT(30) => nc120, CDOUT(29) => nc165, CDOUT(28) => 
-        nc356, CDOUT(27) => nc279, CDOUT(26) => nc137, CDOUT(25)
-         => nc64, CDOUT(24) => nc19, CDOUT(23) => nc380, 
-        CDOUT(22) => nc369, CDOUT(21) => nc312, CDOUT(20) => nc70, 
-        CDOUT(19) => nc388, CDOUT(18) => nc182, CDOUT(17) => nc62, 
-        CDOUT(16) => nc337, CDOUT(15) => nc199, CDOUT(14) => nc80, 
-        CDOUT(13) => nc130, CDOUT(12) => nc384, CDOUT(11) => 
-        nc287, CDOUT(10) => nc98, CDOUT(9) => nc293, CDOUT(8) => 
-        nc249, CDOUT(7) => nc114, CDOUT(6) => nc56, CDOUT(5) => 
-        nc370, CDOUT(4) => nc105, CDOUT(3) => nc386, CDOUT(2) => 
-        nc63, CDOUT(1) => nc352, CDOUT(0) => nc313);
+        en_c, B_SRST_N => ADLIB_VCC, C(47) => \AFLSDF_INV_29\, 
+        C(46) => \AFLSDF_INV_30\, C(45) => ADLIB_GND, C(44) => 
+        \AFLSDF_INV_31\, C(43) => \AFLSDF_INV_32\, C(42) => 
+        ADLIB_GND, C(41) => \AFLSDF_INV_33\, C(40) => 
+        \AFLSDF_INV_34\, C(39) => ADLIB_GND, C(38) => 
+        \AFLSDF_INV_35\, C(37) => \AFLSDF_INV_36\, C(36) => 
+        ADLIB_GND, C(35) => \AFLSDF_INV_37\, C(34) => 
+        \AFLSDF_INV_38\, C(33) => ADLIB_GND, C(32) => 
+        \AFLSDF_INV_39\, C(31) => \AFLSDF_INV_40\, C(30) => 
+        ADLIB_GND, C(29) => \AFLSDF_INV_41\, C(28) => 
+        \AFLSDF_INV_42\, C(27) => ADLIB_GND, C(26) => 
+        \AFLSDF_INV_43\, C(25) => \AFLSDF_INV_44\, C(24) => 
+        ADLIB_GND, C(23) => \AFLSDF_INV_45\, C(22) => 
+        \AFLSDF_INV_46\, C(21) => ADLIB_GND, C(20) => 
+        \AFLSDF_INV_47\, C(19) => \AFLSDF_INV_48\, C(18) => 
+        ADLIB_GND, C(17) => \AFLSDF_INV_49\, C(16) => 
+        \AFLSDF_INV_50\, C(15) => ADLIB_GND, C(14) => 
+        \AFLSDF_INV_51\, C(13) => \AFLSDF_INV_52\, C(12) => 
+        ADLIB_GND, C(11) => \AFLSDF_INV_53\, C(10) => 
+        \AFLSDF_INV_54\, C(9) => \AFLSDF_INV_55\, C(8) => 
+        \AFLSDF_INV_56\, C(7) => \AFLSDF_INV_57\, C(6) => 
+        \AFLSDF_INV_58\, C(5) => \AFLSDF_INV_59\, C(4) => 
+        \AFLSDF_INV_60\, C(3) => \AFLSDF_INV_61\, C(2) => 
+        \AFLSDF_INV_62\, C(1) => \AFLSDF_INV_63\, C(0) => 
+        \AFLSDF_INV_64\, C_EN => ADLIB_VCC, C_SRST_N => ADLIB_VCC, 
+        C_ARST_N => ADLIB_GND, D(17) => \AFLSDF_INV_65\, D(16)
+         => \AFLSDF_INV_66\, D(15) => \AFLSDF_INV_67\, D(14) => 
+        \AFLSDF_INV_68\, D(13) => \AFLSDF_INV_69\, D(12) => 
+        \AFLSDF_INV_70\, D(11) => \AFLSDF_INV_71\, D(10) => 
+        \AFLSDF_INV_72\, D(9) => \AFLSDF_INV_73\, D(8) => 
+        \AFLSDF_INV_74\, D(7) => \AFLSDF_INV_75\, D(6) => 
+        \AFLSDF_INV_76\, D(5) => \AFLSDF_INV_77\, D(4) => 
+        \AFLSDF_INV_78\, D(3) => \AFLSDF_INV_79\, D(2) => 
+        \AFLSDF_INV_80\, D(1) => \AFLSDF_INV_81\, D(0) => 
+        \AFLSDF_INV_82\, D_EN => ADLIB_VCC, D_SRST_N => ADLIB_VCC, 
+        D_ARST_N => ADLIB_VCC, P_EN => en_c, P_SRST_N => 
+        ADLIB_VCC, ARSHFT17 => ADLIB_GND, ARSHFT17_EN => 
+        ADLIB_VCC, ARSHFT17_SL_N => ADLIB_VCC, SUB => ADLIB_GND, 
+        SUB_EN => ADLIB_VCC, SUB_SL_N => ADLIB_VCC, PASUB => 
+        ADLIB_GND, PASUB_EN => ADLIB_VCC, PASUB_SL_N => ADLIB_VCC, 
+        CDIN_FDBK_SEL(1) => ADLIB_GND, CDIN_FDBK_SEL(0) => 
+        ADLIB_GND, CDIN_FDBK_SEL_EN => ADLIB_VCC, 
+        CDIN_FDBK_SEL_SL_N => ADLIB_VCC, B2(17) => ADLIB_VCC, 
+        B2(16) => ADLIB_VCC, B2(15) => ADLIB_VCC, B2(14) => 
+        ADLIB_VCC, B2(13) => ADLIB_VCC, B2(12) => ADLIB_VCC, 
+        B2(11) => ADLIB_VCC, B2(10) => ADLIB_VCC, B2(9) => 
+        ADLIB_VCC, B2(8) => ADLIB_VCC, B2(7) => ADLIB_VCC, B2(6)
+         => ADLIB_VCC, B2(5) => ADLIB_VCC, B2(4) => ADLIB_VCC, 
+        B2(3) => ADLIB_VCC, B2(2) => ADLIB_VCC, B2(1) => 
+        ADLIB_VCC, B2(0) => ADLIB_VCC, B2_EN => ADLIB_VCC, SIMD
+         => ADLIB_GND, DOTP => ADLIB_GND, OVFL_CARRYOUT_SEL => 
+        ADLIB_GND, A_BYPASS => ADLIB_GND, B_BYPASS => ADLIB_GND, 
+        C_BYPASS => ADLIB_GND, D_BYPASS => ADLIB_VCC, P_BYPASS
+         => ADLIB_GND, SUB_BYPASS => ADLIB_VCC, SUB_SD_N => 
+        ADLIB_VCC, SUB_AD_N => ADLIB_VCC, ARSHFT17_BYPASS => 
+        ADLIB_VCC, ARSHFT17_SD_N => ADLIB_GND, ARSHFT17_AD_N => 
+        ADLIB_VCC, CDIN_FDBK_SEL_BYPASS => ADLIB_VCC, 
+        CDIN_FDBK_SEL_SD_N(1) => ADLIB_GND, CDIN_FDBK_SEL_SD_N(0)
+         => ADLIB_GND, CDIN_FDBK_SEL_AD_N(1) => ADLIB_VCC, 
+        CDIN_FDBK_SEL_AD_N(0) => ADLIB_VCC, PASUB_SD_N => 
+        ADLIB_GND, PASUB_AD_N => ADLIB_VCC, PASUB_BYPASS => 
+        ADLIB_VCC, CDIN(47) => ADLIB_GND, CDIN(46) => ADLIB_GND, 
+        CDIN(45) => ADLIB_GND, CDIN(44) => ADLIB_GND, CDIN(43)
+         => ADLIB_GND, CDIN(42) => ADLIB_GND, CDIN(41) => 
+        ADLIB_GND, CDIN(40) => ADLIB_GND, CDIN(39) => ADLIB_GND, 
+        CDIN(38) => ADLIB_GND, CDIN(37) => ADLIB_GND, CDIN(36)
+         => ADLIB_GND, CDIN(35) => ADLIB_GND, CDIN(34) => 
+        ADLIB_GND, CDIN(33) => ADLIB_GND, CDIN(32) => ADLIB_GND, 
+        CDIN(31) => ADLIB_GND, CDIN(30) => ADLIB_GND, CDIN(29)
+         => ADLIB_GND, CDIN(28) => ADLIB_GND, CDIN(27) => 
+        ADLIB_GND, CDIN(26) => ADLIB_GND, CDIN(25) => ADLIB_GND, 
+        CDIN(24) => ADLIB_GND, CDIN(23) => ADLIB_GND, CDIN(22)
+         => ADLIB_GND, CDIN(21) => ADLIB_GND, CDIN(20) => 
+        ADLIB_GND, CDIN(19) => ADLIB_GND, CDIN(18) => ADLIB_GND, 
+        CDIN(17) => ADLIB_GND, CDIN(16) => ADLIB_GND, CDIN(15)
+         => ADLIB_GND, CDIN(14) => ADLIB_GND, CDIN(13) => 
+        ADLIB_GND, CDIN(12) => ADLIB_GND, CDIN(11) => ADLIB_GND, 
+        CDIN(10) => ADLIB_GND, CDIN(9) => ADLIB_GND, CDIN(8) => 
+        ADLIB_GND, CDIN(7) => ADLIB_GND, CDIN(6) => ADLIB_GND, 
+        CDIN(5) => ADLIB_GND, CDIN(4) => ADLIB_GND, CDIN(3) => 
+        ADLIB_GND, CDIN(2) => ADLIB_GND, CDIN(1) => ADLIB_GND, 
+        CDIN(0) => ADLIB_GND, CDOUT(47) => nc67, CDOUT(46) => 
+        nc289, CDOUT(45) => nc358, CDOUT(44) => nc294, CDOUT(43)
+         => nc152, CDOUT(42) => nc127, CDOUT(41) => nc103, 
+        CDOUT(40) => nc235, CDOUT(39) => nc76, CDOUT(38) => nc347, 
+        CDOUT(37) => nc208, CDOUT(36) => nc354, CDOUT(35) => 
+        nc140, CDOUT(34) => nc257, CDOUT(33) => nc86, CDOUT(32)
+         => nc95, CDOUT(31) => nc327, CDOUT(30) => nc120, 
+        CDOUT(29) => nc165, CDOUT(28) => nc356, CDOUT(27) => 
+        nc279, CDOUT(26) => nc137, CDOUT(25) => nc64, CDOUT(24)
+         => nc19, CDOUT(23) => nc380, CDOUT(22) => nc369, 
+        CDOUT(21) => nc312, CDOUT(20) => nc70, CDOUT(19) => nc388, 
+        CDOUT(18) => nc182, CDOUT(17) => nc62, CDOUT(16) => nc337, 
+        CDOUT(15) => nc199, CDOUT(14) => nc80, CDOUT(13) => nc130, 
+        CDOUT(12) => nc384, CDOUT(11) => nc287, CDOUT(10) => nc98, 
+        CDOUT(9) => nc293, CDOUT(8) => nc249, CDOUT(7) => nc114, 
+        CDOUT(6) => nc56, CDOUT(5) => nc370, CDOUT(4) => nc105, 
+        CDOUT(3) => nc386, CDOUT(2) => nc63, CDOUT(1) => nc352, 
+        CDOUT(0) => nc313);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_14\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_40 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_40\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[31]\, 
+        Y => \AFLSDF_INV_40\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_27\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_201 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_201\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[5]\, 
+        Y => \AFLSDF_INV_201\);
     
     AFLSDF_INV_123 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_123\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[19]\, 
+        Y => \AFLSDF_INV_123\);
     
     pi_0_cry_8 : ARI1_CC
       generic map(INIT => x"555AA")
@@ -2612,7 +2481,7 @@ begin
     
     \REG_IN_BI/Q[6]\ : SLE
       port map(D => \b_imag_c[6]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_203\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_162\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \bi[6]\);
     
     aia_0_cry_5 : ARI1_CC
@@ -2625,8 +2494,7 @@ begin
         NET_CC_CONFIG183);
     
     AFLSDF_INV_229 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[26]\, 
-        Y => \AFLSDF_INV_229\);
+      port map(A => rst_c, Y => \AFLSDF_INV_229\);
     
     aai_0_cry_6 : ARI1_CC
       generic map(INIT => x"555AA")
@@ -2645,13 +2513,8 @@ begin
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[1]\, IPB => OPEN, 
         IPC => OPEN, IPD => OPEN);
     
-    AFLSDF_INV_264 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[4]\, 
-        Y => \AFLSDF_INV_264\);
-    
     AFLSDF_INV_88 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[15]\, 
-        Y => \AFLSDF_INV_88\);
+      port map(A => rst_c, Y => \AFLSDF_INV_88\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_26\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -2663,7 +2526,7 @@ begin
     
     \REG_OUT_I/Q[3]\ : SLE
       port map(D => \pi[3]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_275\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_229\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[3]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_21\ : SLE_IP_EN
@@ -2685,17 +2548,9 @@ begin
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[3]\, IPB => OPEN, 
         IPC => OPEN, IPD => OPEN);
     
-    \REG_K1/Q[10]\ : SLE
-      port map(D => \k1[10]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_23\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[10]\);
-    
     AFLSDF_INV_137 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_137\);
-    
-    AFLSDF_INV_245 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[5]\, 
-        Y => \AFLSDF_INV_245\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[2]\, 
+        Y => \AFLSDF_INV_137\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_25\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -2762,15 +2617,8 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[1]\);
     
     AFLSDF_INV_113 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_113\);
-    
-    \REG_K1/Q[2]\ : SLE
-      port map(D => \k1[2]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_199\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[2]\);
-    
-    AFLSDF_INV_276 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_276\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[34]\, 
+        Y => \AFLSDF_INV_113\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_13\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -2786,7 +2634,7 @@ begin
       port map(A => rst_c, Y => \AFLSDF_INV_3\);
     
     AFLSDF_INV_219 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[41]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[5]\, 
         Y => \AFLSDF_INV_219\);
     
     p_0_s_15 : ARI1_CC
@@ -2799,15 +2647,15 @@ begin
         NET_CC_CONFIG61);
     
     AFLSDF_INV_54 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[41]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[10]\, 
         Y => \AFLSDF_INV_54\);
     
     AFLSDF_INV_83 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[2]\, 
-        Y => \AFLSDF_INV_83\);
+      port map(A => rst_c, Y => \AFLSDF_INV_83\);
     
     AFLSDF_INV_109 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_109\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[40]\, 
+        Y => \AFLSDF_INV_109\);
     
     p_0_cry_0_CC_0 : CC_CONFIG
       port map(CI => ADLIB_VCC, CO => CI_TO_CO, P(0) => 
@@ -2837,22 +2685,17 @@ begin
         NET_CC_CONFIG42, CC(11) => NET_CC_CONFIG46);
     
     AFLSDF_INV_157 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[25]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[0]\, 
         Y => \AFLSDF_INV_157\);
     
     \REG_OUT_R/Q[5]\ : SLE
       port map(D => \p[5]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_27\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_17\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[5]\);
-    
-    \REG_K3/Q[1]\ : SLE
-      port map(D => \k3[1]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_276\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[1]\);
     
     \REG_OUT_R/Q[8]\ : SLE
       port map(D => \p[8]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_26\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_16\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[8]\);
     
     p_0_cry_7 : ARI1_CC
@@ -2863,16 +2706,6 @@ begin
         FCO => p_0_cry_7_Z, CC => NET_CC_CONFIG30, P => 
         NET_CC_CONFIG27, Y3 => NET_CC_CONFIG28, Y3A => 
         NET_CC_CONFIG29);
-    
-    \REG_K1/Q[3]\ : SLE
-      port map(D => \k1[3]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_127\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[3]\);
-    
-    \REG_K1/Q[0]\ : SLE
-      port map(D => \k1[0]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_105\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => p_0);
     
     \p_real_obuf[4]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_real(4), D => \p_real_obuf[4]/DOUT\, E
@@ -2902,8 +2735,7 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_85 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[0]\, 
-        Y => \AFLSDF_INV_85\);
+      port map(A => rst_c, Y => \AFLSDF_INV_85\);
     
     \a_real_ibuf[1]/U_IOIN\ : IOIN_IB_E
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -2927,19 +2759,13 @@ begin
         \b_imag_ibuf[4]/YIN\);
     
     AFLSDF_INV_90 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[13]\, 
-        Y => \AFLSDF_INV_90\);
+      port map(A => rst_c, Y => \AFLSDF_INV_90\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_32\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     \b_real_ibuf[2]/U_IOPAD\ : IOPAD_IN
       port map(PAD => b_real(2), Y => \b_real_ibuf[2]/YIN\);
-    
-    \REG_K1/Q[4]\ : SLE
-      port map(D => \k1[4]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_131\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[4]\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_0\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -2958,11 +2784,6 @@ begin
         NET_CC_CONFIG161, Y3 => NET_CC_CONFIG162, Y3A => 
         NET_CC_CONFIG163);
     
-    \REG_K2/Q[6]\ : SLE
-      port map(D => \k2[6]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_278\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[6]\);
-    
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_26\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
 
@@ -2970,11 +2791,6 @@ begin
         D => ADLIB_VCC, Y => 
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[13]\, IPB => 
         OPEN, IPC => OPEN, IPD => OPEN);
-    
-    \REG_K2/Q[5]\ : SLE
-      port map(D => \k2[5]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_109\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[5]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_2\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -2995,7 +2811,7 @@ begin
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[47]\);
     
     AFLSDF_INV_175 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[2]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[41]\, 
         Y => \AFLSDF_INV_175\);
     
     \p_real_obuf[14]/U_IOPAD\ : IOPAD_TRI
@@ -3020,11 +2836,6 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[28]\, IPD => 
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[29]\);
     
-    \REG_K2/Q[15]\ : SLE
-      port map(D => \k2[15]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_130\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[15]\);
-    
     \b_imag_ibuf[6]/U_IOIN\ : IOIN_IB_E
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
          TX_OE_MODE => "000", INPUT_DELAY_SEL => "00",
@@ -3035,7 +2846,8 @@ begin
         \b_imag_ibuf[6]/YIN\);
     
     AFLSDF_INV_127 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_127\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[13]\, 
+        Y => \AFLSDF_INV_127\);
     
     \p_real_obuf[6]/U_IOTRI\ : IOTRI_OB_EB
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -3058,7 +2870,7 @@ begin
     
     \REG_OUT_R/Q[7]\ : SLE
       port map(D => \p[7]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_107\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_85\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[7]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_35\ : SLE_IP_EN
@@ -3069,7 +2881,7 @@ begin
     
     \REG_OUT_I/Q[2]\ : SLE
       port map(D => \pi[2]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_14\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_7\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[2]\);
     
     AFLSDF_INV_28 : INV_BA
@@ -3092,12 +2904,12 @@ begin
     
     \REG_OUT_OV/Q[0]\ : SLE
       port map(D => ov_Z, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_19\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_11\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => overflow_c);
     
     \REG_OUT_I/Q[0]\ : SLE
       port map(D => pi_0_cry_0_Y, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_13\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_6\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[0]\);
     
     pi_0_cry_1 : ARI1_CC
@@ -3128,18 +2940,16 @@ begin
         NET_CC_CONFIG179);
     
     AFLSDF_INV_37 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_37\);
-    
-    AFLSDF_INV_246 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[4]\, 
-        Y => \AFLSDF_INV_246\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[35]\, 
+        Y => \AFLSDF_INV_37\);
     
     AFLSDF_INV_195 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[0]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[11]\, 
         Y => \AFLSDF_INV_195\);
     
     AFLSDF_INV_204 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_204\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[2]\, 
+        Y => \AFLSDF_INV_204\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_14\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -3148,11 +2958,6 @@ begin
         D => ADLIB_VCC, Y => 
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[7]\, IPB => OPEN, 
         IPC => OPEN, IPD => OPEN);
-    
-    \REG_K2/Q[12]\ : SLE
-      port map(D => \k2[12]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_28\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[12]\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_8\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -3172,32 +2977,24 @@ begin
         \b_imag_ibuf[3]/YIN\);
     
     AFLSDF_INV_82 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[3]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[0]\, 
         Y => \AFLSDF_INV_82\);
-    
-    \REG_K2/Q[7]\ : SLE
-      port map(D => \k2[7]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_31\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[7]\);
     
     \REG_IN_AI/Q[3]\ : SLE
       port map(D => \a_imag_c[3]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_47\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_27\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \ai[3]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_28\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
-    
-    AFLSDF_INV_265 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[3]\, 
-        Y => \AFLSDF_INV_265\);
     
     \p_real_obuf[3]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_real(3), D => \p_real_obuf[3]/DOUT\, E
          => \p_real_obuf[3]/EOUT\);
     
     AFLSDF_INV_117 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_117\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[28]\, 
+        Y => \AFLSDF_INV_117\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_32\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -3209,20 +3006,17 @@ begin
     
     \REG_OUT_R/Q[11]\ : SLE
       port map(D => \p[11]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_136\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_101\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[11]\);
     
     \REG_OUT_I/Q[11]\ : SLE
       port map(D => \pi[11]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_202\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_161\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[11]\);
     
     AFLSDF_INV_39 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_39\);
-    
-    AFLSDF_INV_237 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[14]\, 
-        Y => \AFLSDF_INV_237\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[32]\, 
+        Y => \AFLSDF_INV_39\);
     
     AFLSDF_INV_23 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_23\);
@@ -3232,7 +3026,7 @@ begin
     
     \REG_IN_B/Q[3]\ : SLE
       port map(D => \b_real_c[3]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_25\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_15\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \b[3]\);
     
     \b_imag_ibuf[1]/U_IOPAD\ : IOPAD_IN
@@ -3286,11 +3080,11 @@ begin
         NET_CC_CONFIG215);
     
     AFLSDF_INV_186 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[9]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[25]\, 
         Y => \AFLSDF_INV_186\);
     
     AFLSDF_INV_56 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[38]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[8]\, 
         Y => \AFLSDF_INV_56\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_23\ : CFG4_IP_ABCD
@@ -3307,11 +3101,6 @@ begin
       port map(PAD => p_imag(15), D => \p_imag_obuf[15]/DOUT\, E
          => \p_imag_obuf[15]/EOUT\);
     
-    \REG_K2/Q[14]\ : SLE
-      port map(D => \k2[14]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_37\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[14]\);
-    
     \b_imag_ibuf[7]/U_IOIN\ : IOIN_IB_E
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
          TX_OE_MODE => "000", INPUT_DELAY_SEL => "00",
@@ -3322,7 +3111,7 @@ begin
         \b_imag_ibuf[7]/YIN\);
     
     AFLSDF_INV_81 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[4]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[1]\, 
         Y => \AFLSDF_INV_81\);
     
     \p_imag_obuf[2]/U_IOPAD\ : IOPAD_TRI
@@ -3330,7 +3119,7 @@ begin
          => \p_imag_obuf[2]/EOUT\);
     
     AFLSDF_INV_184 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[11]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[28]\, 
         Y => \AFLSDF_INV_184\);
     
     aai_0_cry_2 : ARI1_CC
@@ -3344,7 +3133,7 @@ begin
     
     \REG_IN_A/Q[2]\ : SLE
       port map(D => \a_real_c[2]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_4\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_2\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \a[2]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_0\ : CFG4_IP_ABCD
@@ -3355,18 +3144,14 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[0]\, IPB => OPEN, 
         IPC => OPEN, IPD => OPEN);
     
-    AFLSDF_INV_257 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[11]\, 
-        Y => \AFLSDF_INV_257\);
-    
     \REG_OUT_R/Q[14]\ : SLE
       port map(D => \p[14]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_116\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_90\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[14]\);
     
     \REG_OUT_I/Q[14]\ : SLE
       port map(D => \pi[14]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_133\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_100\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[14]\);
     
     \en_ibuf/U_IOIN\ : IOIN_IB_E
@@ -3381,12 +3166,12 @@ begin
       port map(A => rst_c, Y => \AFLSDF_INV_25\);
     
     AFLSDF_INV_181 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[14]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[32]\, 
         Y => \AFLSDF_INV_181\);
     
     \REG_IN_A/Q[3]\ : SLE
       port map(D => \a_real_c[3]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_32\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_18\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \a[3]\);
     
     aai_0_cry_3 : ARI1_CC
@@ -3399,7 +3184,7 @@ begin
         NET_CC_CONFIG207);
     
     AFLSDF_INV_145 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[43]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[12]\, 
         Y => \AFLSDF_INV_145\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_15\ : SLE_IP_EN
@@ -3435,16 +3220,12 @@ begin
       port map(PAD => p_real(6), D => \p_real_obuf[6]/DOUT\, E
          => \p_real_obuf[6]/EOUT\);
     
-    AFLSDF_INV_233 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[20]\, 
-        Y => \AFLSDF_INV_233\);
-    
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_2\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     \REG_IN_AI/Q[6]\ : SLE
       port map(D => \a_imag_c[6]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_106\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_84\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \ai[6]\);
     
     \p_real_obuf[15]/U_IOTRI\ : IOTRI_OB_EB
@@ -3457,7 +3238,8 @@ begin
         \p_real_obuf[15]/DOUT\, EOUT => \p_real_obuf[15]/EOUT\);
     
     AFLSDF_INV_136 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_136\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[3]\, 
+        Y => \AFLSDF_INV_136\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_30\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -3490,10 +3272,12 @@ begin
         \overflow_obuf/EOUT\);
     
     AFLSDF_INV_34 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_34\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[40]\, 
+        Y => \AFLSDF_INV_34\);
     
     AFLSDF_INV_134 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_134\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[5]\, 
+        Y => \AFLSDF_INV_134\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_11\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -3505,13 +3289,9 @@ begin
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[10]\, IPD => 
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[11]\);
     
-    AFLSDF_INV_238 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[13]\, 
-        Y => \AFLSDF_INV_238\);
-    
     \REG_IN_A/Q[7]\ : SLE
       port map(D => \a_real_c[7]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_271\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_226\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \a[7]\);
     
     \p_real_obuf[5]/U_IOTRI\ : IOTRI_OB_EB
@@ -3536,16 +3316,13 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_131 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_131\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[8]\, 
+        Y => \AFLSDF_INV_131\);
     
     \REG_IN_B/Q[1]\ : SLE
       port map(D => \b_real_c[1]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_120\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_93\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \b[1]\);
-    
-    AFLSDF_INV_253 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[15]\, 
-        Y => \AFLSDF_INV_253\);
     
     p_0_cry_10 : ARI1_CC
       generic map(INIT => x"5AA55")
@@ -3573,29 +3350,19 @@ begin
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[3]\);
     
     AFLSDF_INV_156 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[26]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[1]\, 
         Y => \AFLSDF_INV_156\);
     
     AFLSDF_INV_227 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[29]\, 
-        Y => \AFLSDF_INV_227\);
-    
-    \REG_K3/Q[2]\ : SLE
-      port map(D => \k3[2]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_17\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[2]\);
+      port map(A => \AFLSDF_INV_227\, Y => 
+        \I_1/U0_RGB1_RGB0_rgb_net_1\);
     
     AFLSDF_INV_182 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[13]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[31]\, 
         Y => \AFLSDF_INV_182\);
     
     AFLSDF_INV_22 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_22\);
-    
-    \REG_K2/Q[1]\ : SLE
-      port map(D => \k2[1]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_2\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[1]\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_15\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -3604,23 +3371,15 @@ begin
       port map(PAD => a_imag(1), Y => \a_imag_ibuf[1]/YIN\);
     
     AFLSDF_INV_154 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[29]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[3]\, 
         Y => \AFLSDF_INV_154\);
     
-    AFLSDF_INV_266 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[2]\, 
-        Y => \AFLSDF_INV_266\);
-    
     AFLSDF_INV_173 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[4]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[44]\, 
         Y => \AFLSDF_INV_173\);
     
     \b_real_ibuf[6]/U_IOPAD\ : IOPAD_IN
       port map(PAD => b_real(6), Y => \b_real_ibuf[6]/YIN\);
-    
-    AFLSDF_INV_258 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[10]\, 
-        Y => \AFLSDF_INV_258\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_35\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -3643,11 +3402,8 @@ begin
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_34\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
-    AFLSDF_INV_279 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_279\);
-    
     AFLSDF_INV_151 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[34]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[6]\, 
         Y => \AFLSDF_INV_151\);
     
     \b_real_ibuf[0]/U_IOIN\ : IOIN_IB_E
@@ -3660,7 +3416,7 @@ begin
         \b_real_ibuf[0]/YIN\);
     
     AFLSDF_INV_78 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[7]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[4]\, 
         Y => \AFLSDF_INV_78\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_11\ : CFG4_IP_ABCD
@@ -3674,11 +3430,12 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[11]\);
     
     AFLSDF_INV_188 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[7]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[22]\, 
         Y => \AFLSDF_INV_188\);
     
     AFLSDF_INV_205 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_205\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[1]\, 
+        Y => \AFLSDF_INV_205\);
     
     \p_imag_obuf[1]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_imag(1), D => \p_imag_obuf[1]/DOUT\, E
@@ -3686,11 +3443,11 @@ begin
     
     \REG_OUT_I/Q[5]\ : SLE
       port map(D => \pi[5]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_44\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_25\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[5]\);
     
     AFLSDF_INV_193 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[2]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[14]\, 
         Y => \AFLSDF_INV_193\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_4\ : CFG4_IP_ABCD
@@ -3702,15 +3459,16 @@ begin
         IPC => OPEN, IPD => OPEN);
     
     AFLSDF_INV_217 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[44]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[7]\, 
         Y => \AFLSDF_INV_217\);
     
     AFLSDF_INV_132 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_132\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[7]\, 
+        Y => \AFLSDF_INV_132\);
     
     \REG_OUT_R/Q[9]\ : SLE
       port map(D => \p[9]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_114\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_89\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[9]\);
     
     \p_real_obuf[12]/U_IOTRI\ : IOTRI_OB_EB
@@ -3737,16 +3495,16 @@ begin
     
     \REG_IN_A/Q[6]\ : SLE
       port map(D => \a_real_c[6]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_132\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_99\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \a[6]\);
     
     AFLSDF_INV_223 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[35]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[1]\, 
         Y => \AFLSDF_INV_223\);
     
     \REG_OUT_I/Q[9]\ : SLE
       port map(D => \pi[9]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_128\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_97\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[9]\);
     
     \p_real_obuf[15]/U_IOPAD\ : IOPAD_TRI
@@ -3754,7 +3512,8 @@ begin
          => \p_real_obuf[15]/EOUT\);
     
     AFLSDF_INV_126 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_126\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[14]\, 
+        Y => \AFLSDF_INV_126\);
     
     pi_0_cry_4 : ARI1_CC
       generic map(INIT => x"555AA")
@@ -3769,7 +3528,7 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_50 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[47]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[16]\, 
         Y => \AFLSDF_INV_50\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_27\ : SLE_IP_EN
@@ -3783,23 +3542,24 @@ begin
       port map(A => rst_c, Y => \AFLSDF_INV_18\);
     
     AFLSDF_INV_73 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[13]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[9]\, 
         Y => \AFLSDF_INV_73\);
     
     AFLSDF_INV_8 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_8\);
     
     AFLSDF_INV_124 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_124\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[17]\, 
+        Y => \AFLSDF_INV_124\);
     
     \REG_OUT_R/Q[15]\ : SLE
       port map(D => \p[15]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_6\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_3\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[15]\);
     
     \REG_OUT_I/Q[15]\ : SLE
       port map(D => \pi[15]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_22\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_13\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[15]\);
     
     \p_real_obuf[8]/U_IOPAD\ : IOPAD_TRI
@@ -3807,27 +3567,27 @@ begin
          => \p_real_obuf[8]/EOUT\);
     
     AFLSDF_INV_138 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_138\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[1]\, 
+        Y => \AFLSDF_INV_138\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_19\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_228 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[28]\, 
-        Y => \AFLSDF_INV_228\);
+      port map(A => rst_c, Y => \AFLSDF_INV_228\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_21\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_152 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[32]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[5]\, 
         Y => \AFLSDF_INV_152\);
     
     \a_real_ibuf[7]/U_IOPAD\ : IOPAD_IN
       port map(PAD => a_real(7), Y => \a_real_ibuf[7]/YIN\);
     
     AFLSDF_INV_68 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[20]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[14]\, 
         Y => \AFLSDF_INV_68\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_13\ : CFG4_IP_ABCD
@@ -3841,16 +3601,11 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[14]\);
     
     AFLSDF_INV_165 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[13]\, 
-        Y => \AFLSDF_INV_165\);
+      port map(A => rst_c, Y => \AFLSDF_INV_165\);
     
     AFLSDF_INV_121 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_121\);
-    
-    \REG_K2/Q[8]\ : SLE
-      port map(D => \k2[8]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_211\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[8]\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[22]\, 
+        Y => \AFLSDF_INV_121\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_5\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -3863,7 +3618,8 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_213 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_213\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[11]\, 
+        Y => \AFLSDF_INV_213\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_3\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -3896,10 +3652,11 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[44]\);
     
     AFLSDF_INV_116 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_116\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[29]\, 
+        Y => \AFLSDF_INV_116\);
     
     AFLSDF_INV_75 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[10]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[7]\, 
         Y => \AFLSDF_INV_75\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_19\ : CFG4_IP_ABCD
@@ -3913,14 +3670,14 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[23]\);
     
     AFLSDF_INV_36 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_36\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[37]\, 
+        Y => \AFLSDF_INV_36\);
     
     AFLSDF_INV_158 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[23]\, 
-        Y => \AFLSDF_INV_158\);
+      port map(A => rst_c, Y => \AFLSDF_INV_158\);
     
     AFLSDF_INV_143 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[46]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[14]\, 
         Y => \AFLSDF_INV_143\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_15\ : CFG4_IP_ABCD
@@ -3954,15 +3711,12 @@ begin
       port map(Y => \b_imag_c[0]\, E => ADLIB_GND, YIN => 
         \b_imag_ibuf[0]/YIN\);
     
-    AFLSDF_INV_249 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[1]\, 
-        Y => \AFLSDF_INV_249\);
-    
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_0\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_114 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_114\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[32]\, 
+        Y => \AFLSDF_INV_114\);
     
     pi_0_cry_0_CC_0 : CC_CONFIG
       port map(CI => ADLIB_GND, CO => CI_TO_CO63, P(0) => 
@@ -3992,11 +3746,11 @@ begin
         NET_CC_CONFIG107, CC(11) => NET_CC_CONFIG111);
     
     AFLSDF_INV_63 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[28]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[1]\, 
         Y => \AFLSDF_INV_63\);
     
     AFLSDF_INV_218 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[43]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[6]\, 
         Y => \AFLSDF_INV_218\);
     
     \p_imag_obuf[4]/U_IOTRI\ : IOTRI_OB_EB
@@ -4021,7 +3775,8 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_111 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_111\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[37]\, 
+        Y => \AFLSDF_INV_111\);
     
     bbi_0_cry_5 : ARI1_CC
       generic map(INIT => x"555AA")
@@ -4033,7 +3788,7 @@ begin
         NET_CC_CONFIG150);
     
     AFLSDF_INV_177 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[0]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[38]\, 
         Y => \AFLSDF_INV_177\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_19\ : SLE_IP_EN
@@ -4041,11 +3796,11 @@ begin
     
     \REG_OUT_I/Q[6]\ : SLE
       port map(D => \pi[6]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_139\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_102\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[6]\);
     
     AFLSDF_INV_180 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[15]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[34]\, 
         Y => \AFLSDF_INV_180\);
     
     aai_0_s_7 : ARI1_CC
@@ -4058,7 +3813,8 @@ begin
         NET_CC_CONFIG223);
     
     AFLSDF_INV_122 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_122\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[20]\, 
+        Y => \AFLSDF_INV_122\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_23\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -4093,12 +3849,9 @@ begin
       port map(Y => \a_imag_c[3]\, E => ADLIB_GND, YIN => 
         \a_imag_ibuf[3]/YIN\);
     
-    AFLSDF_INV_232 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[22]\, 
-        Y => \AFLSDF_INV_232\);
-    
     AFLSDF_INV_206 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_206\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[0]\, 
+        Y => \AFLSDF_INV_206\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_18\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4108,42 +3861,32 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[9]\, IPB => OPEN, 
         IPC => OPEN, IPD => OPEN);
     
-    \REG_K2/Q[13]\ : SLE
-      port map(D => \k2[13]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_135\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[13]\);
-    
     AFLSDF_INV_65 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[25]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[17]\, 
         Y => \AFLSDF_INV_65\);
     
     \REG_OUT_I/Q[4]\ : SLE
       port map(D => \pi[4]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_7\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_4\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[4]\);
     
     AFLSDF_INV_197 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_197\);
-    
-    \REG_K3/Q[6]\ : SLE
-      port map(D => \k3[6]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_204\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[6]\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[9]\, 
+        Y => \AFLSDF_INV_197\);
     
     AFLSDF_INV_87 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[16]\, 
-        Y => \AFLSDF_INV_87\);
+      port map(A => rst_c, Y => \AFLSDF_INV_87\);
     
     AFLSDF_INV_230 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[25]\, 
-        Y => \AFLSDF_INV_230\);
+      port map(A => rst_c, Y => \AFLSDF_INV_230\);
     
     AFLSDF_INV_72 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[14]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[10]\, 
         Y => \AFLSDF_INV_72\);
     
     AFLSDF_INV_128 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_128\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[11]\, 
+        Y => \AFLSDF_INV_128\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_29\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4197,22 +3940,20 @@ begin
         \p_real_obuf[7]/DOUT\, EOUT => \p_real_obuf[7]/EOUT\);
     
     AFLSDF_INV_130 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_130\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[9]\, 
+        Y => \AFLSDF_INV_130\);
     
     \p_imag_obuf[0]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_imag(0), D => \p_imag_obuf[0]/DOUT\, E
          => \p_imag_obuf[0]/EOUT\);
     
-    AFLSDF_INV_252 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[16]\, 
-        Y => \AFLSDF_INV_252\);
-    
     \I_1/U0_RGB1\ : RGB
       port map(A => \I_1/U0_Y\, EN => ADLIB_VCC, Y => 
-        \AFLSDF_INV_212\);
+        \AFLSDF_INV_168\);
     
     AFLSDF_INV_112 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_112\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[35]\, 
+        Y => \AFLSDF_INV_112\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_4\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -4255,13 +3996,7 @@ begin
         \a_imag_ibuf[5]/YIN\);
     
     AFLSDF_INV_89 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[14]\, 
-        Y => \AFLSDF_INV_89\);
-    
-    \REG_K3/Q[15]\ : SLE
-      port map(D => \k3[15]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_108\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[15]\);
+      port map(A => rst_c, Y => \AFLSDF_INV_89\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_5\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4285,10 +4020,6 @@ begin
       port map(Y => \a_real_c[4]\, E => ADLIB_GND, YIN => 
         \a_real_ibuf[4]/YIN\);
     
-    AFLSDF_INV_250 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[0]\, 
-        Y => \AFLSDF_INV_250\);
-    
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_34\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
 
@@ -4299,7 +4030,7 @@ begin
     
     \REG_IN_B/Q[4]\ : SLE
       port map(D => \b_real_c[4]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_129\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_98\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \b[4]\);
     
     \b_imag_ibuf[2]/U_IOIN\ : IOIN_IB_E
@@ -4327,29 +4058,26 @@ begin
         \p_imag_obuf[15]/DOUT\, EOUT => \p_imag_obuf[15]/EOUT\);
     
     AFLSDF_INV_71 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[16]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[11]\, 
         Y => \AFLSDF_INV_71\);
     
-    \REG_K2/Q[0]\ : SLE
-      port map(D => \k2[0]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_41\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[0]\);
-    
     AFLSDF_INV_150 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[35]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[7]\, 
         Y => \AFLSDF_INV_150\);
     
     AFLSDF_INV_118 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_118\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[26]\, 
+        Y => \AFLSDF_INV_118\);
     
     AFLSDF_INV_105 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_105\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[46]\, 
+        Y => \AFLSDF_INV_105\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_28\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_62 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[29]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[2]\, 
         Y => \AFLSDF_INV_62\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_28\ : CFG4_IP_ABCD
@@ -4360,19 +4088,9 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/A_net[14]\, IPB => 
         OPEN, IPC => OPEN, IPD => OPEN);
     
-    \REG_K3/Q[12]\ : SLE
-      port map(D => \k3[12]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_5\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[12]\);
-    
     AFLSDF_INV_147 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[40]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[10]\, 
         Y => \AFLSDF_INV_147\);
-    
-    \REG_K2/Q[3]\ : SLE
-      port map(D => \k2[3]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_137\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[3]\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_18\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4392,16 +4110,16 @@ begin
         \p_real_obuf[8]/DOUT\, EOUT => \p_real_obuf[8]/EOUT\);
     
     AFLSDF_INV_48 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_48\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[19]\, 
+        Y => \AFLSDF_INV_48\);
     
     \REG_OUT_R/Q[2]\ : SLE
       port map(D => \p[2]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_36\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_21\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[2]\);
     
     AFLSDF_INV_163 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[16]\, 
-        Y => \AFLSDF_INV_163\);
+      port map(A => rst_c, Y => \AFLSDF_INV_163\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_9\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4414,14 +4132,12 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[9]\);
     
     AFLSDF_INV_30 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_30\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[46]\, 
+        Y => \AFLSDF_INV_30\);
     
     AFLSDF_INV_222 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[37]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[2]\, 
         Y => \AFLSDF_INV_222\);
-    
-    AFLSDF_INV_269 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_269\);
     
     AFLSDF_INV_11 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_11\);
@@ -4431,7 +4147,7 @@ begin
     
     \REG_IN_A/Q[4]\ : SLE
       port map(D => \a_real_c[4]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_35\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_20\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \a[4]\);
     
     \p_imag_obuf[5]/U_IOTRI\ : IOTRI_OB_EB
@@ -4447,32 +4163,19 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_84 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[1]\, 
-        Y => \AFLSDF_INV_84\);
+      port map(A => rst_c, Y => \AFLSDF_INV_84\);
     
     AFLSDF_INV_220 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[40]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[4]\, 
         Y => \AFLSDF_INV_220\);
     
     AFLSDF_INV_61 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[31]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[3]\, 
         Y => \AFLSDF_INV_61\);
     
-    \REG_K3/Q[14]\ : SLE
-      port map(D => \k3[14]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_9\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[14]\);
-    
-    \REG_K1/Q[6]\ : SLE
-      port map(D => \k1[6]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_40\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[6]\);
-    
     AFLSDF_INV_120 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_120\);
-    
-    AFLSDF_INV_277 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_277\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[23]\, 
+        Y => \AFLSDF_INV_120\);
     
     \p_real_obuf[7]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_real(7), D => \p_real_obuf[7]/DOUT\, E
@@ -4491,7 +4194,8 @@ begin
         NET_CC_CONFIG90);
     
     AFLSDF_INV_43 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_43\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[26]\, 
+        Y => \AFLSDF_INV_43\);
     
     AFLSDF_INV_27 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_27\);
@@ -4515,11 +4219,11 @@ begin
         NET_CC_CONFIG57);
     
     AFLSDF_INV_231 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[23]\, 
-        Y => \AFLSDF_INV_231\);
+      port map(A => rst_c, Y => \AFLSDF_INV_231\);
     
     AFLSDF_INV_212 : INV_BA
-      port map(A => \AFLSDF_INV_212\, Y => NN_1);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[12]\, 
+        Y => \AFLSDF_INV_212\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_16\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4548,7 +4252,7 @@ begin
         OPEN, IPC => OPEN, IPD => OPEN);
     
     AFLSDF_INV_189 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[6]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[20]\, 
         Y => \AFLSDF_INV_189\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_35\ : SLE_IP_EN
@@ -4563,21 +4267,13 @@ begin
         NET_CC_CONFIG124, Y3 => NET_CC_CONFIG125, Y3A => 
         NET_CC_CONFIG126);
     
-    \REG_K2/Q[11]\ : SLE
-      port map(D => \k2[11]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_10\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[11]\);
-    
     AFLSDF_INV_210 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_210\);
-    
-    \REG_K3/Q[0]\ : SLE
-      port map(D => \k3[0]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_124\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[0]\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[14]\, 
+        Y => \AFLSDF_INV_210\);
     
     AFLSDF_INV_29 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_29\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[47]\, 
+        Y => \AFLSDF_INV_29\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_18\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4596,7 +4292,8 @@ begin
         IPC => OPEN, IPD => OPEN);
     
     AFLSDF_INV_45 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_45\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[23]\, 
+        Y => \AFLSDF_INV_45\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_7\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4641,15 +4338,12 @@ begin
       port map(D => \p_imag_c[7]\, E => ADLIB_VCC, DOUT => 
         \p_imag_obuf[7]/DOUT\, EOUT => \p_imag_obuf[7]/EOUT\);
     
-    AFLSDF_INV_251 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[17]\, 
-        Y => \AFLSDF_INV_251\);
-    
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_3\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_110 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_110\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[38]\, 
+        Y => \AFLSDF_INV_110\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_19\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -4665,10 +4359,6 @@ begin
 
       port map(Y => \a_real_c[6]\, E => ADLIB_GND, YIN => 
         \a_real_ibuf[6]/YIN\);
-    
-    AFLSDF_INV_273 : INV_BA
-      port map(A => \AFLSDF_INV_273\, Y => 
-        \I_1/U0_RGB1_RGB0_rgb_net_1\);
     
     \p_imag_obuf[5]/U_IOPAD\ : IOPAD_TRI
       port map(PAD => p_imag(5), D => \p_imag_obuf[5]/DOUT\, E
@@ -4694,11 +4384,10 @@ begin
         \a_imag_ibuf[1]/YIN\);
     
     AFLSDF_INV_98 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[5]\, 
-        Y => \AFLSDF_INV_98\);
+      port map(A => rst_c, Y => \AFLSDF_INV_98\);
     
     AFLSDF_INV_176 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[1]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[40]\, 
         Y => \AFLSDF_INV_176\);
     
     \rst_ibuf/U_IOPAD\ : IOPAD_IN
@@ -4712,11 +4401,12 @@ begin
     
     \REG_IN_BI/Q[2]\ : SLE
       port map(D => \b_imag_c[2]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_20\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_12\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \bi[2]\);
     
     AFLSDF_INV_139 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_139\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[0]\, 
+        Y => \AFLSDF_INV_139\);
     
     aai_0_cry_1 : ARI1_CC
       generic map(INIT => x"555AA")
@@ -4737,10 +4427,10 @@ begin
         \a_real_ibuf[7]/YIN\);
     
     ov_1 : CFG4
-      generic map(INIT => x"F2F4")
+      generic map(INIT => x"F1F8")
 
-      port map(A => \k3[15]\, B => \pi[15]\, C => of_p_Z, D => 
-        \k1[15]\, Y => ov_1_Z);
+      port map(A => \b[7]\, B => \bi[7]\, C => ov_0_Z, D => 
+        \bbi[7]\, Y => ov_1_Z);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_31\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4753,7 +4443,7 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[41]\);
     
     AFLSDF_INV_174 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[3]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[43]\, 
         Y => \AFLSDF_INV_174\);
     
     pi_0_cry_7 : ARI1_CC
@@ -4770,9 +4460,6 @@ begin
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_30\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
-    
-    AFLSDF_INV_278 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_278\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_11\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4797,7 +4484,7 @@ begin
         NET_CC_CONFIG167);
     
     AFLSDF_INV_171 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[6]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[47]\, 
         Y => \AFLSDF_INV_171\);
     
     p_0_cry_6 : ARI1_CC
@@ -4810,11 +4497,11 @@ begin
         NET_CC_CONFIG25);
     
     AFLSDF_INV_196 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_196\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[10]\, 
+        Y => \AFLSDF_INV_196\);
     
     AFLSDF_INV_167 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[10]\, 
-        Y => \AFLSDF_INV_167\);
+      port map(A => rst_c, Y => \AFLSDF_INV_167\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_26\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4844,14 +4531,14 @@ begin
     
     \REG_IN_A/Q[1]\ : SLE
       port map(D => \a_real_c[1]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_42\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_23\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \a[1]\);
     
-    ov : CFG3
-      generic map(INIT => x"FE")
+    ov : CFG4
+      generic map(INIT => x"F4F2")
 
-      port map(A => ov_1_Z, B => of_k1_Z, C => ov_1_0_Z, Y => 
-        ov_Z);
+      port map(A => \a[7]\, B => \ai[7]\, C => ov_2_Z, D => 
+        \aia[7]\, Y => ov_Z);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_1\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4872,26 +4559,21 @@ begin
         NET_CC_CONFIG173, Y3 => NET_CC_CONFIG174, Y3A => 
         NET_CC_CONFIG175);
     
-    AFLSDF_INV_247 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[3]\, 
-        Y => \AFLSDF_INV_247\);
-    
     \b_real_ibuf[5]/U_IOPAD\ : IOPAD_IN
       port map(PAD => b_real(5), Y => \b_real_ibuf[5]/YIN\);
     
     AFLSDF_INV_42 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_42\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[28]\, 
+        Y => \AFLSDF_INV_42\);
     
     AFLSDF_INV_159 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[22]\, 
-        Y => \AFLSDF_INV_159\);
+      port map(A => rst_c, Y => \AFLSDF_INV_159\);
     
     AFLSDF_INV_24 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_24\);
     
     AFLSDF_INV_93 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[10]\, 
-        Y => \AFLSDF_INV_93\);
+      port map(A => rst_c, Y => \AFLSDF_INV_93\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_28\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4902,16 +4584,15 @@ begin
         OPEN, IPC => OPEN, IPD => OPEN);
     
     AFLSDF_INV_194 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[1]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[13]\, 
         Y => \AFLSDF_INV_194\);
     
     AFLSDF_INV_221 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[38]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[3]\, 
         Y => \AFLSDF_INV_221\);
     
     AFLSDF_INV_103 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[0]\, 
-        Y => \AFLSDF_INV_103\);
+      port map(A => rst_c, Y => \AFLSDF_INV_103\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_24\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -4930,18 +4611,18 @@ begin
         Y3 => NET_CC_CONFIG0, Y3A => NET_CC_CONFIG1);
     
     AFLSDF_INV_209 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_209\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[15]\, 
+        Y => \AFLSDF_INV_209\);
     
     AFLSDF_INV_191 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[4]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[17]\, 
         Y => \AFLSDF_INV_191\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_8\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_86 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[17]\, 
-        Y => \AFLSDF_INV_86\);
+      port map(A => rst_c, Y => \AFLSDF_INV_86\);
     
     AFLSDF_INV_1 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_1\);
@@ -4993,13 +4674,7 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_95 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[8]\, 
-        Y => \AFLSDF_INV_95\);
-    
-    \REG_K3/Q[3]\ : SLE
-      port map(D => \k3[3]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_209\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[3]\);
+      port map(A => rst_c, Y => \AFLSDF_INV_95\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_17\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -5013,7 +4688,7 @@ begin
     
     \REG_IN_BI/Q[5]\ : SLE
       port map(D => \b_imag_c[5]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_207\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_165\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \bi[5]\);
     
     \p_imag_obuf[10]/U_IOTRI\ : IOTRI_OB_EB
@@ -5045,7 +4720,7 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[7]\);
     
     AFLSDF_INV_172 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[5]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[46]\, 
         Y => \AFLSDF_INV_172\);
     
     bbi_0_s_7 : ARI1_CC
@@ -5058,11 +4733,8 @@ begin
         NET_CC_CONFIG158);
     
     AFLSDF_INV_41 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_41\);
-    
-    AFLSDF_INV_243 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[7]\, 
-        Y => \AFLSDF_INV_243\);
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[29]\, 
+        Y => \AFLSDF_INV_41\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_21\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -5075,11 +4747,12 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[26]\);
     
     AFLSDF_INV_211 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_211\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[13]\, 
+        Y => \AFLSDF_INV_211\);
     
     \REG_IN_A/Q[5]\ : SLE
       port map(D => \a_real_c[5]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_121\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_94\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \a[5]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_35\ : CFG4_IP_ABCD
@@ -5096,38 +4769,19 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_146 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[41]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[11]\, 
         Y => \AFLSDF_INV_146\);
-    
-    AFLSDF_INV_234 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[19]\, 
-        Y => \AFLSDF_INV_234\);
-    
-    \REG_K1/Q[15]\ : SLE
-      port map(D => \k1[15]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_134\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[15]\);
     
     \a_real_ibuf[3]/U_IOPAD\ : IOPAD_IN
       port map(PAD => a_real(3), Y => \a_real_ibuf[3]/YIN\);
     
-    \REG_K3/Q[4]\ : SLE
-      port map(D => \k3[4]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_140\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[4]\);
-    
     AFLSDF_INV_129 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_129\);
-    
-    of_k1 : CFG3
-      generic map(INIT => x"42")
-
-      port map(A => \bbi[7]\, B => \bi[7]\, C => \b[7]\, Y => 
-        of_k1_Z);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[10]\, 
+        Y => \AFLSDF_INV_129\);
     
     \REG_OUT_I/Q[8]\ : SLE
       port map(D => \pi[8]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_24\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_14\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[8]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_31\ : SLE_IP_EN
@@ -5145,15 +4799,15 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_77 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[8]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[5]\, 
         Y => \AFLSDF_INV_77\);
     
     AFLSDF_INV_192 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[3]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[16]\, 
         Y => \AFLSDF_INV_192\);
     
     AFLSDF_INV_144 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[44]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[13]\, 
         Y => \AFLSDF_INV_144\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_6\ : CFG4_IP_ABCD
@@ -5168,15 +4822,11 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_178 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[17]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[37]\, 
         Y => \AFLSDF_INV_178\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/FF_4\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
-    
-    AFLSDF_INV_248 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[2]\, 
-        Y => \AFLSDF_INV_248\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_26\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -5191,45 +4841,46 @@ begin
         P(28) => nc4, P(27) => nc227, P(26) => nc92, P(25) => 
         nc101, P(24) => nc346, P(23) => nc330, P(22) => nc184, 
         P(21) => nc200, P(20) => nc190, P(19) => nc166, P(18) => 
-        nc372, P(17) => nc355, P(16) => nc338, P(15) => \k1[15]\, 
-        P(14) => \k1[14]\, P(13) => \k1[13]\, P(12) => \k1[12]\, 
-        P(11) => \k1[11]\, P(10) => \k1[10]\, P(9) => \k1[9]\, 
-        P(8) => \k1[8]\, P(7) => \k1[7]\, P(6) => \k1[6]\, P(5)
-         => \k1[5]\, P(4) => \k1[4]\, P(3) => \k1[3]\, P(2) => 
-        \k1[2]\, P(1) => \k1[1]\, P(0) => \k1[0]\, A_ADDR_D_SH
-         => OPEN, B2_EN_SH => OPEN, BCOUT(17) => nc326, BCOUT(16)
-         => nc132, BCOUT(15) => nc383, BCOUT(14) => nc334, 
-        BCOUT(13) => nc21, BCOUT(12) => nc237, BCOUT(11) => nc93, 
-        BCOUT(10) => nc262, BCOUT(9) => nc69, BCOUT(8) => nc206, 
-        BCOUT(7) => nc174, BCOUT(6) => nc38, BCOUT(5) => nc113, 
-        BCOUT(4) => nc336, BCOUT(3) => nc218, BCOUT(2) => nc342, 
-        BCOUT(1) => nc373, BCOUT(0) => nc106, B1(17) => nc261, 
-        B1(16) => nc25, B1(15) => nc1, B1(14) => nc385, B1(13)
-         => nc322, B1(12) => nc299, B1(11) => nc37, B1(10) => 
-        nc202, B1(9) => nc144, B1(8) => nc153, B1(7) => nc46, 
-        B1(6) => nc258, B1(5) => nc343, B1(4) => nc71, B1(3) => 
-        nc124, B1(2) => nc332, B1(1) => nc81, B1(0) => nc375, 
-        A_ADDR_D => ADLIB_VCC, CARRYIN => ADLIB_GND, CLK => 
-        \I_1/U0_RGB1_RGB0_rgb_net_1\, AL_N => \AFLSDF_INV_141\, 
-        A(17) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[17]\, 
-        A(16) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[16]\, 
-        A(15) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[15]\, 
-        A(14) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[14]\, 
-        A(13) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[13]\, 
-        A(12) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[12]\, 
-        A(11) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[11]\, 
-        A(10) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[10]\, 
-        A(9) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[9]\, 
-        A(8) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[8]\, 
-        A(7) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[7]\, 
-        A(6) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[6]\, 
-        A(5) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[5]\, 
-        A(4) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[4]\, 
-        A(3) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[3]\, 
-        A(2) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[2]\, 
-        A(1) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[1]\, 
-        A(0) => \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[0]\, 
-        A_EN => en_c, A_SRST_N => ADLIB_VCC, B(17) => 
+        nc372, P(17) => nc355, P(16) => nc338, P(15) => \k1r[15]\, 
+        P(14) => \k1r[14]\, P(13) => \k1r[13]\, P(12) => 
+        \k1r[12]\, P(11) => \k1r[11]\, P(10) => \k1r[10]\, P(9)
+         => \k1r[9]\, P(8) => \k1r[8]\, P(7) => \k1r[7]\, P(6)
+         => \k1r[6]\, P(5) => \k1r[5]\, P(4) => \k1r[4]\, P(3)
+         => \k1r[3]\, P(2) => \k1r[2]\, P(1) => \k1r[1]\, P(0)
+         => p_0, A_ADDR_D_SH => OPEN, B2_EN_SH => OPEN, BCOUT(17)
+         => nc326, BCOUT(16) => nc132, BCOUT(15) => nc383, 
+        BCOUT(14) => nc334, BCOUT(13) => nc21, BCOUT(12) => nc237, 
+        BCOUT(11) => nc93, BCOUT(10) => nc262, BCOUT(9) => nc69, 
+        BCOUT(8) => nc206, BCOUT(7) => nc174, BCOUT(6) => nc38, 
+        BCOUT(5) => nc113, BCOUT(4) => nc336, BCOUT(3) => nc218, 
+        BCOUT(2) => nc342, BCOUT(1) => nc373, BCOUT(0) => nc106, 
+        B1(17) => nc261, B1(16) => nc25, B1(15) => nc1, B1(14)
+         => nc385, B1(13) => nc322, B1(12) => nc299, B1(11) => 
+        nc37, B1(10) => nc202, B1(9) => nc144, B1(8) => nc153, 
+        B1(7) => nc46, B1(6) => nc258, B1(5) => nc343, B1(4) => 
+        nc71, B1(3) => nc124, B1(2) => nc332, B1(1) => nc81, 
+        B1(0) => nc375, A_ADDR_D => ADLIB_VCC, CARRYIN => 
+        ADLIB_GND, CLK => \I_1/U0_RGB1_RGB0_rgb_net_1\, AL_N => 
+        \AFLSDF_INV_103\, A(17) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[17]\, A(16) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[16]\, A(15) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[15]\, A(14) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[14]\, A(13) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[13]\, A(12) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[12]\, A(11) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[11]\, A(10) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[10]\, A(9) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[9]\, A(8) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[8]\, A(7) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[7]\, A(6) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[6]\, A(5) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[5]\, A(4) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[4]\, A(3) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[3]\, A(2) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[2]\, A(1) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[1]\, A(0) => 
+        \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[0]\, A_EN => 
+        en_c, A_SRST_N => ADLIB_VCC, B(17) => 
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/B_net[17]\, B(16) => 
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/B_net[16]\, B(15) => 
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/B_net[15]\, B(14) => 
@@ -5248,43 +4899,43 @@ begin
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/B_net[2]\, B(1) => 
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/B_net[1]\, B(0) => 
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/B_net[0]\, B_EN => 
-        en_c, B_SRST_N => ADLIB_VCC, C(47) => \AFLSDF_INV_142\, 
-        C(46) => \AFLSDF_INV_143\, C(45) => ADLIB_GND, C(44) => 
-        \AFLSDF_INV_144\, C(43) => \AFLSDF_INV_145\, C(42) => 
-        ADLIB_GND, C(41) => \AFLSDF_INV_146\, C(40) => 
-        \AFLSDF_INV_147\, C(39) => ADLIB_GND, C(38) => 
-        \AFLSDF_INV_148\, C(37) => \AFLSDF_INV_149\, C(36) => 
-        ADLIB_GND, C(35) => \AFLSDF_INV_150\, C(34) => 
-        \AFLSDF_INV_151\, C(33) => ADLIB_GND, C(32) => 
-        \AFLSDF_INV_152\, C(31) => \AFLSDF_INV_153\, C(30) => 
-        ADLIB_GND, C(29) => \AFLSDF_INV_154\, C(28) => 
-        \AFLSDF_INV_155\, C(27) => ADLIB_GND, C(26) => 
-        \AFLSDF_INV_156\, C(25) => \AFLSDF_INV_157\, C(24) => 
-        ADLIB_GND, C(23) => \AFLSDF_INV_158\, C(22) => 
-        \AFLSDF_INV_159\, C(21) => ADLIB_GND, C(20) => 
-        \AFLSDF_INV_160\, C(19) => \AFLSDF_INV_161\, C(18) => 
-        ADLIB_GND, C(17) => \AFLSDF_INV_162\, C(16) => 
-        \AFLSDF_INV_163\, C(15) => ADLIB_GND, C(14) => 
-        \AFLSDF_INV_164\, C(13) => \AFLSDF_INV_165\, C(12) => 
-        ADLIB_GND, C(11) => \AFLSDF_INV_166\, C(10) => 
-        \AFLSDF_INV_167\, C(9) => \AFLSDF_INV_168\, C(8) => 
-        \AFLSDF_INV_169\, C(7) => \AFLSDF_INV_170\, C(6) => 
-        \AFLSDF_INV_171\, C(5) => \AFLSDF_INV_172\, C(4) => 
-        \AFLSDF_INV_173\, C(3) => \AFLSDF_INV_174\, C(2) => 
-        \AFLSDF_INV_175\, C(1) => \AFLSDF_INV_176\, C(0) => 
-        \AFLSDF_INV_177\, C_EN => ADLIB_VCC, C_SRST_N => 
+        en_c, B_SRST_N => ADLIB_VCC, C(47) => \AFLSDF_INV_104\, 
+        C(46) => \AFLSDF_INV_105\, C(45) => ADLIB_GND, C(44) => 
+        \AFLSDF_INV_106\, C(43) => \AFLSDF_INV_107\, C(42) => 
+        ADLIB_GND, C(41) => \AFLSDF_INV_108\, C(40) => 
+        \AFLSDF_INV_109\, C(39) => ADLIB_GND, C(38) => 
+        \AFLSDF_INV_110\, C(37) => \AFLSDF_INV_111\, C(36) => 
+        ADLIB_GND, C(35) => \AFLSDF_INV_112\, C(34) => 
+        \AFLSDF_INV_113\, C(33) => ADLIB_GND, C(32) => 
+        \AFLSDF_INV_114\, C(31) => \AFLSDF_INV_115\, C(30) => 
+        ADLIB_GND, C(29) => \AFLSDF_INV_116\, C(28) => 
+        \AFLSDF_INV_117\, C(27) => ADLIB_GND, C(26) => 
+        \AFLSDF_INV_118\, C(25) => \AFLSDF_INV_119\, C(24) => 
+        ADLIB_GND, C(23) => \AFLSDF_INV_120\, C(22) => 
+        \AFLSDF_INV_121\, C(21) => ADLIB_GND, C(20) => 
+        \AFLSDF_INV_122\, C(19) => \AFLSDF_INV_123\, C(18) => 
+        ADLIB_GND, C(17) => \AFLSDF_INV_124\, C(16) => 
+        \AFLSDF_INV_125\, C(15) => ADLIB_GND, C(14) => 
+        \AFLSDF_INV_126\, C(13) => \AFLSDF_INV_127\, C(12) => 
+        ADLIB_GND, C(11) => \AFLSDF_INV_128\, C(10) => 
+        \AFLSDF_INV_129\, C(9) => \AFLSDF_INV_130\, C(8) => 
+        \AFLSDF_INV_131\, C(7) => \AFLSDF_INV_132\, C(6) => 
+        \AFLSDF_INV_133\, C(5) => \AFLSDF_INV_134\, C(4) => 
+        \AFLSDF_INV_135\, C(3) => \AFLSDF_INV_136\, C(2) => 
+        \AFLSDF_INV_137\, C(1) => \AFLSDF_INV_138\, C(0) => 
+        \AFLSDF_INV_139\, C_EN => ADLIB_VCC, C_SRST_N => 
         ADLIB_VCC, C_ARST_N => ADLIB_VCC, D(17) => 
-        \AFLSDF_INV_178\, D(16) => \AFLSDF_INV_179\, D(15) => 
-        \AFLSDF_INV_180\, D(14) => \AFLSDF_INV_181\, D(13) => 
-        \AFLSDF_INV_182\, D(12) => \AFLSDF_INV_183\, D(11) => 
-        \AFLSDF_INV_184\, D(10) => \AFLSDF_INV_185\, D(9) => 
-        \AFLSDF_INV_186\, D(8) => \AFLSDF_INV_187\, D(7) => 
-        \AFLSDF_INV_188\, D(6) => \AFLSDF_INV_189\, D(5) => 
-        \AFLSDF_INV_190\, D(4) => \AFLSDF_INV_191\, D(3) => 
-        \AFLSDF_INV_192\, D(2) => \AFLSDF_INV_193\, D(1) => 
-        \AFLSDF_INV_194\, D(0) => \AFLSDF_INV_195\, D_EN => 
+        \AFLSDF_INV_140\, D(16) => \AFLSDF_INV_141\, D(15) => 
+        \AFLSDF_INV_142\, D(14) => \AFLSDF_INV_143\, D(13) => 
+        \AFLSDF_INV_144\, D(12) => \AFLSDF_INV_145\, D(11) => 
+        \AFLSDF_INV_146\, D(10) => \AFLSDF_INV_147\, D(9) => 
+        \AFLSDF_INV_148\, D(8) => \AFLSDF_INV_149\, D(7) => 
+        \AFLSDF_INV_150\, D(6) => \AFLSDF_INV_151\, D(5) => 
+        \AFLSDF_INV_152\, D(4) => \AFLSDF_INV_153\, D(3) => 
+        \AFLSDF_INV_154\, D(2) => \AFLSDF_INV_155\, D(1) => 
+        \AFLSDF_INV_156\, D(0) => \AFLSDF_INV_157\, D_EN => 
         ADLIB_VCC, D_SRST_N => ADLIB_VCC, D_ARST_N => ADLIB_VCC, 
-        P_EN => ADLIB_VCC, P_SRST_N => ADLIB_VCC, ARSHFT17 => 
+        P_EN => en_c, P_SRST_N => ADLIB_VCC, ARSHFT17 => 
         ADLIB_GND, ARSHFT17_EN => ADLIB_VCC, ARSHFT17_SL_N => 
         ADLIB_VCC, SUB => ADLIB_GND, SUB_EN => ADLIB_VCC, 
         SUB_SL_N => ADLIB_VCC, PASUB => ADLIB_GND, PASUB_EN => 
@@ -5301,7 +4952,7 @@ begin
         ADLIB_VCC, B2_EN => ADLIB_VCC, SIMD => ADLIB_GND, DOTP
          => ADLIB_GND, OVFL_CARRYOUT_SEL => ADLIB_GND, A_BYPASS
          => ADLIB_GND, B_BYPASS => ADLIB_GND, C_BYPASS => 
-        ADLIB_VCC, D_BYPASS => ADLIB_VCC, P_BYPASS => ADLIB_VCC, 
+        ADLIB_VCC, D_BYPASS => ADLIB_VCC, P_BYPASS => ADLIB_GND, 
         SUB_BYPASS => ADLIB_VCC, SUB_SD_N => ADLIB_VCC, SUB_AD_N
          => ADLIB_VCC, ARSHFT17_BYPASS => ADLIB_VCC, 
         ARSHFT17_SD_N => ADLIB_GND, ARSHFT17_AD_N => ADLIB_VCC, 
@@ -5350,7 +5001,8 @@ begin
         CDOUT(0) => nc77);
     
     AFLSDF_INV_141 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_141\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[16]\, 
+        Y => \AFLSDF_INV_141\);
     
     \a_real_ibuf[5]/U_IOIN\ : IOIN_IB_E
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -5373,15 +5025,6 @@ begin
         NET_CC_CONFIG189, Y3 => NET_CC_CONFIG190, Y3A => 
         NET_CC_CONFIG191);
     
-    \REG_K1/Q[12]\ : SLE
-      port map(D => \k1[12]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_30\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[12]\);
-    
-    AFLSDF_INV_254 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[14]\, 
-        Y => \AFLSDF_INV_254\);
-    
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_20\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
 
@@ -5390,16 +5033,11 @@ begin
         \k1_mulonly_0[15:0]/MACC_PHYS_INST/A_net[10]\, IPB => 
         OPEN, IPC => OPEN, IPD => OPEN);
     
-    \REG_K2/Q[10]\ : SLE
-      port map(D => \k2[10]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_21\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[10]\);
-    
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_1\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_79 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[6]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[3]\, 
         Y => \AFLSDF_INV_79\);
     
     \p_real_obuf[4]/U_IOTRI\ : IOTRI_OB_EB
@@ -5412,16 +5050,11 @@ begin
         \p_real_obuf[4]/DOUT\, EOUT => \p_real_obuf[4]/EOUT\);
     
     AFLSDF_INV_92 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[11]\, 
-        Y => \AFLSDF_INV_92\);
+      port map(A => rst_c, Y => \AFLSDF_INV_92\);
     
     AFLSDF_INV_198 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_198\);
-    
-    \REG_K3/Q[7]\ : SLE
-      port map(D => \k3[7]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_272\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[7]\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[8]\, 
+        Y => \AFLSDF_INV_198\);
     
     \k1_mulonly_0[15:0]/MACC_PHYS_INST/CFG_8\ : CFG4_IP_ABCD
       generic map(INIT => x"AAAA")
@@ -5442,20 +5075,11 @@ begin
         \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[35]\);
     
     AFLSDF_INV_119 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_119\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[25]\, 
+        Y => \AFLSDF_INV_119\);
     
     AFLSDF_INV_17 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_17\);
-    
-    \REG_K3/Q[13]\ : SLE
-      port map(D => \k3[13]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_111\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[13]\);
-    
-    \REG_K1/Q[5]\ : SLE
-      port map(D => \k1[5]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_126\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[5]\);
     
     \a_real_ibuf[3]/U_IOIN\ : IOIN_IB_E
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -5476,16 +5100,12 @@ begin
         \p_imag_obuf[14]/DOUT\, EOUT => \p_imag_obuf[14]/EOUT\);
     
     AFLSDF_INV_67 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[22]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[15]\, 
         Y => \AFLSDF_INV_67\);
     
-    \REG_K2/Q[9]\ : SLE
-      port map(D => \k2[9]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_33\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k2r[9]\);
-    
     AFLSDF_INV_107 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_107\);
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[43]\, 
+        Y => \AFLSDF_INV_107\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_10\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
@@ -5502,20 +5122,11 @@ begin
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_33\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
-    \REG_K1/Q[14]\ : SLE
-      port map(D => \k1[14]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_38\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k1r[14]\);
-    
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_24\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     \b_imag_ibuf[4]/U_IOPAD\ : IOPAD_IN
       port map(PAD => b_imag(4), Y => \b_imag_ibuf[4]/YIN\);
-    
-    AFLSDF_INV_267 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[1]\, 
-        Y => \AFLSDF_INV_267\);
     
     p_0_cry_13 : ARI1_CC
       generic map(INIT => x"5AA55")
@@ -5573,7 +5184,7 @@ begin
       port map(A => rst_c, Y => \AFLSDF_INV_19\);
     
     AFLSDF_INV_142 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[47]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[15]\, 
         Y => \AFLSDF_INV_142\);
     
     \p_imag_obuf[11]/U_IOPAD\ : IOPAD_TRI
@@ -5582,16 +5193,15 @@ begin
     
     \REG_IN_BI/Q[1]\ : SLE
       port map(D => \b_imag_c[1]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_274\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_228\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \bi[1]\);
     
     AFLSDF_INV_91 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[12]\, 
-        Y => \AFLSDF_INV_91\);
+      port map(A => rst_c, Y => \AFLSDF_INV_91\);
     
     \REG_OUT_R/Q[1]\ : SLE
       port map(D => \p[1]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_200\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_159\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[1]\);
     
     \b_real_ibuf[7]/U_IOIN\ : IOIN_IB_E
@@ -5603,11 +5213,8 @@ begin
       port map(Y => \b_real_c[7]\, E => ADLIB_GND, YIN => 
         \b_real_ibuf[7]/YIN\);
     
-    AFLSDF_INV_272 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_272\);
-    
     AFLSDF_INV_69 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[19]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[13]\, 
         Y => \AFLSDF_INV_69\);
     
     \p_imag_obuf[6]/U_IOTRI\ : IOTRI_OB_EB
@@ -5628,7 +5235,7 @@ begin
          => \p_imag_obuf[12]/EOUT\);
     
     AFLSDF_INV_224 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[34]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[0]\, 
         Y => \AFLSDF_INV_224\);
     
     \p_imag_obuf[0]/U_IOTRI\ : IOTRI_OB_EB
@@ -5644,7 +5251,7 @@ begin
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_80 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[5]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[2]\, 
         Y => \AFLSDF_INV_80\);
     
     \p_real_obuf[11]/U_IOPAD\ : IOPAD_TRI
@@ -5659,11 +5266,8 @@ begin
         \k2_mulonly_0[15:0]/MACC_PHYS_INST/A_net[0]\, IPB => OPEN, 
         IPC => OPEN, IPD => OPEN);
     
-    AFLSDF_INV_270 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_270\);
-    
     AFLSDF_INV_74 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[11]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/D_net[8]\, 
         Y => \AFLSDF_INV_74\);
     
     \p_real_obuf[3]/U_IOTRI\ : IOTRI_OB_EB
@@ -5693,7 +5297,7 @@ begin
         IPC => OPEN, IPD => OPEN);
     
     AFLSDF_INV_148 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[38]\, 
+      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[9]\, 
         Y => \AFLSDF_INV_148\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/CFG_12\ : CFG4_IP_ABCD
@@ -5708,10 +5312,10 @@ begin
       port map(PAD => b_imag(3), Y => \b_imag_ibuf[3]/YIN\);
     
     of_p : CFG3
-      generic map(INIT => x"18")
+      generic map(INIT => x"42")
 
-      port map(A => \p[15]\, B => \k2[15]\, C => \k1[15]\, Y => 
-        of_p_Z);
+      port map(A => \k1r[15]\, B => \p[15]\, C => \k2r[15]\, Y
+         => of_p_Z);
     
     \p_real_obuf[1]/U_IOTRI\ : IOTRI_OB_EB
       generic map(TX_MODE => "000" & x"0", RX_MODE => x"0",
@@ -5723,17 +5327,16 @@ begin
         \p_real_obuf[1]/DOUT\, EOUT => \p_real_obuf[1]/EOUT\);
     
     AFLSDF_INV_170 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[7]\, 
-        Y => \AFLSDF_INV_170\);
+      port map(A => rst_c, Y => \AFLSDF_INV_170\);
     
     \REG_IN_BI/Q[7]\ : SLE
       port map(D => \b_imag_c[7]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_104\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_83\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \bi[7]\);
     
     \REG_OUT_I/Q[1]\ : SLE
       port map(D => \pi[1]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_15\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_8\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_imag_c[1]\);
     
     pi_0_cry_12 : ARI1_CC
@@ -5748,16 +5351,12 @@ begin
     \a_real_ibuf[1]/U_IOPAD\ : IOPAD_IN
       port map(PAD => a_real(1), Y => \a_real_ibuf[1]/YIN\);
     
-    AFLSDF_INV_263 : INV_BA
-      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[5]\, 
-        Y => \AFLSDF_INV_263\);
-    
     AFLSDF_INV_4 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_4\);
     
     \REG_IN_AI/Q[2]\ : SLE
       port map(D => \a_imag_c[2]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_201\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_160\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \ai[2]\);
     
     aai_0_cry_4 : ARI1_CC
@@ -5770,8 +5369,7 @@ begin
         NET_CC_CONFIG211);
     
     AFLSDF_INV_166 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[11]\, 
-        Y => \AFLSDF_INV_166\);
+      port map(A => rst_c, Y => \AFLSDF_INV_166\);
     
     pi_0_cry_3 : ARI1_CC
       generic map(INIT => x"555AA")
@@ -5783,47 +5381,42 @@ begin
         NET_CC_CONFIG78);
     
     AFLSDF_INV_58 : INV_BA
-      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[35]\, 
+      port map(A => \k3_mulonly_0[15:0]/MACC_PHYS_INST/C_net[6]\, 
         Y => \AFLSDF_INV_58\);
     
     \REG_IN_B/Q[2]\ : SLE
       port map(D => \b_real_c[2]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_46\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_26\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \b[2]\);
     
     \k2_mulonly_0[15:0]/MACC_PHYS_INST/FF_17\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
     AFLSDF_INV_214 : INV_BA
-      port map(A => rst_c, Y => \AFLSDF_INV_214\);
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/D_net[10]\, 
+        Y => \AFLSDF_INV_214\);
     
     \REG_IN_B/Q[6]\ : SLE
       port map(D => \b_real_c[6]\, CLK => NN_1, EN => en_c, ALn
-         => \AFLSDF_INV_118\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
+         => \AFLSDF_INV_91\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, 
         SD => ADLIB_GND, LAT => ADLIB_GND, Q => \b[6]\);
     
     \REG_OUT_R/Q[3]\ : SLE
       port map(D => \p[3]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_119\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
+        \AFLSDF_INV_92\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
          => ADLIB_GND, LAT => ADLIB_GND, Q => \p_real_c[3]\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/FF_9\ : SLE_IP_EN
       port map(EN => ADLIB_VCC, IPEN => OPEN);
     
-    \REG_K3/Q[8]\ : SLE
-      port map(D => \k3[8]\, CLK => NN_1, EN => en_c, ALn => 
-        \AFLSDF_INV_115\, ADn => ADLIB_VCC, SLn => ADLIB_VCC, SD
-         => ADLIB_GND, LAT => ADLIB_GND, Q => \k3r[8]\);
-    
     AFLSDF_INV_164 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/C_net[14]\, 
-        Y => \AFLSDF_INV_164\);
+      port map(A => rst_c, Y => \AFLSDF_INV_164\);
     
     AFLSDF_INV_14 : INV_BA
       port map(A => rst_c, Y => \AFLSDF_INV_14\);
     
     AFLSDF_INV_190 : INV_BA
-      port map(A => \k1_mulonly_0[15:0]/MACC_PHYS_INST/D_net[5]\, 
+      port map(A => \k2_mulonly_0[15:0]/MACC_PHYS_INST/C_net[19]\, 
         Y => \AFLSDF_INV_190\);
     
     \k3_mulonly_0[15:0]/MACC_PHYS_INST/CFG_8\ : CFG4_IP_ABCD
