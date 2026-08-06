@@ -32,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
 KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
 KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
 KEY VendorTechnology_VOLTR "EXT"
-KEY ProjectLocation "/home/rian/Documents/RO/Testes/MultiplicadorComplex"
+KEY ProjectLocation "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -74,8 +74,8 @@ SIZE="520147"
 ENDFILE
 VALUE "<project>/hdl/Complex_multiplier.vhd,hdl"
 STATE="utd"
-TIME="1785955616"
-SIZE="4171"
+TIME="1785988262"
+SIZE="4637"
 ENDFILE
 VALUE "<project>/hdl/reg16.vhd,hdl"
 STATE="utd"
@@ -89,13 +89,8 @@ SIZE="1158"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
-TIME="1781211247"
-SIZE="897"
-ENDFILE
-VALUE "<project>/simulation/Testbench_Complex_multiplier_postlayout_simulation.log,log"
-STATE="utd"
-TIME="1785955751"
-SIZE="4502"
+TIME="1785955745"
+SIZE="1219"
 ENDFILE
 VALUE "<project>/stimulus/Testbench_Complex_multiplier.vhd,tb_hdl"
 STATE="utd"
@@ -104,27 +99,27 @@ SIZE="5493"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier.so,so"
 STATE="utd"
-TIME="1785952637"
+TIME="1785955654"
 SIZE="256"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier.vm,syn_vm"
-STATE="utd"
-TIME="1785952637"
-SIZE="40310"
+STATE="ood"
+TIME="1785955653"
+SIZE="48449"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier_syn.prj,prj"
 STATE="utd"
-TIME="1781023347"
-SIZE="2968"
+TIME="1785955654"
+SIZE="3066"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1785952637"
+TIME="1785955653"
 SIZE="933"
 ENDFILE
 VALUE "<project>/synthesis/synwork/layer0.so,so"
 STATE="utd"
-TIME="1785952032"
+TIME="1785955100"
 SIZE="154"
 ENDFILE
 ENDLIST
@@ -139,7 +134,6 @@ ENDLIST
 LIST ProjectState5.1
 LIST Impl1
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>/synthesis/Complex_multiplier.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -148,6 +142,9 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -183,7 +180,7 @@ TimeUnitBase=ns
 Precision=100
 PrecisionBase=ps
 SdfCorner=slow_lv_ht
-PliPath=/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
+PliPath=/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
 UseCustomPliPath=false
 ENDLIST
 LIST ModelSimLibPath
@@ -228,17 +225,17 @@ EndProfile
 NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
-LOCATION="/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/bin/synplify_pro"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+LOCATION="/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/bin/synplify_pro"
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
 NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
-LOCATION="/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/ModelSim_Pro/linuxacoem/vsim"
-PARAM=" -l Testbench_Complex_multiplier_postlayout_simulation.log "
+LOCATION="/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/ModelSim_Pro/linuxacoem/vsim"
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -246,7 +243,7 @@ EndProfile
 NAME="Identify Debugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Identify/bin/identify_debugger"
+LOCATION="/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Identify/bin/identify_debugger"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -257,7 +254,6 @@ LIST ProjectState5.1
 LIST "Complex_multiplier::work"
 LIST Impl1
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>/synthesis/Complex_multiplier.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -280,13 +276,9 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Place and Route:Complex_multiplier_glb_net_report.xml
-HDL;hdl/reg_signed.vhd;0
 HDL;stimulus/Testbench_Complex_multiplier.vhd;0
 HDL;hdl/Complex_multiplier.vhd;0
-HDL;hdl/reg16.vhd;0
-ACTIVEVIEW;hdl/reg_signed.vhd
+ACTIVEVIEW;hdl/Complex_multiplier.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Complex_multiplier::work","hdl/Complex_multiplier.vhd","FALSE","FALSE"
