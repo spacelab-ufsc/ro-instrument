@@ -44,10 +44,10 @@ end Complex_multiplier;
 
 architecture architecture_Complex_multiplier of Complex_multiplier is
 
-    signal a, b, ai, bi : signed((mult_width-1) downto 0);
-    signal aai, aia, bbi, aair, aiar, bbir : signed((mult_width-1) downto 0);
+    signal a, b, ai, bi, ar, air, br, bir, arr, airr, brr, birr : signed((mult_width-1) downto 0); -- signals r para pipeline
 	signal k1, k2, k3, p, pi, k1r, k2r, k3r : signed((2*mult_width-1) downto 0);
-    signal ov, of_k1, of_k2, of_k3, of_k1r, of_k2r, of_k3r, of_p, of_pi : std_logic;
+    signal ov, of_k1, of_k2, of_k3, of_p, of_pi : std_logic;
+    signal aai, aia, bbi, aair, aiar, bbir, aairr, aiarr, bbirr : signed((mult_width-1) downto 0);
   
     component reg_gen is
     generic (
@@ -63,51 +63,62 @@ architecture architecture_Complex_multiplier of Complex_multiplier is
     end component;
     
     component reg_signed is
-    generic(
-        reg_width : integer := 16
-    );
-    port (
-        clk : in  std_logic;
-        rst : in  std_logic;
-        en  : in  std_logic;
-        D   : in  signed(reg_width-1 downto 0);
-        Q   : out signed(reg_width-1 downto 0)
-    );
-    end component;
+generic(
+    reg_width : integer := 16
+);
+port (
+    clk : in  std_logic;
+    rst : in  std_logic;
+    en  : in  std_logic;
+    D   : in  signed(reg_width-1 downto 0);
+    Q   : out signed(reg_width-1 downto 0)
+);
+end component;
     
 begin
-    REG_IN_A: reg_signed generic map (mult_width) port map(clk => clk, rst => rst, en => en, D => signed(a_real), Q => a);
-    REG_IN_AI: reg_signed generic map (mult_width) port map(clk => clk, rst => rst, en => en, D => signed(a_imag), Q => ai);
-    REG_IN_B: reg_signed generic map (mult_width) port map(clk => clk, rst => rst, en => en, D => signed(b_real), Q => b);
-    REG_IN_BI: reg_signed generic map (mult_width) port map(clk => clk, rst => rst, en => en, D => signed(b_imag), Q => bi);
+    REG_IN_A: reg_signed generic map (mult_width) port map(clk, rst, en, signed(a_real), a );
+    REG_IN_AI: reg_signed generic map (mult_width) port map(clk, rst, en, signed(a_imag), ai);
+    REG_IN_B: reg_signed generic map (mult_width) port map(clk, rst, en, signed(b_real), b);
+    REG_IN_BI: reg_signed generic map (mult_width) port map(clk, rst, en, signed(b_imag), bi);
     
-    aai <= a + ai; --dar um resize aqui talvez?
-    bbi <= b + bi; --dar um resize aqui talvez?
-    aia <= ai - a; --dar um resize aqui talvez?
+    aai <= a + ai;
+    bbi <= b + bi;
+    aia <= ai - a;
     
-    REG_AAI: reg_signed generic map (mult_width) port map(clk => clk, rst => rst, en => en, D => aai, Q => aair);
-    REG_BBI: reg_signed generic map (mult_width) port map(clk => clk, rst => rst, en => en, D => bbi, Q => bbir);
-    REG_AIA: reg_signed generic map (mult_width) port map(clk => clk, rst => rst, en => en, D => aia, Q => aiar);
+    REG_AAI: reg_signed generic map (mult_width) port map(clk, rst, en, aai, aair);
+    REG_BBI: reg_signed generic map (mult_width) port map(clk, rst, en, bbi, bbir);
+    REG_AIA: reg_signed generic map (mult_width) port map(clk, rst, en, aia, aiar);
+    REG_AR: reg_signed generic map (mult_width) port map(clk, rst, en, a, ar);
+    REG_AIR: reg_signed generic map (mult_width) port map(clk, rst, en, ai, air);
+    REG_BR: reg_signed generic map (mult_width) port map(clk, rst, en, b, br);
+    REG_BIR: reg_signed generic map (mult_width) port map(clk, rst, en, bi, bir);
     
-    k1 <= a*bbir;
-    k2 <= bi*aair;
-    k3 <= b*aiar;
+    k1 <= ar*bbir;
+    k2 <= bir*aair;
+    k3 <= br*aiar;
     
-    REG_K1: reg_signed generic map (2*mult_width) port map(clk => clk, rst => rst, en => en, D => k1, Q => k1r);
-    REG_K2: reg_signed generic map (2*mult_width) port map(clk => clk, rst => rst, en => en, D => k2, Q => k2r);
-    REG_K3: reg_signed generic map (2*mult_width) port map(clk => clk, rst => rst, en => en, D => k3, Q => k3r);
+    REG_K1: reg_signed generic map (2*mult_width) port map(clk, rst, en, k1, k1r);
+    REG_K2: reg_signed generic map (2*mult_width) port map(clk, rst, en, k2, k2r);
+    REG_K3: reg_signed generic map (2*mult_width) port map(clk, rst, en, k3, k3r);
+    REG_AAIR: reg_signed generic map (mult_width) port map(clk, rst, en, aair, aairr);
+    REG_BBIR: reg_signed generic map (mult_width) port map(clk, rst, en, bbir, bbirr);
+    REG_AIAR: reg_signed generic map (mult_width) port map(clk, rst, en, aiar, aiarr);
+    REG_ARR: reg_signed generic map (mult_width) port map(clk, rst, en, ar, arr);
+    REG_AIRR: reg_signed generic map (mult_width) port map(clk, rst, en, air, airr);
+    REG_BRR: reg_signed generic map (mult_width) port map(clk, rst, en, br, brr);
+    REG_BIRR: reg_signed generic map (mult_width) port map(clk, rst, en, bir, birr);
     
     p <= k1r - k2r;
     pi <= k1r + k3r;
     
-    of_k1r <= (b(mult_width-1) xnor bi(mult_width-1)) and (b(mult_width-1) xor bbi(mult_width-1));
-    of_k2r <= (a(mult_width-1) xnor ai(mult_width-1)) and (a(mult_width-1) xor aai(mult_width-1));
-    of_k3r <= (a(mult_width-1) xor ai(mult_width-1)) and (a(mult_width-1) xor aia(mult_width-1));
+    of_k1 <= (brr(mult_width-1) xnor birr(mult_width-1)) and (brr(mult_width-1) xor bbirr(mult_width-1));
+    of_k2 <= (arr(mult_width-1) xnor airr(mult_width-1)) and (arr(mult_width-1) xor aairr(mult_width-1));
+    of_k3 <= (arr(mult_width-1) xor airr(mult_width-1)) and (arr(mult_width-1) xor aiarr(mult_width-1));
     
     of_p  <= (k1r(2*mult_width-1) xor k2r(2*mult_width-1)) and (k1r(2*mult_width-1) xor p(2*mult_width-1));
     of_pi <= (k1r(2*mult_width-1) xnor k3r(2*mult_width-1)) and (k1r(2*mult_width-1) xor pi(2*mult_width-1));
     
-    ov <= of_k1r or of_k2r or of_k3r or of_p or of_pi;
+    ov <= of_k1 or of_k2 or of_k3 or of_p or of_pi;
     
     REG_OUT_R: reg_gen generic map (2*mult_width) port map(clk, rst, en, std_logic_vector(p), p_real);
     REG_OUT_I: reg_gen generic map (2*mult_width) port map(clk, rst, en, std_logic_vector(pi), p_imag);

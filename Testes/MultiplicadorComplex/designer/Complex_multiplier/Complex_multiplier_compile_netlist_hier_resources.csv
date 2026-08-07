@@ -1,6 +1,20 @@
 Detailed Resource Usage
 Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,Math (18x18),Chip Globals
-Primitives/Primitives,62,0,0,0,68,0,1
+Primitives/Primitives,61,0,0,0,68,0,1
+REG_AAI/Primitives,0,1,0,0,0,0,0
+REG_AAIR/Primitives,0,1,0,0,0,0,0
+REG_AIA/Primitives,0,1,0,0,0,0,0
+REG_AIAR/Primitives,0,1,0,0,0,0,0
+REG_AIR/Primitives,0,1,0,0,0,0,0
+REG_AIRR/Primitives,0,1,0,0,0,0,0
+REG_AR/Primitives,0,1,0,0,0,0,0
+REG_ARR/Primitives,0,1,0,0,0,0,0
+REG_BBI/Primitives,0,1,0,0,0,0,0
+REG_BBIR/Primitives,0,1,0,0,0,0,0
+REG_BIR/Primitives,0,1,0,0,0,0,0
+REG_BIRR/Primitives,0,1,0,0,0,0,0
+REG_BR/Primitives,0,1,0,0,0,0,0
+REG_BRR/Primitives,0,1,0,0,0,0,0
 REG_IN_A/Primitives,0,8,0,0,0,0,0
 REG_IN_AI/Primitives,0,8,0,0,0,0,0
 REG_IN_B/Primitives,0,8,0,0,0,0,0

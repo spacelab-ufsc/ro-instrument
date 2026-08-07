@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synlog/Complex_multiplier_fpga_mapper.srr</data>
+<data>/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/Complex_multiplier_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -15,9 +15,9 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data tcl_name="slack">Slack</data>
 </row>
 <row>
-<data>Complex_multiplier|clk</data>
-<data>100.0 MHz</data>
-<data>285.9 MHz</data>
-<data>6.503</data>
+<data>clk</data>
+<data>160.0 MHz</data>
+<data>365.7 MHz</data>
+<data>3.516</data>
 </row>
 </report_table>

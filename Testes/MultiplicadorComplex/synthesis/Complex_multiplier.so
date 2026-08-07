@@ -2,5 +2,5 @@
 <SynplifyOutput>
 	<result>Success</result>
 	<design>Complex_multiplier</design>
-	<target_verilog>/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm</target_verilog>
+	<target_verilog>/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm</target_verilog>
 </SynplifyOutput>

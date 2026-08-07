@@ -22,7 +22,7 @@
 Starting:    /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/linux_a_64/mbin/synbatch
 Install:     /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
 Hostname:    rian-notebook
-Date:        Wed Aug  5 15:38:19 2026
+Date:        Fri Aug  7 16:07:05 2026
 Version:     V-2023.09M-5
 
 Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log Complex_multiplier_syn.tcl
@@ -45,30 +45,54 @@ Running: synthesis in foreground
 Running Complex_multiplier_syn|synthesis
 
 Running Flow: compile (Compile) on Complex_multiplier_syn|synthesis
-# Wed Aug  5 15:38:19 2026
+# Fri Aug  7 16:07:05 2026
 
 Running Flow: compile_flow (Compile Process) on Complex_multiplier_syn|synthesis
-# Wed Aug  5 15:38:19 2026
+# Fri Aug  7 16:07:05 2026
 
 Running: compiler (Compile Input) on Complex_multiplier_syn|synthesis
-# Wed Aug  5 15:38:19 2026
-Process ID: 8897
-compiler exited with errors
-Job failed on: Complex_multiplier_syn|synthesis
+# Fri Aug  7 16:07:05 2026
+Process ID: 9020
 
-Job: "compiler" terminated with error status: 2
-See log file: "/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/Complex_multiplier_compiler.srr"
-# Wed Aug  5 15:38:20 2026
+compiler completed
+# Fri Aug  7 16:07:07 2026
 
-Return Code: 2
-Run Time:00h:00m:01s
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on Complex_multiplier_syn|synthesis
+# Fri Aug  7 16:07:07 2026
+Up-To-Date: multi_srs_gen. No run necessary
 Complete: Compile Process on Complex_multiplier_syn|synthesis
+
+Running: premap (Premap) on Complex_multiplier_syn|synthesis
+# Fri Aug  7 16:07:07 2026
+Process ID: 9135
+
+premap completed with warnings
+# Fri Aug  7 16:07:09 2026
+
+Return Code: 1
+Run Time:00h:00m:02s
 Complete: Compile on Complex_multiplier_syn|synthesis
+
+Running Flow: map (Map) on Complex_multiplier_syn|synthesis
+# Fri Aug  7 16:07:09 2026
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on Complex_multiplier_syn|synthesis
+# Fri Aug  7 16:07:09 2026
+Process ID: 9150
+Copied /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_m.srm to /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.srm
+
+fpga_mapper completed with warnings
+# Fri Aug  7 16:07:13 2026
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Map on Complex_multiplier_syn|synthesis
 Complete: Logic Synthesis on Complex_multiplier_syn|synthesis
-Error: At line 2 while processing "Complex_multiplier_syn.tcl"
-2
 TCL script complete: "Complex_multiplier_syn.tcl"
-TCL script had errors: "Complex_multiplier_syn.tcl"
-exit status=9
-exit status=9
+exit status=0
+exit status=0
 License checkin: synplifypro_actel

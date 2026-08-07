@@ -1,1 +1,1 @@
--link -encrypt -top work.Complex_multiplier -osyn /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_comp.srs /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synwork/layer0.srs  -jobname linker  
+-link -encrypt -top work.Complex_multiplier -osyn /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_comp.srs /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/layer0.srs  -jobname linker  

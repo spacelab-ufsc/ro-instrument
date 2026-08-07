@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synlog/Complex_multiplier_premap.srr</data>
+<data>/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/Complex_multiplier_premap.srr</data>
 <title></title>
 </report_link>
 <job_status>
@@ -15,32 +15,32 @@ The file contains the job information from mapper to be displayed as part of the
 <info name="Notes">
 <data>9</data>
 <report_link name="more">
-<data>/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synlog/report/Complex_multiplier_premap_notes.txt</data>
+<data>/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/report/Complex_multiplier_premap_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>1</data>
+<data>0</data>
 <report_link name="more">
-<data>/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synlog/report/Complex_multiplier_premap_warnings.txt</data>
+<data>/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/report/Complex_multiplier_premap_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synlog/report/Complex_multiplier_premap_errors.txt</data>
+<data>/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/report/Complex_multiplier_premap_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:01s</data>
+<data>0h:00m:00s</data>
 </info>
 <info name="Real Time">
 <data>0h:00m:00s</data>
 </info>
 <info name="Peak Memory">
-<data>562MB</data>
+<data>563MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1786017005</data>
+<data type="timestamp">1786133615</data>
 </info>
 </job_info>
 </job_run_status>

@@ -16,7 +16,7 @@
 </header>
 <row>
  <cell>0.1</cell>
- <cell>Thu Aug  6 10:38:15 2026</cell>
+ <cell>Fri Aug  7 17:15:26 2026</cell>
  <cell>Designer</cell>
  <cell>2025.1</cell>
  <cell>2025.1.0.14</cell>
@@ -914,7 +914,7 @@
 </row>
 <row>
  <cell>AA12</cell>
- <cell>b_real[0]</cell>
+ <cell>b_imag[4]</cell>
  <cell>HSIO28PB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -936,33 +936,33 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>b_real[0]</cell>
+ <cell>b_imag[4]</cell>
 </row>
 <row>
  <cell>AA13</cell>
- <cell>p_real[10]</cell>
+ <cell>b_imag[5]</cell>
  <cell>HSIO26PB0/CLKIN_N_4/CCC_NW_PLL0_OUT0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[10]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>b_imag[5]</cell>
 </row>
 <row>
  <cell>AA14</cell>
@@ -992,107 +992,107 @@
 </row>
 <row>
  <cell>AA15</cell>
- <cell>p_imag[0]</cell>
+ <cell>a_imag[6]</cell>
  <cell>HSIO25NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_imag[0]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>a_imag[6]</cell>
 </row>
 <row>
  <cell>AA16</cell>
- <cell>p_real[2]</cell>
+ <cell>b_real[1]</cell>
  <cell>HSIO22PB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[2]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>b_real[1]</cell>
 </row>
 <row>
  <cell>AA17</cell>
- <cell>p_real[1]</cell>
+ <cell>a_imag[5]</cell>
  <cell>HSIO21NB0/DQS</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[1]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>a_imag[5]</cell>
 </row>
 <row>
  <cell>AA18</cell>
- <cell>p_real[11]</cell>
+ <cell>a_imag[7]</cell>
  <cell>HSIO18NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[11]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>a_imag[7]</cell>
 </row>
 <row>
  <cell>AA19</cell>
@@ -1122,33 +1122,33 @@
 </row>
 <row>
  <cell>AA20</cell>
- <cell>a_imag[3]</cell>
+ <cell>overflow</cell>
  <cell>HSIO11NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>a_imag[3]</cell>
+ <cell>OFF</cell>
+ <cell>overflow</cell>
 </row>
 <row>
  <cell>AA21</cell>
- <cell>p_imag[7]</cell>
+ <cell>p_real[11]</cell>
  <cell>HSIO9PB0/DQS/CCC_NE_PLL0_OUT0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -1170,33 +1170,33 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_imag[7]</cell>
+ <cell>p_real[11]</cell>
 </row>
 <row>
  <cell>AA22</cell>
- <cell>a_real[0]</cell>
+ <cell>p_imag[14]</cell>
  <cell>HSIO9NB0/DQS</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>a_real[0]</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[14]</cell>
 </row>
 <row>
  <cell>AB1</cell>
@@ -1486,8 +1486,34 @@
 </row>
 <row>
  <cell>AB12</cell>
- <cell>b_imag[5]</cell>
+ <cell>p_imag[13]</cell>
  <cell>HSIO28NB0</cell>
+ <cell>Bank0</cell>
+ <cell>Assigned</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>120</cell>
+ <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
+ <cell>---</cell>
+ <cell>5</cell>
+ <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[13]</cell>
+</row>
+<row>
+ <cell>AB13</cell>
+ <cell>a_imag[4]</cell>
+ <cell>HSIO26NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
@@ -1508,85 +1534,59 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>b_imag[5]</cell>
-</row>
-<row>
- <cell>AB13</cell>
- <cell>p_real[15]</cell>
- <cell>HSIO26NB0</cell>
- <cell>Bank0</cell>
- <cell>Assigned</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>120</cell>
- <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
- <cell>---</cell>
- <cell>5</cell>
- <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[15]</cell>
+ <cell>a_imag[4]</cell>
 </row>
 <row>
  <cell>AB14</cell>
- <cell>p_real[12]</cell>
+ <cell>b_imag[1]</cell>
  <cell>HSIO24PB0/CLKIN_N_5</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[12]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>b_imag[1]</cell>
 </row>
 <row>
  <cell>AB15</cell>
- <cell>p_real[7]</cell>
+ <cell>a_real[2]</cell>
  <cell>HSIO24NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[7]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>a_real[2]</cell>
 </row>
 <row>
  <cell>AB16</cell>
@@ -1616,59 +1616,59 @@
 </row>
 <row>
  <cell>AB17</cell>
- <cell>p_imag[6]</cell>
+ <cell>b_real[6]</cell>
  <cell>HSIO21PB0/DQS</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_imag[6]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>b_real[6]</cell>
 </row>
 <row>
  <cell>AB18</cell>
- <cell>p_real[8]</cell>
+ <cell>a_imag[0]</cell>
  <cell>HSIO18PB0/CLKIN_N_7</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[8]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>a_imag[0]</cell>
 </row>
 <row>
  <cell>AB19</cell>
- <cell>a_imag[1]</cell>
+ <cell>b_imag[6]</cell>
  <cell>HSIO10PB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -1690,11 +1690,11 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>a_imag[1]</cell>
+ <cell>b_imag[6]</cell>
 </row>
 <row>
  <cell>AB20</cell>
- <cell>overflow</cell>
+ <cell>p_real[1]</cell>
  <cell>HSIO10NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -1716,11 +1716,11 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>overflow</cell>
+ <cell>p_real[1]</cell>
 </row>
 <row>
  <cell>AB21</cell>
- <cell>a_real[6]</cell>
+ <cell>b_real[3]</cell>
  <cell>HSIO11PB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -1742,7 +1742,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>a_real[6]</cell>
+ <cell>b_real[3]</cell>
 </row>
 <row>
  <cell>AB22</cell>
@@ -2188,29 +2188,29 @@
 </row>
 <row>
  <cell>B17</cell>
- <cell>a_real[5]</cell>
+ <cell>p_real[12]</cell>
  <cell>GPIO3PB1/CCC_SE_CLKIN_S_10/CCC_SE_PLL1_OUT0</cell>
  <cell>Bank1</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>a_real[5]</cell>
+ <cell>OFF</cell>
+ <cell>p_real[12]</cell>
 </row>
 <row>
  <cell>B18</cell>
@@ -2760,7 +2760,7 @@
 </row>
 <row>
  <cell>C17</cell>
- <cell>p_real[0]</cell>
+ <cell>p_real[3]</cell>
  <cell>GPIO3NB1</cell>
  <cell>Bank1</cell>
  <cell>Assigned</cell>
@@ -2782,7 +2782,7 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_real[0]</cell>
+ <cell>p_real[3]</cell>
 </row>
 <row>
  <cell>C18</cell>
@@ -3358,7 +3358,7 @@
 </row>
 <row>
  <cell>D18</cell>
- <cell>a_imag[7]</cell>
+ <cell>a_real[0]</cell>
  <cell>GPIO4PB1/CCC_SE_PLL1_OUT1</cell>
  <cell>Bank1</cell>
  <cell>Assigned</cell>
@@ -3380,33 +3380,33 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>a_imag[7]</cell>
+ <cell>a_real[0]</cell>
 </row>
 <row>
  <cell>D19</cell>
- <cell>a_real[3]</cell>
+ <cell>p_real[4]</cell>
  <cell>GPIO2NB1/DQS</cell>
  <cell>Bank1</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>a_real[3]</cell>
+ <cell>OFF</cell>
+ <cell>p_real[4]</cell>
 </row>
 <row>
  <cell>D20</cell>
@@ -3930,8 +3930,34 @@
 </row>
 <row>
  <cell>E18</cell>
- <cell>p_imag[3]</cell>
+ <cell>---</cell>
  <cell>GPIO4NB1</cell>
+ <cell>Bank1</cell>
+ <cell>Unassigned</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF</cell>
+</row>
+<row>
+ <cell>E19</cell>
+ <cell>p_real[0]</cell>
+ <cell>GPIO2PB1/DQS/CCC_SE_PLL1_OUT0</cell>
  <cell>Bank1</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
@@ -3952,33 +3978,7 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_imag[3]</cell>
-</row>
-<row>
- <cell>E19</cell>
- <cell>a_imag[0]</cell>
- <cell>GPIO2PB1/DQS/CCC_SE_PLL1_OUT0</cell>
- <cell>Bank1</cell>
- <cell>Assigned</cell>
- <cell>LVCMOS18</cell>
- <cell>Input</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>Up</cell>
- <cell>No</cell>
- <cell>OFF</cell>
- <cell>---</cell>
- <cell>OFF</cell>
- <cell>120</cell>
- <cell>OFF</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>a_imag[0]</cell>
+ <cell>p_real[0]</cell>
 </row>
 <row>
  <cell>E20</cell>
@@ -4450,55 +4450,55 @@
 </row>
 <row>
  <cell>F16</cell>
- <cell>a_imag[6]</cell>
+ <cell>p_real[9]</cell>
  <cell>GPIO1NB1</cell>
  <cell>Bank1</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>a_imag[6]</cell>
+ <cell>OFF</cell>
+ <cell>p_real[9]</cell>
 </row>
 <row>
  <cell>F17</cell>
- <cell>---</cell>
+ <cell>p_imag[0]</cell>
  <cell>GPIO1PB1/CLKIN_S_9/CCC_SE_CLKIN_S_9</cell>
  <cell>Bank1</cell>
- <cell>Unassigned</cell>
+ <cell>Assigned</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[0]</cell>
 </row>
 <row>
  <cell>F18</cell>
@@ -9494,7 +9494,7 @@
 </row>
 <row>
  <cell>R12</cell>
- <cell>p_real[9]</cell>
+ <cell>p_imag[6]</cell>
  <cell>HSIO35PB0/CCC_NW_CLKIN_N_0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -9516,7 +9516,7 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_real[9]</cell>
+ <cell>p_imag[6]</cell>
 </row>
 <row>
  <cell>R13</cell>
@@ -9546,81 +9546,81 @@
 </row>
 <row>
  <cell>R14</cell>
- <cell>p_imag[4]</cell>
+ <cell>a_real[3]</cell>
  <cell>HSIO17NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_imag[4]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>a_real[3]</cell>
 </row>
 <row>
  <cell>R15</cell>
- <cell>p_imag[12]</cell>
+ <cell>a_imag[3]</cell>
  <cell>HSIO17PB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_imag[12]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>a_imag[3]</cell>
 </row>
 <row>
  <cell>R16</cell>
- <cell>p_imag[11]</cell>
+ <cell>a_real[4]</cell>
  <cell>HSIO15NB0/DQS</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_imag[11]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>a_real[4]</cell>
 </row>
 <row>
  <cell>R17</cell>
@@ -10066,55 +10066,55 @@
 </row>
 <row>
  <cell>T12</cell>
- <cell>b_imag[2]</cell>
+ <cell>p_imag[12]</cell>
  <cell>HSIO34NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>b_imag[2]</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[12]</cell>
 </row>
 <row>
  <cell>T13</cell>
- <cell>b_imag[3]</cell>
+ <cell>p_imag[3]</cell>
  <cell>HSIO35NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>b_imag[3]</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[3]</cell>
 </row>
 <row>
  <cell>T14</cell>
@@ -10144,59 +10144,59 @@
 </row>
 <row>
  <cell>T15</cell>
- <cell>b_imag[4]</cell>
+ <cell>p_imag[7]</cell>
  <cell>HSIO31NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>b_imag[4]</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[7]</cell>
 </row>
 <row>
  <cell>T16</cell>
- <cell>a_imag[4]</cell>
+ <cell>p_real[5]</cell>
  <cell>HSIO15PB0/DQS/CCC_NE_PLL1_OUT0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>a_imag[4]</cell>
+ <cell>OFF</cell>
+ <cell>p_real[5]</cell>
 </row>
 <row>
  <cell>T17</cell>
- <cell>p_imag[2]</cell>
+ <cell>p_real[10]</cell>
  <cell>HSIO13PB0/CCC_NE_PLL1_OUT1</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -10218,7 +10218,7 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_imag[2]</cell>
+ <cell>p_real[10]</cell>
 </row>
 <row>
  <cell>T18</cell>
@@ -10638,7 +10638,7 @@
 </row>
 <row>
  <cell>U12</cell>
- <cell>p_imag[9]</cell>
+ <cell>p_imag[4]</cell>
  <cell>HSIO34PB0/CCC_NW_CLKIN_N_1</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -10660,37 +10660,37 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_imag[9]</cell>
+ <cell>p_imag[4]</cell>
 </row>
 <row>
  <cell>U13</cell>
- <cell>b_real[5]</cell>
+ <cell>p_imag[8]</cell>
  <cell>HSIO33NB0/DQS</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>b_real[5]</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[8]</cell>
 </row>
 <row>
  <cell>U14</cell>
- <cell>b_real[2]</cell>
+ <cell>a_real[7]</cell>
  <cell>HSIO33PB0/DQS/CCC_NW_PLL1_OUT0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -10712,33 +10712,33 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>b_real[2]</cell>
+ <cell>a_real[7]</cell>
 </row>
 <row>
  <cell>U15</cell>
- <cell>b_real[1]</cell>
+ <cell>p_imag[2]</cell>
  <cell>HSIO31PB0/CCC_NW_PLL1_OUT1</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>b_real[1]</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[2]</cell>
 </row>
 <row>
  <cell>U16</cell>
@@ -10768,7 +10768,7 @@
 </row>
 <row>
  <cell>U17</cell>
- <cell>en</cell>
+ <cell>rst</cell>
  <cell>HSIO13NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -10790,11 +10790,11 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>en</cell>
+ <cell>rst</cell>
 </row>
 <row>
  <cell>U18</cell>
- <cell>p_imag[13]</cell>
+ <cell>p_real[14]</cell>
  <cell>HSIO14NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -10816,11 +10816,11 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_imag[13]</cell>
+ <cell>p_real[14]</cell>
 </row>
 <row>
  <cell>U19</cell>
- <cell>p_imag[14]</cell>
+ <cell>p_real[15]</cell>
  <cell>HSIO14PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -10842,7 +10842,7 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_imag[14]</cell>
+ <cell>p_real[15]</cell>
 </row>
 <row>
  <cell>U20</cell>
@@ -11210,7 +11210,7 @@
 </row>
 <row>
  <cell>V12</cell>
- <cell>b_real[4]</cell>
+ <cell>a_imag[1]</cell>
  <cell>HSIO32NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -11232,7 +11232,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>b_real[4]</cell>
+ <cell>a_imag[1]</cell>
 </row>
 <row>
  <cell>V13</cell>
@@ -11262,85 +11262,85 @@
 </row>
 <row>
  <cell>V14</cell>
- <cell>b_imag[1]</cell>
+ <cell>p_imag[11]</cell>
  <cell>HSIO30PB0/CLKIN_N_3/CCC_NW_CLKIN_N_3</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>b_imag[1]</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[11]</cell>
 </row>
 <row>
  <cell>V15</cell>
- <cell>b_real[6]</cell>
+ <cell>p_imag[15]</cell>
  <cell>HSIO30NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>b_real[6]</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[15]</cell>
 </row>
 <row>
  <cell>V16</cell>
- <cell>a_imag[5]</cell>
+ <cell>p_imag[9]</cell>
  <cell>HSIO16NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>a_imag[5]</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[9]</cell>
 </row>
 <row>
  <cell>V17</cell>
- <cell>p_imag[10]</cell>
+ <cell>p_real[6]</cell>
  <cell>HSIO16PB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -11362,7 +11362,7 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_imag[10]</cell>
+ <cell>p_real[6]</cell>
 </row>
 <row>
  <cell>V18</cell>
@@ -11392,7 +11392,7 @@
 </row>
 <row>
  <cell>V19</cell>
- <cell>a_real[7]</cell>
+ <cell>b_imag[7]</cell>
  <cell>HSIO12NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -11414,11 +11414,11 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>a_real[7]</cell>
+ <cell>b_imag[7]</cell>
 </row>
 <row>
  <cell>V20</cell>
- <cell>rst</cell>
+ <cell>en</cell>
  <cell>HSIO12PB0/CLKIN_N_9/CCC_NE_CLKIN_N_9</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -11440,37 +11440,37 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>rst</cell>
+ <cell>en</cell>
 </row>
 <row>
  <cell>V21</cell>
- <cell>a_real[2]</cell>
+ <cell>p_real[7]</cell>
  <cell>HSIO8NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>a_real[2]</cell>
+ <cell>OFF</cell>
+ <cell>p_real[7]</cell>
 </row>
 <row>
  <cell>V22</cell>
- <cell>p_imag[5]</cell>
+ <cell>p_real[2]</cell>
  <cell>HSIO6NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -11492,7 +11492,7 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_imag[5]</cell>
+ <cell>p_real[2]</cell>
 </row>
 <row>
  <cell>W1</cell>
@@ -11782,34 +11782,8 @@
 </row>
 <row>
  <cell>W12</cell>
- <cell>p_real[5]</cell>
+ <cell>b_imag[3]</cell>
  <cell>HSIO32PB0/CLKIN_N_2/CCC_NW_CLKIN_N_2/CCC_NW_PLL1_OUT0</cell>
- <cell>Bank0</cell>
- <cell>Assigned</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>120</cell>
- <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
- <cell>---</cell>
- <cell>5</cell>
- <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[5]</cell>
-</row>
-<row>
- <cell>W13</cell>
- <cell>b_imag[0]</cell>
- <cell>HSIO29PB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
@@ -11830,11 +11804,37 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>b_imag[0]</cell>
+ <cell>b_imag[3]</cell>
+</row>
+<row>
+ <cell>W13</cell>
+ <cell>p_imag[1]</cell>
+ <cell>HSIO29PB0</cell>
+ <cell>Bank0</cell>
+ <cell>Assigned</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>120</cell>
+ <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
+ <cell>---</cell>
+ <cell>5</cell>
+ <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[1]</cell>
 </row>
 <row>
  <cell>W14</cell>
- <cell>b_real[3]</cell>
+ <cell>a_real[1]</cell>
  <cell>HSIO27NB0/DQS</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -11856,7 +11856,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>b_real[3]</cell>
+ <cell>a_real[1]</cell>
 </row>
 <row>
  <cell>W15</cell>
@@ -11886,59 +11886,59 @@
 </row>
 <row>
  <cell>W16</cell>
- <cell>p_imag[1]</cell>
+ <cell>b_imag[0]</cell>
  <cell>HSIO23PB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_imag[1]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>b_imag[0]</cell>
 </row>
 <row>
  <cell>W17</cell>
- <cell>p_real[3]</cell>
+ <cell>b_real[4]</cell>
  <cell>HSIO23NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[3]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>b_real[4]</cell>
 </row>
 <row>
  <cell>W18</cell>
- <cell>b_real[7]</cell>
+ <cell>b_real[0]</cell>
  <cell>HSIO19NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -11960,33 +11960,33 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>b_real[7]</cell>
+ <cell>b_real[0]</cell>
 </row>
 <row>
  <cell>W19</cell>
- <cell>p_imag[8]</cell>
+ <cell>a_real[6]</cell>
  <cell>HSIO19PB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_imag[8]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>a_real[6]</cell>
 </row>
 <row>
  <cell>W20</cell>
@@ -12016,33 +12016,33 @@
 </row>
 <row>
  <cell>W21</cell>
- <cell>a_imag[2]</cell>
+ <cell>p_real[13]</cell>
  <cell>HSIO8PB0/CCC_NE_CLKIN_N_10/CCC_NE_PLL0_OUT0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>a_imag[2]</cell>
+ <cell>OFF</cell>
+ <cell>p_real[13]</cell>
 </row>
 <row>
  <cell>W22</cell>
- <cell>a_real[4]</cell>
+ <cell>b_real[5]</cell>
  <cell>HSIO6PB0/CCC_NE_CLKIN_N_11</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -12064,7 +12064,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>a_real[4]</cell>
+ <cell>b_real[5]</cell>
 </row>
 <row>
  <cell>Y1</cell>
@@ -12380,37 +12380,63 @@
 </row>
 <row>
  <cell>Y13</cell>
- <cell>b_imag[6]</cell>
+ <cell>p_imag[10]</cell>
  <cell>HSIO29NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Input</cell>
+ <cell>Output</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>Up</cell>
+ <cell>None</cell>
  <cell>No</cell>
- <cell>OFF</cell>
  <cell>---</cell>
- <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
  <cell>120</cell>
+ <cell>---</cell>
  <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>b_imag[6]</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[10]</cell>
 </row>
 <row>
  <cell>Y14</cell>
- <cell>b_imag[7]</cell>
+ <cell>p_imag[5]</cell>
  <cell>HSIO27PB0/DQS/CCC_NW_PLL0_OUT0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>120</cell>
+ <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
+ <cell>---</cell>
+ <cell>5</cell>
+ <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>p_imag[5]</cell>
+</row>
+<row>
+ <cell>Y15</cell>
+ <cell>b_imag[2]</cell>
+ <cell>HSIO25PB0/CCC_NW_PLL0_OUT1</cell>
+ <cell>Bank0</cell>
+ <cell>Assigned</cell>
+ <cell>LVCMOS18</cell>
  <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
@@ -12428,59 +12454,33 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>b_imag[7]</cell>
-</row>
-<row>
- <cell>Y15</cell>
- <cell>p_real[4]</cell>
- <cell>HSIO25PB0/CCC_NW_PLL0_OUT1</cell>
- <cell>Bank0</cell>
- <cell>Assigned</cell>
- <cell>LVCMOS18</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>120</cell>
- <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
- <cell>---</cell>
- <cell>5</cell>
- <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[4]</cell>
+ <cell>b_imag[2]</cell>
 </row>
 <row>
  <cell>Y16</cell>
- <cell>p_real[14]</cell>
+ <cell>b_real[7]</cell>
  <cell>HSIO22NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[14]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>b_real[7]</cell>
 </row>
 <row>
  <cell>Y17</cell>
@@ -12510,59 +12510,59 @@
 </row>
 <row>
  <cell>Y18</cell>
- <cell>p_real[6]</cell>
+ <cell>b_real[2]</cell>
  <cell>HSIO20NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[6]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>b_real[2]</cell>
 </row>
 <row>
  <cell>Y19</cell>
- <cell>p_real[13]</cell>
+ <cell>a_imag[2]</cell>
  <cell>HSIO20PB0/CLKIN_N_6</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
  <cell>LVCMOS18</cell>
- <cell>Output</cell>
+ <cell>Input</cell>
  <cell>None</cell>
  <cell>No</cell>
  <cell>ON</cell>
- <cell>None</cell>
+ <cell>Up</cell>
  <cell>No</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
+ <cell>OFF</cell>
  <cell>120</cell>
- <cell>---</cell>
  <cell>OFF</cell>
- <cell>8</cell>
  <cell>---</cell>
- <cell>5</cell>
  <cell>---</cell>
- <cell>OFF</cell>
- <cell>p_real[13]</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>a_imag[2]</cell>
 </row>
 <row>
  <cell>Y20</cell>
- <cell>p_imag[15]</cell>
+ <cell>p_real[8]</cell>
  <cell>HSIO7PB0/CCC_NE_PLL0_OUT1</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -12584,11 +12584,11 @@
  <cell>5</cell>
  <cell>---</cell>
  <cell>OFF</cell>
- <cell>p_imag[15]</cell>
+ <cell>p_real[8]</cell>
 </row>
 <row>
  <cell>Y21</cell>
- <cell>a_real[1]</cell>
+ <cell>a_real[5]</cell>
  <cell>HSIO7NB0</cell>
  <cell>Bank0</cell>
  <cell>Assigned</cell>
@@ -12610,7 +12610,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>a_real[1]</cell>
+ <cell>a_real[5]</cell>
 </row>
 <row>
  <cell>Y22</cell>

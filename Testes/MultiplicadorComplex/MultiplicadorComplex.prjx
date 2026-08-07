@@ -32,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
 KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
 KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
 KEY VendorTechnology_VOLTR "EXT"
-KEY ProjectLocation "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex"
+KEY ProjectLocation "/home/rian/Documents/RO/Testes/MultiplicadorComplex"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -52,30 +52,35 @@ ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
+VALUE "<project>/constraint/timing_160mhz.sdc,sdc"
+STATE="utd"
+TIME="1786133598"
+SIZE="75"
+ENDFILE
 VALUE "<project>/designer/Complex_multiplier/Complex_multiplier_ba.vhd,ba_hdl"
 STATE="utd"
-TIME="1786026749"
-SIZE="235303"
+TIME="1786133837"
+SIZE="238101"
 ENDFILE
 VALUE "<project>/designer/Complex_multiplier/Complex_multiplier_fast_hv_lt_ba.sdf,ba_sdf"
 STATE="utd"
-TIME="1786026749"
-SIZE="411781"
+TIME="1786133837"
+SIZE="431311"
 ENDFILE
 VALUE "<project>/designer/Complex_multiplier/Complex_multiplier_slow_lv_ht_ba.sdf,ba_sdf"
 STATE="utd"
-TIME="1786026749"
-SIZE="414072"
+TIME="1786133837"
+SIZE="433401"
 ENDFILE
 VALUE "<project>/designer/Complex_multiplier/Complex_multiplier_slow_lv_lt_ba.sdf,ba_sdf"
 STATE="utd"
-TIME="1786026749"
-SIZE="414055"
+TIME="1786133837"
+SIZE="433416"
 ENDFILE
 VALUE "<project>/hdl/Complex_multiplier.vhd,hdl"
 STATE="utd"
-TIME="1785988262"
-SIZE="4637"
+TIME="1786133070"
+SIZE="5209"
 ENDFILE
 VALUE "<project>/hdl/reg16.vhd,hdl"
 STATE="utd"
@@ -89,43 +94,38 @@ SIZE="1158"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
-TIME="1785955745"
+TIME="1786135585"
 SIZE="1219"
 ENDFILE
 VALUE "<project>/simulation/Testbench_Complex_multiplier_postlayout_simulation.log,log"
 STATE="utd"
-TIME="1786026756"
-SIZE="2847"
-ENDFILE
-VALUE "<project>/simulation/Testbench_Complex_multiplier_postsynth_simulation.log,log"
-STATE="utd"
-TIME="1786017079"
-SIZE="3347"
+TIME="1786136252"
+SIZE="5155"
 ENDFILE
 VALUE "<project>/stimulus/Testbench_Complex_multiplier.vhd,tb_hdl"
 STATE="utd"
-TIME="1785954310"
-SIZE="5493"
+TIME="1786135581"
+SIZE="6164"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier.so,so"
 STATE="utd"
-TIME="1785955654"
+TIME="1786133617"
 SIZE="256"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier.vm,syn_vm"
 STATE="utd"
-TIME="1785955653"
-SIZE="48449"
+TIME="1786133617"
+SIZE="49799"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier_syn.prj,prj"
 STATE="utd"
-TIME="1785965494"
-SIZE="3126"
+TIME="1786136365"
+SIZE="2738"
 ENDFILE
 VALUE "<project>/synthesis/Complex_multiplier_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1785955653"
-SIZE="933"
+TIME="1786133617"
+SIZE="837"
 ENDFILE
 VALUE "<project>/synthesis/synwork/layer0.so,so"
 STATE="utd"
@@ -141,6 +141,15 @@ FILE "<project>/hdl/Complex_multiplier.vhd,hdl"
 LIST AssociatedStimulus
 VALUE "<project>/stimulus/Testbench_Complex_multiplier.vhd,tb_hdl"
 ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>/constraint/timing_160mhz.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>/constraint/timing_160mhz.sdc,sdc"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>/constraint/timing_160mhz.sdc,sdc"
+ENDLIST
 LIST ProjectState5.1
 LIST Impl1
 ideSTIMULUS=StateSuccess
@@ -153,6 +162,9 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -188,7 +200,7 @@ TimeUnitBase=ns
 Precision=100
 PrecisionBase=ps
 SdfCorner=slow_lv_ht
-PliPath=/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
+PliPath=/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
 UseCustomPliPath=false
 ENDLIST
 LIST ModelSimLibPath
@@ -233,17 +245,17 @@ EndProfile
 NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
-LOCATION="/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/bin/synplify_pro"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+LOCATION="/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/bin/synplify_pro"
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
 NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
-LOCATION="/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/ModelSim_Pro/linuxacoem/vsim"
-PARAM=" -l Testbench_Complex_multiplier_postlayout_simulation.log "
+LOCATION="/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/ModelSim_Pro/linuxacoem/vsim"
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -251,7 +263,7 @@ EndProfile
 NAME="Identify Debugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Identify/bin/identify_debugger"
+LOCATION="/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Identify/bin/identify_debugger"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -285,11 +297,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Place and Route:Complex_multiplier_glb_net_report.xml
+StartPage;StartPage;0
 HDL;hdl/Complex_multiplier.vhd;0
 HDL;stimulus/Testbench_Complex_multiplier.vhd;0
-ACTIVEVIEW;Reports
+Reports;Reports;0
+ReportsCurrentItem;Post-Layout Simulate:Testbench_Complex_multiplier_postlayout_simulation.log
+ACTIVEVIEW;stimulus/Testbench_Complex_multiplier.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Complex_multiplier::work","hdl/Complex_multiplier.vhd","FALSE","FALSE"
@@ -320,6 +333,7 @@ ENDLIST
 LIST FPTabList
 ENDLIST
 LIST TimingTabList
+VALUE "constraint/timing_160mhz.sdc"
 ENDLIST
 LIST FDCTabList
 ENDLIST

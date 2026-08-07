@@ -1,6 +1,6 @@
 Device Selection
 Report Version,Date,Product,Release,Version,Design Name,Family,Die,Package
-0.1,Thu Aug  6 10:38:15 2026,Designer,2025.1,2025.1.0.14,Complex_multiplier,PolarFireSoC,MPFS025T,FCVG484
+0.1,Fri Aug  7 17:15:26 2026,Designer,2025.1,2025.1.0.14,Complex_multiplier,PolarFireSoC,MPFS025T,FCVG484
 Pin Report
 Pin,Port,Function,Bank,State,I/O Std,Direction,Used I/O Reg,User I/O Lock Down,Clamp Diode,Resistor Pull,Use I/O Calibration from the lane,Schmitt Trigger,Vcm Input Range,On Die Termination,Odt Value (Ohm),Input Delay,Slew,Output Drive (mA),Impedance (ohm),Output Load (pF),Source Termination (Ohm),Output Delay,Board Layout
 A1,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
@@ -36,17 +36,17 @@ AA8,---,MSS_DDR_DQ15,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,-
 AA9,---,VDDI6,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"Must connect VDDI6 directly to 1.2v/1.5v/1.8v, or to VSS through resistor (10K ohm)"
 AA10,---,MSS_DDR_DQS_N2,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 AA11,---,MSS_DDR_DQS_P2,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
-AA12,b_real[0],HSIO28PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[0]
-AA13,p_real[10],HSIO26PB0/CLKIN_N_4/CCC_NW_PLL0_OUT0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[10]
+AA12,b_imag[4],HSIO28PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[4]
+AA13,b_imag[5],HSIO26PB0/CLKIN_N_4/CCC_NW_PLL0_OUT0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[5]
 AA14,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
-AA15,p_imag[0],HSIO25NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[0]
-AA16,p_real[2],HSIO22PB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[2]
-AA17,p_real[1],HSIO21NB0/DQS,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[1]
-AA18,p_real[11],HSIO18NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[11]
+AA15,a_imag[6],HSIO25NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[6]
+AA16,b_real[1],HSIO22PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[1]
+AA17,a_imag[5],HSIO21NB0/DQS,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[5]
+AA18,a_imag[7],HSIO18NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[7]
 AA19,---,VDDI0,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,1.8v
-AA20,a_imag[3],HSIO11NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[3]
-AA21,p_imag[7],HSIO9PB0/DQS/CCC_NE_PLL0_OUT0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[7]
-AA22,a_real[0],HSIO9NB0/DQS,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[0]
+AA20,overflow,HSIO11NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,overflow
+AA21,p_real[11],HSIO9PB0/DQS/CCC_NE_PLL0_OUT0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[11]
+AA22,p_imag[14],HSIO9NB0/DQS,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[14]
 AB1,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 AB2,---,MSS_DDR_DQ6,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 AB3,---,MSS_DDR_DQ7,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
@@ -58,16 +58,16 @@ AB8,---,MSS_DDR_DQ13,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,-
 AB9,---,MSS_DDR_DQ18,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 AB10,---,MSS_DDR_DQ19,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 AB11,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
-AB12,b_imag[5],HSIO28NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[5]
-AB13,p_real[15],HSIO26NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[15]
-AB14,p_real[12],HSIO24PB0/CLKIN_N_5,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[12]
-AB15,p_real[7],HSIO24NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[7]
+AB12,p_imag[13],HSIO28NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[13]
+AB13,a_imag[4],HSIO26NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[4]
+AB14,b_imag[1],HSIO24PB0/CLKIN_N_5,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[1]
+AB15,a_real[2],HSIO24NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[2]
 AB16,---,VDDI0,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,1.8v
-AB17,p_imag[6],HSIO21PB0/DQS,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[6]
-AB18,p_real[8],HSIO18PB0/CLKIN_N_7,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[8]
-AB19,a_imag[1],HSIO10PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[1]
-AB20,overflow,HSIO10NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,overflow
-AB21,a_real[6],HSIO11PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[6]
+AB17,b_real[6],HSIO21PB0/DQS,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[6]
+AB18,a_imag[0],HSIO18PB0/CLKIN_N_7,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[0]
+AB19,b_imag[6],HSIO10PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[6]
+AB20,p_real[1],HSIO10NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[1]
+AB21,b_real[3],HSIO11PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[3]
 AB22,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 B1,---,MSSIO27B2,Bank2,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI2 through resistor (10K ohm) is allowed. CLAMP=OFF"
 B2,---,MSSIO32B2,Bank2,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI2 through resistor (10K ohm) is allowed. CLAMP=OFF"
@@ -85,7 +85,7 @@ B13,---,GPIO51PB1/CLKIN_S_6,Bank1,Unassigned,---,---,---,---,---,---,---,---,---
 B14,---,GPIO51NB1,Bank1,Unassigned,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
 B15,---,GPIO53NB1,Bank1,Unassigned,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
 B16,---,VDDI1,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,1.8v
-B17,a_real[5],GPIO3PB1/CCC_SE_CLKIN_S_10/CCC_SE_PLL1_OUT0,Bank1,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[5]
+B17,p_real[12],GPIO3PB1/CCC_SE_CLKIN_S_10/CCC_SE_PLL1_OUT0,Bank1,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[12]
 B18,---,GPIO5NB1,Bank1,Unassigned,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
 B19,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
 B20,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
@@ -107,7 +107,7 @@ C13,---,VDDI1,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,-
 C14,---,GPIO52PB1/LPRB_A,Bank1,User Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,Probe A
 C15,---,GPIO52NB1/LPRB_B,Bank1,User Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,Probe B
 C16,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
-C17,p_real[0],GPIO3NB1,Bank1,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[0]
+C17,p_real[3],GPIO3NB1,Bank1,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[3]
 C18,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 C19,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
 C20,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
@@ -130,8 +130,8 @@ D14,---,GPIO50NB1/DQS,Bank1,Unassigned,---,---,---,---,---,---,---,---,---,---,-
 D15,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 D16,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
 D17,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
-D18,a_imag[7],GPIO4PB1/CCC_SE_PLL1_OUT1,Bank1,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[7]
-D19,a_real[3],GPIO2NB1/DQS,Bank1,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[3]
+D18,a_real[0],GPIO4PB1/CCC_SE_PLL1_OUT1,Bank1,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[0]
+D19,p_real[4],GPIO2NB1/DQS,Bank1,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[4]
 D20,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
 D21,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
 D22,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
@@ -152,8 +152,8 @@ E14,---,GPIO0NB1,Bank1,Unassigned,---,---,---,---,---,---,---,---,---,---,---,--
 E15,clk,GPIO0PB1/CLKIN_S_8/CCC_SE_CLKIN_S_8/CCC_SE_PLL0_OUT0,Bank1,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,clk
 E16,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
 E17,---,VDDI1,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,1.8v
-E18,p_imag[3],GPIO4NB1,Bank1,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[3]
-E19,a_imag[0],GPIO2PB1/DQS/CCC_SE_PLL1_OUT0,Bank1,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[0]
+E18,---,GPIO4NB1,Bank1,Unassigned,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
+E19,p_real[0],GPIO2PB1/DQS/CCC_SE_PLL1_OUT0,Bank1,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[0]
 E20,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 E21,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 E22,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
@@ -172,8 +172,8 @@ F12,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,
 F13,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
 F14,---,VDDI1,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,1.8v
 F15,---,NC,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
-F16,a_imag[6],GPIO1NB1,Bank1,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[6]
-F17,---,GPIO1PB1/CLKIN_S_9/CCC_SE_CLKIN_S_9,Bank1,Unassigned,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF"
+F16,p_real[9],GPIO1NB1,Bank1,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[9]
+F17,p_imag[0],GPIO1PB1/CLKIN_S_9/CCC_SE_CLKIN_S_9,Bank1,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[0]
 F18,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 F19,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 F20,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
@@ -366,11 +366,11 @@ R8,---,MSS_DDR_DQ30,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,--
 R9,---,VDD25,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,Must connect VDD25 to 2.5v
 R10,---,MSS_DDR_DQ29,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 R11,---,MSS_DDR_DQ28,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
-R12,p_real[9],HSIO35PB0/CCC_NW_CLKIN_N_0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[9]
+R12,p_imag[6],HSIO35PB0/CCC_NW_CLKIN_N_0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[6]
 R13,---,VDD18,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,Must connect VDD18 to 1.8v
-R14,p_imag[4],HSIO17NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[4]
-R15,p_imag[12],HSIO17PB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[12]
-R16,p_imag[11],HSIO15NB0/DQS,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[11]
+R14,a_real[3],HSIO17NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[3]
+R15,a_imag[3],HSIO17PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[3]
+R16,a_real[4],HSIO15NB0/DQS,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[4]
 R17,---,VDD25,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,Must connect VDD25 to 2.5v
 R18,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 R19,---,XCVR_0_RX3_N,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"Safety Critical Applications: DNC, LiberoSOC Defined. Connect to VSS through resistor (100K ohm) for higher noise immunity is allowed. All other applications:DNC, LiberoSOC Defined"
@@ -388,12 +388,12 @@ T8,---,MSS_DDR_DQ25,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,--
 T9,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 T10,---,MSS_DDR_DM3,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 T11,---,MSS_DDR_DQ26,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
-T12,b_imag[2],HSIO34NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[2]
-T13,b_imag[3],HSIO35NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[3]
+T12,p_imag[12],HSIO34NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[12]
+T13,p_imag[3],HSIO35NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[3]
 T14,---,VDDI0,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,1.8v
-T15,b_imag[4],HSIO31NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[4]
-T16,a_imag[4],HSIO15PB0/DQS/CCC_NE_PLL1_OUT0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[4]
-T17,p_imag[2],HSIO13PB0/CCC_NE_PLL1_OUT1,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[2]
+T15,p_imag[7],HSIO31NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[7]
+T16,p_real[5],HSIO15PB0/DQS/CCC_NE_PLL1_OUT0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[5]
+T17,p_real[10],HSIO13PB0/CCC_NE_PLL1_OUT1,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[10]
 T18,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 T19,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 T20,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
@@ -410,14 +410,14 @@ U8,---,MSS_DDR_DQ24,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,--
 U9,---,MSS_DDR_DQS_P3,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 U10,---,MSS_DDR_DQ27,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 U11,---,VDDI6,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"Must connect VDDI6 directly to 1.2v/1.5v/1.8v, or to VSS through resistor (10K ohm)"
-U12,p_imag[9],HSIO34PB0/CCC_NW_CLKIN_N_1,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[9]
-U13,b_real[5],HSIO33NB0/DQS,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[5]
-U14,b_real[2],HSIO33PB0/DQS/CCC_NW_PLL1_OUT0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[2]
-U15,b_real[1],HSIO31PB0/CCC_NW_PLL1_OUT1,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[1]
+U12,p_imag[4],HSIO34PB0/CCC_NW_CLKIN_N_1,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[4]
+U13,p_imag[8],HSIO33NB0/DQS,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[8]
+U14,a_real[7],HSIO33PB0/DQS/CCC_NW_PLL1_OUT0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[7]
+U15,p_imag[2],HSIO31PB0/CCC_NW_PLL1_OUT1,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[2]
 U16,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
-U17,en,HSIO13NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,en
-U18,p_imag[13],HSIO14NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[13]
-U19,p_imag[14],HSIO14PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[14]
+U17,rst,HSIO13NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,rst
+U18,p_real[14],HSIO14NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[14]
+U19,p_real[15],HSIO14PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[15]
 U20,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 U21,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 U22,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
@@ -432,17 +432,17 @@ V8,---,VDDI6,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,--
 V9,---,MSS_DDR_DQS_N3,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 V10,---,MSS_DDR_DQ21,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 V11,---,MSS_DDR_DQ20,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
-V12,b_real[4],HSIO32NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[4]
+V12,a_imag[1],HSIO32NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[1]
 V13,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
-V14,b_imag[1],HSIO30PB0/CLKIN_N_3/CCC_NW_CLKIN_N_3,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[1]
-V15,b_real[6],HSIO30NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[6]
-V16,a_imag[5],HSIO16NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[5]
-V17,p_imag[10],HSIO16PB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[10]
+V14,p_imag[11],HSIO30PB0/CLKIN_N_3/CCC_NW_CLKIN_N_3,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[11]
+V15,p_imag[15],HSIO30NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[15]
+V16,p_imag[9],HSIO16NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[9]
+V17,p_real[6],HSIO16PB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[6]
 V18,---,VDDI0,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,1.8v
-V19,a_real[7],HSIO12NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[7]
-V20,rst,HSIO12PB0/CLKIN_N_9/CCC_NE_CLKIN_N_9,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,rst
-V21,a_real[2],HSIO8NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[2]
-V22,p_imag[5],HSIO6NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[5]
+V19,b_imag[7],HSIO12NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[7]
+V20,en,HSIO12PB0/CLKIN_N_9/CCC_NE_CLKIN_N_9,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,en
+V21,p_real[7],HSIO8NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[7]
+V22,p_real[2],HSIO6NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[2]
 W1,---,MSS_DDR_DQ35,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 W2,---,MSS_DDR_DQ34,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 W3,---,MSS_DDR_DQ33,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
@@ -454,17 +454,17 @@ W8,---,MSS_DDR_DQ8,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---
 W9,---,MSS_DDR_DQ17,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 W10,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
 W11,---,MSS_DDR_DQ23,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
-W12,p_real[5],HSIO32PB0/CLKIN_N_2/CCC_NW_CLKIN_N_2/CCC_NW_PLL1_OUT0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[5]
-W13,b_imag[0],HSIO29PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[0]
-W14,b_real[3],HSIO27NB0/DQS,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[3]
+W12,b_imag[3],HSIO32PB0/CLKIN_N_2/CCC_NW_CLKIN_N_2/CCC_NW_PLL1_OUT0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[3]
+W13,p_imag[1],HSIO29PB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[1]
+W14,a_real[1],HSIO27NB0/DQS,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[1]
 W15,---,VDDI0,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,1.8v
-W16,p_imag[1],HSIO23PB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[1]
-W17,p_real[3],HSIO23NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[3]
-W18,b_real[7],HSIO19NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[7]
-W19,p_imag[8],HSIO19PB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[8]
+W16,b_imag[0],HSIO23PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[0]
+W17,b_real[4],HSIO23NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[4]
+W18,b_real[0],HSIO19NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[0]
+W19,a_real[6],HSIO19PB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[6]
 W20,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
-W21,a_imag[2],HSIO8PB0/CCC_NE_CLKIN_N_10/CCC_NE_PLL0_OUT0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[2]
-W22,a_real[4],HSIO6PB0/CCC_NE_CLKIN_N_11,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[4]
+W21,p_real[13],HSIO8PB0/CCC_NE_CLKIN_N_10/CCC_NE_PLL0_OUT0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[13]
+W22,b_real[5],HSIO6PB0/CCC_NE_CLKIN_N_11,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[5]
 Y1,---,MSS_DDR_DQ2,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 Y2,---,VDDI6,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"Must connect VDDI6 directly to 1.2v/1.5v/1.8v, or to VSS through resistor (10K ohm)"
 Y3,---,MSS_DDR_DQ0,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
@@ -477,15 +477,15 @@ Y9,---,MSS_DDR_DQ16,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,--
 Y10,---,MSS_DDR_DM2,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 Y11,---,MSS_DDR_DQ22,Bank6,Special,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDD18 through resistor (10K ohm) is allowed. CLAMP=ON"
 Y12,---,VDDI0,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,1.8v
-Y13,b_imag[6],HSIO29NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[6]
-Y14,b_imag[7],HSIO27PB0/DQS/CCC_NW_PLL0_OUT0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[7]
-Y15,p_real[4],HSIO25PB0/CCC_NW_PLL0_OUT1,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[4]
-Y16,p_real[14],HSIO22NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[14]
+Y13,p_imag[10],HSIO29NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[10]
+Y14,p_imag[5],HSIO27PB0/DQS/CCC_NW_PLL0_OUT0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[5]
+Y15,b_imag[2],HSIO25PB0/CCC_NW_PLL0_OUT1,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_imag[2]
+Y16,b_real[7],HSIO22NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[7]
 Y17,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS
-Y18,p_real[6],HSIO20NB0,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[6]
-Y19,p_real[13],HSIO20PB0/CLKIN_N_6,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[13]
-Y20,p_imag[15],HSIO7PB0/CCC_NE_PLL0_OUT1,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_imag[15]
-Y21,a_real[1],HSIO7NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[1]
+Y18,b_real[2],HSIO20NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,b_real[2]
+Y19,a_imag[2],HSIO20PB0/CLKIN_N_6,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_imag[2]
+Y20,p_real[8],HSIO7PB0/CCC_NE_PLL0_OUT1,Bank0,Assigned,LVCMOS18,Output,None,No,ON,None,No,---,---,---,120,---,OFF,8,---,5,---,OFF,p_real[8]
+Y21,a_real[5],HSIO7NB0,Bank0,Assigned,LVCMOS18,Input,None,No,ON,Up,No,OFF,---,OFF,120,OFF,---,---,---,---,---,---,a_real[5]
 Y22,---,VDDI0,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,1.8v
 
 

@@ -1,5 +1,5 @@
 <html><body><samp><pre>
-<!@TC:1786017000>
+<!@TC:1786133613>
 
 Copyright (C) 1994-2023 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
@@ -8,11 +8,11 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: V-2023.09M-5
-Install: /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
 OS: Ubuntu 22.04.5 LTS
-Hostname: tuzinho-IdeaPad-L340-15IRH-Gaming
+Hostname: rian-notebook
 max virtual memory: unlimited (bytes)
-max user processes: 62960
+max user processes: 38932
 max stack size: 8388608 (bytes)
 
 
@@ -29,18 +29,18 @@ Part:			MPFS025TFCVG484STD (Microchip)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      65                 100 %                
+SLE      79                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Complex_multiplier:	65 (29.95 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier:	79 (30.62 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      8                  100 %                
+CFG      7                  100 %                
 ARI1     56                 100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block Complex_multiplier:	64 (29.49 % Utilization)
+Total COMBINATIONAL LOGIC in the block Complex_multiplier:	63 (24.42 % Utilization)
 
 
 DSP
@@ -48,7 +48,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 MACC_PA     3                  100 %                
 ====================================================
-Total DSP in the block Complex_multiplier:	3 (1.38 % Utilization)
+Total DSP in the block Complex_multiplier:	3 (1.16 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -56,7 +56,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block Complex_multiplier:	1 (0.46 % Utilization)
+Total GLOBAL BUFFERS in the block Complex_multiplier:	1 (0.39 % Utilization)
 
 
 IO PADS
@@ -64,7 +64,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       68                 100 %                
 =================================================
-Total IO PADS in the block Complex_multiplier:	68 (31.34 % Utilization)
+Total IO PADS in the block Complex_multiplier:	68 (26.36 % Utilization)
 
 ---------------------------------------------------------------
 ########   Utilization report for  cell:   reg_gen_1   ########
@@ -74,9 +74,9 @@ Instance path:   Complex_multiplier.reg_gen_1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1                  1.54 %               
+SLE      1                  1.27 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_gen_1:	1 (0.46 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_gen_1:	1 (0.39 % Utilization)
 
 ----------------------------------------------------------------
 ########   Utilization report for  cell:   reg_gen_16   ########
@@ -86,9 +86,9 @@ Instance path:   Complex_multiplier.reg_gen_16
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 24.6 %               
+SLE      16                 20.3 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_gen_16:	16 (7.37 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_gen_16:	16 (6.20 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   reg_gen_16_0   ########
@@ -98,9 +98,9 @@ Instance path:   Complex_multiplier.reg_gen_16_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 24.6 %               
+SLE      16                 20.3 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_gen_16_0:	16 (7.37 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_gen_16_0:	16 (6.20 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   reg_signed_8   ########
@@ -110,9 +110,9 @@ Instance path:   Complex_multiplier.reg_signed_8
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      8                  12.3 %               
+SLE      8                  10.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8:	8 (3.69 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8:	8 (3.10 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   reg_signed_8_0   ########
@@ -122,9 +122,9 @@ Instance path:   Complex_multiplier.reg_signed_8_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      8                  12.3 %               
+SLE      8                  10.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_0:	8 (3.69 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_0:	8 (3.10 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   reg_signed_8_1   ########
@@ -134,9 +134,93 @@ Instance path:   Complex_multiplier.reg_signed_8_1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      8                  12.3 %               
+SLE      8                  10.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_1:	8 (3.69 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_1:	8 (3.10 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_17   ########
+Instance path:   Complex_multiplier.reg_signed_8_17                  
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_17:	1 (0.39 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_17_0   ########
+Instance path:   Complex_multiplier.reg_signed_8_17_0                  
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_17_0:	1 (0.39 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_17_1   ########
+Instance path:   Complex_multiplier.reg_signed_8_17_1                  
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_17_1:	1 (0.39 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_17_2   ########
+Instance path:   Complex_multiplier.reg_signed_8_17_2                  
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_17_2:	1 (0.39 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_17_3   ########
+Instance path:   Complex_multiplier.reg_signed_8_17_3                  
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_17_3:	1 (0.39 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_17_4   ########
+Instance path:   Complex_multiplier.reg_signed_8_17_4                  
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_17_4:	1 (0.39 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_17_5   ########
+Instance path:   Complex_multiplier.reg_signed_8_17_5                  
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_17_5:	1 (0.39 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   reg_signed_8_2   ########
@@ -146,9 +230,93 @@ Instance path:   Complex_multiplier.reg_signed_8_2
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      8                  12.3 %               
+SLE      8                  10.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_2:	8 (3.69 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_2:	8 (3.10 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_3   ########
+Instance path:   Complex_multiplier.reg_signed_8_3                  
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_3:	1 (0.39 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_4   ########
+Instance path:   Complex_multiplier.reg_signed_8_4                  
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_4:	1 (0.39 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_5   ########
+Instance path:   Complex_multiplier.reg_signed_8_5                  
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_5:	1 (0.39 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_6   ########
+Instance path:   Complex_multiplier.reg_signed_8_6                  
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_6:	1 (0.39 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_7   ########
+Instance path:   Complex_multiplier.reg_signed_8_7                  
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_7:	1 (0.39 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_8   ########
+Instance path:   Complex_multiplier.reg_signed_8_8                  
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_8:	1 (0.39 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   reg_signed_8_9   ########
+Instance path:   Complex_multiplier.reg_signed_8_9                  
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  1.27 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Complex_multiplier.reg_signed_8_9:	1 (0.39 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

@@ -1,16 +1,25 @@
-Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: Reading User SDC file /home/rian/Documents/RO/Testes/MultiplicadorComplex/constraint/timing_160mhz.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
 INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
 ***** Place and Route Configurations *****
-Timing-driven            : OFF
+Timing-driven            : ON
 Power-driven             : OFF
 I/O Register Combining   : OFF
-Global Pins Demotion     : OFF
+Global Pins Demotion     : ON
 Driver Replication       : OFF
 High-effort              : OFF
 Repair min-delay         : OFF
 Incremental              : OFF
+Inter-clock optimization : ON
 
 INFO: No User PDC file(s) was specified.
+
+ Running Timing based Global Demotion.
+        Demoted 0 global pins.
+
+ Timing based Global Demotion completed successfully.
 
 Running the I/O Bank and Globals Assigner.
 Info:  Globals Assigner found no global involed in the problem.
@@ -20,9 +29,9 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 1 seconds
 
 Placer V5.0 - 2025.1.0
-Design: Complex_multiplier              Started: Thu Aug  6 10:37:39 2026
+Design: Complex_multiplier              Started: Fri Aug  7 17:14:22 2026
 
-Initializing Normal-Effort Standard Placement ...
+Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
 Placing ...
 Improving placement ...
@@ -36,31 +45,31 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: Complex_multiplier
-Finished: Thu Aug  6 10:38:04 2026
-Total CPU Time:     00:00:23            Total Elapsed Time: 00:00:25
-Total Memory Usage: 1141.9 Mbytes
+Finished: Fri Aug  7 17:15:14 2026
+Total CPU Time:     00:00:50            Total Elapsed Time: 00:00:52
+Total Memory Usage: 1190.2 Mbytes
                         o - o - o - o - o - o
 
 
 Router
-Design: Complex_multiplier              Started: Thu Aug  6 10:38:08 2026
+Design: Complex_multiplier              Started: Fri Aug  7 17:15:18 2026
 
 
 Router completed successfully.
 
 Design: Complex_multiplier
-Finished: Thu Aug  6 10:38:12 2026
-Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
-Total Memory Usage: 770.5 Mbytes
+Finished: Fri Aug  7 17:15:23 2026
+Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:05
+Total Memory Usage: 755.5 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 170  | 22956 | 0.74       |
-| DFF                       | 173  | 22956 | 0.75       |
-| Logic Element             | 180  | 22956 | 0.78       |
+| 4LUT                      | 169  | 22956 | 0.74       |
+| DFF                       | 187  | 22956 | 0.81       |
+| Logic Element             | 202  | 22956 | 0.88       |
 | I/Os using I/O Registers  | 0    | 108   | 0.00       |
 | I/O Register Flip-Flops   | 0    | 324   | 0.00       |
 | -- Input  I/O Flip-Flops  | 0    | 108   | 0.00       |

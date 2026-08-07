@@ -6,11 +6,11 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: V-2023.09M-5
-Install: /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
 OS: Ubuntu 22.04.5 LTS
-Hostname: tuzinho-IdeaPad-L340-15IRH-Gaming
+Hostname: rian-notebook
 max virtual memory: unlimited (bytes)
-max user processes: 62960
+max user processes: 38932
 max stack size: 8388608 (bytes)
 
 
@@ -27,11 +27,11 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: V-2023.09M-5
-Install: /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
 OS: Ubuntu 22.04.5 LTS
-Hostname: tuzinho-IdeaPad-L340-15IRH-Gaming
+Hostname: rian-notebook
 max virtual memory: unlimited (bytes)
-max user processes: 62960
+max user processes: 38932
 max stack size: 8388608 (bytes)
 
 
@@ -40,31 +40,18 @@ Synopsys VHDL Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 0
 
 @N|Running in 64-bit mode
 @N|stack limit increased to max
-@N:"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Top entity is set to Complex_multiplier.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg16.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd'.
+@N:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Top entity is set to Complex_multiplier.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd'.
 VHDL syntax check successful!
-@N: CD231 :"/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/linux_a_64/c_vhdl changed - recompiling
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/location.map changed - recompiling
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std.vhd changed - recompiling
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/snps_haps_pkg.vhd changed - recompiling
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd changed - recompiling
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std_textio.vhd changed - recompiling
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/numeric.vhd changed - recompiling
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/umr_capim.vhd changed - recompiling
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/arith.vhd changed - recompiling
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/unsigned.vhd changed - recompiling
-File /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd changed - recompiling
-File /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd changed - recompiling
-File /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd changed - recompiling
+@N: CD231 :"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
 
 
 Process completed successfully.
-# Thu Aug  6 08:50:01 2026
+# Fri Aug  7 17:13:33 2026
 
 ###########################################################]
 ###########################################################[
@@ -76,11 +63,11 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: V-2023.09M-5
-Install: /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
 OS: Ubuntu 22.04.5 LTS
-Hostname: tuzinho-IdeaPad-L340-15IRH-Gaming
+Hostname: rian-notebook
 max virtual memory: unlimited (bytes)
-max user processes: 62960
+max user processes: 38932
 max stack size: 8388608 (bytes)
 
 
@@ -88,155 +75,155 @@ Implementation : synthesis
 Synopsys Verilog Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
 
 @N|Running in 64-bit mode
-@I::"/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/generic/acg5.v" (library work)
-@I::"/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vlog/hypermods.v" (library __hyper__lib__)
-@I::"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v" (library work)
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+@I::"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/generic/acg5.v" (library work)
+@I::"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v" (library work)
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":12831:13:12831:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":12831:13:12831:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
 
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/syn_comps.v":12856:13:12856:25|User defined pragma syn_black_box detected
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":12856:13:12856:25|User defined pragma syn_black_box detected
 
-@I::"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/MSS_syn_comps.v" (library work)
-@W: CG100 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/component/MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+@I::"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/MSS_syn_comps.v" (library work)
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
 
 @N|stack limit increased to max
 Verilog syntax check successful!
@@ -245,64 +232,62 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Thu Aug  6 08:50:02 2026
+# Fri Aug  7 17:13:34 2026
 
 ###########################################################]
 ###########################################################[
 @N|stack limit increased to max
-@N:"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Top entity is set to Complex_multiplier.
-Options changed - recompiling
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg16.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd'.
+@N:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Top entity is set to Complex_multiplier.
+
+File Dependency file is up to date.  It will not be rewritten.
+
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd'.
 VHDL syntax check successful!
-Options changed - recompiling
-@N: CD231 :"/home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-@N: CD630 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Synthesizing work.complex_multiplier.architecture_complex_multiplier.
-@W: CD638 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":50:15:50:19|Signal of_k1 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":50:22:50:26|Signal of_k2 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":50:29:50:33|Signal of_k3 is undriven. Either assign the signal a value or remove the signal declaration.
-@N: CD630 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
+@N: CD231 :"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Synthesizing work.complex_multiplier.architecture_complex_multiplier.
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
 Post processing for work.reg_gen.architecture_reg_gen
 Running optimization stage 1 on reg_gen .......
 Finished optimization stage 1 on reg_gen (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 186MB)
-@N: CD630 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
 Post processing for work.reg_gen.architecture_reg_gen
 Running optimization stage 1 on reg_gen .......
 Finished optimization stage 1 on reg_gen (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
-@N: CD630 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":23:7:23:16|Synthesizing work.reg_signed.architecture_reg_signed.
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":23:7:23:16|Synthesizing work.reg_signed.architecture_reg_signed.
 Post processing for work.reg_signed.architecture_reg_signed
 Running optimization stage 1 on reg_signed .......
 Finished optimization stage 1 on reg_signed (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
-@N: CD630 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":23:7:23:16|Synthesizing work.reg_signed.architecture_reg_signed.
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":23:7:23:16|Synthesizing work.reg_signed.architecture_reg_signed.
 Post processing for work.reg_signed.architecture_reg_signed
 Running optimization stage 1 on reg_signed .......
 Finished optimization stage 1 on reg_signed (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
 Post processing for work.complex_multiplier.architecture_complex_multiplier
 Running optimization stage 1 on Complex_multiplier .......
 Finished optimization stage 1 on Complex_multiplier (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
-Running optimization stage 2 on reg_signed_8 .......
-Finished optimization stage 2 on reg_signed_8 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
 Running optimization stage 2 on reg_signed_16 .......
 Finished optimization stage 2 on reg_signed_16 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
+Running optimization stage 2 on reg_signed_8 .......
+Finished optimization stage 2 on reg_signed_8 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
 Running optimization stage 2 on reg_gen_16 .......
 Finished optimization stage 2 on reg_gen_16 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
 Running optimization stage 2 on reg_gen_1 .......
 Finished optimization stage 2 on reg_gen_1 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
 Running optimization stage 2 on Complex_multiplier .......
-Finished optimization stage 2 on Complex_multiplier (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
+Finished optimization stage 2 on Complex_multiplier (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 188MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
-@L: /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synwork/layer0.duruntime
+@L: /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/layer0.duruntime
 
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 188MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
 
 
 Process completed successfully.
-# Thu Aug  6 08:50:02 2026
+# Fri Aug  7 17:13:34 2026
 
 ###########################################################]
 ###########################################################[
@@ -314,11 +299,11 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: V-2023.09M-5
-Install: /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
 OS: Ubuntu 22.04.5 LTS
-Hostname: tuzinho-IdeaPad-L340-15IRH-Gaming
+Hostname: rian-notebook
 max virtual memory: unlimited (bytes)
-max user processes: 62960
+max user processes: 38932
 max stack size: 8388608 (bytes)
 
 
@@ -326,29 +311,30 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
 
 @N|Running in 64-bit mode
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/linux_a_64/syn_nfilter changed - recompiling
-File /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Aug  6 08:50:02 2026
+# Fri Aug  7 17:13:34 2026
 
 ###########################################################]
 
 For a summary of runtime and memory usage for all design units, please see file:
 ==========================================================
-@L: /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_comp.rt.csv
+@L: /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_comp.rt.csv
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 37MB peak: 37MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 37MB peak: 37MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Aug  6 08:50:02 2026
+# Fri Aug  7 17:13:34 2026
 
 ###########################################################]

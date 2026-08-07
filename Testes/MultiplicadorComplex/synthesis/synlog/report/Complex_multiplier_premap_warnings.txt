@@ -1,1 +1,0 @@
-@W: MT530 :"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Found inferred clock Complex_multiplier|clk which controls 137 sequential elements including REG_IN_A.Q[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 

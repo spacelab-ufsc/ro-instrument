@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)</text>
-<text>Date: Thu Aug  6 08:50:11 2026
+<text>Date: Fri Aug  7 17:13:41 2026
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -52,7 +52,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm</cell>
+ <cell>/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -74,15 +74,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>170</cell>
+ <cell>169</cell>
  <cell>22956</cell>
  <cell>0.74</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>173</cell>
+ <cell>187</cell>
  <cell>22956</cell>
- <cell>0.75</cell>
+ <cell>0.81</cell>
 </row>
 <row>
  <cell>User I/O</cell>
@@ -196,8 +196,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>62</cell>
- <cell>65</cell>
+ <cell>61</cell>
+ <cell>79</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -216,8 +216,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>170</cell>
- <cell>173</cell>
+ <cell>169</cell>
+ <cell>187</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -305,7 +305,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>68</cell>
+ <cell>82</cell>
  <cell>INT_NET</cell>
  <cell>Net   : NN_1</cell>
 </row>
@@ -336,7 +336,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>74</cell>
+ <cell>88</cell>
  <cell>INT_NET</cell>
  <cell>Net   : en_c</cell>
 </row>
@@ -346,7 +346,7 @@
  <cell>Driver: en_ibuf</cell>
 </row>
 <row>
- <cell>68</cell>
+ <cell>82</cell>
  <cell>INT_NET</cell>
  <cell>Net   : rst_c</cell>
 </row>
@@ -354,6 +354,36 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: rst_ibuf</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : a[7]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: REG_IN_A/Q[7]</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : b[7]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: REG_IN_B/Q[7]</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : bi[7]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: REG_IN_BI/Q[7]</cell>
 </row>
 <row>
  <cell>12</cell>
@@ -378,36 +408,6 @@
 <row>
  <cell>12</cell>
  <cell>INT_NET</cell>
- <cell>Net   : a_real_c[7]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: a_real_ibuf[7]</cell>
-</row>
-<row>
- <cell>12</cell>
- <cell>INT_NET</cell>
- <cell>Net   : b_real_c[7]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: b_real_ibuf[7]</cell>
-</row>
-<row>
- <cell>12</cell>
- <cell>INT_NET</cell>
- <cell>Net   : b_imag_c[7]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: b_imag_ibuf[7]</cell>
-</row>
-<row>
- <cell>12</cell>
- <cell>INT_NET</cell>
  <cell>Net   : aia[7]</cell>
 </row>
 <row>
@@ -418,22 +418,22 @@
 <row>
  <cell>4</cell>
  <cell>INT_NET</cell>
- <cell>Net   : a[7]</cell>
+ <cell>Net   : a[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: REG_IN_A/Q[7]</cell>
+ <cell>Driver: REG_IN_A/Q[0]</cell>
 </row>
 <row>
  <cell>4</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ai[7]</cell>
+ <cell>Net   : k1r[15]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: REG_IN_AI/Q[7]</cell>
+ <cell>Driver: k1_mulonly_0[15:0]/MACC_PHYS_INST</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -444,7 +444,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>74</cell>
+ <cell>88</cell>
  <cell>INT_NET</cell>
  <cell>Net   : en_c</cell>
 </row>
@@ -454,7 +454,7 @@
  <cell>Driver: en_ibuf</cell>
 </row>
 <row>
- <cell>68</cell>
+ <cell>82</cell>
  <cell>INT_NET</cell>
  <cell>Net   : rst_c</cell>
 </row>
@@ -462,6 +462,36 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: rst_ibuf</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : a[7]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: REG_IN_A/Q[7]</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : b[7]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: REG_IN_B/Q[7]</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : bi[7]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: REG_IN_BI/Q[7]</cell>
 </row>
 <row>
  <cell>12</cell>
@@ -486,36 +516,6 @@
 <row>
  <cell>12</cell>
  <cell>INT_NET</cell>
- <cell>Net   : a_real_c[7]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: a_real_ibuf[7]</cell>
-</row>
-<row>
- <cell>12</cell>
- <cell>INT_NET</cell>
- <cell>Net   : b_real_c[7]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: b_real_ibuf[7]</cell>
-</row>
-<row>
- <cell>12</cell>
- <cell>INT_NET</cell>
- <cell>Net   : b_imag_c[7]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: b_imag_ibuf[7]</cell>
-</row>
-<row>
- <cell>12</cell>
- <cell>INT_NET</cell>
  <cell>Net   : aia[7]</cell>
 </row>
 <row>
@@ -526,22 +526,22 @@
 <row>
  <cell>4</cell>
  <cell>INT_NET</cell>
- <cell>Net   : a[7]</cell>
+ <cell>Net   : a[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: REG_IN_A/Q[7]</cell>
+ <cell>Driver: REG_IN_A/Q[0]</cell>
 </row>
 <row>
  <cell>4</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ai[7]</cell>
+ <cell>Net   : k1r[15]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: REG_IN_AI/Q[7]</cell>
+ <cell>Driver: k1_mulonly_0[15:0]/MACC_PHYS_INST</cell>
 </row>
 </table>
 </doc>

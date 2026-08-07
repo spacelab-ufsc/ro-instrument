@@ -5,7 +5,6 @@ Cell usage:
 CLKINT          1 use
 CFG1           1 use
 CFG2           2 uses
-CFG3           1 use
 CFG4           4 uses
 
 Carry cells:
@@ -13,7 +12,7 @@ ARI1            56 uses - used for arithmetic functions
 
 
 Sequential Cells: 
-SLE            65 uses
+SLE            79 uses
 
 DSP Blocks:    3 of 68 (4%)
  MACC_PA:         3 Mults
@@ -26,7 +25,7 @@ OUTBUF         33 uses
 
 Global Clock Buffers: 1
 
-Total LUTs:    64
+Total LUTs:    63
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
@@ -35,6 +34,6 @@ RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA     Interface Logic : SLEs = 108; LUTs = 108;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  65 + 0 + 0 + 108 = 173;
-Total number of LUTs after P&R:  64 + 0 + 0 + 108 = 172;
+Total number of SLEs after P&R:  79 + 0 + 0 + 108 = 187;
+Total number of LUTs after P&R:  63 + 0 + 0 + 108 = 171;
 

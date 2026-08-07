@@ -1,16 +1,16 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M-5
-#--  Project file /home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/run_options.txt
-#--  Written on Thu Aug  6 08:50:00 2026
+#--  Project file /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/run_options.txt
+#--  Written on Fri Aug  7 17:13:33 2026
 
 
 #project files
 add_file -verilog "../component/syn_comps.v"
-add_file -vhdl -lib work "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg16.vhd"
-add_file -vhdl -lib work "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/reg_signed.vhd"
-add_file -vhdl -lib work "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd"
+add_file -vhdl -lib work "/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd"
+add_file -vhdl -lib work "/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd"
+add_file -vhdl -lib work "/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd"
 add_file -verilog "../component/MSS_syn_comps.v"
-add_file -fpga_constraint "/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/designer/Complex_multiplier/synthesis.fdc"
+add_file -fpga_constraint "/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/synthesis.fdc"
 
 
 #implementation: "synthesis"

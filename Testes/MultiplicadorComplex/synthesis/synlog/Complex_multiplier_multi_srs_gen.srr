@@ -7,11 +7,11 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: V-2023.09M-5
-Install: /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
 OS: Ubuntu 22.04.5 LTS
-Hostname: tuzinho-IdeaPad-L340-15IRH-Gaming
+Hostname: rian-notebook
 max virtual memory: unlimited (bytes)
-max user processes: 62960
+max user processes: 38932
 max stack size: 8388608 (bytes)
 
 
@@ -19,7 +19,6 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
 
 @N|Running in 64-bit mode
-File /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/linux_a_64/syn_nfilter changed - recompiling
 File /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
@@ -27,6 +26,6 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Aug  6 08:50:04 2026
+# Fri Aug  7 17:04:56 2026
 
 ###########################################################]

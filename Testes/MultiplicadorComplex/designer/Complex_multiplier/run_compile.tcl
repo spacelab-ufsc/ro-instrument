@@ -59,13 +59,13 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm"}
+    -value {"/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.vm"}
 set_compile_info \
     -category {"Options"} \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {/home/tuzinho/Desktop/ro-instrument/Testes/MultiplicadorComplex/designer/Complex_multiplier} \
+    -desdir {/home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier} \
     -design Complex_multiplier \
     -fam PolarFireSoC \
     -die PA5SOC025T \

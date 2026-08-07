@@ -37,7 +37,7 @@ architecture behavioral of Testbench_Complex_multiplier is
 
     constant SYSCLK_PERIOD : time := 6.25 ns; -- 160MHZ
 
-    signal SYSCLK : std_logic := '1';
+    signal SYSCLK : std_logic := '0';
     signal NSYSRESET, en : std_logic := '1';
     signal a_real, a_imag, b_real, b_imag : std_logic_vector(7 downto 0);
     signal p_real, p_imag : std_logic_vector(15 downto 0);
@@ -81,12 +81,13 @@ stimulus_process: process
 
         -- Mantendo o seu NSYSRESET
         NSYSRESET <= '1'; 
+        -- Espera 10 ciclos + MEIO ciclo para sair da borda de subida
         wait for (SYSCLK_PERIOD * 10);
         
         -- Libera o reset e ativa o multiplicador
         NSYSRESET <= '0'; 
         en <= '1';
-        wait for (SYSCLK_PERIOD * 2);
+        wait for (SYSCLK_PERIOD);
 
         -- --------------------------------------------------------
         -- TESTE 2: Multiplicação Normal (Sem Overflow)
@@ -100,7 +101,7 @@ stimulus_process: process
         b_imag <= std_logic_vector(to_signed(5, 8));
         
         -- Espera alguns ciclos de clock para propagar pelos registradores
-        wait for (SYSCLK_PERIOD * 2);
+        wait for (SYSCLK_PERIOD);
 
         -- --------------------------------------------------------
         -- TESTE 3: Multiplicação com Números Negativos
@@ -111,7 +112,7 @@ stimulus_process: process
         a_imag <= std_logic_vector(to_signed(-2, 8));
         b_real <= std_logic_vector(to_signed(3, 8));
         b_imag <= std_logic_vector(to_signed(-4, 8));
-        wait for (SYSCLK_PERIOD * 2);
+        wait for (SYSCLK_PERIOD);
 
         -- --------------------------------------------------------
         -- TESTE 4: Forçando Overflow na soma interna (a + ai)
@@ -122,8 +123,23 @@ stimulus_process: process
         a_imag <= std_logic_vector(to_signed(100, 8));
         b_real <= std_logic_vector(to_signed(1, 8));
         b_imag <= std_logic_vector(to_signed(2, 8));
-        wait for (SYSCLK_PERIOD * 4);
+        wait for (SYSCLK_PERIOD * 8);
+        
+        -- TESTE 5
+        a_real <= std_logic_vector(to_signed(2, 8));
+        a_imag <= std_logic_vector(to_signed(3, 8));
+        b_real <= std_logic_vector(to_signed(4, 8));
+        b_imag <= std_logic_vector(to_signed(5, 8));
+        wait for (SYSCLK_PERIOD * 5); -- Dá tempo do pipeline esvaziar totalmente
 
+        -- TESTE 6
+        a_real <= std_logic_vector(to_signed(-5, 8));
+        a_imag <= std_logic_vector(to_signed(-2, 8));
+        b_real <= std_logic_vector(to_signed(3, 8));
+        b_imag <= std_logic_vector(to_signed(-4, 8));
+        wait for (SYSCLK_PERIOD * 5);
+        
+        
         -- Fim da simulação
         report "--- Fim de todos os testes! ---";
         

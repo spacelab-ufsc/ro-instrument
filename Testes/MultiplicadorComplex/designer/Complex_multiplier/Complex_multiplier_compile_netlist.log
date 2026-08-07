@@ -10,7 +10,7 @@ Info: Global design data:
 Info: List of globals considered for demotion:
     CLK    ASYN   DATA   Instance Name
     ---    ----   ----   -------------
-    68     0      0      'I_1'
+    82     0      0      'I_1'
 
 Info: Demotion information:
 Info: [127205381]:  CMPPF_302: Added 0 row global instances.

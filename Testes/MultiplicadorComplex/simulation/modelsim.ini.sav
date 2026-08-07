@@ -1,9 +1,9 @@
 [Library]
 others = $MODEL_TECH/../modelsim.ini
-polarfire = /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/polarfire
+polarfire = /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/polarfire
 presynth = presynth
 postlayout = ../designer/Complex_multiplier/simulation/postlayout
-syncad_vhdl_lib = /home/tuzinho/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/actel/syncad_vhdl_lib
+syncad_vhdl_lib = /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/actel/syncad_vhdl_lib
 
 [vcom]
 VHDL93 = 1
