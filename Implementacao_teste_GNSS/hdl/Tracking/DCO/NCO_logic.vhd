@@ -29,7 +29,7 @@ begin
 		end if;
 	end process;
 
-	reached <= 1 when counter = target else 0;
+	reached <= '1' when counter = target else '0';
 	nco_out <= reached;
 
 end Behavioral;

@@ -1,0 +1,16 @@
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap presynth presynth 
+# ** Error: (vmap-20) Cannot access for writing file "modelsim.ini".
+# No such file or directory. (errno = ENOENT)
+# Error in macro ./run.do line 10
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap presynth presynth 
+# ** Error: (vmap-20) Cannot access for writing file "modelsim.ini".
+# No such file or directory. (errno = ENOENT)
+#     while executing
+# "error [FixExecError $msg]"
+#     (procedure "vmap" line 29)
+#     invoked from within
+# "vmap presynth presynth"

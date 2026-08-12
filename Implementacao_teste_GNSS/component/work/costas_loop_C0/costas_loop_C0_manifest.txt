@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Tue Oct 21 10:28:06 2025
+Project   :  /home/arthur/Desktop/SpaceLab/projects_gnss/ro-instrument/Implementacao_teste_GNSS
+Component :  costas_loop_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/arthur/Desktop/SpaceLab/projects_gnss/ro-instrument/Implementacao_teste_GNSS/component/Microchip/SolutionCore/costas_loop/1.1.0/Encrypted/costas_loop.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/ro-instrument/Implementacao_teste_GNSS/component/work/costas_loop_C0/costas_loop_C0.v
+
+Stimulus files for all Simulation tools:
+    /home/arthur/Desktop/SpaceLab/projects_gnss/ro-instrument/Implementacao_teste_GNSS/component/Microchip/SolutionCore/costas_loop/1.1.0/Stimulus/costas_loop_tb.v
+

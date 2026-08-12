@@ -1,0 +1,13 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Thu Apr  2 14:08:38 2026
+Project   :  /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS
+Component :  complex_multiplier_C2
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/Microsemi/SolutionCore/complex_multiplier/1.0.27/obfuscate/complex_multiplier.vhd
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/Microsemi/SolutionCore/complex_multiplier/1.0.27/obfuscate/round_sat.vhd
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/complex_multiplier_C2/complex_multiplier_C2.vhd
+

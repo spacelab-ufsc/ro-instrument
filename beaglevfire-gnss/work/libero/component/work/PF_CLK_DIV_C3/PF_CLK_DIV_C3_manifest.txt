@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Thu Nov 27 16:34:41 2025
+Project   :  /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero
+Component :  PF_CLK_DIV_C3
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/PF_CLK_DIV_C3/PF_CLK_DIV_C3_0/PF_CLK_DIV_C3_PF_CLK_DIV_C3_0_PF_CLK_DIV.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/PF_CLK_DIV_C3/PF_CLK_DIV_C3.v
+
+Constraint files:
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/PF_CLK_DIV_C3/PF_CLK_DIV_C3_0/PF_CLK_DIV_C3_PF_CLK_DIV_C3_0_PF_CLK_DIV.sdc

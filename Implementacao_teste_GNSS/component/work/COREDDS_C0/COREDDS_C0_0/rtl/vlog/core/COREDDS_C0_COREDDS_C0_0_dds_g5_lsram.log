@@ -21,9 +21,9 @@ Write Clock Edge                : Rising
 A_REN Polarity                  : None
 B_REN Polarity                  : None
 Write Depth                     : 512
-Write Width                     : 8
+Write Width                     : 4
 Read Depth                      : 512
-Read Width                      : 8
+Read Width                      : 4
 Portname DataIn                 : DI
 Portname DataOut                : DO
 Portname WClock                 : WCLOCK
@@ -72,9 +72,9 @@ Lock access                     : Off
 ACCESS_BUSY                     : Disabled
 
 Cascade Configuration: 
-     Write Port configuration   : 2048x10
-     Read Port configuration    : 2048x10
+     Write Port configuration   : 4096x5
+     Read Port configuration    : 4096x5
      Number of blocks depth wise: 1
      Number of blocks width wise: 1
 
-Wrote Verilog netlist to /home/arthur/Desktop/projects_gnss/ro-instrument/Implementaçao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v.
+Wrote Verilog netlist to /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v.

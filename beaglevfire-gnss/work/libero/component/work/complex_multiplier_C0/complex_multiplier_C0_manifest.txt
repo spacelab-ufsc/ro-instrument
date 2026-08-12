@@ -1,0 +1,13 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Thu Nov 27 16:03:33 2025
+Project   :  /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero
+Component :  complex_multiplier_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/Microsemi/SolutionCore/complex_multiplier/1.0.27/obfuscate/complex_multiplier.vhd
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/Microsemi/SolutionCore/complex_multiplier/1.0.27/obfuscate/round_sat.vhd
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/complex_multiplier_C0/complex_multiplier_C0.vhd
+

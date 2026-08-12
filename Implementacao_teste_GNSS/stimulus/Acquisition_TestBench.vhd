@@ -37,12 +37,13 @@ architecture behavioral of Acquisition_TestBench is
     constant SYSCLK_PERIOD : time := 100 ns; -- 10MHZ
     constant PRNCLK_PERIOD : time := 977.5171 ns; -- 10MHZ
     signal PRN_CLK : std_logic := '0';
-    signal SYSCLK : std_logic := '0';
+    signal SYSCLK, SYSCLKL_2 : std_logic := '0';
     signal SYSRESET : std_logic := '1';
     signal CA_PRN, PRN_VALID : std_logic;
     signal MAX_I_INPUT: std_logic_vector(1 downto 0);
     signal ACQ_OUTPUT_I, ACQ_OUTPUT_Q : std_logic_vector(20 downto 0);
-
+    signal pulso       : STD_LOGIC := '0';
+    
     component Acquisition
         -- ports
         port( 
@@ -81,22 +82,11 @@ architecture behavioral of Acquisition_TestBench is
     
 begin
 
-    process
-        variable vhdl_initial : BOOLEAN := TRUE;
-
-    begin
-        if ( vhdl_initial ) then
-            -- Assert Reset
-            SYSRESET <= '1';
-            wait for ( SYSCLK_PERIOD * 10 );
-            
-            SYSRESET <= '0';
-            wait;
-        end if;
-    end process;
+    SYSRESET <= '1','0' after 4 us;		-- gera o sinal de resetprocess
 
     -- Clock Driver
     SYSCLK <= not SYSCLK after (SYSCLK_PERIOD / 2.0 );
+    SYSCLKL_2 <= not SYSCLKL_2 after (SYSCLK_PERIOD*2.0 );
     PRN_CLK <= not PRN_CLK after (PRNCLK_PERIOD / 2.0 );
 
     
@@ -107,7 +97,7 @@ begin
 			rst	=> SYSRESET,
 			PRN => CA_PRN,		
 			ENABLE => '1',
-			valid_out => PRN_VALID,
+			valid_out => open,
 			epoch => open,
 			epoch_advce => open,
 			SAT => 0
@@ -124,7 +114,7 @@ begin
             MAX_INPUT_I => MAX_I_INPUT,
             MAX_INPUT_Q => (others=> '0'),
             MAX_INPUT_CLK => PRN_VALID,
-            READ_OUT => SYSCLK,
+            READ_OUT => SYSCLKL_2,
 
             -- Outputs
             READ_OUT_V =>  open,
@@ -136,6 +126,23 @@ begin
         );
         
         MAX_I_INPUT <= CA_PRN & '1';
+        pulso <= not pulso after (200 ns);
+        
+        process (pulso, PRN_VALID) is
+            variable previous_pulse : std_logic := '0';
+        begin
+            if pulso'event then
+                if pulso = '1' and previous_pulse = '0' then
+                    PRN_VALID <= '1';
+                    previous_pulse := '1';
+                elsif pulso = '1' and previous_pulse = '1' then
+                    PRN_VALID <= '0';
+                else
+                    PRN_VALID <= '0';
+                    previous_pulse := '0';
+                end if;
+            end if;
+        end process;
 
 end behavioral;
 

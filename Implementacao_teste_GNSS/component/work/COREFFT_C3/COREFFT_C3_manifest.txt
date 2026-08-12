@@ -1,0 +1,26 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Thu Apr  2 14:07:38 2026
+Project   :  /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS
+Component :  COREFFT_C3
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/COREFFT_C3/COREFFT_C1_0/COREFFT_C3_COREFFT_C1_0_lsram_g5.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/COREFFT_C3/COREFFT_C1_0/twiddle32.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/COREFFT_C3/COREFFT_C1_0/fft_tb_inc32.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/COREFFT_C3/COREFFT_C1_0/rtl/in_place/vlog/core/COREFFT.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/COREFFT_C3/COREFFT_C1_0/rtl/in_place/vlog/core/fftDp.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/COREFFT_C3/COREFFT_C1_0/rtl/in_place/vlog/core/COREFFT_TOP.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/core/mac_lib.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/core/cmplx.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/core/kit.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/core/fftSm.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/COREFFT_C3/COREFFT_C3.v
+
+Stimulus files for all Simulation tools:
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/test/user/bhvKit.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/COREFFT_C3/COREFFT_C1_0/rtl/in_place/vlog/test/user/in_place_FFT_tb.v
+    /home/tuzinho/Desktop/ro-instrument/Implementacao_teste_GNSS/component/work/COREFFT_C3/COREFFT_C1_0/coreparameters.v
+

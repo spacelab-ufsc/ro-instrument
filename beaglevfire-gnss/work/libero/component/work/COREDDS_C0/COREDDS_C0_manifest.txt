@@ -1,0 +1,28 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Thu Nov 27 12:43:44 2025
+Project   :  /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero
+Component :  COREDDS_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/plot.mon
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/dds.mon
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/TrigCorr.mon
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/lut.mon
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/COREDDS_C0_COREDDS_C0_0_dds_full_sin.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/COREDDS_C0_COREDDS_C0_0_dds_full_cos.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/lut.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/DDS_TOP.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vlog/core/dds_kit.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vlog/core/dds_module.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0.v
+
+Stimulus files for all Simulation tools:
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/dds_bhvTestVectOut.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/dds_bhvKit.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/coreparameters.v
+    /home/arthur/Desktop/SpaceLab/projects_gnss/beaglevfire-gnss/work/libero/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/tb_dds.v
+
