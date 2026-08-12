@@ -1,0 +1,929 @@
+#Build: Synplify Pro (R) V-2023.09M-5, Build 540R, Apr 29 2025
+#install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+#OS: Linux 
+#Hostname: rian-notebook
+
+# Fri Aug  7 17:13:33 2026
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 38932
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 38932
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
+
+@N|Running in 64-bit mode
+@N|stack limit increased to max
+@N:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Top entity is set to Complex_multiplier.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+
+
+Process completed successfully.
+# Fri Aug  7 17:13:33 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 38932
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
+
+@N|Running in 64-bit mode
+@I::"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/generic/acg5.v" (library work)
+@I::"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v" (library work)
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":12831:13:12831:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v":12856:13:12856:25|User defined pragma syn_black_box detected
+
+@I::"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/MSS_syn_comps.v" (library work)
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+@N|stack limit increased to max
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
+
+
+Process completed successfully.
+# Fri Aug  7 17:13:34 2026
+
+###########################################################]
+###########################################################[
+@N|stack limit increased to max
+@N:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Top entity is set to Complex_multiplier.
+
+File Dependency file is up to date.  It will not be rewritten.
+
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Synthesizing work.complex_multiplier.architecture_complex_multiplier.
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
+Post processing for work.reg_gen.architecture_reg_gen
+Running optimization stage 1 on reg_gen .......
+Finished optimization stage 1 on reg_gen (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 186MB)
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
+Post processing for work.reg_gen.architecture_reg_gen
+Running optimization stage 1 on reg_gen .......
+Finished optimization stage 1 on reg_gen (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":23:7:23:16|Synthesizing work.reg_signed.architecture_reg_signed.
+Post processing for work.reg_signed.architecture_reg_signed
+Running optimization stage 1 on reg_signed .......
+Finished optimization stage 1 on reg_signed (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":23:7:23:16|Synthesizing work.reg_signed.architecture_reg_signed.
+Post processing for work.reg_signed.architecture_reg_signed
+Running optimization stage 1 on reg_signed .......
+Finished optimization stage 1 on reg_signed (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
+Post processing for work.complex_multiplier.architecture_complex_multiplier
+Running optimization stage 1 on Complex_multiplier .......
+Finished optimization stage 1 on Complex_multiplier (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
+Running optimization stage 2 on reg_signed_16 .......
+Finished optimization stage 2 on reg_signed_16 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
+Running optimization stage 2 on reg_signed_8 .......
+Finished optimization stage 2 on reg_signed_8 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
+Running optimization stage 2 on reg_gen_16 .......
+Finished optimization stage 2 on reg_gen_16 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
+Running optimization stage 2 on reg_gen_1 .......
+Finished optimization stage 2 on reg_gen_1 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 187MB)
+Running optimization stage 2 on Complex_multiplier .......
+Finished optimization stage 2 on Complex_multiplier (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 188MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+
+Process completed successfully.
+# Fri Aug  7 17:13:34 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 38932
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
+
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug  7 17:13:34 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 37MB peak: 37MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug  7 17:13:34 2026
+
+###########################################################]
+
+@A: multi_srs_gen output is up to date. No run necessary.
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Multi-srs Generator Report
+@R:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synlog/Complex_multiplier_multi_srs_gen.srr"
+Premap Report
+
+# Fri Aug  7 17:13:34 2026
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 38932
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 395R, Built Apr 29 2025 06:16:31, @6004904
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 517MB peak: 518MB)
+
+Reading constraint file: /home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/synthesis.fdc
+@L: /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier_scck.rpt 
+See clock summary report "/home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=84,dsps=68 on top level netlist Complex_multiplier 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock        Clock                Clock
+Level     Clock     Frequency     Period        Type         Group                Load 
+---------------------------------------------------------------------------------------
+0 -       clk       160.0 MHz     6.250         declared     default_clkgroup     225  
+=======================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source        Clock Pin             Non-clock Pin     Non-clock Pin
+Clock     Load      Pin           Seq Example           Seq Example       Comb Example 
+---------------------------------------------------------------------------------------
+clk       225       clk(port)     REG_OUT_OV.Q[0].C     -                 I_1.A(CLKINT)
+=======================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/Complex_multiplier.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 474MB peak: 563MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Aug  7 17:13:35 2026
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Aug  7 17:13:35 2026
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 38932
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 395R, Built Apr 29 2025 06:16:31, @6004904
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 560MB peak: 560MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 561MB peak: 561MB)
+
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIRR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIRR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIRR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIRR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIRR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIRR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIRR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BRR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BRR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BRR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BRR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BRR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BRR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BRR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIRR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIRR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIRR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIRR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIRR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIRR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIRR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_ARR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_ARR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_ARR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_ARR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_ARR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_ARR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_ARR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIAR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIAR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIAR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIAR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIAR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIAR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIAR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBIR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBIR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBIR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBIR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBIR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBIR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBIR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAIR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAIR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAIR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAIR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAIR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAIR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAIR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BIR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AR.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AR.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AR.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AR.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AR.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AR.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AR.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIA.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIA.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIA.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIA.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIA.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIA.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AIA.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBI.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBI.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBI.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBI.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBI.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBI.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_BBI.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAI.Q[0] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAI.Q[1] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAI.Q[2] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAI.Q[3] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAI.Q[4] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAI.Q[5] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":39:8:39:9|Removing sequential instance REG_AAI.Q[6] (in view: work.Complex_multiplier(architecture_complex_multiplier)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 561MB peak: 561MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     1.73ns		  69 /        79
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
+
+Writing Analyst data base /home/rian/Documents/RO/Testes/MultiplicadorComplex/synthesis/synwork/Complex_multiplier_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
+
+@N: MT615 |Found clock clk with period 6.25ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Aug  7 17:13:37 2026
+#
+
+
+Top view:               Complex_multiplier
+Requested Frequency:    160.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/rian/Documents/RO/Testes/MultiplicadorComplex/designer/Complex_multiplier/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 3.516
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group           
+------------------------------------------------------------------------------------------------------------------
+clk                160.0 MHz     365.7 MHz     6.250         2.734         3.516     declared     default_clkgroup
+==================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+clk       clk     |  6.250       3.516  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                     Arrival          
+Instance               Reference     Type        Pin      Net       Time        Slack
+                       Clock                                                         
+-------------------------------------------------------------------------------------
+k1_mulonly_0[15:0]     clk           MACC_PA     P[0]     p_0       0.344       3.516
+REG_IN_BI.Q[0]         clk           SLE         Q        bi[0]     0.257       3.616
+REG_IN_A.Q[0]          clk           SLE         Q        a[0]      0.257       3.616
+REG_IN_BI.Q[1]         clk           SLE         Q        bi[1]     0.257       3.626
+REG_IN_A.Q[1]          clk           SLE         Q        a[1]      0.257       3.626
+REG_IN_BI.Q[2]         clk           SLE         Q        bi[2]     0.257       3.635
+REG_IN_A.Q[2]          clk           SLE         Q        a[2]      0.257       3.635
+REG_IN_BI.Q[3]         clk           SLE         Q        bi[3]     0.257       3.644
+REG_IN_A.Q[3]          clk           SLE         Q        a[3]      0.257       3.644
+REG_IN_A.Q[4]          clk           SLE         Q        a[4]      0.257       3.654
+=====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                       Required          
+Instance               Reference     Type        Pin       Net        Time         Slack
+                       Clock                                                            
+----------------------------------------------------------------------------------------
+REG_OUT_OV.Q[0]        clk           SLE         D         ov         6.250        3.516
+REG_BBI.Q[7]           clk           SLE         D         bbi[7]     6.250        3.616
+REG_AIA.Q[7]           clk           SLE         D         aia[7]     6.250        3.616
+REG_AAI.Q[7]           clk           SLE         D         aai[7]     6.250        3.667
+k1_mulonly_0[15:0]     clk           MACC_PA     B[7]      bbi[7]     6.349        3.715
+k1_mulonly_0[15:0]     clk           MACC_PA     B[8]      bbi[7]     6.349        3.715
+k1_mulonly_0[15:0]     clk           MACC_PA     B[9]      bbi[7]     6.349        3.715
+k1_mulonly_0[15:0]     clk           MACC_PA     B[10]     bbi[7]     6.349        3.715
+k1_mulonly_0[15:0]     clk           MACC_PA     B[11]     bbi[7]     6.349        3.715
+k1_mulonly_0[15:0]     clk           MACC_PA     B[12]     bbi[7]     6.349        3.715
+========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.250
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.250
+
+    - Propagation time:                      2.734
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.516
+
+    Number of logic level(s):                18
+    Starting point:                          k1_mulonly_0[15:0] / P[0]
+    Ending point:                            REG_OUT_OV.Q[0] / D
+    The start point is clocked by            clk [rising] (rise=0.000 fall=3.125 period=6.250) on pin CLK
+    The end   point is clocked by            clk [rising] (rise=0.000 fall=3.125 period=6.250) on pin CLK
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+k1_mulonly_0[15:0]     MACC_PA     P[0]     Out     0.344     0.344 f     -         
+p_0                    Net         -        -       0.645     -           3         
+pi_0_cry_0             ARI1        B        In      -         0.989 f     -         
+pi_0_cry_0             ARI1        FCO      Out     0.387     1.376 f     -         
+pi_0_cry_0             Net         -        -       0.000     -           1         
+pi_0_cry_1             ARI1        FCI      In      -         1.376 f     -         
+pi_0_cry_1             ARI1        FCO      Out     0.009     1.385 f     -         
+pi_0_cry_1             Net         -        -       0.000     -           1         
+pi_0_cry_2             ARI1        FCI      In      -         1.385 f     -         
+pi_0_cry_2             ARI1        FCO      Out     0.009     1.395 f     -         
+pi_0_cry_2             Net         -        -       0.000     -           1         
+pi_0_cry_3             ARI1        FCI      In      -         1.395 f     -         
+pi_0_cry_3             ARI1        FCO      Out     0.009     1.404 f     -         
+pi_0_cry_3             Net         -        -       0.000     -           1         
+pi_0_cry_4             ARI1        FCI      In      -         1.404 f     -         
+pi_0_cry_4             ARI1        FCO      Out     0.009     1.413 f     -         
+pi_0_cry_4             Net         -        -       0.000     -           1         
+pi_0_cry_5             ARI1        FCI      In      -         1.413 f     -         
+pi_0_cry_5             ARI1        FCO      Out     0.009     1.423 f     -         
+pi_0_cry_5             Net         -        -       0.000     -           1         
+pi_0_cry_6             ARI1        FCI      In      -         1.423 f     -         
+pi_0_cry_6             ARI1        FCO      Out     0.009     1.432 f     -         
+pi_0_cry_6             Net         -        -       0.000     -           1         
+pi_0_cry_7             ARI1        FCI      In      -         1.432 f     -         
+pi_0_cry_7             ARI1        FCO      Out     0.009     1.442 f     -         
+pi_0_cry_7             Net         -        -       0.000     -           1         
+pi_0_cry_8             ARI1        FCI      In      -         1.442 f     -         
+pi_0_cry_8             ARI1        FCO      Out     0.009     1.451 f     -         
+pi_0_cry_8             Net         -        -       0.000     -           1         
+pi_0_cry_9             ARI1        FCI      In      -         1.451 f     -         
+pi_0_cry_9             ARI1        FCO      Out     0.009     1.460 f     -         
+pi_0_cry_9             Net         -        -       0.000     -           1         
+pi_0_cry_10            ARI1        FCI      In      -         1.460 f     -         
+pi_0_cry_10            ARI1        FCO      Out     0.009     1.470 f     -         
+pi_0_cry_10            Net         -        -       0.000     -           1         
+pi_0_cry_11            ARI1        FCI      In      -         1.470 f     -         
+pi_0_cry_11            ARI1        FCO      Out     0.009     1.479 f     -         
+pi_0_cry_11            Net         -        -       0.000     -           1         
+pi_0_cry_12            ARI1        FCI      In      -         1.479 f     -         
+pi_0_cry_12            ARI1        FCO      Out     0.009     1.489 f     -         
+pi_0_cry_12            Net         -        -       0.000     -           1         
+pi_0_cry_13            ARI1        FCI      In      -         1.489 f     -         
+pi_0_cry_13            ARI1        FCO      Out     0.009     1.498 f     -         
+pi_0_cry_13            Net         -        -       0.000     -           1         
+pi_0_cry_14            ARI1        FCI      In      -         1.498 f     -         
+pi_0_cry_14            ARI1        FCO      Out     0.009     1.507 f     -         
+pi_0_cry_14            Net         -        -       0.000     -           1         
+pi_0_s_15              ARI1        FCI      In      -         1.507 f     -         
+pi_0_s_15              ARI1        S        Out     0.354     1.861 r     -         
+pi[15]                 Net         -        -       0.146     -           2         
+ov_0_0_1_1             CFG4        C        In      -         2.008 r     -         
+ov_0_0_1_1             CFG4        Y        Out     0.175     2.182 f     -         
+ov_0_0_1_1             Net         -        -       0.139     -           1         
+ov_0_0                 CFG4        D        In      -         2.321 f     -         
+ov_0_0                 CFG4        Y        Out     0.274     2.595 r     -         
+ov                     Net         -        -       0.139     -           1         
+REG_OUT_OV.Q[0]        SLE         D        In      -         2.734 r     -         
+====================================================================================
+Total path delay (propagation time + setup) of 2.734 is 1.664(60.9%) logic and 1.070(39.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 567MB peak: 567MB)
+
+---------------------------------------
+Resource Usage Report for Complex_multiplier 
+
+Mapping to part: mpfs025tfcvg484std
+Cell usage:
+CLKINT          1 use
+CFG1           1 use
+CFG2           2 uses
+CFG4           4 uses
+
+Carry cells:
+ARI1            56 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            79 uses
+
+DSP Blocks:    3 of 68 (4%)
+ MACC_PA:         3 Mults
+
+I/O ports: 68
+I/O primitives: 68
+INBUF          35 uses
+OUTBUF         33 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    63
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 108; LUTs = 108;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  79 + 0 + 0 + 108 = 187;
+Total number of LUTs after P&R:  63 + 0 + 0 + 108 = 171;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 478MB peak: 567MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Aug  7 17:13:37 2026
+
+###########################################################]

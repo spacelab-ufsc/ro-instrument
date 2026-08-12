@@ -1,0 +1,16 @@
+Project Name: MultiplicadorComplex
+Location: /home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPFS025T-FCVG484E
+Family         : PolarFireSoC
+Die            : MPFS025T
+Package        : FCVG484
+Speed          : STD
+Core Voltage   : 1.0
+Range          : EXT

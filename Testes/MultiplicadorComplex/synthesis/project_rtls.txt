@@ -1,0 +1,6 @@
+"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd"
+"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd"
+"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd"
+"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/generic/acg5.v"
+"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/syn_comps.v"
+"/home/rian/Documents/RO/Testes/MultiplicadorComplex/component/MSS_syn_comps.v"

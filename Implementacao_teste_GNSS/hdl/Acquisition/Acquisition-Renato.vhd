@@ -26,8 +26,8 @@ entity Acquisition is
 port (
     --<port_name> : <direction> <type>;
 	CLK             : IN  std_logic; -- example
-    CA_CLK          : IN std_logic;
-    RST             : IN    std_logic;
+    CA_CLK          : IN  std_logic;
+    RST             : IN  std_logic;
 	MAX_INPUT_I     : IN  std_logic_vector(1 downto 0); -- MAX INPUT IN PHASE SIGNAL
     MAX_INPUT_Q     : IN  std_logic_vector(1 downto 0); -- MAX INPUT QUADRATURE SIGNAL
     MAX_INPUT_CLK   : IN  std_logic; -- MAX INPUT CLOCK

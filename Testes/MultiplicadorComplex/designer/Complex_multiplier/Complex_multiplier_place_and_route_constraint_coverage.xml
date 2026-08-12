@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2025.1.0.14</text>
+<text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+Date: Fri Aug  7 17:14:17 2026 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>Complex_multiplier</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPFS025T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCVG484</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          156</cell>
+ <cell>          120</cell>
+ <cell>          276</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>           82</cell>
+ <cell>           82</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          156</cell>
+ <cell>          235</cell>
+ <cell>          391</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          156</cell>
+ <cell>          120</cell>
+ <cell>          276</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>           82</cell>
+ <cell>           82</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          156</cell>
+ <cell>          235</cell>
+ <cell>          391</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>clk</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          156</cell>
+ <cell>          120</cell>
+ <cell>          276</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>           82</cell>
+ <cell>           82</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          156</cell>
+ <cell>          235</cell>
+ <cell>          391</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          156</cell>
+ <cell>          120</cell>
+ <cell>          276</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>           82</cell>
+ <cell>           82</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          156</cell>
+ <cell>          235</cell>
+ <cell>          391</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>a_imag[0]</item>
+ <item>a_imag[1]</item>
+ <item>a_imag[2]</item>
+ <item>a_imag[3]</item>
+ <item>a_imag[4]</item>
+ <item>a_imag[5]</item>
+ <item>a_imag[6]</item>
+ <item>a_imag[7]</item>
+ <item>a_real[0]</item>
+ <item>a_real[1]</item>
+ <item>a_real[2]</item>
+ <item>a_real[3]</item>
+ <item>a_real[4]</item>
+ <item>a_real[5]</item>
+ <item>a_real[6]</item>
+ <item>a_real[7]</item>
+ <item>b_imag[0]</item>
+ <item>b_imag[1]</item>
+ <item>b_imag[2]</item>
+ <item>b_imag[3]</item>
+ <item>b_imag[4]</item>
+ <item>b_imag[5]</item>
+ <item>b_imag[6]</item>
+ <item>b_imag[7]</item>
+ <item>b_real[0]</item>
+ <item>b_real[1]</item>
+ <item>b_real[2]</item>
+ <item>b_real[3]</item>
+ <item>b_real[4]</item>
+ <item>b_real[5]</item>
+ <item>b_real[6]</item>
+ <item>b_real[7]</item>
+ <item>en</item>
+ <item>rst</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>a_imag[0]</item>
+ <item>a_imag[1]</item>
+ <item>a_imag[2]</item>
+ <item>a_imag[3]</item>
+ <item>a_imag[4]</item>
+ <item>a_imag[5]</item>
+ <item>a_imag[6]</item>
+ <item>a_imag[7]</item>
+ <item>a_real[0]</item>
+ <item>a_real[1]</item>
+ <item>a_real[2]</item>
+ <item>a_real[3]</item>
+ <item>a_real[4]</item>
+ <item>a_real[5]</item>
+ <item>a_real[6]</item>
+ <item>a_real[7]</item>
+ <item>b_imag[0]</item>
+ <item>b_imag[1]</item>
+ <item>b_imag[2]</item>
+ <item>b_imag[3]</item>
+ <item>b_imag[4]</item>
+ <item>b_imag[5]</item>
+ <item>b_imag[6]</item>
+ <item>b_imag[7]</item>
+ <item>b_real[0]</item>
+ <item>b_real[1]</item>
+ <item>b_real[2]</item>
+ <item>b_real[3]</item>
+ <item>b_real[4]</item>
+ <item>b_real[5]</item>
+ <item>b_real[6]</item>
+ <item>b_real[7]</item>
+ <item>en</item>
+ <item>rst</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>overflow</item>
+ <item>p_imag[0]</item>
+ <item>p_imag[10]</item>
+ <item>p_imag[11]</item>
+ <item>p_imag[12]</item>
+ <item>p_imag[13]</item>
+ <item>p_imag[14]</item>
+ <item>p_imag[15]</item>
+ <item>p_imag[1]</item>
+ <item>p_imag[2]</item>
+ <item>p_imag[3]</item>
+ <item>p_imag[4]</item>
+ <item>p_imag[5]</item>
+ <item>p_imag[6]</item>
+ <item>p_imag[7]</item>
+ <item>p_imag[8]</item>
+ <item>p_imag[9]</item>
+ <item>p_real[0]</item>
+ <item>p_real[10]</item>
+ <item>p_real[11]</item>
+ <item>p_real[12]</item>
+ <item>p_real[13]</item>
+ <item>p_real[14]</item>
+ <item>p_real[15]</item>
+ <item>p_real[1]</item>
+ <item>p_real[2]</item>
+ <item>p_real[3]</item>
+ <item>p_real[4]</item>
+ <item>p_real[5]</item>
+ <item>p_real[6]</item>
+ <item>p_real[7]</item>
+ <item>p_real[8]</item>
+ <item>p_real[9]</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>overflow</item>
+ <item>p_imag[0]</item>
+ <item>p_imag[10]</item>
+ <item>p_imag[11]</item>
+ <item>p_imag[12]</item>
+ <item>p_imag[13]</item>
+ <item>p_imag[14]</item>
+ <item>p_imag[15]</item>
+ <item>p_imag[1]</item>
+ <item>p_imag[2]</item>
+ <item>p_imag[3]</item>
+ <item>p_imag[4]</item>
+ <item>p_imag[5]</item>
+ <item>p_imag[6]</item>
+ <item>p_imag[7]</item>
+ <item>p_imag[8]</item>
+ <item>p_imag[9]</item>
+ <item>p_real[0]</item>
+ <item>p_real[10]</item>
+ <item>p_real[11]</item>
+ <item>p_real[12]</item>
+ <item>p_real[13]</item>
+ <item>p_real[14]</item>
+ <item>p_real[15]</item>
+ <item>p_real[1]</item>
+ <item>p_real[2]</item>
+ <item>p_real[3]</item>
+ <item>p_real[4]</item>
+ <item>p_real[5]</item>
+ <item>p_real[6]</item>
+ <item>p_real[7]</item>
+ <item>p_real[8]</item>
+ <item>p_real[9]</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>REG_AAI/Q[7]:EN</item>
+ <item>REG_AAIR/Q[7]:EN</item>
+ <item>REG_AIA/Q[7]:EN</item>
+ <item>REG_AIAR/Q[7]:EN</item>
+ <item>REG_AIR/Q[7]:EN</item>
+ <item>REG_AIRR/Q[7]:EN</item>
+ <item>REG_AR/Q[7]:EN</item>
+ <item>REG_ARR/Q[7]:EN</item>
+ <item>REG_BBI/Q[7]:EN</item>
+ <item>REG_BBIR/Q[7]:EN</item>
+ <item>REG_BIR/Q[7]:EN</item>
+ <item>REG_BIRR/Q[7]:EN</item>
+ <item>REG_BR/Q[7]:EN</item>
+ <item>REG_BRR/Q[7]:EN</item>
+ <item>REG_IN_A/Q[0]:D</item>
+ <item>REG_IN_A/Q[0]:EN</item>
+ <item>REG_IN_A/Q[1]:D</item>
+ <item>REG_IN_A/Q[1]:EN</item>
+ <item>REG_IN_A/Q[2]:D</item>
+ <item>REG_IN_A/Q[2]:EN</item>
+ <item>REG_IN_A/Q[3]:D</item>
+ <item>REG_IN_A/Q[3]:EN</item>
+ <item>REG_IN_A/Q[4]:D</item>
+ <item>REG_IN_A/Q[4]:EN</item>
+ <item>REG_IN_A/Q[5]:D</item>
+ <item>REG_IN_A/Q[5]:EN</item>
+ <item>REG_IN_A/Q[6]:D</item>
+ <item>REG_IN_A/Q[6]:EN</item>
+ <item>REG_IN_A/Q[7]:D</item>
+ <item>REG_IN_A/Q[7]:EN</item>
+ <item>REG_IN_AI/Q[0]:D</item>
+ <item>REG_IN_AI/Q[0]:EN</item>
+ <item>REG_IN_AI/Q[1]:D</item>
+ <item>REG_IN_AI/Q[1]:EN</item>
+ <item>REG_IN_AI/Q[2]:D</item>
+ <item>REG_IN_AI/Q[2]:EN</item>
+ <item>REG_IN_AI/Q[3]:D</item>
+ <item>REG_IN_AI/Q[3]:EN</item>
+ <item>REG_IN_AI/Q[4]:D</item>
+ <item>REG_IN_AI/Q[4]:EN</item>
+ <item>REG_IN_AI/Q[5]:D</item>
+ <item>REG_IN_AI/Q[5]:EN</item>
+ <item>REG_IN_AI/Q[6]:D</item>
+ <item>REG_IN_AI/Q[6]:EN</item>
+ <item>REG_IN_AI/Q[7]:D</item>
+ <item>REG_IN_AI/Q[7]:EN</item>
+ <item>REG_IN_B/Q[0]:D</item>
+ <item>REG_IN_B/Q[0]:EN</item>
+ <item>REG_IN_B/Q[1]:D</item>
+ <item>REG_IN_B/Q[1]:EN</item>
+ <item>REG_IN_B/Q[2]:D</item>
+ <item>REG_IN_B/Q[2]:EN</item>
+ <item>REG_IN_B/Q[3]:D</item>
+ <item>REG_IN_B/Q[3]:EN</item>
+ <item>REG_IN_B/Q[4]:D</item>
+ <item>REG_IN_B/Q[4]:EN</item>
+ <item>REG_IN_B/Q[5]:D</item>
+ <item>REG_IN_B/Q[5]:EN</item>
+ <item>REG_IN_B/Q[6]:D</item>
+ <item>REG_IN_B/Q[6]:EN</item>
+ <item>REG_IN_B/Q[7]:D</item>
+ <item>REG_IN_B/Q[7]:EN</item>
+ <item>REG_IN_BI/Q[0]:D</item>
+ <item>REG_IN_BI/Q[0]:EN</item>
+ <item>REG_IN_BI/Q[1]:D</item>
+ <item>REG_IN_BI/Q[1]:EN</item>
+ <item>REG_IN_BI/Q[2]:D</item>
+ <item>REG_IN_BI/Q[2]:EN</item>
+ <item>REG_IN_BI/Q[3]:D</item>
+ <item>REG_IN_BI/Q[3]:EN</item>
+ <item>REG_IN_BI/Q[4]:D</item>
+ <item>REG_IN_BI/Q[4]:EN</item>
+ <item>REG_IN_BI/Q[5]:D</item>
+ <item>REG_IN_BI/Q[5]:EN</item>
+ <item>REG_IN_BI/Q[6]:D</item>
+ <item>REG_IN_BI/Q[6]:EN</item>
+ <item>REG_IN_BI/Q[7]:D</item>
+ <item>REG_IN_BI/Q[7]:EN</item>
+ <item>REG_OUT_I/Q[0]:EN</item>
+ <item>REG_OUT_I/Q[10]:EN</item>
+ <item>REG_OUT_I/Q[11]:EN</item>
+ <item>REG_OUT_I/Q[12]:EN</item>
+ <item>REG_OUT_I/Q[13]:EN</item>
+ <item>REG_OUT_I/Q[14]:EN</item>
+ <item>REG_OUT_I/Q[15]:EN</item>
+ <item>REG_OUT_I/Q[1]:EN</item>
+ <item>REG_OUT_I/Q[2]:EN</item>
+ <item>REG_OUT_I/Q[3]:EN</item>
+ <item>REG_OUT_I/Q[4]:EN</item>
+ <item>REG_OUT_I/Q[5]:EN</item>
+ <item>REG_OUT_I/Q[6]:EN</item>
+ <item>REG_OUT_I/Q[7]:EN</item>
+ <item>REG_OUT_I/Q[8]:EN</item>
+ <item>REG_OUT_I/Q[9]:EN</item>
+ <item>REG_OUT_OV/Q[0]:EN</item>
+ <item>REG_OUT_R/Q[0]:EN</item>
+ <item>REG_OUT_R/Q[10]:EN</item>
+ <item>REG_OUT_R/Q[11]:EN</item>
+ <item>REG_OUT_R/Q[12]:EN</item>
+ <item>REG_OUT_R/Q[13]:EN</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>REG_AAI/Q[7]:ALn</item>
+ <item>REG_AAIR/Q[7]:ALn</item>
+ <item>REG_AIA/Q[7]:ALn</item>
+ <item>REG_AIAR/Q[7]:ALn</item>
+ <item>REG_AIR/Q[7]:ALn</item>
+ <item>REG_AIRR/Q[7]:ALn</item>
+ <item>REG_AR/Q[7]:ALn</item>
+ <item>REG_ARR/Q[7]:ALn</item>
+ <item>REG_BBI/Q[7]:ALn</item>
+ <item>REG_BBIR/Q[7]:ALn</item>
+ <item>REG_BIR/Q[7]:ALn</item>
+ <item>REG_BIRR/Q[7]:ALn</item>
+ <item>REG_BR/Q[7]:ALn</item>
+ <item>REG_BRR/Q[7]:ALn</item>
+ <item>REG_IN_A/Q[0]:ALn</item>
+ <item>REG_IN_A/Q[1]:ALn</item>
+ <item>REG_IN_A/Q[2]:ALn</item>
+ <item>REG_IN_A/Q[3]:ALn</item>
+ <item>REG_IN_A/Q[4]:ALn</item>
+ <item>REG_IN_A/Q[5]:ALn</item>
+ <item>REG_IN_A/Q[6]:ALn</item>
+ <item>REG_IN_A/Q[7]:ALn</item>
+ <item>REG_IN_AI/Q[0]:ALn</item>
+ <item>REG_IN_AI/Q[1]:ALn</item>
+ <item>REG_IN_AI/Q[2]:ALn</item>
+ <item>REG_IN_AI/Q[3]:ALn</item>
+ <item>REG_IN_AI/Q[4]:ALn</item>
+ <item>REG_IN_AI/Q[5]:ALn</item>
+ <item>REG_IN_AI/Q[6]:ALn</item>
+ <item>REG_IN_AI/Q[7]:ALn</item>
+ <item>REG_IN_B/Q[0]:ALn</item>
+ <item>REG_IN_B/Q[1]:ALn</item>
+ <item>REG_IN_B/Q[2]:ALn</item>
+ <item>REG_IN_B/Q[3]:ALn</item>
+ <item>REG_IN_B/Q[4]:ALn</item>
+ <item>REG_IN_B/Q[5]:ALn</item>
+ <item>REG_IN_B/Q[6]:ALn</item>
+ <item>REG_IN_B/Q[7]:ALn</item>
+ <item>REG_IN_BI/Q[0]:ALn</item>
+ <item>REG_IN_BI/Q[1]:ALn</item>
+ <item>REG_IN_BI/Q[2]:ALn</item>
+ <item>REG_IN_BI/Q[3]:ALn</item>
+ <item>REG_IN_BI/Q[4]:ALn</item>
+ <item>REG_IN_BI/Q[5]:ALn</item>
+ <item>REG_IN_BI/Q[6]:ALn</item>
+ <item>REG_IN_BI/Q[7]:ALn</item>
+ <item>REG_OUT_I/Q[0]:ALn</item>
+ <item>REG_OUT_I/Q[10]:ALn</item>
+ <item>REG_OUT_I/Q[11]:ALn</item>
+ <item>REG_OUT_I/Q[12]:ALn</item>
+ <item>REG_OUT_I/Q[13]:ALn</item>
+ <item>REG_OUT_I/Q[14]:ALn</item>
+ <item>REG_OUT_I/Q[15]:ALn</item>
+ <item>REG_OUT_I/Q[1]:ALn</item>
+ <item>REG_OUT_I/Q[2]:ALn</item>
+ <item>REG_OUT_I/Q[3]:ALn</item>
+ <item>REG_OUT_I/Q[4]:ALn</item>
+ <item>REG_OUT_I/Q[5]:ALn</item>
+ <item>REG_OUT_I/Q[6]:ALn</item>
+ <item>REG_OUT_I/Q[7]:ALn</item>
+ <item>REG_OUT_I/Q[8]:ALn</item>
+ <item>REG_OUT_I/Q[9]:ALn</item>
+ <item>REG_OUT_OV/Q[0]:ALn</item>
+ <item>REG_OUT_R/Q[0]:ALn</item>
+ <item>REG_OUT_R/Q[10]:ALn</item>
+ <item>REG_OUT_R/Q[11]:ALn</item>
+ <item>REG_OUT_R/Q[12]:ALn</item>
+ <item>REG_OUT_R/Q[13]:ALn</item>
+ <item>REG_OUT_R/Q[14]:ALn</item>
+ <item>REG_OUT_R/Q[15]:ALn</item>
+ <item>REG_OUT_R/Q[1]:ALn</item>
+ <item>REG_OUT_R/Q[2]:ALn</item>
+ <item>REG_OUT_R/Q[3]:ALn</item>
+ <item>REG_OUT_R/Q[4]:ALn</item>
+ <item>REG_OUT_R/Q[5]:ALn</item>
+ <item>REG_OUT_R/Q[6]:ALn</item>
+ <item>REG_OUT_R/Q[7]:ALn</item>
+ <item>REG_OUT_R/Q[8]:ALn</item>
+ <item>REG_OUT_R/Q[9]:ALn</item>
+ <item>k1_mulonly_0[15:0]/MACC_PHYS_INST/INST_MACC_IP:AL_N</item>
+ <item>k2_mulonly_0[15:0]/MACC_PHYS_INST/INST_MACC_IP:AL_N</item>
+ <item>k3_mulonly_0[15:0]/MACC_PHYS_INST/INST_MACC_IP:AL_N</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>REG_AAI/Q[7]:EN</item>
+ <item>REG_AAIR/Q[7]:EN</item>
+ <item>REG_AIA/Q[7]:EN</item>
+ <item>REG_AIAR/Q[7]:EN</item>
+ <item>REG_AIR/Q[7]:EN</item>
+ <item>REG_AIRR/Q[7]:EN</item>
+ <item>REG_AR/Q[7]:EN</item>
+ <item>REG_ARR/Q[7]:EN</item>
+ <item>REG_BBI/Q[7]:EN</item>
+ <item>REG_BBIR/Q[7]:EN</item>
+ <item>REG_BIR/Q[7]:EN</item>
+ <item>REG_BIRR/Q[7]:EN</item>
+ <item>REG_BR/Q[7]:EN</item>
+ <item>REG_BRR/Q[7]:EN</item>
+ <item>REG_IN_A/Q[0]:D</item>
+ <item>REG_IN_A/Q[0]:EN</item>
+ <item>REG_IN_A/Q[1]:D</item>
+ <item>REG_IN_A/Q[1]:EN</item>
+ <item>REG_IN_A/Q[2]:D</item>
+ <item>REG_IN_A/Q[2]:EN</item>
+ <item>REG_IN_A/Q[3]:D</item>
+ <item>REG_IN_A/Q[3]:EN</item>
+ <item>REG_IN_A/Q[4]:D</item>
+ <item>REG_IN_A/Q[4]:EN</item>
+ <item>REG_IN_A/Q[5]:D</item>
+ <item>REG_IN_A/Q[5]:EN</item>
+ <item>REG_IN_A/Q[6]:D</item>
+ <item>REG_IN_A/Q[6]:EN</item>
+ <item>REG_IN_A/Q[7]:D</item>
+ <item>REG_IN_A/Q[7]:EN</item>
+ <item>REG_IN_AI/Q[0]:D</item>
+ <item>REG_IN_AI/Q[0]:EN</item>
+ <item>REG_IN_AI/Q[1]:D</item>
+ <item>REG_IN_AI/Q[1]:EN</item>
+ <item>REG_IN_AI/Q[2]:D</item>
+ <item>REG_IN_AI/Q[2]:EN</item>
+ <item>REG_IN_AI/Q[3]:D</item>
+ <item>REG_IN_AI/Q[3]:EN</item>
+ <item>REG_IN_AI/Q[4]:D</item>
+ <item>REG_IN_AI/Q[4]:EN</item>
+ <item>REG_IN_AI/Q[5]:D</item>
+ <item>REG_IN_AI/Q[5]:EN</item>
+ <item>REG_IN_AI/Q[6]:D</item>
+ <item>REG_IN_AI/Q[6]:EN</item>
+ <item>REG_IN_AI/Q[7]:D</item>
+ <item>REG_IN_AI/Q[7]:EN</item>
+ <item>REG_IN_B/Q[0]:D</item>
+ <item>REG_IN_B/Q[0]:EN</item>
+ <item>REG_IN_B/Q[1]:D</item>
+ <item>REG_IN_B/Q[1]:EN</item>
+ <item>REG_IN_B/Q[2]:D</item>
+ <item>REG_IN_B/Q[2]:EN</item>
+ <item>REG_IN_B/Q[3]:D</item>
+ <item>REG_IN_B/Q[3]:EN</item>
+ <item>REG_IN_B/Q[4]:D</item>
+ <item>REG_IN_B/Q[4]:EN</item>
+ <item>REG_IN_B/Q[5]:D</item>
+ <item>REG_IN_B/Q[5]:EN</item>
+ <item>REG_IN_B/Q[6]:D</item>
+ <item>REG_IN_B/Q[6]:EN</item>
+ <item>REG_IN_B/Q[7]:D</item>
+ <item>REG_IN_B/Q[7]:EN</item>
+ <item>REG_IN_BI/Q[0]:D</item>
+ <item>REG_IN_BI/Q[0]:EN</item>
+ <item>REG_IN_BI/Q[1]:D</item>
+ <item>REG_IN_BI/Q[1]:EN</item>
+ <item>REG_IN_BI/Q[2]:D</item>
+ <item>REG_IN_BI/Q[2]:EN</item>
+ <item>REG_IN_BI/Q[3]:D</item>
+ <item>REG_IN_BI/Q[3]:EN</item>
+ <item>REG_IN_BI/Q[4]:D</item>
+ <item>REG_IN_BI/Q[4]:EN</item>
+ <item>REG_IN_BI/Q[5]:D</item>
+ <item>REG_IN_BI/Q[5]:EN</item>
+ <item>REG_IN_BI/Q[6]:D</item>
+ <item>REG_IN_BI/Q[6]:EN</item>
+ <item>REG_IN_BI/Q[7]:D</item>
+ <item>REG_IN_BI/Q[7]:EN</item>
+ <item>REG_OUT_I/Q[0]:EN</item>
+ <item>REG_OUT_I/Q[10]:EN</item>
+ <item>REG_OUT_I/Q[11]:EN</item>
+ <item>REG_OUT_I/Q[12]:EN</item>
+ <item>REG_OUT_I/Q[13]:EN</item>
+ <item>REG_OUT_I/Q[14]:EN</item>
+ <item>REG_OUT_I/Q[15]:EN</item>
+ <item>REG_OUT_I/Q[1]:EN</item>
+ <item>REG_OUT_I/Q[2]:EN</item>
+ <item>REG_OUT_I/Q[3]:EN</item>
+ <item>REG_OUT_I/Q[4]:EN</item>
+ <item>REG_OUT_I/Q[5]:EN</item>
+ <item>REG_OUT_I/Q[6]:EN</item>
+ <item>REG_OUT_I/Q[7]:EN</item>
+ <item>REG_OUT_I/Q[8]:EN</item>
+ <item>REG_OUT_I/Q[9]:EN</item>
+ <item>REG_OUT_OV/Q[0]:EN</item>
+ <item>REG_OUT_R/Q[0]:EN</item>
+ <item>REG_OUT_R/Q[10]:EN</item>
+ <item>REG_OUT_R/Q[11]:EN</item>
+ <item>REG_OUT_R/Q[12]:EN</item>
+ <item>REG_OUT_R/Q[13]:EN</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>REG_AAI/Q[7]:ALn</item>
+ <item>REG_AAIR/Q[7]:ALn</item>
+ <item>REG_AIA/Q[7]:ALn</item>
+ <item>REG_AIAR/Q[7]:ALn</item>
+ <item>REG_AIR/Q[7]:ALn</item>
+ <item>REG_AIRR/Q[7]:ALn</item>
+ <item>REG_AR/Q[7]:ALn</item>
+ <item>REG_ARR/Q[7]:ALn</item>
+ <item>REG_BBI/Q[7]:ALn</item>
+ <item>REG_BBIR/Q[7]:ALn</item>
+ <item>REG_BIR/Q[7]:ALn</item>
+ <item>REG_BIRR/Q[7]:ALn</item>
+ <item>REG_BR/Q[7]:ALn</item>
+ <item>REG_BRR/Q[7]:ALn</item>
+ <item>REG_IN_A/Q[0]:ALn</item>
+ <item>REG_IN_A/Q[1]:ALn</item>
+ <item>REG_IN_A/Q[2]:ALn</item>
+ <item>REG_IN_A/Q[3]:ALn</item>
+ <item>REG_IN_A/Q[4]:ALn</item>
+ <item>REG_IN_A/Q[5]:ALn</item>
+ <item>REG_IN_A/Q[6]:ALn</item>
+ <item>REG_IN_A/Q[7]:ALn</item>
+ <item>REG_IN_AI/Q[0]:ALn</item>
+ <item>REG_IN_AI/Q[1]:ALn</item>
+ <item>REG_IN_AI/Q[2]:ALn</item>
+ <item>REG_IN_AI/Q[3]:ALn</item>
+ <item>REG_IN_AI/Q[4]:ALn</item>
+ <item>REG_IN_AI/Q[5]:ALn</item>
+ <item>REG_IN_AI/Q[6]:ALn</item>
+ <item>REG_IN_AI/Q[7]:ALn</item>
+ <item>REG_IN_B/Q[0]:ALn</item>
+ <item>REG_IN_B/Q[1]:ALn</item>
+ <item>REG_IN_B/Q[2]:ALn</item>
+ <item>REG_IN_B/Q[3]:ALn</item>
+ <item>REG_IN_B/Q[4]:ALn</item>
+ <item>REG_IN_B/Q[5]:ALn</item>
+ <item>REG_IN_B/Q[6]:ALn</item>
+ <item>REG_IN_B/Q[7]:ALn</item>
+ <item>REG_IN_BI/Q[0]:ALn</item>
+ <item>REG_IN_BI/Q[1]:ALn</item>
+ <item>REG_IN_BI/Q[2]:ALn</item>
+ <item>REG_IN_BI/Q[3]:ALn</item>
+ <item>REG_IN_BI/Q[4]:ALn</item>
+ <item>REG_IN_BI/Q[5]:ALn</item>
+ <item>REG_IN_BI/Q[6]:ALn</item>
+ <item>REG_IN_BI/Q[7]:ALn</item>
+ <item>REG_OUT_I/Q[0]:ALn</item>
+ <item>REG_OUT_I/Q[10]:ALn</item>
+ <item>REG_OUT_I/Q[11]:ALn</item>
+ <item>REG_OUT_I/Q[12]:ALn</item>
+ <item>REG_OUT_I/Q[13]:ALn</item>
+ <item>REG_OUT_I/Q[14]:ALn</item>
+ <item>REG_OUT_I/Q[15]:ALn</item>
+ <item>REG_OUT_I/Q[1]:ALn</item>
+ <item>REG_OUT_I/Q[2]:ALn</item>
+ <item>REG_OUT_I/Q[3]:ALn</item>
+ <item>REG_OUT_I/Q[4]:ALn</item>
+ <item>REG_OUT_I/Q[5]:ALn</item>
+ <item>REG_OUT_I/Q[6]:ALn</item>
+ <item>REG_OUT_I/Q[7]:ALn</item>
+ <item>REG_OUT_I/Q[8]:ALn</item>
+ <item>REG_OUT_I/Q[9]:ALn</item>
+ <item>REG_OUT_OV/Q[0]:ALn</item>
+ <item>REG_OUT_R/Q[0]:ALn</item>
+ <item>REG_OUT_R/Q[10]:ALn</item>
+ <item>REG_OUT_R/Q[11]:ALn</item>
+ <item>REG_OUT_R/Q[12]:ALn</item>
+ <item>REG_OUT_R/Q[13]:ALn</item>
+ <item>REG_OUT_R/Q[14]:ALn</item>
+ <item>REG_OUT_R/Q[15]:ALn</item>
+ <item>REG_OUT_R/Q[1]:ALn</item>
+ <item>REG_OUT_R/Q[2]:ALn</item>
+ <item>REG_OUT_R/Q[3]:ALn</item>
+ <item>REG_OUT_R/Q[4]:ALn</item>
+ <item>REG_OUT_R/Q[5]:ALn</item>
+ <item>REG_OUT_R/Q[6]:ALn</item>
+ <item>REG_OUT_R/Q[7]:ALn</item>
+ <item>REG_OUT_R/Q[8]:ALn</item>
+ <item>REG_OUT_R/Q[9]:ALn</item>
+ <item>k1_mulonly_0[15:0]/MACC_PHYS_INST/INST_MACC_IP:AL_N</item>
+ <item>k2_mulonly_0[15:0]/MACC_PHYS_INST/INST_MACC_IP:AL_N</item>
+ <item>k3_mulonly_0[15:0]/MACC_PHYS_INST/INST_MACC_IP:AL_N</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

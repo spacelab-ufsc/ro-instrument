@@ -1,0 +1,22 @@
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":30:4:30:4|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":105:4:105:12|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":31:4:31:4|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":105:4:105:12|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":30:4:30:4|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":104:4:104:12|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":31:4:31:4|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":104:4:104:12|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":30:4:30:4|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":90:4:90:9|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":31:4:31:4|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":90:4:90:9|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":30:4:30:4|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":89:4:89:9|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":31:4:31:4|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":89:4:89:9|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":30:4:30:4|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":88:4:88:9|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":31:4:31:4|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":88:4:88:9|Formal, "q", and actual disagree on type
+@E::Errors while synthesizing top module work.Complex_multiplier.
+

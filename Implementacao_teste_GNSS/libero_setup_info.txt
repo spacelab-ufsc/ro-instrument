@@ -1,13 +1,65 @@
 # Microsemi Corp.
-# Date: 2026-Jun-10 11:50:20
+# Date: 2026-Aug-11 07:24:00
 Libero Release : 2025.1
 Libero Version : 2025.1.0.14
-Operating System Name : Linux
-Linux Distribution Description:	Ubuntu 22.04.5 LTS
-
-Ram Size : Unknown
+Operating System Name : Windows 8
+Ram Size : 7.71 GB (usable)
 OS Type : 64-bit
 
 Environment Variables : 
 ---------------------
-	Please enable the option from 'Preferences => Startup => Export environment variables' to get this info.
+	ALLUSERSPROFILE=C:\ProgramData
+	APPDATA=C:\Users\renat\AppData\Roaming
+	CommonProgramFiles=C:\Program Files (x86)\Common Files
+	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+	CommonProgramW6432=C:\Program Files\Common Files
+	COMPUTERNAME=RENATO
+	ComSpec=C:\Windows\system32\cmd.exe
+	DriverData=C:\Windows\System32\Drivers\DriverData
+	EFC_9460_1262719628=1
+	EFC_9460_1592913036=1
+	EFC_9460_2283032206=1
+	EFC_9460_2775293581=1
+	EFC_9460_3789132940=1
+	EFC_9460_4126798990=1
+	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+	FPS_BROWSER_USER_PROFILE_STRING=Default
+	HOMEDRIVE=C:
+	HOMEPATH=\Users\renat
+	Link_SDC=C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl
+	LM_LICENSE_FILE=C:\Microchip\License\License.dat;%LM_LICENSE_FILE%
+	LOCALAPPDATA=C:\Users\renat\AppData\Local
+	LOGONSERVER=\\RENATO
+	NUMBER_OF_PROCESSORS=12
+	OneDrive=C:\Users\renat\OneDrive - MINISTÉRIO DO TRABALHO E PREVIDÊNCIA
+	OneDriveCommercial=C:\Users\renat\OneDrive - MINISTÉRIO DO TRABALHO E PREVIDÊNCIA
+	OneDriveConsumer=C:\Users\renat\OneDrive
+	OS=Windows_NT
+	Path=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Liquid Technologies\Liquid Studio\XmlDataBinder21\Redist21\cpp\win32\bin;C:\Program Files\Liquid Technologies\Liquid Studio\XmlDataBinder21\Redist21\cpp\win64\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\renat\.local\bin;C:\Users\renat\AppData\Local\Microsoft\WindowsApps;C:\Users\renat\AppData\Local\GitHubDesktop\bin;C:\Users\renat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\renat\AppData\Local\gitkraken\bin
+	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	PROCESSOR_ARCHITECTURE=x86
+	PROCESSOR_ARCHITEW6432=AMD64
+	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel
+	PROCESSOR_LEVEL=6
+	PROCESSOR_REVISION=ba02
+	ProgramData=C:\ProgramData
+	ProgramFiles=C:\Program Files (x86)
+	ProgramFiles(x86)=C:\Program Files (x86)
+	ProgramW6432=C:\Program Files
+	PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PUBLIC=C:\Users\Public
+	SESSIONNAME=Console
+	SystemDrive=C:
+	SystemRoot=C:\Windows
+	TEMP=C:\Users\renat\AppData\Local\Temp
+	TMP=C:\Users\renat\AppData\Local\Temp
+	USERDOMAIN=RENATO
+	USERDOMAIN_ROAMINGPROFILE=RENATO
+	USERNAME=renat
+	USERPROFILE=C:\Users\renat
+	windir=C:\Windows
+	ZES_ENABLE_SYSMAN=1
+	ACTEL_SW_DIR=C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer
+	AMHOME=C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/am
+	HOME=C:\Users\renat
+	TCL_LIBRARY=C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/lib/tcl8.5

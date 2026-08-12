@@ -1,0 +1,284 @@
+#Build: Synplify Pro (R) V-2023.09M-5, Build 540R, Apr 29 2025
+#install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+#OS: Linux 
+#Hostname: rian-notebook
+
+# Tue Jun  9 13:36:03 2026
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 39208
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 39208
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
+
+@N|Running in 64-bit mode
+@N|stack limit increased to max
+@N:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Top entity is set to Complex_multiplier.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+
+Process completed successfully.
+# Tue Jun  9 13:36:04 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 39208
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
+
+@N|Running in 64-bit mode
+@I::"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/generic/acg5.v" (library work)
+@I::"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v" (library work)
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":12831:13:12831:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/syn_comps.v":12856:13:12856:25|User defined pragma syn_black_box detected
+
+@I::"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/MSS_syn_comps.v" (library work)
+@W: CG100 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/component/MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+@N|stack limit increased to max
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
+
+
+Process completed successfully.
+# Tue Jun  9 13:36:04 2026
+
+###########################################################]
+###########################################################[
+@N|stack limit increased to max
+@N:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Top entity is set to Complex_multiplier.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":24:7:24:24|Synthesizing work.complex_multiplier.architecture_complex_multiplier.
+@W: CD278 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":59:8:59:8|Port type mismatch between component and entity
+@W: CD278 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":60:8:60:8|Port type mismatch between component and entity
+@W: CD278 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":59:8:59:8|Port type mismatch between component and entity
+@W: CD278 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":60:8:60:8|Port type mismatch between component and entity
+@W: CD278 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":59:8:59:8|Port type mismatch between component and entity
+@W: CD278 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":60:8:60:8|Port type mismatch between component and entity
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd":30:4:30:4|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":92:4:92:13|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd":31:4:31:4|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":92:4:92:13|Formal, "q", and actual disagree on type
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd":30:4:30:4|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":91:4:91:12|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd":31:4:31:4|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":91:4:91:12|Formal, "q", and actual disagree on type
+@N: CD630 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd":22:7:22:13|Synthesizing work.reg_gen.architecture_reg_gen.
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd":30:4:30:4|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":90:4:90:12|Formal, "d", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/reg16.vhd":31:4:31:4|Formal, "q", and actual disagree on type
+@E: CD146 :"/home/rian/Documents/RO/Testes/MultiplicadorComplex/MultiplicadorComplex/hdl/Complex_multiplier.vhd":90:4:90:12|Formal, "q", and actual disagree on type
+12 errors during synthesis
+# Tue Jun  9 13:36:04 2026
+
+###########################################################]
+@E::Errors while synthesizing top module work.Complex_multiplier.
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jun  9 13:36:04 2026
+
+###########################################################]

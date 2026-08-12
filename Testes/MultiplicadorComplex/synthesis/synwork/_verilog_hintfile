@@ -1,0 +1,51 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/linux_a_64/c_vhdl":1745933903
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/location.map":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std.vhd":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/snps_haps_pkg.vhd":1745933276
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std_textio.vhd":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/numeric.vhd":1745933901
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/umr_capim.vhd":1745933277
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/arith.vhd":1745933276
+#CUR:"/home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/unsigned.vhd":1745933277
+#CUR:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd":1781023182
+#CUR:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd":1785955449
+#CUR:"/home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd":1786133070
+@E8lFkRDCBbFlD_CGl0kDHHbDCDs
+HNLssI$RF
+s	bNNslCC0skRlDI0_HE80R0HMCsoC
+bHMkO0RD-	R4M
+HbRk0C-MR4M
+HbRk0sR#0-H4
+M0bkRsN_CRND-H4
+M0bkRHN_lRNo-H4
+M0bkRsL_CRND-H4
+M0bkRHL_lRNo-F4
+kk0b0_RbsDCNR
+-4Fbk0kb0R_NHlo4R-
+0FkbRk0FsPCVIDFR
+-4ClM8FD8kCF
+l8CkDRosC_o#HM
+C8DsHLNRs$I	Fs
+sbNN0lCCssRCIo_HE80R0HMCsoC
+bHMkO0RD-	R4M
+HbRk0sR#0-H4
+M0bkRRCM-H4
+M0bkR-7R4k
+F00bkR-TR4M
+C88lFk
+DClkF8DsCRCoo_CDM
+HNLssI$RF
+s	bNNslCC0sCRsoH_I8R0EHCM0o
+CsHkMb0DRO	4R-
+bHMks0R#-0R4M
+HbRk0C-MR4M
+HbRk074R-
+0FkbRk0T4R-
+8CMlkF8D
+C
+
+
+@ 

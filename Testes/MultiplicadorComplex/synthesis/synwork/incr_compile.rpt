@@ -1,0 +1,52 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro
+OS: Ubuntu 22.04.5 LTS
+Hostname: rian-notebook
+max virtual memory: unlimited (bytes)
+max user processes: 38932
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 06:34:33, @6004905
+
+Modified Files: 0
+FID:  path (prevtimestamp, timestamp)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 13
+FID:  path (timestamp)
+12       /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/Complex_multiplier.vhd (2026-08-07 17:04:30)
+13       /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg16.vhd (2026-06-09 13:39:42)
+14       /home/rian/Documents/RO/Testes/MultiplicadorComplex/hdl/reg_signed.vhd (2026-08-05 15:44:09)
+2        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/hyperents.vhd (2025-04-29 10:27:56)
+3        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/snps_haps_pkg.vhd (2025-04-29 10:27:56)
+4        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd/umr_capim.vhd (2025-04-29 10:27:57)
+5        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/arith.vhd (2025-04-29 10:27:56)
+6        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/location.map (2025-04-29 10:27:57)
+7        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/numeric.vhd (2025-04-29 10:38:21)
+8        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std.vhd (2025-04-29 10:27:57)
+9        /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std1164.vhd (2025-04-29 10:27:57)
+10       /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/std_textio.vhd (2025-04-29 10:27:57)
+11       /home/rian/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro/lib/vhd2008/unsigned.vhd (2025-04-29 10:27:57)
+
+*******************************************************************
+Unchanged modules: 6
+MID:  lib.cell.view
+0        work.complex_multiplier.architecture_complex_multiplier
+1        work.complex_multiplier.vhdl
+2        work.reg_gen.architecture_reg_gen
+3        work.reg_gen.vhdl
+4        work.reg_signed.architecture_reg_signed
+5        work.reg_signed.vhdl
