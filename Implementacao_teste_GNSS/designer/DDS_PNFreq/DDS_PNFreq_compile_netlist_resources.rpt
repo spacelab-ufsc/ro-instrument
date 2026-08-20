@@ -1,0 +1,153 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+Date: Thu Aug 20 07:43:49 2026
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS025T     |
+| Package                | FCVG484      |
+| Speed Grade            | STD          |
+| Core Voltage           | 1.0V         |
+| Part Range             | EXT          |
+| Default I/O technology | LVCMOS 3.3V  |
++------------------------+--------------+
+
+Source Files
++---------+---------------------------------------------------------------------------------------------------+
+| Topcell | DDS_PNFreq                                                                                        |
+| Format  | Verilog                                                                                           |
+| Source  | C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\DDS_PNFreq.vm |
++---------+---------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++-----------------------------+------+-------+------------+
+| Type                        | Used | Total | Percentage |
++-----------------------------+------+-------+------------+
+| 4LUT                        | 195  | 22956 | 0.85       |
+| DFF                         | 123  | 22956 | 0.54       |
+| User I/O                    | 17   | 108   | 15.74      |
+| -- Single-ended I/O         | 17   | 108   | 15.74      |
+| -- Differential I/O Pairs   | 0    | 54    | 0.00       |
+| -- I/Os using I/O Registers | 0    | 108   | 0.00       |
+| I/O Register Flip-Flops     | 0    | 324   | 0.00       |
+| -- Input  I/O Flip-Flops    | 0    | 108   | 0.00       |
+| -- Output I/O Flip-Flops    | 0    | 108   | 0.00       |
+| -- Enable I/O Flip-Flops    | 0    | 108   | 0.00       |
+| uSRAM                       | 0    | 204   | 0.00       |
+| LSRAM                       | 2    | 84    | 2.38       |
+| Math                        | 0    | 68    | 0.00       |
+| H-Chip Global               | 2    | 24    | 8.33       |
+| PLL                         | 0    | 8     | 0.00       |
+| DLL                         | 0    | 8     | 0.00       |
+| Transceiver Lanes           | 0    | 4     | 0.00       |
+| Transceiver PCIe            | 0    | 2     | 0.00       |
+| MSS                         | 0    | 1     | 0.00       |
++-----------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+-----+
+| Type                  | 4LUT | DFF |
++-----------------------+------+-----+
+| Fabric Logic          | 123  | 51  |
+| uSRAM Interface Logic | 0    | 0   |
+| LSRAM Interface Logic | 72   | 72  |
+| Math Interface Logic  | 0    | 0   |
+| Total Used            | 195  | 123 |
++-----------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 10     | 1    |
+| 13     | 1    |
+| 17     | 1    |
+| Total  | 3    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 9            | 0           | 0               |
+| Output I/O                    | 8            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+--------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                   |
++--------+---------+--------------------------------------------------------------------------------------------------------+
+| 53     | INT_NET | Net   : NN_1                                                                                           |
+|        |         | Driver: I_1/U0_RGB1                                                                                    |
+|        |         | Source: NETLIST                                                                                        |
+| 2      | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/slow_clk                                                           |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/N_5_inferred_clock_RNIMR4S5/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                        |
++--------+---------+--------------------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                   |
++--------+---------+------------------------------------------------------------------------+
+| 43     | INT_NET | Net   : NGRST_c                                                        |
+|        |         | Driver: NGRST_ibuf                                                     |
+| 17     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/full_wave_addr[9]                  |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51       |
+| 17     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/rstn_full_wave_addr_Z              |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/rstn_full_wave_addr                |
+| 12     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/sico_wEn                           |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wEn_long         |
+| 11     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/N_5 |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/dc  |
+| 10     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/sico_wA[7]                         |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[7]  |
+| 10     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/sico_wA[6]                         |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[6]  |
+| 8      | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/sico_wA[8]                         |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[8]  |
+| 8      | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/full_wave_addr[11]                 |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51       |
+| 8      | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/full_wave_addr[10]                 |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51       |
++--------+---------+------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                   |
++--------+---------+------------------------------------------------------------------------+
+| 43     | INT_NET | Net   : NGRST_c                                                        |
+|        |         | Driver: NGRST_ibuf                                                     |
+| 17     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/full_wave_addr[9]                  |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51       |
+| 17     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/rstn_full_wave_addr_Z              |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/rstn_full_wave_addr                |
+| 12     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/sico_wEn                           |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wEn_long         |
+| 11     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/N_5 |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/dc  |
+| 10     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/sico_wA[7]                         |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[7]  |
+| 10     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/sico_wA[6]                         |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[6]  |
+| 8      | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/sico_wA[8]                         |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[8]  |
+| 8      | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/full_wave_addr[11]                 |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51       |
+| 8      | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/full_wave_addr[10]                 |
+|        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51       |
++--------+---------+------------------------------------------------------------------------+
+

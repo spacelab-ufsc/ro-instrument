@@ -1,0 +1,4 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+COREDDS_LIB, dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18,0h:00m:01s,0h:00m:01s,0h:00m:00s,0h:00m:00s,   105 MB,     0 MB,     0 MB,     0 MB,     0 MB
+COREDDS_LIB, COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   105 MB,     0 MB,     0 MB,     0 MB,     0 MB
+COREDDS_LIB, COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1,0h:00m:05s,0h:00m:04s,-,0h:00m:00s,   105 MB,     4 MB,     4 MB,     0 MB,     0 MB

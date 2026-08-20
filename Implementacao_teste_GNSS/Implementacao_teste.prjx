@@ -34,16 +34,17 @@ KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
 KEY VendorTechnology_VOLTR "EXT"
 KEY ProjectLocation "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS"
 KEY ProjectDescription ""
-KEY UseRootLocationForLinkedFiles "FALSE"
-KEY RootLocationENVForLinkedFiles ""
-KEY RootLocationForLinkedFiles ""
-KEY GlobalIncludePaths ""
+KEY UseRootLocationForLinkedFiles "TRUE"
+KEY RootLocationENVForLinkedFiles "Link_SDC"
+KEY RootLocationForLinkedFiles "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl"
+KEY GlobalIncludePaths "./hdl/Common;"
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY MemoryMapDrcSeverity "FALSE"
 KEY LossOfDataDRCSeverity "TRUE"
 KEY IdWidthMismatchDRCSeverity "TRUE"
 KEY SimulationType "VERILOG"
 KEY Vendor "Actel"
+KEY ActiveRoot "DDS_PNFreq::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 VALUE="Impl2",NUM=2
@@ -75,22 +76,22 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\COREDDS\4.0.108\COREDDS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1758731817"
+TIME="1787221165"
 SIZE="864"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v,hdl"
 STATE="utd"
-TIME="1786505366"
-SIZE="21218"
+TIME="1787221093"
+SIZE="21215"
 LIBRARY="COREDDS_LIB"
 PARENT="<project>\component\Actel\DirectCore\COREDDS\4.0.108\COREDDS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v,hdl"
 STATE="utd"
-TIME="1786505366"
-SIZE="53437"
+TIME="1787221093"
+SIZE="53363"
 LIBRARY="COREDDS_LIB"
 PARENT="<project>\component\Actel\DirectCore\COREDDS\4.0.108\COREDDS.cxf"
 IS_READONLY="TRUE"
@@ -255,25 +256,25 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0.cxf,actgen_cxf"
 STATE="utd"
-TIME="1778763462"
+TIME="1787221166"
 SIZE="4422"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0.v,hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1787221165"
 SIZE="5056"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1758731818"
+TIME="1787221165"
 SIZE="2654"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0.cxf"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v,hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1787221164"
 SIZE="24841"
 LIBRARY="COREDDS_LIB"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
@@ -281,7 +282,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v,hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1787221164"
 SIZE="23811"
 LIBRARY="COREDDS_LIB"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
@@ -289,7 +290,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1787221165"
 SIZE="921"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
 IS_READONLY="TRUE"
@@ -297,7 +298,7 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v,hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1787221165"
 SIZE="2282"
 LIBRARY="COREDDS_LIB"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
@@ -305,7 +306,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v,hdl"
 STATE="utd"
-TIME="1786505366"
+TIME="1787221165"
 SIZE="8008"
 LIBRARY="COREDDS_LIB"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
@@ -313,7 +314,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v,hdl"
 STATE="utd"
-TIME="1758731818"
+TIME="1787221165"
 SIZE="17316"
 LIBRARY="COREDDS_LIB"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
@@ -321,28 +322,28 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvKit.v,tb_hdl"
 STATE="utd"
-TIME="1786505366"
+TIME="1787221165"
 SIZE="17311"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvTestVectIn.v,tb_hdl"
 STATE="utd"
-TIME="1758914852"
+TIME="1787221164"
 SIZE="1227"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvTestVectOut.v,tb_hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1787221164"
 SIZE="49435"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\tb_dds.v,tb_hdl"
 STATE="utd"
-TIME="1758731818"
+TIME="1787221165"
 SIZE="12095"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
 IS_READONLY="TRUE"
@@ -605,10 +606,55 @@ SIZE="3593"
 PARENT="<project>\component\work\costas_loop_C0\costas_loop_C0.cxf"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\designer\DDS_PNFreq\DDS_PNFreq_ba.v,ba_hdl"
+STATE="utd"
+TIME="1787223155"
+SIZE="240083"
+ENDFILE
+VALUE "<project>\designer\DDS_PNFreq\DDS_PNFreq_fast_hv_lt_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1787223155"
+SIZE="275328"
+ENDFILE
+VALUE "<project>\designer\DDS_PNFreq\DDS_PNFreq_slow_lv_ht_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1787223155"
+SIZE="275422"
+ENDFILE
+VALUE "<project>\designer\DDS_PNFreq\DDS_PNFreq_slow_lv_lt_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1787223155"
+SIZE="275389"
+ENDFILE
+VALUE "<project>\hdl\DDS_PNFreq.vhd,hdl"
+STATE="utd"
+TIME="1787220863"
+SIZE="2476"
+ENDFILE
+VALUE "<project>\hdl\GNSS_Input_chain.vhd,hdl"
+STATE="utd"
+TIME="1787220863"
+SIZE="8152"
+ENDFILE
+VALUE "<project>\hdl\Negative_Integer.vhd,hdl"
+STATE="utd"
+TIME="1787222441"
+SIZE="1426"
+ENDFILE
 VALUE "<project>\simulation\Acquisition_TestBench_presynth_simulation.log,log"
 STATE="utd"
 TIME="1778763462"
 SIZE="721"
+ENDFILE
+VALUE "<project>\simulation\DDS_PNFreq_tb_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1787223160"
+SIZE="345"
+ENDFILE
+VALUE "<project>\simulation\DDS_PNFreq_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1787222482"
+SIZE="20"
 ENDFILE
 VALUE "<project>\simulation\memoria.mem,sim"
 STATE="utd"
@@ -625,10 +671,77 @@ STATE="utd"
 TIME="1760546245"
 SIZE="4376"
 ENDFILE
+VALUE "<project>\stimulus\DDS_PNFreq_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1787221343"
+SIZE="3687"
+ENDFILE
 VALUE "<project>\stimulus\Testbench_Complex_multiplier.vhd,tb_hdl"
 STATE="utd"
 TIME="1786320081"
 SIZE="5550"
+ENDFILE
+VALUE "<project>\synthesis\DDS_PNFreq.so,so"
+STATE="utd"
+TIME="1787222620"
+SIZE="268"
+ENDFILE
+VALUE "<project>\synthesis\DDS_PNFreq.vm,syn_vm"
+STATE="utd"
+TIME="1787222619"
+SIZE="62237"
+ENDFILE
+VALUE "<project>\synthesis\DDS_PNFreq_syn.prj,prj"
+STATE="utd"
+TIME="1787221364"
+SIZE="2859"
+ENDFILE
+VALUE "<project>\synthesis\DDS_PNFreq_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1787222619"
+SIZE="1489"
+ENDFILE
+VALUE "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd,hdl"
+LINKFILEROOT "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/hdl/Common"
+STATE="utd"
+TIME="1787222376"
+SIZE="2807"
+ENDFILE
+VALUE "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\Divider_Signed.v,hdl"
+LINKFILEROOT "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/hdl/Common"
+STATE="utd"
+TIME="1768184720"
+SIZE="3954"
+ENDFILE
+VALUE "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\GNSS_Input_chain.vhd,hdl"
+LINKFILEROOT "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/hdl/Common"
+STATE="utd"
+TIME="1787220863"
+SIZE="8152"
+ENDFILE
+VALUE "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\SR_Flip_Flop.vhd,hdl"
+LINKFILEROOT "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/hdl/Common"
+STATE="utd"
+TIME="1767902672"
+SIZE="1236"
+ENDFILE
+VALUE "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\stimulus\Common\Channel_input_tb.vhd,hdl"
+LINKFILEROOT "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/stimulus/Common"
+STATE="utd"
+TIME="1786502755"
+SIZE="3694"
+ENDFILE
+VALUE "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\stimulus\Common\Correlator_tb.vhd,hdl"
+LINKFILEROOT "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/stimulus/Common"
+STATE="utd"
+TIME="1786445647"
+SIZE="5058"
+ENDFILE
+VALUE "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\stimulus\Common\DDS_PNFreq_tb.vhd,hdl"
+LINKFILEROOT "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/stimulus/Common"
+STATE="utd"
+TIME="1786504908"
+SIZE="3687"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -638,6 +751,113 @@ LIST "costas_loop::work"
 FILE "<project>\component\Microchip\SolutionCore\costas_loop\1.1.0\Encrypted\costas_loop.v,hdl"
 LIST Other_Association
 VALUE "<project>\component\Microchip\SolutionCore\costas_loop\1.1.0\Stimulus\costas_loop_tb.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST "DDS_PNFreq::work"
+FILE "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\DDS_PNFreq_tb.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl5
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl7
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl8
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl9
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
 ENDLIST
 ENDLIST
 LIST "COREFFT_C2_COREFFT_C0_0_COREFFT::COREFFT_LIB"
@@ -964,108 +1184,12 @@ VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_b
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\coreparameters.v,tb_hdl"
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\tb_dds.v,tb_hdl"
 ENDLIST
-LIST AssociatedStimulus
-VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvTestVectIn.v,tb_hdl"
-VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvTestVectOut.v,tb_hdl"
-VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvKit.v,tb_hdl"
-VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\coreparameters.v,tb_hdl"
-VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\tb_dds.v,tb_hdl"
-ENDLIST
-LIST ProjectState5.1
-LIST Impl1
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl2
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl3
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl4
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl5
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl6
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl7
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl8
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl9
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
 ENDLIST
 ENDLIST
 LIST AssociatedStimulus
+LIST DDS_PNFreq
+VALUE "<project>\stimulus\DDS_PNFreq_tb.vhd,tb_hdl"
+ENDLIST
 LIST COREFFT_C4_COREFFT_C4_0_COREFFT
 VALUE "<project>\component\Actel\DirectCore\COREFFT\8.1.100\rtl\in_place\vlog\test\user\bhvKit.v,tb_hdl"
 VALUE "<project>\component\work\COREFFT_C4\COREFFT_C4_0\rtl\in_place\vlog\test\user\in_place_FFT_tb.v,tb_hdl"
@@ -1081,6 +1205,8 @@ VALUE "<project>\component\Actel\DirectCore\COREFFT\8.1.100\rtl\in_place\vlog\te
 VALUE "<project>\component\work\COREFFT_C2\COREFFT_C0_0\rtl\in_place\vlog\test\user\in_place_FFT_tb.v,tb_hdl"
 VALUE "<project>\component\work\COREFFT_C2\COREFFT_C0_0\coreparameters.v,tb_hdl"
 ENDLIST
+ENDLIST
+LIST Other_Association
 LIST COREDDS_C0_COREDDS_C0_0_COREDDS
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvTestVectIn.v,tb_hdl"
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvTestVectOut.v,tb_hdl"
@@ -1088,8 +1214,6 @@ VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_b
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\coreparameters.v,tb_hdl"
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\tb_dds.v,tb_hdl"
 ENDLIST
-ENDLIST
-LIST Other_Association
 LIST costas_loop
 VALUE "<project>\component\Microchip\SolutionCore\costas_loop\1.1.0\Stimulus\costas_loop_tb.v,tb_hdl"
 ENDLIST
@@ -1108,13 +1232,6 @@ VALUE "<project>\component\Actel\DirectCore\COREFFT\8.1.100\rtl\in_place\vlog\te
 VALUE "<project>\component\work\COREFFT_C2\COREFFT_C0_0\rtl\in_place\vlog\test\user\in_place_FFT_tb.v,tb_hdl"
 VALUE "<project>\component\work\COREFFT_C2\COREFFT_C0_0\coreparameters.v,tb_hdl"
 ENDLIST
-LIST COREDDS_C0_COREDDS_C0_0_COREDDS
-VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvTestVectIn.v,tb_hdl"
-VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvTestVectOut.v,tb_hdl"
-VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvKit.v,tb_hdl"
-VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\coreparameters.v,tb_hdl"
-VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\tb_dds.v,tb_hdl"
-ENDLIST
 ENDLIST
 LIST SimulationOptions
 UseAutomaticDoFile=true
@@ -1123,7 +1240,7 @@ Type=max
 RunTime=1000ns
 Resolution=1ps
 VsimOpt=
-EntityName=testbench
+EntityName=DDS_PNFreq_tb
 TopInstanceName=<top>_0
 DoFileName=
 DoFileName2=wave.do
@@ -1187,8 +1304,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -1196,7 +1313,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\ModelSim_Pro\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l DDS_PNFreq_tb_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -1212,6 +1329,107 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "DDS_PNFreq::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl5
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl7
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl8
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl9
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\DDS_PNFreq.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 LIST "COREFFT_C2_COREFFT_C0_0_COREFFT::COREFFT_LIB"
 LIST Impl1
 ideSTIMULUS=StateSuccess
@@ -1488,98 +1706,6 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 ENDLIST
-LIST "COREDDS_C0_COREDDS_C0_0_COREDDS::COREDDS_LIB"
-LIST Impl1
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl2
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl3
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl4
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl5
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl6
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl7
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl8
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl9
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -1593,8 +1719,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+Reports;Reports;0
+ReportsCurrentItem;Post-Layout Simulate:DDS_PNFreq_tb_postlayout_simulation.log
+HDL;stimulus\Common\DDS_PNFreq_tb.vhd;0
+HDL;hdl\Common\DDS_PNFreq.vhd;0
+HDL;hdl\Negative_Integer.vhd;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "COMPLEX_MULTIPLIER::work","component\Microsemi\SolutionCore\complex_multiplier\1.0.27\obfuscate\complex_multiplier.vhd","FALSE","FALSE"
@@ -1623,7 +1753,19 @@ ENDLIST
 LIST "costas_loop_C0::work","component\work\costas_loop_C0\costas_loop_C0.v","TRUE","FALSE"
 SUBBLOCK "costas_loop::work","component\Microchip\SolutionCore\costas_loop\1.1.0\Encrypted\costas_loop.v","FALSE","FALSE"
 ENDLIST
+LIST "DDS_PNFreq::work","hdl\Common\DDS_PNFreq.vhd","FALSE","FALSE"
+SUBBLOCK "COREDDS_C0::work","component\work\COREDDS_C0\COREDDS_C0.v","TRUE","FALSE"
+SUBBLOCK "Negative_Integer::work","hdl\Negative_Integer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Divider_Signed::work","hdl\Common\Divider_Signed.v","FALSE","FALSE"
+ENDLIST
+LIST "Negative_Integer::work","hdl\Negative_Integer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "GNSS_Input_Chain::work","hdl\Common\GNSS_Input_chain.vhd","FALSE","FALSE"
+ENDLIST
 LIST "round_SAT::work","component\Microsemi\SolutionCore\complex_multiplier\1.0.27\obfuscate\round_sat.vhd","FALSE","FALSE"
+ENDLIST
+LIST "SR_Flip_Flop::work","hdl\Common\SR_Flip_Flop.vhd","FALSE","FALSE"
 ENDLIST
 LIST "Acquisition::work","","FALSE","FALSE"
 ENDLIST
@@ -1652,12 +1794,13 @@ LIST "bhvEdge::work","component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\
 ENDLIST
 LIST "bhvRAM_fabric::work","component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvKit.v","FALSE","TRUE"
 ENDLIST
-LIST "clock_driver::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\clock_driver.v","FALSE","TRUE"
-ENDLIST
 LIST "Complex_multiplier::work","","FALSE","FALSE"
 ENDLIST
 LIST "costas_loop_tb::work","component\Microchip\SolutionCore\costas_loop\1.1.0\Stimulus\costas_loop_tb.v","FALSE","TRUE"
 SUBBLOCK "costas_loop::work","component\Microchip\SolutionCore\costas_loop\1.1.0\Encrypted\costas_loop.v","FALSE","FALSE"
+ENDLIST
+LIST "DDS_PNFreq_tb::work","stimulus\DDS_PNFreq_tb.vhd","FALSE","TRUE"
+SUBBLOCK "DDS_PNFreq::work","hdl\Common\DDS_PNFreq.vhd","FALSE","FALSE"
 ENDLIST
 LIST "bhvClkGen::work","component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvKit.v","FALSE","TRUE"
 SUBBLOCK "bhvDelay::work","component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvKit.v","FALSE","TRUE"
@@ -1679,22 +1822,7 @@ LIST "bhvDelay::work","component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user
 ENDLIST
 LIST "dds_kitCountS::COREDDS_LIB","","FALSE","FALSE"
 ENDLIST
-LIST "fifo_driver::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_driver.v","FALSE","TRUE"
-ENDLIST
-LIST "fifo_monitor::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\fifo_monitor.v","FALSE","TRUE"
-ENDLIST
-LIST "g4_dp_ext_mem::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\g4_dp_ext_mem.v","FALSE","TRUE"
-SUBBLOCK "MEM_WeqR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v","FALSE","TRUE"
-SUBBLOCK "MEM_WgtR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v","FALSE","TRUE"
-SUBBLOCK "MEM_WltR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v","FALSE","TRUE"
-ENDLIST
 LIST "L1_CA_generator::work","","FALSE","FALSE"
-ENDLIST
-LIST "MEM_WeqR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WeqR.v","FALSE","TRUE"
-ENDLIST
-LIST "MEM_WgtR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WgtR.v","FALSE","TRUE"
-ENDLIST
-LIST "MEM_WltR::work","component\Actel\DirectCore\COREFIFO\3.1.101\rtl\vlog\test\user\MEM_WltR.v","FALSE","TRUE"
 ENDLIST
 LIST "testbench::work","component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\tb_dds.v","FALSE","TRUE"
 SUBBLOCK "COREDDS_C0_COREDDS_C0_0_COREDDS::COREDDS_LIB","component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v","FALSE","FALSE"
@@ -2291,6 +2419,9 @@ LIST "dds_kitCountS::COREDDS_LIB","component\Actel\DirectCore\COREDDS\4.0.108\rt
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
+LIST "DDS_PNFreq::work"
+ACTIVETESTBENCH "DDS_PNFreq_tb::work","stimulus\DDS_PNFreq_tb.vhd","FALSE"
+ENDLIST
 ENDLIST
 LIST IOTabList
 ENDLIST

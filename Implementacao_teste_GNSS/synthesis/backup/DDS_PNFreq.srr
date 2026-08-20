@@ -1,0 +1,56 @@
+#Build: Synplify Pro (R) V-2023.09M-5, Build 540R, Apr 29 2025
+#install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+#OS: Windows 10 or later
+#Hostname: RENATO
+
+# Thu Aug 20 07:22:50 2026
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: RENATO
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: RENATO
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Top entity is set to DDS_PNFreq.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd'.
+@E: CD590 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":76:20:76:40|Instantiated entity negative_integer has not been analyzed.
+1 error parsing file C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd
+@E: Parse errors encountered - exiting
+# Thu Aug 20 07:22:51 2026
+
+###########################################################]
+@E::VHDL compiler failed
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Aug 20 07:22:51 2026
+
+###########################################################]

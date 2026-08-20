@@ -1,0 +1,175 @@
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\_verilog_hintfile|-top|work.COREDDS_C0|-mpparams|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\DDS_PNFreq_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\hdl\\Common|-I|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\bin64\\c_ver.exe":1745943498
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\_verilog_hintfile":1787222579
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v":1745932376
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\hypermods.v":1745942006
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_objects.v":1745942006
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_pipes.svh":1745942006
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\syn_comps.v":1787222577
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v":1787221164
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v":1787221164
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\rtl\\vlog\\core\\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v":1787221165
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\Actel\\DirectCore\\COREDDS\\4.0.108\\rtl\\vlog\\core\\dds_kit.v":1787221093
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\rtl\\vlog\\core\\lut.v":1787221165
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\Actel\\DirectCore\\COREDDS\\4.0.108\\rtl\\vlog\\core\\dds_module.v":1787221093
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\rtl\\vlog\\core\\DDS_TOP.v":1787221165
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0.v":1787221165
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\MSS_syn_comps.v":1787222577
+#numinternalfiles:4
+#defaultlanguage:verilog
+0			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v" verilog
+1			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v" verilog
+2			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v" verilog
+3			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v" verilog
+4			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v" verilog
+5			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v" verilog
+6			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v" verilog
+7			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v" verilog
+8			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v" verilog
+9			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\MSS_syn_comps.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 4 2 1 3
+6 4
+7 6 5
+8 7
+9 -1
+#Dependency Lists(Users Of)
+0 -1
+1 5
+2 5
+3 5
+4 5 6
+5 7
+6 7
+7 8
+8 -1
+9 -1
+#Design Unit to File Association
+module work APBM 0
+module work APBS 0
+module work BANKCTRLM 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRL_HSIO 0
+module work BANKEN 0
+module work CRN_COMMON 0
+module work CRN_INT 0
+module work CRYPTO 0
+module work CRYPTO_SOC 0
+module work DEBUG 0
+module work DLL 0
+module work DRI 0
+module work ENFORCE 0
+module work GLITCHDETECT 0
+module work GPSS_COMMON 0
+module work HS_IO_CLK 0
+module work ICB_BANKCLK 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_CLKDIV 0
+module work ICB_CLKINT 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKSTOP 0
+module work ICB_INT 0
+module work ICB_MUXING 0
+module work ICB_NGMUX 0
+module work INIT 0
+module work IOD 0
+module work LANECTRL 0
+module work LANERST 0
+module work OSC_RC160MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC2MHZ 0
+module work PCIE_COMMON 0
+module work PCIE 0
+module work PF_SPI 0
+module work PLL 0
+module work QUADRST_PCIE 0
+module work QUADRST 0
+module work SCB 0
+module work SYSCTRL_RESET_STATUS 0
+module work SYSRESET 0
+module work SYS_SERVICES 0
+module work TAMPER 0
+module work TVS 0
+module work TX_PLL 0
+module work UPROM 0
+module work USPI 0
+module work VOLTAGEDETECT 0
+module work VREFBANKDYN 0
+module work VREFCTRL 0
+module work XCVR_64B6XB 0
+module work XCVR_8B10B 0
+module work XCVR_APB_LINK 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE 0
+module work XCVR_PMA 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK 0
+module work XCVR_TEST 0
+module work XCVR_VV 0
+module work XCVR 0
+module work CORELNKTMR_V 0
+module work PFSOC_SCSM 0
+module work MCHP_BLIC 0
+module work CLKBUF_DIFF 0
+module work CLKBUF_DIFF_ODT 0
+module work COREDDS_C0 8
+module work MSS 9
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos 1
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin 2
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_g5_lsram 3
+module COREDDS_LIB dds_kitDelay_bit_reg 4
+module COREDDS_LIB dds_kitDelay_reg 4
+module COREDDS_LIB dds_kitDelay_reg_attr 4
+module COREDDS_LIB dds_kitCountS 4
+module COREDDS_LIB signExt 4
+module COREDDS_LIB dds_kitRam_fabric 4
+module COREDDS_LIB dds_kitSyncNgrst 4
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_wrapRam 5
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_qrtr_lut 5
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_sin_cos_lut 5
+module COREDDS_LIB dds_LUT_initializer 6
+module COREDDS_LIB dds_ph_accumulator 6
+module COREDDS_LIB dds_dither_offset 6
+module COREDDS_LIB dds_dither 6
+module COREDDS_LIB dds_quantizer 6
+module COREDDS_LIB balance_dly 6
+module COREDDS_LIB trig_cor 6
+module COREDDS_LIB mac18x18_dds 6
+module COREDDS_LIB dds_lfsr_lut 6
+module COREDDS_LIB lfsrRAM 6
+module COREDDS_LIB dds_lfsr 6
+module COREDDS_LIB lfsr_table 6
+module COREDDS_LIB g4_lfsr_uram 6
+module COREDDS_LIB rtg4_lfsr_uram 6
+module COREDDS_LIB g5_lfsr_uram 6
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_COREDDS 7
+#Unbound instances to file Association.
+inst COREDDS_LIB g4_lfsr_uram RAM64x18 6
+inst COREDDS_LIB rtg4_lfsr_uram RAM64x18_RT 6
+inst COREDDS_LIB g4_lfsr_uram RAM64x18 6
+inst COREDDS_LIB rtg4_lfsr_uram RAM64x18_RT 6
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_g5_uram COREDDS_C0_COREDDS_C0_0_dds_g5_uram 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_g5_uram COREDDS_C0_COREDDS_C0_0_dds_g5_uram 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_g4_lsram COREDDS_C0_COREDDS_C0_0_dds_g4_lsram 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_g4_uram COREDDS_C0_COREDDS_C0_0_dds_g4_uram 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_full_cos COREDDS_C0_COREDDS_C0_0_dds_full_cos 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_full_sin COREDDS_C0_COREDDS_C0_0_dds_full_sin 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_g5_uram COREDDS_C0_COREDDS_C0_0_dds_g5_uram 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_g5_uram COREDDS_C0_COREDDS_C0_0_dds_g5_uram 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_g4_lsram COREDDS_C0_COREDDS_C0_0_dds_g4_lsram 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_g4_uram COREDDS_C0_COREDDS_C0_0_dds_g4_uram 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_full_cos COREDDS_C0_COREDDS_C0_0_dds_full_cos 5
+inst COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_full_sin COREDDS_C0_COREDDS_C0_0_dds_full_sin 5
+
+#identified top module
+top_module MSS

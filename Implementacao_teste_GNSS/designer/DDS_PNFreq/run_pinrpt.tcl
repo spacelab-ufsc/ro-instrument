@@ -1,0 +1,11 @@
+DESIGN=DDS_PNFreq
+DESDIR=C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\designer\DDS_PNFreq
+TARGET_DIR=C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\designer\DDS_PNFreq
+FAM=PolarFireSoC
+DIE=PA5SOC025T
+PACKAGE=fcvg484
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+PINRPT_BOARDLAYOUT=1
+BANK_REPORT=1
+IOREG_REPORT=1

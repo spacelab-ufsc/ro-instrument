@@ -1,0 +1,370 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: RENATO
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
+
+Modified Files: 26
+FID:  path (prevtimestamp, timestamp)
+0        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v (N/A, 2025-04-29 10:12:56)
+1        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\arith.vhd (N/A, 2025-04-29 12:53:28)
+2        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\location.map (N/A, 2025-04-29 12:53:30)
+3        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\numeric.vhd (N/A, 2025-04-29 13:26:22)
+4        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std.vhd (N/A, 2025-04-29 12:53:30)
+5        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd (N/A, 2025-04-29 12:53:30)
+6        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std_textio.vhd (N/A, 2025-04-29 12:53:30)
+7        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\unsigned.vhd (N/A, 2025-04-29 12:53:30)
+8        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd\hyperents.vhd (N/A, 2025-04-29 12:53:28)
+9        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd\snps_haps_pkg.vhd (N/A, 2025-04-29 12:53:28)
+10       C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd\umr_capim.vhd (N/A, 2025-04-29 12:53:28)
+11       C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vlog\hypermods.v (N/A, 2025-04-29 12:53:26)
+12       C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vlog\scemi_objects.v (N/A, 2025-04-29 12:53:26)
+13       C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vlog\scemi_pipes.svh (N/A, 2025-04-29 12:53:26)
+14       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v (N/A, 2026-08-20 07:18:13)
+15       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13)
+16       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\MSS_syn_comps.v (N/A, 2026-08-20 07:42:57)
+17       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57)
+18       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25)
+19       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v (N/A, 2026-08-20 07:19:24)
+20       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v (N/A, 2026-08-20 07:19:24)
+21       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v (N/A, 2026-08-20 07:19:25)
+22       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25)
+23       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25)
+24       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36)
+25       C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd (N/A, 2026-08-20 07:40:41)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 105
+MID:  lib.cell.view
+0        COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_COREDDS.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+1        COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v (N/A, 2026-08-20 07:19:25) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+2        COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v (N/A, 2026-08-20 07:19:24) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+3        COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v (N/A, 2026-08-20 07:19:24) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+4        COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+5        COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_sin_cos_lut.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+6        COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_wrapRam.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+7        COREDDS_LIB.balance_dly.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+8        COREDDS_LIB.dds_LUT_initializer.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+9        COREDDS_LIB.dds_dither.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+10       COREDDS_LIB.dds_dither_offset.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+11       COREDDS_LIB.dds_kitCountS.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+12       COREDDS_LIB.dds_kitDelay_bit_reg.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+13       COREDDS_LIB.dds_kitDelay_reg.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+14       COREDDS_LIB.dds_kitDelay_reg_attr.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+15       COREDDS_LIB.dds_kitRam_fabric.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+16       COREDDS_LIB.dds_kitSyncNgrst.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+17       COREDDS_LIB.dds_lfsr.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+18       COREDDS_LIB.dds_lfsr_lut.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+19       COREDDS_LIB.dds_ph_accumulator.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+20       COREDDS_LIB.dds_quantizer.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+21       COREDDS_LIB.g4_lfsr_uram.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+22       COREDDS_LIB.g5_lfsr_uram.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+23       COREDDS_LIB.lfsrRAM.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+24       COREDDS_LIB.lfsr_table.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+25       COREDDS_LIB.mac18x18_dds.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+26       COREDDS_LIB.rtg4_lfsr_uram.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+27       COREDDS_LIB.signExt.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+28       COREDDS_LIB.trig_cor.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v (N/A, 2026-08-20 07:18:13) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v (N/A, 2026-08-20 07:19:25) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+29       work.APBM.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+30       work.APBS.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+31       work.BANKCTRLM.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+32       work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+33       work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+34       work.BANKEN.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+35       work.CLKBUF_DIFF.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+36       work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+37       work.COREDDS_C0.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v (N/A, 2026-08-20 07:19:25) <-- (module definition)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+38       work.CORELNKTMR_V.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+39       work.CRN_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+40       work.CRN_INT.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+41       work.CRYPTO.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+42       work.CRYPTO_SOC.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+43       work.DEBUG.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+44       work.DLL.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+45       work.DRI.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+46       work.ENFORCE.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+47       work.GLITCHDETECT.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+48       work.GPSS_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+49       work.HS_IO_CLK.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+50       work.ICB_BANKCLK.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+51       work.ICB_CLKDIV.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+52       work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+53       work.ICB_CLKINT.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+54       work.ICB_CLKSTOP.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+55       work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+56       work.ICB_INT.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+57       work.ICB_MUXING.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+58       work.ICB_NGMUX.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+59       work.INIT.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+60       work.IOD.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+61       work.LANECTRL.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+62       work.LANERST.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+63       work.MCHP_BLIC.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+64       work.MSS.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\MSS_syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+65       work.OSC_RC160MHZ.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+66       work.OSC_RC200MHZ.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+67       work.OSC_RC2MHZ.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+68       work.PCIE.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+69       work.PCIE_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+70       work.PFSOC_SCSM.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+71       work.PF_SPI.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+72       work.PLL.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+73       work.QUADRST.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+74       work.QUADRST_PCIE.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+75       work.SCB.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+76       work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+77       work.SYSRESET.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+78       work.SYS_SERVICES.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+79       work.TAMPER.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+80       work.TVS.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+81       work.TX_PLL.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+82       work.UPROM.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+83       work.USPI.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+84       work.VOLTAGEDETECT.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+85       work.VREFBANKDYN.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+86       work.VREFCTRL.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+87       work.XCVR.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+88       work.XCVR_64B6XB.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+89       work.XCVR_8B10B.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+90       work.XCVR_APB_LINK.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+91       work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+92       work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+93       work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+94       work.XCVR_PIPE.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+95       work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+96       work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+97       work.XCVR_PMA.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+98       work.XCVR_REF_CLK.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+99       work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+100      work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+101      work.XCVR_TEST.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+102      work.XCVR_VV.verilog may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v (N/A, 2026-08-20 07:42:57) <-- (module definition)
+103      work.dds_pnfreq.behavioral may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (architecture and entity definition)
+105      work.negative_integer.architecture_negative_integer may have changed because the following files changed:
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd (N/A, 2026-08-20 07:39:36) <-- (may instantiate this module)
+                        C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd (N/A, 2026-08-20 07:40:41) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

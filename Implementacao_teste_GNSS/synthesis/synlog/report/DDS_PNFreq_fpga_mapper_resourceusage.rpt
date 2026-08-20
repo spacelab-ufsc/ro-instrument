@@ -1,0 +1,38 @@
+Resource Usage Report for DDS_PNFreq 
+
+Mapping to part: mpfs025tfcvg484std
+Cell usage:
+CLKINT          2 uses
+CFG2           30 uses
+CFG3           19 uses
+CFG4           34 uses
+
+Carry cells:
+ARI1            40 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            51 uses
+
+DSP Blocks:    0 of 68 (0%)
+
+I/O ports: 17
+I/O primitives: 17
+INBUF          9 uses
+OUTBUF         8 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    123
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 72; LUTs = 72;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  51 + 0 + 72 + 0 = 123;
+Total number of LUTs after P&R:  123 + 0 + 72 + 0 = 195;
+

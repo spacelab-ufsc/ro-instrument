@@ -1,0 +1,4 @@
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT420 |Found inferred clock DDS_PNFreq|CLK with period 10.00ns. Please declare a user-defined clock on port CLK.
+@W: MT420 |Found inferred clock dds_kitCountS_2s_3s_1s|N_5_inferred_clock with period 10.00ns. Please declare a user-defined clock on net SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.slow_count_0.N_5.

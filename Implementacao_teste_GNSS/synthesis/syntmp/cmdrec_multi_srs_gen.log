@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin64\syn_nfilter.exe  -link  -top  work.DDS_PNFreq  -multisrs  C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\DDS_PNFreq_comp.srs  -osyn  C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\DDS_PNFreq_mult.srs  -log  C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synlog\DDS_PNFreq_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin64\syn_nfilter.exe -link -top work.DDS_PNFreq -multisrs ..\synwork\DDS_PNFreq_comp.srs -osyn ..\synwork\DDS_PNFreq_mult.srs -log ..\synlog\DDS_PNFreq_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\dds_pnfreq_comp.srs|io:i|time:1787222606|size:40365|exec:0|csum:13326A51DDA259CCA6F93EEB2E627F45
+file:..\synwork\dds_pnfreq_mult.srs|io:o|time:1787222608|size:3419|exec:0|csum:
+file:..\synlog\dds_pnfreq_multi_srs_gen.srr|io:o|time:1787222608|size:1065|exec:0|csum:
+file:..\..\..\..\..\..\..\..\microchip\libero_soc_2025.1\libero_soc\synplify_pro\bin64\syn_nfilter.exe|io:i|time:1745943928|size:10549248|exec:1|csum:0E24E2994826988AAC59CDBFBC24908C

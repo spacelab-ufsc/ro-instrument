@@ -121,7 +121,7 @@ begin
         port map (
             CLK            => DDS_clk,
             FREQ_OFFSET    => DDS_FREQUENCY_OFFSET,
-            NGRST          => ,
+            NGRST          => not rst,
             RSTN           => not rst,
             COSINE         => DDS_out(0),
             INIT_OVER      => DDS_INIT_OVER,

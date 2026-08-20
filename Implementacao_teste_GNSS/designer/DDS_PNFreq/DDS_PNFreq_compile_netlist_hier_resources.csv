@@ -1,0 +1,21 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM (20K),Chip Globals
+Primitives/Primitives,0,0,0,0,17,0,1
+SINE_GENERATOR/COREDDS_C0_0/Primitives,2,0,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/Primitives,4,1,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/initOver_0/Primitives,0,3,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/Primitives,3,2,0,0,0,0,1
+SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/Primitives,1,0,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/sync_ngrst_0/Primitives,0,4,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/sync_ngrst_1/Primitives,0,1,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/sync_ngrst_3/Primitives,0,1,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Primitives,10,9,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/quantizer_0/Primitives,13,0,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/Primitives,17,0,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/Primitives,0,17,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/Primitives,5,5,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/Primitives,7,0,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/Primitives,49,8,0,0,0,0,0
+SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/Primitives,9,0,36,36,0,1,0
+SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_red_ram_0/PF_lsram.lsram_g5_0/Primitives,2,0,36,36,0,1,0
+SIN_NEG/Primitives,1,0,0,0,0,0,0

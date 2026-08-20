@@ -1,0 +1,4 @@
+@E: CD590 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":76:20:76:40|Instantiated entity negative_integer has not been analyzed.
+@E: Parse errors encountered - exiting
+@E::VHDL compiler failed
+

@@ -1,0 +1,11 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: work, Entity: Negative_Integer_4, Architecture: architecture_negative_integer
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: DDS_PNFreq, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: COREDDS_C0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

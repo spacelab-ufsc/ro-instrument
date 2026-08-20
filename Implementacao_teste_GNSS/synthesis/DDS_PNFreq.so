@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>DDS_PNFreq</design>
+	<target_verilog>C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\DDS_PNFreq.vm</target_verilog>
+</SynplifyOutput>

@@ -1,0 +1,177 @@
+#OPTIONS:"|-mixedhdl|-top|work.DDS_PNFreq|-layerid|0|-orig_srs|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\DDS_PNFreq_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\bin64\\c_vhdl.exe":1745943738
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\location.map":1745942010
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std.vhd":1745942010
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\snps_haps_pkg.vhd":1745942008
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std1164.vhd":1745942010
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std_textio.vhd":1745942010
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\numeric.vhd":1745943982
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\umr_capim.vhd":1745942008
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\arith.vhd":1745942008
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\unsigned.vhd":1745942010
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\hyperents.vhd":1745942008
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\hdl\\Negative_Integer.vhd":1787222441
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\hdl\\Common\\DDS_PNFreq.vhd":1787222376
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\_verilog_hintfile|-top|work.COREDDS_C0|-mpparams|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\DDS_PNFreq_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\hdl\\Common|-I|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\bin64\\c_ver.exe":1745943498
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\_verilog_hintfile":1787222579
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v":1745932376
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\hypermods.v":1745942006
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_objects.v":1745942006
+#CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_pipes.svh":1745942006
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\syn_comps.v":1787222577
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v":1787221164
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v":1787221164
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\rtl\\vlog\\core\\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v":1787221165
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\Actel\\DirectCore\\COREDDS\\4.0.108\\rtl\\vlog\\core\\dds_kit.v":1787221093
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\rtl\\vlog\\core\\lut.v":1787221165
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\Actel\\DirectCore\\COREDDS\\4.0.108\\rtl\\vlog\\core\\dds_module.v":1787221093
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\rtl\\vlog\\core\\DDS_TOP.v":1787221165
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0.v":1787221165
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\MSS_syn_comps.v":1787222577
+0			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd" vhdl
+1			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd" vhdl
+2			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v" verilog
+3			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v" verilog
+4			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v" verilog
+5			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v" verilog
+6			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v" verilog
+7			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v" verilog
+8			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v" verilog
+9			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v" verilog
+10			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v" verilog
+11			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\MSS_syn_comps.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 10 0
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 5 3 4 6
+8 6
+9 7 8
+10 9
+11 -1
+#Dependency Lists(Users Of)
+0 1
+1 -1
+2 -1
+3 7
+4 7
+5 7
+6 8 7
+7 9
+8 9
+9 10
+10 1
+11 -1
+#Design Unit to File Association
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_COREDDS 9
+module COREDDS_LIB g5_lfsr_uram 8
+module COREDDS_LIB rtg4_lfsr_uram 8
+module COREDDS_LIB g4_lfsr_uram 8
+module COREDDS_LIB lfsr_table 8
+module COREDDS_LIB dds_lfsr 8
+module COREDDS_LIB lfsrRAM 8
+module COREDDS_LIB dds_lfsr_lut 8
+module COREDDS_LIB mac18x18_dds 8
+module COREDDS_LIB trig_cor 8
+module COREDDS_LIB balance_dly 8
+module COREDDS_LIB dds_quantizer 8
+module COREDDS_LIB dds_dither 8
+module COREDDS_LIB dds_dither_offset 8
+module COREDDS_LIB dds_ph_accumulator 8
+module COREDDS_LIB dds_LUT_initializer 8
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_sin_cos_lut 7
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_qrtr_lut 7
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_wrapRam 7
+module COREDDS_LIB dds_kitSyncNgrst 6
+module COREDDS_LIB dds_kitRam_fabric 6
+module COREDDS_LIB signExt 6
+module COREDDS_LIB dds_kitCountS 6
+module COREDDS_LIB dds_kitDelay_reg_attr 6
+module COREDDS_LIB dds_kitDelay_reg 6
+module COREDDS_LIB dds_kitDelay_bit_reg 6
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_g5_lsram 5
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin 4
+module COREDDS_LIB COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos 3
+module work MSS 11
+module work COREDDS_C0 10
+module work CLKBUF_DIFF_ODT 2
+module work CLKBUF_DIFF 2
+module work MCHP_BLIC 2
+module work PFSOC_SCSM 2
+module work CORELNKTMR_V 2
+module work XCVR 2
+module work XCVR_VV 2
+module work XCVR_TEST 2
+module work XCVR_REF_CLK 2
+module work XCVR_REF_CLK_P 2
+module work XCVR_REF_CLK_N 2
+module work XCVR_PMA 2
+module work XCVR_PIPE 2
+module work XCVR_PIPE_AXI1 2
+module work XCVR_PIPE_AXI0 2
+module work XCVR_DUAL_PCS 2
+module work XCVR_APB_LINK_V2 2
+module work XCVR_APB_LINK_V 2
+module work XCVR_APB_LINK 2
+module work XCVR_8B10B 2
+module work XCVR_64B6XB 2
+module work VREFCTRL 2
+module work VREFBANKDYN 2
+module work VOLTAGEDETECT 2
+module work USPI 2
+module work UPROM 2
+module work TX_PLL 2
+module work TVS 2
+module work TAMPER 2
+module work SYS_SERVICES 2
+module work SYSRESET 2
+module work SYSCTRL_RESET_STATUS 2
+module work SCB 2
+module work QUADRST 2
+module work QUADRST_PCIE 2
+module work PLL 2
+module work PF_SPI 2
+module work PCIE 2
+module work PCIE_COMMON 2
+module work OSC_RC2MHZ 2
+module work OSC_RC200MHZ 2
+module work OSC_RC160MHZ 2
+module work LANERST 2
+module work LANECTRL 2
+module work IOD 2
+module work INIT 2
+module work ICB_NGMUX 2
+module work ICB_MUXING 2
+module work ICB_INT 2
+module work ICB_CLKSTOP 2
+module work ICB_CLKSTOP_EN 2
+module work ICB_CLKINT 2
+module work ICB_CLKDIV 2
+module work ICB_CLKDIVDELAY 2
+module work ICB_BANKCLK 2
+module work HS_IO_CLK 2
+module work GPSS_COMMON 2
+module work GLITCHDETECT 2
+module work ENFORCE 2
+module work DRI 2
+module work DLL 2
+module work DEBUG 2
+module work CRYPTO_SOC 2
+module work CRYPTO 2
+module work CRN_INT 2
+module work CRN_COMMON 2
+module work BANKEN 2
+module work BANKCTRL_HSIO 2
+module work BANKCTRL_GPIO 2
+module work BANKCTRLM 2
+module work APBS 2
+module work APBM 2
+module work dds_pnfreq 1
+arch work dds_pnfreq behavioral 1
+module work negative_integer 0
+arch work negative_integer architecture_negative_integer 0

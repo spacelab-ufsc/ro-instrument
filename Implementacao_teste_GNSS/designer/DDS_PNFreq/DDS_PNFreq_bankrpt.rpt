@@ -1,0 +1,70 @@
+********************************************************************
+I/O Bank Report - Date: Thu Aug 20 07:44:49 2026
+Product: Designer
+Release: 2025.1
+Version: 2025.1.0.14
+Design Name: DDS_PNFreq
+Family: PolarFireSoC
+Die: MPFS025T
+Package: FCVG484
+********************************************************************
+
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 9             | 0            | 0
+    Output I/O                            | 8             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os              
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS33                        | 3.30v | N/A   | 9     | 8      | 0            
+
+I/O Bank Resource Usage:
+
+          |   Voltages    | Single I/Os  | Diff I/O Pairs |        Vref I/Os        |  Type   
+          |-------|-------|------|-------|-------|--------|------|-------|----------|---------
+          | Vddi  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins|         
+    ------|-------|-------|------|-------|-------|--------|------|-------|----------|---------
+    Bank0 | N/A   | N/A   | 0    | 60    | 0     | 30     | N/A  | N/A   | N/A      | HSIO    
+    Bank1 | 3.30v | N/A   | 17   | 48    | 0     | 24     | N/A  | N/A   | N/A      | GPIO    
+    Bank2 | N/A   | N/A   | 0    | 24    | 0     | 0      | N/A  | N/A   | N/A      | MSS_IO  
+    Bank3 | 3.30v | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
+    Bank4 | N/A   | N/A   | 0    | 14    | 0     | 0      | N/A  | N/A   | N/A      | MSS_IO  
+    Bank5 | N/A   | N/A   | 0    | 10    | 0     | 0      | N/A  | N/A   | N/A      | MSS_SGMII_IO
+    Bank6 | N/A   | N/A   | 0    | 88    | 0     | 0      | N/A  | N/A   | N/A      | MSS_DDR_IO
+    Bank7 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | GPIO    
+    Bank8 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | HSIO    
+    Bank9 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | GPIO    
+
+I/O Voltage Usage:
+
+       Voltages    |     I/Os     
+    -------|-------|------|-------
+     Vddi  | Vref  | Used | Total 
+    -------|-------|------|-------
+     3.30v | N/A   | 17   | 48    
+
+
+I/O Bank Auto Calibration:
+
+          | Auto Calibration | Ramp Time (ms) 
+    ------| ---------------- | -------------- 
+    Bank0 | N/A              | N/A
+    Bank1 | ON               | 50
+    Bank2 | N/A              | N/A
+    Bank3 | N/A              | N/A
+    Bank4 | N/A              | N/A
+    Bank5 | N/A              | N/A
+    Bank6 | N/A              | N/A
+    Bank7 | N/A              | N/A
+    Bank8 | N/A              | N/A
+    Bank9 | N/A              | N/A

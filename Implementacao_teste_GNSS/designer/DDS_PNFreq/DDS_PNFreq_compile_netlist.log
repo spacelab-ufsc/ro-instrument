@@ -1,0 +1,22 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       2 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     2 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    53     0      0      'I_1' 
+    2      0      10     'SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/N_5_inferred_clock_RNIMR4S5' 
+
+Info: Demotion information: 
+      Disconnected 10 data pins from global 'SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/N_5_inferred_clock_RNIMR4S5'. This behavior is controlled by the 'Minimum fanout of non-clock nets to be kept on globals' threshold in the tool options for the Synthesize step. Typically, the low-skew global resources are used for clock and reset nets. When using global resources for data nets, consider the data path effect of global insertion delay and added buffer delay when the net drives carry chain logic.
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+

@@ -1,0 +1,23 @@
+@N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Synthesizing work.dds_pnfreq.behavioral.
+@N: CD630 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd":24:7:24:22|Synthesizing work.negative_integer.architecture_negative_integer.
+Post processing for work.negative_integer.architecture_negative_integer
+Running optimization stage 1 on Negative_Integer .......
+Finished optimization stage 1 on Negative_Integer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Running optimization stage 1 on COREDDS_C0 .......
+Finished optimization stage 1 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Post processing for work.dds_pnfreq.behavioral
+Running optimization stage 1 on DDS_PNFreq .......
+Finished optimization stage 1 on DDS_PNFreq (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
+Running optimization stage 2 on COREDDS_C0 .......
+Finished optimization stage 2 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Running optimization stage 2 on Negative_Integer_4 .......
+Finished optimization stage 2 on Negative_Integer_4 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Running optimization stage 2 on DDS_PNFreq .......
+Finished optimization stage 2 on DDS_PNFreq (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\layer0.duruntime
+
+

@@ -1,0 +1,187 @@
+# Microchip NMAT TXT File
+
+# Version: 2025.1 2025.1.0.14
+
+# Design Name: DDS_PNFreq 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS025T , Package: FCVG484 , Speed grade: STD 
+
+# Date generated: Thu Aug 20 07:44:45 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io CLK E15
+set_io COSINE[0] B10
+set_io COSINE[1] C9
+set_io COSINE[2] C12
+set_io COSINE[3] B9
+set_io FREQ_OFFSET[0] A8
+set_io FREQ_OFFSET[1] D8
+set_io FREQ_OFFSET[2] D9
+set_io FREQ_OFFSET[3] B7
+set_io FREQ_OFFSET[4] A7
+set_io NGRST B8
+set_io PN_SIN A11
+set_io RSTN A6
+set_io SINE[0] C10
+set_io SINE[1] D11
+set_io SINE[2] C11
+set_io SINE[3] A10
+
+#
+# Core cell constraints
+#
+
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/initOver_0/genblk1.delayLine[0] 168 16
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[3] 184 19
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_0_iv_RNO[0] 216 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot10 212 9
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[5] 186 19
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_iv_RNO[3] 217 12
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][7] 178 13
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/sync_ngrst_0/genblk1.delayLine[3] 178 16
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/rA_qrtr[5] 202 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/sync_ngrst_0/genblk1.delayLine[0] 175 16
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/dc 169 15
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_0 203 18
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/last_wA_last_clk_long_5 191 18
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/last_wA_last_clk_long 168 15
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot[5] 207 10
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][8] 179 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/un1_mapBits_oneHot_3 217 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_iv_RNO[1] 227 9
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[0] 181 19
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/sine_w_iv[2] 226 6
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot14 208 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/rA_qrtr[7] 204 12
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/un1_mapBits_oneHot_7 220 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/Q_4[1] 174 15
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/wA_1_RNI8P1VG2[8] 217 18
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot[1] 205 10
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot[6] 211 10
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/wA_1_RNIDA95C1[0] 202 18
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][4] 175 13
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/genblk1.delayLine[0]_3[4] 170 12
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/un1_mapBits_oneHot_5 214 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_iv[2] 216 12
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/genblk1.delayLine[0][2] 169 10
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][5] 176 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/pos_sine.sine_w_7_m_0[1] 225 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/wA_1_RNIIGK2M[0] 195 18
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot[0] 212 10
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_red_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO 216 18
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/pos_sine.sine_w_7_m_0[2] 225 6
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/genblk1.delayLine[0]_3[3] 169 12
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][12] 183 13
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][2] 173 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot[4] 208 10
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/genblk1.delayLine[0][1] 168 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/sine_w_iv_0[2] 217 6
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/SINE[2] 223 6
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][6] 177 13
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/initOver_0/genblk1.delayLine[1] 169 16
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot12 206 9
+set_location I_1 720 0
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot13 209 9
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[8] 189 19
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][9] 180 13
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/sync_ngrst_3/genblk1.delayLine[0] 171 16
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_1 197 18
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/sine_w_iv[1] 224 9
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][3] 174 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/un1_mapBits_oneHot_6 225 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/sync_ngrst_1/genblk1.delayLine[0] 172 16
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][15] 186 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_red_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNIS4HKG 222 6
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/wA_1_RNINB3NE[6] 199 18
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_0_iv[0] 219 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_iv_0[2] 221 12
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_2 198 18
+set_location SINE_GENERATOR/COREDDS_C0_0/rstn_full_wave_addr_i_0 175 15
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][16] 187 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/rA_qrtr[0] 207 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/sync_ngrst_0/genblk1.delayLine[1] 179 16
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/rA_qrtr[6] 203 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wEn_long 170 16
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/un1_mapBits_oneHot_1 223 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot[2] 206 10
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][13] 184 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_iv[1] 222 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_iv_0[1] 221 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/rA_qrtr[1] 213 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[4] 185 19
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/Q[0] 176 16
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot[3] 209 10
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/genblk1.delayLine[0]_3[1] 168 12
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/wA_1_RNIJ73NE[4] 193 18
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/genblk1.delayLine[0][3] 169 13
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/last_wA_last_clk_long_1 190 18
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_4 196 18
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[1] 182 19
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNIG2SAH 224 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/pulsei 171 15
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wEn_long_RNO 170 15
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/wA_1_RNIRPK2M[3] 201 18
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/Q_4[0] 176 15
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/rA_qrtr[3] 201 12
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/sine_w_0_iv[0] 221 6
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/wA_1_RNI4MCSQ1[3] 194 18
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][1] 172 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/un1_mapBits_oneHot_4 220 9
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][11] 182 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/un1_mapBits_oneHot 213 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/sine_w_0_iv_RNO[0] 222 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[7] 188 19
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_iv[3] 219 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[6] 187 19
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/sine_w_iv_1[3] 220 6
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_3 200 18
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot17 210 9
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/genblk1.delayLine[0][0] 168 10
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/rA_qrtr[2] 215 12
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNI81EL8 227 12
+set_location SINE_GENERATOR/COREDDS_C0_0/rstn_full_wave_addr 177 15
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][10] 181 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/sine_w_iv_0[1] 218 9
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/N_5_inferred_clock_RNIMR4S5/U0_RGB1 723 15
+set_location SIN_NEG/Carry_1[3] 219 6
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/rA_qrtr[8] 209 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/N_5_inferred_clock_RNIMR4S5 721 0
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_iv_1[3] 218 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/initOver_0/genblk1.delayLine[2] 177 16
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/SINE[3] 218 6
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/sync_ngrst_0/sync_ngrst_0/genblk1.delayLine[2] 173 16
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/un1_mapBits_oneHot_2 226 9
+set_location I_1/U0_RGB1 720 15
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO 192 18
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot[7] 210 10
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/SINE[1] 224 6
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot15 207 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/sine_w_iv_0[3] 216 6
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/genblk1.delayLine[0][4] 170 13
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][0] 171 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNIS150D 223 12
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/genblk1.delayLine[0]_3[2] 169 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot11 205 9
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/cosine_w_iv_RNO[2] 226 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q[2] 183 19
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/mapBits_oneHot16 211 9
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/var_ph_inc_port.ext_ph_inc_0/genblk1.delayLine[0]_3[0] 168 9
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/slow_count_0/Q[1] 174 16
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/ph_accum_through.ph_accum_0/genblk1.delayLine[0][14] 185 13
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/rA_qrtr[4] 214 12
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_blue_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0 180 17
+set_location SINE_GENERATOR/COREDDS_C0_0/sin_cos_lut_0/qrtr_wave.grtr_lut_0/qrtr_red_ram_0/PF_lsram.lsram_g5_0/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0 216 17
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q_s_50 180 18
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/un6_ph_reg_inp_cry_0_0 171 12
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51 188 12
+set_location SINE_GENERATOR/COREDDS_C0_0/dds_initializer_0/wA_count_0/Q_s_50_CC_0 180 20
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/un6_ph_reg_inp_cry_0_0_CC_0 171 14
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/ph_accum_0/un6_ph_reg_inp_cry_0_0_CC_1 180 14
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51_CC_0 188 14
+set_location SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51_CC_1 192 14

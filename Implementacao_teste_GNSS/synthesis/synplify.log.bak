@@ -1,0 +1,71 @@
+
+                               Synplify Pro (R) 
+
+                 Version V-2023.09M-5 for win64 - Apr 29, 2025 
+
+                    Copyright (c) 1988 - 2025 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin64\mbin\synbatch.exe
+Install:     C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+Hostname:    RENATO
+Date:        Thu Aug 20 07:22:48 2026
+Version:     V-2023.09M-5
+
+Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log DDS_PNFreq_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+Implementation not found: synthesis
+log file: "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\DDS_PNFreq.srr"
+Running: synthesis in foreground
+
+Running DDS_PNFreq_syn|synthesis
+
+Running Flow: compile (Compile) on DDS_PNFreq_syn|synthesis
+# Thu Aug 20 07:22:50 2026
+
+Running Flow: compile_flow (Compile Process) on DDS_PNFreq_syn|synthesis
+# Thu Aug 20 07:22:50 2026
+
+Running: compiler (Compile Input) on DDS_PNFreq_syn|synthesis
+# Thu Aug 20 07:22:50 2026
+compiler exited with errors
+Job failed on: DDS_PNFreq_syn|synthesis
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synlog\DDS_PNFreq_compiler.srr"
+# Thu Aug 20 07:22:51 2026
+
+Return Code: 2
+Run Time:00h:00m:01s
+Complete: Compile Process on DDS_PNFreq_syn|synthesis
+Complete: Compile on DDS_PNFreq_syn|synthesis
+Complete: Logic Synthesis on DDS_PNFreq_syn|synthesis
+Error: At line 2 while processing "DDS_PNFreq_syn.tcl"
+2
+TCL script complete: "DDS_PNFreq_syn.tcl"
+TCL script had errors: "DDS_PNFreq_syn.tcl"
+exit status=9
+exit status=9
+License checkin: synplifypro_actel

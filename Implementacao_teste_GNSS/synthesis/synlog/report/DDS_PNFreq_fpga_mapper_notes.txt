@@ -1,0 +1,11 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BZ173 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_cos.v":9:4:9:7|ROM qrtr_cos_tbl_0.cosine_1[3:1] (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_sin.v":9:4:9:7|ROM qrtr_sin_tbl_0.sine_1[4:0] (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) mapped in logic.
+@N: MO106 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_sin.v":9:4:9:7|Found ROM qrtr_sin_tbl_0.sine_1[4:0] (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) with 440 words by 5 bits.
+@N: MO231 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_kit.v":176:2:176:7|Found counter in view:COREDDS_LIB.dds_kitCountS_9s_511s_1s(verilog) instance Q[8:0] 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

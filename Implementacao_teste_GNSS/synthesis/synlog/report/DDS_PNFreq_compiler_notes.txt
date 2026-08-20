@@ -1,0 +1,67 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Top entity is set to DDS_PNFreq.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N:"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Top entity is set to DDS_PNFreq.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Synthesizing work.dds_pnfreq.behavioral.
+@N: CD630 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd":24:7:24:22|Synthesizing work.negative_integer.architecture_negative_integer.
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG775 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v":27:7:27:37|Component COREDDS_C0_COREDDS_C0_0_COREDDS not found in library "work" or "__hyper__lib__", but found in library COREDDS_LIB
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":32:7:32:26|Synthesizing module dds_kitDelay_bit_reg in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":32:7:32:26|Synthesizing module dds_kitDelay_bit_reg in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":544:7:544:22|Synthesizing module dds_kitSyncNgrst in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":164:7:164:19|Synthesizing module dds_kitCountS in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":164:7:164:19|Synthesizing module dds_kitCountS in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":32:7:32:26|Synthesizing module dds_kitDelay_bit_reg in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":34:7:34:25|Synthesizing module dds_LUT_initializer in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":374:7:374:41|Synthesizing module COREDDS_C0_COREDDS_C0_0_sin_cos_lut in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v":3:7:3:42|Synthesizing module COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v":3:7:3:42|Synthesizing module COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":115:7:115:27|Synthesizing module dds_kitDelay_reg_attr in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":40:7:40:37|Synthesizing module COREDDS_C0_COREDDS_C0_0_wrapRam in library COREDDS_LIB.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":578:7:578:13|Synthesizing module RAM1K20 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v":5:7:5:42|Synthesizing module COREDDS_C0_COREDDS_C0_0_dds_g5_lsram in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":177:7:177:38|Synthesizing module COREDDS_C0_COREDDS_C0_0_qrtr_lut in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":124:7:124:24|Synthesizing module dds_ph_accumulator in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":381:7:381:13|Synthesizing module signExt in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":344:7:344:19|Synthesizing module dds_quantizer in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v":27:7:27:37|Synthesizing module COREDDS_C0_COREDDS_C0_0_COREDDS in library COREDDS_LIB.
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v":42:7:42:16|Synthesizing module COREDDS_C0 in library work.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:9:77:13|Input nGrst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:16:77:18|Input rst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:21:77:23|Input clk is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:26:77:30|Input clkEn is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":371:29:371:41|Input ext_ph_offset is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":370:24:370:35|Input ph_offset_we is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":370:38:370:46|Input dith_init is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":375:8:375:15|Input slow_clk is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":375:18:375:25|Input lfsr_wEn is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":376:14:376:20|Input lfsr_wA is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:9:77:13|Input nGrst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:16:77:18|Input rst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:21:77:23|Input clk is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:26:77:30|Input clkEn is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:9:77:13|Input nGrst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:16:77:18|Input rst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:21:77:23|Input clk is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:26:77:30|Input clkEn is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:9:120:13|Input nGrst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:16:120:18|Input rst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:21:120:23|Input clk is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:26:120:30|Input clkEn is unused.
+@N|Running in 64-bit mode
+

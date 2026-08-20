@@ -1,0 +1,20 @@
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":61:67:61:74|Removing instance rA_reg_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":61:67:61:74|Removing instance rA_reg_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":248:75:248:87|Removing instance balance_dly_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":274:56:274:62|Removing instance pipe6_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":277:56:277:62|Removing instance pipe6_1 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":360:58:360:69|Removing instance genblk1\.pipe7_qrtr_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":366:58:366:69|Removing instance genblk2\.pipe7_qrtr_1 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_module.v":155:28:155:36|Removing instance var_ph_inc_port\.signExt_0 (in view: COREDDS_LIB.dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_module.v":451:69:451:75|Removing instance round\.pipe3_0 (in view: COREDDS_LIB.dds_quantizer_Z3_layer1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_module.v":74:2:74:7|Removing sequential instance wEn_shrt (in view: COREDDS_LIB.dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net CLK on CLKINT  I_1 
+@N: FP130 |Promoting Net SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.slow_count_0.dc on CLKINT  I_2 
+@N: FX1184 |Applying syn_allowed_resources blockrams=84 on top level netlist DDS_PNFreq 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\DDS_PNFreq.sap.

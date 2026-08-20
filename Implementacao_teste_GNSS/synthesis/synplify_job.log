@@ -1,0 +1,85 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "07:43:40    20-Aug-2026",
+	"Working Directory" : "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "07:42:59",
+   "Runtime" : "41s",
+   "Executable Run Time" : "40s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "07:42:59",
+      "Runtime" : "41s",
+      "Executable Run Time" : "40s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "07:42:59",
+         "Runtime" : "34s",
+         "Executable Run Time" : "33s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "07:42:59",
+            "Runtime" : "29s",
+            "Executable Run Time" : "28s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "07:42:59",
+               "Run Time" : "29s",
+               "Exe Run Time" : "28s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "07:43:28",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "07:43:28",
+            "Run Time" : "05s",
+            "Exe Run Time" : "05s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "07:43:33",
+         "Runtime" : "07s",
+         "Executable Run Time" : "07s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "07:43:33",
+            "Run Time" : "07s",
+            "Exe Run Time" : "07s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

@@ -1,0 +1,1386 @@
+#Build: Synplify Pro (R) V-2023.09M-5, Build 540R, Apr 29 2025
+#install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+#OS: Windows 10 or later
+#Hostname: RENATO
+
+# Thu Aug 20 07:42:59 2026
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: RENATO
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: RENATO
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Top entity is set to DDS_PNFreq.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+
+Process completed successfully.
+# Thu Aug 20 07:42:59 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: RENATO
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v" (library work)
+@I::"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v" (library work)
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":12831:13:12831:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":12856:13:12856:25|User defined pragma syn_black_box detected
+
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v" (library COREDDS_LIB)
+@W: CG1337 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":99:9:99:20|Net last_wA_shrt is not declared.
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v" (library work)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\MSS_syn_comps.v" (library work)
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 104MB peak: 105MB)
+
+
+Process completed successfully.
+# Thu Aug 20 07:43:01 2026
+
+###########################################################]
+###########################################################[
+@N:"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Top entity is set to DDS_PNFreq.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Synthesizing work.dds_pnfreq.behavioral.
+@N: CD630 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd":24:7:24:22|Synthesizing work.negative_integer.architecture_negative_integer.
+Post processing for work.negative_integer.architecture_negative_integer
+Running optimization stage 1 on Negative_Integer .......
+Finished optimization stage 1 on Negative_Integer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Running optimization stage 1 on COREDDS_C0 .......
+Finished optimization stage 1 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Post processing for work.dds_pnfreq.behavioral
+Running optimization stage 1 on DDS_PNFreq .......
+Finished optimization stage 1 on DDS_PNFreq (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
+Running optimization stage 2 on COREDDS_C0 .......
+Finished optimization stage 2 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Running optimization stage 2 on Negative_Integer_4 .......
+Finished optimization stage 2 on Negative_Integer_4 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Running optimization stage 2 on DDS_PNFreq .......
+Finished optimization stage 2 on DDS_PNFreq (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 94MB)
+
+
+Process completed successfully.
+# Thu Aug 20 07:43:03 2026
+
+###########################################################]
+###########################################################[
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v" (library work)
+@I::"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v" (library work)
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":12831:13:12831:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v":12856:13:12856:25|User defined pragma syn_black_box detected
+
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v" (library COREDDS_LIB)
+@W: CG1337 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":99:9:99:20|Net last_wA_shrt is not declared.
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v" (library COREDDS_LIB)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v" (library work)
+@I::"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\MSS_syn_comps.v" (library work)
+@W: CG100 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+Verilog syntax check successful!
+@N: CG775 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v":27:7:27:37|Component COREDDS_C0_COREDDS_C0_0_COREDDS not found in library "work" or "__hyper__lib__", but found in library COREDDS_LIB
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":32:7:32:26|Synthesizing module dds_kitDelay_bit_reg in library COREDDS_LIB.
+
+	DELAY=32'b00000000000000000000000000000100
+   Generated name = dds_kitDelay_bit_reg_4s
+Running optimization stage 1 on dds_kitDelay_bit_reg_4s .......
+Finished optimization stage 1 on dds_kitDelay_bit_reg_4s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 100MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":32:7:32:26|Synthesizing module dds_kitDelay_bit_reg in library COREDDS_LIB.
+
+	DELAY=32'b00000000000000000000000000000001
+   Generated name = dds_kitDelay_bit_reg_1s
+Running optimization stage 1 on dds_kitDelay_bit_reg_1s .......
+Finished optimization stage 1 on dds_kitDelay_bit_reg_1s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 100MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":544:7:544:22|Synthesizing module dds_kitSyncNgrst in library COREDDS_LIB.
+
+	PULSE_WIDTH=32'b00000000000000000000000000000001
+   Generated name = dds_kitSyncNgrst_1s
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":550:38:550:52|Removing wire synced_ngrst_t2, as there is no assignment to it.
+Running optimization stage 1 on dds_kitSyncNgrst_1s .......
+Finished optimization stage 1 on dds_kitSyncNgrst_1s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":164:7:164:19|Synthesizing module dds_kitCountS in library COREDDS_LIB.
+
+	WIDTH=32'b00000000000000000000000000000010
+	DCVALUE=32'b00000000000000000000000000000011
+	BUILD_DC=32'b00000000000000000000000000000001
+   Generated name = dds_kitCountS_2s_3s_1s
+Running optimization stage 1 on dds_kitCountS_2s_3s_1s .......
+Finished optimization stage 1 on dds_kitCountS_2s_3s_1s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":164:7:164:19|Synthesizing module dds_kitCountS in library COREDDS_LIB.
+
+	WIDTH=32'b00000000000000000000000000001001
+	DCVALUE=32'b00000000000000000000000111111111
+	BUILD_DC=32'b00000000000000000000000000000001
+   Generated name = dds_kitCountS_9s_511s_1s
+Running optimization stage 1 on dds_kitCountS_9s_511s_1s .......
+Finished optimization stage 1 on dds_kitCountS_9s_511s_1s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":32:7:32:26|Synthesizing module dds_kitDelay_bit_reg in library COREDDS_LIB.
+
+	DELAY=32'b00000000000000000000000000000011
+   Generated name = dds_kitDelay_bit_reg_3s
+Running optimization stage 1 on dds_kitDelay_bit_reg_3s .......
+Finished optimization stage 1 on dds_kitDelay_bit_reg_3s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":34:7:34:25|Synthesizing module dds_LUT_initializer in library COREDDS_LIB.
+
+	RAM_LOGDEPTH=32'b00000000000000000000000000001001
+	SLOWCLK_DIV=32'b00000000000000000000000000000100
+	LOG_SLOWCLK_DIV=32'b00000000000000000000000000000010
+	LOGDEPTH_LONG=32'b00000000000000000000000000001001
+	LOGDEPTH_SHRT=32'b00000000000000000000000000000100
+	DEPTH_LONG=32'b00000000000000000000001000000000
+	DEPTH_SHRT=32'b00000000000000000000000000010000
+   Generated name = dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s
+Running optimization stage 1 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s .......
+Finished optimization stage 1 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":374:7:374:41|Synthesizing module COREDDS_C0_COREDDS_C0_0_sin_cos_lut in library COREDDS_LIB.
+
+	QUANTIZER_BITS=32'b00000000000000000000000000001100
+	WIDTH=32'b00000000000000000000000000000100
+	QUARTER_WAVE=32'b00000000000000000000000000000001
+	SIN_ON=32'b00000000000000000000000000000001
+	COS_ON=32'b00000000000000000000000000000001
+	SIN_POLARITY=32'b00000000000000000000000000000000
+	COS_POLARITY=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000011011
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	PIPE4=32'b00000000000000000000000000000001
+	PIPE4EXT=32'b00000000000000000000000000000000
+	PIPE5=32'b00000000000000000000000000000000
+	PIPE6=32'b00000000000000000000000000000000
+	PIPE7=32'b00000000000000000000000000000000
+	SIMUL_RAM=32'b00000000000000000000000000000000
+	LOGDEPTH=32'b00000000000000000000000000001001
+   Generated name = COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v":3:7:3:42|Synthesizing module COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin in library COREDDS_LIB.
+Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin .......
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v":3:7:3:42|Synthesizing module COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos in library COREDDS_LIB.
+Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos .......
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":115:7:115:27|Synthesizing module dds_kitDelay_reg_attr in library COREDDS_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000001001
+	DELAY=32'b00000000000000000000000000000000
+   Generated name = dds_kitDelay_reg_attr_9s_0s
+@W: CG133 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":125:10:125:10|Object i is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on dds_kitDelay_reg_attr_9s_0s .......
+Finished optimization stage 1 on dds_kitDelay_reg_attr_9s_0s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":40:7:40:37|Synthesizing module COREDDS_C0_COREDDS_C0_0_wrapRam in library COREDDS_LIB.
+
+	LOGDEPTH=32'b00000000000000000000000000001001
+	WIDTH=32'b00000000000000000000000000000100
+	FPGA_FAMILY=32'b00000000000000000000000000011011
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	PIPE4=32'b00000000000000000000000000000001
+	PIPE4EXT=32'b00000000000000000000000000000000
+	PIPE5=32'b00000000000000000000000000000000
+	SIMUL_RAM=32'b00000000000000000000000000000000
+	DEPTH=32'b00000000000000000000001000000000
+	ONE=9'b000000001
+   Generated name = COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":578:7:578:13|Synthesizing module RAM1K20 in library work.
+Running optimization stage 1 on RAM1K20 .......
+Finished optimization stage 1 on RAM1K20 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v":5:7:5:42|Synthesizing module COREDDS_C0_COREDDS_C0_0_dds_g5_lsram in library COREDDS_LIB.
+Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_g5_lsram .......
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_g5_lsram (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1 .......
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000000011
+	DELAY=32'b00000000000000000000000000000000
+   Generated name = dds_kitDelay_reg_3s_0s
+@W: CG133 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":82:10:82:10|Object i is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on dds_kitDelay_reg_3s_0s .......
+Finished optimization stage 1 on dds_kitDelay_reg_3s_0s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000000100
+	DELAY=32'b00000000000000000000000000000000
+   Generated name = dds_kitDelay_reg_4s_0s
+@W: CG133 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":82:10:82:10|Object i is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on dds_kitDelay_reg_4s_0s .......
+Finished optimization stage 1 on dds_kitDelay_reg_4s_0s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":177:7:177:38|Synthesizing module COREDDS_C0_COREDDS_C0_0_qrtr_lut in library COREDDS_LIB.
+
+	QUANTIZER_BITS=32'b00000000000000000000000000001100
+	WIDTH=32'b00000000000000000000000000000100
+	FPGA_FAMILY=32'b00000000000000000000000000011011
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	PIPE4=32'b00000000000000000000000000000001
+	PIPE4EXT=32'b00000000000000000000000000000000
+	PIPE5=32'b00000000000000000000000000000000
+	PIPE6=32'b00000000000000000000000000000000
+	PIPE7=32'b00000000000000000000000000000000
+	SIMUL_RAM=32'b00000000000000000000000000000000
+	SIN_ON=32'b00000000000000000000000000000001
+	COS_ON=32'b00000000000000000000000000000001
+	SIN_POLARITY=32'b00000000000000000000000000000000
+	COS_POLARITY=32'b00000000000000000000000000000000
+   Generated name = COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":198:19:198:25|Removing wire sine_ww, as there is no assignment to it.
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":198:28:198:36|Removing wire cosine_ww, as there is no assignment to it.
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":202:19:202:22|Removing wire sine, as there is no assignment to it.
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":202:25:202:30|Removing wire cosine, as there is no assignment to it.
+Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 .......
+@W: CL118 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":324:8:324:11|Latch generated from always block for signal cosine_w[3:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":286:8:286:11|Latch generated from always block for signal sine_w[3:0]; possible missing assignment in an if or case statement.
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":398:19:398:25|Removing wire sine_ww, as there is no assignment to it.
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":398:28:398:36|Removing wire cosine_ww, as there is no assignment to it.
+@W: CG133 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":399:18:399:23|Object sine_w is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":399:26:399:33|Object cosine_w is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":400:19:400:22|Removing wire sine, as there is no assignment to it.
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":400:25:400:30|Removing wire cosine, as there is no assignment to it.
+Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 .......
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":124:7:124:24|Synthesizing module dds_ph_accumulator in library COREDDS_LIB.
+
+	PH_INC_MODE=32'b00000000000000000000000000000001
+	FREQ_OFFSET_BITS=32'b00000000000000000000000000000101
+	PH_ACC_BITS=32'b00000000000000000000000000010001
+	PH_INC_LOWER=32'b00000000000011110100001001000000
+	PH_INC_UPPER=32'b00000000000000000000000000000000
+	PIPE1=32'b00000000000000000000000000000000
+	PH_INC=17'b10100001001000000
+	CONST_FREQ_OFFSET_BITS=17'b00000000000010010
+   Generated name = dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000000101
+	DELAY=32'b00000000000000000000000000000001
+   Generated name = dds_kitDelay_reg_5s_1s
+Running optimization stage 1 on dds_kitDelay_reg_5s_1s .......
+Finished optimization stage 1 on dds_kitDelay_reg_5s_1s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":381:7:381:13|Synthesizing module signExt in library COREDDS_LIB.
+
+	INWIDTH=32'b00000000000000000000000000000101
+	OUTWIDTH=32'b00000000000000000000000000010001
+	UNSIGN=32'b00000000000000000000000000000001
+	DROP_MSB=32'b00000000000000000000000000000000
+   Generated name = signExt_5s_17s_1s_0s
+Running optimization stage 1 on signExt_5s_17s_1s_0s .......
+Finished optimization stage 1 on signExt_5s_17s_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000010001
+	DELAY=32'b00000000000000000000000000000001
+   Generated name = dds_kitDelay_reg_17s_1s
+Running optimization stage 1 on dds_kitDelay_reg_17s_1s .......
+Finished optimization stage 1 on dds_kitDelay_reg_17s_1s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Running optimization stage 1 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 .......
+Finished optimization stage 1 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":344:7:344:19|Synthesizing module dds_quantizer in library COREDDS_LIB.
+
+	PH_ACC_BITS=32'b00000000000000000000000000010001
+	PH_INC_MODE=32'b00000000000000000000000000000001
+	PH_INC_LOWER=32'b00000000000011110100001001000000
+	PH_INC_UPPER=32'b00000000000000000000000000000000
+	QUANTIZER_BITS=32'b00000000000000000000000000001100
+	FREQ_OFFSET_BITS=32'b00000000000000000000000000000101
+	PH_OFFSET_MODE=32'b00000000000000000000000000000000
+	PH_OFFSET_CONST_LOWER=32'b00000000000000000000000000000001
+	PH_OFFSET_CONST_UPPER=32'b00000000000000000000000000000000
+	PH_OFFSET_BITS=32'b00000000000000000000000000000011
+	PH_CORRECTION=32'b00000000000000000000000000000000
+	PIPE1=32'b00000000000000000000000000000000
+	PIPE2=32'b00000000000000000000000000000000
+	PIPE3=32'b00000000000000000000000000000000
+	LATENCY=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000011011
+	SIMUL_RAM=32'b00000000000000000000000000000000
+   Generated name = dds_quantizer_Z3_layer1
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000001100
+	DELAY=32'b00000000000000000000000000000000
+   Generated name = dds_kitDelay_reg_12s_0s
+@W: CG133 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":82:10:82:10|Object i is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on dds_kitDelay_reg_12s_0s .......
+Finished optimization stage 1 on dds_kitDelay_reg_12s_0s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":378:35:378:49|Removing wire phAcc_Dith_Offs, as there is no assignment to it.
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":379:25:379:33|Removing wire dith_offs, as there is no assignment to it.
+Running optimization stage 1 on dds_quantizer_Z3_layer1 .......
+Finished optimization stage 1 on dds_quantizer_Z3_layer1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v":27:7:27:37|Synthesizing module COREDDS_C0_COREDDS_C0_0_COREDDS in library COREDDS_LIB.
+
+	PH_ACC_BITS=32'b00000000000000000000000000010001
+	PH_INC_MODE=32'b00000000000000000000000000000001
+	PH_INC_LOWER=32'b00000000000011110100001001000000
+	PH_INC_UPPER=32'b00000000000000000000000000000000
+	SIN_ON=32'b00000000000000000000000000000001
+	COS_ON=32'b00000000000000000000000000000001
+	SIN_POLARITY=32'b00000000000000000000000000000000
+	COS_POLARITY=32'b00000000000000000000000000000000
+	FREQ_OFFSET_BITS=32'b00000000000000000000000000000101
+	PH_OFFSET_MODE=32'b00000000000000000000000000000000
+	PH_OFFSET_CONST_LOWER=32'b00000000000000000000000000000001
+	PH_OFFSET_CONST_UPPER=32'b00000000000000000000000000000000
+	PH_OFFSET_BITS=32'b00000000000000000000000000000011
+	PH_CORRECTION=32'b00000000000000000000000000000000
+	QUANTIZER_BITS=32'b00000000000000000000000000001100
+	OUTPUT_BITS=32'b00000000000000000000000000000100
+	LATENCY=32'b00000000000000000000000000000000
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000011011
+	DIE_SIZE=32'b00000000000000000000000000001111
+	MAX_FULL_WAVE_LOGDEPTH=32'b00000000000000000000000000001001
+	SIMUL_RAM=32'b00000000000000000000000000000000
+	QUARTER_WAVE=32'b00000000000000000000000000000001
+	RAM_LOGDEPTH=32'b00000000000000000000000000001001
+	SLOWCLK_DIV=32'b00000000000000000000000000000100
+	LOG_SLOWCLK_DIV=32'b00000000000000000000000000000010
+	SIN_ONI=32'b00000000000000000000000000000001
+	COS_ONI=32'b00000000000000000000000000000001
+	PIPE1=32'b00000000000000000000000000000000
+	PIPE2=32'b00000000000000000000000000000000
+	PIPE3=32'b00000000000000000000000000000000
+	PIPE4=32'b00000000000000000000000000000001
+	PIPE4EXT=32'b00000000000000000000000000000000
+	PIPE5=32'b00000000000000000000000000000000
+	PIPE6=32'b00000000000000000000000000000000
+	PIPE7=32'b00000000000000000000000000000000
+	PIPE8=32'b00000000000000000000000000000000
+	PIPE9=32'b00000000000000000000000000000000
+	PIPE10=32'b00000000000000000000000000000000
+	PIPE11=32'b00000000000000000000000000000000
+   Generated name = COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v":101:21:101:27|Removing wire lfsr_rA, as there is no assignment to it.
+@W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v":102:12:102:17|Removing wire lfsr_Q, as there is no assignment to it.
+Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 .......
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v":42:7:42:16|Synthesizing module COREDDS_C0 in library work.
+Running optimization stage 1 on COREDDS_C0 .......
+Finished optimization stage 1 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Running optimization stage 2 on COREDDS_C0 .......
+Finished optimization stage 2 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 .......
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Running optimization stage 2 on dds_kitDelay_reg_12s_0s .......
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:9:77:13|Input nGrst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:16:77:18|Input rst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:21:77:23|Input clk is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:26:77:30|Input clkEn is unused.
+Finished optimization stage 2 on dds_kitDelay_reg_12s_0s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Running optimization stage 2 on dds_quantizer_Z3_layer1 .......
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":371:29:371:41|Input ext_ph_offset is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":370:24:370:35|Input ph_offset_we is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":370:38:370:46|Input dith_init is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":375:8:375:15|Input slow_clk is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":375:18:375:25|Input lfsr_wEn is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":376:14:376:20|Input lfsr_wA is unused.
+Finished optimization stage 2 on dds_quantizer_Z3_layer1 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Running optimization stage 2 on dds_kitDelay_reg_17s_1s .......
+Finished optimization stage 2 on dds_kitDelay_reg_17s_1s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Running optimization stage 2 on signExt_5s_17s_1s_0s .......
+Finished optimization stage 2 on signExt_5s_17s_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Running optimization stage 2 on dds_kitDelay_reg_5s_1s .......
+Finished optimization stage 2 on dds_kitDelay_reg_5s_1s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Running optimization stage 2 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 .......
+Finished optimization stage 2 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 .......
+@W: CL239 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":286:8:286:11|Latch sine_w[3:0] enable evaluates to constant 1 making the latch unnecessary.Check if this is intended as the latch will be removed during optimization.
+@W: CL239 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":324:8:324:11|Latch cosine_w[3:0] enable evaluates to constant 1 making the latch unnecessary.Check if this is intended as the latch will be removed during optimization.
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on dds_kitDelay_reg_4s_0s .......
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:9:77:13|Input nGrst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:16:77:18|Input rst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:21:77:23|Input clk is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:26:77:30|Input clkEn is unused.
+Finished optimization stage 2 on dds_kitDelay_reg_4s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on dds_kitDelay_reg_3s_0s .......
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:9:77:13|Input nGrst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:16:77:18|Input rst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:21:77:23|Input clk is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:26:77:30|Input clkEn is unused.
+Finished optimization stage 2 on dds_kitDelay_reg_3s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_g5_lsram .......
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_g5_lsram (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on VCC .......
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on GND .......
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on RAM1K20 .......
+Finished optimization stage 2 on RAM1K20 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1 .......
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on dds_kitDelay_reg_attr_9s_0s .......
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:9:120:13|Input nGrst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:16:120:18|Input rst is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:21:120:23|Input clk is unused.
+@N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:26:120:30|Input clkEn is unused.
+Finished optimization stage 2 on dds_kitDelay_reg_attr_9s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos .......
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin .......
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 .......
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s .......
+Finished optimization stage 2 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on dds_kitDelay_bit_reg_3s .......
+Finished optimization stage 2 on dds_kitDelay_bit_reg_3s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on dds_kitCountS_9s_511s_1s .......
+Finished optimization stage 2 on dds_kitCountS_9s_511s_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on dds_kitCountS_2s_3s_1s .......
+Finished optimization stage 2 on dds_kitCountS_2s_3s_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on dds_kitSyncNgrst_1s .......
+Finished optimization stage 2 on dds_kitSyncNgrst_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on dds_kitDelay_bit_reg_1s .......
+Finished optimization stage 2 on dds_kitDelay_bit_reg_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Running optimization stage 2 on dds_kitDelay_bit_reg_4s .......
+Finished optimization stage 2 on dds_kitDelay_bit_reg_4s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\layer1.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:20s; Memory used current: 103MB peak: 105MB)
+
+
+Process completed successfully.
+# Thu Aug 20 07:43:25 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: RENATO
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
+
+@N|Running in 64-bit mode
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\DDS_PNFreq_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 20 07:43:26 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\DDS_PNFreq_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:24s; Memory used current: 24MB peak: 25MB)
+
+Process took 0h:00m:27s realtime, 0h:00m:24s cputime
+
+Process completed successfully.
+# Thu Aug 20 07:43:26 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: RENATO
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 20 07:43:28 2026
+
+###########################################################]
+Premap Report
+
+# Thu Aug 20 07:43:29 2026
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: RENATO
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 395R, Built Apr 29 2025 06:36:49, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 202MB)
+
+Reading constraint file: C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\designer\DDS_PNFreq\synthesis.fdc
+@L: C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\DDS_PNFreq_scck.rpt 
+See clock summary report "C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\DDS_PNFreq_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 202MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 202MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 198MB peak: 202MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 198MB peak: 202MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
+
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":61:67:61:74|Removing instance rA_reg_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":61:67:61:74|Removing instance rA_reg_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":248:75:248:87|Removing instance balance_dly_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":274:56:274:62|Removing instance pipe6_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":277:56:277:62|Removing instance pipe6_1 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":360:58:360:69|Removing instance genblk1\.pipe7_qrtr_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":366:58:366:69|Removing instance genblk2\.pipe7_qrtr_1 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_module.v":155:28:155:36|Removing instance var_ph_inc_port\.signExt_0 (in view: COREDDS_LIB.dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_module.v":451:69:451:75|Removing instance round\.pipe3_0 (in view: COREDDS_LIB.dds_quantizer_Z3_layer1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_module.v":74:2:74:7|Removing sequential instance wEn_shrt (in view: COREDDS_LIB.dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net CLK on CLKINT  I_1 
+@N: FP130 |Promoting Net SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.slow_count_0.dc on CLKINT  I_2 
+@N: FX1184 |Applying syn_allowed_resources blockrams=84 on top level netlist DDS_PNFreq 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                         Requested     Requested     Clock        Clock          Clock
+Level     Clock                                         Frequency     Period        Type         Group          Load 
+---------------------------------------------------------------------------------------------------------------------
+0 -       DDS_PNFreq|CLK                                100.0 MHz     10.000        inferred     (multiple)     53   
+                                                                                                                     
+0 -       dds_kitCountS_2s_3s_1s|N_5_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     2    
+=====================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                              Clock     Source                                                                     Clock Pin                                                                                                                                               Non-clock Pin                                                Non-clock Pin                                                                    
+Clock                                         Load      Pin                                                                        Seq Example                                                                                                                                             Seq Example                                                  Comb Example                                                                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DDS_PNFreq|CLK                                53        CLK(port)                                                                  SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.ph_accum_through\.ph_accum_0.genblk1\.delayLine\[0\][16:0].C                                         -                                                            I_1.A(CLKINT)                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                         
+dds_kitCountS_2s_3s_1s|N_5_inferred_clock     2         SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.slow_count_0.dc.OUT(and)     SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_red_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0.B_CLK     SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.wEn_long.E     SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.un1_last_wA_last_clk_long.I[0](inv)
+=========================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_kit.v":49:6:49:11|Found inferred clock DDS_PNFreq|CLK which controls 53 sequential elements including SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.sync_ngrst_0.sync_ngrst_0.genblk1\.delayLine\[3\]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\coredds_c0_coredds_c0_0_dds_g5_lsram.v":32:12:32:52|Found inferred clock dds_kitCountS_2s_3s_1s|N_5_inferred_clock which controls 2 sequential elements including SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_blue_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\DDS_PNFreq.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 257MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 257MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Thu Aug 20 07:43:32 2026
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Aug 20 07:43:33 2026
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: RENATO
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 395R, Built Apr 29 2025 06:36:49, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 201MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 201MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 201MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 201MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 249MB peak: 249MB)
+
+@N: BZ173 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_cos.v":9:4:9:7|ROM qrtr_cos_tbl_0.cosine_1[3:1] (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_sin.v":9:4:9:7|ROM qrtr_sin_tbl_0.sine_1[4:0] (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) mapped in logic.
+@N: MO106 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_sin.v":9:4:9:7|Found ROM qrtr_sin_tbl_0.sine_1[4:0] (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) with 440 words by 5 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+@N: MO231 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_kit.v":176:2:176:7|Found counter in view:COREDDS_LIB.dds_kitCountS_9s_511s_1s(verilog) instance Q[8:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 258MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 259MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 259MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 259MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 260MB peak: 260MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     0.61ns		 123 /        51
+   2		0h:00m:02s		     0.61ns		 122 /        51
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 261MB peak: 261MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 261MB peak: 262MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 261MB peak: 262MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 261MB peak: 262MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 212MB peak: 262MB)
+
+Writing Analyst data base C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\DDS_PNFreq_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 260MB peak: 262MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 262MB peak: 262MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 262MB peak: 262MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 260MB peak: 262MB)
+
+@W: MT420 |Found inferred clock DDS_PNFreq|CLK with period 10.00ns. Please declare a user-defined clock on port CLK.
+@W: MT420 |Found inferred clock dds_kitCountS_2s_3s_1s|N_5_inferred_clock with period 10.00ns. Please declare a user-defined clock on net SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.slow_count_0.N_5.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Aug 20 07:43:39 2026
+#
+
+
+Top view:               DDS_PNFreq
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\designer\DDS_PNFreq\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 3.686
+
+                                              Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock                                Frequency     Frequency     Period        Period        Slack     Type         Group     
+---------------------------------------------------------------------------------------------------------------------------------------
+DDS_PNFreq|CLK                                100.0 MHz     158.4 MHz     10.000        6.314         3.686     inferred     (multiple)
+dds_kitCountS_2s_3s_1s|N_5_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+=======================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                     |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Starting        Ending                                     |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------
+DDS_PNFreq|CLK  DDS_PNFreq|CLK                             |  10.000      3.686  |  No paths    -      |  No paths    -      |  No paths    -    
+DDS_PNFreq|CLK  dds_kitCountS_2s_3s_1s|N_5_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: DDS_PNFreq|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                Starting                                               Arrival          
+Instance                                                                                                        Reference          Type     Pin     Net                Time        Slack
+                                                                                                                Clock                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.sync_ngrst_0.sync_ngrst_0.genblk1\.delayLine\[3\]                 DDS_PNFreq|CLK     SLE      Q       synced_ngrst       0.257       3.686
+SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.initOver_0.genblk1\.delayLine\[2\]                                DDS_PNFreq|CLK     SLE      Q       INIT_OVER          0.257       4.276
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.var_ph_inc_port\.ext_ph_inc_0.genblk1\.delayLine\[0\][0]     DDS_PNFreq|CLK     SLE      Q       freq_offset[0]     0.257       5.168
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.var_ph_inc_port\.ext_ph_inc_0.genblk1\.delayLine\[0\][1]     DDS_PNFreq|CLK     SLE      Q       freq_offset[1]     0.257       5.177
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.var_ph_inc_port\.ext_ph_inc_0.genblk1\.delayLine\[0\][2]     DDS_PNFreq|CLK     SLE      Q       freq_offset[2]     0.257       5.187
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.var_ph_inc_port\.ext_ph_inc_0.genblk1\.delayLine\[0\][3]     DDS_PNFreq|CLK     SLE      Q       freq_offset[3]     0.257       5.196
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.var_ph_inc_port\.ext_ph_inc_0.genblk1\.delayLine\[0\][4]     DDS_PNFreq|CLK     SLE      Q       freq_offset[4]     0.257       5.205
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.ph_accum_through\.ph_accum_0.genblk1\.delayLine\[0\][5]      DDS_PNFreq|CLK     SLE      Q       ph_reg[5]          0.257       5.292
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.ph_accum_through\.ph_accum_0.genblk1\.delayLine\[0\][0]      DDS_PNFreq|CLK     SLE      Q       ph_reg[0]          0.257       5.296
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.ph_accum_through\.ph_accum_0.genblk1\.delayLine\[0\][6]      DDS_PNFreq|CLK     SLE      Q       ph_reg[6]          0.257       5.301
+========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                                   Starting                                                    Required          
+Instance                                                                                                                                           Reference          Type        Pin           Net            Time         Slack
+                                                                                                                                                   Clock                                                                         
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_blue_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0     DDS_PNFreq|CLK     RAM1K20     A_ADDR[2]     rA_qrtr[0]     9.274        3.686
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_red_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0      DDS_PNFreq|CLK     RAM1K20     A_ADDR[2]     rA_qrtr[0]     9.274        3.686
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_blue_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0     DDS_PNFreq|CLK     RAM1K20     A_ADDR[3]     rA_qrtr[1]     9.274        3.686
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_red_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0      DDS_PNFreq|CLK     RAM1K20     A_ADDR[3]     rA_qrtr[1]     9.274        3.686
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_blue_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0     DDS_PNFreq|CLK     RAM1K20     A_ADDR[4]     rA_qrtr[2]     9.274        3.686
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_red_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0      DDS_PNFreq|CLK     RAM1K20     A_ADDR[4]     rA_qrtr[2]     9.274        3.686
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_blue_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0     DDS_PNFreq|CLK     RAM1K20     A_ADDR[5]     rA_qrtr[3]     9.274        3.686
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_red_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0      DDS_PNFreq|CLK     RAM1K20     A_ADDR[5]     rA_qrtr[3]     9.274        3.686
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_red_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0      DDS_PNFreq|CLK     RAM1K20     A_ADDR[6]     rA_qrtr[4]     9.274        3.686
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_blue_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0     DDS_PNFreq|CLK     RAM1K20     A_ADDR[6]     rA_qrtr[4]     9.274        3.686
+=================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.726
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.274
+
+    - Propagation time:                      5.588
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.686
+
+    Number of logic level(s):                18
+    Starting point:                          SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.sync_ngrst_0.sync_ngrst_0.genblk1\.delayLine\[3\] / Q
+    Ending point:                            SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_red_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0 / A_ADDR[2]
+    The start point is clocked by            DDS_PNFreq|CLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            DDS_PNFreq|CLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                                                                                                Pin           Pin               Arrival     No. of    
+Name                                                                                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.sync_ngrst_0.sync_ngrst_0.genblk1\.delayLine\[3\]                                                   SLE         Q             Out     0.257     0.257 r     -         
+synced_ngrst                                                                                                                                      Net         -             -       0.665     -           4         
+SINE_GENERATOR.COREDDS_C0_0.rstn_full_wave_addr                                                                                                   CFG3        C             In      -         0.922 r     -         
+SINE_GENERATOR.COREDDS_C0_0.rstn_full_wave_addr                                                                                                   CFG3        Y             Out     0.175     1.097 r     -         
+rstn_full_wave_addr                                                                                                                               Net         -             -       0.859     -           17        
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.un6_ph_reg_inp_cry_0_0                                                                         ARI1        B             In      -         1.956 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.un6_ph_reg_inp_cry_0_0                                                                         ARI1        FCO           Out     0.387     2.343 r     -         
+un6_ph_reg_inp_cry_0                                                                                                                              Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.un6_ph_reg_inp_cry_1_0                                                                         ARI1        FCI           In      -         2.343 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.un6_ph_reg_inp_cry_1_0                                                                         ARI1        FCO           Out     0.009     2.352 r     -         
+un6_ph_reg_inp_cry_1                                                                                                                              Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.un6_ph_reg_inp_cry_2_0                                                                         ARI1        FCI           In      -         2.352 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.un6_ph_reg_inp_cry_2_0                                                                         ARI1        FCO           Out     0.009     2.362 r     -         
+un6_ph_reg_inp_cry_2                                                                                                                              Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.un6_ph_reg_inp_cry_3_0                                                                         ARI1        FCI           In      -         2.362 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.un6_ph_reg_inp_cry_3_0                                                                         ARI1        FCO           Out     0.009     2.371 r     -         
+un6_ph_reg_inp_cry_3                                                                                                                              Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.un6_ph_reg_inp_cry_4_0                                                                         ARI1        FCI           In      -         2.371 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.ph_accum_0.un6_ph_reg_inp_cry_4_0                                                                         ARI1        S             Out     0.354     2.725 r     -         
+ph_acc_s[4]                                                                                                                                       Net         -             -       0.146     -           2         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_s_1_51                                                                                          ARI1        B             In      -         2.871 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_s_1_51                                                                                          ARI1        FCO           Out     0.387     3.258 r     -         
+round_inp_s_1_51_FCO                                                                                                                              Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_1                                                                                           ARI1        FCI           In      -         3.258 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_1                                                                                           ARI1        FCO           Out     0.009     3.268 r     -         
+round_inp_cry_1                                                                                                                                   Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_2                                                                                           ARI1        FCI           In      -         3.268 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_2                                                                                           ARI1        FCO           Out     0.009     3.277 r     -         
+round_inp_cry_2                                                                                                                                   Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_3                                                                                           ARI1        FCI           In      -         3.277 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_3                                                                                           ARI1        FCO           Out     0.009     3.287 r     -         
+round_inp_cry_3                                                                                                                                   Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_4                                                                                           ARI1        FCI           In      -         3.287 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_4                                                                                           ARI1        FCO           Out     0.009     3.296 r     -         
+round_inp_cry_4                                                                                                                                   Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_5                                                                                           ARI1        FCI           In      -         3.296 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_5                                                                                           ARI1        FCO           Out     0.009     3.305 r     -         
+round_inp_cry_5                                                                                                                                   Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_6                                                                                           ARI1        FCI           In      -         3.305 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_6                                                                                           ARI1        FCO           Out     0.009     3.315 r     -         
+round_inp_cry_6                                                                                                                                   Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_7                                                                                           ARI1        FCI           In      -         3.315 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_7                                                                                           ARI1        FCO           Out     0.009     3.324 r     -         
+round_inp_cry_7                                                                                                                                   Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_8                                                                                           ARI1        FCI           In      -         3.324 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_8                                                                                           ARI1        FCO           Out     0.009     3.333 r     -         
+round_inp_cry_8                                                                                                                                   Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_9                                                                                           ARI1        FCI           In      -         3.333 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_9                                                                                           ARI1        FCO           Out     0.009     3.343 r     -         
+round_inp_cry_9                                                                                                                                   Net         -             -       0.000     -           1         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_10                                                                                          ARI1        FCI           In      -         3.343 r     -         
+SINE_GENERATOR.COREDDS_C0_0.quantizer_0.round_inp_cry_10                                                                                          ARI1        S             Out     0.354     3.697 r     -         
+full_wave_addr[9]                                                                                                                                 Net         -             -       0.859     -           17        
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.rA_qrtr[0]                                                                        CFG2        A             In      -         4.556 r     -         
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.rA_qrtr[0]                                                                        CFG2        Y             Out     0.060     4.616 r     -         
+rA_qrtr[0]                                                                                                                                        Net         -             -       0.972     -           2         
+SINE_GENERATOR.COREDDS_C0_0.sin_cos_lut_0.qrtr_wave\.grtr_lut_0.qrtr_red_ram_0.PF_lsram\.lsram_g5_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0     RAM1K20     A_ADDR[2]     In      -         5.588 r     -         
+====================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 6.314 is 2.813(44.5%) logic and 3.501(55.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 261MB peak: 262MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 261MB peak: 262MB)
+
+---------------------------------------
+Resource Usage Report for DDS_PNFreq 
+
+Mapping to part: mpfs025tfcvg484std
+Cell usage:
+CLKINT          2 uses
+CFG2           30 uses
+CFG3           19 uses
+CFG4           34 uses
+
+Carry cells:
+ARI1            40 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            51 uses
+
+DSP Blocks:    0 of 68 (0%)
+
+I/O ports: 17
+I/O primitives: 17
+INBUF          9 uses
+OUTBUF         8 uses
+
+
+Global Clock Buffers: 2
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K20) : 2 of 84 (2%)
+
+Total LUTs:    123
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 72; LUTs = 72;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  51 + 0 + 72 + 0 = 123;
+Total number of LUTs after P&R:  123 + 0 + 72 + 0 = 195;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 127MB peak: 262MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Thu Aug 20 07:43:40 2026
+
+###########################################################]

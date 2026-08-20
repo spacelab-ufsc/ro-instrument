@@ -1,0 +1,19 @@
+********************************************************************
+Delay Instance Report - Date: Thu Aug 20 07:44:46 2026
+Product: Designer
+Release: 2025.1
+Version: 2025.1.0.14
+Design Name: DDS_PNFreq
+Family: PolarFireSoC
+Die: MPFS025T
+Package: FCVG484
+********************************************************************
+
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+
++------+---------------+------------+-------------+-----------------+-----------+
+| Type | Instance Name | Param Name | Delay Value | PDC Option Name | Editable? |
++------+---------------+------------+-------------+-----------------+-----------+
++------+---------------+------------+-------------+-----------------+-----------+
+

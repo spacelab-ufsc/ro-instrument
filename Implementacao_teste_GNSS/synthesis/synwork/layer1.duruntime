@@ -1,0 +1,68 @@
+Runtime Summary:
+================
+
+	* Library: COREDDS_LIB, DesignUnit: dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18
+		Hardware Generation Phase   : 0h:00m:01s
+
+	* Library: COREDDS_LIB, DesignUnit: COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1
+		Hardware Generation Phase   : 0h:00m:01s
+
+	* Library: COREDDS_LIB, DesignUnit: COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1
+		Hardware Generation Phase   : 0h:00m:04s
+
+	The following design units have negligible CPU times:
+	=====================================================
+		* Library: work, DesignUnit: COREDDS_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitDelay_reg_12s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_quantizer_Z3_layer1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitDelay_reg_17s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: signExt_5s_17s_1s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitDelay_reg_5s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitDelay_reg_4s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitDelay_reg_3s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: COREDDS_C0_COREDDS_C0_0_dds_g5_lsram
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitDelay_reg_attr_9s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitDelay_bit_reg_3s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitCountS_9s_511s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitCountS_2s_3s_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitSyncNgrst_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitDelay_bit_reg_1s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_kitDelay_bit_reg_4s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: VCC
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: GND
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: RAM1K20
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1
+			Optimization Phase: Negligible CPU time
+		* Library: COREDDS_LIB, DesignUnit: COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1
+			Optimization Phase: Negligible CPU time
