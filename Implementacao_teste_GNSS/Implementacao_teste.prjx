@@ -81,16 +81,16 @@ PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v,hdl"
 STATE="utd"
-TIME="1778763462"
-SIZE="21215"
+TIME="1786505366"
+SIZE="21218"
 LIBRARY="COREDDS_LIB"
 PARENT="<project>\component\Actel\DirectCore\COREDDS\4.0.108\COREDDS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v,hdl"
 STATE="utd"
-TIME="1778763462"
-SIZE="53363"
+TIME="1786505366"
+SIZE="53437"
 LIBRARY="COREDDS_LIB"
 PARENT="<project>\component\Actel\DirectCore\COREDDS\4.0.108\COREDDS.cxf"
 IS_READONLY="TRUE"
@@ -105,7 +105,7 @@ PARENT="<project>\component\work\COREFFT_C4\COREFFT_C4.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFFT\8.1.100\rtl\in_place\vlog\core\cmplx.v,hdl"
 STATE="utd"
-TIME="1761404517"
+TIME="1786505366"
 SIZE="18706"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>\component\Actel\DirectCore\COREFFT\8.1.100\COREFFT.cxf"
@@ -113,7 +113,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFFT\8.1.100\rtl\in_place\vlog\core\fftSm.v,hdl"
 STATE="utd"
-TIME="1761404517"
+TIME="1786505366"
 SIZE="26130"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>\component\Actel\DirectCore\COREFFT\8.1.100\COREFFT.cxf"
@@ -121,15 +121,15 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFFT\8.1.100\rtl\in_place\vlog\core\kit.v,hdl"
 STATE="utd"
-TIME="1761404517"
-SIZE="19296"
+TIME="1786505366"
+SIZE="19308"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>\component\Actel\DirectCore\COREFFT\8.1.100\COREFFT.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFFT\8.1.100\rtl\in_place\vlog\core\mac_lib.v,hdl"
 STATE="utd"
-TIME="1761404517"
+TIME="1786505366"
 SIZE="12979"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>\component\Actel\DirectCore\COREFFT\8.1.100\COREFFT.cxf"
@@ -137,7 +137,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREFFT\8.1.100\rtl\in_place\vlog\test\user\bhvKit.v,tb_hdl"
 STATE="utd"
-TIME="1761404517"
+TIME="1786505366"
 SIZE="11104"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>\component\Actel\DirectCore\COREFFT\8.1.100\COREFFT.cxf"
@@ -196,14 +196,14 @@ PARENT="<project>\component\work\costas_loop_C0\costas_loop_C0.cxf"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\costas_loop\1.1.0\Encrypted\costas_loop.v,hdl"
 STATE="utd"
-TIME="1761404517"
+TIME="1786505366"
 SIZE="90416"
 PARENT="<project>\component\Microchip\SolutionCore\costas_loop\1.1.0\costas_loop.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microchip\SolutionCore\costas_loop\1.1.0\Stimulus\costas_loop_tb.v,tb_hdl"
 STATE="utd"
-TIME="1761404517"
+TIME="1786505366"
 SIZE="19535"
 PARENT="<project>\component\Microchip\SolutionCore\costas_loop\1.1.0\costas_loop.cxf"
 IS_READONLY="TRUE"
@@ -217,14 +217,14 @@ PARENT="<project>\component\work\complex_multiplier_C2\complex_multiplier_C2.cxf
 ENDFILE
 VALUE "<project>\component\Microsemi\SolutionCore\complex_multiplier\1.0.27\obfuscate\complex_multiplier.vhd,hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1786505366"
 SIZE="13243"
 PARENT="<project>\component\Microsemi\SolutionCore\complex_multiplier\1.0.27\complex_multiplier.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Microsemi\SolutionCore\complex_multiplier\1.0.27\obfuscate\round_sat.vhd,hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1786505366"
 SIZE="1594"
 PARENT="<project>\component\Microsemi\SolutionCore\complex_multiplier\1.0.27\complex_multiplier.cxf"
 IS_READONLY="TRUE"
@@ -305,8 +305,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v,hdl"
 STATE="utd"
-TIME="1778763462"
-SIZE="7980"
+TIME="1786505366"
+SIZE="8008"
 LIBRARY="COREDDS_LIB"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
 IS_READONLY="TRUE"
@@ -321,7 +321,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\test\user\dds_bhvKit.v,tb_hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1786505366"
 SIZE="17311"
 PARENT="<project>\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
 IS_READONLY="TRUE"
@@ -387,7 +387,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREFFT_C2\COREFFT_C0_0\rtl\in_place\vlog\core\COREFFT_TOP.v,hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1786505366"
 SIZE="10985"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>\component\work\COREFFT_C2\COREFFT_C0_0\COREFFT_C2_COREFFT_C0_0_COREFFT.cxf"
@@ -469,7 +469,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREFFT_C3\COREFFT_C1_0\rtl\in_place\vlog\core\COREFFT_TOP.v,hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1786505366"
 SIZE="10985"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>\component\work\COREFFT_C3\COREFFT_C1_0\COREFFT_C3_COREFFT_C1_0_COREFFT.cxf"
@@ -563,7 +563,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\COREFFT_C4\COREFFT_C4_0\rtl\in_place\vlog\core\COREFFT_TOP.v,hdl"
 STATE="utd"
-TIME="1778763462"
+TIME="1786505366"
 SIZE="10985"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>\component\work\COREFFT_C4\COREFFT_C4_0\COREFFT_C4_COREFFT_C4_0_COREFFT.cxf"
@@ -1593,14 +1593,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-HDL;hdl\Tracking\Libero\DLL\dll_tracking_libero_datapath.vhd;0
-HDL;hdl\Acquisition\Acquisition-Renato.vhd;0
-HDL;hdl\Tracking\DLL\DLL.vhd;0
-HDL;hdl\Tracking\DLL\Code_Lock_Detector.vhd;0
-HDL;hdl\Tracking\DLL\Code_Discriminator.vhd;0
-HDL;hdl\Tracking\Libero\DLL\dll_tracking_libero_top.vhd;0
-HDL;hdl\Tracking\PLL_outdated.vhd;0
-ACTIVEVIEW;hdl\Tracking\DLL\DLL.vhd
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "COMPLEX_MULTIPLIER::work","component\Microsemi\SolutionCore\complex_multiplier\1.0.27\obfuscate\complex_multiplier.vhd","FALSE","FALSE"
