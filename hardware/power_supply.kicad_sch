@@ -5554,15 +5554,6 @@
 		(color 0 0 0 0)
 		(uuid "fdf53e36-b0c6-4bc3-9a8c-740bef23963e")
 	)
-	(bus_entry
-		(at 236.22 96.52)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d0094f9-5d3b-4ac5-b176-24b534625ee8")
-	)
 	(wire
 		(pts
 			(xy 336.55 87.63) (xy 347.98 87.63)
@@ -10657,7 +10648,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "0R"
 			(at 274.32 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10667,7 +10658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 274.574 189.484 90)
 			(hide yes)
 			(show_name no)
@@ -11635,7 +11626,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1M"
 			(at 137.16 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11645,7 +11636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 137.414 51.054 90)
 			(hide yes)
 			(show_name no)
@@ -15591,7 +15582,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "0R"
 			(at 274.32 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15601,7 +15592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 274.574 120.904 90)
 			(hide yes)
 			(show_name no)

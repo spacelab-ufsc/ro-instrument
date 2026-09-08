@@ -4694,7 +4694,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "0R"
 			(at 271.526 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,7 +4704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 266.954 91.694 90)
 			(hide yes)
 			(show_name no)
