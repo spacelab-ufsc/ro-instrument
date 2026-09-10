@@ -12985,7 +12985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10K"
 			(at 256.286 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12996,7 +12996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 263.906 43.434 90)
 			(hide yes)
 			(show_name no)
@@ -13067,7 +13067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10K"
 			(at 167.64 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13078,7 +13078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 166.116 39.624 90)
 			(hide yes)
 			(show_name no)
@@ -13466,7 +13466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1K"
 			(at 181.61 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13477,7 +13477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 180.086 82.804 90)
 			(hide yes)
 			(show_name no)
@@ -13788,7 +13788,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "22R"
 			(at 256.032 65.532 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13798,7 +13798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 251.206 68.326 90)
 			(hide yes)
 			(show_name no)
@@ -14105,7 +14105,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100pF"
 			(at 166.116 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14116,7 +14116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC1005X55N"
 			(at 164.1348 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14659,7 +14659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10K"
 			(at 260.35 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14670,7 +14670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 258.826 134.874 90)
 			(hide yes)
 			(show_name no)
@@ -14897,7 +14897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10K"
 			(at 248.666 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14908,7 +14908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 256.286 43.434 90)
 			(hide yes)
 			(show_name no)
@@ -15214,7 +15214,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "22R"
 			(at 183.388 65.278 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15224,7 +15224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 178.816 68.326 90)
 			(hide yes)
 			(show_name no)
@@ -15609,7 +15609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10K"
 			(at 241.046 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15620,7 +15620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 248.666 43.434 90)
 			(hide yes)
 			(show_name no)
@@ -17773,7 +17773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10K"
 			(at 177.8 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17784,7 +17784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 176.276 137.414 90)
 			(hide yes)
 			(show_name no)
@@ -18569,7 +18569,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "22R"
 			(at 241.808 146.558 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18579,7 +18579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 237.236 149.606 90)
 			(hide yes)
 			(show_name no)
@@ -19443,7 +19443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10K"
 			(at 251.46 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19454,7 +19454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 249.936 134.874 90)
 			(hide yes)
 			(show_name no)
@@ -19525,7 +19525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10K"
 			(at 153.67 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19536,7 +19536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 152.146 82.804 90)
 			(hide yes)
 			(show_name no)
@@ -19762,7 +19762,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 228.346 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19773,7 +19773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC1005X55N"
 			(at 226.3648 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20002,7 +20002,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "22R"
 			(at 256.286 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20012,7 +20012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
 			(at 251.206 64.516 90)
 			(hide yes)
 			(show_name no)

@@ -18253,6 +18253,24 @@
 		(uuid "09368689-e374-425d-b5be-65ecfd38a1cd")
 	)
 	(junction
+		(at 100.33 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38f05062-383e-4062-ad6d-3dc53ffe1d54")
+	)
+	(junction
+		(at 100.33 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "715eb009-0e47-4f24-a09d-7992450e5cd7")
+	)
+	(junction
+		(at 109.22 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "730b35ba-41e9-4949-9bbb-9a8a4c881f80")
+	)
+	(junction
 		(at 205.74 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18312,7 +18330,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 207.01) (xy 96.52 207.01)
+			(xy 124.46 207.01) (xy 100.33 207.01)
 		)
 		(stroke
 			(width 0)
@@ -18559,6 +18577,16 @@
 			(type default)
 		)
 		(uuid "2b0269d0-ee66-492a-8cb6-a05d6345b8c4")
+	)
+	(wire
+		(pts
+			(xy 100.33 191.77) (xy 100.33 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea47a46-89bd-4178-a291-1cbf3cc58380")
 	)
 	(wire
 		(pts
@@ -18932,6 +18960,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 187.96) (xy 109.22 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7635cb19-4f4e-49c9-ac7c-a148a0a4a3fe")
+	)
+	(wire
+		(pts
 			(xy 24.13 219.71) (xy 50.8 219.71)
 		)
 		(stroke
@@ -19092,6 +19130,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 184.15) (xy 100.33 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8652b55d-81b6-4ace-9166-627dd8967103")
+	)
+	(wire
+		(pts
 			(xy 228.6 182.88) (xy 255.27 182.88)
 		)
 		(stroke
@@ -19139,6 +19187,16 @@
 			(type default)
 		)
 		(uuid "9400ad9e-96e3-40b5-ba24-da33ec00c0a0")
+	)
+	(wire
+		(pts
+			(xy 100.33 207.01) (xy 96.52 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d48656-0a1c-453b-8129-36e70a621a79")
 	)
 	(wire
 		(pts
@@ -19252,7 +19310,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 204.47) (xy 96.52 204.47)
+			(xy 124.46 204.47) (xy 109.22 204.47)
 		)
 		(stroke
 			(width 0)
@@ -19299,6 +19357,16 @@
 			(type default)
 		)
 		(uuid "b99da9fc-5509-42b1-905d-f35402d6f04a")
+	)
+	(wire
+		(pts
+			(xy 109.22 187.96) (xy 109.22 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd02e157-478a-4f10-b387-42692e0952e8")
 	)
 	(wire
 		(pts
@@ -19372,6 +19440,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 204.47) (xy 96.52 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ab0a74-466a-4447-8a5f-a75b46eb0d92")
+	)
+	(wire
+		(pts
 			(xy 24.13 147.32) (xy 50.8 147.32)
 		)
 		(stroke
@@ -19399,6 +19477,16 @@
 			(type default)
 		)
 		(uuid "d0c3d690-62ed-47a8-8151-c433ec931315")
+	)
+	(wire
+		(pts
+			(xy 100.33 199.39) (xy 100.33 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32c2a1c-06f0-4654-93cd-36c19b67359d")
 	)
 	(wire
 		(pts
@@ -19439,6 +19527,16 @@
 			(type default)
 		)
 		(uuid "dbc63b48-dc05-4aa8-b90b-2428844fad47")
+	)
+	(wire
+		(pts
+			(xy 109.22 199.39) (xy 109.22 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc283a13-05d5-420e-9b0d-478cb75eee13")
 	)
 	(wire
 		(pts
@@ -20973,7 +21071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "2.2K"
 			(at 217.17 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20984,7 +21082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RESC1005X40N"
 			(at 215.646 205.994 90)
 			(hide yes)
 			(show_name no)
@@ -21027,6 +21125,84 @@
 			(project "RO-Instrument"
 				(path "/129439af-2a9d-472e-bef2-dccbe0504c78"
 					(reference "R135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 100.33 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28014dfd-119a-4899-ae8e-cf95e12c2ac6")
+		(property "Reference" "#PWR0237"
+			(at 100.33 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3"
+			(at 100.33 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 100.33 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95608dc2-21a1-41dd-b513-55b59d4fe870")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/129439af-2a9d-472e-bef2-dccbe0504c78"
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -24095,6 +24271,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 109.22 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4dd1bf3-f4f8-40e2-b055-db495f424841")
+		(property "Reference" "R117"
+			(at 111.76 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 111.76 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "payload_footprints:RESC1005X40N"
+			(at 110.236 195.834 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 109.22 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4fc0d1b3-562d-4c9a-9418-ed13b39746d8")
+		)
+		(pin "1"
+			(uuid "5454ac85-ad73-4d69-9633-971d67f9819f")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/129439af-2a9d-472e-bef2-dccbe0504c78"
+					(reference "R117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 205.74 194.31 0)
 		(unit 1)
@@ -25729,7 +25987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "2.2K"
 			(at 208.28 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25740,7 +25998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:RESC1005X40N"
 			(at 206.756 205.994 90)
 			(hide yes)
 			(show_name no)
@@ -25783,6 +26041,88 @@
 			(project "RO-Instrument"
 				(path "/129439af-2a9d-472e-bef2-dccbe0504c78"
 					(reference "R134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4221569-a166-4f2e-bf89-cd89e7d6410b")
+		(property "Reference" "R116"
+			(at 102.87 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 102.87 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "payload_footprints:RESC1005X40N"
+			(at 101.346 195.834 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 100.33 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b7dba3ac-e3dd-46a3-9798-b6c18aaa97cc")
+		)
+		(pin "1"
+			(uuid "f2bc1b5f-dcf6-41f7-95ba-7f07fc0f2d46")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/129439af-2a9d-472e-bef2-dccbe0504c78"
+					(reference "R116")
 					(unit 1)
 				)
 			)
