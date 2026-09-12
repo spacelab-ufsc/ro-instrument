@@ -38199,7 +38199,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 178.816 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38210,7 +38210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 176.8348 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -38280,7 +38280,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 235.966 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38291,7 +38291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:YAG_CC0201_YAG"
 			(at 233.9848 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -38442,7 +38442,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 117.856 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38453,7 +38453,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 115.8748 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -38928,7 +38928,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 206.756 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38939,7 +38939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 204.7748 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -39249,7 +39249,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 215.646 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39260,7 +39260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 213.6648 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -39330,7 +39330,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 153.416 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39341,7 +39341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 151.4348 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -39492,7 +39492,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 130.556 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39503,7 +39503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 128.5748 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -41501,7 +41501,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 79.756 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41512,7 +41512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:YAG_CC0201_YAG"
 			(at 77.7748 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -41744,7 +41744,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "3.3nF"
 			(at 242.316 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41755,7 +41755,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X33N"
 			(at 240.3348 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -41825,7 +41825,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 271.526 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41836,7 +41836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 269.5448 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -41906,7 +41906,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 67.056 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41917,7 +41917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 65.0748 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -42221,7 +42221,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 188.976 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42232,7 +42232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 186.9948 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -42302,7 +42302,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 145.796 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42313,7 +42313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:YAG_CC0201_YAG"
 			(at 143.8148 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -42620,7 +42620,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 59.436 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42631,7 +42631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 57.4548 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -43016,7 +43016,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 36.576 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43027,7 +43027,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:YAG_CC0201_YAG"
 			(at 34.5948 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -43256,7 +43256,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 234.696 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43267,7 +43267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:YAG_CC0201_YAG"
 			(at 232.7148 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -43418,7 +43418,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 102.616 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43429,7 +43429,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 100.6348 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -44049,10 +44049,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ffe5e3f-3fc1-4fd6-b231-c9fca7655468")
 		(property "Reference" "C184"
-			(at 162.56 178.4349 0)
+			(at 160.02 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44062,8 +44061,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized_US"
-			(at 162.56 180.9749 0)
+		(property "Value" "330uF"
+			(at 160.528 183.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44073,7 +44072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:T520B"
 			(at 158.75 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -44372,10 +44371,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88370fc7-33a5-4cf0-999e-833baafbc346")
 		(property "Reference" "C182"
-			(at 154.94 178.4349 0)
+			(at 152.4 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44385,8 +44383,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized_US"
-			(at 154.94 180.9749 0)
+		(property "Value" "330uF"
+			(at 152.654 183.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44396,7 +44394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:T520B"
 			(at 151.13 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -44547,7 +44545,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 106.426 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44558,7 +44556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 104.4448 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -44628,7 +44626,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 204.216 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44639,7 +44637,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 202.2348 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -44709,7 +44707,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 186.436 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44720,7 +44718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 184.4548 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -44871,7 +44869,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 265.176 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44882,7 +44880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 263.1948 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -44952,7 +44950,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 74.676 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44963,7 +44961,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 72.6948 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -46560,7 +46558,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 129.286 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46571,7 +46569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAP_CC0201_YAG"
 			(at 127.3048 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -46641,7 +46639,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2nF"
 			(at 44.196 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46652,7 +46650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X33N"
 			(at 42.2148 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -46800,7 +46798,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 150.876 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46811,7 +46809,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 148.8948 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -47040,7 +47038,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 173.736 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47051,7 +47049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:YAG_CC0201_YAG"
 			(at 171.7548 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -47121,7 +47119,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 208.026 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47132,7 +47130,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:YAG_CC0201_YAG"
 			(at 206.0448 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -47280,7 +47278,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 136.906 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47291,7 +47289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAP_CC0201_YAG"
 			(at 134.9248 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -47443,7 +47441,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 121.666 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47454,7 +47452,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAP_CC0201_YAG"
 			(at 119.6848 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -47605,7 +47603,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 196.596 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47616,7 +47614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 194.6148 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -47686,7 +47684,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 51.816 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47697,7 +47695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 49.8348 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -47923,7 +47921,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 243.586 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47934,7 +47932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 241.6048 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -48004,7 +48002,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 114.046 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48015,7 +48013,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 112.0648 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -48166,7 +48164,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 187.706 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48177,7 +48175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 185.7248 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -48484,7 +48482,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2nF"
 			(at 36.576 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48495,7 +48493,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X33N"
 			(at 34.5948 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -48643,7 +48641,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 158.496 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48654,7 +48652,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 156.5148 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -48724,7 +48722,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 98.806 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48735,7 +48733,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 96.8248 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -48964,7 +48962,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 122.936 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48975,7 +48973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 120.9548 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -49045,7 +49043,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 214.376 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49056,7 +49054,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 212.3948 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -49126,7 +49124,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 94.996 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49137,7 +49135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 93.0148 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -49522,7 +49520,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 272.796 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49533,7 +49531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 270.8148 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -49684,7 +49682,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 196.596 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49695,7 +49693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 194.6148 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -49846,7 +49844,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 263.906 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49857,7 +49855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 261.9248 176.53 0)
 			(hide yes)
 			(show_name no)

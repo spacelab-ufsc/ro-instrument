@@ -7206,7 +7206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 116.84 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,7 +7217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 113.9952 72.39 0)
 			(hide yes)
 			(show_name no)
