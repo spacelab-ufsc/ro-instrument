@@ -41,7 +41,7 @@ architecture behavioral of Acquisition_TestBench is
     signal SYSRESET : std_logic := '1';
     signal CA_PRN, PRN_VALID : std_logic;
     signal MAX_I_INPUT: std_logic_vector(1 downto 0);
-    signal ACQ_OUTPUT_I, ACQ_OUTPUT_Q : std_logic_vector(20 downto 0);
+    signal ACQ_OUTPUT_I, ACQ_OUTPUT_Q : std_logic_vector(15 downto 0);
     signal pulso       : STD_LOGIC := '0';
     
     component Acquisition
@@ -58,8 +58,8 @@ architecture behavioral of Acquisition_TestBench is
 
             -- Outputs
             READ_OUT_V : out std_logic;
-            OUT_I : out std_logic_vector(20 downto 0);
-            OUT_Q : out std_logic_vector(20 downto 0)
+            OUT_I : out std_logic_vector(15 downto 0);
+            OUT_Q : out std_logic_vector(15 downto 0)
 
             -- Inouts
 

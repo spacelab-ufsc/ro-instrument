@@ -1,5 +1,5 @@
 # Microsemi Corp.
-# Date: 2026-Aug-20 08:18:16
+# Date: 2026-Sep-14 08:57:27
 Libero Release : 2025.1
 Libero Version : 2025.1.0.14
 Operating System Name : Windows 8
@@ -16,19 +16,18 @@ Environment Variables :
 	COMPUTERNAME=RENATO
 	ComSpec=C:\Windows\system32\cmd.exe
 	DriverData=C:\Windows\System32\Drivers\DriverData
-	EFC_9828_1262719628=1
-	EFC_9828_1592913036=1
-	EFC_9828_2283032206=1
-	EFC_9828_2775293581=1
-	EFC_9828_2946480783=1
-	EFC_9828_3789132940=1
-	EFC_9828_4126798990=1
+	EFC_18656_1262719628=1
+	EFC_18656_1592913036=1
+	EFC_18656_2283032206=1
+	EFC_18656_2775293581=1
+	EFC_18656_3789132940=1
+	EFC_18656_4126798990=1
 	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
 	FPS_BROWSER_USER_PROFILE_STRING=Default
 	HOMEDRIVE=C:
 	HOMEPATH=\Users\renat
 	Link_SDC=C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl
-	LM_LICENSE_FILE=C:\Microchip\License\License.dat;%LM_LICENSE_FILE%
+	LM_LICENSE_FILE=C:\Microchip\License\License.dat;
 	LOCALAPPDATA=C:\Users\renat\AppData\Local
 	LOGONSERVER=\\RENATO
 	MOZ_PLUGIN_PATH=C:\Program Files\Foxit Software\Foxit PDF Reader\plugins\
@@ -37,7 +36,7 @@ Environment Variables :
 	OneDriveCommercial=C:\Users\renat\OneDrive - UFSC
 	OneDriveConsumer=C:\Users\renat\OneDrive
 	OS=Windows_NT
-	Path=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Liquid Technologies\Liquid Studio\XmlDataBinder21\Redist21\cpp\win32\bin;C:\Program Files\Liquid Technologies\Liquid Studio\XmlDataBinder21\Redist21\cpp\win64\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\renat\.local\bin;C:\Users\renat\AppData\Local\Microsoft\WindowsApps;C:\Users\renat\AppData\Local\GitHubDesktop\bin;C:\Users\renat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\renat\AppData\Local\gitkraken\bin
+	Path=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Liquid Technologies\Liquid Studio\XmlDataBinder21\Redist21\cpp\win32\bin;C:\Program Files\Liquid Technologies\Liquid Studio\XmlDataBinder21\Redist21\cpp\win64\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\eim;C:\Espressif\tools\python;C:\Espressif\tools\python\Scripts;C:\Users\renat\.espressif\eim_gui;C:\Users\renat\.local\bin;C:\Users\renat\AppData\Local\Microsoft\WindowsApps;C:\Users\renat\AppData\Local\GitHubDesktop\bin;C:\Users\renat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\renat\AppData\Local\gitkraken\bin;C:\Users\renat\AppData\Local\Microsoft\WinGet\Links;
 	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 	PROCESSOR_ARCHITECTURE=x86
 	PROCESSOR_ARCHITEW6432=AMD64
@@ -65,4 +64,3 @@ Environment Variables :
 	AMHOME=C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/am
 	HOME=C:\Users\renat
 	TCL_LIBRARY=C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/lib/tcl8.5
-	SYN_WRXML=1

@@ -1,6 +1,6 @@
 Compile Report
 Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
-Date: Thu Aug 20 07:43:49 2026
+Date: Sun Sep 13 22:52:18 2026
 
 Device Selection
 +------------------------+--------------+
@@ -29,10 +29,10 @@ Resource Usage
 +-----------------------------+------+-------+------------+
 | Type                        | Used | Total | Percentage |
 +-----------------------------+------+-------+------------+
-| 4LUT                        | 195  | 22956 | 0.85       |
+| 4LUT                        | 212  | 22956 | 0.92       |
 | DFF                         | 123  | 22956 | 0.54       |
-| User I/O                    | 17   | 108   | 15.74      |
-| -- Single-ended I/O         | 17   | 108   | 15.74      |
+| User I/O                    | 0    | 108   | 0.00       |
+| -- Single-ended I/O         | 0    | 108   | 0.00       |
 | -- Differential I/O Pairs   | 0    | 54    | 0.00       |
 | -- I/Os using I/O Registers | 0    | 108   | 0.00       |
 | I/O Register Flip-Flops     | 0    | 324   | 0.00       |
@@ -54,11 +54,11 @@ Detailed Logic Resource Usage
 +-----------------------+------+-----+
 | Type                  | 4LUT | DFF |
 +-----------------------+------+-----+
-| Fabric Logic          | 123  | 51  |
+| Fabric Logic          | 140  | 51  |
 | uSRAM Interface Logic | 0    | 0   |
 | LSRAM Interface Logic | 72   | 72  |
 | Math Interface Logic  | 0    | 0   |
-| Total Used            | 195  | 123 |
+| Total Used            | 212  | 123 |
 +-----------------------+------+-----+
 
 Detailed Carry Chains Resource Usage
@@ -74,8 +74,8 @@ I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
-| Input I/O                     | 9            | 0           | 0               |
-| Output I/O                    | 8            | 0           | 0               |
+| Input I/O                     | 0            | 0           | 0               |
+| Output I/O                    | 0            | 0           | 0               |
 | Bidirectional I/O             | 0            | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
 | Differential Output I/O Pairs | 0            | 0           | 0               |
@@ -103,8 +103,8 @@ High fanout nets
 +--------+---------+------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                   |
 +--------+---------+------------------------------------------------------------------------+
-| 43     | INT_NET | Net   : NGRST_c                                                        |
-|        |         | Driver: NGRST_ibuf                                                     |
+| 43     | INT_NET | Net   : NGRST                                                          |
+|        |         | Driver: BLOCK_INTERFACE_I_NGRST                                        |
 | 17     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/full_wave_addr[9]                  |
 |        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51       |
 | 17     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/rstn_full_wave_addr_Z              |
@@ -129,8 +129,8 @@ High fanout nets (through buffer trees)
 +--------+---------+------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                   |
 +--------+---------+------------------------------------------------------------------------+
-| 43     | INT_NET | Net   : NGRST_c                                                        |
-|        |         | Driver: NGRST_ibuf                                                     |
+| 43     | INT_NET | Net   : NGRST                                                          |
+|        |         | Driver: BLOCK_INTERFACE_I_NGRST                                        |
 | 17     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/full_wave_addr[9]                  |
 |        |         | Driver: SINE_GENERATOR/COREDDS_C0_0/quantizer_0/round_inp_s_1_51       |
 | 17     | INT_NET | Net   : SINE_GENERATOR/COREDDS_C0_0/rstn_full_wave_addr_Z              |

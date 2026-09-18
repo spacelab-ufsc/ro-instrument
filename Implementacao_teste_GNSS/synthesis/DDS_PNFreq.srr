@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: RENATO
 
-# Thu Aug 20 07:42:59 2026
+# Sun Sep 13 22:51:31 2026
 
 #Implementation: synthesis
 
@@ -41,16 +41,16 @@ Synopsys VHDL Compiler, Version comp202309synp1, Build 540R, Built Apr 29 2025 0
 
 @N|Running in 64-bit mode
 @N:"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Top entity is set to DDS_PNFreq.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd'.
 VHDL syntax check successful!
 @N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+Options changed - recompiling
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
 
 
 Process completed successfully.
-# Thu Aug 20 07:42:59 2026
+# Sun Sep 13 22:51:32 2026
 
 ###########################################################]
 ###########################################################[
@@ -233,24 +233,21 @@ Synopsys Verilog Compiler, Version comp202309synp1, Build 540R, Built Apr 29 202
 
 Verilog syntax check successful!
 
-At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 104MB peak: 105MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 99MB peak: 99MB)
 
 
 Process completed successfully.
-# Thu Aug 20 07:43:01 2026
+# Sun Sep 13 22:51:33 2026
 
 ###########################################################]
 ###########################################################[
 @N:"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Top entity is set to DDS_PNFreq.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd'.
+Options changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd'.
 VHDL syntax check successful!
+Options changed - recompiling
 @N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Synthesizing work.dds_pnfreq.behavioral.
-@N: CD630 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd":24:7:24:22|Synthesizing work.negative_integer.architecture_negative_integer.
-Post processing for work.negative_integer.architecture_negative_integer
-Running optimization stage 1 on Negative_Integer .......
-Finished optimization stage 1 on Negative_Integer (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 1 on COREDDS_C0 .......
 Finished optimization stage 1 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Post processing for work.dds_pnfreq.behavioral
@@ -258,8 +255,6 @@ Running optimization stage 1 on DDS_PNFreq .......
 Finished optimization stage 1 on DDS_PNFreq (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
 Running optimization stage 2 on COREDDS_C0 .......
 Finished optimization stage 2 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
-Running optimization stage 2 on Negative_Integer_4 .......
-Finished optimization stage 2 on Negative_Integer_4 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on DDS_PNFreq .......
 Finished optimization stage 2 on DDS_PNFreq (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 
@@ -269,11 +264,11 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 94MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
 
 
 Process completed successfully.
-# Thu Aug 20 07:43:03 2026
+# Sun Sep 13 22:51:34 2026
 
 ###########################################################]
 ###########################################################[
@@ -445,13 +440,13 @@ Verilog syntax check successful!
 	DELAY=32'b00000000000000000000000000000100
    Generated name = dds_kitDelay_bit_reg_4s
 Running optimization stage 1 on dds_kitDelay_bit_reg_4s .......
-Finished optimization stage 1 on dds_kitDelay_bit_reg_4s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 100MB)
+Finished optimization stage 1 on dds_kitDelay_bit_reg_4s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":32:7:32:26|Synthesizing module dds_kitDelay_bit_reg in library COREDDS_LIB.
 
 	DELAY=32'b00000000000000000000000000000001
    Generated name = dds_kitDelay_bit_reg_1s
 Running optimization stage 1 on dds_kitDelay_bit_reg_1s .......
-Finished optimization stage 1 on dds_kitDelay_bit_reg_1s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 100MB)
+Finished optimization stage 1 on dds_kitDelay_bit_reg_1s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":544:7:544:22|Synthesizing module dds_kitSyncNgrst in library COREDDS_LIB.
 
 	PULSE_WIDTH=32'b00000000000000000000000000000001
@@ -466,7 +461,7 @@ Finished optimization stage 1 on dds_kitSyncNgrst_1s (CPU Time 0h:00m:00s, Memor
 	BUILD_DC=32'b00000000000000000000000000000001
    Generated name = dds_kitCountS_2s_3s_1s
 Running optimization stage 1 on dds_kitCountS_2s_3s_1s .......
-Finished optimization stage 1 on dds_kitCountS_2s_3s_1s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Finished optimization stage 1 on dds_kitCountS_2s_3s_1s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":164:7:164:19|Synthesizing module dds_kitCountS in library COREDDS_LIB.
 
 	WIDTH=32'b00000000000000000000000000001001
@@ -474,13 +469,13 @@ Finished optimization stage 1 on dds_kitCountS_2s_3s_1s (CPU Time 0h:00m:00s, Me
 	BUILD_DC=32'b00000000000000000000000000000001
    Generated name = dds_kitCountS_9s_511s_1s
 Running optimization stage 1 on dds_kitCountS_9s_511s_1s .......
-Finished optimization stage 1 on dds_kitCountS_9s_511s_1s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Finished optimization stage 1 on dds_kitCountS_9s_511s_1s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":32:7:32:26|Synthesizing module dds_kitDelay_bit_reg in library COREDDS_LIB.
 
 	DELAY=32'b00000000000000000000000000000011
    Generated name = dds_kitDelay_bit_reg_3s
 Running optimization stage 1 on dds_kitDelay_bit_reg_3s .......
-Finished optimization stage 1 on dds_kitDelay_bit_reg_3s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Finished optimization stage 1 on dds_kitDelay_bit_reg_3s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":34:7:34:25|Synthesizing module dds_LUT_initializer in library COREDDS_LIB.
 
 	RAM_LOGDEPTH=32'b00000000000000000000000000001001
@@ -492,7 +487,7 @@ Finished optimization stage 1 on dds_kitDelay_bit_reg_3s (CPU Time 0h:00m:00s, M
 	DEPTH_SHRT=32'b00000000000000000000000000010000
    Generated name = dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s
 Running optimization stage 1 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s .......
-Finished optimization stage 1 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Finished optimization stage 1 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":374:7:374:41|Synthesizing module COREDDS_C0_COREDDS_C0_0_sin_cos_lut in library COREDDS_LIB.
 
 	QUANTIZER_BITS=32'b00000000000000000000000000001100
@@ -514,7 +509,7 @@ Finished optimization stage 1 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s (CP
    Generated name = COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v":3:7:3:42|Synthesizing module COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin in library COREDDS_LIB.
 Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin .......
-Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v":3:7:3:42|Synthesizing module COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos in library COREDDS_LIB.
 Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos .......
 Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
@@ -541,18 +536,18 @@ Finished optimization stage 1 on dds_kitDelay_reg_attr_9s_0s (CPU Time 0h:00m:00
    Generated name = COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1
 @N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":578:7:578:13|Synthesizing module RAM1K20 in library work.
 Running optimization stage 1 on RAM1K20 .......
-Finished optimization stage 1 on RAM1K20 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on RAM1K20 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
 @N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
 Running optimization stage 1 on GND .......
-Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
 @N: CG364 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
-Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v":5:7:5:42|Synthesizing module COREDDS_C0_COREDDS_C0_0_dds_g5_lsram in library COREDDS_LIB.
 Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_g5_lsram .......
-Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_g5_lsram (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_dds_g5_lsram (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
 Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1 .......
-Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
 
 	BITWIDTH=32'b00000000000000000000000000000011
@@ -560,7 +555,7 @@ Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s
    Generated name = dds_kitDelay_reg_3s_0s
 @W: CG133 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":82:10:82:10|Object i is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on dds_kitDelay_reg_3s_0s .......
-Finished optimization stage 1 on dds_kitDelay_reg_3s_0s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on dds_kitDelay_reg_3s_0s (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
 
 	BITWIDTH=32'b00000000000000000000000000000100
@@ -568,7 +563,7 @@ Finished optimization stage 1 on dds_kitDelay_reg_3s_0s (CPU Time 0h:00m:00s, Me
    Generated name = dds_kitDelay_reg_4s_0s
 @W: CG133 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":82:10:82:10|Object i is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on dds_kitDelay_reg_4s_0s .......
-Finished optimization stage 1 on dds_kitDelay_reg_4s_0s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on dds_kitDelay_reg_4s_0s (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 105MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":177:7:177:38|Synthesizing module COREDDS_C0_COREDDS_C0_0_qrtr_lut in library COREDDS_LIB.
 
 	QUANTIZER_BITS=32'b00000000000000000000000000001100
@@ -593,7 +588,7 @@ Finished optimization stage 1 on dds_kitDelay_reg_4s_0s (CPU Time 0h:00m:00s, Me
 Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 .......
 @W: CL118 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":324:8:324:11|Latch generated from always block for signal cosine_w[3:0]; possible missing assignment in an if or case statement.
 @W: CL118 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":286:8:286:11|Latch generated from always block for signal sine_w[3:0]; possible missing assignment in an if or case statement.
-Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 @W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":398:19:398:25|Removing wire sine_ww, as there is no assignment to it.
 @W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":398:28:398:36|Removing wire cosine_ww, as there is no assignment to it.
 @W: CG133 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":399:18:399:23|Object sine_w is declared but not assigned. Either assign a value or remove the declaration.
@@ -601,7 +596,7 @@ Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 (CPU
 @W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":400:19:400:22|Removing wire sine, as there is no assignment to it.
 @W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":400:25:400:30|Removing wire cosine, as there is no assignment to it.
 Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 .......
-Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":124:7:124:24|Synthesizing module dds_ph_accumulator in library COREDDS_LIB.
 
 	PH_INC_MODE=32'b00000000000000000000000000000001
@@ -619,7 +614,7 @@ Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 (
 	DELAY=32'b00000000000000000000000000000001
    Generated name = dds_kitDelay_reg_5s_1s
 Running optimization stage 1 on dds_kitDelay_reg_5s_1s .......
-Finished optimization stage 1 on dds_kitDelay_reg_5s_1s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on dds_kitDelay_reg_5s_1s (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":381:7:381:13|Synthesizing module signExt in library COREDDS_LIB.
 
 	INWIDTH=32'b00000000000000000000000000000101
@@ -628,16 +623,16 @@ Finished optimization stage 1 on dds_kitDelay_reg_5s_1s (CPU Time 0h:00m:00s, Me
 	DROP_MSB=32'b00000000000000000000000000000000
    Generated name = signExt_5s_17s_1s_0s
 Running optimization stage 1 on signExt_5s_17s_1s_0s .......
-Finished optimization stage 1 on signExt_5s_17s_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on signExt_5s_17s_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":72:7:72:22|Synthesizing module dds_kitDelay_reg in library COREDDS_LIB.
 
 	BITWIDTH=32'b00000000000000000000000000010001
 	DELAY=32'b00000000000000000000000000000001
    Generated name = dds_kitDelay_reg_17s_1s
 Running optimization stage 1 on dds_kitDelay_reg_17s_1s .......
-Finished optimization stage 1 on dds_kitDelay_reg_17s_1s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on dds_kitDelay_reg_17s_1s (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 Running optimization stage 1 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 .......
-Finished optimization stage 1 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":344:7:344:19|Synthesizing module dds_quantizer in library COREDDS_LIB.
 
 	PH_ACC_BITS=32'b00000000000000000000000000010001
@@ -665,11 +660,11 @@ Finished optimization stage 1 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_824
    Generated name = dds_kitDelay_reg_12s_0s
 @W: CG133 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":82:10:82:10|Object i is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on dds_kitDelay_reg_12s_0s .......
-Finished optimization stage 1 on dds_kitDelay_reg_12s_0s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on dds_kitDelay_reg_12s_0s (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 @W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":378:35:378:49|Removing wire phAcc_Dith_Offs, as there is no assignment to it.
 @W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":379:25:379:33|Removing wire dith_offs, as there is no assignment to it.
 Running optimization stage 1 on dds_quantizer_Z3_layer1 .......
-Finished optimization stage 1 on dds_quantizer_Z3_layer1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on dds_quantizer_Z3_layer1 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v":27:7:27:37|Synthesizing module COREDDS_C0_COREDDS_C0_0_COREDDS in library COREDDS_LIB.
 
 	PH_ACC_BITS=32'b00000000000000000000000000010001
@@ -716,20 +711,20 @@ Finished optimization stage 1 on dds_quantizer_Z3_layer1 (CPU Time 0h:00m:00s, M
 @W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v":101:21:101:27|Removing wire lfsr_rA, as there is no assignment to it.
 @W: CG360 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v":102:12:102:17|Removing wire lfsr_Q, as there is no assignment to it.
 Running optimization stage 1 on COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 .......
-Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0.v":42:7:42:16|Synthesizing module COREDDS_C0 in library work.
 Running optimization stage 1 on COREDDS_C0 .......
-Finished optimization stage 1 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Finished optimization stage 1 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 Running optimization stage 2 on COREDDS_C0 .......
-Finished optimization stage 2 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Finished optimization stage 2 on COREDDS_C0 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 .......
-Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_kitDelay_reg_12s_0s .......
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:9:77:13|Input nGrst is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:16:77:18|Input rst is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:21:77:23|Input clk is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:26:77:30|Input clkEn is unused.
-Finished optimization stage 2 on dds_kitDelay_reg_12s_0s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Finished optimization stage 2 on dds_kitDelay_reg_12s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_quantizer_Z3_layer1 .......
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":371:29:371:41|Input ext_ph_offset is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":370:24:370:35|Input ph_offset_we is unused.
@@ -737,67 +732,67 @@ Running optimization stage 2 on dds_quantizer_Z3_layer1 .......
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":375:8:375:15|Input slow_clk is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":375:18:375:25|Input lfsr_wEn is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_module.v":376:14:376:20|Input lfsr_wA is unused.
-Finished optimization stage 2 on dds_quantizer_Z3_layer1 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Finished optimization stage 2 on dds_quantizer_Z3_layer1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_kitDelay_reg_17s_1s .......
-Finished optimization stage 2 on dds_kitDelay_reg_17s_1s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Finished optimization stage 2 on dds_kitDelay_reg_17s_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on signExt_5s_17s_1s_0s .......
-Finished optimization stage 2 on signExt_5s_17s_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Finished optimization stage 2 on signExt_5s_17s_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_kitDelay_reg_5s_1s .......
-Finished optimization stage 2 on dds_kitDelay_reg_5s_1s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Finished optimization stage 2 on dds_kitDelay_reg_5s_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 .......
-Finished optimization stage 2 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 105MB)
+Finished optimization stage 2 on dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 .......
 @W: CL239 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":286:8:286:11|Latch sine_w[3:0] enable evaluates to constant 1 making the latch unnecessary.Check if this is intended as the latch will be removed during optimization.
 @W: CL239 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\lut.v":324:8:324:11|Latch cosine_w[3:0] enable evaluates to constant 1 making the latch unnecessary.Check if this is intended as the latch will be removed during optimization.
-Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_kitDelay_reg_4s_0s .......
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:9:77:13|Input nGrst is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:16:77:18|Input rst is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:21:77:23|Input clk is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:26:77:30|Input clkEn is unused.
-Finished optimization stage 2 on dds_kitDelay_reg_4s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on dds_kitDelay_reg_4s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_kitDelay_reg_3s_0s .......
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:9:77:13|Input nGrst is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:16:77:18|Input rst is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:21:77:23|Input clk is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":77:26:77:30|Input clkEn is unused.
-Finished optimization stage 2 on dds_kitDelay_reg_3s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on dds_kitDelay_reg_3s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_g5_lsram .......
-Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_g5_lsram (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_g5_lsram (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on VCC .......
-Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on GND .......
-Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on RAM1K20 .......
-Finished optimization stage 2 on RAM1K20 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on RAM1K20 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1 .......
-Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_kitDelay_reg_attr_9s_0s .......
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:9:120:13|Input nGrst is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:16:120:18|Input rst is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:21:120:23|Input clk is unused.
 @N: CL159 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":120:26:120:30|Input clkEn is unused.
-Finished optimization stage 2 on dds_kitDelay_reg_attr_9s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on dds_kitDelay_reg_attr_9s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos .......
-Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin .......
-Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 .......
-Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s .......
-Finished optimization stage 2 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_kitDelay_bit_reg_3s .......
-Finished optimization stage 2 on dds_kitDelay_bit_reg_3s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on dds_kitDelay_bit_reg_3s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 106MB)
 Running optimization stage 2 on dds_kitCountS_9s_511s_1s .......
-Finished optimization stage 2 on dds_kitCountS_9s_511s_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on dds_kitCountS_9s_511s_1s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 106MB)
 Running optimization stage 2 on dds_kitCountS_2s_3s_1s .......
-Finished optimization stage 2 on dds_kitCountS_2s_3s_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on dds_kitCountS_2s_3s_1s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 106MB)
 Running optimization stage 2 on dds_kitSyncNgrst_1s .......
-Finished optimization stage 2 on dds_kitSyncNgrst_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on dds_kitSyncNgrst_1s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 106MB)
 Running optimization stage 2 on dds_kitDelay_bit_reg_1s .......
-Finished optimization stage 2 on dds_kitDelay_bit_reg_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on dds_kitDelay_bit_reg_1s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 106MB)
 Running optimization stage 2 on dds_kitDelay_bit_reg_4s .......
-Finished optimization stage 2 on dds_kitDelay_bit_reg_4s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 105MB)
+Finished optimization stage 2 on dds_kitDelay_bit_reg_4s (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 106MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
@@ -805,11 +800,11 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:20s; Memory used current: 103MB peak: 105MB)
+At c_ver Exit (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 104MB peak: 106MB)
 
 
 Process completed successfully.
-# Thu Aug 20 07:43:25 2026
+# Sun Sep 13 22:51:54 2026
 
 ###########################################################]
 ###########################################################[
@@ -829,6 +824,8 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
 
 @N|Running in 64-bit mode
+File C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\layer0.srs changed - recompiling
+File C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\layer1.srs changed - recompiling
 
 =======================================================================================
 For a summary of linker messages for components that did not bind, please see log file:
@@ -841,7 +838,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Aug 20 07:43:26 2026
+# Sun Sep 13 22:51:55 2026
 
 ###########################################################]
 
@@ -851,12 +848,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:24s; Memory used current: 24MB peak: 25MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:21s; Memory used current: 32MB peak: 33MB)
 
-Process took 0h:00m:27s realtime, 0h:00m:24s cputime
+Process took 0h:00m:23s realtime, 0h:00m:21s cputime
 
 Process completed successfully.
-# Thu Aug 20 07:43:26 2026
+# Sun Sep 13 22:51:55 2026
 
 ###########################################################]
 ###########################################################[
@@ -876,18 +873,19 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
 
 @N|Running in 64-bit mode
+File C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\DDS_PNFreq_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Aug 20 07:43:28 2026
+# Sun Sep 13 22:51:57 2026
 
 ###########################################################]
 Premap Report
 
-# Thu Aug 20 07:43:29 2026
+# Sun Sep 13 22:51:58 2026
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -925,25 +923,25 @@ Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 202MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 198MB peak: 202MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 202MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 198MB peak: 202MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 202MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
 NConnInternalConnection caching is on
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
 
 
-Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
 
 
-Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
 
 @N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":61:67:61:74|Removing instance rA_reg_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1(verilog)) because it does not drive other instances.
 @N: BN115 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v":61:67:61:74|Removing instance rA_reg_0 (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0(verilog)) because it does not drive other instances.
@@ -959,7 +957,7 @@ Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:0
 @N: FP130 |Promoting Net SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.slow_count_0.dc on CLKINT  I_2 
 @N: FX1184 |Applying syn_allowed_resources blockrams=84 on top level netlist DDS_PNFreq 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
 
 
 
@@ -997,22 +995,22 @@ Finished Pre Mapping Phase.
 Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 257MB)
 
 
 Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 257MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 257MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 258MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:02s cputime
-# Thu Aug 20 07:43:32 2026
+# Sun Sep 13 22:52:01 2026
 
 ###########################################################]
 Map & Optimize Report
 
-# Thu Aug 20 07:43:33 2026
+# Sun Sep 13 22:52:01 2026
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -1039,19 +1037,19 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 201MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 201MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 201MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 201MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 201MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 201MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 249MB peak: 249MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 250MB peak: 250MB)
 
 @N: BZ173 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_cos.v":9:4:9:7|ROM qrtr_cos_tbl_0.cosine_1[3:1] (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) mapped in logic.
 @N: BZ173 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_sin.v":9:4:9:7|ROM qrtr_sin_tbl_0.sine_1[4:0] (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) mapped in logic.
@@ -1061,7 +1059,7 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00
 
 @N: MO231 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_kit.v":176:2:176:7|Found counter in view:COREDDS_LIB.dds_kitCountS_9s_511s_1s(verilog) instance Q[8:0] 
 
-Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
 
 
 Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
@@ -1072,7 +1070,7 @@ Available hyper_sources - for debug and ip models
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
 
 
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 258MB)
@@ -1087,7 +1085,7 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CP
 Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 259MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 260MB peak: 260MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 261MB peak: 261MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
@@ -1115,7 +1113,7 @@ Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03
 
 Writing Analyst data base C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\DDS_PNFreq_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 260MB peak: 262MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 261MB peak: 262MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -1126,17 +1124,17 @@ Writing Verilog Simulation files
 Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 262MB peak: 262MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 262MB peak: 262MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 262MB peak: 263MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 260MB peak: 262MB)
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 260MB peak: 263MB)
 
 @W: MT420 |Found inferred clock DDS_PNFreq|CLK with period 10.00ns. Please declare a user-defined clock on port CLK.
 @W: MT420 |Found inferred clock dds_kitCountS_2s_3s_1s|N_5_inferred_clock with period 10.00ns. Please declare a user-defined clock on net SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.slow_count_0.N_5.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Aug 20 07:43:39 2026
+# Timing report written on Sun Sep 13 22:52:08 2026
 #
 
 
@@ -1329,10 +1327,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 261MB peak: 262MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 261MB peak: 263MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 261MB peak: 262MB)
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 261MB peak: 263MB)
 
 ---------------------------------------
 Resource Usage Report for DDS_PNFreq 
@@ -1353,12 +1351,6 @@ SLE            51 uses
 
 DSP Blocks:    0 of 68 (0%)
 
-I/O ports: 17
-I/O primitives: 17
-INBUF          9 uses
-OUTBUF         8 uses
-
-
 Global Clock Buffers: 2
 
 RAM/ROM usage summary
@@ -1378,9 +1370,9 @@ Total number of LUTs after P&R:  123 + 0 + 72 + 0 = 195;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 127MB peak: 262MB)
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 127MB peak: 263MB)
 
-Process took 0h:00m:06s realtime, 0h:00m:06s cputime
-# Thu Aug 20 07:43:40 2026
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Sun Sep 13 22:52:09 2026
 
 ###########################################################]

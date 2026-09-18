@@ -22,17 +22,22 @@ use ieee.numeric_std.all;
 use work.all;
 
 entity DDS_PNFreq is
+generic
+(
+    Freq_OFF_WIDTH  : positive := 4;
+    SINCOS_WIDTH    : positive := 4
+);
 -- Port list
 port(
     -- Inputs
-    CLK            : in  std_logic;
-    FREQ_OFFSET    : in  std_logic_vector(4 downto 0);
-    NGRST          : in  std_logic;
-    RSTN           : in  std_logic;
-    PN_SIN         : in  std_logic;
+    CLK             : in  std_logic;
+    FREQ_OFFSET     : in  std_logic_vector(Freq_OFF_WIDTH-1 downto 0);
+    NGRST           : in  std_logic;
+    RSTN            : in  std_logic;
+    PN_SIN          : in  std_logic;
     -- Outputs
-    COSINE         : out std_logic_vector(3 downto 0);
-    SINE           : out std_logic_vector(3 downto 0)
+    COSINE          : out std_logic_vector(SINCOS_WIDTH-1 downto 0);
+    SINE            : out std_logic_vector(SINCOS_WIDTH-1 downto 0)
     );
 end DDS_PNFreq;
 
@@ -40,21 +45,21 @@ end DDS_PNFreq;
 architecture Behavioral of DDS_PNFreq is
 
     -- Internal signals
-    signal sin_signal : std_logic_vector(3 downto 0);
-    signal sin_neg_signal : std_logic_vector(3 downto 0);
+    signal sin_signal : std_logic_vector(SINCOS_WIDTH-1 downto 0);
+    signal sin_neg_signal : std_logic_vector(SINCOS_WIDTH-1 downto 0);
 
     --- DDS component declaration
     component COREDDS_C0 is
         port(
             CLK            : in  std_logic;
-            FREQ_OFFSET    : in  std_logic_vector(4 downto 0);
+            FREQ_OFFSET    : in  std_logic_vector(Freq_OFF_WIDTH-1 downto 0);
             FREQ_OFFSET_WE : in  std_logic;
             INIT           : in  std_logic;
             NGRST          : in  std_logic;
             RSTN           : in  std_logic;
-            COSINE         : out std_logic_vector(3 downto 0);
+            COSINE         : out std_logic_vector(SINCOS_WIDTH-1 downto 0);
             INIT_OVER      : out std_logic;
-            SINE           : out std_logic_vector(3 downto 0)
+            SINE           : out std_logic_vector(SINCOS_WIDTH-1 downto 0)
         );
     end component;
     

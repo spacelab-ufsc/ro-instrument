@@ -26,11 +26,11 @@ The file contains the information about resource utilization per module to be di
 <data>2</data>
 <data>0</data>
 <data>2</data>
-<data>17</data>
+<data>0</data>
 <module>
 <data>COREDDS_C0</data>
 <data>51</data>
-<data>82</data>
+<data>83</data>
 <data>40</data>
 <data>0</data>
 <data>0</data>
@@ -41,7 +41,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1</data>
 <data>51</data>
-<data>82</data>
+<data>83</data>
 <data>40</data>
 <data>0</data>
 <data>0</data>
@@ -52,7 +52,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1</data>
 <data>8</data>
-<data>67</data>
+<data>68</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -63,7 +63,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1</data>
 <data>8</data>
-<data>60</data>
+<data>61</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -74,7 +74,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0</data>
 <data>0</data>
-<data>2</data>
+<data>6</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -85,7 +85,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_1</data>
 <data>0</data>
-<data>2</data>
+<data>6</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -266,18 +266,6 @@ The file contains the information about resource utilization per module to be di
 </module>
 </module>
 </module>
-</module>
-<module>
-<data>Negative_Integer_4</data>
-<data>0</data>
-<data>1</data>
-<data>0</data>
-<data>0</data>
-<data>0</data>
-<data>0</data>
-<data>0</data>
-<data>0</data>
-<data>0</data>
 </module>
 </module>
 </modules>

@@ -32,15 +32,15 @@ port (
     MAX_INPUT_CLK   : IN  std_logic; -- MAX INPUT CLOCK
     READ_OUT        : IN  std_logic; -- READ  OUTPUT
     READ_OUT_V      : OUT  std_logic; -- VALID OUTPUT
-    OUT_I           : OUT  std_logic_vector(31 downto 0); -- OUTPUT REAL PART
-    OUT_Q           : OUT  std_logic_vector(31 downto 0) -- OUTPUT IMAG PART
+    OUT_I           : OUT  std_logic_vector(15 downto 0); -- OUTPUT REAL PART
+    OUT_Q           : OUT  std_logic_vector(15 downto 0) -- OUTPUT IMAG PART
 );
 end Acquisition;
 
 architecture architecture_Acquisition of Acquisition is
     -- signal, component etc. declarations
     constant Contador_WIDTH     : integer := 10;
-    constant DDS_Width          : integer := 4; -- Datawidth of the DDS
+    constant DDS_Width          : integer := 5; -- Datawidth of the DDS
     constant FFT_Width          : integer := 8; -- Datawidth before the fft
     constant IFFT_Width         : integer := 16; -- Datawidth before the ifft
     
@@ -57,13 +57,15 @@ architecture architecture_Acquisition of Acquisition is
     signal count_state  : std_logic_vector(Contador_WIDTH-1 downto 0); -- example
 	signal Frequency_offset_data : std_logic_vector(Contador_WIDTH-6 downto 0); -- example
     signal DDS_Frequency: std_logic_vector(Contador_WIDTH-7 downto 0);
-    signal OutReady, InReady, I_MAX_IN, Q_MAX_IN : std_logic_vector(2 downto 0);
+    signal OutReady, InReady : std_logic_vector(2 downto 0);
+    -- signal I_MAX_IN, Q_MAX_IN : std_logic_vector(2 downto 0);
     signal ReadPulse : std_logic_vector (1 downto 0);
     
     -- Entrada do sinal 
     signal cos_signal, sin_signal : std_logic_vector(DDS_Width-1 downto 0) ; -- example
-    signal sin_signal_neg, sin_signal_mux : std_logic_vector(DDS_Width-1 downto 0) ;
-	signal FFT_I_signal, FFT_Q_signal : std_logic_vector(FFT_Width downto 0);
+    signal sin_signal_neg, sin_signal_mux : std_logic_vector(DDS_Width-1 downto 0);
+    signal I1_mult, I2_mult, Q1_mult, Q2_mult :  std_logic_vector(DDS_Width downto 0);
+	signal FFT_I_signal, FFT_Q_signal : std_logic_vector(FFT_Width-1 downto 0);
     signal FFT_X_signal, FFT_Y_signal : std_logic_vector(FFT_Width-1 downto 0); -- example
     
     -- Replica sinal C/A
@@ -142,27 +144,7 @@ architecture architecture_Acquisition of Acquisition is
         clk:	in std_logic;
         Q:	out std_logic
     );
-    end component;
-    
-    component COREFFT_C3 is -- In-Place FFT
-    port(
-        -- Inputs
-        CLK         : in  std_logic;
-        DATAI_IM    : in  std_logic_vector(FFT_Width-1 downto 0);
-        DATAI_RE    : in  std_logic_vector(FFT_Width-1 downto 0);
-        DATAI_VALID : in  std_logic;
-        NGRST       : in  std_logic;
-        READ_OUTP   : in  std_logic;
-        SLOWCLK     : in  std_logic;
-        -- Outputs
-        BUF_READY   : out std_logic;
-        DATAO_IM    : out std_logic_vector(FFT_Width-1 downto 0);
-        DATAO_RE    : out std_logic_vector(FFT_Width-1 downto 0);
-        DATAO_VALID : out std_logic;
-        OUTP_READY  : out std_logic
-    );
-    end component;
-    
+    end component;    
     
     component COREFFT_C4 is -- In-Place FFT
     port(
@@ -197,23 +179,6 @@ architecture architecture_Acquisition of Acquisition is
         --Outputs
         cimag_o  : out std_logic_vector(IFFT_Width downto 0);
         creal_o  : out std_logic_vector(IFFT_Width downto 0)
-    );
-    end component;
-    
-    component complex_multiplier_C2 is
-    -- Port list
-    port(
-        --Inputs
-        aimag_i  : in  std_logic_vector(DDS_Width-1 downto 0);
-        areal_i  : in  std_logic_vector(DDS_Width-1 downto 0);
-        bimag_i  : in  std_logic_vector(2 downto 0);
-        breal_i  : in  std_logic_vector(2 downto 0);
-        clock_i  : in  std_logic;
-        nreset_i : in  std_logic;
-        
-        --Outputs
-        cimag_o  : out std_logic_vector(FFT_Width downto 0);
-        creal_o  : out std_logic_vector(FFT_Width downto 0)
     );
     end component;
     
@@ -275,7 +240,7 @@ begin
     -- Divisor de clock
     DIV2_CLK: PF_CLK_DIV_C3 port map(clk, clk_div2);
     DIV8_CLK: PF_CLK_DIV_C4 port map(clk_div2, slw_clk);
-    DIV16_CLK: PF_CLK_DIV_C5 port map(slw_clk, slw_clk_2);
+    DIV16_CLK: PF_CLK_DIV_C3 port map(slw_clk, slw_clk_2);
         
     -- DDS e contador 
     SINE_GENERATOR: COREDDS_C0 port map (CLK,DDS_Frequency, '1','0',NRST,DDS_RSTN,cos_signal,open,sin_signal);
@@ -290,33 +255,36 @@ begin
     CONTADOR_ESTADO: contador generic map (Contador_WIDTH) port map(counter_clk, RST, count_state);
     
     -- Entrada
-    I_MAX_IN <= "001" when MAX_INPUT_I = "00" else
-                "010" when MAX_INPUT_I = "01" else
-                "111" when MAX_INPUT_I = "10" else
-                "110";
-    Q_MAX_IN <= "001" when MAX_INPUT_Q = "00" else
-                "010" when MAX_INPUT_Q = "01" else
-                "111" when MAX_INPUT_Q = "10" else
-                "110";
+    --I_MAX_IN <= "001" when MAX_INPUT_I = "00" else
+    --            "010" when MAX_INPUT_I = "01" else
+    --            "111" when MAX_INPUT_I = "10" else
+    --            "110";
+    --Q_MAX_IN <= "001" when MAX_INPUT_Q = "00" else
+    --            "010" when MAX_INPUT_Q = "01" else
+    --            "111" when MAX_INPUT_Q = "10" else
+    --            "110";
                 
-    ---Ajuste para o multiplicador simplificado
-    
-    MULT_IN1: work.Multiplier_simplified generic map (data_width => DDS_Width) port map (cos_signal,        MAX_INPUT_I, I1_mult);
-    MULT_IN2: work.Multiplier_simplified generic map (data_width => DDS_Width) port map (sin_signal_mux,    MAX_INPUT_I, I2_mult);
-    MULT_IN3: work.Multiplier_simplified generic map (data_width => DDS_Width) port map (cos_signal,        MAX_INPUT_Q, Q1_mult);
-    MULT_IN4: work.Multiplier_simplified generic map (data_width => DDS_Width) port map (sin_signal_mux,    MAX_INPUT_Q, Q2_mult);
-    
-    ADDER_INPUT1: UAL generic map(data_width => FFT_Width) port map (I1_mult, not Q2_mult,   '1', FFT_I_signal);
-    ADDER_INPUT2: UAL generic map(data_width => FFT_Width) port map (I2_mult, Q1_mult,       '0', FFT_Q_signal);
-    
     ---     
-    MULT_IN: complex_multiplier_C2 port map (sin_signal_mux, cos_signal, Q_MAX_IN, I_MAX_IN, clk, MULT_RST_IN, FFT_Q_signal, FFT_I_signal);
+    --MULT_IN: complex_multiplier_C2 port map (sin_signal_mux, cos_signal, Q_MAX_IN, I_MAX_IN, clk, MULT_RST_IN, FFT_Q_signal, FFT_I_signal);
     
     clkd2(0) <= InReady(0) and InReady(1) and MAX_INPUT_CLK;
     
     CLK_MULT_D2: for i in 0 to 2 generate
 		delay_II: Flip_Flop_D port map(clkd2(i),NRST, clk, clkd2(i+1)); -- ainda a ser verificado
 	end generate;
+
+    ---Ajuste para o multiplicador simplificado
+    
+    MULT_IN1: Multiplier_simplified generic map (data_width => DDS_Width) port map (cos_signal,        MAX_INPUT_I, I1_mult);
+    MULT_IN2: Multiplier_simplified generic map (data_width => DDS_Width) port map (sin_signal_mux,    MAX_INPUT_I, I2_mult);
+    MULT_IN3: Multiplier_simplified generic map (data_width => DDS_Width) port map (cos_signal,        MAX_INPUT_Q, Q1_mult);
+    MULT_IN4: Multiplier_simplified generic map (data_width => DDS_Width) port map (sin_signal_mux,    MAX_INPUT_Q, Q2_mult);
+    
+    ADDER_INPUT1: UAL generic map(data_width => DDS_Width + 1) port map (I1_mult, not Q2_mult,   '1', FFT_I_signal(DDS_Width downto 0), open);
+    ADDER_INPUT2: UAL generic map(data_width => DDS_Width + 1) port map (I2_mult, Q1_mult,       '0', FFT_Q_signal(DDS_Width downto 0), open);
+    
+    FFT_I_signal(FFT_Width - 1 downto DDS_Width + 1) <= (others => FFT_I_signal(DDS_Width));
+    FFT_Q_signal(FFT_Width - 1 downto DDS_Width + 1) <= (others => FFT_Q_signal(DDS_Width));
     
     -- Código CA
 	CA_CODE: L1_CA_generator 
@@ -339,8 +307,8 @@ begin
     FFT_IQ : COREFFT_C2
 	port map (
 	    CLK         => CLK,                -- clock de processamento
-	    DATAI_IM    => FFT_Q_signal(FFT_Width-1 downto 0), -- parte imaginaria (Q)
-	    DATAI_RE    => FFT_I_signal(FFT_Width-1 downto 0), -- parte real (I)
+	    DATAI_IM    => FFT_Q_signal, -- parte imaginaria (Q)
+	    DATAI_RE    => FFT_I_signal, -- parte real (I)
 	    DATAI_VALID => Read_data,                -- sinaliza dados validos
 	    READ_OUTP   => ReadPulse(0),                -- habilita leitura da saida
 	    SLOWCLK     => slw_clk,      -- SLOWCLK
@@ -352,11 +320,11 @@ begin
 	    OUTP_READY  => OutReady(0)
 	);
 		
-    FFT_CA: COREFFT_C3
+    FFT_CA: COREFFT_C2
 	port map (
 	    CLK         => CLK,                -- clock de processamento
-	    DATAI_IM    => FFT_CA_in_imag(FFT_Width-1 downto 0), -- parte imaginaria (Q)
-	    DATAI_RE    => FFT_CA_in_real(FFT_Width-1 downto 0), -- parte real (I)
+	    DATAI_IM    => FFT_CA_in_imag, -- parte imaginaria (Q)
+	    DATAI_RE    => FFT_CA_in_real, -- parte real (I)
 	    DATAI_VALID => Read_data,                -- sinaliza dados validos
 	    READ_OUTP   => ReadPulse(0),                -- habilita leitura da saida
 	    SLOWCLK     => slw_clk,      -- SLOWCLK
@@ -369,7 +337,10 @@ begin
 	);
     
     -- Correlação
-    MULT5: complex_multiplier_C0 port map (FFT_Y_signal, FFT_X_signal, CA_CONJ_out_imag, FFT_CA_out_real, slw_clk, MULT_RST, IFFT_in_imag, IFFT_in_real); -- Verificar
+    MULT5: complex_multiplier_C0 port map (FFT_Y_signal, FFT_X_signal, 
+                    CA_CONJ_out_imag, FFT_CA_out_real, 
+                    slw_clk, MULT_RST, 
+                    IFFT_in_imag, IFFT_in_real); 
     
     CLK_MULT_D: for i in 0 to 2 generate
 		delay_I: Flip_Flop_D port map(clkd(i),NRST, clk_div2, clkd(i+1)); -- ainda a ser verificado

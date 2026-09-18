@@ -25,7 +25,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      51                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block DDS_PNFreq:	51 (21.34 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block DDS_PNFreq:	51 (23.18 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -34,7 +34,7 @@ Name     Total elements     Utilization     Notes
 CFG      83                 100 %                
 ARI1     40                 100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block DDS_PNFreq:	123 (51.46 % Utilization)
+Total COMBINATIONAL LOGIC in the block DDS_PNFreq:	123 (55.91 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -42,7 +42,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K20     2                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block DDS_PNFreq:	2 (0.84 % Utilization)
+Total MEMORY ELEMENTS in the block DDS_PNFreq:	2 (0.91 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -50,15 +50,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block DDS_PNFreq:	2 (0.84 % Utilization)
-
-
-IO PADS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-IO       17                 100 %                
-=================================================
-Total IO PADS in the block DDS_PNFreq:	17 (7.11 % Utilization)
+Total GLOBAL BUFFERS in the block DDS_PNFreq:	2 (0.91 % Utilization)
 
 ----------------------------------------------------------------
 ########   Utilization report for  cell:   COREDDS_C0   ########
@@ -70,16 +62,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      51                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block DDS_PNFreq.COREDDS_C0:	51 (21.34 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block DDS_PNFreq.COREDDS_C0:	51 (23.18 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      82                 98.8 %               
+CFG      83                 100 %                
 ARI1     40                 100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block DDS_PNFreq.COREDDS_C0:	122 (51.05 % Utilization)
+Total COMBINATIONAL LOGIC in the block DDS_PNFreq.COREDDS_C0:	123 (55.91 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -87,7 +79,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K20     2                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block DDS_PNFreq.COREDDS_C0:	2 (0.84 % Utilization)
+Total MEMORY ELEMENTS in the block DDS_PNFreq.COREDDS_C0:	2 (0.91 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -95,7 +87,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block DDS_PNFreq.COREDDS_C0:	1 (0.42 % Utilization)
+Total GLOBAL BUFFERS in the block DDS_PNFreq.COREDDS_C0:	1 (0.45 % Utilization)
 
 -----------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1   ########
@@ -107,16 +99,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      51                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREDDS_C0.COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1:	51 (21.34 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREDDS_C0.COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1:	51 (23.18 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      82                 98.8 %               
+CFG      83                 100 %                
 ARI1     40                 100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block COREDDS_C0.COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1:	122 (51.05 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREDDS_C0.COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1:	123 (55.91 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -124,7 +116,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K20     2                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block COREDDS_C0.COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1:	2 (0.84 % Utilization)
+Total MEMORY ELEMENTS in the block COREDDS_C0.COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1:	2 (0.91 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -132,7 +124,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block COREDDS_C0.COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1:	1 (0.42 % Utilization)
+Total GLOBAL BUFFERS in the block COREDDS_C0.COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1:	1 (0.45 % Utilization)
 
 --------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1   ########     
@@ -144,15 +136,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      8                  15.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1:	8 (3.35 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1:	8 (3.64 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      67                 80.7 %               
+CFG      68                 81.9 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1:	67 (28.03 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1:	68 (30.91 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -160,7 +152,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K20     2                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1:	2 (0.84 % Utilization)
+Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1:	2 (0.91 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1   ########         
@@ -172,15 +164,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      8                  15.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1:	8 (3.35 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1:	8 (3.64 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      60                 72.3 %               
+CFG      61                 73.5 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1:	60 (25.10 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1:	61 (27.73 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -188,7 +180,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K20     2                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1:	2 (0.84 % Utilization)
+Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1:	2 (0.91 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0   ########      
@@ -198,9 +190,9 @@ Instance path:   COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1.COREDDS_C0_COREDDS_C
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  2.41 %               
+CFG      6                  7.23 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0:	2 (0.84 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0:	6 (2.73 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -208,7 +200,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K20     1                  50 %                 
 ====================================================
-Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0:	1 (0.42 % Utilization)
+Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0:	1 (0.45 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_1   ########                             
@@ -218,9 +210,9 @@ Instance path:   COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  2.41 %               
+CFG      6                  7.23 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_1:	2 (0.84 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_1:	6 (2.73 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -228,7 +220,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K20     1                  50 %                 
 ====================================================
-Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_1:	1 (0.42 % Utilization)
+Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_1:	1 (0.45 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1   ########      
@@ -240,7 +232,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 CFG      9                  10.8 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1:	9 (3.77 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1:	9 (4.09 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -248,7 +240,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K20     1                  50 %                 
 ====================================================
-Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1:	1 (0.42 % Utilization)
+Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1.COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1:	1 (0.45 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_0   ########                             
@@ -260,7 +252,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 CFG      9                  10.8 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_0:	9 (3.77 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_0:	9 (4.09 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -268,7 +260,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K20     1                  50 %                 
 ====================================================
-Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_0:	1 (0.42 % Utilization)
+Total MEMORY ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1.COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_0:	1 (0.45 % Utilization)
 
 ------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s   ########     
@@ -280,7 +272,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      21                 41.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s:	21 (8.79 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s:	21 (9.55 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -289,7 +281,7 @@ Name     Total elements     Utilization     Notes
 CFG      8                  9.64 %               
 ARI1     10                 25 %                 
 =================================================
-Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s:	18 (7.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s:	18 (8.18 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -297,7 +289,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s:	1 (0.42 % Utilization)
+Total GLOBAL BUFFERS in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s:	1 (0.45 % Utilization)
 
 -----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_kitCountS_2s_3s_1s   ########       
@@ -309,7 +301,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      2                  3.92 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitCountS_2s_3s_1s:	2 (0.84 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitCountS_2s_3s_1s:	2 (0.91 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -317,7 +309,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 CFG      3                  3.61 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitCountS_2s_3s_1s:	3 (1.26 % Utilization)
+Total COMBINATIONAL LOGIC in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitCountS_2s_3s_1s:	3 (1.36 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -325,7 +317,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitCountS_2s_3s_1s:	1 (0.42 % Utilization)
+Total GLOBAL BUFFERS in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitCountS_2s_3s_1s:	1 (0.45 % Utilization)
 
 -------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_kitCountS_9s_511s_1s   ########       
@@ -337,7 +329,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      9                  17.6 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitCountS_9s_511s_1s:	9 (3.77 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitCountS_9s_511s_1s:	9 (4.09 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -345,7 +337,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 ARI1     10                 25 %                 
 =================================================
-Total COMBINATIONAL LOGIC in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitCountS_9s_511s_1s:	10 (4.18 % Utilization)
+Total COMBINATIONAL LOGIC in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitCountS_9s_511s_1s:	10 (4.55 % Utilization)
 
 ------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_kitDelay_bit_reg_3s   ########       
@@ -357,7 +349,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      3                  5.88 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitDelay_bit_reg_3s:	3 (1.26 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitDelay_bit_reg_3s:	3 (1.36 % Utilization)
 
 --------------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_kitSyncNgrst_1s   ########       
@@ -369,7 +361,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      6                  11.8 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitSyncNgrst_1s:	6 (2.51 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitSyncNgrst_1s:	6 (2.73 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -377,7 +369,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 CFG      1                  1.2 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitSyncNgrst_1s:	1 (0.42 % Utilization)
+Total COMBINATIONAL LOGIC in the block dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s.dds_kitSyncNgrst_1s:	1 (0.45 % Utilization)
 
 -----------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_kitDelay_bit_reg_1s   ########
@@ -389,7 +381,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      1                  1.96 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dds_kitSyncNgrst_1s.dds_kitDelay_bit_reg_1s:	1 (0.42 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dds_kitSyncNgrst_1s.dds_kitDelay_bit_reg_1s:	1 (0.45 % Utilization)
 
 -------------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_kitDelay_bit_reg_1s_0   ########
@@ -401,7 +393,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      1                  1.96 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dds_kitSyncNgrst_1s.dds_kitDelay_bit_reg_1s_0:	1 (0.42 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dds_kitSyncNgrst_1s.dds_kitDelay_bit_reg_1s_0:	1 (0.45 % Utilization)
 
 -----------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_kitDelay_bit_reg_4s   ########
@@ -413,7 +405,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      4                  7.84 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dds_kitSyncNgrst_1s.dds_kitDelay_bit_reg_4s:	4 (1.67 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dds_kitSyncNgrst_1s.dds_kitDelay_bit_reg_4s:	4 (1.82 % Utilization)
 
 ----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_quantizer_Z3_layer1   ########     
@@ -425,7 +417,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      22                 43.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.dds_quantizer_Z3_layer1:	22 (9.21 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.dds_quantizer_Z3_layer1:	22 (10.00 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -434,7 +426,7 @@ Name     Total elements     Utilization     Notes
 CFG      5                  6.02 %               
 ARI1     30                 75 %                 
 =================================================
-Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.dds_quantizer_Z3_layer1:	35 (14.64 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1.dds_quantizer_Z3_layer1:	35 (15.91 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18   ########
@@ -446,7 +438,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      22                 43.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dds_quantizer_Z3_layer1.dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18:	22 (9.21 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dds_quantizer_Z3_layer1.dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18:	22 (10.00 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -455,7 +447,7 @@ Name     Total elements     Utilization     Notes
 CFG      5                  6.02 %               
 ARI1     17                 42.5 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block dds_quantizer_Z3_layer1.dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18:	22 (9.21 % Utilization)
+Total COMBINATIONAL LOGIC in the block dds_quantizer_Z3_layer1.dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18:	22 (10.00 % Utilization)
 
 ---------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_kitDelay_reg_17s_1s   ########                
@@ -467,7 +459,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      17                 33.3 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18.dds_kitDelay_reg_17s_1s:	17 (7.11 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18.dds_kitDelay_reg_17s_1s:	17 (7.73 % Utilization)
 
 --------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   dds_kitDelay_reg_5s_1s   ########                
@@ -479,7 +471,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      5                  9.8 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18.dds_kitDelay_reg_5s_1s:	5 (2.09 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18.dds_kitDelay_reg_5s_1s:	5 (2.27 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -487,19 +479,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 CFG      5                  6.02 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18.dds_kitDelay_reg_5s_1s:	5 (2.09 % Utilization)
-
-------------------------------------------------------------------------
-########   Utilization report for  cell:   Negative_Integer_4   ########
-Instance path:   DDS_PNFreq.Negative_Integer_4                          
-========================================================================
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-CFG      1                  1.2 %                
-=================================================
-Total COMBINATIONAL LOGIC in the block DDS_PNFreq.Negative_Integer_4:	1 (0.42 % Utilization)
+Total COMBINATIONAL LOGIC in the block dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18.dds_kitDelay_reg_5s_1s:	5 (2.27 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

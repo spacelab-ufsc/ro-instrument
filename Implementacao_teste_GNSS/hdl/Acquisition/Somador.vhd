@@ -18,7 +18,7 @@ port(
 	B:	in std_logic_vector(data_width-1 downto 0);
 	Cin:	in std_logic;
 
-	S:	out std_logic_vector(data_width-1 downto 0);
+	S:	    out std_logic_vector(data_width-1 downto 0);
 	Cout:	out std_logic
 );
 end UAL;

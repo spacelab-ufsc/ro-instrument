@@ -16,12 +16,6 @@ SLE            51 uses
 
 DSP Blocks:    0 of 68 (0%)
 
-I/O ports: 17
-I/O primitives: 17
-INBUF          9 uses
-OUTBUF         8 uses
-
-
 Global Clock Buffers: 2
 
 Total LUTs:    123

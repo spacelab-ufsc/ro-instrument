@@ -12,6 +12,5 @@
 @P: DDS_PNFreq Part : mpfs025tfcvg484std
 @P: DDS_PNFreq Register bits  : 51 
 @P: DDS_PNFreq DSP Blocks  : 0
-@P: DDS_PNFreq I/O primitives : 17
 @P: DDS_PNFreq RAM1K20 :  2
-@P:  CPU Time : 0h:00m:05s
+@P:  CPU Time : 0h:00m:06s

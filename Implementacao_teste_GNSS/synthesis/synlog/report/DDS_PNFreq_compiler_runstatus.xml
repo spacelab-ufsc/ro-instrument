@@ -14,7 +14,7 @@ The file contains the job information from compiler to be displayed as part of t
   </job_status>
 <job_info> 
 			<info name="Notes">
-  <data>66</data>
+  <data>63</data>
   <report_link name="more"><data>C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synlog\report\DDS_PNFreq_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
@@ -29,13 +29,13 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Real Time">
-  <data>00h:00m:28s</data>
+  <data>00h:00m:24s</data>
   </info>
 			<info name="Peak Memory">
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1787222606</data>
+  <data type="timestamp">1789350715</data>
   </info>
 			</job_info>
 </job_run_status>

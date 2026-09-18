@@ -1,11 +1,11 @@
 #OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\_verilog_hintfile|-top|work.COREDDS_C0|-mpparams|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\DDS_PNFreq_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\hdl\\Common|-I|C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|COREDDS_LIB|-lib|work|-lib|work"
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\bin64\\c_ver.exe":1745943498
-#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\_verilog_hintfile":1787222579
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\synthesis\\synwork\\_verilog_hintfile":1789350692
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v":1745932376
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\hypermods.v":1745942006
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_objects.v":1745942006
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_pipes.svh":1745942006
-#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\syn_comps.v":1787222577
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\syn_comps.v":1789350687
 #CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v":1787221164
 #CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v":1787221164
 #CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\rtl\\vlog\\core\\COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v":1787221165
@@ -14,7 +14,7 @@
 #CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\Actel\\DirectCore\\COREDDS\\4.0.108\\rtl\\vlog\\core\\dds_module.v":1787221093
 #CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0_0\\rtl\\vlog\\core\\DDS_TOP.v":1787221165
 #CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\work\\COREDDS_C0\\COREDDS_C0.v":1787221165
-#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\MSS_syn_comps.v":1787222577
+#CUR:"C:\\Users\\renat\\OneDrive\\Documentos\\ro-instrument\\Implementacao_teste_GNSS\\component\\MSS_syn_comps.v":1789350687
 #numinternalfiles:4
 #defaultlanguage:verilog
 0			"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\syn_comps.v" verilog

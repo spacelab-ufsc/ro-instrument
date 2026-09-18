@@ -33,7 +33,6 @@ vlog -sv -work COREDDS_LIB "${PROJECT_DIR}/component/work/COREDDS_C0/COREDDS_C0_
 vlog -sv -work COREDDS_LIB "${PROJECT_DIR}/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vlog/core/dds_module.v"
 vlog -sv -work COREDDS_LIB "${PROJECT_DIR}/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/DDS_TOP.v"
 vlog -sv -work presynth "${PROJECT_DIR}/component/work/COREDDS_C0/COREDDS_C0.v"
-vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/hdl/Negative_Integer.vhd"
 vcom -2008 -explicit  -work presynth "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/hdl/Common/DDS_PNFreq.vhd"
 vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/stimulus/DDS_PNFreq_tb.vhd"
 

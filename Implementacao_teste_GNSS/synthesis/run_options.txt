@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M-5
 #--  Project file C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\run_options.txt
-#--  Written on Thu Aug 20 07:42:59 2026
+#--  Written on Sun Sep 13 22:51:30 2026
 
 
 #project files
@@ -14,7 +14,6 @@ add_file -verilog -lib COREDDS_LIB "C:/Users/renat/OneDrive/Documentos/ro-instru
 add_file -verilog -lib COREDDS_LIB "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vlog/core/dds_module.v"
 add_file -verilog -lib COREDDS_LIB "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/DDS_TOP.v"
 add_file -verilog "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0.v"
-add_file -vhdl -lib work "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/hdl/Negative_Integer.vhd"
 add_file -vhdl -lib work "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/hdl/Common/DDS_PNFreq.vhd"
 add_file -verilog "../component/MSS_syn_comps.v"
 add_file -fpga_constraint "C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/designer/DDS_PNFreq/synthesis.fdc"
@@ -65,7 +64,7 @@ set_option -async_globalthreshold 800
 set_option -globalthreshold 5000
 set_option -low_power_ram_decomp 0
 set_option -seqshift_to_uram 1
-set_option -disable_io_insertion 0
+set_option -disable_io_insertion 1
 set_option -opcond COMTC
 set_option -retiming 0
 set_option -report_path 4000

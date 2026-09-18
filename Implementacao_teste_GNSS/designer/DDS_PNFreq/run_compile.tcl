@@ -70,4 +70,5 @@ compile \
     -fam PolarFireSoC \
     -die PA5SOC025T \
     -pkg fcvg484 \
-    -merge_pdc 0
+    -merge_pdc 0 \
+    -block 1 

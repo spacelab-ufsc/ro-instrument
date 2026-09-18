@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)</text>
-<text>Date: Thu Aug 20 07:43:49 2026
+<text>Date: Sun Sep 13 22:52:18 2026
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -74,9 +74,9 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>195</cell>
+ <cell>212</cell>
  <cell>22956</cell>
- <cell>0.85</cell>
+ <cell>0.92</cell>
 </row>
 <row>
  <cell>DFF</cell>
@@ -86,15 +86,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>17</cell>
+ <cell>0</cell>
  <cell>108</cell>
- <cell>15.74</cell>
+ <cell>0.00</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>17</cell>
+ <cell>0</cell>
  <cell>108</cell>
- <cell>15.74</cell>
+ <cell>0.00</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -196,7 +196,7 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>123</cell>
+ <cell>140</cell>
  <cell>51</cell>
 </row>
 <row>
@@ -216,7 +216,7 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>195</cell>
+ <cell>212</cell>
  <cell>123</cell>
 </row>
 </table>
@@ -255,13 +255,13 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>9</cell>
+ <cell>0</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>8</cell>
+ <cell>0</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -340,12 +340,12 @@
 <row>
  <cell>43</cell>
  <cell>INT_NET</cell>
- <cell>Net   : NGRST_c</cell>
+ <cell>Net   : NGRST</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: NGRST_ibuf</cell>
+ <cell>Driver: BLOCK_INTERFACE_I_NGRST</cell>
 </row>
 <row>
  <cell>17</cell>
@@ -448,12 +448,12 @@
 <row>
  <cell>43</cell>
  <cell>INT_NET</cell>
- <cell>Net   : NGRST_c</cell>
+ <cell>Net   : NGRST</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: NGRST_ibuf</cell>
+ <cell>Driver: BLOCK_INTERFACE_I_NGRST</cell>
 </row>
 <row>
  <cell>17</cell>

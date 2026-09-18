@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Thu Apr  2 14:07:32 2026
+// Created by SmartDesign Sun Sep 13 22:18:24 2026
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -43,7 +43,7 @@ create_and_configure_core -core_vlnv {Actel:DirectCore:COREFFT:8.1.100} -compone
 "STAGE_12:false"  \
 "TWID_BITS:32"  \
 "URAM_MAXDEPTH:0"  \
-"WIDTH:16"   }
+"WIDTH:8"   }
 # Exporting Component Description of COREFFT_C2 to TCL done
 */
 
@@ -68,48 +68,48 @@ module COREFFT_C2(
 //--------------------------------------------------------------------
 // Input
 //--------------------------------------------------------------------
-input         CLK;
-input  [15:0] DATAI_IM;
-input  [15:0] DATAI_RE;
-input         DATAI_VALID;
-input         NGRST;
-input         READ_OUTP;
-input         SLOWCLK;
+input        CLK;
+input  [7:0] DATAI_IM;
+input  [7:0] DATAI_RE;
+input        DATAI_VALID;
+input        NGRST;
+input        READ_OUTP;
+input        SLOWCLK;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
-output        BUF_READY;
-output [15:0] DATAO_IM;
-output [15:0] DATAO_RE;
-output        DATAO_VALID;
-output        OUTP_READY;
+output       BUF_READY;
+output [7:0] DATAO_IM;
+output [7:0] DATAO_RE;
+output       DATAO_VALID;
+output       OUTP_READY;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
-wire          BUF_READY_net_0;
-wire          CLK;
-wire   [15:0] DATAI_IM;
-wire   [15:0] DATAI_RE;
-wire          DATAI_VALID;
-wire   [15:0] DATAO_IM_net_0;
-wire   [15:0] DATAO_RE_net_0;
-wire          DATAO_VALID_net_0;
-wire          NGRST;
-wire          OUTP_READY_net_0;
-wire          READ_OUTP;
-wire          SLOWCLK;
-wire          DATAO_VALID_net_1;
-wire          BUF_READY_net_1;
-wire          OUTP_READY_net_1;
-wire   [15:0] DATAO_IM_net_1;
-wire   [15:0] DATAO_RE_net_1;
+wire         BUF_READY_net_0;
+wire         CLK;
+wire   [7:0] DATAI_IM;
+wire   [7:0] DATAI_RE;
+wire         DATAI_VALID;
+wire   [7:0] DATAO_IM_net_0;
+wire   [7:0] DATAO_RE_net_0;
+wire         DATAO_VALID_net_0;
+wire         NGRST;
+wire         OUTP_READY_net_0;
+wire         READ_OUTP;
+wire         SLOWCLK;
+wire         DATAO_VALID_net_1;
+wire         BUF_READY_net_1;
+wire         OUTP_READY_net_1;
+wire   [7:0] DATAO_IM_net_1;
+wire   [7:0] DATAO_RE_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
-wire          VCC_net;
-wire          GND_net;
-wire   [63:0] AXI4_S_TDATAI_const_net_0;
-wire   [7:0]  AXI4_S_CONFIGI_const_net_0;
+wire         VCC_net;
+wire         GND_net;
+wire   [63:0]AXI4_S_TDATAI_const_net_0;
+wire   [7:0] AXI4_S_CONFIGI_const_net_0;
 //--------------------------------------------------------------------
 // Constant assignments
 //--------------------------------------------------------------------
@@ -127,9 +127,9 @@ assign BUF_READY         = BUF_READY_net_1;
 assign OUTP_READY_net_1  = OUTP_READY_net_0;
 assign OUTP_READY        = OUTP_READY_net_1;
 assign DATAO_IM_net_1    = DATAO_IM_net_0;
-assign DATAO_IM[15:0]    = DATAO_IM_net_1;
+assign DATAO_IM[7:0]     = DATAO_IM_net_1;
 assign DATAO_RE_net_1    = DATAO_RE_net_0;
-assign DATAO_RE[15:0]    = DATAO_RE_net_1;
+assign DATAO_RE[7:0]     = DATAO_RE_net_1;
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
@@ -152,7 +152,7 @@ COREFFT_C2_COREFFT_C0_0_COREFFT #(
         .SCALE_SCH      ( 683 ),
         .TWID_BITS      ( 32 ),
         .URAM_MAXDEPTH  ( 0 ),
-        .WIDTH          ( 16 ) )
+        .WIDTH          ( 8 ) )
 COREFFT_C0_0(
         // Inputs
         .CLK                   ( CLK ),

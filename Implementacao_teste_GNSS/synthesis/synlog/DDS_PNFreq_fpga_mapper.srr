@@ -1,4 +1,4 @@
-# Thu Aug 20 07:43:33 2026
+# Sun Sep 13 22:52:01 2026
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -25,19 +25,19 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 201MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 201MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 201MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 201MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 201MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 201MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 249MB peak: 249MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 250MB peak: 250MB)
 
 @N: BZ173 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_cos.v":9:4:9:7|ROM qrtr_cos_tbl_0.cosine_1[3:1] (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) mapped in logic.
 @N: BZ173 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_sin.v":9:4:9:7|ROM qrtr_sin_tbl_0.sine_1[4:0] (in view: COREDDS_LIB.COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1(verilog)) mapped in logic.
@@ -47,7 +47,7 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00
 
 @N: MO231 :"c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_kit.v":176:2:176:7|Found counter in view:COREDDS_LIB.dds_kitCountS_9s_511s_1s(verilog) instance Q[8:0] 
 
-Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
 
 
 Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
@@ -58,7 +58,7 @@ Available hyper_sources - for debug and ip models
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
 
 
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 258MB)
@@ -73,7 +73,7 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CP
 Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 259MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 260MB peak: 260MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 261MB peak: 261MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
@@ -101,7 +101,7 @@ Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03
 
 Writing Analyst data base C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\synthesis\synwork\DDS_PNFreq_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 260MB peak: 262MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 261MB peak: 262MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -112,17 +112,17 @@ Writing Verilog Simulation files
 Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 262MB peak: 262MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 262MB peak: 262MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 262MB peak: 263MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 260MB peak: 262MB)
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 260MB peak: 263MB)
 
 @W: MT420 |Found inferred clock DDS_PNFreq|CLK with period 10.00ns. Please declare a user-defined clock on port CLK.
 @W: MT420 |Found inferred clock dds_kitCountS_2s_3s_1s|N_5_inferred_clock with period 10.00ns. Please declare a user-defined clock on net SINE_GENERATOR.COREDDS_C0_0.dds_initializer_0.slow_count_0.N_5.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Aug 20 07:43:39 2026
+# Timing report written on Sun Sep 13 22:52:08 2026
 #
 
 
@@ -315,10 +315,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 261MB peak: 262MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 261MB peak: 263MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 261MB peak: 262MB)
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 261MB peak: 263MB)
 
 ---------------------------------------
 Resource Usage Report for DDS_PNFreq 
@@ -339,12 +339,6 @@ SLE            51 uses
 
 DSP Blocks:    0 of 68 (0%)
 
-I/O ports: 17
-I/O primitives: 17
-INBUF          9 uses
-OUTBUF         8 uses
-
-
 Global Clock Buffers: 2
 
 RAM/ROM usage summary
@@ -364,9 +358,9 @@ Total number of LUTs after P&R:  123 + 0 + 72 + 0 = 195;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 127MB peak: 262MB)
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 127MB peak: 263MB)
 
-Process took 0h:00m:06s realtime, 0h:00m:06s cputime
-# Thu Aug 20 07:43:40 2026
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Sun Sep 13 22:52:09 2026
 
 ###########################################################]

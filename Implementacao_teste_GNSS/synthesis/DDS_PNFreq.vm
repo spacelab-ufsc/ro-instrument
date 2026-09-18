@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "V-2023.09M-5"
 // Program "Synplify Pro", Mapper "map202309act, Build 395R"
-// Thu Aug 20 07:43:39 2026
+// Sun Sep 13 22:52:07 2026
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -15,77 +15,47 @@
 // file 6 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\vhd2008\arith.vhd "
 // file 7 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\vhd2008\unsigned.vhd "
 // file 8 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\vhd\hyperents.vhd "
-// file 9 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\hdl\negative_integer.vhd "
-// file 10 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\hdl\common\dds_pnfreq.vhd "
-// file 11 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\generic\acg5.v "
-// file 12 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\vlog\hypermods.v "
-// file 13 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\vlog\scemi_objects.v "
-// file 14 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\vlog\scemi_pipes.svh "
-// file 15 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\syn_comps.v "
-// file 16 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_cos.v "
-// file 17 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_sin.v "
-// file 18 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\coredds_c0_coredds_c0_0_dds_g5_lsram.v "
-// file 19 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_kit.v "
-// file 20 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v "
-// file 21 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_module.v "
-// file 22 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\dds_top.v "
-// file 23 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0.v "
-// file 24 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\mss_syn_comps.v "
-// file 25 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\nlconst.dat "
-// file 26 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\designer\dds_pnfreq\synthesis.fdc "
+// file 9 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\hdl\common\dds_pnfreq.vhd "
+// file 10 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\generic\acg5.v "
+// file 11 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\vlog\hypermods.v "
+// file 12 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\vlog\scemi_objects.v "
+// file 13 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\vlog\scemi_pipes.svh "
+// file 14 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\syn_comps.v "
+// file 15 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_cos.v "
+// file 16 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\coredds_c0_coredds_c0_0_dds_qrtr_sin.v "
+// file 17 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\coredds_c0_coredds_c0_0_dds_g5_lsram.v "
+// file 18 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_kit.v "
+// file 19 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\lut.v "
+// file 20 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\actel\directcore\coredds\4.0.108\rtl\vlog\core\dds_module.v "
+// file 21 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0_0\rtl\vlog\core\dds_top.v "
+// file 22 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\work\coredds_c0\coredds_c0.v "
+// file 23 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\component\mss_syn_comps.v "
+// file 24 "\c:\microchip\libero_soc_2025.1\libero_soc\synplify_pro\lib\nlconst.dat "
+// file 25 "\c:\users\renat\onedrive\documentos\ro-instrument\implementacao_teste_gnss\designer\dds_pnfreq\synthesis.fdc "
 
 `timescale 100 ps/100 ps
-module Negative_Integer_4 (
-  Carry_1_0,
-  SINE_c_0,
-  sin_signal
-)
-;
-output Carry_1_0 ;
-input SINE_c_0 ;
-input [2:1] sin_signal ;
-wire Carry_1_0 ;
-wire SINE_c_0 ;
-wire GND ;
-wire VCC ;
-// @9:45
-  CFG3 \Carry_1[3]  (
-	.A(sin_signal[2]),
-	.B(sin_signal[1]),
-	.C(SINE_c_0),
-	.Y(Carry_1_0)
-);
-defparam \Carry_1[3] .INIT=8'h01;
-  GND GND_Z (
-	.Y(GND)
-);
-  VCC VCC_Z (
-	.Y(VCC)
-);
-endmodule /* Negative_Integer_4 */
-
 module dds_kitDelay_bit_reg_1s (
   pulsei,
   CLK,
-  NGRST_c,
+  NGRST,
   delayLine_0_
 )
 ;
 input pulsei ;
 input CLK ;
-input NGRST_c ;
+input NGRST ;
 output delayLine_0_ ;
 wire pulsei ;
 wire CLK ;
-wire NGRST_c ;
+wire NGRST ;
 wire delayLine_0_ ;
 wire VCC ;
 wire GND ;
-// @19:49
+// @18:49
   SLE \genblk1.delayLine[0]  (
 	.Q(delayLine_0_),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(pulsei),
 	.EN(VCC),
@@ -104,25 +74,25 @@ endmodule /* dds_kitDelay_bit_reg_1s */
 module dds_kitDelay_bit_reg_1s_0 (
   synced_ngrst,
   CLK,
-  NGRST_c,
+  NGRST,
   synced_ngrst_t1
 )
 ;
 input synced_ngrst ;
 input CLK ;
-input NGRST_c ;
+input NGRST ;
 output synced_ngrst_t1 ;
 wire synced_ngrst ;
 wire CLK ;
-wire NGRST_c ;
+wire NGRST ;
 wire synced_ngrst_t1 ;
 wire VCC ;
 wire GND ;
-// @19:49
+// @18:49
   SLE \genblk1.delayLine[0]  (
 	.Q(synced_ngrst_t1),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(synced_ngrst),
 	.EN(VCC),
@@ -140,26 +110,26 @@ endmodule /* dds_kitDelay_bit_reg_1s_0 */
 
 module dds_kitDelay_bit_reg_4s (
   CLK,
-  NGRST_c,
+  NGRST,
   synced_ngrst
 )
 ;
 input CLK ;
-input NGRST_c ;
+input NGRST ;
 output synced_ngrst ;
 wire CLK ;
-wire NGRST_c ;
+wire NGRST ;
 wire synced_ngrst ;
 wire VCC ;
 wire delayLine_2_ ;
 wire GND ;
 wire delayLine_1_ ;
 wire delayLine_0_ ;
-// @19:49
+// @18:49
   SLE \genblk1.delayLine[3]  (
 	.Q(synced_ngrst),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_2_),
 	.EN(VCC),
@@ -167,11 +137,11 @@ wire delayLine_0_ ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:49
+// @18:49
   SLE \genblk1.delayLine[2]  (
 	.Q(delayLine_2_),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_1_),
 	.EN(VCC),
@@ -179,11 +149,11 @@ wire delayLine_0_ ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:49
+// @18:49
   SLE \genblk1.delayLine[1]  (
 	.Q(delayLine_1_),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_0_),
 	.EN(VCC),
@@ -191,11 +161,11 @@ wire delayLine_0_ ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:49
+// @18:49
   SLE \genblk1.delayLine[0]  (
 	.Q(delayLine_0_),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(VCC),
 	.EN(VCC),
@@ -213,24 +183,24 @@ endmodule /* dds_kitDelay_bit_reg_4s */
 
 module dds_kitSyncNgrst_1s (
   delayLine_0_,
-  NGRST_c,
+  NGRST,
   CLK,
   synced_ngrst
 )
 ;
 output delayLine_0_ ;
-input NGRST_c ;
+input NGRST ;
 input CLK ;
 output synced_ngrst ;
 wire delayLine_0_ ;
-wire NGRST_c ;
+wire NGRST ;
 wire CLK ;
 wire synced_ngrst ;
 wire synced_ngrst_t1 ;
 wire pulsei_Z ;
 wire GND ;
 wire VCC ;
-// @19:574
+// @18:574
   CFG2 pulsei (
 	.A(synced_ngrst),
 	.B(synced_ngrst_t1),
@@ -240,18 +210,18 @@ defparam pulsei.INIT=4'h2;
   dds_kitDelay_bit_reg_1s sync_ngrst_3 (
 	.pulsei(pulsei_Z),
 	.CLK(CLK),
-	.NGRST_c(NGRST_c),
+	.NGRST(NGRST),
 	.delayLine_0_(delayLine_0_)
 );
   dds_kitDelay_bit_reg_1s_0 sync_ngrst_1 (
 	.synced_ngrst(synced_ngrst),
 	.CLK(CLK),
-	.NGRST_c(NGRST_c),
+	.NGRST(NGRST),
 	.synced_ngrst_t1(synced_ngrst_t1)
 );
   dds_kitDelay_bit_reg_4s sync_ngrst_0 (
 	.CLK(CLK),
-	.NGRST_c(NGRST_c),
+	.NGRST(NGRST),
 	.synced_ngrst(synced_ngrst)
 );
   GND GND_Z (
@@ -266,28 +236,28 @@ module dds_kitCountS_2s_3s_1s (
   slow_clk,
   delayLine_0_,
   CLK,
-  NGRST_c
+  NGRST
 )
 ;
 output slow_clk ;
 input delayLine_0_ ;
 input CLK ;
-input NGRST_c ;
+input NGRST ;
 wire slow_clk ;
 wire delayLine_0_ ;
 wire CLK ;
-wire NGRST_c ;
+wire NGRST ;
 wire [1:1] Q_Z;
 wire [1:0] Q_4_Z;
 wire VCC ;
 wire GND ;
 wire CO0 ;
 wire N_5 ;
-// @19:176
+// @18:176
   SLE \Q[1]  (
 	.Q(Q_Z[1]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_4_Z[1]),
 	.EN(VCC),
@@ -295,11 +265,11 @@ wire N_5 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:176
+// @18:176
   SLE \Q[0]  (
 	.Q(CO0),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_4_Z[0]),
 	.EN(VCC),
@@ -307,21 +277,21 @@ wire N_5 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:177
+// @18:177
   CFG2 \Q_4[0]  (
 	.A(delayLine_0_),
 	.B(CO0),
 	.Y(Q_4_Z[0])
 );
 defparam \Q_4[0] .INIT=4'h1;
-// @19:57
+// @18:57
   CFG2 dc (
 	.A(CO0),
 	.B(Q_Z[1]),
 	.Y(N_5)
 );
 defparam dc.INIT=4'h8;
-// @19:177
+// @18:177
   CFG3 \Q_4[1]  (
 	.A(delayLine_0_),
 	.B(Q_Z[1]),
@@ -329,8 +299,8 @@ defparam dc.INIT=4'h8;
 	.Y(Q_4_Z[1])
 );
 defparam \Q_4[1] .INIT=8'h14;
-//@21:67
-// @21:67
+//@20:67
+// @20:67
   CLKINT N_5_inferred_clock_RNIMR4S5 (
 	.Y(slow_clk),
 	.A(N_5)
@@ -349,7 +319,7 @@ module dds_kitCountS_9s_511s_1s (
   sico_wEn,
   slow_clk,
   CLK,
-  NGRST_c
+  NGRST
 )
 ;
 output [3:0] lfsr_wA ;
@@ -357,11 +327,11 @@ output [8:4] sico_wA ;
 input sico_wEn ;
 input slow_clk ;
 input CLK ;
-input NGRST_c ;
+input NGRST ;
 wire sico_wEn ;
 wire slow_clk ;
 wire CLK ;
-wire NGRST_c ;
+wire NGRST ;
 wire [8:8] Q_s_Z;
 wire [7:0] Q_s;
 wire [7:0] Q_cry_Z;
@@ -373,11 +343,11 @@ wire GND ;
 wire Q_s_50_FCO ;
 wire Q_s_50_S ;
 wire Q_s_50_Y ;
-// @19:176
+// @18:176
   SLE \Q[8]  (
 	.Q(sico_wA[8]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_s_Z[8]),
 	.EN(slow_clk),
@@ -385,11 +355,11 @@ wire Q_s_50_Y ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:176
+// @18:176
   SLE \Q[7]  (
 	.Q(sico_wA[7]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_s[7]),
 	.EN(slow_clk),
@@ -397,11 +367,11 @@ wire Q_s_50_Y ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:176
+// @18:176
   SLE \Q[6]  (
 	.Q(sico_wA[6]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_s[6]),
 	.EN(slow_clk),
@@ -409,11 +379,11 @@ wire Q_s_50_Y ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:176
+// @18:176
   SLE \Q[5]  (
 	.Q(sico_wA[5]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_s[5]),
 	.EN(slow_clk),
@@ -421,11 +391,11 @@ wire Q_s_50_Y ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:176
+// @18:176
   SLE \Q[4]  (
 	.Q(sico_wA[4]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_s[4]),
 	.EN(slow_clk),
@@ -433,11 +403,11 @@ wire Q_s_50_Y ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:176
+// @18:176
   SLE \Q[3]  (
 	.Q(lfsr_wA[3]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_s[3]),
 	.EN(slow_clk),
@@ -445,11 +415,11 @@ wire Q_s_50_Y ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:176
+// @18:176
   SLE \Q[2]  (
 	.Q(lfsr_wA[2]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_s[2]),
 	.EN(slow_clk),
@@ -457,11 +427,11 @@ wire Q_s_50_Y ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:176
+// @18:176
   SLE \Q[1]  (
 	.Q(lfsr_wA[1]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_s[1]),
 	.EN(slow_clk),
@@ -469,11 +439,11 @@ wire Q_s_50_Y ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:176
+// @18:176
   SLE \Q[0]  (
 	.Q(lfsr_wA[0]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(Q_s[0]),
 	.EN(slow_clk),
@@ -481,7 +451,7 @@ wire Q_s_50_Y ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:176
+// @18:176
   ARI1 Q_s_50 (
 	.FCO(Q_s_50_FCO),
 	.S(Q_s_50_S),
@@ -493,7 +463,7 @@ wire Q_s_50_Y ;
 	.FCI(VCC)
 );
 defparam Q_s_50.INIT=20'h4AA00;
-// @19:176
+// @18:176
   ARI1 \Q_cry[0]  (
 	.FCO(Q_cry_Z[0]),
 	.S(Q_s[0]),
@@ -505,7 +475,7 @@ defparam Q_s_50.INIT=20'h4AA00;
 	.FCI(Q_s_50_FCO)
 );
 defparam \Q_cry[0] .INIT=20'h48800;
-// @19:176
+// @18:176
   ARI1 \Q_cry[1]  (
 	.FCO(Q_cry_Z[1]),
 	.S(Q_s[1]),
@@ -517,7 +487,7 @@ defparam \Q_cry[0] .INIT=20'h48800;
 	.FCI(Q_cry_Z[0])
 );
 defparam \Q_cry[1] .INIT=20'h48800;
-// @19:176
+// @18:176
   ARI1 \Q_cry[2]  (
 	.FCO(Q_cry_Z[2]),
 	.S(Q_s[2]),
@@ -529,7 +499,7 @@ defparam \Q_cry[1] .INIT=20'h48800;
 	.FCI(Q_cry_Z[1])
 );
 defparam \Q_cry[2] .INIT=20'h48800;
-// @19:176
+// @18:176
   ARI1 \Q_cry[3]  (
 	.FCO(Q_cry_Z[3]),
 	.S(Q_s[3]),
@@ -541,7 +511,7 @@ defparam \Q_cry[2] .INIT=20'h48800;
 	.FCI(Q_cry_Z[2])
 );
 defparam \Q_cry[3] .INIT=20'h48800;
-// @19:176
+// @18:176
   ARI1 \Q_cry[4]  (
 	.FCO(Q_cry_Z[4]),
 	.S(Q_s[4]),
@@ -553,7 +523,7 @@ defparam \Q_cry[3] .INIT=20'h48800;
 	.FCI(Q_cry_Z[3])
 );
 defparam \Q_cry[4] .INIT=20'h48800;
-// @19:176
+// @18:176
   ARI1 \Q_cry[5]  (
 	.FCO(Q_cry_Z[5]),
 	.S(Q_s[5]),
@@ -565,7 +535,7 @@ defparam \Q_cry[4] .INIT=20'h48800;
 	.FCI(Q_cry_Z[4])
 );
 defparam \Q_cry[5] .INIT=20'h48800;
-// @19:176
+// @18:176
   ARI1 \Q_cry[6]  (
 	.FCO(Q_cry_Z[6]),
 	.S(Q_s[6]),
@@ -577,7 +547,7 @@ defparam \Q_cry[5] .INIT=20'h48800;
 	.FCI(Q_cry_Z[5])
 );
 defparam \Q_cry[6] .INIT=20'h48800;
-// @19:176
+// @18:176
   ARI1 \Q_s[8]  (
 	.FCO(Q_s_FCO[8]),
 	.S(Q_s_Z[8]),
@@ -589,7 +559,7 @@ defparam \Q_cry[6] .INIT=20'h48800;
 	.FCI(Q_cry_Z[7])
 );
 defparam \Q_s[8] .INIT=20'h48800;
-// @19:176
+// @18:176
   ARI1 \Q_cry[7]  (
 	.FCO(Q_cry_Z[7]),
 	.S(Q_s[7]),
@@ -612,27 +582,27 @@ endmodule /* dds_kitCountS_9s_511s_1s */
 module dds_kitDelay_bit_reg_3s (
   last_wA_last_clk_long,
   CLK,
-  NGRST_c,
+  NGRST,
   INIT_OVER
 )
 ;
 input last_wA_last_clk_long ;
 input CLK ;
-input NGRST_c ;
+input NGRST ;
 output INIT_OVER ;
 wire last_wA_last_clk_long ;
 wire CLK ;
-wire NGRST_c ;
+wire NGRST ;
 wire INIT_OVER ;
 wire VCC ;
 wire delayLine_1_ ;
 wire GND ;
 wire delayLine_0_ ;
-// @19:49
+// @18:49
   SLE \genblk1.delayLine[2]  (
 	.Q(INIT_OVER),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_1_),
 	.EN(VCC),
@@ -640,11 +610,11 @@ wire delayLine_0_ ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:49
+// @18:49
   SLE \genblk1.delayLine[1]  (
 	.Q(delayLine_1_),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_0_),
 	.EN(VCC),
@@ -652,11 +622,11 @@ wire delayLine_0_ ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:49
+// @18:49
   SLE \genblk1.delayLine[0]  (
 	.Q(delayLine_0_),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(last_wA_last_clk_long),
 	.EN(VCC),
@@ -679,7 +649,7 @@ module dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s (
   synced_ngrst,
   slow_clk,
   CLK,
-  NGRST_c,
+  NGRST,
   sico_wEn
 )
 ;
@@ -689,13 +659,13 @@ output INIT_OVER ;
 output synced_ngrst ;
 output slow_clk ;
 input CLK ;
-input NGRST_c ;
+input NGRST ;
 output sico_wEn ;
 wire INIT_OVER ;
 wire synced_ngrst ;
 wire slow_clk ;
 wire CLK ;
-wire NGRST_c ;
+wire NGRST ;
 wire sico_wEn ;
 wire VCC ;
 wire delayLine_0_ ;
@@ -705,11 +675,11 @@ wire last_wA_last_clk_long_1_Z ;
 wire last_wA_last_clk_long_5_Z ;
 wire last_wA_last_clk_long_Z ;
 wire N_2 ;
-// @21:74
+// @20:74
   SLE wEn_long (
 	.Q(sico_wEn),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_0_),
 	.EN(un1_last_wA_last_clk_long_1_i),
@@ -717,7 +687,7 @@ wire N_2 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @21:102
+// @20:102
   CFG4 last_wA_last_clk_long (
 	.A(last_wA_last_clk_long_1_Z),
 	.B(slow_clk),
@@ -726,7 +696,7 @@ wire N_2 ;
 	.Y(last_wA_last_clk_long_Z)
 );
 defparam last_wA_last_clk_long.INIT=16'h4000;
-// @21:102
+// @20:102
   CFG4 last_wA_last_clk_long_1 (
 	.A(sico_wA[4]),
 	.B(lfsr_wA[3]),
@@ -735,7 +705,7 @@ defparam last_wA_last_clk_long.INIT=16'h4000;
 	.Y(last_wA_last_clk_long_1_Z)
 );
 defparam last_wA_last_clk_long_1.INIT=16'h7FFF;
-// @21:102
+// @20:102
   CFG4 last_wA_last_clk_long_5 (
 	.A(sico_wA[8]),
 	.B(sico_wA[7]),
@@ -744,40 +714,40 @@ defparam last_wA_last_clk_long_1.INIT=16'h7FFF;
 	.Y(last_wA_last_clk_long_5_Z)
 );
 defparam last_wA_last_clk_long_5.INIT=16'h8000;
-// @21:74
+// @20:74
   CFG2 wEn_long_RNO (
 	.A(last_wA_last_clk_long_Z),
 	.B(delayLine_0_),
 	.Y(un1_last_wA_last_clk_long_1_i)
 );
 defparam wEn_long_RNO.INIT=4'hE;
-// @21:58
+// @20:58
   dds_kitSyncNgrst_1s sync_ngrst_0 (
 	.delayLine_0_(delayLine_0_),
-	.NGRST_c(NGRST_c),
+	.NGRST(NGRST),
 	.CLK(CLK),
 	.synced_ngrst(synced_ngrst)
 );
-// @21:67
+// @20:67
   dds_kitCountS_2s_3s_1s slow_count_0 (
 	.slow_clk(slow_clk),
 	.delayLine_0_(delayLine_0_),
 	.CLK(CLK),
-	.NGRST_c(NGRST_c)
+	.NGRST(NGRST)
 );
-// @21:95
+// @20:95
   dds_kitCountS_9s_511s_1s wA_count_0 (
 	.lfsr_wA(lfsr_wA[3:0]),
 	.sico_wA(sico_wA[8:4]),
 	.sico_wEn(sico_wEn),
 	.slow_clk(slow_clk),
 	.CLK(CLK),
-	.NGRST_c(NGRST_c)
+	.NGRST(NGRST)
 );
   dds_kitDelay_bit_reg_3s initOver_0 (
 	.last_wA_last_clk_long(last_wA_last_clk_long_Z),
 	.CLK(CLK),
-	.NGRST_c(NGRST_c),
+	.NGRST(NGRST),
 	.INIT_OVER(INIT_OVER)
 );
   GND GND_Z (
@@ -798,8 +768,8 @@ module COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_0 (
   CLK,
   m11_0,
   N_26_mux,
-  N_10,
-  N_9
+  N_12,
+  N_11
 )
 ;
 input [8:0] wA_1 ;
@@ -811,22 +781,22 @@ input sico_wEn ;
 input CLK ;
 input m11_0 ;
 input N_26_mux ;
-output N_10 ;
-output N_9 ;
+output N_12 ;
+output N_11 ;
 wire sine_w_6_0 ;
 wire slow_clk ;
 wire sico_wEn ;
 wire CLK ;
 wire m11_0 ;
 wire N_26_mux ;
-wire N_10 ;
-wire N_9 ;
+wire N_12 ;
+wire N_11 ;
 wire [19:4] COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_A_DOUT;
 wire [19:0] COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_B_DOUT;
 wire m4_e_0 ;
 wire N_28_mux ;
 wire N_30_mux ;
-wire N_13 ;
+wire N_15 ;
 wire N_36_mux_i ;
 wire N_32_i ;
 wire GND ;
@@ -848,28 +818,28 @@ defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_3.INIT=16'hFFA2;
 	.Y(m4_e_0)
 );
 defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_4.INIT=4'h1;
-// @20:291
+// @19:291
   CFG2 COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNI81EL8 (
 	.A(Q_blue[0]),
 	.B(Q_blue[1]),
 	.Y(sine_w_6_0)
 );
 defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNI81EL8.INIT=4'h6;
-// @20:291
+// @19:291
   CFG3 COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNIS150D (
 	.A(Q_blue[2]),
 	.B(Q_blue[1]),
 	.C(Q_blue[0]),
-	.Y(N_9)
+	.Y(N_11)
 );
 defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNIS150D.INIT=8'hA9;
-// @20:291
+// @19:291
   CFG4 COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNIG2SAH (
 	.A(Q_blue[3]),
 	.B(Q_blue[2]),
 	.C(Q_blue[1]),
 	.D(Q_blue[0]),
-	.Y(N_10)
+	.Y(N_12)
 );
 defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNIG2SAH.INIT=16'hAAA9;
   CFG3 COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_1 (
@@ -884,10 +854,10 @@ defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_1.INIT=8'h57;
 	.B(wA_1[6]),
 	.C(m11_0),
 	.D(N_28_mux),
-	.Y(N_13)
+	.Y(N_15)
 );
 defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_2.INIT=16'h91D5;
-// @18:32
+// @17:32
   CFG4 COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_0 (
 	.A(wA_1[8]),
 	.B(wA_1[7]),
@@ -896,15 +866,15 @@ defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_2.INIT=16'h91D5;
 	.Y(N_36_mux_i)
 );
 defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO_0.INIT=16'hEAAA;
-// @18:32
+// @17:32
   CFG3 COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO (
 	.A(wA_1[8]),
 	.B(N_30_mux),
-	.C(N_13),
+	.C(N_15),
 	.Y(N_32_i)
 );
 defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO.INIT=8'h27;
-// @18:32
+// @17:32
   RAM1K20 COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0 (
 	.A_ADDR({GND, GND, GND, rA_qrtr[8:0], GND, GND}),
 	.A_BLK_EN({VCC, VCC, VCC}),
@@ -953,8 +923,8 @@ module COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1 (
   Q_blue,
   rA_qrtr,
   wA_1,
-  N_9,
-  N_10,
+  N_11,
+  N_12,
   N_26_mux,
   m11_0,
   CLK,
@@ -966,16 +936,16 @@ output sine_w_6_0 ;
 output [3:0] Q_blue ;
 input [8:0] rA_qrtr ;
 input [8:0] wA_1 ;
-output N_9 ;
-output N_10 ;
+output N_11 ;
+output N_12 ;
 input N_26_mux ;
 input m11_0 ;
 input CLK ;
 input sico_wEn ;
 input slow_clk ;
 wire sine_w_6_0 ;
-wire N_9 ;
-wire N_10 ;
+wire N_11 ;
+wire N_12 ;
 wire N_26_mux ;
 wire m11_0 ;
 wire CLK ;
@@ -983,7 +953,7 @@ wire sico_wEn ;
 wire slow_clk ;
 wire GND ;
 wire VCC ;
-// @20:160
+// @19:160
   COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_0 \PF_lsram.lsram_g5_0  (
 	.wA_1(wA_1[8:0]),
 	.rA_qrtr(rA_qrtr[8:0]),
@@ -994,8 +964,8 @@ wire VCC ;
 	.CLK(CLK),
 	.m11_0(m11_0),
 	.N_26_mux(N_26_mux),
-	.N_10(N_10),
-	.N_9(N_9)
+	.N_12(N_12),
+	.N_11(N_11)
 );
   GND GND_Z (
 	.Y(GND)
@@ -1008,33 +978,47 @@ endmodule /* COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1 *
 module COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_1 (
   wA_1,
   rA_qrtr,
+  SINE,
+  sine_w_iv_0_0,
+  sine_w_iv_1_0,
+  sin_signal,
   Q_red,
   N_23,
   slow_clk,
   sico_wEn,
   CLK,
-  N_8,
+  PN_SIN,
+  N_10,
   N_35_mux_2
 )
 ;
 input [8:0] wA_1 ;
 input [8:0] rA_qrtr ;
+inout [3:0] SINE /* synthesis syn_tristate = 1 */ ;
+input sine_w_iv_0_0 ;
+input sine_w_iv_1_0 ;
+input [2:1] sin_signal ;
 output [3:0] Q_red ;
 input N_23 ;
 input slow_clk ;
 input sico_wEn ;
 input CLK ;
-output N_8 ;
+input PN_SIN ;
+output N_10 ;
 input N_35_mux_2 ;
+wire sine_w_iv_0_0 ;
+wire sine_w_iv_1_0 ;
 wire N_23 ;
 wire slow_clk ;
 wire sico_wEn ;
 wire CLK ;
-wire N_8 ;
+wire PN_SIN ;
+wire N_10 ;
 wire N_35_mux_2 ;
 wire [19:4] COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_A_DOUT_0;
 wire [19:0] COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_B_DOUT_0;
 wire N_23_i ;
+wire CO2 ;
 wire GND ;
 wire VCC ;
 wire COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_SB_CORRECT_0 ;
@@ -1048,16 +1032,50 @@ wire Z_ACCESS_BUSY_0__0_ ;
 	.Y(N_23_i)
 );
 defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNO.INIT=16'hCDFF;
-// @20:292
+// @19:292
   CFG4 COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNIS4HKG (
 	.A(Q_red[3]),
 	.B(Q_red[2]),
 	.C(Q_red[1]),
 	.D(Q_red[0]),
-	.Y(N_8)
+	.Y(N_10)
 );
 defparam COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0_RNIS4HKG.INIT=16'hAAA9;
-// @18:32
+// @9:87
+  CFG3 \SINE_1_RNO[3]  (
+	.A(sin_signal[2]),
+	.B(sin_signal[1]),
+	.C(SINE[0]),
+	.Y(CO2)
+);
+defparam \SINE_1_RNO[3] .INIT=8'h01;
+// @9:98
+  CFG3 \SINE_1[1]  (
+	.A(sin_signal[1]),
+	.B(SINE[0]),
+	.C(PN_SIN),
+	.Y(SINE[1])
+);
+defparam \SINE_1[1] .INIT=8'h6A;
+// @9:98
+  CFG4 \SINE_1[2]  (
+	.A(sin_signal[2]),
+	.B(sin_signal[1]),
+	.C(SINE[0]),
+	.D(PN_SIN),
+	.Y(SINE[2])
+);
+defparam \SINE_1[2] .INIT=16'h56AA;
+// @9:98
+  CFG4 \SINE_1[3]  (
+	.A(sine_w_iv_1_0),
+	.B(sine_w_iv_0_0),
+	.C(PN_SIN),
+	.D(CO2),
+	.Y(SINE[3])
+);
+defparam \SINE_1[3] .INIT=16'hEE1E;
+// @17:32
   RAM1K20 COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_R0C0 (
 	.A_ADDR({GND, GND, GND, rA_qrtr[8:0], GND, GND}),
 	.A_BLK_EN({VCC, VCC, VCC}),
@@ -1103,10 +1121,15 @@ endmodule /* COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_1 */
 
 module COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0 (
   Q_red,
+  sin_signal,
+  sine_w_iv_1_0,
+  sine_w_iv_0_0,
+  SINE,
   rA_qrtr,
   wA_1,
   N_35_mux_2,
-  N_8,
+  N_10,
+  PN_SIN,
   CLK,
   sico_wEn,
   slow_clk,
@@ -1114,32 +1137,45 @@ module COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0 (
 )
 ;
 output [3:0] Q_red ;
+input [2:1] sin_signal ;
+input sine_w_iv_1_0 ;
+input sine_w_iv_0_0 ;
+inout [3:0] SINE /* synthesis syn_tristate = 1 */ ;
 input [8:0] rA_qrtr ;
 input [8:0] wA_1 ;
 input N_35_mux_2 ;
-output N_8 ;
+output N_10 ;
+input PN_SIN ;
 input CLK ;
 input sico_wEn ;
 input slow_clk ;
 input N_23 ;
+wire sine_w_iv_1_0 ;
+wire sine_w_iv_0_0 ;
 wire N_35_mux_2 ;
-wire N_8 ;
+wire N_10 ;
+wire PN_SIN ;
 wire CLK ;
 wire sico_wEn ;
 wire slow_clk ;
 wire N_23 ;
 wire GND ;
 wire VCC ;
-// @20:160
+// @19:160
   COREDDS_C0_COREDDS_C0_0_dds_g5_lsram_1 \PF_lsram.lsram_g5_0  (
 	.wA_1(wA_1[8:0]),
 	.rA_qrtr(rA_qrtr[8:0]),
+	.SINE(SINE[3:0]),
+	.sine_w_iv_0_0(sine_w_iv_0_0),
+	.sine_w_iv_1_0(sine_w_iv_1_0),
+	.sin_signal(sin_signal[2:1]),
 	.Q_red(Q_red[3:0]),
 	.N_23(N_23),
 	.slow_clk(slow_clk),
 	.sico_wEn(sico_wEn),
 	.CLK(CLK),
-	.N_8(N_8),
+	.PN_SIN(PN_SIN),
+	.N_10(N_10),
 	.N_35_mux_2(N_35_mux_2)
 );
   GND GND_Z (
@@ -1151,44 +1187,39 @@ wire VCC ;
 endmodule /* COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0 */
 
 module COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 (
+  SINE,
   wA_1,
-  SINE_c,
-  Carry_1_0,
-  COSINE_c,
-  sin_signal,
+  COSINE,
   full_wave_addr,
   N_23,
+  PN_SIN,
   N_35_mux_2,
   slow_clk,
   sico_wEn,
   m11_0,
   N_26_mux,
-  PN_SIN_c,
   CLK
 )
 ;
+output [3:0] SINE ;
 input [8:0] wA_1 ;
-output [3:0] SINE_c ;
-input Carry_1_0 ;
-output [3:0] COSINE_c ;
-output [2:1] sin_signal ;
+output [3:0] COSINE ;
 input [11:0] full_wave_addr ;
 input N_23 ;
+input PN_SIN ;
 input N_35_mux_2 ;
 input slow_clk ;
 input sico_wEn ;
 input m11_0 ;
 input N_26_mux ;
-input PN_SIN_c ;
 input CLK ;
-wire Carry_1_0 ;
 wire N_23 ;
+wire PN_SIN ;
 wire N_35_mux_2 ;
 wire slow_clk ;
 wire sico_wEn ;
 wire m11_0 ;
 wire N_26_mux ;
-wire PN_SIN_c ;
 wire CLK ;
 wire [7:0] mapBits_oneHot_Z;
 wire [3:0] Q_red;
@@ -1201,6 +1232,7 @@ wire [8:0] rA_qrtr_Z;
 wire [2:1] cosine_w_iv_0_Z;
 wire [3:1] sine_w_iv_0_Z;
 wire [1:1] sine_w_6;
+wire [2:1] sin_signal;
 wire [3:3] sine_w_iv_1_Z;
 wire [3:3] cosine_w_iv_1_Z;
 wire VCC ;
@@ -1221,10 +1253,10 @@ wire un1_mapBits_oneHot_3_Z ;
 wire un1_mapBits_oneHot_2_Z ;
 wire un1_mapBits_oneHot_1_Z ;
 wire un1_mapBits_oneHot_Z ;
+wire N_12 ;
 wire N_10 ;
-wire N_8 ;
-wire N_9 ;
-// @20:253
+wire N_11 ;
+// @19:253
   SLE \mapBits_oneHot[7]  (
 	.Q(mapBits_oneHot_Z[7]),
 	.ADn(VCC),
@@ -1236,7 +1268,7 @@ wire N_9 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @20:253
+// @19:253
   SLE \mapBits_oneHot[6]  (
 	.Q(mapBits_oneHot_Z[6]),
 	.ADn(VCC),
@@ -1248,7 +1280,7 @@ wire N_9 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @20:253
+// @19:253
   SLE \mapBits_oneHot[5]  (
 	.Q(mapBits_oneHot_Z[5]),
 	.ADn(VCC),
@@ -1260,7 +1292,7 @@ wire N_9 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @20:253
+// @19:253
   SLE \mapBits_oneHot[4]  (
 	.Q(mapBits_oneHot_Z[4]),
 	.ADn(VCC),
@@ -1272,7 +1304,7 @@ wire N_9 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @20:253
+// @19:253
   SLE \mapBits_oneHot[3]  (
 	.Q(mapBits_oneHot_Z[3]),
 	.ADn(VCC),
@@ -1284,7 +1316,7 @@ wire N_9 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @20:253
+// @19:253
   SLE \mapBits_oneHot[2]  (
 	.Q(mapBits_oneHot_Z[2]),
 	.ADn(VCC),
@@ -1296,7 +1328,7 @@ wire N_9 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @20:253
+// @19:253
   SLE \mapBits_oneHot[1]  (
 	.Q(mapBits_oneHot_Z[1]),
 	.ADn(VCC),
@@ -1308,7 +1340,7 @@ wire N_9 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @20:253
+// @19:253
   SLE \mapBits_oneHot[0]  (
 	.Q(mapBits_oneHot_Z[0]),
 	.ADn(VCC),
@@ -1320,7 +1352,7 @@ wire N_9 ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @20:324
+// @19:324
   CFG3 \cosine_w_iv_RNO[3]  (
 	.A(mapBits_oneHot_Z[0]),
 	.B(mapBits_oneHot_Z[7]),
@@ -1328,7 +1360,7 @@ wire N_9 ;
 	.Y(Q_red_m[3])
 );
 defparam \cosine_w_iv_RNO[3] .INIT=8'hE0;
-// @20:324
+// @19:324
   CFG4 \cosine_w_iv_RNO[1]  (
 	.A(mapBits_oneHot_Z[3]),
 	.B(mapBits_oneHot_Z[4]),
@@ -1337,7 +1369,7 @@ defparam \cosine_w_iv_RNO[3] .INIT=8'hE0;
 	.Y(sine_w_7_m[1])
 );
 defparam \cosine_w_iv_RNO[1] .INIT=16'h0EE0;
-// @20:286
+// @19:286
   CFG4 \sine_w_0_iv_RNO[0]  (
 	.A(mapBits_oneHot_Z[3]),
 	.B(mapBits_oneHot_Z[4]),
@@ -1346,7 +1378,7 @@ defparam \cosine_w_iv_RNO[1] .INIT=16'h0EE0;
 	.Y(Q_blue_m_1[0])
 );
 defparam \sine_w_0_iv_RNO[0] .INIT=16'hF0E0;
-// @20:324
+// @19:324
   CFG4 \cosine_w_0_iv_RNO[0]  (
 	.A(mapBits_oneHot_Z[3]),
 	.B(mapBits_oneHot_Z[4]),
@@ -1355,7 +1387,7 @@ defparam \sine_w_0_iv_RNO[0] .INIT=16'hF0E0;
 	.Y(Q_red_m[0])
 );
 defparam \cosine_w_0_iv_RNO[0] .INIT=16'hF0E0;
-// @20:286
+// @19:286
   CFG4 \pos_sine.sine_w_7_m_0[1]  (
 	.A(mapBits_oneHot_Z[5]),
 	.B(mapBits_oneHot_Z[6]),
@@ -1364,126 +1396,126 @@ defparam \cosine_w_0_iv_RNO[0] .INIT=16'hF0E0;
 	.Y(sine_w_7_m_0[1])
 );
 defparam \pos_sine.sine_w_7_m_0[1] .INIT=16'h0EE0;
-// @20:271
+// @19:271
   CFG2 \rA_qrtr[8]  (
 	.A(full_wave_addr[9]),
 	.B(full_wave_addr[8]),
 	.Y(rA_qrtr_Z[8])
 );
 defparam \rA_qrtr[8] .INIT=4'h6;
-// @20:271
+// @19:271
   CFG2 \rA_qrtr[7]  (
 	.A(full_wave_addr[9]),
 	.B(full_wave_addr[7]),
 	.Y(rA_qrtr_Z[7])
 );
 defparam \rA_qrtr[7] .INIT=4'h6;
-// @20:271
+// @19:271
   CFG2 \rA_qrtr[6]  (
 	.A(full_wave_addr[9]),
 	.B(full_wave_addr[6]),
 	.Y(rA_qrtr_Z[6])
 );
 defparam \rA_qrtr[6] .INIT=4'h6;
-// @20:271
+// @19:271
   CFG2 \rA_qrtr[5]  (
 	.A(full_wave_addr[9]),
 	.B(full_wave_addr[5]),
 	.Y(rA_qrtr_Z[5])
 );
 defparam \rA_qrtr[5] .INIT=4'h6;
-// @20:271
+// @19:271
   CFG2 \rA_qrtr[4]  (
 	.A(full_wave_addr[9]),
 	.B(full_wave_addr[4]),
 	.Y(rA_qrtr_Z[4])
 );
 defparam \rA_qrtr[4] .INIT=4'h6;
-// @20:271
+// @19:271
   CFG2 \rA_qrtr[3]  (
 	.A(full_wave_addr[9]),
 	.B(full_wave_addr[3]),
 	.Y(rA_qrtr_Z[3])
 );
 defparam \rA_qrtr[3] .INIT=4'h6;
-// @20:271
+// @19:271
   CFG2 \rA_qrtr[2]  (
 	.A(full_wave_addr[9]),
 	.B(full_wave_addr[2]),
 	.Y(rA_qrtr_Z[2])
 );
 defparam \rA_qrtr[2] .INIT=4'h6;
-// @20:271
+// @19:271
   CFG2 \rA_qrtr[1]  (
 	.A(full_wave_addr[9]),
 	.B(full_wave_addr[1]),
 	.Y(rA_qrtr_Z[1])
 );
 defparam \rA_qrtr[1] .INIT=4'h6;
-// @20:271
+// @19:271
   CFG2 \rA_qrtr[0]  (
 	.A(full_wave_addr[9]),
 	.B(full_wave_addr[0]),
 	.Y(rA_qrtr_Z[0])
 );
 defparam \rA_qrtr[0] .INIT=4'h6;
-// @20:324
+// @19:324
   CFG2 un1_mapBits_oneHot_7 (
 	.A(mapBits_oneHot_Z[0]),
 	.B(mapBits_oneHot_Z[7]),
 	.Y(un1_mapBits_oneHot_7_Z)
 );
 defparam un1_mapBits_oneHot_7.INIT=4'hE;
-// @20:324
+// @19:324
   CFG2 un1_mapBits_oneHot_6 (
 	.A(mapBits_oneHot_Z[3]),
 	.B(mapBits_oneHot_Z[4]),
 	.Y(un1_mapBits_oneHot_6_Z)
 );
 defparam un1_mapBits_oneHot_6.INIT=4'hE;
-// @20:324
+// @19:324
   CFG2 un1_mapBits_oneHot_5 (
 	.A(mapBits_oneHot_Z[2]),
 	.B(mapBits_oneHot_Z[5]),
 	.Y(un1_mapBits_oneHot_5_Z)
 );
 defparam un1_mapBits_oneHot_5.INIT=4'hE;
-// @20:324
+// @19:324
   CFG2 un1_mapBits_oneHot_4 (
 	.A(mapBits_oneHot_Z[1]),
 	.B(mapBits_oneHot_Z[6]),
 	.Y(un1_mapBits_oneHot_4_Z)
 );
 defparam un1_mapBits_oneHot_4.INIT=4'hE;
-// @20:286
+// @19:286
   CFG2 un1_mapBits_oneHot_3 (
 	.A(mapBits_oneHot_Z[0]),
 	.B(mapBits_oneHot_Z[3]),
 	.Y(un1_mapBits_oneHot_3_Z)
 );
 defparam un1_mapBits_oneHot_3.INIT=4'hE;
-// @20:286
+// @19:286
   CFG2 un1_mapBits_oneHot_2 (
 	.A(mapBits_oneHot_Z[5]),
 	.B(mapBits_oneHot_Z[6]),
 	.Y(un1_mapBits_oneHot_2_Z)
 );
 defparam un1_mapBits_oneHot_2.INIT=4'hE;
-// @20:286
+// @19:286
   CFG2 un1_mapBits_oneHot_1 (
 	.A(mapBits_oneHot_Z[4]),
 	.B(mapBits_oneHot_Z[7]),
 	.Y(un1_mapBits_oneHot_1_Z)
 );
 defparam un1_mapBits_oneHot_1.INIT=4'hE;
-// @20:286
+// @19:286
   CFG2 un1_mapBits_oneHot (
 	.A(mapBits_oneHot_Z[1]),
 	.B(mapBits_oneHot_Z[2]),
 	.Y(un1_mapBits_oneHot_Z)
 );
 defparam un1_mapBits_oneHot.INIT=4'hE;
-// @20:261
+// @19:261
   CFG3 mapBits_oneHot16 (
 	.A(full_wave_addr[11]),
 	.B(full_wave_addr[9]),
@@ -1491,7 +1523,7 @@ defparam un1_mapBits_oneHot.INIT=4'hE;
 	.Y(mapBits_oneHot16_Z)
 );
 defparam mapBits_oneHot16.INIT=8'h20;
-// @20:257
+// @19:257
   CFG3 mapBits_oneHot12 (
 	.A(full_wave_addr[11]),
 	.B(full_wave_addr[9]),
@@ -1499,7 +1531,7 @@ defparam mapBits_oneHot16.INIT=8'h20;
 	.Y(mapBits_oneHot12_Z)
 );
 defparam mapBits_oneHot12.INIT=8'h10;
-// @20:255
+// @19:255
   CFG3 mapBits_oneHot10 (
 	.A(full_wave_addr[11]),
 	.B(full_wave_addr[9]),
@@ -1507,7 +1539,7 @@ defparam mapBits_oneHot12.INIT=8'h10;
 	.Y(mapBits_oneHot10_Z)
 );
 defparam mapBits_oneHot10.INIT=8'h01;
-// @20:256
+// @19:256
   CFG3 mapBits_oneHot11 (
 	.A(full_wave_addr[11]),
 	.B(full_wave_addr[9]),
@@ -1515,7 +1547,7 @@ defparam mapBits_oneHot10.INIT=8'h01;
 	.Y(mapBits_oneHot11_Z)
 );
 defparam mapBits_oneHot11.INIT=8'h04;
-// @20:259
+// @19:259
   CFG3 mapBits_oneHot14 (
 	.A(full_wave_addr[11]),
 	.B(full_wave_addr[9]),
@@ -1523,7 +1555,7 @@ defparam mapBits_oneHot11.INIT=8'h04;
 	.Y(mapBits_oneHot14_Z)
 );
 defparam mapBits_oneHot14.INIT=8'h02;
-// @20:260
+// @19:260
   CFG3 mapBits_oneHot15 (
 	.A(full_wave_addr[11]),
 	.B(full_wave_addr[9]),
@@ -1531,7 +1563,7 @@ defparam mapBits_oneHot14.INIT=8'h02;
 	.Y(mapBits_oneHot15_Z)
 );
 defparam mapBits_oneHot15.INIT=8'h08;
-// @20:258
+// @19:258
   CFG3 mapBits_oneHot13 (
 	.A(full_wave_addr[11]),
 	.B(full_wave_addr[9]),
@@ -1539,7 +1571,7 @@ defparam mapBits_oneHot15.INIT=8'h08;
 	.Y(mapBits_oneHot13_Z)
 );
 defparam mapBits_oneHot13.INIT=8'h40;
-// @20:262
+// @19:262
   CFG3 mapBits_oneHot17 (
 	.A(full_wave_addr[11]),
 	.B(full_wave_addr[9]),
@@ -1547,7 +1579,7 @@ defparam mapBits_oneHot13.INIT=8'h40;
 	.Y(mapBits_oneHot17_Z)
 );
 defparam mapBits_oneHot17.INIT=8'h80;
-// @20:324
+// @19:324
   CFG4 \cosine_w_iv_0[2]  (
 	.A(un1_mapBits_oneHot_7_Z),
 	.B(un1_mapBits_oneHot_4_Z),
@@ -1556,7 +1588,7 @@ defparam mapBits_oneHot17.INIT=8'h80;
 	.Y(cosine_w_iv_0_Z[2])
 );
 defparam \cosine_w_iv_0[2] .INIT=16'hECA0;
-// @20:324
+// @19:324
   CFG4 \cosine_w_iv_0[1]  (
 	.A(un1_mapBits_oneHot_7_Z),
 	.B(un1_mapBits_oneHot_4_Z),
@@ -1565,7 +1597,7 @@ defparam \cosine_w_iv_0[2] .INIT=16'hECA0;
 	.Y(cosine_w_iv_0_Z[1])
 );
 defparam \cosine_w_iv_0[1] .INIT=16'hECA0;
-// @20:286
+// @19:286
   CFG4 \sine_w_iv_0[3]  (
 	.A(un1_mapBits_oneHot_3_Z),
 	.B(un1_mapBits_oneHot_Z),
@@ -1574,7 +1606,7 @@ defparam \cosine_w_iv_0[1] .INIT=16'hECA0;
 	.Y(sine_w_iv_0_Z[3])
 );
 defparam \sine_w_iv_0[3] .INIT=16'hEAC0;
-// @20:286
+// @19:286
   CFG4 \sine_w_iv_0[2]  (
 	.A(un1_mapBits_oneHot_3_Z),
 	.B(un1_mapBits_oneHot_Z),
@@ -1583,7 +1615,7 @@ defparam \sine_w_iv_0[3] .INIT=16'hEAC0;
 	.Y(sine_w_iv_0_Z[2])
 );
 defparam \sine_w_iv_0[2] .INIT=16'hEAC0;
-// @20:286
+// @19:286
   CFG4 \sine_w_iv_0[1]  (
 	.A(un1_mapBits_oneHot_3_Z),
 	.B(un1_mapBits_oneHot_Z),
@@ -1592,7 +1624,7 @@ defparam \sine_w_iv_0[2] .INIT=16'hEAC0;
 	.Y(sine_w_iv_0_Z[1])
 );
 defparam \sine_w_iv_0[1] .INIT=16'hEAC0;
-// @20:286
+// @19:286
   CFG4 \pos_sine.sine_w_7_m_0[2]  (
 	.A(un1_mapBits_oneHot_2_Z),
 	.B(Q_red[2]),
@@ -1601,7 +1633,7 @@ defparam \sine_w_iv_0[1] .INIT=16'hEAC0;
 	.Y(sine_w_7_m_0[2])
 );
 defparam \pos_sine.sine_w_7_m_0[2] .INIT=16'h2228;
-// @20:324
+// @19:324
   CFG4 \cosine_w_iv_RNO[2]  (
 	.A(un1_mapBits_oneHot_6_Z),
 	.B(Q_red[2]),
@@ -1610,7 +1642,7 @@ defparam \pos_sine.sine_w_7_m_0[2] .INIT=16'h2228;
 	.Y(sine_w_7_m[2])
 );
 defparam \cosine_w_iv_RNO[2] .INIT=16'h2228;
-// @20:286
+// @19:286
   CFG4 \sine_w_iv[1]  (
 	.A(un1_mapBits_oneHot_1_Z),
 	.B(sine_w_iv_0_Z[1]),
@@ -1619,125 +1651,104 @@ defparam \cosine_w_iv_RNO[2] .INIT=16'h2228;
 	.Y(sin_signal[1])
 );
 defparam \sine_w_iv[1] .INIT=16'hFEFC;
-// @20:324
+// @19:324
   CFG4 \cosine_w_iv[1]  (
 	.A(un1_mapBits_oneHot_5_Z),
 	.B(sine_w_7_m[1]),
 	.C(sine_w_6[1]),
 	.D(cosine_w_iv_0_Z[1]),
-	.Y(COSINE_c[1])
+	.Y(COSINE[1])
 );
 defparam \cosine_w_iv[1] .INIT=16'hFFEC;
-// @20:324
+// @19:324
   CFG4 \cosine_w_0_iv[0]  (
 	.A(un1_mapBits_oneHot_5_Z),
 	.B(un1_mapBits_oneHot_4_Z),
 	.C(Q_red_m[0]),
 	.D(Q_blue[0]),
-	.Y(COSINE_c[0])
+	.Y(COSINE[0])
 );
 defparam \cosine_w_0_iv[0] .INIT=16'hFEF0;
-// @20:286
+// @19:286
   CFG4 \sine_w_iv_1[3]  (
 	.A(un1_mapBits_oneHot_2_Z),
 	.B(un1_mapBits_oneHot_1_Z),
-	.C(N_10),
-	.D(N_8),
+	.C(N_12),
+	.D(N_10),
 	.Y(sine_w_iv_1_Z[3])
 );
 defparam \sine_w_iv_1[3] .INIT=16'h0CAE;
-// @20:324
+// @19:324
   CFG4 \cosine_w_iv_1[3]  (
 	.A(un1_mapBits_oneHot_6_Z),
 	.B(un1_mapBits_oneHot_5_Z),
-	.C(N_10),
-	.D(N_8),
+	.C(N_12),
+	.D(N_10),
 	.Y(cosine_w_iv_1_Z[3])
 );
 defparam \cosine_w_iv_1[3] .INIT=16'h0CAE;
-// @20:286
+// @19:286
   CFG4 \sine_w_iv[2]  (
 	.A(un1_mapBits_oneHot_1_Z),
 	.B(sine_w_iv_0_Z[2]),
 	.C(sine_w_7_m_0[2]),
-	.D(N_9),
+	.D(N_11),
 	.Y(sin_signal[2])
 );
 defparam \sine_w_iv[2] .INIT=16'hFCFE;
-// @20:324
+// @19:324
   CFG4 \cosine_w_iv[2]  (
 	.A(un1_mapBits_oneHot_5_Z),
 	.B(sine_w_7_m[2]),
 	.C(cosine_w_iv_0_Z[2]),
-	.D(N_9),
-	.Y(COSINE_c[2])
+	.D(N_11),
+	.Y(COSINE[2])
 );
 defparam \cosine_w_iv[2] .INIT=16'hFCFE;
-// @20:286
+// @19:286
   CFG4 \sine_w_0_iv[0]  (
 	.A(un1_mapBits_oneHot_2_Z),
 	.B(un1_mapBits_oneHot_Z),
 	.C(Q_red[0]),
 	.D(Q_blue_m_1[0]),
-	.Y(SINE_c[0])
+	.Y(SINE[0])
 );
 defparam \sine_w_0_iv[0] .INIT=16'hFFE0;
-// @20:324
+// @19:324
   CFG4 \cosine_w_iv[3]  (
 	.A(un1_mapBits_oneHot_4_Z),
 	.B(cosine_w_iv_1_Z[3]),
 	.C(Q_red_m[3]),
 	.D(Q_blue[3]),
-	.Y(COSINE_c[3])
+	.Y(COSINE[3])
 );
 defparam \cosine_w_iv[3] .INIT=16'hFEFC;
-// @10:93
-  CFG3 \SINE[1]  (
-	.A(sin_signal[1]),
-	.B(SINE_c[0]),
-	.C(PN_SIN_c),
-	.Y(SINE_c[1])
-);
-defparam \SINE[1] .INIT=8'h6A;
-// @10:93
-  CFG4 \SINE[2]  (
-	.A(sin_signal[2]),
-	.B(sin_signal[1]),
-	.C(SINE_c[0]),
-	.D(PN_SIN_c),
-	.Y(SINE_c[2])
-);
-defparam \SINE[2] .INIT=16'h56AA;
-// @10:93
-  CFG4 \SINE[3]  (
-	.A(Carry_1_0),
-	.B(sine_w_iv_1_Z[3]),
-	.C(sine_w_iv_0_Z[3]),
-	.D(PN_SIN_c),
-	.Y(SINE_c[3])
-);
-defparam \SINE[3] .INIT=16'hA9FC;
-// @20:219
+// @19:219
   COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_1 qrtr_blue_ram_0 (
 	.sine_w_6_0(sine_w_6[1]),
 	.Q_blue(Q_blue[3:0]),
 	.rA_qrtr(rA_qrtr_Z[8:0]),
 	.wA_1(wA_1[8:0]),
-	.N_9(N_9),
-	.N_10(N_10),
+	.N_11(N_11),
+	.N_12(N_12),
 	.N_26_mux(N_26_mux),
 	.m11_0(m11_0),
 	.CLK(CLK),
 	.sico_wEn(sico_wEn),
 	.slow_clk(slow_clk)
 );
-// @20:233
+// @19:233
   COREDDS_C0_COREDDS_C0_0_wrapRam_9s_4s_27s_0s_1s_0s_0s_0s_512s_1_0 qrtr_red_ram_0 (
 	.Q_red(Q_red[3:0]),
+	.sin_signal(sin_signal[2:1]),
+	.sine_w_iv_1_0(sine_w_iv_1_Z[3]),
+	.sine_w_iv_0_0(sine_w_iv_0_Z[3]),
+	.SINE(SINE[3:0]),
 	.rA_qrtr(rA_qrtr_Z[8:0]),
 	.wA_1(wA_1[8:0]),
 	.N_35_mux_2(N_35_mux_2),
-	.N_8(N_8),
+	.N_10(N_10),
+	.PN_SIN(PN_SIN),
 	.CLK(CLK),
 	.sico_wEn(sico_wEn),
 	.slow_clk(slow_clk),
@@ -1753,34 +1764,29 @@ endmodule /* COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 */
 
 module COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 (
   full_wave_addr,
-  sin_signal,
-  COSINE_c,
-  Carry_1_0,
-  SINE_c,
+  COSINE,
+  SINE,
   lfsr_wA,
   sico_wA,
   CLK,
-  PN_SIN_c,
   sico_wEn,
-  slow_clk
+  slow_clk,
+  PN_SIN
 )
 ;
 input [11:0] full_wave_addr ;
-output [2:1] sin_signal ;
-output [3:0] COSINE_c ;
-input Carry_1_0 ;
-output [3:0] SINE_c ;
+output [3:0] COSINE ;
+output [3:0] SINE ;
 input [3:0] lfsr_wA ;
 input [8:4] sico_wA ;
 input CLK ;
-input PN_SIN_c ;
 input sico_wEn ;
 input slow_clk ;
-wire Carry_1_0 ;
+input PN_SIN ;
 wire CLK ;
-wire PN_SIN_c ;
 wire sico_wEn ;
 wire slow_clk ;
+wire PN_SIN ;
 wire [8:0] wA_1;
 wire N_35_mux_2 ;
 wire N_23 ;
@@ -1841,30 +1847,28 @@ defparam \wA_1_RNIDA95C1[0] .INIT=16'hEA00;
 	.Y(N_35_mux_2)
 );
 defparam \wA_1_RNI4MCSQ1[3] .INIT=16'hC400;
-//@20:395
-//@20:395
-//@20:395
-//@20:395
-//@20:395
-//@20:395
-//@20:395
-//@20:395
-//@20:395
-// @20:470
+//@19:395
+//@19:395
+//@19:395
+//@19:395
+//@19:395
+//@19:395
+//@19:395
+//@19:395
+//@19:395
+// @19:470
   COREDDS_C0_COREDDS_C0_0_qrtr_lut_Z2_layer1 \qrtr_wave.grtr_lut_0  (
+	.SINE(SINE[3:0]),
 	.wA_1(wA_1[8:0]),
-	.SINE_c(SINE_c[3:0]),
-	.Carry_1_0(Carry_1_0),
-	.COSINE_c(COSINE_c[3:0]),
-	.sin_signal(sin_signal[2:1]),
+	.COSINE(COSINE[3:0]),
 	.full_wave_addr(full_wave_addr[11:0]),
 	.N_23(N_23),
+	.PN_SIN(PN_SIN),
 	.N_35_mux_2(N_35_mux_2),
 	.slow_clk(slow_clk),
 	.sico_wEn(sico_wEn),
 	.m11_0(m11_0),
 	.N_26_mux(N_26_mux),
-	.PN_SIN_c(PN_SIN_c),
 	.CLK(CLK)
 );
   GND GND_Z (
@@ -1885,29 +1889,29 @@ assign wA_1[8] = sico_wA[8];
 endmodule /* COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 */
 
 module dds_kitDelay_reg_5s_1s (
-  FREQ_OFFSET_c,
-  freq_offset,
+  FREQ_OFFSET,
+  freq_offset_1z,
   rstn_full_wave_addr_i_0,
   CLK,
-  NGRST_c
+  NGRST
 )
 ;
-input [4:0] FREQ_OFFSET_c ;
-output [4:0] freq_offset ;
+input [4:0] FREQ_OFFSET ;
+output [4:0] freq_offset_1z ;
 input rstn_full_wave_addr_i_0 ;
 input CLK ;
-input NGRST_c ;
+input NGRST ;
 wire rstn_full_wave_addr_i_0 ;
 wire CLK ;
-wire NGRST_c ;
+wire NGRST ;
 wire [4:0] delayLine_0__3;
 wire VCC ;
 wire GND ;
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][4]  (
-	.Q(freq_offset[4]),
+	.Q(freq_offset_1z[4]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_0__3[4]),
 	.EN(VCC),
@@ -1915,11 +1919,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][3]  (
-	.Q(freq_offset[3]),
+	.Q(freq_offset_1z[3]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_0__3[3]),
 	.EN(VCC),
@@ -1927,11 +1931,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][2]  (
-	.Q(freq_offset[2]),
+	.Q(freq_offset_1z[2]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_0__3[2]),
 	.EN(VCC),
@@ -1939,11 +1943,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][1]  (
-	.Q(freq_offset[1]),
+	.Q(freq_offset_1z[1]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_0__3[1]),
 	.EN(VCC),
@@ -1951,11 +1955,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][0]  (
-	.Q(freq_offset[0]),
+	.Q(freq_offset_1z[0]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(delayLine_0__3[0]),
 	.EN(VCC),
@@ -1963,38 +1967,38 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:95
+// @18:95
   CFG2 \genblk1.delayLine[0]_3[4]  (
 	.A(rstn_full_wave_addr_i_0),
-	.B(FREQ_OFFSET_c[4]),
+	.B(FREQ_OFFSET[4]),
 	.Y(delayLine_0__3[4])
 );
 defparam \genblk1.delayLine[0]_3[4] .INIT=4'h4;
-// @19:95
+// @18:95
   CFG2 \genblk1.delayLine[0]_3[3]  (
 	.A(rstn_full_wave_addr_i_0),
-	.B(FREQ_OFFSET_c[3]),
+	.B(FREQ_OFFSET[3]),
 	.Y(delayLine_0__3[3])
 );
 defparam \genblk1.delayLine[0]_3[3] .INIT=4'h4;
-// @19:95
+// @18:95
   CFG2 \genblk1.delayLine[0]_3[2]  (
 	.A(rstn_full_wave_addr_i_0),
-	.B(FREQ_OFFSET_c[2]),
+	.B(FREQ_OFFSET[2]),
 	.Y(delayLine_0__3[2])
 );
 defparam \genblk1.delayLine[0]_3[2] .INIT=4'h4;
-// @19:95
+// @18:95
   CFG2 \genblk1.delayLine[0]_3[1]  (
 	.A(rstn_full_wave_addr_i_0),
-	.B(FREQ_OFFSET_c[1]),
+	.B(FREQ_OFFSET[1]),
 	.Y(delayLine_0__3[1])
 );
 defparam \genblk1.delayLine[0]_3[1] .INIT=4'h4;
-// @19:95
+// @18:95
   CFG2 \genblk1.delayLine[0]_3[0]  (
 	.A(rstn_full_wave_addr_i_0),
-	.B(FREQ_OFFSET_c[0]),
+	.B(FREQ_OFFSET[0]),
 	.Y(delayLine_0__3[0])
 );
 defparam \genblk1.delayLine[0]_3[0] .INIT=4'h4;
@@ -2014,7 +2018,7 @@ module dds_kitDelay_reg_17s_1s (
   un6_ph_reg_inp_cry_2_0_S,
   un6_ph_reg_inp_cry_3_0_S,
   CLK,
-  NGRST_c
+  NGRST
 )
 ;
 input [16:4] ph_acc_s ;
@@ -2024,20 +2028,20 @@ input un6_ph_reg_inp_cry_1_0_S ;
 input un6_ph_reg_inp_cry_2_0_S ;
 input un6_ph_reg_inp_cry_3_0_S ;
 input CLK ;
-input NGRST_c ;
+input NGRST ;
 wire un6_ph_reg_inp_cry_0_0_Y ;
 wire un6_ph_reg_inp_cry_1_0_S ;
 wire un6_ph_reg_inp_cry_2_0_S ;
 wire un6_ph_reg_inp_cry_3_0_S ;
 wire CLK ;
-wire NGRST_c ;
+wire NGRST ;
 wire VCC ;
 wire GND ;
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][7]  (
 	.Q(ph_reg[7]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[7]),
 	.EN(VCC),
@@ -2045,11 +2049,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][6]  (
 	.Q(ph_reg[6]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[6]),
 	.EN(VCC),
@@ -2057,11 +2061,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][5]  (
 	.Q(ph_reg[5]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[5]),
 	.EN(VCC),
@@ -2069,11 +2073,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][4]  (
 	.Q(ph_reg[4]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[4]),
 	.EN(VCC),
@@ -2081,11 +2085,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][3]  (
 	.Q(ph_reg[3]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(un6_ph_reg_inp_cry_3_0_S),
 	.EN(VCC),
@@ -2093,11 +2097,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][2]  (
 	.Q(ph_reg[2]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(un6_ph_reg_inp_cry_2_0_S),
 	.EN(VCC),
@@ -2105,11 +2109,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][1]  (
 	.Q(ph_reg[1]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(un6_ph_reg_inp_cry_1_0_S),
 	.EN(VCC),
@@ -2117,11 +2121,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][0]  (
 	.Q(ph_reg[0]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(un6_ph_reg_inp_cry_0_0_Y),
 	.EN(VCC),
@@ -2129,11 +2133,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][16]  (
 	.Q(ph_reg[16]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[16]),
 	.EN(VCC),
@@ -2141,11 +2145,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][15]  (
 	.Q(ph_reg[15]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[15]),
 	.EN(VCC),
@@ -2153,11 +2157,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][14]  (
 	.Q(ph_reg[14]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[14]),
 	.EN(VCC),
@@ -2165,11 +2169,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][13]  (
 	.Q(ph_reg[13]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[13]),
 	.EN(VCC),
@@ -2177,11 +2181,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][12]  (
 	.Q(ph_reg[12]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[12]),
 	.EN(VCC),
@@ -2189,11 +2193,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][11]  (
 	.Q(ph_reg[11]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[11]),
 	.EN(VCC),
@@ -2201,11 +2205,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][10]  (
 	.Q(ph_reg[10]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[10]),
 	.EN(VCC),
@@ -2213,11 +2217,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][9]  (
 	.Q(ph_reg[9]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[9]),
 	.EN(VCC),
@@ -2225,11 +2229,11 @@ wire GND ;
 	.SD(GND),
 	.SLn(VCC)
 );
-// @19:90
+// @18:90
   SLE \genblk1.delayLine[0][8]  (
 	.Q(ph_reg[8]),
 	.ADn(VCC),
-	.ALn(NGRST_c),
+	.ALn(NGRST),
 	.CLK(CLK),
 	.D(ph_acc_s[8]),
 	.EN(VCC),
@@ -2246,21 +2250,21 @@ wire GND ;
 endmodule /* dds_kitDelay_reg_17s_1s */
 
 module dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 (
-  FREQ_OFFSET_c,
+  FREQ_OFFSET,
   ph_acc_s,
-  NGRST_c,
+  NGRST,
   CLK,
   rstn_full_wave_addr_i_0,
   rstn_full_wave_addr
 )
 ;
-input [4:0] FREQ_OFFSET_c ;
+input [4:0] FREQ_OFFSET ;
 output [16:4] ph_acc_s ;
-input NGRST_c ;
+input NGRST ;
 input CLK ;
 input rstn_full_wave_addr_i_0 ;
 input rstn_full_wave_addr ;
-wire NGRST_c ;
+wire NGRST ;
 wire CLK ;
 wire rstn_full_wave_addr_i_0 ;
 wire rstn_full_wave_addr ;
@@ -2306,7 +2310,7 @@ wire un6_ph_reg_inp_s_16_Y ;
 wire VCC ;
 wire un6_ph_reg_inp_cry_15 ;
 wire un6_ph_reg_inp_cry_15_0_Y ;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_0_0 (
 	.FCO(un6_ph_reg_inp_cry_0),
 	.S(un6_ph_reg_inp_cry_0_0_S),
@@ -2318,7 +2322,7 @@ wire un6_ph_reg_inp_cry_15_0_Y ;
 	.FCI(GND)
 );
 defparam un6_ph_reg_inp_cry_0_0.INIT=20'h52288;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_1_0 (
 	.FCO(un6_ph_reg_inp_cry_1),
 	.S(un6_ph_reg_inp_cry_1_0_S),
@@ -2330,7 +2334,7 @@ defparam un6_ph_reg_inp_cry_0_0.INIT=20'h52288;
 	.FCI(un6_ph_reg_inp_cry_0)
 );
 defparam un6_ph_reg_inp_cry_1_0.INIT=20'h52288;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_2_0 (
 	.FCO(un6_ph_reg_inp_cry_2),
 	.S(un6_ph_reg_inp_cry_2_0_S),
@@ -2342,7 +2346,7 @@ defparam un6_ph_reg_inp_cry_1_0.INIT=20'h52288;
 	.FCI(un6_ph_reg_inp_cry_1)
 );
 defparam un6_ph_reg_inp_cry_2_0.INIT=20'h52288;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_3_0 (
 	.FCO(un6_ph_reg_inp_cry_3),
 	.S(un6_ph_reg_inp_cry_3_0_S),
@@ -2354,7 +2358,7 @@ defparam un6_ph_reg_inp_cry_2_0.INIT=20'h52288;
 	.FCI(un6_ph_reg_inp_cry_2)
 );
 defparam un6_ph_reg_inp_cry_3_0.INIT=20'h52288;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_4_0 (
 	.FCO(un6_ph_reg_inp_cry_4),
 	.S(ph_acc_s[4]),
@@ -2366,7 +2370,7 @@ defparam un6_ph_reg_inp_cry_3_0.INIT=20'h52288;
 	.FCI(un6_ph_reg_inp_cry_3)
 );
 defparam un6_ph_reg_inp_cry_4_0.INIT=20'h52288;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_5_0 (
 	.FCO(un6_ph_reg_inp_cry_5),
 	.S(ph_acc_s[5]),
@@ -2378,7 +2382,7 @@ defparam un6_ph_reg_inp_cry_4_0.INIT=20'h52288;
 	.FCI(un6_ph_reg_inp_cry_4)
 );
 defparam un6_ph_reg_inp_cry_5_0.INIT=20'h5AA00;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_6_0 (
 	.FCO(un6_ph_reg_inp_cry_6),
 	.S(ph_acc_s[6]),
@@ -2390,7 +2394,7 @@ defparam un6_ph_reg_inp_cry_5_0.INIT=20'h5AA00;
 	.FCI(un6_ph_reg_inp_cry_5)
 );
 defparam un6_ph_reg_inp_cry_6_0.INIT=20'h5AA00;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_7_0 (
 	.FCO(un6_ph_reg_inp_cry_7),
 	.S(ph_acc_s[7]),
@@ -2402,7 +2406,7 @@ defparam un6_ph_reg_inp_cry_6_0.INIT=20'h5AA00;
 	.FCI(un6_ph_reg_inp_cry_6)
 );
 defparam un6_ph_reg_inp_cry_7_0.INIT=20'h5AA00;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_8_0 (
 	.FCO(un6_ph_reg_inp_cry_8),
 	.S(ph_acc_s[8]),
@@ -2414,7 +2418,7 @@ defparam un6_ph_reg_inp_cry_7_0.INIT=20'h5AA00;
 	.FCI(un6_ph_reg_inp_cry_7)
 );
 defparam un6_ph_reg_inp_cry_8_0.INIT=20'h5AA00;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_9_0 (
 	.FCO(un6_ph_reg_inp_cry_9),
 	.S(ph_acc_s[9]),
@@ -2426,7 +2430,7 @@ defparam un6_ph_reg_inp_cry_8_0.INIT=20'h5AA00;
 	.FCI(un6_ph_reg_inp_cry_8)
 );
 defparam un6_ph_reg_inp_cry_9_0.INIT=20'h5AA00;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_10_0 (
 	.FCO(un6_ph_reg_inp_cry_10),
 	.S(ph_acc_s[10]),
@@ -2438,7 +2442,7 @@ defparam un6_ph_reg_inp_cry_9_0.INIT=20'h5AA00;
 	.FCI(un6_ph_reg_inp_cry_9)
 );
 defparam un6_ph_reg_inp_cry_10_0.INIT=20'h5AA00;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_11_0 (
 	.FCO(un6_ph_reg_inp_cry_11),
 	.S(ph_acc_s[11]),
@@ -2450,7 +2454,7 @@ defparam un6_ph_reg_inp_cry_10_0.INIT=20'h5AA00;
 	.FCI(un6_ph_reg_inp_cry_10)
 );
 defparam un6_ph_reg_inp_cry_11_0.INIT=20'h5AA00;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_12_0 (
 	.FCO(un6_ph_reg_inp_cry_12),
 	.S(ph_acc_s[12]),
@@ -2462,7 +2466,7 @@ defparam un6_ph_reg_inp_cry_11_0.INIT=20'h5AA00;
 	.FCI(un6_ph_reg_inp_cry_11)
 );
 defparam un6_ph_reg_inp_cry_12_0.INIT=20'h5AA00;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_13_0 (
 	.FCO(un6_ph_reg_inp_cry_13),
 	.S(ph_acc_s[13]),
@@ -2474,7 +2478,7 @@ defparam un6_ph_reg_inp_cry_12_0.INIT=20'h5AA00;
 	.FCI(un6_ph_reg_inp_cry_12)
 );
 defparam un6_ph_reg_inp_cry_13_0.INIT=20'h5AA00;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_14_0 (
 	.FCO(un6_ph_reg_inp_cry_14),
 	.S(ph_acc_s[14]),
@@ -2486,7 +2490,7 @@ defparam un6_ph_reg_inp_cry_13_0.INIT=20'h5AA00;
 	.FCI(un6_ph_reg_inp_cry_13)
 );
 defparam un6_ph_reg_inp_cry_14_0.INIT=20'h5AA00;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_s_16 (
 	.FCO(un6_ph_reg_inp_s_16_FCO),
 	.S(ph_acc_s[16]),
@@ -2498,7 +2502,7 @@ defparam un6_ph_reg_inp_cry_14_0.INIT=20'h5AA00;
 	.FCI(un6_ph_reg_inp_cry_15)
 );
 defparam un6_ph_reg_inp_s_16.INIT=20'h48800;
-// @21:184
+// @20:184
   ARI1 un6_ph_reg_inp_cry_15_0 (
 	.FCO(un6_ph_reg_inp_cry_15),
 	.S(ph_acc_s[15]),
@@ -2510,15 +2514,15 @@ defparam un6_ph_reg_inp_s_16.INIT=20'h48800;
 	.FCI(un6_ph_reg_inp_cry_14)
 );
 defparam un6_ph_reg_inp_cry_15_0.INIT=20'h5AA00;
-// @21:149
+// @20:149
   dds_kitDelay_reg_5s_1s \var_ph_inc_port.ext_ph_inc_0  (
-	.FREQ_OFFSET_c(FREQ_OFFSET_c[4:0]),
-	.freq_offset(freq_offset[4:0]),
+	.FREQ_OFFSET(FREQ_OFFSET[4:0]),
+	.freq_offset_1z(freq_offset[4:0]),
 	.rstn_full_wave_addr_i_0(rstn_full_wave_addr_i_0),
 	.CLK(CLK),
-	.NGRST_c(NGRST_c)
+	.NGRST(NGRST)
 );
-// @21:186
+// @20:186
   dds_kitDelay_reg_17s_1s \ph_accum_through.ph_accum_0  (
 	.ph_acc_s(ph_acc_s[16:4]),
 	.ph_reg(ph_reg[16:0]),
@@ -2527,7 +2531,7 @@ defparam un6_ph_reg_inp_cry_15_0.INIT=20'h5AA00;
 	.un6_ph_reg_inp_cry_2_0_S(un6_ph_reg_inp_cry_2_0_S),
 	.un6_ph_reg_inp_cry_3_0_S(un6_ph_reg_inp_cry_3_0_S),
 	.CLK(CLK),
-	.NGRST_c(NGRST_c)
+	.NGRST(NGRST)
 );
   GND GND_Z (
 	.Y(GND)
@@ -2538,24 +2542,24 @@ defparam un6_ph_reg_inp_cry_15_0.INIT=20'h5AA00;
 endmodule /* dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 */
 
 module dds_quantizer_Z3_layer1 (
-  FREQ_OFFSET_c,
+  FREQ_OFFSET,
   full_wave_addr,
   rstn_full_wave_addr,
   rstn_full_wave_addr_i_0,
   CLK,
-  NGRST_c
+  NGRST
 )
 ;
-input [4:0] FREQ_OFFSET_c ;
+input [4:0] FREQ_OFFSET ;
 output [11:0] full_wave_addr ;
 input rstn_full_wave_addr ;
 input rstn_full_wave_addr_i_0 ;
 input CLK ;
-input NGRST_c ;
+input NGRST ;
 wire rstn_full_wave_addr ;
 wire rstn_full_wave_addr_i_0 ;
 wire CLK ;
-wire NGRST_c ;
+wire NGRST ;
 wire [16:4] ph_acc_s;
 wire round_inp_s_1_51_FCO ;
 wire round_inp_s_1_51_S ;
@@ -2586,7 +2590,7 @@ wire round_inp_s_12_FCO ;
 wire round_inp_s_12_Y ;
 wire round_inp_cry_11_Z ;
 wire round_inp_cry_11_Y ;
-// @21:447
+// @20:447
   ARI1 round_inp_s_1_51 (
 	.FCO(round_inp_s_1_51_FCO),
 	.S(round_inp_s_1_51_S),
@@ -2598,7 +2602,7 @@ wire round_inp_cry_11_Y ;
 	.FCI(VCC)
 );
 defparam round_inp_s_1_51.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_1 (
 	.FCO(round_inp_cry_1_Z),
 	.S(full_wave_addr[0]),
@@ -2610,7 +2614,7 @@ defparam round_inp_s_1_51.INIT=20'h4AA00;
 	.FCI(round_inp_s_1_51_FCO)
 );
 defparam round_inp_cry_1.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_2 (
 	.FCO(round_inp_cry_2_Z),
 	.S(full_wave_addr[1]),
@@ -2622,7 +2626,7 @@ defparam round_inp_cry_1.INIT=20'h4AA00;
 	.FCI(round_inp_cry_1_Z)
 );
 defparam round_inp_cry_2.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_3 (
 	.FCO(round_inp_cry_3_Z),
 	.S(full_wave_addr[2]),
@@ -2634,7 +2638,7 @@ defparam round_inp_cry_2.INIT=20'h4AA00;
 	.FCI(round_inp_cry_2_Z)
 );
 defparam round_inp_cry_3.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_4 (
 	.FCO(round_inp_cry_4_Z),
 	.S(full_wave_addr[3]),
@@ -2646,7 +2650,7 @@ defparam round_inp_cry_3.INIT=20'h4AA00;
 	.FCI(round_inp_cry_3_Z)
 );
 defparam round_inp_cry_4.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_5 (
 	.FCO(round_inp_cry_5_Z),
 	.S(full_wave_addr[4]),
@@ -2658,7 +2662,7 @@ defparam round_inp_cry_4.INIT=20'h4AA00;
 	.FCI(round_inp_cry_4_Z)
 );
 defparam round_inp_cry_5.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_6 (
 	.FCO(round_inp_cry_6_Z),
 	.S(full_wave_addr[5]),
@@ -2670,7 +2674,7 @@ defparam round_inp_cry_5.INIT=20'h4AA00;
 	.FCI(round_inp_cry_5_Z)
 );
 defparam round_inp_cry_6.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_7 (
 	.FCO(round_inp_cry_7_Z),
 	.S(full_wave_addr[6]),
@@ -2682,7 +2686,7 @@ defparam round_inp_cry_6.INIT=20'h4AA00;
 	.FCI(round_inp_cry_6_Z)
 );
 defparam round_inp_cry_7.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_8 (
 	.FCO(round_inp_cry_8_Z),
 	.S(full_wave_addr[7]),
@@ -2694,7 +2698,7 @@ defparam round_inp_cry_7.INIT=20'h4AA00;
 	.FCI(round_inp_cry_7_Z)
 );
 defparam round_inp_cry_8.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_9 (
 	.FCO(round_inp_cry_9_Z),
 	.S(full_wave_addr[8]),
@@ -2706,7 +2710,7 @@ defparam round_inp_cry_8.INIT=20'h4AA00;
 	.FCI(round_inp_cry_8_Z)
 );
 defparam round_inp_cry_9.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_10 (
 	.FCO(round_inp_cry_10_Z),
 	.S(full_wave_addr[9]),
@@ -2718,7 +2722,7 @@ defparam round_inp_cry_9.INIT=20'h4AA00;
 	.FCI(round_inp_cry_9_Z)
 );
 defparam round_inp_cry_10.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_s_12 (
 	.FCO(round_inp_s_12_FCO),
 	.S(full_wave_addr[11]),
@@ -2730,7 +2734,7 @@ defparam round_inp_cry_10.INIT=20'h4AA00;
 	.FCI(round_inp_cry_11_Z)
 );
 defparam round_inp_s_12.INIT=20'h4AA00;
-// @21:447
+// @20:447
   ARI1 round_inp_cry_11 (
 	.FCO(round_inp_cry_11_Z),
 	.S(full_wave_addr[10]),
@@ -2743,9 +2747,9 @@ defparam round_inp_s_12.INIT=20'h4AA00;
 );
 defparam round_inp_cry_11.INIT=20'h4AA00;
   dds_ph_accumulator_1s_5s_17s_1000000s_0s_0s_82496_18 ph_accum_0 (
-	.FREQ_OFFSET_c(FREQ_OFFSET_c[4:0]),
+	.FREQ_OFFSET(FREQ_OFFSET[4:0]),
 	.ph_acc_s(ph_acc_s[16:4]),
-	.NGRST_c(NGRST_c),
+	.NGRST(NGRST),
 	.CLK(CLK),
 	.rstn_full_wave_addr_i_0(rstn_full_wave_addr_i_0),
 	.rstn_full_wave_addr(rstn_full_wave_addr)
@@ -2759,31 +2763,26 @@ defparam round_inp_cry_11.INIT=20'h4AA00;
 endmodule /* dds_quantizer_Z3_layer1 */
 
 module COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 (
-  FREQ_OFFSET_c,
-  SINE_c,
-  Carry_1_0,
-  COSINE_c,
-  sin_signal,
-  PN_SIN_c,
-  NGRST_c,
+  FREQ_OFFSET,
+  SINE,
+  COSINE,
+  PN_SIN,
+  NGRST,
   CLK,
-  RSTN_c
+  RSTN
 )
 ;
-input [4:0] FREQ_OFFSET_c ;
-output [3:0] SINE_c ;
-input Carry_1_0 ;
-output [3:0] COSINE_c ;
-output [2:1] sin_signal ;
-input PN_SIN_c ;
-input NGRST_c ;
+input [4:0] FREQ_OFFSET ;
+output [3:0] SINE ;
+output [3:0] COSINE ;
+input PN_SIN ;
+input NGRST ;
 input CLK ;
-input RSTN_c ;
-wire Carry_1_0 ;
-wire PN_SIN_c ;
-wire NGRST_c ;
+input RSTN ;
+wire PN_SIN ;
+wire NGRST ;
 wire CLK ;
-wire RSTN_c ;
+wire RSTN ;
 wire [3:0] lfsr_wA;
 wire [8:4] sico_wA;
 wire [11:0] full_wave_addr;
@@ -2795,23 +2794,23 @@ wire slow_clk ;
 wire sico_wEn ;
 wire GND ;
 wire VCC ;
-// @22:157
+// @21:157
   CFG3 rstn_full_wave_addr_i_0 (
-	.A(RSTN_c),
+	.A(RSTN),
 	.B(INIT_OVER),
 	.C(synced_ngrst),
 	.Y(rstn_full_wave_addr_i_0_Z)
 );
 defparam rstn_full_wave_addr_i_0.INIT=8'hDF;
-// @22:157
+// @21:157
   CFG3 rstn_full_wave_addr (
-	.A(RSTN_c),
+	.A(RSTN),
 	.B(INIT_OVER),
 	.C(synced_ngrst),
 	.Y(rstn_full_wave_addr_Z)
 );
 defparam rstn_full_wave_addr.INIT=8'h20;
-// @22:114
+// @21:114
   dds_LUT_initializer_9s_4s_2s_9s_4s_512s_16s dds_initializer_0 (
 	.lfsr_wA(lfsr_wA[3:0]),
 	.sico_wA(sico_wA[8:4]),
@@ -2819,30 +2818,28 @@ defparam rstn_full_wave_addr.INIT=8'h20;
 	.synced_ngrst(synced_ngrst),
 	.slow_clk(slow_clk),
 	.CLK(CLK),
-	.NGRST_c(NGRST_c),
+	.NGRST(NGRST),
 	.sico_wEn(sico_wEn)
 );
-// @22:138
+// @21:138
   COREDDS_C0_COREDDS_C0_0_sin_cos_lut_Z1_layer1 sin_cos_lut_0 (
 	.full_wave_addr(full_wave_addr[11:0]),
-	.sin_signal(sin_signal[2:1]),
-	.COSINE_c(COSINE_c[3:0]),
-	.Carry_1_0(Carry_1_0),
-	.SINE_c(SINE_c[3:0]),
+	.COSINE(COSINE[3:0]),
+	.SINE(SINE[3:0]),
 	.lfsr_wA(lfsr_wA[3:0]),
 	.sico_wA(sico_wA[8:4]),
 	.CLK(CLK),
-	.PN_SIN_c(PN_SIN_c),
 	.sico_wEn(sico_wEn),
-	.slow_clk(slow_clk)
+	.slow_clk(slow_clk),
+	.PN_SIN(PN_SIN)
 );
   dds_quantizer_Z3_layer1 quantizer_0 (
-	.FREQ_OFFSET_c(FREQ_OFFSET_c[4:0]),
+	.FREQ_OFFSET(FREQ_OFFSET[4:0]),
 	.full_wave_addr(full_wave_addr[11:0]),
 	.rstn_full_wave_addr(rstn_full_wave_addr_Z),
 	.rstn_full_wave_addr_i_0(rstn_full_wave_addr_i_0_Z),
 	.CLK(CLK),
-	.NGRST_c(NGRST_c)
+	.NGRST(NGRST)
 );
   GND GND_Z (
 	.Y(GND)
@@ -2853,44 +2850,37 @@ defparam rstn_full_wave_addr.INIT=8'h20;
 endmodule /* COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 */
 
 module COREDDS_C0 (
-  sin_signal,
-  COSINE_c,
-  Carry_1_0,
-  SINE_c,
-  FREQ_OFFSET_c,
-  RSTN_c,
+  COSINE,
+  SINE,
+  FREQ_OFFSET,
+  RSTN,
   CLK,
-  NGRST_c,
-  PN_SIN_c
+  NGRST,
+  PN_SIN
 )
 ;
-output [2:1] sin_signal ;
-output [3:0] COSINE_c ;
-input Carry_1_0 ;
-output [3:0] SINE_c ;
-input [4:0] FREQ_OFFSET_c ;
-input RSTN_c ;
+output [3:0] COSINE ;
+output [3:0] SINE ;
+input [4:0] FREQ_OFFSET ;
+input RSTN ;
 input CLK ;
-input NGRST_c ;
-input PN_SIN_c ;
-wire Carry_1_0 ;
-wire RSTN_c ;
+input NGRST ;
+input PN_SIN ;
+wire RSTN ;
 wire CLK ;
-wire NGRST_c ;
-wire PN_SIN_c ;
+wire NGRST ;
+wire PN_SIN ;
 wire GND ;
 wire VCC ;
-// @23:131
+// @22:131
   COREDDS_C0_COREDDS_C0_0_COREDDS_Z4_layer1 COREDDS_C0_0 (
-	.FREQ_OFFSET_c(FREQ_OFFSET_c[4:0]),
-	.SINE_c(SINE_c[3:0]),
-	.Carry_1_0(Carry_1_0),
-	.COSINE_c(COSINE_c[3:0]),
-	.sin_signal(sin_signal[2:1]),
-	.PN_SIN_c(PN_SIN_c),
-	.NGRST_c(NGRST_c),
+	.FREQ_OFFSET(FREQ_OFFSET[4:0]),
+	.SINE(SINE[3:0]),
+	.COSINE(COSINE[3:0]),
+	.PN_SIN(PN_SIN),
+	.NGRST(NGRST),
 	.CLK(CLK),
-	.RSTN_c(RSTN_c)
+	.RSTN(RSTN)
 );
   GND GND_Z (
 	.Y(GND)
@@ -2921,124 +2911,22 @@ wire CLK ;
 wire NGRST ;
 wire RSTN ;
 wire PN_SIN ;
-wire [2:1] sin_signal;
-wire [3:3] SIN_NEG_Carry_1;
-wire [4:0] FREQ_OFFSET_c;
-wire [3:0] COSINE_c;
-wire [3:0] SINE_c;
 wire NN_1 ;
 wire VCC ;
 wire GND ;
-wire CLK_ibuf_Z ;
-wire NGRST_c ;
-wire RSTN_c ;
-wire PN_SIN_c ;
-// @10:28
-  INBUF CLK_ibuf (
-	.Y(CLK_ibuf_Z),
-	.PAD(CLK)
-);
-// @10:29
-  INBUF \FREQ_OFFSET_ibuf[0]  (
-	.Y(FREQ_OFFSET_c[0]),
-	.PAD(FREQ_OFFSET[0])
-);
-// @10:29
-  INBUF \FREQ_OFFSET_ibuf[1]  (
-	.Y(FREQ_OFFSET_c[1]),
-	.PAD(FREQ_OFFSET[1])
-);
-// @10:29
-  INBUF \FREQ_OFFSET_ibuf[2]  (
-	.Y(FREQ_OFFSET_c[2]),
-	.PAD(FREQ_OFFSET[2])
-);
-// @10:29
-  INBUF \FREQ_OFFSET_ibuf[3]  (
-	.Y(FREQ_OFFSET_c[3]),
-	.PAD(FREQ_OFFSET[3])
-);
-// @10:29
-  INBUF \FREQ_OFFSET_ibuf[4]  (
-	.Y(FREQ_OFFSET_c[4]),
-	.PAD(FREQ_OFFSET[4])
-);
-// @10:30
-  INBUF NGRST_ibuf (
-	.Y(NGRST_c),
-	.PAD(NGRST)
-);
-// @10:31
-  INBUF RSTN_ibuf (
-	.Y(RSTN_c),
-	.PAD(RSTN)
-);
-// @10:32
-  INBUF PN_SIN_ibuf (
-	.Y(PN_SIN_c),
-	.PAD(PN_SIN)
-);
-// @10:34
-  OUTBUF \COSINE_obuf[0]  (
-	.PAD(COSINE[0]),
-	.D(COSINE_c[0])
-);
-// @10:34
-  OUTBUF \COSINE_obuf[1]  (
-	.PAD(COSINE[1]),
-	.D(COSINE_c[1])
-);
-// @10:34
-  OUTBUF \COSINE_obuf[2]  (
-	.PAD(COSINE[2]),
-	.D(COSINE_c[2])
-);
-// @10:34
-  OUTBUF \COSINE_obuf[3]  (
-	.PAD(COSINE[3]),
-	.D(COSINE_c[3])
-);
-// @10:35
-  OUTBUF \SINE_obuf[0]  (
-	.PAD(SINE[0]),
-	.D(SINE_c[0])
-);
-// @10:35
-  OUTBUF \SINE_obuf[1]  (
-	.PAD(SINE[1]),
-	.D(SINE_c[1])
-);
-// @10:35
-  OUTBUF \SINE_obuf[2]  (
-	.PAD(SINE[2]),
-	.D(SINE_c[2])
-);
-// @10:35
-  OUTBUF \SINE_obuf[3]  (
-	.PAD(SINE[3]),
-	.D(SINE_c[3])
-);
   CLKINT I_1 (
 	.Y(NN_1),
-	.A(CLK_ibuf_Z)
+	.A(CLK)
 );
-// @10:87
-  Negative_Integer_4 SIN_NEG (
-	.Carry_1_0(SIN_NEG_Carry_1[3]),
-	.SINE_c_0(SINE_c[0]),
-	.sin_signal(sin_signal[2:1])
-);
-// @10:75
+// @9:75
   COREDDS_C0 SINE_GENERATOR (
-	.sin_signal(sin_signal[2:1]),
-	.COSINE_c(COSINE_c[3:0]),
-	.Carry_1_0(SIN_NEG_Carry_1[3]),
-	.SINE_c(SINE_c[3:0]),
-	.FREQ_OFFSET_c(FREQ_OFFSET_c[4:0]),
-	.RSTN_c(RSTN_c),
+	.COSINE(COSINE[3:0]),
+	.SINE(SINE[3:0]),
+	.FREQ_OFFSET(FREQ_OFFSET[4:0]),
+	.RSTN(RSTN),
 	.CLK(NN_1),
-	.NGRST_c(NGRST_c),
-	.PN_SIN_c(PN_SIN_c)
+	.NGRST(NGRST),
+	.PN_SIN(PN_SIN)
 );
   GND GND_Z (
 	.Y(GND)

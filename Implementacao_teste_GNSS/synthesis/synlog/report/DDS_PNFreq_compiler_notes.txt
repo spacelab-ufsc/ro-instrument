@@ -1,17 +1,14 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N:"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Top entity is set to DDS_PNFreq.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd'.
 @N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N|Running in 64-bit mode
 @N: CG1349 :	| Running Verilog Compiler in System Verilog mode
 @N:"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Top entity is set to DDS_PNFreq.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd'.
 @N: CD231 :"C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Common\DDS_PNFreq.vhd":24:7:24:16|Synthesizing work.dds_pnfreq.behavioral.
-@N: CD630 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl\Negative_Integer.vhd":24:7:24:22|Synthesizing work.negative_integer.architecture_negative_integer.
 @N: CG1349 :	| Running Verilog Compiler in System Verilog mode
 @N: CG775 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\work\COREDDS_C0\COREDDS_C0_0\rtl\vlog\core\DDS_TOP.v":27:7:27:37|Component COREDDS_C0_COREDDS_C0_0_COREDDS not found in library "work" or "__hyper__lib__", but found in library COREDDS_LIB
 @N: CG364 :"C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vlog\core\dds_kit.v":32:7:32:26|Synthesizing module dds_kitDelay_bit_reg in library COREDDS_LIB.
