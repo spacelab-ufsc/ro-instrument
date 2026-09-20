@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SSW_126_01_G_D'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "SAMTEC", "SSW-126-01-G-D" (!) = "", "SSW-126-XX-YYY-D", "Other", "200-SSW12601GD", "https://www.mouser.co.uk/ProductDetail/Samtec/SSW-126-01-G-D?qs=rU5fayqh%252BE0Emlk%2F61GTGg%3D%3D", "52 Position, .100&quot; Tiger Buy&trade; Socket Strip", "http://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf"
+END_PART
+
+END.

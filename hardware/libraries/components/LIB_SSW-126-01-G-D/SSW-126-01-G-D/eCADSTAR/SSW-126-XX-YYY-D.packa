@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SSW-126-01-G-D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-11-15-13:35:18)
+    (mountForm default
+        (footprintRef "SSW-126-XX-YYY-D")
+        (spec "System")
+    )
+)

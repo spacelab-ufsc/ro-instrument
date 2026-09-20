@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=SSW-126-01-G-D
+PartCategory=Connector
+PackageCategory=Other
+PinCount=52
+Version=2.1
+Released=2017-01-11 19:42:01
+Downloaded=2026-09-18 21:30:15
+3D=N
