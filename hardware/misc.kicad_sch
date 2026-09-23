@@ -2437,7 +2437,7 @@
 	)
 	(text "Power LEDs"
 		(exclude_from_sim no)
-		(at 204.724 33.782 0)
+		(at 221.234 36.322 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -2461,7 +2461,7 @@
 	)
 	(text "User LEDs"
 		(exclude_from_sim no)
-		(at 141.986 98.552 0)
+		(at 158.496 98.552 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -2473,7 +2473,7 @@
 	)
 	(text "EEPROM\n"
 		(exclude_from_sim no)
-		(at 143.002 33.782 0)
+		(at 159.512 36.322 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -2484,31 +2484,31 @@
 		(uuid "c07632e7-943e-4e10-b5b9-60ea9bf45231")
 	)
 	(junction
-		(at 223.52 115.57)
+		(at 240.03 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05a78aba-6da6-49ac-be5e-3df44f0d30a1")
 	)
 	(junction
-		(at 57.15 115.57)
+		(at 73.66 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "250b5fea-a2e7-4f9a-bc75-0b63dffe3bbb")
 	)
 	(junction
-		(at 123.19 115.57)
+		(at 139.7 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b2bb2bb-b2d6-4be2-92e7-5c28140b1564")
 	)
 	(junction
-		(at 162.56 53.34)
+		(at 179.07 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38bb278f-aa52-4361-aec2-d64a371959cd")
 	)
 	(junction
-		(at 139.7 115.57)
+		(at 156.21 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "393e677e-a9a2-48fe-aca4-074d21a6d1d8")
@@ -2520,31 +2520,31 @@
 		(uuid "4baec69a-b233-47ab-8891-6e24375f6a7d")
 	)
 	(junction
-		(at 172.72 63.5)
+		(at 189.23 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c9e1e4d-79e3-4c77-b12c-9080e5c91a58")
 	)
 	(junction
-		(at 106.68 115.57)
+		(at 123.19 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "567a62ad-4b0a-4322-8d86-8feedbf92102")
 	)
 	(junction
-		(at 90.17 115.57)
+		(at 106.68 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fc32659-94a3-4fc3-9566-43b541bb8f8d")
 	)
 	(junction
-		(at 190.5 115.57)
+		(at 207.01 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7143e487-f11a-4b51-9fc3-ac4da4137e5d")
 	)
 	(junction
-		(at 207.01 115.57)
+		(at 223.52 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76c1836b-9416-45ca-9273-b5f9b866d9a4")
@@ -2556,13 +2556,13 @@
 		(uuid "8553b141-1eb1-4a4f-b95b-fb63ec6d386c")
 	)
 	(junction
-		(at 73.66 115.57)
+		(at 90.17 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8722bd3c-99ac-4f1d-85c3-93139378815b")
 	)
 	(junction
-		(at 173.99 115.57)
+		(at 190.5 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88517ca3-fe5b-416d-a55e-c8e767e7fcf6")
@@ -2574,13 +2574,13 @@
 		(uuid "96fdcc7a-cfe3-4eb0-8151-c4670738dadf")
 	)
 	(junction
-		(at 157.48 115.57)
+		(at 173.99 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a294da22-0a2d-467f-8c2c-49fedaa5ab03")
 	)
 	(junction
-		(at 162.56 40.64)
+		(at 179.07 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d01b0f8c-31af-4fcd-a8d6-81beee4aa87e")
@@ -2599,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 125.73) (xy 123.19 128.27)
+			(xy 139.7 125.73) (xy 139.7 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2609,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 63.5) (xy 172.72 50.8)
+			(xy 189.23 66.04) (xy 189.23 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2619,7 +2619,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 125.73) (xy 240.03 128.27)
+			(xy 256.54 125.73) (xy 256.54 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2629,7 +2629,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 125.73) (xy 190.5 128.27)
+			(xy 207.01 125.73) (xy 207.01 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2639,7 +2639,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 148.59) (xy 128.27 175.26)
+			(xy 144.78 148.59) (xy 144.78 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2649,7 +2649,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 148.59) (xy 199.39 148.59)
+			(xy 212.09 148.59) (xy 215.9 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2679,7 +2679,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 135.89) (xy 123.19 138.43)
+			(xy 139.7 135.89) (xy 139.7 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2689,7 +2689,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 148.59) (xy 99.06 148.59)
+			(xy 111.76 148.59) (xy 115.57 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2699,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 153.67) (xy 123.19 156.21)
+			(xy 139.7 153.67) (xy 139.7 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 49.53) (xy 157.48 49.53)
+			(xy 171.45 52.07) (xy 173.99 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2729,7 +2729,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 190.5) (xy 228.6 148.59)
+			(xy 245.11 190.5) (xy 245.11 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2739,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 187.96) (xy 212.09 187.96)
+			(xy 48.26 187.96) (xy 228.6 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2749,7 +2749,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 115.57) (xy 240.03 115.57)
+			(xy 107.95 60.96) (xy 119.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1772a99f-318f-4937-995f-9d690d2e7213")
+	)
+	(wire
+		(pts
+			(xy 240.03 115.57) (xy 256.54 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2759,7 +2769,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 57.15) (xy 157.48 57.15)
+			(xy 171.45 59.69) (xy 173.99 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2769,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 115.57) (xy 57.15 118.11)
+			(xy 73.66 115.57) (xy 73.66 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2779,7 +2789,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 49.53) (xy 157.48 40.64)
+			(xy 173.99 52.07) (xy 173.99 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2789,7 +2799,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 60.96) (xy 207.01 63.5)
+			(xy 223.52 63.5) (xy 223.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2799,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 125.73) (xy 223.52 128.27)
+			(xy 240.03 125.73) (xy 240.03 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 148.59) (xy 232.41 148.59)
+			(xy 245.11 148.59) (xy 248.92 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2819,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 148.59) (xy 149.86 148.59)
+			(xy 161.29 148.59) (xy 166.37 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2829,7 +2839,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 115.57) (xy 123.19 118.11)
+			(xy 139.7 115.57) (xy 139.7 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2839,7 +2849,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 115.57) (xy 173.99 115.57)
+			(xy 173.99 115.57) (xy 190.5 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 115.57) (xy 173.99 118.11)
+			(xy 190.5 115.57) (xy 190.5 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 53.34) (xy 162.56 53.34)
+			(xy 171.45 55.88) (xy 179.07 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 135.89) (xy 139.7 138.43)
+			(xy 156.21 135.89) (xy 156.21 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2889,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 153.67) (xy 240.03 156.21)
+			(xy 256.54 153.67) (xy 256.54 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +2909,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 115.57) (xy 240.03 118.11)
+			(xy 256.54 115.57) (xy 256.54 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +2919,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 135.89) (xy 240.03 138.43)
+			(xy 256.54 135.89) (xy 256.54 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2919,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 74.93) (xy 172.72 71.12)
+			(xy 189.23 77.47) (xy 189.23 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2929,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 125.73) (xy 73.66 128.27)
+			(xy 90.17 125.73) (xy 90.17 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2939,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 115.57) (xy 157.48 118.11)
+			(xy 173.99 115.57) (xy 173.99 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +2959,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 115.57) (xy 90.17 115.57)
+			(xy 90.17 115.57) (xy 106.68 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2959,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 43.18) (xy 172.72 40.64)
+			(xy 189.23 45.72) (xy 189.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +2979,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 125.73) (xy 173.99 128.27)
+			(xy 190.5 125.73) (xy 190.5 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2979,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 153.67) (xy 73.66 156.21)
+			(xy 90.17 153.67) (xy 90.17 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2989,7 +2999,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 115.57) (xy 106.68 118.11)
+			(xy 123.19 115.57) (xy 123.19 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2999,7 +3009,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 38.1) (xy 162.56 40.64)
+			(xy 179.07 40.64) (xy 179.07 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3019,7 +3029,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 190.5) (xy 228.6 190.5)
+			(xy 48.26 190.5) (xy 245.11 190.5)
 		)
 		(stroke
 			(width 0)
@@ -3029,7 +3039,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 153.67) (xy 90.17 156.21)
+			(xy 106.68 153.67) (xy 106.68 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 153.67) (xy 173.99 156.21)
+			(xy 190.5 153.67) (xy 190.5 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3059,7 +3069,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 153.67) (xy 157.48 156.21)
+			(xy 173.99 153.67) (xy 173.99 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3069,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 125.73) (xy 207.01 128.27)
+			(xy 223.52 125.73) (xy 223.52 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3089,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 148.59) (xy 215.9 148.59)
+			(xy 228.6 148.59) (xy 232.41 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 185.42) (xy 195.58 185.42)
+			(xy 48.26 185.42) (xy 212.09 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3099,7 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 153.67) (xy 57.15 156.21)
+			(xy 73.66 153.67) (xy 73.66 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3119,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 113.03) (xy 57.15 115.57)
+			(xy 73.66 113.03) (xy 73.66 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3119,7 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 172.72) (xy 111.76 148.59)
+			(xy 128.27 172.72) (xy 128.27 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3129,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 135.89) (xy 157.48 138.43)
+			(xy 173.99 135.89) (xy 173.99 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 40.64) (xy 162.56 40.64)
+			(xy 173.99 43.18) (xy 179.07 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3149,7 +3159,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 115.57) (xy 207.01 115.57)
+			(xy 207.01 115.57) (xy 223.52 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 125.73) (xy 157.48 128.27)
+			(xy 173.99 125.73) (xy 173.99 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3169,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 153.67) (xy 207.01 156.21)
+			(xy 223.52 153.67) (xy 223.52 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3189,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 115.57) (xy 90.17 118.11)
+			(xy 106.68 115.57) (xy 106.68 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3189,7 +3199,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 40.64) (xy 162.56 43.18)
+			(xy 179.07 43.18) (xy 179.07 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3209,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 148.59) (xy 82.55 148.59)
+			(xy 95.25 148.59) (xy 99.06 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3219,7 +3229,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 135.89) (xy 73.66 138.43)
+			(xy 90.17 135.89) (xy 90.17 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3249,13 +3259,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 53.34) (xy 162.56 55.88)
+			(xy 179.07 55.88) (xy 179.07 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76045057-d472-410d-8841-d433a6737824")
+	)
+	(wire
+		(pts
+			(xy 107.95 58.42) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c93d5a-813f-4656-aef6-e4eff522cb7a")
 	)
 	(wire
 		(pts
@@ -3269,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 50.8) (xy 162.56 53.34)
+			(xy 179.07 53.34) (xy 179.07 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +3299,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 170.18) (xy 95.25 170.18)
+			(xy 48.26 170.18) (xy 111.76 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3289,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 153.67) (xy 106.68 156.21)
+			(xy 123.19 153.67) (xy 123.19 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3309,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 177.8) (xy 144.78 177.8)
+			(xy 48.26 177.8) (xy 161.29 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 125.73) (xy 139.7 128.27)
+			(xy 156.21 125.73) (xy 156.21 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3359,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 115.57) (xy 139.7 115.57)
+			(xy 139.7 115.57) (xy 156.21 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 167.64) (xy 78.74 148.59)
+			(xy 95.25 167.64) (xy 95.25 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3369,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 165.1) (xy 62.23 165.1)
+			(xy 48.26 165.1) (xy 78.74 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +3399,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 165.1) (xy 62.23 148.59)
+			(xy 78.74 165.1) (xy 78.74 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3389,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 115.57) (xy 123.19 115.57)
+			(xy 123.19 115.57) (xy 139.7 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3409,7 +3429,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 63.5) (xy 175.26 63.5)
+			(xy 189.23 66.04) (xy 191.77 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3419,7 +3439,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 125.73) (xy 57.15 128.27)
+			(xy 73.66 125.73) (xy 73.66 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3459,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 115.57) (xy 139.7 118.11)
+			(xy 156.21 115.57) (xy 156.21 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3449,7 +3469,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 135.89) (xy 57.15 138.43)
+			(xy 73.66 135.89) (xy 73.66 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3459,7 +3479,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 125.73) (xy 90.17 128.27)
+			(xy 106.68 125.73) (xy 106.68 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3469,7 +3489,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 135.89) (xy 207.01 138.43)
+			(xy 223.52 135.89) (xy 223.52 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3479,7 +3499,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 135.89) (xy 106.68 138.43)
+			(xy 123.19 135.89) (xy 123.19 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3489,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 148.59) (xy 49.53 148.59)
+			(xy 58.42 148.59) (xy 66.04 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3499,7 +3519,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 63.5) (xy 172.72 63.5)
+			(xy 173.99 66.04) (xy 189.23 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 153.67) (xy 190.5 156.21)
+			(xy 207.01 153.67) (xy 207.01 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3519,7 +3539,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 148.59) (xy 115.57 148.59)
+			(xy 128.27 148.59) (xy 132.08 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3529,7 +3549,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 115.57) (xy 73.66 118.11)
+			(xy 90.17 115.57) (xy 90.17 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3539,7 +3559,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 115.57) (xy 73.66 115.57)
+			(xy 73.66 115.57) (xy 90.17 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3549,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 153.67) (xy 223.52 156.21)
+			(xy 240.03 153.67) (xy 240.03 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +3579,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 187.96) (xy 212.09 148.59)
+			(xy 228.6 187.96) (xy 228.6 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3569,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 180.34) (xy 162.56 148.59)
+			(xy 179.07 180.34) (xy 179.07 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3579,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 185.42) (xy 195.58 148.59)
+			(xy 212.09 185.42) (xy 212.09 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3589,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 135.89) (xy 173.99 138.43)
+			(xy 190.5 135.89) (xy 190.5 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3599,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 115.57) (xy 106.68 115.57)
+			(xy 106.68 115.57) (xy 123.19 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 175.26 71.12)
+			(xy 189.23 73.66) (xy 191.77 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3619,7 +3639,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 115.57) (xy 190.5 118.11)
+			(xy 207.01 115.57) (xy 207.01 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3639,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 135.89) (xy 190.5 138.43)
+			(xy 207.01 135.89) (xy 207.01 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 50.8) (xy 207.01 53.34)
+			(xy 223.52 53.34) (xy 223.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +3679,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 135.89) (xy 90.17 138.43)
+			(xy 106.68 135.89) (xy 106.68 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3679,7 +3699,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 148.59) (xy 166.37 148.59)
+			(xy 179.07 148.59) (xy 182.88 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3689,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 162.56) (xy 41.91 148.59)
+			(xy 58.42 162.56) (xy 58.42 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3699,7 +3719,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 162.56) (xy 41.91 162.56)
+			(xy 48.26 162.56) (xy 58.42 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +3729,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 115.57) (xy 190.5 115.57)
+			(xy 190.5 115.57) (xy 207.01 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3729,7 +3749,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 57.15) (xy 157.48 63.5)
+			(xy 173.99 59.69) (xy 173.99 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3739,7 +3759,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 180.34) (xy 162.56 180.34)
+			(xy 48.26 180.34) (xy 179.07 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3749,7 +3769,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 40.64) (xy 162.56 40.64)
+			(xy 189.23 43.18) (xy 179.07 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3759,7 +3779,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 135.89) (xy 223.52 138.43)
+			(xy 240.03 135.89) (xy 240.03 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3769,13 +3789,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 115.57) (xy 207.01 118.11)
+			(xy 223.52 115.57) (xy 223.52 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d086b2a1-f31d-435a-9a18-034faf95e448")
+	)
+	(wire
+		(pts
+			(xy 148.59 52.07) (xy 153.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2142282-7d11-4151-bb18-69492e0fe821")
 	)
 	(wire
 		(pts
@@ -3789,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 115.57) (xy 223.52 115.57)
+			(xy 223.52 115.57) (xy 240.03 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3799,7 +3829,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 148.59) (xy 66.04 148.59)
+			(xy 78.74 148.59) (xy 82.55 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3809,7 +3839,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 115.57) (xy 157.48 115.57)
+			(xy 148.59 54.61) (xy 153.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da635475-12bb-4033-a4e1-99697f2b4d18")
+	)
+	(wire
+		(pts
+			(xy 156.21 115.57) (xy 173.99 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3819,7 +3859,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 170.18) (xy 95.25 148.59)
+			(xy 111.76 170.18) (xy 111.76 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3829,7 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 167.64) (xy 78.74 167.64)
+			(xy 48.26 167.64) (xy 95.25 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3839,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 177.8) (xy 144.78 148.59)
+			(xy 161.29 177.8) (xy 161.29 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 115.57) (xy 223.52 118.11)
+			(xy 240.03 115.57) (xy 240.03 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3859,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 148.59) (xy 182.88 148.59)
+			(xy 195.58 148.59) (xy 199.39 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3869,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 182.88) (xy 179.07 182.88)
+			(xy 48.26 182.88) (xy 195.58 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3879,7 +3919,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 153.67) (xy 139.7 156.21)
+			(xy 156.21 153.67) (xy 156.21 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3889,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 182.88) (xy 179.07 148.59)
+			(xy 195.58 182.88) (xy 195.58 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3899,7 +3939,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 175.26) (xy 31.75 175.26)
+			(xy 144.78 175.26) (xy 48.26 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3909,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 125.73) (xy 106.68 128.27)
+			(xy 123.19 125.73) (xy 123.19 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3929,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 172.72) (xy 111.76 172.72)
+			(xy 48.26 172.72) (xy 128.27 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3949,7 +3989,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 71.12) (xy 207.01 73.66)
+			(xy 223.52 73.66) (xy 223.52 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3969,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 148.59) (xy 128.27 148.59)
+			(xy 148.59 148.59) (xy 144.78 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3987,9 +4027,49 @@
 		)
 		(uuid "feb20152-7af2-49f0-9b44-08ccb30c54c5")
 	)
+	(label "UART0_RXD"
+		(at 119.38 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10db9f83-0fa1-49c4-b3bf-74c00cc54ff0")
+	)
+	(label "I2C1_SDA"
+		(at 148.59 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37fbbbed-1245-432d-9a50-68aebb567779")
+	)
+	(label "I2C1_SCL"
+		(at 148.59 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5da8b758-faad-4471-a902-f366aff9ed39")
+	)
+	(label "UART0_TXD"
+		(at 119.38 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d25fbf9a-f844-42b7-9d0e-04e0644119fe")
+	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 27.94 165.1 90)
+		(at 44.45 165.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3999,7 +4079,7 @@
 		(dnp no)
 		(uuid "02491baf-26d4-4d59-8663-d1ace55d93e2")
 		(property "Reference" "R54"
-			(at 21.844 163.322 90)
+			(at 38.354 163.322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4009,7 +4089,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.29 163.322 90)
+			(at 50.8 163.322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4019,7 +4099,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 164.084 90)
+			(at 44.704 164.084 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,7 +4110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 165.1 0)
+			(at 44.45 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,7 +4121,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 165.1 0)
+			(at 44.45 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,7 +4148,7 @@
 	)
 	(symbol
 		(lib_id "payload-sym:DMG1012T-7")
-		(at 49.53 148.59 0)
+		(at 66.04 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4079,300 +4159,6 @@
 		(fields_autoplaced yes)
 		(uuid "03933b3a-6740-44ad-b39f-d0e9a89322fe")
 		(property "Reference" "Q10"
-			(at 60.96 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMG1012T-7"
-			(at 60.96 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT50P160X90-3N"
-			(at 60.96 247.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
-			(at 60.96 347.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
-			(at 49.53 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 60.96 547.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "621-DMG1012T-7"
-			(at 60.96 647.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
-			(at 60.96 747.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 60.96 847.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMG1012T-7"
-			(at 60.96 947.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "1581bfd9-5bdd-438b-b1e7-7aa4e5e4710d")
-		)
-		(pin "2"
-			(uuid "d09c3c7d-ee16-4fd4-a27a-6be6c5013bf1")
-		)
-		(pin "3"
-			(uuid "baa98cf8-35ce-4c78-b307-3bf8b1b42f8a")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "payload-sym:DMG1012T-7")
-		(at 132.08 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0626c918-0627-403e-a4b1-75f50c1c2961")
-		(property "Reference" "Q15"
-			(at 143.51 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMG1012T-7"
-			(at 143.51 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT50P160X90-3N"
-			(at 143.51 247.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
-			(at 143.51 347.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
-			(at 132.08 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 143.51 547.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "621-DMG1012T-7"
-			(at 143.51 647.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
-			(at 143.51 747.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 143.51 847.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMG1012T-7"
-			(at 143.51 947.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "4a35ed70-e861-4a54-a5d1-dfb50f435aab")
-		)
-		(pin "2"
-			(uuid "83ba55ac-712c-497d-ac1b-9a4c395aab54")
-		)
-		(pin "3"
-			(uuid "e89d4402-8be7-474b-9725-8c845088bba9")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "Q15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "payload-sym:DMG1012T-7")
-		(at 66.04 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a0ef5bf-28c0-4db6-8ac8-20d5e7ea46a8")
-		(property "Reference" "Q11"
 			(at 77.47 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4490,6 +4276,300 @@
 			)
 		)
 		(pin "1"
+			(uuid "1581bfd9-5bdd-438b-b1e7-7aa4e5e4710d")
+		)
+		(pin "2"
+			(uuid "d09c3c7d-ee16-4fd4-a27a-6be6c5013bf1")
+		)
+		(pin "3"
+			(uuid "baa98cf8-35ce-4c78-b307-3bf8b1b42f8a")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:DMG1012T-7")
+		(at 148.59 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0626c918-0627-403e-a4b1-75f50c1c2961")
+		(property "Reference" "Q15"
+			(at 160.02 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG1012T-7"
+			(at 160.02 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT50P160X90-3N"
+			(at 160.02 247.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
+			(at 160.02 347.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
+			(at 148.59 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.9"
+			(at 160.02 547.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG1012T-7"
+			(at 160.02 647.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
+			(at 160.02 747.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 160.02 847.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG1012T-7"
+			(at 160.02 947.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "4a35ed70-e861-4a54-a5d1-dfb50f435aab")
+		)
+		(pin "2"
+			(uuid "83ba55ac-712c-497d-ac1b-9a4c395aab54")
+		)
+		(pin "3"
+			(uuid "e89d4402-8be7-474b-9725-8c845088bba9")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:DMG1012T-7")
+		(at 82.55 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a0ef5bf-28c0-4db6-8ac8-20d5e7ea46a8")
+		(property "Reference" "Q11"
+			(at 93.98 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG1012T-7"
+			(at 93.98 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT50P160X90-3N"
+			(at 93.98 247.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
+			(at 93.98 347.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
+			(at 82.55 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.9"
+			(at 93.98 547.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG1012T-7"
+			(at 93.98 647.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
+			(at 93.98 747.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 93.98 847.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG1012T-7"
+			(at 93.98 947.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
 			(uuid "6d8dec48-7252-42ec-8702-f9a41fcf3128")
 		)
 		(pin "2"
@@ -4509,7 +4589,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 240.03 121.92 0)
+		(at 256.54 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4520,7 +4600,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ae4a1e3-b334-4346-b167-d5b0cea1eb01")
 		(property "Reference" "R50"
-			(at 242.57 120.6499 0)
+			(at 259.08 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4531,7 +4611,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 242.57 123.1899 0)
+			(at 259.08 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4542,7 +4622,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 241.046 122.174 90)
+			(at 257.556 122.174 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4553,7 +4633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 121.92 0)
+			(at 256.54 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4564,7 +4644,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 240.03 121.92 0)
+			(at 256.54 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4591,7 +4671,7 @@
 	)
 	(symbol
 		(lib_id "payload-sym:DMG1012T-7")
-		(at 199.39 148.59 0)
+		(at 215.9 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4602,1750 +4682,6 @@
 		(fields_autoplaced yes)
 		(uuid "10afcd37-8fe2-4214-83b6-b2a0743a805b")
 		(property "Reference" "Q19"
-			(at 210.82 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMG1012T-7"
-			(at 210.82 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT50P160X90-3N"
-			(at 210.82 247.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
-			(at 210.82 347.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
-			(at 199.39 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 210.82 547.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "621-DMG1012T-7"
-			(at 210.82 647.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
-			(at 210.82 747.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 210.82 847.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMG1012T-7"
-			(at 210.82 947.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "726f3b30-ddb1-4800-87b1-3f97dddcc382")
-		)
-		(pin "2"
-			(uuid "3fb37d9c-3a67-471c-871f-c1057b74d4a4")
-		)
-		(pin "3"
-			(uuid "87e0f580-fe85-41d6-adad-b6306d305498")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "Q19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 50.8 73.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14910e6d-67ca-41af-95bf-877479dcf169")
-		(property "Reference" "D4"
-			(at 53.34 72.3899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 53.34 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 50.8 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e60d389-a62a-4712-9da0-87783e3ce96f")
-		)
-		(pin "2"
-			(uuid "4ea2f18d-a6eb-4e60-b043-9bd2e2295745")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 207.01 67.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14e12d9a-6f88-4ce6-8d73-277759431cc0")
-		(property "Reference" "D18"
-			(at 210.82 67.6274 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 210.82 70.1674 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 207.01 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 207.01 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a0b000e-469b-4b59-a0cf-3b5e8c2b1015")
-		)
-		(pin "2"
-			(uuid "e5722f37-7c38-45aa-8105-940a90848884")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 240.03 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15a9af24-376e-40ef-983a-e420ba5dc1d4")
-		(property "Reference" "D17"
-			(at 243.84 132.3974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 243.84 134.9374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 240.03 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 240.03 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2310172c-1c61-42a8-84e0-224c9836a0a4")
-		)
-		(pin "2"
-			(uuid "959c2239-59f1-45b6-827b-977c72ef27b0")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 223.52 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16d07a70-92ef-414e-b14a-325c10873ac8")
-		(property "Reference" "R49"
-			(at 226.06 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 226.06 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 224.536 122.174 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 223.52 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91d457cc-5ae8-457b-b6f7-22d9e10f3271")
-		)
-		(pin "2"
-			(uuid "7a880b1a-27ea-41b2-8075-20495405b8d8")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 157.48 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bc22c71-21da-4b4d-9623-3ffee06d7066")
-		(property "Reference" "D12"
-			(at 161.29 132.3974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 161.29 134.9374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 157.48 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 157.48 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df63fbd3-4bd0-4d85-a81e-2b5165ba4144")
-		)
-		(pin "2"
-			(uuid "d4476522-d378-43e8-b815-ebe53b8f73bf")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 139.7 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "265e301d-fcd1-450a-a4ff-143408188f3c")
-		(property "Reference" "D11"
-			(at 143.51 132.3974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 143.51 134.9374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 139.7 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15b65703-269e-442c-ae8d-01872ddcf707")
-		)
-		(pin "2"
-			(uuid "c502c46e-025d-4682-838d-a9492a4d61bb")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 106.68 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c78e6a8-d45c-4e75-92da-fd5d4dbb9bec")
-		(property "Reference" "R42"
-			(at 109.22 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 109.22 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 107.696 122.174 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 106.68 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6532e466-5a00-4ac9-970a-a2dc003510f4")
-		)
-		(pin "2"
-			(uuid "a8650868-d0ea-4951-8d2a-291975d7f74c")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 173.99 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c90653b-19d1-4949-8488-ad8c0f04b8f5")
-		(property "Reference" "#PWR080"
-			(at 173.99 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 173.99 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 173.99 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51c5541f-7efc-4f89-af65-5fd7d8cbaa4b")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "payload-sym:DMG1012T-7")
-		(at 232.41 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30f2bb67-3dbe-462f-927c-4b586c33cf4b")
-		(property "Reference" "Q21"
-			(at 243.84 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMG1012T-7"
-			(at 243.84 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT50P160X90-3N"
-			(at 243.84 247.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
-			(at 243.84 347.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
-			(at 232.41 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 243.84 547.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "621-DMG1012T-7"
-			(at 243.84 647.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
-			(at 243.84 747.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 243.84 847.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMG1012T-7"
-			(at 243.84 947.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "37835296-e09f-4e03-9df2-a83e26946c35")
-		)
-		(pin "2"
-			(uuid "36cfd4e9-394d-4059-bfc6-e361eafa1099")
-		)
-		(pin "3"
-			(uuid "7c4ba685-5099-451d-8768-ff0fa964a86b")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "Q21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 123.19 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3503d2d7-4821-422a-83c9-e2625dbbc511")
-		(property "Reference" "R43"
-			(at 125.73 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 125.73 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 124.206 122.174 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 123.19 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "93546e3e-8784-46f1-a10d-4aa7741e3741")
-		)
-		(pin "2"
-			(uuid "360adb82-fe26-4655-8243-938190c1c9c5")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 27.94 187.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "36a06f29-4e7f-4390-aa10-84f929340b3c")
-		(property "Reference" "R63"
-			(at 21.844 186.182 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 34.29 186.182 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 186.944 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 27.94 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fc26638-04cc-4d6a-806c-1ef28d7005eb")
-		)
-		(pin "2"
-			(uuid "8767cd6a-5f9b-4564-89f3-2c14629ce75f")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 27.94 162.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "38d742b1-f5d2-46bc-bebb-25ae63db8d63")
-		(property "Reference" "R53"
-			(at 21.844 160.782 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 34.29 160.782 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 161.544 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 27.94 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d3572d8-0922-4568-9eb1-ef884ceb9ed5")
-		)
-		(pin "2"
-			(uuid "cbf60378-646f-4125-94a7-0c4925d15dd4")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 62.23 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39442596-76d1-4fe7-a34c-a7a52fbcaf6d")
-		(property "Reference" "#PWR065"
-			(at 62.23 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 62.23 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 62.23 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ee19abe-ad57-45af-971f-b0e5b9dd9546")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 106.68 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39c7e8bb-d0a0-4a0a-9dc6-ff05d693a7f3")
-		(property "Reference" "D9"
-			(at 110.49 132.3974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 110.49 134.9374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 106.68 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55505c09-9108-4264-a87e-ab2dfc51c093")
-		)
-		(pin "2"
-			(uuid "fa336d0c-db86-4aac-8b0b-a8f3dd4a0511")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 123.19 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4124e8b7-cde6-400b-ab6c-3b8c71de715f")
-		(property "Reference" "D10"
-			(at 127 132.3974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 127 134.9374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 123.19 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce728b26-13de-4834-bfae-2513ee1ccec3")
-		)
-		(pin "2"
-			(uuid "1e4fd9c8-374a-41e8-93e7-b8b609ebf319")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 57.15 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4466a148-136f-47a1-8733-f0f560ed0ff8")
-		(property "Reference" "D6"
-			(at 60.96 132.3974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 60.96 134.9374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 57.15 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b03bf63d-f1be-46a2-a489-76dbe44923a9")
-		)
-		(pin "2"
-			(uuid "ce06ba98-6f87-407e-b0a4-e9f051df8e4a")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 172.72 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45012766-488d-4509-b645-8eb9304468e0")
-		(property "Reference" "#PWR098"
-			(at 172.72 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 172.72 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 172.72 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6500e133-fdb5-4f8b-9a5a-1e749e9edd8e")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 27.94 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "47ae5da2-86c3-4176-a295-2ddc4a262d91")
-		(property "Reference" "R57"
-			(at 21.844 170.942 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 34.29 170.942 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 171.704 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 27.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "54d43f1e-07f7-4d08-a921-a33bcbe2f2fb")
-		)
-		(pin "2"
-			(uuid "6b501242-d89c-4d90-9654-1ceb975de790")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "payload-sym:DMG1012T-7")
-		(at 215.9 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f1938b3-5391-4121-a410-6b5fd1924d48")
-		(property "Reference" "Q20"
 			(at 227.33 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6463,6 +4799,1750 @@
 			)
 		)
 		(pin "1"
+			(uuid "726f3b30-ddb1-4800-87b1-3f97dddcc382")
+		)
+		(pin "2"
+			(uuid "3fb37d9c-3a67-471c-871f-c1057b74d4a4")
+		)
+		(pin "3"
+			(uuid "87e0f580-fe85-41d6-adad-b6306d305498")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 50.8 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14910e6d-67ca-41af-95bf-877479dcf169")
+		(property "Reference" "D4"
+			(at 53.34 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 53.34 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 50.8 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e60d389-a62a-4712-9da0-87783e3ce96f")
+		)
+		(pin "2"
+			(uuid "4ea2f18d-a6eb-4e60-b043-9bd2e2295745")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 223.52 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e12d9a-6f88-4ce6-8d73-277759431cc0")
+		(property "Reference" "D18"
+			(at 227.33 70.1674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 227.33 72.7074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 223.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a0b000e-469b-4b59-a0cf-3b5e8c2b1015")
+		)
+		(pin "2"
+			(uuid "e5722f37-7c38-45aa-8105-940a90848884")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 256.54 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15a9af24-376e-40ef-983a-e420ba5dc1d4")
+		(property "Reference" "D17"
+			(at 260.35 132.3974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 260.35 134.9374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 256.54 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 256.54 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2310172c-1c61-42a8-84e0-224c9836a0a4")
+		)
+		(pin "2"
+			(uuid "959c2239-59f1-45b6-827b-977c72ef27b0")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 240.03 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16d07a70-92ef-414e-b14a-325c10873ac8")
+		(property "Reference" "R49"
+			(at 242.57 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 242.57 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
+			(at 241.046 122.174 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91d457cc-5ae8-457b-b6f7-22d9e10f3271")
+		)
+		(pin "2"
+			(uuid "7a880b1a-27ea-41b2-8075-20495405b8d8")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 173.99 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bc22c71-21da-4b4d-9623-3ffee06d7066")
+		(property "Reference" "D12"
+			(at 177.8 132.3974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 177.8 134.9374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 173.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 173.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df63fbd3-4bd0-4d85-a81e-2b5165ba4144")
+		)
+		(pin "2"
+			(uuid "d4476522-d378-43e8-b815-ebe53b8f73bf")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 156.21 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "265e301d-fcd1-450a-a4ff-143408188f3c")
+		(property "Reference" "D11"
+			(at 160.02 132.3974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 160.02 134.9374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 156.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15b65703-269e-442c-ae8d-01872ddcf707")
+		)
+		(pin "2"
+			(uuid "c502c46e-025d-4682-838d-a9492a4d61bb")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 123.19 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c78e6a8-d45c-4e75-92da-fd5d4dbb9bec")
+		(property "Reference" "R42"
+			(at 125.73 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 125.73 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
+			(at 124.206 122.174 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 123.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6532e466-5a00-4ac9-970a-a2dc003510f4")
+		)
+		(pin "2"
+			(uuid "a8650868-d0ea-4951-8d2a-291975d7f74c")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 190.5 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c90653b-19d1-4949-8488-ad8c0f04b8f5")
+		(property "Reference" "#PWR080"
+			(at 190.5 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 190.5 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 190.5 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51c5541f-7efc-4f89-af65-5fd7d8cbaa4b")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:DMG1012T-7")
+		(at 248.92 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30f2bb67-3dbe-462f-927c-4b586c33cf4b")
+		(property "Reference" "Q21"
+			(at 260.35 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG1012T-7"
+			(at 260.35 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT50P160X90-3N"
+			(at 260.35 247.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
+			(at 260.35 347.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
+			(at 248.92 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.9"
+			(at 260.35 547.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG1012T-7"
+			(at 260.35 647.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
+			(at 260.35 747.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 260.35 847.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG1012T-7"
+			(at 260.35 947.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "37835296-e09f-4e03-9df2-a83e26946c35")
+		)
+		(pin "2"
+			(uuid "36cfd4e9-394d-4059-bfc6-e361eafa1099")
+		)
+		(pin "3"
+			(uuid "7c4ba685-5099-451d-8768-ff0fa964a86b")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "Q21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 139.7 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3503d2d7-4821-422a-83c9-e2625dbbc511")
+		(property "Reference" "R43"
+			(at 142.24 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 142.24 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
+			(at 140.716 122.174 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 139.7 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93546e3e-8784-46f1-a10d-4aa7741e3741")
+		)
+		(pin "2"
+			(uuid "360adb82-fe26-4655-8243-938190c1c9c5")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 44.45 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36a06f29-4e7f-4390-aa10-84f929340b3c")
+		(property "Reference" "R63"
+			(at 38.354 186.182 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 50.8 186.182 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
+			(at 44.704 186.944 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 44.45 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fc26638-04cc-4d6a-806c-1ef28d7005eb")
+		)
+		(pin "2"
+			(uuid "8767cd6a-5f9b-4564-89f3-2c14629ce75f")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 44.45 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38d742b1-f5d2-46bc-bebb-25ae63db8d63")
+		(property "Reference" "R53"
+			(at 38.354 160.782 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 50.8 160.782 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
+			(at 44.704 161.544 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 44.45 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d3572d8-0922-4568-9eb1-ef884ceb9ed5")
+		)
+		(pin "2"
+			(uuid "cbf60378-646f-4125-94a7-0c4925d15dd4")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 62.23 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39442596-76d1-4fe7-a34c-a7a52fbcaf6d")
+		(property "Reference" "#PWR065"
+			(at 62.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 62.23 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 62.23 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ee19abe-ad57-45af-971f-b0e5b9dd9546")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 123.19 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39c7e8bb-d0a0-4a0a-9dc6-ff05d693a7f3")
+		(property "Reference" "D9"
+			(at 127 132.3974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 127 134.9374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55505c09-9108-4264-a87e-ab2dfc51c093")
+		)
+		(pin "2"
+			(uuid "fa336d0c-db86-4aac-8b0b-a8f3dd4a0511")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 139.7 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4124e8b7-cde6-400b-ab6c-3b8c71de715f")
+		(property "Reference" "D10"
+			(at 143.51 132.3974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 143.51 134.9374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce728b26-13de-4834-bfae-2513ee1ccec3")
+		)
+		(pin "2"
+			(uuid "1e4fd9c8-374a-41e8-93e7-b8b609ebf319")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 73.66 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4466a148-136f-47a1-8733-f0f560ed0ff8")
+		(property "Reference" "D6"
+			(at 77.47 132.3974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 77.47 134.9374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b03bf63d-f1be-46a2-a489-76dbe44923a9")
+		)
+		(pin "2"
+			(uuid "ce06ba98-6f87-407e-b0a4-e9f051df8e4a")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 189.23 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45012766-488d-4509-b645-8eb9304468e0")
+		(property "Reference" "#PWR098"
+			(at 189.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 189.23 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 189.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6500e133-fdb5-4f8b-9a5a-1e749e9edd8e")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 44.45 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47ae5da2-86c3-4176-a295-2ddc4a262d91")
+		(property "Reference" "R57"
+			(at 38.354 170.942 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 50.8 170.942 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
+			(at 44.704 171.704 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 44.45 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54d43f1e-07f7-4d08-a921-a33bcbe2f2fb")
+		)
+		(pin "2"
+			(uuid "6b501242-d89c-4d90-9654-1ceb975de790")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:DMG1012T-7")
+		(at 232.41 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f1938b3-5391-4121-a410-6b5fd1924d48")
+		(property "Reference" "Q20"
+			(at 243.84 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG1012T-7"
+			(at 243.84 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT50P160X90-3N"
+			(at 243.84 247.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
+			(at 243.84 347.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.9"
+			(at 243.84 547.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG1012T-7"
+			(at 243.84 647.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
+			(at 243.84 747.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 243.84 847.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG1012T-7"
+			(at 243.84 947.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
 			(uuid "66f43d97-e9f9-4cac-afe1-0b15243e2708")
 		)
 		(pin "2"
@@ -6482,7 +6562,7 @@
 	)
 	(symbol
 		(lib_id "payload-sym:DMG1012T-7")
-		(at 99.06 148.59 0)
+		(at 115.57 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6493,7 +6573,7 @@
 		(fields_autoplaced yes)
 		(uuid "519b8ab3-9b0e-44ef-9425-84b836d2aa40")
 		(property "Reference" "Q13"
-			(at 110.49 144.7799 0)
+			(at 127 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6504,7 +6584,7 @@
 			)
 		)
 		(property "Value" "DMG1012T-7"
-			(at 110.49 147.3199 0)
+			(at 127 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6515,7 +6595,7 @@
 			)
 		)
 		(property "Footprint" "SOT50P160X90-3N"
-			(at 110.49 247.32 0)
+			(at 127 247.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6527,7 +6607,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
-			(at 110.49 347.32 0)
+			(at 127 347.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6539,7 +6619,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
-			(at 99.06 148.59 0)
+			(at 115.57 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6550,7 +6630,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 110.49 547.32 0)
+			(at 127 547.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6562,7 +6642,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-DMG1012T-7"
-			(at 110.49 647.32 0)
+			(at 127 647.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6574,7 +6654,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
-			(at 110.49 747.32 0)
+			(at 127 747.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6586,7 +6666,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 110.49 847.32 0)
+			(at 127 847.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6598,7 +6678,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DMG1012T-7"
-			(at 110.49 947.32 0)
+			(at 127 947.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6629,7 +6709,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 46.99 0)
+		(at 179.07 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6639,7 +6719,7 @@
 		(dnp no)
 		(uuid "5b58c6b7-6530-4629-b6b3-3267a70539d3")
 		(property "Reference" "C52"
-			(at 165.354 45.72 0)
+			(at 181.864 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6650,7 +6730,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 165.354 48.26 0)
+			(at 181.864 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6661,7 +6741,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:CAPC1005X55N"
-			(at 163.5252 50.8 0)
+			(at 180.0352 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6672,7 +6752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 46.99 0)
+			(at 179.07 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,7 +6763,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 46.99 0)
+			(at 179.07 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6710,7 +6790,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 27.94 167.64 90)
+		(at 44.45 167.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6720,7 +6800,7 @@
 		(dnp no)
 		(uuid "5eb8c679-b36d-446a-afe6-1bb85f30e59c")
 		(property "Reference" "R55"
-			(at 21.844 165.862 90)
+			(at 38.354 165.862 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6730,7 +6810,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.29 165.862 90)
+			(at 50.8 165.862 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6740,7 +6820,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 166.624 90)
+			(at 44.704 166.624 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6751,7 +6831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 167.64 0)
+			(at 44.45 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6762,7 +6842,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 167.64 0)
+			(at 44.45 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6789,7 +6869,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 27.94 190.5 90)
+		(at 44.45 190.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6799,7 +6879,7 @@
 		(dnp no)
 		(uuid "5fdc2008-f066-410a-b428-20cd73d77609")
 		(property "Reference" "R64"
-			(at 21.844 188.722 90)
+			(at 38.354 188.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6809,7 +6889,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.29 188.722 90)
+			(at 50.8 188.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6819,7 +6899,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 189.484 90)
+			(at 44.704 189.484 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6830,7 +6910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 190.5 0)
+			(at 44.45 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6841,7 +6921,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 190.5 0)
+			(at 44.45 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6946,7 +7026,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 175.26 63.5 270)
+		(at 191.77 66.04 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6957,7 +7037,7 @@
 		(fields_autoplaced yes)
 		(uuid "65b3c27c-07df-44cc-9fa0-f7112bb899da")
 		(property "Reference" "TP13"
-			(at 180.34 62.2299 90)
+			(at 196.85 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6968,7 +7048,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 180.34 64.7699 90)
+			(at 196.85 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6979,7 +7059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 68.58 0)
+			(at 191.77 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6990,7 +7070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 68.58 0)
+			(at 191.77 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7001,7 +7081,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 175.26 63.5 0)
+			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7025,7 +7105,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 106.68 156.21 0)
+		(at 123.19 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7036,7 +7116,7 @@
 		(fields_autoplaced yes)
 		(uuid "670b8b4a-51aa-4b0a-b4eb-fd81e0c3ff2f")
 		(property "Reference" "#PWR076"
-			(at 106.68 162.56 0)
+			(at 123.19 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7047,7 +7127,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 106.68 161.29 0)
+			(at 123.19 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7057,7 +7137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 156.21 0)
+			(at 123.19 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7068,7 +7148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 156.21 0)
+			(at 123.19 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7079,7 +7159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 106.68 156.21 0)
+			(at 123.19 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7103,7 +7183,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 207.01 121.92 0)
+		(at 223.52 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7114,7 +7194,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a78fc11-60f7-42f4-a91c-c21fd2ecb2b3")
 		(property "Reference" "R48"
-			(at 209.55 120.6499 0)
+			(at 226.06 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7125,7 +7205,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 209.55 123.1899 0)
+			(at 226.06 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7136,7 +7216,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 208.026 122.174 90)
+			(at 224.536 122.174 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7147,7 +7227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 121.92 0)
+			(at 223.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7158,7 +7238,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 207.01 121.92 0)
+			(at 223.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7267,7 +7347,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 139.7 121.92 0)
+		(at 156.21 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7278,7 +7358,7 @@
 		(fields_autoplaced yes)
 		(uuid "72059057-3bd9-4682-a52f-740510871fb1")
 		(property "Reference" "R44"
-			(at 142.24 120.6499 0)
+			(at 158.75 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7289,7 +7369,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 142.24 123.1899 0)
+			(at 158.75 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7300,7 +7380,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 140.716 122.174 90)
+			(at 157.226 122.174 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7311,7 +7391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 121.92 0)
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7322,7 +7402,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 139.7 121.92 0)
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7349,7 +7429,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 173.99 121.92 0)
+		(at 190.5 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7360,7 +7440,7 @@
 		(fields_autoplaced yes)
 		(uuid "765d6239-12d3-46a4-a1f6-c3e8e88bdf2a")
 		(property "Reference" "R46"
-			(at 176.53 120.6499 0)
+			(at 193.04 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7371,7 +7451,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 176.53 123.1899 0)
+			(at 193.04 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7382,7 +7462,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 175.006 122.174 90)
+			(at 191.516 122.174 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7393,7 +7473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 121.92 0)
+			(at 190.5 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7404,7 +7484,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 173.99 121.92 0)
+			(at 190.5 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7431,7 +7511,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 27.94 182.88 90)
+		(at 44.45 182.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7441,7 +7521,7 @@
 		(dnp no)
 		(uuid "7691b143-133b-4947-b7ff-3967ba1cbe33")
 		(property "Reference" "R61"
-			(at 21.844 181.102 90)
+			(at 38.354 181.102 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7451,7 +7531,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.29 181.102 90)
+			(at 50.8 181.102 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7461,7 +7541,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 181.864 90)
+			(at 44.704 181.864 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7472,7 +7552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 182.88 0)
+			(at 44.45 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7483,7 +7563,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 182.88 0)
+			(at 44.45 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7666,7 +7746,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 172.72 46.99 0)
+		(at 189.23 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7677,7 +7757,7 @@
 		(fields_autoplaced yes)
 		(uuid "8677c311-2a19-4c4f-afc4-7a7e564b9288")
 		(property "Reference" "R51"
-			(at 175.26 45.7199 0)
+			(at 191.77 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7688,7 +7768,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 175.26 48.2599 0)
+			(at 191.77 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7699,7 +7779,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 173.736 47.244 90)
+			(at 190.246 49.784 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7710,7 +7790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 46.99 0)
+			(at 189.23 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7721,7 +7801,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 172.72 46.99 0)
+			(at 189.23 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7748,7 +7828,7 @@
 	)
 	(symbol
 		(lib_id "payload-sym:FT24C32A-ELRT")
-		(at 137.16 49.53 0)
+		(at 153.67 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7759,7 +7839,7 @@
 		(fields_autoplaced yes)
 		(uuid "891de836-de6b-4bd5-974f-448c5f7c36cf")
 		(property "Reference" "U5"
-			(at 146.558 41.91 0)
+			(at 163.068 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7770,7 +7850,7 @@
 			)
 		)
 		(property "Value" "FT24C32A-ELRT"
-			(at 172.72 54.61 0)
+			(at 189.23 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7783,7 +7863,7 @@
 			)
 		)
 		(property "Footprint" "FT24C32A-ELRT:SOT-23-5"
-			(at 172.72 57.15 0)
+			(at 189.23 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7796,7 +7876,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.fremontmicro.com/en/#/eeprom/1-1"
-			(at 172.72 59.69 0)
+			(at 189.23 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7809,7 +7889,7 @@
 			)
 		)
 		(property "Description" "EEPROM Memory IC 1Kbit I²C 1 MHz 550 ns SOT-23-5"
-			(at 172.72 72.39 0)
+			(at 189.23 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7821,7 +7901,7 @@
 			)
 		)
 		(property "Manufacturer" "Fremont Micro Devices"
-			(at 172.72 62.23 0)
+			(at 189.23 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7834,7 +7914,7 @@
 			)
 		)
 		(property "MPN" "FT24C32A-ELRT"
-			(at 146.558 44.45 0)
+			(at 163.068 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7845,7 +7925,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 172.72 67.31 0)
+			(at 189.23 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +7938,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 172.72 69.85 0)
+			(at 189.23 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7896,7 +7976,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 73.66 156.21 0)
+		(at 90.17 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7907,7 +7987,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b2fa1fd-ae8c-4158-af06-0e94a26e8e52")
 		(property "Reference" "#PWR074"
-			(at 73.66 162.56 0)
+			(at 90.17 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7918,7 +7998,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 73.66 161.29 0)
+			(at 90.17 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7928,7 +8008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 156.21 0)
+			(at 90.17 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7939,7 +8019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 156.21 0)
+			(at 90.17 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7950,7 +8030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 73.66 156.21 0)
+			(at 90.17 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,7 +8296,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 27.94 177.8 90)
+		(at 44.45 177.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8226,7 +8306,7 @@
 		(dnp no)
 		(uuid "8f1dec15-c616-49b9-bb5f-deb8298e4c2d")
 		(property "Reference" "R59"
-			(at 21.844 176.022 90)
+			(at 38.354 176.022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8236,7 +8316,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.29 176.022 90)
+			(at 50.8 176.022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8246,7 +8326,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 176.784 90)
+			(at 44.704 176.784 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8257,7 +8337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 177.8 0)
+			(at 44.45 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8268,7 +8348,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 177.8 0)
+			(at 44.45 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8295,7 +8375,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 139.7 156.21 0)
+		(at 156.21 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8306,7 +8386,7 @@
 		(fields_autoplaced yes)
 		(uuid "9261383f-13b7-4741-bc24-6e7e52e5cd87")
 		(property "Reference" "#PWR078"
-			(at 139.7 162.56 0)
+			(at 156.21 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8317,7 +8397,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 139.7 161.29 0)
+			(at 156.21 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8327,7 +8407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 156.21 0)
+			(at 156.21 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8338,7 +8418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 156.21 0)
+			(at 156.21 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8349,7 +8429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 139.7 156.21 0)
+			(at 156.21 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8373,7 +8453,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 162.56 38.1 0)
+		(at 179.07 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8384,7 +8464,7 @@
 		(fields_autoplaced yes)
 		(uuid "932b4f69-269d-49ca-8191-602b2846d2f0")
 		(property "Reference" "#PWR097"
-			(at 162.56 41.91 0)
+			(at 179.07 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +8475,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3"
-			(at 162.56 33.02 0)
+			(at 179.07 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8405,7 +8485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 38.1 0)
+			(at 179.07 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8416,7 +8496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 38.1 0)
+			(at 179.07 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8427,7 +8507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 162.56 38.1 0)
+			(at 179.07 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8451,7 +8531,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 157.48 121.92 0)
+		(at 173.99 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8462,7 +8542,7 @@
 		(fields_autoplaced yes)
 		(uuid "949a47f3-ca1d-432e-a901-0c111cd1ffa5")
 		(property "Reference" "R45"
-			(at 160.02 120.6499 0)
+			(at 176.53 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8473,7 +8553,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 160.02 123.1899 0)
+			(at 176.53 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8484,7 +8564,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 158.496 122.174 90)
+			(at 175.006 122.174 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8495,7 +8575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 121.92 0)
+			(at 173.99 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8506,7 +8586,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 157.48 121.92 0)
+			(at 173.99 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8533,7 +8613,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 73.66 121.92 0)
+		(at 90.17 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8544,6 +8624,248 @@
 		(fields_autoplaced yes)
 		(uuid "95569ba5-4256-4521-9cf9-86ba8898baca")
 		(property "Reference" "R40"
+			(at 92.71 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 92.71 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
+			(at 91.186 122.174 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 90.17 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f404831-9e60-4026-9224-a55ccbed83ad")
+		)
+		(pin "2"
+			(uuid "8f30d779-abbf-4210-bff9-301227519b83")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 207.01 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98e02fed-4f98-4128-b621-1c87b719eb0e")
+		(property "Reference" "#PWR081"
+			(at 207.01 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 207.01 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 207.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4bb1596-47bf-4ce6-85cc-6c6f0f22a013")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 207.01 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a65c38b-9772-41d0-ae59-d567be61896c")
+		(property "Reference" "R47"
+			(at 209.55 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 209.55 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "payload_footprints:RC0402N_YAG"
+			(at 208.026 122.174 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 207.01 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a50e34d2-ea9f-4678-9e03-c9af550797c5")
+		)
+		(pin "2"
+			(uuid "2559dbaf-1529-4656-b9ce-b0f750704995")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 73.66 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bc3c2da-a707-41f8-b2e0-f01d9c545160")
+		(property "Reference" "R39"
 			(at 76.2 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8599,248 +8921,6 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f404831-9e60-4026-9224-a55ccbed83ad")
-		)
-		(pin "2"
-			(uuid "8f30d779-abbf-4210-bff9-301227519b83")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 190.5 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98e02fed-4f98-4128-b621-1c87b719eb0e")
-		(property "Reference" "#PWR081"
-			(at 190.5 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 190.5 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 190.5 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4bb1596-47bf-4ce6-85cc-6c6f0f22a013")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 190.5 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a65c38b-9772-41d0-ae59-d567be61896c")
-		(property "Reference" "R47"
-			(at 193.04 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 193.04 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 191.516 122.174 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 190.5 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a50e34d2-ea9f-4678-9e03-c9af550797c5")
-		)
-		(pin "2"
-			(uuid "2559dbaf-1529-4656-b9ce-b0f750704995")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 57.15 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bc3c2da-a707-41f8-b2e0-f01d9c545160")
-		(property "Reference" "R39"
-			(at 59.69 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 59.69 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 58.166 122.174 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 57.15 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
 			(uuid "df28590c-bf37-433f-8a3e-ffd158fe7997")
 		)
 		(pin "2"
@@ -8857,7 +8937,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 57.15 156.21 0)
+		(at 73.66 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8868,7 +8948,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c688d2b-bdae-40d6-968d-0db99e4ea0a9")
 		(property "Reference" "#PWR073"
-			(at 57.15 162.56 0)
+			(at 73.66 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8879,7 +8959,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 57.15 161.29 0)
+			(at 73.66 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8889,7 +8969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 156.21 0)
+			(at 73.66 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8900,7 +8980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 156.21 0)
+			(at 73.66 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8911,7 +8991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 57.15 156.21 0)
+			(at 73.66 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8935,7 +9015,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 90.17 132.08 90)
+		(at 106.68 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8946,7 +9026,7 @@
 		(fields_autoplaced yes)
 		(uuid "9eb4d0d9-c985-46f3-ad33-4f4ac9d96b69")
 		(property "Reference" "D8"
-			(at 93.98 132.3974 90)
+			(at 110.49 132.3974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8957,7 +9037,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 93.98 134.9374 90)
+			(at 110.49 134.9374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8968,7 +9048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 132.08 0)
+			(at 106.68 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8979,7 +9059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 132.08 0)
+			(at 106.68 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8990,7 +9070,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 90.17 132.08 0)
+			(at 106.68 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9001,7 +9081,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 132.08 0)
+			(at 106.68 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +9108,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 207.01 156.21 0)
+		(at 223.52 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9039,7 +9119,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f50043d-6d6d-4ef9-9f1e-2170fecef344")
 		(property "Reference" "#PWR082"
-			(at 207.01 162.56 0)
+			(at 223.52 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9050,7 +9130,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 207.01 161.29 0)
+			(at 223.52 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9060,7 +9140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 156.21 0)
+			(at 223.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9071,7 +9151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 156.21 0)
+			(at 223.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9082,7 +9162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 207.01 156.21 0)
+			(at 223.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9184,7 +9264,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 223.52 132.08 90)
+		(at 240.03 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9195,7 +9275,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3e0345e-d910-43da-8649-9c0ef320978d")
 		(property "Reference" "D16"
-			(at 227.33 132.3974 90)
+			(at 243.84 132.3974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9206,7 +9286,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 227.33 134.9374 90)
+			(at 243.84 134.9374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9217,7 +9297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 132.08 0)
+			(at 240.03 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9228,7 +9308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 132.08 0)
+			(at 240.03 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9239,7 +9319,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 223.52 132.08 0)
+			(at 240.03 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9250,7 +9330,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 223.52 132.08 0)
+			(at 240.03 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9277,7 +9357,7 @@
 	)
 	(symbol
 		(lib_id "payload-sym:DMG1012T-7")
-		(at 149.86 148.59 0)
+		(at 166.37 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9288,7 +9368,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5032cf8-079e-4fd6-8f0c-413ceb25d316")
 		(property "Reference" "Q16"
-			(at 161.29 144.7799 0)
+			(at 177.8 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9299,7 +9379,7 @@
 			)
 		)
 		(property "Value" "DMG1012T-7"
-			(at 161.29 147.3199 0)
+			(at 177.8 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9310,7 +9390,7 @@
 			)
 		)
 		(property "Footprint" "SOT50P160X90-3N"
-			(at 161.29 247.32 0)
+			(at 177.8 247.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9322,7 +9402,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
-			(at 161.29 347.32 0)
+			(at 177.8 347.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9334,7 +9414,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
-			(at 149.86 148.59 0)
+			(at 166.37 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9345,7 +9425,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 161.29 547.32 0)
+			(at 177.8 547.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9357,7 +9437,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-DMG1012T-7"
-			(at 161.29 647.32 0)
+			(at 177.8 647.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9369,7 +9449,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
-			(at 161.29 747.32 0)
+			(at 177.8 747.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9381,7 +9461,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 161.29 847.32 0)
+			(at 177.8 847.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9393,7 +9473,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DMG1012T-7"
-			(at 161.29 947.32 0)
+			(at 177.8 947.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9424,7 +9504,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 27.94 170.18 90)
+		(at 44.45 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9434,7 +9514,7 @@
 		(dnp no)
 		(uuid "a5cd8ddd-4206-4f0e-8ea2-874852a52de3")
 		(property "Reference" "R56"
-			(at 21.844 168.402 90)
+			(at 38.354 168.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9444,7 +9524,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.29 168.402 90)
+			(at 50.8 168.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9454,7 +9534,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 169.164 90)
+			(at 44.704 169.164 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9465,7 +9545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 170.18 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9476,7 +9556,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 170.18 0)
+			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9503,7 +9583,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 123.19 156.21 0)
+		(at 139.7 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9514,7 +9594,7 @@
 		(fields_autoplaced yes)
 		(uuid "afd1189a-fd48-40ec-9138-40f08a272789")
 		(property "Reference" "#PWR077"
-			(at 123.19 162.56 0)
+			(at 139.7 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9525,7 +9605,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 123.19 161.29 0)
+			(at 139.7 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9535,7 +9615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 156.21 0)
+			(at 139.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9546,7 +9626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 156.21 0)
+			(at 139.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9557,7 +9637,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 123.19 156.21 0)
+			(at 139.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9581,7 +9661,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 190.5 132.08 90)
+		(at 207.01 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9592,7 +9672,7 @@
 		(fields_autoplaced yes)
 		(uuid "b115ba62-24ab-44f2-b596-32d5712f98e0")
 		(property "Reference" "D14"
-			(at 194.31 132.3974 90)
+			(at 210.82 132.3974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9603,7 +9683,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 194.31 134.9374 90)
+			(at 210.82 134.9374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9614,7 +9694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 132.08 0)
+			(at 207.01 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9625,7 +9705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 132.08 0)
+			(at 207.01 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9636,7 +9716,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 190.5 132.08 0)
+			(at 207.01 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9647,7 +9727,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 190.5 132.08 0)
+			(at 207.01 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9674,7 +9754,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 27.94 175.26 90)
+		(at 44.45 175.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9684,7 +9764,7 @@
 		(dnp no)
 		(uuid "b2c77c40-669d-47cf-a677-f031bc72e5cf")
 		(property "Reference" "R58"
-			(at 21.844 173.482 90)
+			(at 38.354 173.482 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9694,7 +9774,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.29 173.482 90)
+			(at 50.8 173.482 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9704,7 +9784,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 174.244 90)
+			(at 44.704 174.244 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,7 +9795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 175.26 0)
+			(at 44.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9726,7 +9806,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 175.26 0)
+			(at 44.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9857,7 +9937,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 207.01 73.66 0)
+		(at 223.52 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9868,7 +9948,7 @@
 		(fields_autoplaced yes)
 		(uuid "b382a7eb-8f21-42f3-a3b2-5107ddd39563")
 		(property "Reference" "#PWR085"
-			(at 207.01 80.01 0)
+			(at 223.52 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,7 +9959,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 207.01 78.74 0)
+			(at 223.52 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9889,7 +9969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 73.66 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9900,7 +9980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 73.66 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9911,7 +9991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 207.01 73.66 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9935,7 +10015,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 90.17 121.92 0)
+		(at 106.68 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9946,7 +10026,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5b93d6f-85db-4d33-b243-ba5030fc467b")
 		(property "Reference" "R41"
-			(at 92.71 120.6499 0)
+			(at 109.22 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9957,7 +10037,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 92.71 123.1899 0)
+			(at 109.22 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9968,7 +10048,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 91.186 122.174 90)
+			(at 107.696 122.174 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9979,7 +10059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 121.92 0)
+			(at 106.68 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9990,7 +10070,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 90.17 121.92 0)
+			(at 106.68 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10017,7 +10097,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 175.26 71.12 270)
+		(at 191.77 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10028,7 +10108,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8432df5-895d-4fae-a433-36663ea1e86f")
 		(property "Reference" "TP14"
-			(at 180.34 69.8499 90)
+			(at 196.85 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10039,7 +10119,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 180.34 72.3899 90)
+			(at 196.85 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10050,7 +10130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 76.2 0)
+			(at 191.77 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10061,7 +10141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 76.2 0)
+			(at 191.77 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10072,7 +10152,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 175.26 71.12 0)
+			(at 191.77 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10096,7 +10176,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 223.52 156.21 0)
+		(at 240.03 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10107,177 +10187,6 @@
 		(fields_autoplaced yes)
 		(uuid "bcdd31f0-e9a0-439a-9549-bab3164a91eb")
 		(property "Reference" "#PWR083"
-			(at 223.52 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 223.52 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 223.52 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f5aafea-6aba-49da-93ff-2635589fd429")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 173.99 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2b5dc1c-0478-4870-909a-55a05f3ba76a")
-		(property "Reference" "D13"
-			(at 177.8 132.3974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 177.8 134.9374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 173.99 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 173.99 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf470475-d6c7-4d15-be25-5b879e3e80bb")
-		)
-		(pin "2"
-			(uuid "5351d60d-2305-4859-887a-2c6b7a5cd151")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 240.03 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c30433fa-29a8-46ca-989b-5e6b217b0a77")
-		(property "Reference" "#PWR084"
 			(at 240.03 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10332,6 +10241,177 @@
 			)
 		)
 		(pin "1"
+			(uuid "5f5aafea-6aba-49da-93ff-2635589fd429")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2b5dc1c-0478-4870-909a-55a05f3ba76a")
+		(property "Reference" "D13"
+			(at 194.31 132.3974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.31 134.9374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf470475-d6c7-4d15-be25-5b879e3e80bb")
+		)
+		(pin "2"
+			(uuid "5351d60d-2305-4859-887a-2c6b7a5cd151")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 256.54 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c30433fa-29a8-46ca-989b-5e6b217b0a77")
+		(property "Reference" "#PWR084"
+			(at 256.54 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 256.54 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 256.54 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "cd1ef31f-7f11-4e80-b4ec-506fd7e59f69")
 		)
 		(instances
@@ -10345,7 +10425,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 73.66 132.08 90)
+		(at 90.17 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10356,7 +10436,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4fe43d3-878b-49b0-a3fd-b8760c1d2b18")
 		(property "Reference" "D7"
-			(at 77.47 132.3974 90)
+			(at 93.98 132.3974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10367,7 +10447,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 77.47 134.9374 90)
+			(at 93.98 134.9374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10378,7 +10458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 132.08 0)
+			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10389,7 +10469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 132.08 0)
+			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10400,7 +10480,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 73.66 132.08 0)
+			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10411,7 +10491,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 132.08 0)
+			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10520,7 +10600,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 207.01 50.8 0)
+		(at 223.52 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10531,7 +10611,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb5d139f-ac09-46b6-a6c9-cd45a0df6dba")
 		(property "Reference" "#PWR086"
-			(at 207.01 54.61 0)
+			(at 223.52 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10542,7 +10622,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3"
-			(at 207.01 45.72 0)
+			(at 223.52 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10552,7 +10632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 50.8 0)
+			(at 223.52 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10563,7 +10643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 50.8 0)
+			(at 223.52 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10574,7 +10654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 207.01 50.8 0)
+			(at 223.52 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10598,7 +10678,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 207.01 132.08 90)
+		(at 223.52 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10609,7 +10689,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccf2ba90-b6ec-47ec-815c-2eba7ca682e7")
 		(property "Reference" "D15"
-			(at 210.82 132.3974 90)
+			(at 227.33 132.3974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10620,7 +10700,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 210.82 134.9374 90)
+			(at 227.33 134.9374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10631,7 +10711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 132.08 0)
+			(at 223.52 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10642,7 +10722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 132.08 0)
+			(at 223.52 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10653,7 +10733,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 207.01 132.08 0)
+			(at 223.52 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10664,7 +10744,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 207.01 132.08 0)
+			(at 223.52 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10783,7 +10863,7 @@
 	)
 	(symbol
 		(lib_id "payload-sym:DMG1012T-7")
-		(at 82.55 148.59 0)
+		(at 99.06 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10794,7 +10874,7 @@
 		(fields_autoplaced yes)
 		(uuid "d559fd6e-ddc2-44e9-add2-f404057bd6d9")
 		(property "Reference" "Q12"
-			(at 93.98 144.7799 0)
+			(at 110.49 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10805,7 +10885,7 @@
 			)
 		)
 		(property "Value" "DMG1012T-7"
-			(at 93.98 147.3199 0)
+			(at 110.49 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10816,7 +10896,7 @@
 			)
 		)
 		(property "Footprint" "SOT50P160X90-3N"
-			(at 93.98 247.32 0)
+			(at 110.49 247.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10828,7 +10908,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
-			(at 93.98 347.32 0)
+			(at 110.49 347.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10840,7 +10920,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
-			(at 82.55 148.59 0)
+			(at 99.06 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10851,7 +10931,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 93.98 547.32 0)
+			(at 110.49 547.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10863,7 +10943,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-DMG1012T-7"
-			(at 93.98 647.32 0)
+			(at 110.49 647.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10875,7 +10955,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
-			(at 93.98 747.32 0)
+			(at 110.49 747.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10887,7 +10967,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 93.98 847.32 0)
+			(at 110.49 847.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10899,7 +10979,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DMG1012T-7"
-			(at 93.98 947.32 0)
+			(at 110.49 947.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10930,7 +11010,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 157.48 156.21 0)
+		(at 173.99 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10941,7 +11021,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc0cba0c-75bf-40c8-9797-05ec623d84ac")
 		(property "Reference" "#PWR079"
-			(at 157.48 162.56 0)
+			(at 173.99 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10952,7 +11032,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 157.48 161.29 0)
+			(at 173.99 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10962,7 +11042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 156.21 0)
+			(at 173.99 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10973,7 +11053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 156.21 0)
+			(at 173.99 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10984,7 +11064,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 157.48 156.21 0)
+			(at 173.99 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11086,7 +11166,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 27.94 185.42 90)
+		(at 44.45 185.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11096,7 +11176,7 @@
 		(dnp no)
 		(uuid "df9781ef-0018-4505-8945-74b33221e823")
 		(property "Reference" "R62"
-			(at 21.844 183.642 90)
+			(at 38.354 183.642 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11106,7 +11186,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.29 183.642 90)
+			(at 50.8 183.642 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11116,7 +11196,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 184.404 90)
+			(at 44.704 184.404 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11127,7 +11207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 185.42 0)
+			(at 44.45 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11138,7 +11218,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 185.42 0)
+			(at 44.45 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11165,7 +11245,7 @@
 	)
 	(symbol
 		(lib_id "payload-sym:DMG1012T-7")
-		(at 182.88 148.59 0)
+		(at 199.39 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11176,6 +11256,378 @@
 		(fields_autoplaced yes)
 		(uuid "e1504be8-5a62-42e1-a0bf-ce523a18836c")
 		(property "Reference" "Q18"
+			(at 210.82 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG1012T-7"
+			(at 210.82 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT50P160X90-3N"
+			(at 210.82 247.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
+			(at 210.82 347.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
+			(at 199.39 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.9"
+			(at 210.82 547.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG1012T-7"
+			(at 210.82 647.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
+			(at 210.82 747.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 210.82 847.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG1012T-7"
+			(at 210.82 947.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "eaad9a58-b5f1-41d6-a253-d21840a3d33b")
+		)
+		(pin "2"
+			(uuid "826b1fde-c8ed-4f7a-95f6-dd4d204526bf")
+		)
+		(pin "3"
+			(uuid "fb30a3d8-27c8-4405-a986-198b628e1ba5")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 179.07 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3ddd247-096a-4775-8717-3cfb381ba75e")
+		(property "Reference" "#PWR096"
+			(at 179.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 179.07 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 179.07 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "857765db-618c-499b-a285-b23be649f157")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:DMG1012T-7")
+		(at 132.08 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e96cde5b-b4ce-4d80-bc80-825ec4462b30")
+		(property "Reference" "Q14"
+			(at 143.51 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG1012T-7"
+			(at 143.51 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT50P160X90-3N"
+			(at 143.51 247.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
+			(at 143.51 347.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
+			(at 132.08 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.9"
+			(at 143.51 547.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-DMG1012T-7"
+			(at 143.51 647.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
+			(at 143.51 747.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 143.51 847.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMG1012T-7"
+			(at 143.51 947.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "ed675a77-2434-49e0-8af7-0eb3f3499908")
+		)
+		(pin "2"
+			(uuid "d8e756f4-a574-4850-b2b3-9bd32595bb78")
+		)
+		(pin "3"
+			(uuid "438adc0a-1252-4e61-9b4f-768952991141")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:DMG1012T-7")
+		(at 182.88 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9809448-5976-4caf-a7f9-278e5e52ef45")
+		(property "Reference" "Q17"
 			(at 194.31 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11293,378 +11745,6 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaad9a58-b5f1-41d6-a253-d21840a3d33b")
-		)
-		(pin "2"
-			(uuid "826b1fde-c8ed-4f7a-95f6-dd4d204526bf")
-		)
-		(pin "3"
-			(uuid "fb30a3d8-27c8-4405-a986-198b628e1ba5")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 162.56 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3ddd247-096a-4775-8717-3cfb381ba75e")
-		(property "Reference" "#PWR096"
-			(at 162.56 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 162.56 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 162.56 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "857765db-618c-499b-a285-b23be649f157")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "payload-sym:DMG1012T-7")
-		(at 115.57 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e96cde5b-b4ce-4d80-bc80-825ec4462b30")
-		(property "Reference" "Q14"
-			(at 127 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMG1012T-7"
-			(at 127 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT50P160X90-3N"
-			(at 127 247.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
-			(at 127 347.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
-			(at 115.57 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 127 547.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "621-DMG1012T-7"
-			(at 127 647.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
-			(at 127 747.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 127 847.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMG1012T-7"
-			(at 127 947.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "ed675a77-2434-49e0-8af7-0eb3f3499908")
-		)
-		(pin "2"
-			(uuid "d8e756f4-a574-4850-b2b3-9bd32595bb78")
-		)
-		(pin "3"
-			(uuid "438adc0a-1252-4e61-9b4f-768952991141")
-		)
-		(instances
-			(project "RO-Instrument"
-				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "payload-sym:DMG1012T-7")
-		(at 166.37 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9809448-5976-4caf-a7f9-278e5e52ef45")
-		(property "Reference" "Q17"
-			(at 177.8 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMG1012T-7"
-			(at 177.8 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT50P160X90-3N"
-			(at 177.8 247.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMG1012T.pdf"
-			(at 177.8 347.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
-			(at 166.37 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 177.8 547.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "621-DMG1012T-7"
-			(at 177.8 647.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
-			(at 177.8 747.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 177.8 847.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMG1012T-7"
-			(at 177.8 947.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
 			(uuid "1714f5bd-a93b-4bb7-afa5-4ae8fcfa386b")
 		)
 		(pin "2"
@@ -11684,7 +11764,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 207.01 57.15 0)
+		(at 223.52 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11695,7 +11775,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebfe1a1b-2d66-46f8-a7b7-b525b7b772f4")
 		(property "Reference" "R52"
-			(at 209.55 55.8799 0)
+			(at 226.06 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11706,7 +11786,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 209.55 58.4199 0)
+			(at 226.06 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11717,7 +11797,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 208.026 57.404 90)
+			(at 224.536 59.944 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11728,7 +11808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 57.15 0)
+			(at 223.52 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11739,7 +11819,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 207.01 57.15 0)
+			(at 223.52 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11766,7 +11846,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 90.17 156.21 0)
+		(at 106.68 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11777,7 +11857,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0318d5e-57b8-41b9-b451-4e12fde703be")
 		(property "Reference" "#PWR075"
-			(at 90.17 162.56 0)
+			(at 106.68 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11788,7 +11868,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 90.17 161.29 0)
+			(at 106.68 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11798,7 +11878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 156.21 0)
+			(at 106.68 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11809,7 +11889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 156.21 0)
+			(at 106.68 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11820,7 +11900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 90.17 156.21 0)
+			(at 106.68 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11922,7 +12002,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 27.94 180.34 90)
+		(at 44.45 180.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11932,7 +12012,7 @@
 		(dnp no)
 		(uuid "f2a31efc-fe88-492d-8b13-81b5119a7cc6")
 		(property "Reference" "R60"
-			(at 21.844 178.562 90)
+			(at 38.354 178.562 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11942,7 +12022,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 34.29 178.562 90)
+			(at 50.8 178.562 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11952,7 +12032,7 @@
 			)
 		)
 		(property "Footprint" "payload_footprints:RC0402N_YAG"
-			(at 28.194 179.324 90)
+			(at 44.704 179.324 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11963,7 +12043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 180.34 0)
+			(at 44.45 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11974,7 +12054,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 180.34 0)
+			(at 44.45 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12001,7 +12081,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 57.15 113.03 0)
+		(at 73.66 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12012,7 +12092,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffefe682-7c00-48ca-8eb4-14e26632c18b")
 		(property "Reference" "#PWR072"
-			(at 57.15 116.84 0)
+			(at 73.66 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,7 +12103,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3"
-			(at 57.15 107.95 0)
+			(at 73.66 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12033,7 +12113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 113.03 0)
+			(at 73.66 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12044,7 +12124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 113.03 0)
+			(at 73.66 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12055,7 +12135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 57.15 113.03 0)
+			(at 73.66 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

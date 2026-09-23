@@ -19748,7 +19748,7 @@
 		)
 		(uuid "ff6c0d12-2378-4ca4-b2e8-5ea552f77a94")
 	)
-	(label "USB0_RESETB"
+	(label "I2C1_SDA"
 		(at 124.46 207.01 180)
 		(effects
 			(font
@@ -19768,7 +19768,7 @@
 		)
 		(uuid "03714eb6-ef31-4b3a-9838-8c477a06d3b6")
 	)
-	(label "ME_PERST0n"
+	(label "ADC_MOSI"
 		(at 124.46 219.71 180)
 		(effects
 			(font
@@ -19848,7 +19848,7 @@
 		)
 		(uuid "17860032-e065-469d-9a15-4f1979932e9b")
 	)
-	(label "ME_PERST0n"
+	(label "I2C1_SCL"
 		(at 124.46 204.47 180)
 		(effects
 			(font
@@ -19878,7 +19878,7 @@
 		)
 		(uuid "1ad34023-adc8-43ff-8377-b2c6f7c611a7")
 	)
-	(label "USB0_RESETB"
+	(label "UART0_TXD"
 		(at 124.46 212.09 180)
 		(effects
 			(font
@@ -19888,7 +19888,7 @@
 		)
 		(uuid "1c5b18e0-5f92-4d9d-bb29-64bec5b1bbfb")
 	)
-	(label "ME_PERST0n"
+	(label "UART0_RXD"
 		(at 124.46 209.55 180)
 		(effects
 			(font
@@ -19918,7 +19918,7 @@
 		)
 		(uuid "1d167660-6501-4eff-a604-17c79aeecf26")
 	)
-	(label "USB0_RESETB"
+	(label "ADC_CSn"
 		(at 124.46 217.17 180)
 		(effects
 			(font
@@ -19928,7 +19928,7 @@
 		)
 		(uuid "1f3769a0-fdce-48f2-8ebf-c27321f8e72c")
 	)
-	(label "USB0_RESETB"
+	(label "USB0_OCn"
 		(at 124.46 232.41 180)
 		(effects
 			(font
@@ -20138,7 +20138,7 @@
 		)
 		(uuid "4c2a631c-22bf-4e42-ab7e-eda53bdece35")
 	)
-	(label "USB0_RESETB"
+	(label "ADC_MISO"
 		(at 124.46 222.25 180)
 		(effects
 			(font
@@ -20668,7 +20668,7 @@
 		)
 		(uuid "b73b58c1-c439-43d9-afa6-a86ce88339d3")
 	)
-	(label "ME_PERST0n"
+	(label "ADC_IROn"
 		(at 124.46 224.79 180)
 		(effects
 			(font
@@ -20698,7 +20698,7 @@
 		)
 		(uuid "c1fa55ae-368e-460d-9f9f-3e9c47846a1f")
 	)
-	(label "USB0_RESETB"
+	(label "PHY_MDC"
 		(at 124.46 227.33 180)
 		(effects
 			(font
@@ -20898,7 +20898,7 @@
 		)
 		(uuid "e1d7b209-00c0-41a9-98fe-ac6e87e2f462")
 	)
-	(label "ME_PERST0n"
+	(label "ADC_SCK"
 		(at 124.46 214.63 180)
 		(effects
 			(font
@@ -20948,7 +20948,7 @@
 		)
 		(uuid "e6db439c-da06-4812-8005-5cc53c65719f")
 	)
-	(label "ME_PERST0n"
+	(label "PHY_MDIO"
 		(at 124.46 229.87 180)
 		(effects
 			(font

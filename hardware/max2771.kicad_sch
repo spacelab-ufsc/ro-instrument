@@ -2011,7 +2011,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PROGRAMING THE SPI FLASH\nUSING EXTERNAL MASTER\n"
+	(text "I/Q SIGNALS TEST POINTS"
 		(exclude_from_sim no)
 		(at 371.094 31.496 0)
 		(effects

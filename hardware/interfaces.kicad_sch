@@ -3479,16 +3479,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 77.47) (xy 76.2 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "170cfc8e-08d4-43c2-b5f3-3fa08b952aa9")
-	)
-	(wire
-		(pts
 			(xy 236.22 62.23) (xy 259.08 62.23)
 		)
 		(stroke
@@ -3516,6 +3506,16 @@
 			(type default)
 		)
 		(uuid "25c0bde9-a1fd-4f23-b950-3bce12836f75")
+	)
+	(wire
+		(pts
+			(xy 40.64 105.41) (xy 31.75 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5d98cc-0c08-4658-a678-f73a53ed528f")
 	)
 	(wire
 		(pts
@@ -3869,13 +3869,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 111.76) (xy 163.83 111.76)
+			(xy 40.64 107.95) (xy 31.75 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f11b9980-72ca-4828-943d-21b3da3676f4")
+		(uuid "efca399a-8104-4022-87ce-bd5fc5979c36")
 	)
 	(wire
 		(pts
@@ -4007,15 +4007,15 @@
 		)
 		(uuid "50ad6aee-5e81-487b-be86-1bf36a99af33")
 	)
-	(label "POWER_ENABLE"
-		(at 76.2 77.47 0)
+	(label "PL_I2C_SLC"
+		(at 31.75 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "59e08f4f-1ef6-437d-8d74-32fa4928eb58")
+		(uuid "5941249f-8db7-4658-89a2-b9298942eff8")
 	)
 	(label "GND"
 		(at 30.48 92.71 180)
@@ -4107,15 +4107,15 @@
 		)
 		(uuid "b31339a5-c9e7-484a-bce5-97884f6f4840")
 	)
-	(label "PWR_4_5V"
-		(at 163.83 111.76 0)
+	(label "PL_I2C_SDA"
+		(at 31.75 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ca6dbeee-5b5c-439f-a386-98c25c2146ec")
+		(uuid "c71d85eb-a4b5-49b9-bcdd-8e070a2f510a")
 	)
 	(label "CAM_D3_N"
 		(at 259.08 77.47 0)

@@ -1083,6 +1083,50 @@
 		)
 		(uuid "0ee23567-02b8-4549-ba1e-8b41e153e2d6")
 	)
+	(text "DECOUPLING\nCAPACITOR"
+		(exclude_from_sim no)
+		(at 369.57 182.88 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "11df68c5-82ce-417a-be96-f8ef728d8380")
+	)
+	(text "DECOUPLING\nCAPACITOR"
+		(exclude_from_sim no)
+		(at 250.19 127 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "26d3cc09-952d-4da0-aac2-ee7483038c44")
+	)
+	(text "DECOUPLING\nCAPACITOR"
+		(exclude_from_sim no)
+		(at 247.65 187.96 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "56b9f83a-8d02-4701-a7fa-3d1335348e70")
+	)
+	(text "POWER MONITOR"
+		(exclude_from_sim no)
+		(at 202.438 125.476 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "677c5a54-cf4e-4365-8297-acc36cd5f778")
+	)
 	(text "POWER MONITOR"
 		(exclude_from_sim no)
 		(at 79.248 56.896 0)
@@ -1096,6 +1140,61 @@
 	)
 	(text "DECOUPLING\nCAPACITOR"
 		(exclude_from_sim no)
+		(at 128.27 173.99 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "b3073971-e22e-439d-acb0-a7f7a0bb24f4")
+	)
+	(text "DECOUPLING\nCAPACITOR"
+		(exclude_from_sim no)
+		(at 132.08 116.84 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "c5c63463-8ff4-4e27-aace-7450cbba517f")
+	)
+	(text "POWER MONITOR"
+		(exclude_from_sim no)
+		(at 321.818 181.356 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "dde4af2c-c5a2-4abe-8561-d20af025d97d")
+	)
+	(text "POWER MONITOR"
+		(exclude_from_sim no)
+		(at 84.328 115.316 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "e4d9ef60-9368-4dcb-8e26-23022bdf17fc")
+	)
+	(text "POWER MONITOR"
+		(exclude_from_sim no)
+		(at 199.898 186.436 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "e5b4522f-276c-4e08-a249-e00e72aabaaa")
+	)
+	(text "DECOUPLING\nCAPACITOR"
+		(exclude_from_sim no)
 		(at 248.92 60.96 0)
 		(effects
 			(font
@@ -1105,6 +1204,17 @@
 		)
 		(uuid "f6d8403e-308f-4a4c-9a02-025011dbcbd0")
 	)
+	(text "POWER MONITOR"
+		(exclude_from_sim no)
+		(at 80.518 172.466 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "f7f7529a-5fe9-4d13-a9c4-b042ed7639f8")
+	)
 	(junction
 		(at 100.33 86.36)
 		(diameter 0)
@@ -1112,10 +1222,90 @@
 		(uuid "0ea190c9-2c23-4ee9-a0eb-9e20a314efcc")
 	)
 	(junction
+		(at 105.41 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57266261-0d85-4a9b-974d-4af7dc45ef56")
+	)
+	(junction
+		(at 342.9 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6afc92ce-c9dc-49eb-99ad-71d724654ee1")
+	)
+	(junction
+		(at 223.52 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e567d0f-c5cd-45b3-8196-0d0cd525f99e")
+	)
+	(junction
+		(at 300.99 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7538e199-6a3f-4869-878e-1c1b15411986")
+	)
+	(junction
 		(at 58.42 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "954d81ac-df09-4d96-b654-8f7cb0afe9ef")
+	)
+	(junction
+		(at 63.5 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28d1ed3-1163-4ecd-89a1-4eba8a6c533e")
+	)
+	(junction
+		(at 101.6 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3497491-2fac-4176-8fed-0c2d0fd99c0b")
+	)
+	(junction
+		(at 59.69 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d545f7a6-2da4-486d-a144-1633895c0e15")
+	)
+	(junction
+		(at 220.98 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2b42fe9-8511-465e-a952-155c59518b48")
+	)
+	(junction
+		(at 181.61 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e70bed60-0d5b-4575-8d08-896b0d2a0fee")
+	)
+	(junction
+		(at 179.07 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fffd6af6-e881-4c51-9d98-0e46a9bea279")
+	)
+	(wire
+		(pts
+			(xy 64.77 186.69) (xy 58.42 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0243d1a1-5194-419b-b89f-5a89d136783f")
+	)
+	(wire
+		(pts
+			(xy 214.63 215.9) (xy 220.98 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027533bf-9fd5-4320-8e9f-41d57965fa9c")
 	)
 	(wire
 		(pts
@@ -1126,6 +1316,36 @@
 			(type default)
 		)
 		(uuid "0293934c-9e8d-4e16-a64f-45fcc0431ed9")
+	)
+	(wire
+		(pts
+			(xy 300.99 215.9) (xy 306.07 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036cbb2b-3a75-41f8-bece-8fcaefcba9eb")
+	)
+	(wire
+		(pts
+			(xy 184.15 213.36) (xy 179.07 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c6e775-8385-4496-9afc-6c571f7a847b")
+	)
+	(wire
+		(pts
+			(xy 59.69 201.93) (xy 64.77 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05495a01-5323-4977-8d09-66b12c2cffab")
 	)
 	(wire
 		(pts
@@ -1149,6 +1369,26 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 205.74) (xy 368.3 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132f8202-5ca8-4cbd-a05f-9c407571eaf4")
+	)
+	(wire
+		(pts
+			(xy 165.1 208.28) (xy 184.15 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141c1f14-251e-4185-aa78-ff028ac5e173")
+	)
+	(wire
+		(pts
 			(xy 58.42 91.44) (xy 63.5 91.44)
 		)
 		(stroke
@@ -1156,6 +1396,46 @@
 			(type default)
 		)
 		(uuid "177f6e88-e5aa-4cbb-b6fb-03adade1f6ce")
+	)
+	(wire
+		(pts
+			(xy 63.5 144.78) (xy 68.58 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8c21ee-4122-41b6-aced-879b58209ee3")
+	)
+	(wire
+		(pts
+			(xy 179.07 224.79) (xy 179.07 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cae27d2-6557-4068-a5ce-1fc75bfc2e26")
+	)
+	(wire
+		(pts
+			(xy 45.72 194.31) (xy 64.77 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e032d11-19c0-4df1-9a30-977902930416")
+	)
+	(wire
+		(pts
+			(xy 246.38 210.82) (xy 246.38 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2399cac8-fdd6-4f29-af7c-326628edb32d")
 	)
 	(wire
 		(pts
@@ -1169,6 +1449,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 195.58) (xy 299.72 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ae9959-4cfd-46d3-ab4f-e3b7410f07d1")
+	)
+	(wire
+		(pts
 			(xy 58.42 83.82) (xy 58.42 86.36)
 		)
 		(stroke
@@ -1176,6 +1466,126 @@
 			(type default)
 		)
 		(uuid "281bb2bd-01ba-4f35-9e04-8656c64b4dd6")
+	)
+	(wire
+		(pts
+			(xy 167.64 154.94) (xy 181.61 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29bedaaf-da12-4067-be1a-8aa9361a490f")
+	)
+	(wire
+		(pts
+			(xy 99.06 142.24) (xy 105.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb8a7d2-736a-4d4b-89fa-d4336be22507")
+	)
+	(wire
+		(pts
+			(xy 186.69 139.7) (xy 180.34 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31147bf8-2550-4d49-adb7-3a8495f2273b")
+	)
+	(wire
+		(pts
+			(xy 59.69 199.39) (xy 59.69 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315a1823-b902-4281-ae42-3fb1d8af15db")
+	)
+	(wire
+		(pts
+			(xy 223.52 152.4) (xy 223.52 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a795ae-3ea3-4e6a-8526-1ae9d64ab78b")
+	)
+	(wire
+		(pts
+			(xy 105.41 144.78) (xy 105.41 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d3ca87-dd53-4fa0-83f1-968ed81566a2")
+	)
+	(wire
+		(pts
+			(xy 101.6 201.93) (xy 101.6 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b33cc9-3b94-4368-9e42-75db3f038922")
+	)
+	(wire
+		(pts
+			(xy 246.38 196.85) (xy 246.38 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a156039-de1f-4a55-81d8-6c5f33c2d725")
+	)
+	(wire
+		(pts
+			(xy 49.53 144.78) (xy 63.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e36c79c-4f6c-46ca-b49c-6bc719cb9143")
+	)
+	(wire
+		(pts
+			(xy 181.61 160.02) (xy 186.69 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417098ec-7db3-468a-a8e0-41e0b04c0c54")
+	)
+	(wire
+		(pts
+			(xy 220.98 215.9) (xy 220.98 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b5d7b8-59d4-4730-af5d-eb21c9c46d54")
+	)
+	(wire
+		(pts
+			(xy 64.77 199.39) (xy 59.69 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46902892-4c05-48cc-942a-a99b64068b6b")
 	)
 	(wire
 		(pts
@@ -1199,6 +1609,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 215.9) (xy 184.15 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f19f62-b8b6-4f76-bbf1-7a23d11daff9")
+	)
+	(wire
+		(pts
 			(xy 125.73 81.28) (xy 125.73 88.9)
 		)
 		(stroke
@@ -1206,6 +1626,26 @@
 			(type default)
 		)
 		(uuid "5188aa4f-ea97-46c1-b75d-61a062014630")
+	)
+	(wire
+		(pts
+			(xy 49.53 137.16) (xy 68.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ce09a0-9d9b-4685-9cb2-dd3ad3f05b5f")
+	)
+	(wire
+		(pts
+			(xy 181.61 154.94) (xy 186.69 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549e3925-a190-4469-a351-218369397854")
 	)
 	(wire
 		(pts
@@ -1219,6 +1659,76 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 220.98) (xy 184.15 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57aeeaef-f132-449e-9a66-35cad7b6e4ed")
+	)
+	(wire
+		(pts
+			(xy 181.61 152.4) (xy 181.61 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595da05f-92b2-4d51-aa8a-ee0d1e1d59b1")
+	)
+	(wire
+		(pts
+			(xy 63.5 149.86) (xy 68.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1a2e0b-4c01-4292-aa8c-8aee9b89adcf")
+	)
+	(wire
+		(pts
+			(xy 287.02 203.2) (xy 306.07 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e2efa9-2ef0-4a6a-8496-76004962a35b")
+	)
+	(wire
+		(pts
+			(xy 342.9 210.82) (xy 342.9 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f8e869-0061-4778-9154-ecd84a76da27")
+	)
+	(wire
+		(pts
+			(xy 223.52 154.94) (xy 223.52 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626450a3-12b4-44de-90af-f8cab6977fbf")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 130.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632f9a64-a51c-48ed-bb9d-6a9aaf2711e5")
+	)
+	(wire
+		(pts
 			(xy 58.42 95.25) (xy 58.42 91.44)
 		)
 		(stroke
@@ -1226,6 +1736,26 @@
 			(type default)
 		)
 		(uuid "63c598fe-53d3-4621-8624-d2bb3fc94822")
+	)
+	(wire
+		(pts
+			(xy 62.23 129.54) (xy 62.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6795f338-2a52-4012-b663-328d58897ac5")
+	)
+	(wire
+		(pts
+			(xy 186.69 152.4) (xy 181.61 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69064de1-5556-4334-9e25-35aca58e5661")
 	)
 	(wire
 		(pts
@@ -1249,6 +1779,66 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 210.82) (xy 59.69 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df7b916-4f75-48e2-8f25-102a8f386a6b")
+	)
+	(wire
+		(pts
+			(xy 127 196.85) (xy 127 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b49528-dd61-494e-8066-90a673d271b6")
+	)
+	(wire
+		(pts
+			(xy 95.25 199.39) (xy 101.6 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72242bcd-f676-47aa-8a6a-c23b9017d0af")
+	)
+	(wire
+		(pts
+			(xy 45.72 201.93) (xy 59.69 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b3d8ab-0e8b-4f6a-815a-3eb85c96710d")
+	)
+	(wire
+		(pts
+			(xy 336.55 210.82) (xy 342.9 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74547800-3dab-4037-8973-cde137e2a80e")
+	)
+	(wire
+		(pts
+			(xy 58.42 186.69) (xy 58.42 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7469ecf6-a720-4d49-9a6b-58aeaca5dfdf")
+	)
+	(wire
+		(pts
 			(xy 219.71 88.9) (xy 219.71 92.71)
 		)
 		(stroke
@@ -1259,6 +1849,76 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 219.71) (xy 300.99 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dd3171-22c1-47e0-be43-bbf94bff3e13")
+	)
+	(wire
+		(pts
+			(xy 177.8 200.66) (xy 177.8 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814d77fd-f6ae-4bb7-9ca6-30d0f434cabf")
+	)
+	(wire
+		(pts
+			(xy 300.99 210.82) (xy 306.07 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81742a44-b7ba-467e-bf9b-61fdbbefce25")
+	)
+	(wire
+		(pts
+			(xy 63.5 153.67) (xy 63.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dc6b6c-48df-4a14-b6a3-7d7e30f7c180")
+	)
+	(wire
+		(pts
+			(xy 287.02 210.82) (xy 300.99 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f547f9-2998-446b-877b-36a53f53868b")
+	)
+	(wire
+		(pts
+			(xy 180.34 139.7) (xy 180.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867ceab2-6937-41fa-a412-548e1ec07518")
+	)
+	(wire
+		(pts
+			(xy 336.55 208.28) (xy 342.9 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b3f2ca-cb1e-45a1-b6f2-b9a3c642eda5")
+	)
+	(wire
+		(pts
 			(xy 179.07 73.66) (xy 179.07 68.58)
 		)
 		(stroke
@@ -1266,6 +1926,36 @@
 			(type default)
 		)
 		(uuid "905a4a51-f02f-4f5a-9c41-2c3cd375b63c")
+	)
+	(wire
+		(pts
+			(xy 105.41 142.24) (xy 105.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a9dfab-dfbf-4476-8a9c-a9380496bc5a")
+	)
+	(wire
+		(pts
+			(xy 99.06 144.78) (xy 105.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea49b5b-d44f-48da-96a7-bf5a413d4946")
+	)
+	(wire
+		(pts
+			(xy 130.81 125.73) (xy 130.81 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22793db-9c6a-4dce-9e44-2a3e522317e0")
 	)
 	(wire
 		(pts
@@ -1289,6 +1979,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 182.88) (xy 127 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba908e19-2f6b-4be3-8a8e-c440d6a923bc")
+	)
+	(wire
+		(pts
 			(xy 44.45 78.74) (xy 63.5 78.74)
 		)
 		(stroke
@@ -1296,6 +1996,26 @@
 			(type default)
 		)
 		(uuid "bb43f94c-1a83-427a-bfc7-e7b3c12e5416")
+	)
+	(wire
+		(pts
+			(xy 217.17 152.4) (xy 223.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3cf372-fcfe-4ea6-8947-dcf228d6096e")
+	)
+	(wire
+		(pts
+			(xy 68.58 129.54) (xy 62.23 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c111e458-b66a-4f4c-b632-1dd826074cdb")
 	)
 	(wire
 		(pts
@@ -1319,6 +2039,56 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 200.66) (xy 177.8 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8052af1-2d5f-471b-b214-82673fd313a7")
+	)
+	(wire
+		(pts
+			(xy 300.99 208.28) (xy 300.99 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbeec22a-eccb-403f-8f89-efe8c6f6c047")
+	)
+	(wire
+		(pts
+			(xy 342.9 208.28) (xy 342.9 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d169441e-c700-45bd-a408-61e31996a16b")
+	)
+	(wire
+		(pts
+			(xy 217.17 154.94) (xy 223.52 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e978c1-e4cf-4175-913c-6ab46c67c225")
+	)
+	(wire
+		(pts
+			(xy 368.3 191.77) (xy 368.3 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72a1da3-e35d-4355-b90d-c47baa39291b")
+	)
+	(wire
+		(pts
 			(xy 125.73 67.31) (xy 125.73 73.66)
 		)
 		(stroke
@@ -1326,6 +2096,56 @@
 			(type default)
 		)
 		(uuid "d81bc4f2-d375-4550-b9bd-fdfa780f6df4")
+	)
+	(wire
+		(pts
+			(xy 167.64 147.32) (xy 186.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8356b5e-6de9-46d5-b492-43d39de5a4a3")
+	)
+	(wire
+		(pts
+			(xy 299.72 195.58) (xy 299.72 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bb686d-bf70-447d-855b-032d7c120672")
+	)
+	(wire
+		(pts
+			(xy 95.25 201.93) (xy 101.6 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2f6083-7f4b-4a68-afb0-b76a99894d1d")
+	)
+	(wire
+		(pts
+			(xy 59.69 207.01) (xy 64.77 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db477421-b6c7-4529-b945-223fe0ad7723")
+	)
+	(wire
+		(pts
+			(xy 179.07 213.36) (xy 179.07 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddae5259-c095-47bd-9736-7078fe1ac131")
 	)
 	(wire
 		(pts
@@ -1339,6 +2159,106 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 142.24) (xy 63.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de99c2b0-343c-4ae4-90cb-acfca82a04ed")
+	)
+	(wire
+		(pts
+			(xy 248.92 149.86) (xy 248.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe175ca-1a67-4954-bd64-8cd463991dd2")
+	)
+	(wire
+		(pts
+			(xy 306.07 208.28) (xy 300.99 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26a4f16-affc-480b-a9e7-af4610c178e8")
+	)
+	(wire
+		(pts
+			(xy 101.6 199.39) (xy 101.6 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4472e1-1001-4a7e-957a-66c6b7164b45")
+	)
+	(wire
+		(pts
+			(xy 248.92 135.89) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb4e7b3-5cea-4e35-a56d-f1ff19979dfd")
+	)
+	(wire
+		(pts
+			(xy 165.1 215.9) (xy 179.07 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed36bcaf-6eb8-468f-a036-68aeb43ce37e")
+	)
+	(wire
+		(pts
+			(xy 181.61 163.83) (xy 181.61 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1eab1bf-473a-45fc-bf14-c3f2acfa3810")
+	)
+	(wire
+		(pts
+			(xy 214.63 213.36) (xy 220.98 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35c4ec1-b608-4a7b-89cb-5d7cf03138dc")
+	)
+	(wire
+		(pts
+			(xy 63.5 142.24) (xy 63.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f755353e-336f-4d21-9189-9ed29522804a")
+	)
+	(wire
+		(pts
+			(xy 220.98 213.36) (xy 220.98 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7bf0252-10de-4a7a-b60e-8604bde34183")
+	)
+	(wire
+		(pts
 			(xy 57.15 71.12) (xy 57.15 66.04)
 		)
 		(stroke
@@ -1346,6 +2266,16 @@
 			(type default)
 		)
 		(uuid "feaadd76-73a4-4e4a-8558-f2becb8a6af6")
+	)
+	(label "VCC_3V3"
+		(at 58.42 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c69afc0-df75-4113-8dbf-1c1616e41fb1")
 	)
 	(label "VCC_3V3"
 		(at 219.71 78.74 0)
@@ -1368,6 +2298,16 @@
 		(uuid "326bb171-b42b-4f24-b336-3df32585ac30")
 	)
 	(label "VCC_3V3"
+		(at 130.81 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e68b639-e94d-4cf4-803c-6385ee6c9403")
+	)
+	(label "VCC_3V3"
 		(at 57.15 66.04 0)
 		(effects
 			(font
@@ -1388,6 +2328,66 @@
 		(uuid "6ee34757-d466-4cd6-ae81-28eb8d5be95c")
 	)
 	(label "VCC_3V3"
+		(at 299.72 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96bd9736-10cc-4b76-9a66-0aa0cee76ca8")
+	)
+	(label "VCC_3V3"
+		(at 127 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a491b671-8a0f-44a7-b2b8-832b287d2bdc")
+	)
+	(label "VCC_3V3"
+		(at 248.92 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aae4f0f0-3a94-48b8-b577-775fa546ad6c")
+	)
+	(label "VCC_3V3"
+		(at 180.34 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afc0ef54-9a37-4f46-9ab6-6acbcc9964ec")
+	)
+	(label "VCC_3V3"
+		(at 177.8 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be113963-e827-4d63-9ac6-3f221b3d1175")
+	)
+	(label "VCC_3V3"
+		(at 368.3 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3bc0af1-5f3a-4bfe-a3a5-0f6c2dcb4cb0")
+	)
+	(label "VCC_3V3"
 		(at 179.07 68.58 0)
 		(effects
 			(font
@@ -1396,6 +2396,185 @@
 			(justify left bottom)
 		)
 		(uuid "f11dd111-7e44-4f8e-b447-c22207737fad")
+	)
+	(label "VCC_3V3"
+		(at 62.23 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1b3f4a6-7c14-48b4-a69e-964d421b1797")
+	)
+	(label "VCC_3V3"
+		(at 246.38 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fac3ea08-2d7b-40af-8fa6-7dcd1711f3b2")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 193.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "009609f2-4a72-4396-ad73-f25a60b96554")
+		(property "Reference" "C262"
+			(at 128.016 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 128.016 195.326 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.0348 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2056d3d0-069e-41db-84df-7ec4852be43f")
+		)
+		(pin "2"
+			(uuid "ffb30ab5-c3a6-4120-9718-781f68e6a0e1")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "C262")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 368.3 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03b94aa1-d658-462c-be0c-354c3651d529")
+		(property "Reference" "#PWR0253"
+			(at 368.3 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 368.3 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 368.3 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72f4af39-c40a-4ec8-9ae0-9d5af418f331")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0253")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -1474,6 +2653,84 @@
 			(project "RO-Instrument"
 				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
 					(reference "R120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 223.52 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13453940-f4ef-464d-a580-2abb487bfadb")
+		(property "Reference" "#PWR0246"
+			(at 223.52 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 223.52 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 223.52 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07125284-c5ca-41b5-aa3c-c984cce8a87c")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -1639,6 +2896,412 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 246.38 207.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20c31a7f-2259-4fa4-b76d-037f7df5a524")
+		(property "Reference" "C264"
+			(at 247.396 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 247.396 209.296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.4148 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25c01d44-11c2-4326-8ae1-214e52903096")
+		)
+		(pin "2"
+			(uuid "3d0b36a2-c4bc-416d-aab6-5c24cc377a84")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "C264")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:INA226AQDGSRQ1")
+		(at 306.07 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d2e43ed-8c6a-4b32-ac02-770dc211d532")
+		(property "Reference" "IC22"
+			(at 321.31 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA226AQDGSRQ1"
+			(at 321.31 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP50P490X110-10N"
+			(at 332.74 289.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/ina226-q1"
+			(at 332.74 389.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "AEC-Q100, 36V, Bi-Directional, High Accuracy, Low-/High-Side, I2C Out Current/Power Monitor w/Alert"
+			(at 306.07 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 332.74 589.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-INA226AQDGSRQ1"
+			(at 332.74 689.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA226AQDGSRQ1?qs=uNh9J9Y3wTf1B1%2FBFFp7SA%3D%3D"
+			(at 332.74 789.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 332.74 889.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA226AQDGSRQ1"
+			(at 332.74 989.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "d8e62406-38f2-4ba8-b280-75842623cf0c")
+		)
+		(pin "7"
+			(uuid "4c535ec0-5343-4775-9e90-f359b1faf523")
+		)
+		(pin "8"
+			(uuid "021597fa-5f8d-4541-a14d-78a3f368128b")
+		)
+		(pin "4"
+			(uuid "4e9e066d-5a4a-4b34-9421-d8e1de52c490")
+		)
+		(pin "2"
+			(uuid "a0a3c909-76be-42fa-8891-3c990f30ed3c")
+		)
+		(pin "9"
+			(uuid "bc4c3437-c042-41f3-86c7-833d2dae92fc")
+		)
+		(pin "1"
+			(uuid "597460aa-7187-4f95-b3f7-cd8cb75ddd29")
+		)
+		(pin "3"
+			(uuid "49c16a9d-02b8-4f08-8204-2443abc28d58")
+		)
+		(pin "10"
+			(uuid "9ccbf5e1-6582-4bce-bfac-1ab44dfa327e")
+		)
+		(pin "5"
+			(uuid "38743a28-d0e0-43d6-9200-6b0c930f2fb0")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 248.92 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3280399a-f706-4b27-b4f5-3a5f5148b1be")
+		(property "Reference" "#PWR0247"
+			(at 248.92 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 248.92 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 248.92 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8a5f252-f05b-4233-9cac-651d48acea14")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0247")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "336291ed-5561-4843-befe-5bea9f76b2e5")
+		(property "Reference" "C261"
+			(at 131.826 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 131.826 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.8448 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff12db33-91c9-485d-bd7c-5465560731d9")
+		)
+		(pin "2"
+			(uuid "c7df6993-6033-4219-9e59-2cd98240ba69")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "C261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 219.71 92.71 0)
 		(unit 1)
@@ -1711,6 +3374,482 @@
 			(project "RO-Instrument"
 				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 101.6 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "430155e1-5216-4d8b-8976-5e4658dc6bcf")
+		(property "Reference" "#PWR0243"
+			(at 101.6 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 101.6 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 101.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44b536a3-5b41-476b-bb9c-537825804b76")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 220.98 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45c3bb04-78fe-4019-8f81-48cdcfd78f05")
+		(property "Reference" "#PWR0249"
+			(at 220.98 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 220.98 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 220.98 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39c36b8c-7bfd-4c98-b99b-a43c2656eff7")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0249")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 300.99 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "498a20c7-8ae0-4833-9fa7-0a3c9305fad9")
+		(property "Reference" "#PWR0251"
+			(at 300.99 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 300.99 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 300.99 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80460508-5af6-43ff-b35a-b4675f10803b")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 342.9 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c992b34-3c2e-4061-bf19-d8b1b685b9d4")
+		(property "Reference" "#PWR0252"
+			(at 342.9 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 342.9 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 342.9 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ef7c901-4301-454c-a33f-5b393dc46903")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 287.02 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66936f51-5887-4931-a4c4-c34fd9d9759a")
+		(property "Reference" "R154"
+			(at 289.56 205.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 289.56 208.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.036 207.264 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 287.02 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "406a3a12-4836-488a-9a56-8bb5fbb3249a")
+		)
+		(pin "2"
+			(uuid "5835d9fa-794a-49f7-a4dd-ef531fb6701c")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "R154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 45.72 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72ff6804-a17d-4554-9344-1a147458d2e5")
+		(property "Reference" "R151"
+			(at 48.26 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 48.26 199.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.736 198.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 45.72 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6db70ecc-30cd-4abb-a26d-85748fc83d9c")
+		)
+		(pin "2"
+			(uuid "da4f0cb5-1e6a-4875-97e7-531d05cb7af8")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "R151")
 					(unit 1)
 				)
 			)
@@ -1883,6 +4022,409 @@
 		)
 	)
 	(symbol
+		(lib_id "payload-sym:INA226AQDGSRQ1")
+		(at 186.69 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85df5a7a-daae-478e-aac1-1fa8578554c8")
+		(property "Reference" "IC20"
+			(at 201.93 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA226AQDGSRQ1"
+			(at 201.93 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP50P490X110-10N"
+			(at 213.36 233.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/ina226-q1"
+			(at 213.36 333.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "AEC-Q100, 36V, Bi-Directional, High Accuracy, Low-/High-Side, I2C Out Current/Power Monitor w/Alert"
+			(at 186.69 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 213.36 533.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-INA226AQDGSRQ1"
+			(at 213.36 633.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA226AQDGSRQ1?qs=uNh9J9Y3wTf1B1%2FBFFp7SA%3D%3D"
+			(at 213.36 733.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 213.36 833.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA226AQDGSRQ1"
+			(at 213.36 933.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "3ea9a909-cdc6-470f-8660-c1512e67af51")
+		)
+		(pin "7"
+			(uuid "a18977ca-627f-4e4f-a146-cb996b6f51ed")
+		)
+		(pin "8"
+			(uuid "3e4b67f2-1564-4768-a8ff-945429304294")
+		)
+		(pin "4"
+			(uuid "4f0b86b6-e5cf-492f-a7d0-66bd64ba7ac8")
+		)
+		(pin "2"
+			(uuid "1676b58c-7a71-4a22-a043-c30b3d30867c")
+		)
+		(pin "9"
+			(uuid "f8609654-d604-46f9-97bd-724bd023ba5b")
+		)
+		(pin "1"
+			(uuid "fb094d7e-49bd-4b17-aa5a-7f3240cc761c")
+		)
+		(pin "3"
+			(uuid "a5761c74-c6e9-49c8-8d10-37be83d0ff86")
+		)
+		(pin "10"
+			(uuid "cfc11124-85fe-44e4-b2c0-9bd21c821048")
+		)
+		(pin "5"
+			(uuid "b17f826b-6056-4d1a-be1f-394fb2187f8d")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 248.92 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e0dec28-0e0e-461f-9cfe-ccf53f10bc76")
+		(property "Reference" "C263"
+			(at 249.936 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 249.936 148.336 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.9548 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 248.92 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f8872b0-276e-4f04-b2d1-d0c8f91cd75e")
+		)
+		(pin "2"
+			(uuid "359189cf-66e1-4665-b324-5cb48255ef0e")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "C263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 63.5 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91d3be1b-0e9f-443c-95e1-59ddbf037029")
+		(property "Reference" "#PWR0239"
+			(at 63.5 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 63.5 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 63.5 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2334f7d-c055-4d5c-a7b5-11e042e25fa9")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 181.61 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acf63e2a-c4a2-4c50-9c7e-b34deb4a6f5d")
+		(property "Reference" "#PWR0245"
+			(at 181.61 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 181.61 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 181.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67d2f6e1-441d-4bae-888e-3bc491a9805a")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 247.65 91.44 0)
 		(unit 1)
@@ -1955,6 +4497,736 @@
 			(project "RO-Instrument"
 				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
 					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 167.64 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3060f3b-8fec-40db-8619-78e93a96abc0")
+		(property "Reference" "R152"
+			(at 170.18 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 170.18 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.656 151.384 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 167.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5426df99-b858-4e8a-9074-a0fdacbe3cc9")
+		)
+		(pin "2"
+			(uuid "010b6352-b49f-48d2-b844-368e7219fd98")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "R152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 127 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b30821c3-3a61-479d-b168-c7ae02347d2c")
+		(property "Reference" "#PWR0244"
+			(at 127 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 127 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 127 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f52bd4ff-eb28-4f8a-90d5-ed7bdf1147af")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 105.41 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b523cff7-2a0a-4ad9-8a78-52ec9e67a297")
+		(property "Reference" "#PWR0240"
+			(at 105.41 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 105.41 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 105.41 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a81be21-d93b-4c38-9739-ec7e52426784")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0240")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:INA226AQDGSRQ1")
+		(at 184.15 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5a59f1b-1230-435a-9231-4286d92acdf8")
+		(property "Reference" "IC21"
+			(at 199.39 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA226AQDGSRQ1"
+			(at 199.39 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP50P490X110-10N"
+			(at 210.82 294.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/ina226-q1"
+			(at 210.82 394.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "AEC-Q100, 36V, Bi-Directional, High Accuracy, Low-/High-Side, I2C Out Current/Power Monitor w/Alert"
+			(at 184.15 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 210.82 594.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-INA226AQDGSRQ1"
+			(at 210.82 694.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA226AQDGSRQ1?qs=uNh9J9Y3wTf1B1%2FBFFp7SA%3D%3D"
+			(at 210.82 794.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 210.82 894.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA226AQDGSRQ1"
+			(at 210.82 994.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "474746b8-21d5-45bf-97e0-2969a481ea07")
+		)
+		(pin "7"
+			(uuid "07aa4beb-3d00-4752-892a-ebd009dca876")
+		)
+		(pin "8"
+			(uuid "21231df0-191b-45bd-aa95-702524512a57")
+		)
+		(pin "4"
+			(uuid "2cb1cf04-448a-4cdd-abea-a6643b21f49c")
+		)
+		(pin "2"
+			(uuid "f424bc11-152e-488f-9876-9a03fbc3f9ce")
+		)
+		(pin "9"
+			(uuid "0ea4b154-ec26-4a84-8603-86e091d03294")
+		)
+		(pin "1"
+			(uuid "73c294da-6fd4-4dc1-ace1-25369d5a4cda")
+		)
+		(pin "3"
+			(uuid "5015c880-3c11-4232-91c5-142e82858428")
+		)
+		(pin "10"
+			(uuid "91930459-0ad3-42c5-8822-5ace6a1deba4")
+		)
+		(pin "5"
+			(uuid "c8043bd1-2243-4a7e-a608-27b903bd4495")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:INA226AQDGSRQ1")
+		(at 64.77 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf4e6942-26d7-4508-9967-fc2b80e42507")
+		(property "Reference" "IC19"
+			(at 80.01 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA226AQDGSRQ1"
+			(at 80.01 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP50P490X110-10N"
+			(at 91.44 280.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/ina226-q1"
+			(at 91.44 380.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "AEC-Q100, 36V, Bi-Directional, High Accuracy, Low-/High-Side, I2C Out Current/Power Monitor w/Alert"
+			(at 64.77 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 91.44 580.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-INA226AQDGSRQ1"
+			(at 91.44 680.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA226AQDGSRQ1?qs=uNh9J9Y3wTf1B1%2FBFFp7SA%3D%3D"
+			(at 91.44 780.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 91.44 880.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA226AQDGSRQ1"
+			(at 91.44 980.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "aefe89cd-6a26-4ce8-8848-ebf1926ab9be")
+		)
+		(pin "7"
+			(uuid "bbfb150e-59e3-4e47-8d31-e39b069b18d7")
+		)
+		(pin "8"
+			(uuid "977ecce3-6abf-49ee-a5e3-b923778ebfe2")
+		)
+		(pin "4"
+			(uuid "64b8b608-ca22-426c-8692-24f3e4952a0b")
+		)
+		(pin "2"
+			(uuid "30eef918-ea89-44ea-8a67-2c3af4e8016c")
+		)
+		(pin "9"
+			(uuid "fd829173-0447-403c-acb6-6a4817d1e33c")
+		)
+		(pin "1"
+			(uuid "b4468d52-7d4e-4b5c-993f-7fcd473cfaa0")
+		)
+		(pin "3"
+			(uuid "bbff6f81-ed90-429d-9e28-d23fa1cfdfba")
+		)
+		(pin "10"
+			(uuid "2f7fa7e5-39dd-478e-9656-d3c00d01a2b5")
+		)
+		(pin "5"
+			(uuid "8d7e2bb4-e519-4af3-b374-2ecb81365cf7")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 179.07 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8d1a85f-24f6-4ce7-9017-0d0aad38786f")
+		(property "Reference" "#PWR0248"
+			(at 179.07 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 179.07 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 179.07 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8b8bb69-63d0-4bc8-a10e-0b98da127b66")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 49.53 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca7772d4-5969-45f6-babd-00c130cd22fb")
+		(property "Reference" "R150"
+			(at 52.07 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 52.07 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.546 141.224 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 49.53 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9034809-ab4c-4629-954c-1eeac3ee7ac5")
+		)
+		(pin "2"
+			(uuid "eaaed1b3-ce80-44f2-af14-e1ba146488da")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "R150")
 					(unit 1)
 				)
 			)
@@ -2194,6 +5466,84 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
+		(at 130.81 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d21139ec-794f-4100-ad4d-3c140420cbf0")
+		(property "Reference" "#PWR0241"
+			(at 130.81 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 130.81 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 130.81 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ceef90e-11ed-465b-a9cb-07f22152b9be")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0241")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
 		(at 125.73 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -2265,6 +5615,250 @@
 			(project "RO-Instrument"
 				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
 					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:INA226AQDGSRQ1")
+		(at 68.58 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1a1aaeb-4f4b-43a2-93b7-7a4f8e299564")
+		(property "Reference" "IC18"
+			(at 83.82 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA226AQDGSRQ1"
+			(at 83.82 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP50P490X110-10N"
+			(at 95.25 223.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/ina226-q1"
+			(at 95.25 323.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "AEC-Q100, 36V, Bi-Directional, High Accuracy, Low-/High-Side, I2C Out Current/Power Monitor w/Alert"
+			(at 68.58 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 95.25 523.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-INA226AQDGSRQ1"
+			(at 95.25 623.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA226AQDGSRQ1?qs=uNh9J9Y3wTf1B1%2FBFFp7SA%3D%3D"
+			(at 95.25 723.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 95.25 823.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA226AQDGSRQ1"
+			(at 95.25 923.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "c8aa34c9-bfe2-4655-927f-56241abdf43c")
+		)
+		(pin "7"
+			(uuid "70482ed0-996b-415e-b037-bda7216076aa")
+		)
+		(pin "8"
+			(uuid "d6a357b0-7bc9-4da1-9e0c-f40281c50120")
+		)
+		(pin "4"
+			(uuid "d27ebb88-6cf9-4875-9b81-32f86d216d53")
+		)
+		(pin "2"
+			(uuid "8fe16020-2903-4c14-b4b7-c6aa34a2238c")
+		)
+		(pin "9"
+			(uuid "0dfa2f8c-aeef-427b-aa25-ba754d3814d2")
+		)
+		(pin "1"
+			(uuid "419e4909-aa2e-4260-a858-d8a736b85758")
+		)
+		(pin "3"
+			(uuid "a1cdbfc3-b036-4a92-9699-61d93bff1117")
+		)
+		(pin "10"
+			(uuid "f0388b4c-b569-4308-8e0b-c36a44ce8a53")
+		)
+		(pin "5"
+			(uuid "db9993a7-668c-40dd-9f17-60e85d5c6d96")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 59.69 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea156f0a-5447-4576-b6d3-cc3e6f8702a6")
+		(property "Reference" "#PWR0242"
+			(at 59.69 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 59.69 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 59.69 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "063c6d61-98bf-4570-baff-f8dd77e82363")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -2346,6 +5940,247 @@
 			(project "RO-Instrument"
 				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
 					(reference "C179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 368.3 201.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f47aa741-ea7e-4108-982f-c55327b8c5a9")
+		(property "Reference" "C265"
+			(at 369.316 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 369.316 204.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.3348 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 368.3 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b803acaf-42d0-4cef-afce-e8d18fc12ba3")
+		)
+		(pin "2"
+			(uuid "0dc41b12-d763-4806-be65-7e86789f01d6")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "C265")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 246.38 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f710f442-a9fc-4079-8771-c8bd8dd0fb01")
+		(property "Reference" "#PWR0250"
+			(at 246.38 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 246.38 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 246.38 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58f9ef4b-fba3-4beb-a9e3-8b1f5409cfc8")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "#PWR0250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8a5df01-f382-4419-9720-0d210c42a783")
+		(property "Reference" "R153"
+			(at 167.64 210.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 167.64 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.116 212.344 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 165.1 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0768f196-939a-44b2-9d73-dd5ca9ab2c48")
+		)
+		(pin "2"
+			(uuid "c0aa93b9-ca24-4bc7-8088-8ab4c0eb4f8f")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "R153")
 					(unit 1)
 				)
 			)
