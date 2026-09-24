@@ -83,25 +83,15 @@ architecture architecture_AcquisitionV1_2 of AcquisitionV1_2 is
     signal IFFT_in_imag, IFFT_in_real : std_logic_vector (IFFT_Width downto 0); 
     signal IFFT_o_imag, IFFT_o_real : std_logic_vector (IFFT_Width-1 downto 0); 
         
-    component PF_CLK_DIV_C3 is
-    port(
-        CLK_IN  : in  std_logic;
-        CLK_OUT : out  std_logic
-    );
-    end component;
-    
-    component PF_CLK_DIV_C4 is
-    port(
-        CLK_IN  : in  std_logic;
-        CLK_OUT : out  std_logic
-    );
-    end component;
-    
-    component PF_CLK_DIV_C5 is
-    port(
-        CLK_IN  : in  std_logic;
-        CLK_OUT : out  std_logic
-    );
+    component Freq_divider
+        generic (
+            DIV : positive :=  1
+        );
+        port (
+            clk_in      : IN  std_logic; 
+            rstn        : IN  std_logic; 
+            clk_out     : out std_logic
+        );
     end component;
     
     component COREDDS_C0 is
@@ -258,8 +248,9 @@ begin
 
     -- architecture body
     -- Divisor de clock
-    DIV2_CLK: PF_CLK_DIV_C3 port map(clk, clk_div2);
-    DIV8_CLK: PF_CLK_DIV_C4 port map(clk_div2, slw_clk);
+    DIV8_CLK: Freq_divider 
+        generic map (DIV => 8)
+        port map(clk, NRST, slw_clk);
         
     -- DDS e contador 
     SINE_GENERATOR: COREDDS_C0 port map (CLK,DDS_Frequency, '1','0',NRST,DDS_RSTN,cos_signal,open,sin_signal);
