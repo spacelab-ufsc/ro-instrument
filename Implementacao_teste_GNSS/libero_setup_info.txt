@@ -1,5 +1,9 @@
 # Microsemi Corp.
+<<<<<<< Updated upstream
 # Date: 2026-Sep-23 13:35:07
+=======
+# Date: 2026-Sep-23 14:50:22
+>>>>>>> Stashed changes
 Libero Release : 2025.1
 Libero Version : 2025.1.0.14
 Operating System Name : Linux
