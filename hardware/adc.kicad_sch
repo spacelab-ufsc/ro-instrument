@@ -1724,6 +1724,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 186.69 109.22)
+		(end 214.63 129.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b066dee9-0326-4b0a-93de-c49b3c99d04b")
+	)
 	(text "ADC"
 		(exclude_from_sim no)
 		(at 170.942 39.37 0)

@@ -665,6 +665,562 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "payload-sym:LTC4361HDC-2-TRMPBF"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 33.02 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LTC4361HDC-2-TRMPBF"
+				(at 33.02 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DFN-8_DC_LIT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "LTC4361HDC-2-TRMPBF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LTC4361HDC-2#TRMPBF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DFN-8_DC_LIT DFN-8_DC_LIT-M DFN-8_DC_LIT-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LTC4361HDC-2-TRMPBF_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -15.24) (xy 58.42 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 58.42 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 58.42 -15.24) (xy 58.42 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "GATEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "*ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -10.16 180)
+					(length 7.62)
+					(name "*PWRGD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 66.04 -7.62 180)
+					(length 7.62)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 66.04 -5.08 180)
+					(length 7.62)
+					(name "SENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 66.04 -2.54 180)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 66.04 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "payload-sym:SI1416EDH-T1-GE3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SI1416EDH-T1-GE3"
+				(at 21.59 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT65P210X110-6N"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/67580/si1416ed.pdf"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "78-SI1416EDH-T1-GE3"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1416EDH-T1-GE3?qs=pNKBmB2EQRiQP6xZUEPceg%3D%3D"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SI1416EDH-T1-GE3"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "SI1416EDH-T1-GE3_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "payload-sym:TMP112AQDRLRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1061,9 +1617,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 16.51 13.97)
+		(end 402.59 278.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c0d6ad9c-2d4b-4836-a84d-1972d9b902f0")
+	)
 	(text "TEMPERATURE SENSOR"
 		(exclude_from_sim no)
-		(at 200.406 58.674 0)
+		(at 333.756 26.924 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1074,7 +1642,7 @@
 	)
 	(text "DECOUPLING\nCAPACITOR"
 		(exclude_from_sim no)
-		(at 127 58.42 0)
+		(at 118.11 34.29 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1129,7 +1697,7 @@
 	)
 	(text "POWER MONITOR"
 		(exclude_from_sim no)
-		(at 79.248 56.896 0)
+		(at 70.358 32.766 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1151,7 +1719,7 @@
 	)
 	(text "DECOUPLING\nCAPACITOR"
 		(exclude_from_sim no)
-		(at 132.08 116.84 0)
+		(at 116.84 87.63 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1173,7 +1741,7 @@
 	)
 	(text "POWER MONITOR"
 		(exclude_from_sim no)
-		(at 84.328 115.316 0)
+		(at 69.088 86.106 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1195,7 +1763,7 @@
 	)
 	(text "DECOUPLING\nCAPACITOR"
 		(exclude_from_sim no)
-		(at 248.92 60.96 0)
+		(at 382.27 29.21 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1216,13 +1784,13 @@
 		(uuid "f7f7529a-5fe9-4d13-a9c4-b042ed7639f8")
 	)
 	(junction
-		(at 100.33 86.36)
+		(at 91.44 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ea190c9-2c23-4ee9-a0eb-9e20a314efcc")
 	)
 	(junction
-		(at 105.41 144.78)
+		(at 90.17 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57266261-0d85-4a9b-974d-4af7dc45ef56")
@@ -1246,13 +1814,13 @@
 		(uuid "7538e199-6a3f-4869-878e-1c1b15411986")
 	)
 	(junction
-		(at 58.42 86.36)
+		(at 49.53 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "954d81ac-df09-4d96-b654-8f7cb0afe9ef")
 	)
 	(junction
-		(at 63.5 144.78)
+		(at 48.26 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a28d1ed3-1163-4ecd-89a1-4eba8a6c533e")
@@ -1309,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 69.85) (xy 247.65 76.2)
+			(xy 381 38.1) (xy 381 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +1917,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 83.82) (xy 100.33 86.36)
+			(xy 91.44 59.69) (xy 91.44 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 58.42 83.82)
+			(xy 54.61 59.69) (xy 49.53 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1389,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 91.44) (xy 63.5 91.44)
+			(xy 49.53 67.31) (xy 54.61 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 144.78) (xy 68.58 144.78)
+			(xy 48.26 115.57) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 86.36) (xy 63.5 86.36)
+			(xy 49.53 62.23) (xy 54.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 83.82) (xy 58.42 86.36)
+			(xy 49.53 59.69) (xy 49.53 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 142.24) (xy 105.41 142.24)
+			(xy 83.82 113.03) (xy 90.17 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 144.78) (xy 105.41 153.67)
+			(xy 90.17 115.57) (xy 90.17 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1549,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 144.78) (xy 63.5 144.78)
+			(xy 34.29 115.57) (xy 48.26 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1589,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 83.82) (xy 100.33 83.82)
+			(xy 85.09 59.69) (xy 91.44 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1599,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 71.12) (xy 57.15 71.12)
+			(xy 54.61 46.99) (xy 48.26 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 81.28) (xy 125.73 88.9)
+			(xy 116.84 57.15) (xy 116.84 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1629,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 137.16) (xy 68.58 137.16)
+			(xy 34.29 107.95) (xy 53.34 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 83.82) (xy 219.71 78.74)
+			(xy 353.06 52.07) (xy 353.06 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1679,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 149.86) (xy 68.58 149.86)
+			(xy 48.26 120.65) (xy 53.34 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1719,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 139.7) (xy 130.81 147.32)
+			(xy 115.57 110.49) (xy 115.57 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1729,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 58.42 91.44)
+			(xy 49.53 71.12) (xy 49.53 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1739,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 129.54) (xy 62.23 124.46)
+			(xy 46.99 100.33) (xy 46.99 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1759,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 86.36) (xy 100.33 86.36)
+			(xy 85.09 62.23) (xy 91.44 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1769,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 86.36) (xy 100.33 95.25)
+			(xy 91.44 62.23) (xy 91.44 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1839,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 88.9) (xy 219.71 92.71)
+			(xy 353.06 57.15) (xy 353.06 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1879,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 153.67) (xy 63.5 149.86)
+			(xy 48.26 124.46) (xy 48.26 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1919,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 73.66) (xy 179.07 68.58)
+			(xy 312.42 41.91) (xy 312.42 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 142.24) (xy 105.41 144.78)
+			(xy 90.17 113.03) (xy 90.17 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1939,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 144.78) (xy 105.41 144.78)
+			(xy 83.82 115.57) (xy 90.17 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 125.73) (xy 130.81 132.08)
+			(xy 115.57 96.52) (xy 115.57 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1959,7 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 83.82) (xy 247.65 91.44)
+			(xy 381 52.07) (xy 381 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1969,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 88.9) (xy 219.71 88.9)
+			(xy 347.98 57.15) (xy 353.06 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1989,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 78.74) (xy 63.5 78.74)
+			(xy 35.56 54.61) (xy 54.61 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2009,7 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 129.54) (xy 62.23 129.54)
+			(xy 53.34 100.33) (xy 46.99 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +2587,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 73.66) (xy 179.07 73.66)
+			(xy 318.77 41.91) (xy 312.42 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2029,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 83.82) (xy 219.71 83.82)
+			(xy 347.98 52.07) (xy 353.06 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2089,7 +2657,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 67.31) (xy 125.73 73.66)
+			(xy 116.84 43.18) (xy 116.84 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2149,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 86.36) (xy 58.42 86.36)
+			(xy 35.56 62.23) (xy 49.53 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2159,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 142.24) (xy 63.5 142.24)
+			(xy 53.34 113.03) (xy 48.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 142.24) (xy 63.5 144.78)
+			(xy 48.26 113.03) (xy 48.26 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2259,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 71.12) (xy 57.15 66.04)
+			(xy 48.26 46.99) (xy 48.26 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2278,7 +2846,7 @@
 		(uuid "0c69afc0-df75-4113-8dbf-1c1616e41fb1")
 	)
 	(label "VCC_3V3"
-		(at 219.71 78.74 0)
+		(at 353.06 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2288,7 +2856,7 @@
 		(uuid "1418e3f5-a96e-41c5-9ff4-536bd468a442")
 	)
 	(label "VCC_3V3"
-		(at 125.73 67.31 0)
+		(at 116.84 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2298,7 +2866,7 @@
 		(uuid "326bb171-b42b-4f24-b336-3df32585ac30")
 	)
 	(label "VCC_3V3"
-		(at 130.81 125.73 0)
+		(at 115.57 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2308,7 +2876,7 @@
 		(uuid "3e68b639-e94d-4cf4-803c-6385ee6c9403")
 	)
 	(label "VCC_3V3"
-		(at 57.15 66.04 0)
+		(at 48.26 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2318,7 +2886,7 @@
 		(uuid "554f0955-04b7-4ec6-9291-d02cb45878c7")
 	)
 	(label "VCC_3V3"
-		(at 247.65 69.85 0)
+		(at 381 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2388,7 +2956,7 @@
 		(uuid "d3bc0af1-5f3a-4bfe-a3a5-0f6c2dcb4cb0")
 	)
 	(label "VCC_3V3"
-		(at 179.07 68.58 0)
+		(at 312.42 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2398,7 +2966,7 @@
 		(uuid "f11dd111-7e44-4f8e-b447-c22207737fad")
 	)
 	(label "VCC_3V3"
-		(at 62.23 124.46 0)
+		(at 46.99 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2499,6 +3067,160 @@
 		)
 	)
 	(symbol
+		(lib_id "payload-sym:SI1416EDH-T1-GE3")
+		(at 248.92 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02291c94-fdf5-44d2-9e71-ad6a799465fb")
+		(property "Reference" "IC24"
+			(at 261.62 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI1416EDH-T1-GE3"
+			(at 261.62 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-6N"
+			(at 270.51 136.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/67580/si1416ed.pdf"
+			(at 270.51 236.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay"
+			(at 248.92 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 270.51 436.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-SI1416EDH-T1-GE3"
+			(at 270.51 536.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1416EDH-T1-GE3?qs=pNKBmB2EQRiQP6xZUEPceg%3D%3D"
+			(at 270.51 636.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 270.51 736.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI1416EDH-T1-GE3"
+			(at 270.51 836.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "eef821b5-86d4-465f-9d32-060b415e5634")
+		)
+		(pin "3"
+			(uuid "958f717c-5178-4054-802e-2537a15ac508")
+		)
+		(pin "2"
+			(uuid "81425f77-a54f-47f4-8ae6-6610eaaf9b01")
+		)
+		(pin "4"
+			(uuid "eb2194fb-bbea-4c6c-b2a6-631b9161a0d3")
+		)
+		(pin "5"
+			(uuid "1a823603-f7c1-4286-a948-ae37ad0ec251")
+		)
+		(pin "6"
+			(uuid "84ee0d64-b440-4054-a83b-3fa59cc0dbc9")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 368.3 213.36 0)
 		(unit 1)
@@ -2578,7 +3300,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 44.45 82.55 0)
+		(at 35.56 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2589,7 +3311,7 @@
 		(fields_autoplaced yes)
 		(uuid "1148880a-ed54-4a67-963c-bb405a77bdc2")
 		(property "Reference" "R120"
-			(at 46.99 81.2799 0)
+			(at 38.1 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2600,7 +3322,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 46.99 83.8199 0)
+			(at 38.1 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2611,7 +3333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.466 82.804 90)
+			(at 36.576 58.674 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2622,7 +3344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 82.55 0)
+			(at 35.56 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2633,7 +3355,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 44.45 82.55 0)
+			(at 35.56 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2738,7 +3460,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 247.65 80.01 180)
+		(at 381 48.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2748,7 +3470,7 @@
 		(dnp no)
 		(uuid "196b28bf-be16-494a-91f4-684eb0e77ce0")
 		(property "Reference" "C177"
-			(at 248.666 77.47 0)
+			(at 382.016 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2759,7 +3481,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 248.666 82.296 0)
+			(at 382.016 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2770,7 +3492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.6848 76.2 0)
+			(at 380.0348 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2781,7 +3503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 80.01 0)
+			(at 381 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2792,7 +3514,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 247.65 80.01 0)
+			(at 381 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2819,7 +3541,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 100.33 95.25 0)
+		(at 91.44 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2830,7 +3552,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c182bd0-db54-4f3e-b551-53036549ac65")
 		(property "Reference" "#PWR0168"
-			(at 100.33 101.6 0)
+			(at 91.44 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2841,7 +3563,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 100.33 100.33 0)
+			(at 91.44 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2851,7 +3573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 95.25 0)
+			(at 91.44 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2862,7 +3584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 95.25 0)
+			(at 91.44 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2873,7 +3595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 100.33 95.25 0)
+			(at 91.44 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2971,6 +3693,263 @@
 			(project "RO-Instrument"
 				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
 					(reference "C264")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:SI1416EDH-T1-GE3")
+		(at 367.03 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2147a98f-de60-4df2-a9fd-70ac14ff5254")
+		(property "Reference" "IC26"
+			(at 379.73 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI1416EDH-T1-GE3"
+			(at 379.73 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-6N"
+			(at 388.62 183.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/67580/si1416ed.pdf"
+			(at 388.62 283.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay"
+			(at 367.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 388.62 483.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-SI1416EDH-T1-GE3"
+			(at 388.62 583.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1416EDH-T1-GE3?qs=pNKBmB2EQRiQP6xZUEPceg%3D%3D"
+			(at 388.62 683.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 388.62 783.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI1416EDH-T1-GE3"
+			(at 388.62 883.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "91b6d5ed-eb08-4669-a509-2da8c4688748")
+		)
+		(pin "3"
+			(uuid "82de5354-6608-4b35-a60a-36c99fdf92d1")
+		)
+		(pin "2"
+			(uuid "47d50f84-6052-4c35-94dd-472517f4133e")
+		)
+		(pin "4"
+			(uuid "a7a60732-df47-4b93-b47e-ee17ca0df350")
+		)
+		(pin "5"
+			(uuid "d2e0fac6-0e66-448c-9b44-481fbd4b002b")
+		)
+		(pin "6"
+			(uuid "4ca67fb9-f2a6-4ffd-908c-d53dedfceb9c")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:LTC4361HDC-2-TRMPBF")
+		(at 298.45 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27483843-e121-45c7-9fd0-692aa4747c80")
+		(property "Reference" "U20"
+			(at 331.47 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTC4361HDC-2-TRMPBF"
+			(at 331.47 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DFN-8_DC_LIT"
+			(at 298.45 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "LTC4361HDC-2-TRMPBF"
+			(at 298.45 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "db8b695b-1f3f-449e-b9f7-ce3ab24794e7")
+		)
+		(pin "4"
+			(uuid "b92783c1-1628-4c08-aac7-74feee582c47")
+		)
+		(pin "5"
+			(uuid "736436d5-5fd2-43c6-b21e-ea00fe4ae390")
+		)
+		(pin "6"
+			(uuid "ca206a65-e53a-4487-a5ee-c3a8b848221a")
+		)
+		(pin "9"
+			(uuid "6a5d694f-7313-499d-85f9-290bbccab175")
+		)
+		(pin "8"
+			(uuid "2b1044e5-5677-4012-818b-88875a25c997")
+		)
+		(pin "2"
+			(uuid "a820a9bc-688f-4bbc-9794-594a2ef6034a")
+		)
+		(pin "7"
+			(uuid "4b8aefd2-a7a9-4da6-8e80-1cdfdb84219c")
+		)
+		(pin "1"
+			(uuid "01629b8b-aedc-4be6-9a9e-59b1ee8cdbeb")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -3222,7 +4201,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 135.89 180)
+		(at 115.57 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3232,7 +4211,7 @@
 		(dnp no)
 		(uuid "336291ed-5561-4843-befe-5bea9f76b2e5")
 		(property "Reference" "C261"
-			(at 131.826 133.35 0)
+			(at 116.586 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3243,7 +4222,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 131.826 138.176 0)
+			(at 116.586 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3254,7 +4233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.8448 132.08 0)
+			(at 114.6048 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3265,7 +4244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 135.89 0)
+			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3276,7 +4255,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 135.89 0)
+			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3303,7 +4282,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 219.71 92.71 0)
+		(at 353.06 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3314,7 +4293,7 @@
 		(fields_autoplaced yes)
 		(uuid "34febb4f-1e44-4f6d-8c6a-196da08cbcac")
 		(property "Reference" "#PWR0165"
-			(at 219.71 99.06 0)
+			(at 353.06 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3325,7 +4304,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 219.71 97.79 0)
+			(at 353.06 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3335,7 +4314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 92.71 0)
+			(at 353.06 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3346,7 +4325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 92.71 0)
+			(at 353.06 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3357,7 +4336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 219.71 92.71 0)
+			(at 353.06 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3374,6 +4353,314 @@
 			(project "RO-Instrument"
 				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:SI1416EDH-T1-GE3")
+		(at 218.44 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a0b8cf2-caf2-4459-b98b-56d3025316db")
+		(property "Reference" "IC23"
+			(at 231.14 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI1416EDH-T1-GE3"
+			(at 231.14 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-6N"
+			(at 240.03 120.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/67580/si1416ed.pdf"
+			(at 240.03 220.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay"
+			(at 218.44 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 240.03 420.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-SI1416EDH-T1-GE3"
+			(at 240.03 520.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1416EDH-T1-GE3?qs=pNKBmB2EQRiQP6xZUEPceg%3D%3D"
+			(at 240.03 620.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 240.03 720.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI1416EDH-T1-GE3"
+			(at 240.03 820.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "4b424270-98cd-4d85-b73d-0d2230a83a54")
+		)
+		(pin "3"
+			(uuid "9c67fe3e-931b-42ed-928f-56346e18f6be")
+		)
+		(pin "2"
+			(uuid "2a711436-f9eb-457a-96b5-870d78e3cb33")
+		)
+		(pin "4"
+			(uuid "86e1bc50-ea95-4dc1-b31a-2b0d15bc4ed4")
+		)
+		(pin "5"
+			(uuid "60cb2e1d-772a-48ca-80c4-fbbfa9b9e7bc")
+		)
+		(pin "6"
+			(uuid "711672f6-e7dd-497d-9cec-513a7b0078eb")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:SI1416EDH-T1-GE3")
+		(at 273.05 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4265f25d-62ca-4c63-aeaa-3de0b46e473f")
+		(property "Reference" "IC28"
+			(at 285.75 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI1416EDH-T1-GE3"
+			(at 285.75 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-6N"
+			(at 294.64 340.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/67580/si1416ed.pdf"
+			(at 294.64 440.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay"
+			(at 273.05 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 294.64 640.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-SI1416EDH-T1-GE3"
+			(at 294.64 740.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1416EDH-T1-GE3?qs=pNKBmB2EQRiQP6xZUEPceg%3D%3D"
+			(at 294.64 840.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 294.64 940.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI1416EDH-T1-GE3"
+			(at 294.64 1040.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "4863d150-e9ea-4df1-a9a4-2a019d7c7fde")
+		)
+		(pin "3"
+			(uuid "0b8d8989-f0b2-4d45-bd15-208f132e3208")
+		)
+		(pin "2"
+			(uuid "e74d5e1b-a017-43d2-93b7-efa278cade2f")
+		)
+		(pin "4"
+			(uuid "c65dff49-1799-4887-b8da-533aaad1aa86")
+		)
+		(pin "5"
+			(uuid "ca4bb0bd-45bb-4c82-9bfe-d0448249cd03")
+		)
+		(pin "6"
+			(uuid "ce41ecd0-c59a-40ac-99ee-013a24002020")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC28")
 					(unit 1)
 				)
 			)
@@ -3614,6 +4901,109 @@
 		)
 	)
 	(symbol
+		(lib_id "payload-sym:LTC4361HDC-2-TRMPBF")
+		(at 160.02 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae9d9b4-c9fc-420e-849d-4e2f18ef6802")
+		(property "Reference" "U14"
+			(at 193.04 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTC4361HDC-2-TRMPBF"
+			(at 193.04 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DFN-8_DC_LIT"
+			(at 160.02 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "LTC4361HDC-2-TRMPBF"
+			(at 160.02 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "065e788b-f8d3-47ca-94cd-04eeff860d5e")
+		)
+		(pin "4"
+			(uuid "ffff8d3c-ac2d-4da3-8964-dcf8e6dd20d1")
+		)
+		(pin "5"
+			(uuid "98704833-e5a9-4653-bcc2-70cdf6f162e5")
+		)
+		(pin "6"
+			(uuid "c5542dd8-69a0-4ccd-8d2a-33ad738f59bb")
+		)
+		(pin "9"
+			(uuid "a11e302f-370f-4ce5-9ba8-bebb3cae5151")
+		)
+		(pin "8"
+			(uuid "718f59f5-cf33-4187-ba27-4fb9d77ea67d")
+		)
+		(pin "2"
+			(uuid "225dd69c-a6b1-4892-875b-9b9ac375105a")
+		)
+		(pin "7"
+			(uuid "7f98609c-5fff-4ea4-8a7a-9c6430218e4c")
+		)
+		(pin "1"
+			(uuid "57a05da5-cf11-4c69-9e9e-1e3660d5e8c8")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 342.9 219.71 0)
 		(unit 1)
@@ -3686,6 +5076,109 @@
 			(project "RO-Instrument"
 				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
 					(reference "#PWR0252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:LTC4361HDC-2-TRMPBF")
+		(at 194.31 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4663ec-d3eb-46c8-9e0b-efba1f4b9eee")
+		(property "Reference" "U22"
+			(at 227.33 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTC4361HDC-2-TRMPBF"
+			(at 227.33 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DFN-8_DC_LIT"
+			(at 194.31 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "LTC4361HDC-2-TRMPBF"
+			(at 194.31 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4e33d15d-04e5-463e-bbb3-f82ef234afb8")
+		)
+		(pin "4"
+			(uuid "5ebf07e5-0733-4cf4-90a2-517ad0aa3e34")
+		)
+		(pin "5"
+			(uuid "aaada746-311d-40dc-a1cb-4bd8b96b2856")
+		)
+		(pin "6"
+			(uuid "27e4d867-4c7b-40d7-a826-2f28daeeaf66")
+		)
+		(pin "9"
+			(uuid "09cb3821-5908-41dc-b224-bfeb58c0ed37")
+		)
+		(pin "8"
+			(uuid "631e262b-6ff7-4c2f-b087-d5380f02e46f")
+		)
+		(pin "2"
+			(uuid "85b94cd5-9be4-46f1-b64f-dba1307baaba")
+		)
+		(pin "7"
+			(uuid "01f16466-f64d-4636-ae78-d36aa2b7a787")
+		)
+		(pin "1"
+			(uuid "98fcd0a4-6f1a-4966-9570-2a6bc657895f")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -3857,7 +5350,7 @@
 	)
 	(symbol
 		(lib_id "payload-sym:INA226AQDGSRQ1")
-		(at 63.5 69.85 0)
+		(at 54.61 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3868,7 +5361,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f034855-fed8-4418-9d69-695df71be63c")
 		(property "Reference" "IC13"
-			(at 78.74 62.23 0)
+			(at 69.85 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3878,7 +5371,7 @@
 			)
 		)
 		(property "Value" "INA226AQDGSRQ1"
-			(at 78.74 64.77 0)
+			(at 69.85 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3888,7 +5381,7 @@
 			)
 		)
 		(property "Footprint" "SOP50P490X110-10N"
-			(at 90.17 164.77 0)
+			(at 81.28 140.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3900,7 +5393,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/ina226-q1"
-			(at 90.17 264.77 0)
+			(at 81.28 240.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3912,7 +5405,7 @@
 			)
 		)
 		(property "Description" "AEC-Q100, 36V, Bi-Directional, High Accuracy, Low-/High-Side, I2C Out Current/Power Monitor w/Alert"
-			(at 63.5 69.85 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3923,7 +5416,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 90.17 464.77 0)
+			(at 81.28 440.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3935,7 +5428,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA226AQDGSRQ1"
-			(at 90.17 564.77 0)
+			(at 81.28 540.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,7 +5440,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA226AQDGSRQ1?qs=uNh9J9Y3wTf1B1%2FBFFp7SA%3D%3D"
-			(at 90.17 664.77 0)
+			(at 81.28 640.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,7 +5452,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 90.17 764.77 0)
+			(at 81.28 740.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3971,7 +5464,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA226AQDGSRQ1"
-			(at 90.17 864.77 0)
+			(at 81.28 840.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4270,7 +5763,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 63.5 153.67 0)
+		(at 48.26 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4281,7 +5774,7 @@
 		(fields_autoplaced yes)
 		(uuid "91d3be1b-0e9f-443c-95e1-59ddbf037029")
 		(property "Reference" "#PWR0239"
-			(at 63.5 160.02 0)
+			(at 48.26 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4292,7 +5785,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 63.5 158.75 0)
+			(at 48.26 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4302,7 +5795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 153.67 0)
+			(at 48.26 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,7 +5806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 153.67 0)
+			(at 48.26 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,7 +5817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 63.5 153.67 0)
+			(at 48.26 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4426,7 +5919,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 247.65 91.44 0)
+		(at 381 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4437,7 +5930,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad564e24-ec9f-4304-9d3f-03e9880e3807")
 		(property "Reference" "#PWR0166"
-			(at 247.65 97.79 0)
+			(at 381 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4448,7 +5941,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 247.65 96.52 0)
+			(at 381 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4458,7 +5951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 91.44 0)
+			(at 381 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4469,7 +5962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 91.44 0)
+			(at 381 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4480,7 +5973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 247.65 91.44 0)
+			(at 381 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4664,7 +6157,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 105.41 153.67 0)
+		(at 90.17 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4675,7 +6168,7 @@
 		(fields_autoplaced yes)
 		(uuid "b523cff7-2a0a-4ad9-8a78-52ec9e67a297")
 		(property "Reference" "#PWR0240"
-			(at 105.41 160.02 0)
+			(at 90.17 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4686,7 +6179,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 105.41 158.75 0)
+			(at 90.17 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4696,7 +6189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 153.67 0)
+			(at 90.17 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4707,7 +6200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 153.67 0)
+			(at 90.17 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +6211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 105.41 153.67 0)
+			(at 90.17 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5073,6 +6566,109 @@
 		)
 	)
 	(symbol
+		(lib_id "payload-sym:LTC4361HDC-2-TRMPBF")
+		(at 281.94 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3447037-7c4e-45b2-aab6-6dda9c1ccc5b")
+		(property "Reference" "U19"
+			(at 314.96 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTC4361HDC-2-TRMPBF"
+			(at 314.96 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DFN-8_DC_LIT"
+			(at 281.94 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "LTC4361HDC-2-TRMPBF"
+			(at 281.94 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f4939052-a31d-42e6-bf06-4a73c4a5b5cd")
+		)
+		(pin "4"
+			(uuid "69ed98d0-7458-4165-9328-df3a4fd39d17")
+		)
+		(pin "5"
+			(uuid "62bfd7b4-48f2-4860-b97d-53a4fabc4e5d")
+		)
+		(pin "6"
+			(uuid "6fc1b696-a55c-4e96-8d8a-b6b4b76305e7")
+		)
+		(pin "9"
+			(uuid "302ed1cf-49e2-4bb5-a169-98a5132fc60c")
+		)
+		(pin "8"
+			(uuid "4bce68fa-3c5a-4df2-8372-ad8d923edef8")
+		)
+		(pin "2"
+			(uuid "721143c7-b554-4723-9836-9dbcf6aafa2b")
+		)
+		(pin "7"
+			(uuid "3fcbe6df-03f9-4478-a33a-ab754111ef91")
+		)
+		(pin "1"
+			(uuid "4ebbf024-cdd7-4de7-b448-fdfea4ed69f3")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 179.07 224.79 0)
 		(unit 1)
@@ -5152,7 +6748,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 49.53 140.97 0)
+		(at 34.29 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5163,7 +6759,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca7772d4-5969-45f6-babd-00c130cd22fb")
 		(property "Reference" "R150"
-			(at 52.07 139.6999 0)
+			(at 36.83 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5174,7 +6770,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 52.07 142.2399 0)
+			(at 36.83 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5185,7 +6781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.546 141.224 90)
+			(at 35.306 112.014 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5196,7 +6792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 140.97 0)
+			(at 34.29 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5207,7 +6803,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 49.53 140.97 0)
+			(at 34.29 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5234,7 +6830,7 @@
 	)
 	(symbol
 		(lib_id "payload-sym:TMP112AQDRLRQ1")
-		(at 185.42 72.39 0)
+		(at 318.77 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5245,7 +6841,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb46f18b-b727-4448-b319-7a22b477251e")
 		(property "Reference" "IC14"
-			(at 199.898 64.77 0)
+			(at 333.248 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5255,7 +6851,7 @@
 			)
 		)
 		(property "Value" "TMP112AQDRLRQ1"
-			(at 199.898 67.31 0)
+			(at 333.248 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5265,7 +6861,7 @@
 			)
 		)
 		(property "Footprint" "SOTFL50P160X60-6N"
-			(at 212.09 167.31 0)
+			(at 345.44 135.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5277,7 +6873,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/tmp112-q1"
-			(at 212.09 267.31 0)
+			(at 345.44 235.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,7 +6885,7 @@
 			)
 		)
 		(property "Description" "Automotive Grade, 1.4V-Capable +/-0.5C Temperature Sensor with Alert Function and I2C/SMBus"
-			(at 185.42 72.39 0)
+			(at 318.77 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +6896,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 212.09 467.31 0)
+			(at 345.44 435.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5312,7 +6908,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TMP112AQDRLRQ1"
-			(at 212.09 567.31 0)
+			(at 345.44 535.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5324,7 +6920,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP112AQDRLRQ1?qs=asCBFxFfL1Q5YmJCm%252BGnCQ%3D%3D"
-			(at 212.09 667.31 0)
+			(at 345.44 635.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5336,7 +6932,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 212.09 767.31 0)
+			(at 345.44 735.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5348,7 +6944,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TMP112AQDRLRQ1"
-			(at 212.09 867.31 0)
+			(at 345.44 835.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5387,8 +6983,111 @@
 		)
 	)
 	(symbol
+		(lib_id "payload-sym:LTC4361HDC-2-TRMPBF")
+		(at 194.31 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccced49f-d673-467d-9875-aa2b337ccc7c")
+		(property "Reference" "U18"
+			(at 227.33 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTC4361HDC-2-TRMPBF"
+			(at 227.33 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DFN-8_DC_LIT"
+			(at 194.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "LTC4361HDC-2-TRMPBF"
+			(at 194.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6936aff3-8159-4a00-948d-7633ed7aecdd")
+		)
+		(pin "4"
+			(uuid "84959b64-aa89-4031-a453-2e768bf17e2e")
+		)
+		(pin "5"
+			(uuid "1c04c760-2888-4381-b75b-9b5c4c48b46b")
+		)
+		(pin "6"
+			(uuid "6646dd94-6e63-42f2-9e81-3752fa750d20")
+		)
+		(pin "9"
+			(uuid "b8954c71-2e03-479a-ae70-ddf083ab1d65")
+		)
+		(pin "8"
+			(uuid "05839511-d942-4116-af11-5ce4b64d5663")
+		)
+		(pin "2"
+			(uuid "aed9a28a-5c69-4de1-b918-d848a4008522")
+		)
+		(pin "7"
+			(uuid "8aa88ea8-ee29-4d97-a081-9481e695a5da")
+		)
+		(pin "1"
+			(uuid "d9565233-2bb3-4e99-8846-f3d97ca389ae")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
-		(at 58.42 95.25 0)
+		(at 49.53 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5399,7 +7098,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfd35def-84e9-4d1b-bbf7-c2f3a07c3e84")
 		(property "Reference" "#PWR0169"
-			(at 58.42 101.6 0)
+			(at 49.53 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5410,7 +7109,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 58.42 100.33 0)
+			(at 49.53 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5420,7 +7119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 95.25 0)
+			(at 49.53 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5431,7 +7130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 95.25 0)
+			(at 49.53 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5442,7 +7141,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 58.42 95.25 0)
+			(at 49.53 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5466,7 +7165,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 130.81 147.32 0)
+		(at 115.57 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5477,7 +7176,7 @@
 		(fields_autoplaced yes)
 		(uuid "d21139ec-794f-4100-ad4d-3c140420cbf0")
 		(property "Reference" "#PWR0241"
-			(at 130.81 153.67 0)
+			(at 115.57 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5488,7 +7187,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 130.81 152.4 0)
+			(at 115.57 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5498,7 +7197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 147.32 0)
+			(at 115.57 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5509,7 +7208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 147.32 0)
+			(at 115.57 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +7219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 130.81 147.32 0)
+			(at 115.57 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5544,7 +7243,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 125.73 88.9 0)
+		(at 116.84 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5555,7 +7254,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4a01954-713f-415a-9616-79a857d7cd90")
 		(property "Reference" "#PWR0167"
-			(at 125.73 95.25 0)
+			(at 116.84 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5566,7 +7265,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 125.73 93.98 0)
+			(at 116.84 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5576,7 +7275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 88.9 0)
+			(at 116.84 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5587,7 +7286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 88.9 0)
+			(at 116.84 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5598,7 +7297,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 125.73 88.9 0)
+			(at 116.84 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,8 +7320,162 @@
 		)
 	)
 	(symbol
+		(lib_id "payload-sym:SI1416EDH-T1-GE3")
+		(at 373.38 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfb56900-7fc4-4f07-8a8a-e492c8f3b56e")
+		(property "Reference" "IC27"
+			(at 386.08 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI1416EDH-T1-GE3"
+			(at 386.08 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-6N"
+			(at 394.97 214.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/67580/si1416ed.pdf"
+			(at 394.97 314.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay"
+			(at 373.38 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 394.97 514.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-SI1416EDH-T1-GE3"
+			(at 394.97 614.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1416EDH-T1-GE3?qs=pNKBmB2EQRiQP6xZUEPceg%3D%3D"
+			(at 394.97 714.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 394.97 814.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI1416EDH-T1-GE3"
+			(at 394.97 914.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "52aaded3-bd22-435c-aa25-bff4e3134fee")
+		)
+		(pin "3"
+			(uuid "d2685e06-ed79-4e85-b78f-33022caa3671")
+		)
+		(pin "2"
+			(uuid "0f391be8-46b9-4d7e-ada6-7c2857a1b900")
+		)
+		(pin "4"
+			(uuid "9296f2b7-b4ec-4705-ab44-bf40b8ea292e")
+		)
+		(pin "5"
+			(uuid "01fcdf89-ef3a-4424-800f-50c08b93ce28")
+		)
+		(pin "6"
+			(uuid "fd1adece-9028-487d-a83d-c3c5f7b6baf6")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "payload-sym:INA226AQDGSRQ1")
-		(at 68.58 128.27 0)
+		(at 53.34 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5633,7 +7486,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1a1aaeb-4f4b-43a2-93b7-7a4f8e299564")
 		(property "Reference" "IC18"
-			(at 83.82 120.65 0)
+			(at 68.58 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5643,7 +7496,7 @@
 			)
 		)
 		(property "Value" "INA226AQDGSRQ1"
-			(at 83.82 123.19 0)
+			(at 68.58 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5653,7 +7506,7 @@
 			)
 		)
 		(property "Footprint" "SOP50P490X110-10N"
-			(at 95.25 223.19 0)
+			(at 80.01 193.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5665,7 +7518,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/ina226-q1"
-			(at 95.25 323.19 0)
+			(at 80.01 293.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5677,7 +7530,7 @@
 			)
 		)
 		(property "Description" "AEC-Q100, 36V, Bi-Directional, High Accuracy, Low-/High-Side, I2C Out Current/Power Monitor w/Alert"
-			(at 68.58 128.27 0)
+			(at 53.34 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5688,7 +7541,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 95.25 523.19 0)
+			(at 80.01 493.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5700,7 +7553,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA226AQDGSRQ1"
-			(at 95.25 623.19 0)
+			(at 80.01 593.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5712,7 +7565,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA226AQDGSRQ1?qs=uNh9J9Y3wTf1B1%2FBFFp7SA%3D%3D"
-			(at 95.25 723.19 0)
+			(at 80.01 693.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5724,7 +7577,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 95.25 823.19 0)
+			(at 80.01 793.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5736,7 +7589,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA226AQDGSRQ1"
-			(at 95.25 923.19 0)
+			(at 80.01 893.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5866,7 +7719,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 77.47 180)
+		(at 116.84 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5876,7 +7729,7 @@
 		(dnp no)
 		(uuid "ea3c43e8-e115-46a0-a221-be2033bfce42")
 		(property "Reference" "C179"
-			(at 126.746 74.93 0)
+			(at 117.856 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5887,7 +7740,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 126.746 79.756 0)
+			(at 117.856 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5898,7 +7751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.7648 73.66 0)
+			(at 115.8748 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5909,7 +7762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 77.47 0)
+			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5920,7 +7773,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 77.47 0)
+			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5940,6 +7793,263 @@
 			(project "RO-Instrument"
 				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
 					(reference "C179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:SI1416EDH-T1-GE3")
+		(at 264.16 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaca682e-5e4a-49f7-9d4f-f49a033e201c")
+		(property "Reference" "IC25"
+			(at 276.86 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI1416EDH-T1-GE3"
+			(at 276.86 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-6N"
+			(at 285.75 158.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/67580/si1416ed.pdf"
+			(at 285.75 258.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay"
+			(at 264.16 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 285.75 458.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-SI1416EDH-T1-GE3"
+			(at 285.75 558.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1416EDH-T1-GE3?qs=pNKBmB2EQRiQP6xZUEPceg%3D%3D"
+			(at 285.75 658.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 285.75 758.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI1416EDH-T1-GE3"
+			(at 285.75 858.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "05d66790-ceab-4363-967b-fc9a9883f873")
+		)
+		(pin "3"
+			(uuid "b4ef4257-f9ed-482c-a098-d64ff83b0b52")
+		)
+		(pin "2"
+			(uuid "1b26e9d4-e71d-44af-b0fa-7ffe003cb95a")
+		)
+		(pin "4"
+			(uuid "8b903daf-7d92-49a0-9ef7-f2d7b838a7c9")
+		)
+		(pin "5"
+			(uuid "caf4c32a-111d-4390-a489-af8ce9bf60ca")
+		)
+		(pin "6"
+			(uuid "94ee0a6e-2568-4f00-a134-f62dcf8b8bbf")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:LTC4361HDC-2-TRMPBF")
+		(at 54.61 252.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2dd0499-9ec1-4ae6-848f-0e19eb2b60f6")
+		(property "Reference" "U21"
+			(at 87.63 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTC4361HDC-2-TRMPBF"
+			(at 87.63 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DFN-8_DC_LIT"
+			(at 54.61 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "LTC4361HDC-2-TRMPBF"
+			(at 54.61 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4ee61e15-2920-4d76-9fe8-5e7b1f395e05")
+		)
+		(pin "4"
+			(uuid "8745571c-e8fb-4bfa-ba64-eee01a278240")
+		)
+		(pin "5"
+			(uuid "34c103a9-d63d-4e55-9af8-13b147429ab8")
+		)
+		(pin "6"
+			(uuid "a5f0d3f1-de86-41d3-8bfd-49c236ee5fe6")
+		)
+		(pin "9"
+			(uuid "af9a0e3c-094a-4054-9a70-37fbdfc551b6")
+		)
+		(pin "8"
+			(uuid "a20147e8-cb81-4e51-8334-742ff37145cc")
+		)
+		(pin "2"
+			(uuid "0b48e1f0-8311-4740-a313-6209a5ce62f0")
+		)
+		(pin "7"
+			(uuid "58d282a5-40bd-4828-97e9-52b38ca4550a")
+		)
+		(pin "1"
+			(uuid "9761dfb3-d0e4-4aee-9ef0-cd00feafc64e")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -6181,6 +8291,160 @@
 			(project "RO-Instrument"
 				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
 					(reference "R153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "payload-sym:SI1416EDH-T1-GE3")
+		(at 152.2575 259.8823 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9bb65aa-175f-443f-9caa-ab93739ca504")
+		(property "Reference" "IC29"
+			(at 164.9575 252.2623 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI1416EDH-T1-GE3"
+			(at 164.9575 254.8023 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-6N"
+			(at 173.8475 354.8023 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/67580/si1416ed.pdf"
+			(at 173.8475 454.8023 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay"
+			(at 152.2575 259.8823 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 173.8475 654.8023 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-SI1416EDH-T1-GE3"
+			(at 173.8475 754.8023 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1416EDH-T1-GE3?qs=pNKBmB2EQRiQP6xZUEPceg%3D%3D"
+			(at 173.8475 854.8023 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 173.8475 954.8023 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI1416EDH-T1-GE3"
+			(at 173.8475 1054.8023 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "ceaec630-b51a-429a-bde8-5e9c1c59f900")
+		)
+		(pin "3"
+			(uuid "d624ba7c-ea37-4bc0-bdfe-4240497901d1")
+		)
+		(pin "2"
+			(uuid "783dc93c-919e-4f9d-b431-ce9c24ab6952")
+		)
+		(pin "4"
+			(uuid "1af027c5-0465-4a2c-a792-e1128cd64ead")
+		)
+		(pin "5"
+			(uuid "ac48fd30-9c1d-4429-a783-7ed1a4de4bec")
+		)
+		(pin "6"
+			(uuid "b8273132-20dc-4e3f-8a49-f45b869783c7")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/5337db32-22c1-4efb-902e-4f77e772cb4f"
+					(reference "IC29")
 					(unit 1)
 				)
 			)

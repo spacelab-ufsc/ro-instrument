@@ -2011,6 +2011,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 20.32 15.24)
+		(end 402.59 260.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d8eb68e9-2307-4266-a124-436094e2cee4")
+	)
 	(text "I/Q SIGNALS TEST POINTS"
 		(exclude_from_sim no)
 		(at 371.094 31.496 0)

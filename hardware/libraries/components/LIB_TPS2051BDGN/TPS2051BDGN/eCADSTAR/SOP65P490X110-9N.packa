@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS2051BDGN"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-02-15:05:09)
+    (mountForm default
+        (footprintRef "SOP65P490X110-9N")
+        (spec "System")
+    )
+)

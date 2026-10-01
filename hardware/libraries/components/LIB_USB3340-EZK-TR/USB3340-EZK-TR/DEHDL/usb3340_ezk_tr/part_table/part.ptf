@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'USB3340_EZK_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "USB3340-EZK-TR" (!) = "", "QFN50P500X500X100-33N-D", "Quad Flat No-Lead", "886-USB3340-EZK-TR", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/USB3340-EZK-TR?qs=pA5MXup5wxES2TIeidc1qQ%3D%3D", "Microchip USB3340-EZK-TR, USB Transceiver, USB 2.0 at 480Mbit/s, 5.5 V, 32-Pin QFN", "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en567926", "1 mm"
+END_PART
+
+END.

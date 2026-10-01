@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=USB3340-EZK-TR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=33
+Version=1.1
+Released=2021-04-14 04:03:23
+Downloaded=2026-09-30 21:54:00
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI1416EDH-T1-GE3
+D Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay
+K
+F http://www.vishay.com/docs/67580/si1416ed.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,16 @@
+.TPS2051BDGN :1 ;Single, Current-Limited, Power-Distribution Switch
+SOP65P490X110-9N
+*STM IC
+*NGS
+*PLB 1="GND" 2="IN_1" 3="IN_2" 4="'EN†'" 5="'OC'" 6="OUT_1" 7="OUT_2" 8="OUT_3" 9="EP"
+*MXP 9
+*DFN TPS2051BDGN
+~!Mouser Part Number (595-TPS2051BDGN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2051BDGN?qs=ojKcPFmCWSUKr%252BVWzrslRQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS2051BDGN)
+~!Link Datasheet (http://www.ti.com/lit/gpn/TPS2051B)
+~!Height (1.1mm)
+~!3D_Model (TPS2051BDGN)
+TPS2051BDGN
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

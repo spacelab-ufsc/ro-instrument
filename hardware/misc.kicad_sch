@@ -2435,6 +2435,54 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 67.31 128.27)
+		(end 266.7 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4a786367-1d6a-4096-8a79-8adefe2f2759")
+	)
+	(rectangle
+		(start 217.17 64.77)
+		(end 233.68 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cde8da5a-568e-45fa-af33-d4a68cb4f2d5")
+	)
+	(rectangle
+		(start 46.99 34.29)
+		(end 58.42 41.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dd6a8f38-d55e-4df1-8e52-4dd1dd75403e")
+	)
+	(rectangle
+		(start 45.72 67.31)
+		(end 72.39 81.28)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f83bcce7-900b-4f02-bf79-a58c9b76657b")
+	)
 	(text "Power LEDs"
 		(exclude_from_sim no)
 		(at 221.234 36.322 0)

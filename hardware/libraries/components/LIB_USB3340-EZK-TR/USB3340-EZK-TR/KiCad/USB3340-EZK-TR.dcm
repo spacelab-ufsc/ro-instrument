@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB3340-EZK-TR
+D Microchip USB3340-EZK-TR, USB Transceiver, USB 2.0 at 480Mbit/s, 5.5 V, 32-Pin QFN
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en567926
+$ENDCMP
+#
+#End Doc Library

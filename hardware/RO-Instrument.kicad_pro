@@ -711,11 +711,11 @@
       },
       {
         "filename": "sensing.kicad_sch",
-        "name": "SENSING",
+        "name": "POWER SUPPLY SENSING",
         "uuid": "5337db32-22c1-4efb-902e-4f77e772cb4f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C266-271,#PWR254-265,TP31-34,R155-165,J1,IC23-32,U14,U18-22",
     "variants": []
   },
   "sheets": [
@@ -777,7 +777,7 @@
     ],
     [
       "5337db32-22c1-4efb-902e-4f77e772cb4f",
-      "SENSING"
+      "POWER SUPPLY SENSING"
     ]
   ],
   "text_variables": {},

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SI1416EDH-T1-GE3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-06-22-02:40:16)
+    (mountForm default
+        (footprintRef "SOT65P210X110-6N")
+        (spec "System")
+    )
+)

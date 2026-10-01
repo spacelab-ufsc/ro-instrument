@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PTN5150AHXMP
+D USB Controller USB Interface 12-X2QFN (1.6x1.6), 2.7V ~ 5.5V , 100 uA , -40C ~ 85C
+K
+F https://www.nxp.com/products/PTN5150?linkline=Data%20Sheet#documentation
+$ENDCMP
+#
+#End Doc Library

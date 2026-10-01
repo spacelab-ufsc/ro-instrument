@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PTN5150AHXMP'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "PTN5150AHXMP" (!) = "", "PTN5150AHXMP", "Other", "771-PTN5150AHXMP", "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PTN5150AHXMP?qs=GIi83qBHgikdzCs4%252ByCwLg%3D%3D", "USB Controller USB Interface 12-X2QFN (1.6x1.6), 2.7V ~ 5.5V , 100 uA , -40C ~ 85C", "https://www.nxp.com/products/PTN5150?linkline=Data%20Sheet#documentation", "0.4 mm"
+END_PART
+
+END.

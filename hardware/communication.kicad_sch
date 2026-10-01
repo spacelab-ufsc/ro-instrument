@@ -10559,6 +10559,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 327.66 109.22)
+		(end 392.43 236.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "99ee641d-f8a6-42c3-9d82-2a6898f76ffb")
+	)
+	(rectangle
+		(start 20.32 19.05)
+		(end 115.57 276.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c8c50770-23a8-4cf6-8226-b1d7c1b7a715")
+	)
 	(text "PROGRAMING THE SPI FLASH\nUSING EXTERNAL MASTER\n"
 		(exclude_from_sim no)
 		(at 357.124 41.656 0)

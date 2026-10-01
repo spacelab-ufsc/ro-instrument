@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS2051BDGN
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=9
+Version=1.1
+Released=2020-09-21 04:52:51
+Downloaded=2026-10-01 01:46:13
+3D=Y

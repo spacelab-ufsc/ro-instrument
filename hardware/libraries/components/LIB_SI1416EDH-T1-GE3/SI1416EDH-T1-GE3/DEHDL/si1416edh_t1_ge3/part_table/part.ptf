@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SI1416EDH_T1_GE3'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SI1416EDH-T1-GE3" (!) = "", "SOT65P210X110-6N", "SOT23 (6-Pin)", "78-SI1416EDH-T1-GE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1416EDH-T1-GE3?qs=pNKBmB2EQRiQP6xZUEPceg%3D%3D", "Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay", "http://www.vishay.com/docs/67580/si1416ed.pdf", "1.1 mm"
+END_PART
+
+END.

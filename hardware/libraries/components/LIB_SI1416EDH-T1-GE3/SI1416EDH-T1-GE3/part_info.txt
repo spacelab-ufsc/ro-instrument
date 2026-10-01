@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=SI1416EDH-T1-GE3
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=2.1
+Released=2019-01-03 13:51:04
+Downloaded=2026-09-25 14:32:07
+3D=Y

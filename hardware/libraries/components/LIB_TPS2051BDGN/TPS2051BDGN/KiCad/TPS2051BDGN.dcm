@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS2051BDGN
+D Single, Current-Limited, Power-Distribution Switch
+K
+F http://www.ti.com/lit/gpn/TPS2051B
+$ENDCMP
+#
+#End Doc Library

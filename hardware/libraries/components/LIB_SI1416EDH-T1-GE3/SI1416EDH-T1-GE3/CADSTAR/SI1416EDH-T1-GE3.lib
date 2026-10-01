@@ -1,0 +1,16 @@
+.SI1416EDH-T1-GE3 :1 ;Si1416EDH-T1-GE3 N-Channel MOSFET, 3.9 A, 30 V, 6-Pin SOT-363 Vishay
+SOT65P210X110-6N
+*STM IC
+*NGS
+*PLB 1="D_1" 2="D_2" 3="G" 4="S" 5="D_3" 6="D_4"
+*MXP 6
+*DFN SI1416EDH-T1-GE3
+~!Mouser Part Number (78-SI1416EDH-T1-GE3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1416EDH-T1-GE3?qs=pNKBmB2EQRiQP6xZUEPceg%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (SI1416EDH-T1-GE3)
+~!Link Datasheet (http://www.vishay.com/docs/67580/si1416ed.pdf)
+~!Height (1.1mm)
+~!3D_Model (SI1416EDH-T1-GE3)
+SI1416EDH-T1-GE3
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

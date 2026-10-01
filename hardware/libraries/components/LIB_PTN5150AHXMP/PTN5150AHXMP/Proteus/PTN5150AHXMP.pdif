@@ -1,0 +1,170 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PTN5150AHXMP"
+   (description "USB Controller USB Interface 12-X2QFN (1.6x1.6), 2.7V ~ 5.5V , 100 uA , -40C ~ 85C")
+   (family "ANA")
+   (package "PTN5150AHXMP")
+   (attribute "Datasheet Link" "https://www.nxp.com/products/PTN5150?linkline=Data%20Sheet#documentation")
+   (attribute "Geometry.Height" "0.4mm")
+   (attribute "Mouser Part Number" "771-PTN5150AHXMP")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PTN5150AHXMP?qs=GIi83qBHgikdzCs4%252ByCwLg%3D%3D")
+   (attribute "Manufacturer_Name" "NXP")
+   (attribute "Manufacturer_Part_Number" "PTN5150AHXMP")
+   (gate
+    (symbol "PTN5150AHXMP")
+    (pin "CC1" 1 PS)
+    (pin "CC2" 2 PS)
+    (pin "PORT" 3 PS)
+    (pin "VBUS_DET" 4 PS)
+    (pin "ADR/CON_DET" 5 PS)
+    (pin "INTB/OUT3" 6 PS)
+    (pin "SDA/OUT1" 7 PS)
+    (pin "SCL/OUT2" 8 PS)
+    (pin "ID" 9 PS)
+    (pin "GND" 10 PS)
+    (pin "EXT_SEL" 11 PS)
+    (pin "VDD" 12 PS)
+   )
+  )
+  (symbol "PTN5150AHXMP"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1500 100) (pt 1500 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PTN5150AHXMP"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.8 0.8)
+      (pt 0.8 0.8)
+      (pt 0.8 -0.8)
+      (pt -0.8 -0.8)
+      (pt -0.8 0.8))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.95 1.95)
+      (pt 1.95 1.95)
+      (pt 1.95 -1.95)
+      (pt -1.95 -1.95)
+      (pt -1.95 1.95))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.4 0.2)
+      (arc (pt -1.400 0.200) (pt -1.500 0.150) (pt -1.400 0.250) (start 180.0) (sweep .0))
+      (pt -1.5 0.2)
+      (arc (pt -1.500 0.200) (pt -1.500 0.150) (pt -1.400 0.250) (start 180.0) (sweep 180.0))
+      (pt -1.4 0.2))))
+   (leg 1 (pt -0.600 0.200) (padstack 1))
+   (leg 2 (pt -0.600 -0.200) (padstack 2))
+   (leg 3 (pt -0.600 -0.725) (padstack 0))
+   (leg 4 (pt -0.200 -0.725) (padstack 0))
+   (leg 5 (pt 0.200 -0.725) (padstack 0))
+   (leg 6 (pt 0.600 -0.725) (padstack 0))
+   (leg 7 (pt 0.600 -0.200) (padstack 7))
+   (leg 8 (pt 0.600 0.200) (padstack 8))
+   (leg 9 (pt 0.600 0.725) (padstack 0))
+   (leg 10 (pt 0.200 0.725) (padstack 0))
+   (leg 11 (pt -0.200 0.725) (padstack 0))
+   (leg 12 (pt -0.600 0.725) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.220 0.450 0 0 90.000))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.220 0.700 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.220 0.700 0 0 0.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.220 0.700 0 0 0.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.220 0.700 0 0 0.000))
+   )
+   (model "PTN5150AHXMP.stp"
+    (euler 90 0 0)
+    (offset 0 0 0.019999999552965164)
+   )
+  )
+ )
+)

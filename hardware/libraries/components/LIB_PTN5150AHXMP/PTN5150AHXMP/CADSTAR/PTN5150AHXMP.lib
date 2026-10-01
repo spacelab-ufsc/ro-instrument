@@ -1,0 +1,16 @@
+.PTN5150AHXMP :1 ;USB Controller USB Interface 12-X2QFN (1.6x1.6), 2.7V ~ 5.5V , 100 uA , -40C ~ 85C
+PTN5150AHXMP
+*STM IC
+*NGS
+*PLB 1="CC1" 2="CC2" 3="PORT" 4="VBUS_DET" 5="ADR/CON_DET" 6="INTB/OUT3" 7="SDA/OUT1" 8="SCL/OUT2" 9="ID" 10="GND" 11="EXT_SEL" 12="VDD"
+*MXP 12
+*DFN PTN5150AHXMP
+~!Mouser Part Number (771-PTN5150AHXMP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PTN5150AHXMP?qs=GIi83qBHgikdzCs4%252ByCwLg%3D%3D)
+~!Manufacturer_Name (NXP)
+~!Manufacturer_Part_Number (PTN5150AHXMP)
+~!Link Datasheet (https://www.nxp.com/products/PTN5150?linkline=Data%20Sheet#documentation)
+~!Height (0.4mm)
+~!3D_Model (PTN5150AHXMP)
+PTN5150AHXMP
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 
