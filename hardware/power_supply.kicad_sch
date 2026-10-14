@@ -6808,7 +6808,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 207.01) (xy 171.45 207.01)
+			(xy 167.64 207.01) (xy 191.77 207.01)
 		)
 		(stroke
 			(width 0)
@@ -10376,6 +10376,26 @@
 		)
 		(uuid "1dce6bc6-107f-4dfa-83e9-77b28b5ef70e")
 	)
+	(label "OUT_VCC_1V"
+		(at 172.72 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2871a579-8c7c-4cc4-a09a-cb65de1af749")
+	)
+	(label "OUT_VCC_2V5"
+		(at 73.66 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29ec42a2-bb9d-4cae-ba2c-318253e64338")
+	)
 	(label "PG_1V"
 		(at 252.73 190.5 0)
 		(effects
@@ -10385,6 +10405,36 @@
 			(justify left bottom)
 		)
 		(uuid "2c120aff-9deb-4e73-bae6-c97d69d02e4c")
+	)
+	(label "OUT_VCCA_1V"
+		(at 199.39 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "394cc827-c5bb-4290-9032-19419b04218a")
+	)
+	(label "OUT_VCC_1V8"
+		(at 389.89 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cf111f0-8c10-467a-a7c0-deae73fbb588")
+	)
+	(label "OUT_VCC_1V1"
+		(at 381 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4db7e2ae-bf7b-414b-a1b5-66e0daa33e1d")
 	)
 	(label "EXT_VDD_5V"
 		(at 40.64 27.94 0)
@@ -10426,6 +10476,16 @@
 		)
 		(uuid "ab0307a5-b287-4cbd-9126-f806ee33a1cb")
 	)
+	(label "OUT_VCC_3V3"
+		(at 388.62 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b52024e5-22e4-473c-862f-a80790da4552")
+	)
 	(label "PG_1V"
 		(at 252.73 121.92 0)
 		(effects
@@ -10435,6 +10495,16 @@
 			(justify left bottom)
 		)
 		(uuid "b8de63b7-660d-4ca9-bc87-8de46ebcda54")
+	)
+	(label "OUT_VIO_ENABLE"
+		(at 379.73 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d718d600-ea5b-4dce-9b68-d91ab9a88d4f")
 	)
 	(symbol
 		(lib_id "power:VDD")
@@ -12892,7 +12962,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 171.45 207.01 270)
+		(at 191.77 207.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12903,7 +12973,7 @@
 		(fields_autoplaced yes)
 		(uuid "2188c847-71f2-44b2-840f-73445e0571c4")
 		(property "Reference" "TP5"
-			(at 176.53 205.7399 90)
+			(at 196.85 205.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12914,7 +12984,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 176.53 208.2799 90)
+			(at 196.85 208.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12925,7 +12995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 212.09 0)
+			(at 191.77 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12936,7 +13006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 212.09 0)
+			(at 191.77 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12947,7 +13017,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 171.45 207.01 0)
+			(at 191.77 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2144,6 +2144,250 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "payload-sym:TMP112AQDRLRQ1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC14"
+				(at 14.478 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TMP112AQDRLRQ1"
+				(at 14.478 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SOTFL50P160X60-6N"
+				(at 26.67 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/tmp112-q1"
+				(at 26.67 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Automotive Grade, 1.4V-Capable +/-0.5C Temperature Sensor with Alert Function and I2C/SMBus"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.6"
+				(at 26.67 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "595-TMP112AQDRLRQ1"
+				(at 26.67 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP112AQDRLRQ1?qs=asCBFxFfL1Q5YmJCm%252BGnCQ%3D%3D"
+				(at 26.67 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TMP112AQDRLRQ1"
+				(at 26.67 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TMP112AQDRLRQ1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 24.13 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -16.51 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -16.51 0)
+					(length 5.08)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -11.43 180)
+					(length 5.08)
+					(name "ADD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 0)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDREF"
 			(power global)
 			(pin_numbers
@@ -2495,6 +2739,17 @@
 		)
 		(uuid "2bee699e-4a27-4ec7-9f14-889836af4d12")
 	)
+	(text "DECOUPLING\nCAPACITOR"
+		(exclude_from_sim no)
+		(at 354.33 50.8 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "2fd97de1-63b6-41ba-b921-a1760ff1672c")
+	)
 	(text "Debug\n"
 		(exclude_from_sim no)
 		(at 78.486 34.29 0)
@@ -2506,6 +2761,17 @@
 			)
 		)
 		(uuid "73c554a0-3732-454d-9022-2a9ae91c57f9")
+	)
+	(text "TEMPERATURE SENSOR"
+		(exclude_from_sim no)
+		(at 305.816 48.514 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "8099e16b-fee3-4271-9fda-e1333c6d067a")
 	)
 	(text "User LEDs"
 		(exclude_from_sim no)
@@ -2817,6 +3083,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 73.66) (xy 353.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ccb062d-cc67-429c-b87b-d7b31bcfa469")
+	)
+	(wire
+		(pts
 			(xy 171.45 59.69) (xy 173.99 59.69)
 		)
 		(stroke
@@ -2924,6 +3200,16 @@
 			(type default)
 		)
 		(uuid "328bfc75-49f9-4f34-8be5-ffd96ab105bd")
+	)
+	(wire
+		(pts
+			(xy 284.48 63.5) (xy 284.48 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ecbf90-f77f-4436-b955-5f82ebfbac86")
 	)
 	(wire
 		(pts
@@ -3077,6 +3363,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 73.66) (xy 325.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558706ea-42f5-4bc4-b893-224a6f3a2ef1")
+	)
+	(wire
+		(pts
 			(xy 48.26 190.5) (xy 245.11 190.5)
 		)
 		(stroke
@@ -3164,6 +3460,16 @@
 			(type default)
 		)
 		(uuid "640fc306-019c-4ff5-b016-6b5fe27a08d7")
+	)
+	(wire
+		(pts
+			(xy 353.06 59.69) (xy 353.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6446abee-dadd-4071-84a7-e2327d7f6229")
 	)
 	(wire
 		(pts
@@ -3334,6 +3640,16 @@
 			(type default)
 		)
 		(uuid "7a94875a-6475-4fbd-8c79-0c2abe340cdb")
+	)
+	(wire
+		(pts
+			(xy 320.04 78.74) (xy 325.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca35268-bfd0-4412-85e6-37dc436ec71a")
 	)
 	(wire
 		(pts
@@ -3557,6 +3873,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 78.74) (xy 325.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4b92d3-3205-4e7b-9e27-4a1bf1b25f3d")
+	)
+	(wire
+		(pts
 			(xy 58.42 148.59) (xy 66.04 148.59)
 		)
 		(stroke
@@ -3747,6 +4073,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 63.5) (xy 284.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c605c632-3830-4fe2-a45b-81e77ede7100")
+	)
+	(wire
+		(pts
 			(xy 179.07 148.59) (xy 182.88 148.59)
 		)
 		(stroke
@@ -3864,6 +4200,16 @@
 			(type default)
 		)
 		(uuid "d2bf7fea-366d-4ec4-b353-da39b63ec954")
+	)
+	(wire
+		(pts
+			(xy 320.04 73.66) (xy 325.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38f550a-bf49-401f-8d1a-93c7c618bbbe")
 	)
 	(wire
 		(pts
@@ -4085,6 +4431,16 @@
 		)
 		(uuid "10db9f83-0fa1-49c4-b3bf-74c00cc54ff0")
 	)
+	(label "VCC_3V3"
+		(at 325.12 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11016ddc-7cfa-4b2a-9e68-35bd2c9d3532")
+	)
 	(label "I2C1_SDA"
 		(at 148.59 54.61 180)
 		(effects
@@ -4104,6 +4460,26 @@
 			(justify right bottom)
 		)
 		(uuid "5da8b758-faad-4471-a902-f366aff9ed39")
+	)
+	(label "VCC_3V3"
+		(at 353.06 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ad8fe2e-f3a2-4dfc-8f80-da2f3dc15f31")
+	)
+	(label "VCC_3V3"
+		(at 284.48 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0fd1b9d-93dc-429e-93e6-7d5e6dda1555")
 	)
 	(label "UART0_TXD"
 		(at 119.38 60.96 0)
@@ -6377,6 +6753,84 @@
 			(project "RO-Instrument"
 				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 353.06 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4798e012-6de2-4a35-9670-792c04464543")
+		(property "Reference" "#PWR0166"
+			(at 353.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 353.06 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 353.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9349d99d-6c6a-44f2-a225-73ce8aa9e428")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -8660,6 +9114,160 @@
 		)
 	)
 	(symbol
+		(lib_id "payload-sym:TMP112AQDRLRQ1")
+		(at 290.83 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "952825b7-9c4d-4e80-b88a-3331f3cb71d9")
+		(property "Reference" "IC14"
+			(at 305.308 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMP112AQDRLRQ1"
+			(at 305.308 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOTFL50P160X60-6N"
+			(at 317.5 157.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tmp112-q1"
+			(at 317.5 257.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Automotive Grade, 1.4V-Capable +/-0.5C Temperature Sensor with Alert Function and I2C/SMBus"
+			(at 290.83 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at 317.5 457.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-TMP112AQDRLRQ1"
+			(at 317.5 557.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP112AQDRLRQ1?qs=asCBFxFfL1Q5YmJCm%252BGnCQ%3D%3D"
+			(at 317.5 657.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 317.5 757.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TMP112AQDRLRQ1"
+			(at 317.5 857.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "582c97fe-f914-46f1-92cf-6acbd48b3f69")
+		)
+		(pin "5"
+			(uuid "96f442bf-6c90-4256-84ce-8b5e4bb0843d")
+		)
+		(pin "4"
+			(uuid "8f52293d-2ee8-4104-a1c7-8b710461b247")
+		)
+		(pin "1"
+			(uuid "047d6d7d-014f-46ca-b397-23c06183bacf")
+		)
+		(pin "2"
+			(uuid "a809467d-13d9-4aa2-9025-a858571e508f")
+		)
+		(pin "6"
+			(uuid "c22ce0a6-c7bf-41e5-ab6b-89aeef7b6cb1")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "IC14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 90.17 121.92 0)
 		(unit 1)
@@ -9708,6 +10316,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 325.12 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b098dd12-2fd5-45ae-ba8a-737dc2f21809")
+		(property "Reference" "#PWR0165"
+			(at 325.12 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 325.12 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 325.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b464f9b-117d-43aa-94f7-bd2e1a86e741")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 207.01 132.08 90)
 		(unit 1)
@@ -10559,6 +11245,87 @@
 			(project "RO-Instrument"
 				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 353.06 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8cf3ebc-214e-4ea1-9f93-3cdb87084a4e")
+		(property "Reference" "C177"
+			(at 354.076 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 354.076 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 352.0948 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 353.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14d57da7-5b27-4568-8ad0-6a7a7be62aae")
+		)
+		(pin "2"
+			(uuid "7ed87be5-ff50-4c94-a822-9ab3f4eb4e94")
+		)
+		(instances
+			(project "RO-Instrument"
+				(path "/192867d8-95aa-4271-9e49-4cd2e69b7fea"
+					(reference "C177")
 					(unit 1)
 				)
 			)
