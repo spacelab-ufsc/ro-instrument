@@ -1,3 +1,0 @@
-set_location -inst_name CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0_1 -fixed true -x 732 -y 214
-set_location -inst_name CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0 -fixed true -x 732 -y 215
-

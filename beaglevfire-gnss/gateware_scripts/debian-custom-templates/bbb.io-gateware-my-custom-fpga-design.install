@@ -1,3 +1,0 @@
-gateware-builds-tester/artifacts/bitstreams/<CUSTOM-GATEWARE-NAME>/DirectC/* /usr/share/beagleboard/gateware/<CUSTOM-GATEWARE-NAME>/DirectC
-gateware-builds-tester/artifacts/bitstreams/<CUSTOM-GATEWARE-NAME>/FlashProExpress/* /usr/share/beagleboard/gateware/<CUSTOM-GATEWARE-NAME>/FlashProExpress
-gateware-builds-tester/artifacts/bitstreams/<CUSTOM-GATEWARE-NAME>/LinuxProgramming/* /usr/share/beagleboard/gateware/<CUSTOM-GATEWARE-NAME>/LinuxProgramming

@@ -1,7 +1,0 @@
-set_component PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE
-# Microsemi Corp.
-# Date: 2025-Mar-17 14:00:48
-#
-
-set_false_path -to [ get_pins { PCIE_0/INTERRUPT[0] PCIE_0/INTERRUPT[1] PCIE_0/INTERRUPT[2] PCIE_0/INTERRUPT[3] PCIE_0/INTERRUPT[4] PCIE_0/INTERRUPT[5] PCIE_0/INTERRUPT[6] PCIE_0/INTERRUPT[7] PCIE_0/WAKEREQ PCIE_0/MPERST_N } ]
-set_false_path -from [ get_pins { PCIE_0/TL_CLK } ]

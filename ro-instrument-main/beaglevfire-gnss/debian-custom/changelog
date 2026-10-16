@@ -1,5 +1,0 @@
-bbb.io-gateware-my-custom-fpga-design (1.20231226.0-0~noble) noble; urgency=low
-
-  * ci build of https://openbeagle.org/beaglev-fire/gateware
-
- -- Robert Nelson <robertcnelson@beagleboard.org>  Tue, 26 Dec 2023 17:41:26 +0000

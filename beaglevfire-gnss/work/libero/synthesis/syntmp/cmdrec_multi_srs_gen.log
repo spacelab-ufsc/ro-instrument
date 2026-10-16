@@ -1,8 +1,0 @@
-/home/arthur/Microchip/Libero_SoC_v2023.2/SynplifyPro/bin/syn_nfilter  -link  -top  DEFAULT_6BA5ED31DBDDB144872513  -multisrs  /home/arthur/Desktop/projects_gnss/beaglevfire-gnss/work/libero/synthesis/synwork/DEFAULT_6BA5ED31DBDDB144872513_comp.srs  -osyn  /home/arthur/Desktop/projects_gnss/beaglevfire-gnss/work/libero/synthesis/synwork/DEFAULT_6BA5ED31DBDDB144872513_mult.srs  -log  /home/arthur/Desktop/projects_gnss/beaglevfire-gnss/work/libero/synthesis/synlog/DEFAULT_6BA5ED31DBDDB144872513_multi_srs_gen.srr 
-relcom:../../../../../../../Microchip/Libero_SoC_v2023.2/SynplifyPro/bin/syn_nfilter -link -top DEFAULT_6BA5ED31DBDDB144872513 -multisrs ../synwork/DEFAULT_6BA5ED31DBDDB144872513_comp.srs -osyn ../synwork/DEFAULT_6BA5ED31DBDDB144872513_mult.srs -log ../synlog/DEFAULT_6BA5ED31DBDDB144872513_multi_srs_gen.srr
-rc:0 success:1 runtime:2
-file:../synwork/DEFAULT_6BA5ED31DBDDB144872513_comp.srs|io:i|time:1742230896|size:1292850|exec:0|csum:38E4759D48A5876E3541CE7CF2F91251
-file:../synwork/DEFAULT_6BA5ED31DBDDB144872513_mult.srs|io:o|time:1742230899|size:24440|exec:0|csum:
-file:../synlog/DEFAULT_6BA5ED31DBDDB144872513_multi_srs_gen.srr|io:o|time:1742230899|size:6691|exec:0|csum:
-file:../../../../../../../Microchip/Libero_SoC_v2023.2/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1691490549|size:14188272|exec:1|csum:ED57C987B3F97AE52DA817307847C2BC
-file:../../../../../../../Microchip/Libero_SoC_v2023.2/SynplifyPro/bin/syn_nfilter|io:i|time:1691490531|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

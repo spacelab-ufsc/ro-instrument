@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Thu Apr  2 14:07:59 2026
+// Created by SmartDesign Wed Oct 14 22:23:41 2026
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -98,11 +98,11 @@ wire          NGRST;
 wire          OUTP_READY_net_0;
 wire          READ_OUTP;
 wire          SLOWCLK;
-wire   [31:0] DATAO_IM_net_1;
-wire   [31:0] DATAO_RE_net_1;
 wire          DATAO_VALID_net_1;
 wire          BUF_READY_net_1;
 wire          OUTP_READY_net_1;
+wire   [31:0] DATAO_IM_net_1;
+wire   [31:0] DATAO_RE_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
@@ -120,16 +120,16 @@ assign AXI4_S_CONFIGI_const_net_0 = 8'h00;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
-assign DATAO_IM_net_1    = DATAO_IM_net_0;
-assign DATAO_IM[31:0]    = DATAO_IM_net_1;
-assign DATAO_RE_net_1    = DATAO_RE_net_0;
-assign DATAO_RE[31:0]    = DATAO_RE_net_1;
 assign DATAO_VALID_net_1 = DATAO_VALID_net_0;
 assign DATAO_VALID       = DATAO_VALID_net_1;
 assign BUF_READY_net_1   = BUF_READY_net_0;
 assign BUF_READY         = BUF_READY_net_1;
 assign OUTP_READY_net_1  = OUTP_READY_net_0;
 assign OUTP_READY        = OUTP_READY_net_1;
+assign DATAO_IM_net_1    = DATAO_IM_net_0;
+assign DATAO_IM[31:0]    = DATAO_IM_net_1;
+assign DATAO_RE_net_1    = DATAO_RE_net_0;
+assign DATAO_RE[31:0]    = DATAO_RE_net_1;
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
@@ -158,8 +158,6 @@ COREFFT_C4_0(
         .CLK                   ( CLK ),
         .SLOWCLK               ( SLOWCLK ),
         .NGRST                 ( NGRST ),
-        .DATAI_IM              ( DATAI_IM ),
-        .DATAI_RE              ( DATAI_RE ),
         .DATAI_VALID           ( DATAI_VALID ),
         .READ_OUTP             ( READ_OUTP ),
         .START                 ( VCC_net ), // tied to 1'b1 from definition
@@ -169,27 +167,29 @@ COREFFT_C4_0(
         .RST                   ( GND_net ), // tied to 1'b0 from definition
         .AXI4_S_DATAI_TVALID   ( GND_net ), // tied to 1'b0 from definition
         .AXI4_S_TLASTI         ( GND_net ), // tied to 1'b0 from definition
-        .AXI4_S_TDATAI         ( AXI4_S_TDATAI_const_net_0 ), // tied to 48'h000000000000 from definition
         .AXI4_M_DATAO_TREADY   ( VCC_net ), // tied to 1'b1 from definition
         .AXI4_S_CONFIGI_TVALID ( GND_net ), // tied to 1'b0 from definition
-        .AXI4_S_CONFIGI        ( AXI4_S_CONFIGI_const_net_0 ), // tied to 8'h00 from definition
         .AXI4_M_CONFIGO_TREADY ( GND_net ), // tied to 1'b0 from definition
+        .DATAI_IM              ( DATAI_IM ),
+        .DATAI_RE              ( DATAI_RE ),
+        .AXI4_S_TDATAI         ( AXI4_S_TDATAI_const_net_0 ), // tied to 48'h000000000000 from definition
+        .AXI4_S_CONFIGI        ( AXI4_S_CONFIGI_const_net_0 ), // tied to 8'h00 from definition
         // Outputs
-        .DATAO_IM              ( DATAO_IM_net_0 ),
-        .DATAO_RE              ( DATAO_RE_net_0 ),
         .DATAO_VALID           ( DATAO_VALID_net_0 ),
         .BUF_READY             ( BUF_READY_net_0 ),
         .OUTP_READY            ( OUTP_READY_net_0 ),
         .PONG                  (  ),
-        .SCALE_EXP             (  ),
         .OVFLOW_FLAG           (  ),
         .RFS                   (  ),
         .AXI4_S_DATAI_TREADY   (  ),
         .AXI4_M_DATAO_TVALID   (  ),
-        .AXI4_M_TDATAO         (  ),
         .AXI4_M_TLASTO         (  ),
         .AXI4_S_CONFIGI_TREADY (  ),
         .AXI4_M_CONFIGO_TVALID (  ),
+        .DATAO_IM              ( DATAO_IM_net_0 ),
+        .DATAO_RE              ( DATAO_RE_net_0 ),
+        .SCALE_EXP             (  ),
+        .AXI4_M_TDATAO         (  ),
         .AXI4_M_CONFIGO        (  ) 
         );
 

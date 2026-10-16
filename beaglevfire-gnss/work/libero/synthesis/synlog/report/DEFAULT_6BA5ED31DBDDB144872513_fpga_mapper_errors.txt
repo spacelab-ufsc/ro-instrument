@@ -1,8 +1,0 @@
-**** Begin Compile Point : IHC_SUBSYSTEM ****
-**** End Compile Point : IHC_SUBSYSTEM ****
-**** Begin Compile Point : COREAXI4INTERCONNECT_Z9 ****
-**** End Compile Point : COREAXI4INTERCONNECT_Z9 ****
-**** Begin Compile Point : COREAXI4INTERCONNECT_Z19 ****
-**** End Compile Point : COREAXI4INTERCONNECT_Z19 ****
-**** Begin Compile Point : DEFAULT_6BA5ED31DBDDB144872513 ****
-**** End Compile Point : DEFAULT_6BA5ED31DBDDB144872513 ****

@@ -1,4 +1,0 @@
-set_io -port_name CSI1_PWND  \
-    -pin_name Y13            \
-    -fixed true              \
-    -DIRECTION OUTPUT
