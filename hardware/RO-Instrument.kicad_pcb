@@ -43036,7 +43036,7 @@
 	(footprint "payload_footprints:RC0402N_PAN"
 		(layer "B.Cu")
 		(uuid "461bf184-bd37-4666-9e6d-6205930cd0cc")
-		(at 184.120612 130.205799 -90)
+		(at 184.0302 125.860799 -90)
 		(tags "ERJ-2RKF5102X ")
 		(property "Reference" "R1"
 			(at 0 0 90)
@@ -43315,7 +43315,7 @@
 			)
 			(polygon
 				(pts
-					(xy 183.921412 130.031599) (xy 183.921412 130.379999) (xy 184.319812 130.379999) (xy 184.319812 130.031599)
+					(xy 183.831 125.686599) (xy 183.831 126.034999) (xy 184.2294 126.034999) (xy 184.2294 125.686599)
 				)
 			)
 		)
@@ -60179,7 +60179,7 @@
 	(footprint "payload_footprints:SOT95P280X145-5N"
 		(layer "B.Cu")
 		(uuid "7cc9a5f7-9b26-42d1-a180-2f6e602bd17c")
-		(at 180.740412 131.12 -90)
+		(at 180.65 126.775 -90)
 		(descr "DBV")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC2"
@@ -82044,7 +82044,7 @@
 	(footprint "payload_footprints:QFN40P300X300X60-21N-D"
 		(layer "B.Cu")
 		(uuid "b4206a42-aa3a-44b0-8d76-19b6b2fac5c5")
-		(at 175.790412 131.145 -90)
+		(at 175.7 126.8 -90)
 		(descr "20 Lead QFN (NC)-3x3")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC8"
