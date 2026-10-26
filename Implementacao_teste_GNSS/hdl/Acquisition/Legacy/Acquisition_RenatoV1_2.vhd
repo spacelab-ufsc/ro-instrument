@@ -21,7 +21,7 @@ use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.all;
 
-entity AcquisitionV1_2 is
+entity Acquisition_V2 is
 port (
     --<port_name> : <direction> <type>;
 	CLK             : IN  std_logic; -- example
@@ -35,9 +35,9 @@ port (
     OUT_I           : OUT  std_logic_vector(15 downto 0); -- OUTPUT REAL PART
     OUT_Q           : OUT  std_logic_vector(15 downto 0) -- OUTPUT IMAG PART
 );
-end AcquisitionV1_2;
+end Acquisition_V2;
 
-architecture architecture_AcquisitionV1_2 of AcquisitionV1_2 is
+architecture architecture_Acquisition_V2 of Acquisition_V2 is
     -- signal, component etc. declarations
     constant Contador_WIDTH     : integer := 10;
     constant DDS_Width          : integer := 4; -- Datawidth of the DDS
@@ -424,4 +424,4 @@ begin
     DDS_RSTN            <=  not CA_RST;
     OUT_I               <=  IFFT_o_real;
     OUT_Q               <=  IFFT_o_imag;
-end architecture_AcquisitionV1_2;
+end architecture_Acquisition_V2;

@@ -31,12 +31,13 @@ port (
     VALID_IN        : IN std_logic;
     X_IN            : IN std_logic_vector(15 downto 0);
     Y_IN            : IN std_logic_vector(15 downto 0);
-    F_Doppler_IN    : IN std_logic_vector(5 downto 0);
+    F_Doppler_IN    : IN std_logic_vector(4 downto 0);
     SAT_ID_IN       : IN std_logic_vector(4 downto 0);
     
     --OUTPUT DATA
+    VALID_OUT       : OUT std_logic;
     A_OUT           : OUT std_logic_vector(31 downto 0);
-    F_Doppler_O     : OUT std_logic_vector(5 downto 0);
+    F_Doppler_O     : OUT std_logic_vector(4 downto 0);
     SAT_ID_O        : OUT std_logic_vector(4 downto 0);
     CODE_DELAY      : OUT std_logic_vector(15 downto 0)
 );
@@ -142,7 +143,7 @@ architecture architecture_Acquisition_Detection of Acquisition_Detection is
     );
     end component;
     
-    component complex_multiplier_C1 is
+    component complex_multiplier_C2 is
     -- Port list
     port(
         -- Inputs
@@ -163,7 +164,7 @@ begin
     CONJ_Y: entity work.Negative_Integer generic map(data_width => 16) 
         port map(SIG_IN  => Y_IN, SIG_OUT => Y_IN_NEG);
     
-    ABS_CALC: complex_multiplier_C1 port map (Y_IN, X_IN, Y_IN_NEG, X_IN, clk, NRST, open, abs_squared);
+    ABS_CALC: complex_multiplier_C2 port map (Y_IN, X_IN, Y_IN_NEG, X_IN, clk, NRST, open, abs_squared);
     
     clkd(0) <= VALID_IN;
     CLK_MULT_D: for i in 0 to 3 generate
@@ -218,7 +219,7 @@ begin
         port map(
             en      =>  NEW_MAX_CORR_EN,
             clk     =>	clk,
-            rst     =>	NRST,
+            rst     =>	reset_max,
             serial  =>  '0',
             shift   =>  '0',
             I       =>  ABS_DATA,            
@@ -226,7 +227,8 @@ begin
         );
     A_OUT <= MAX_CORR;
     --reset_max <= NRST and ABS_VALID;
-    reset_max <= NRST and clkd(3);
+    reset_max <= NRST and not (clkd(3) and not clkd(4));
+    VALID_OUT <= (not clkd(3) and clkd(4));
     ---------------------------------------------------
     --- Code position
     ---------------------------------------------------

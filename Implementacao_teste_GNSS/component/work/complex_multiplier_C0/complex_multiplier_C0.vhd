@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Wed Aug  6 13:54:27 2025
--- Version: 2023.2 2023.2.0.8
+-- Created by SmartDesign Sun Oct 25 18:41:54 2026
+-- Version: 2025.1 2025.1.0.14
 ----------------------------------------------------------------------
 
 ----------------------------------------------------------------------
@@ -12,8 +12,8 @@
 --# Create and Configure the core component complex_multiplier_C0
 --create_and_configure_core -core_vlnv {Microsemi:SolutionCore:complex_multiplier:1.0.27} -component_name {complex_multiplier_C0} -params {\
 --"g_3DSP:true"  \
---"g_AWIDTH:16"  \
---"g_BWIDTH:16"  \
+--"g_AWIDTH:8"  \
+--"g_BWIDTH:8"  \
 --"g_CWIDTH:33"  \
 --"g_DOROUND:false"   }
 --# Exporting Component Description of complex_multiplier_C0 to TCL done
@@ -33,15 +33,15 @@ entity complex_multiplier_C0 is
     -- Port list
     port(
         -- Inputs
-        aimag_i  : in  std_logic_vector(15 downto 0);
-        areal_i  : in  std_logic_vector(15 downto 0);
-        bimag_i  : in  std_logic_vector(15 downto 0);
-        breal_i  : in  std_logic_vector(15 downto 0);
+        aimag_i  : in  std_logic_vector(7 downto 0);
+        areal_i  : in  std_logic_vector(7 downto 0);
+        bimag_i  : in  std_logic_vector(7 downto 0);
+        breal_i  : in  std_logic_vector(7 downto 0);
         clock_i  : in  std_logic;
         nreset_i : in  std_logic;
         -- Outputs
-        cimag_o  : out std_logic_vector(32 downto 0);
-        creal_o  : out std_logic_vector(32 downto 0)
+        cimag_o  : out std_logic_vector(16 downto 0);
+        creal_o  : out std_logic_vector(16 downto 0)
         );
 end complex_multiplier_C0;
 ----------------------------------------------------------------------
@@ -55,32 +55,32 @@ architecture RTL of complex_multiplier_C0 is
 component complex_multiplier
     generic( 
         g_3DSP    : integer := 1 ;
-        g_AWIDTH  : integer := 16 ;
-        g_BWIDTH  : integer := 16 ;
-        g_CWIDTH  : integer := 33 ;
+        g_AWIDTH  : integer := 8 ;
+        g_BWIDTH  : integer := 8 ;
+        g_CWIDTH  : integer := 17 ;
         g_DOROUND : integer := 0 
         );
     -- Port list
     port(
         -- Inputs
-        aimag_i  : in  std_logic_vector(15 downto 0);
-        areal_i  : in  std_logic_vector(15 downto 0);
-        bimag_i  : in  std_logic_vector(15 downto 0);
-        breal_i  : in  std_logic_vector(15 downto 0);
+        aimag_i  : in  std_logic_vector(7 downto 0);
+        areal_i  : in  std_logic_vector(7 downto 0);
+        bimag_i  : in  std_logic_vector(7 downto 0);
+        breal_i  : in  std_logic_vector(7 downto 0);
         clock_i  : in  std_logic;
         nreset_i : in  std_logic;
         -- Outputs
-        cimag_o  : out std_logic_vector(32 downto 0);
-        creal_o  : out std_logic_vector(32 downto 0)
+        cimag_o  : out std_logic_vector(16 downto 0);
+        creal_o  : out std_logic_vector(16 downto 0)
         );
 end component;
 ----------------------------------------------------------------------
 -- Signal declarations
 ----------------------------------------------------------------------
-signal cimag_o_net_0 : std_logic_vector(32 downto 0);
-signal creal_o_net_0 : std_logic_vector(32 downto 0);
-signal creal_o_net_1 : std_logic_vector(32 downto 0);
-signal cimag_o_net_1 : std_logic_vector(32 downto 0);
+signal cimag_o_net_0 : std_logic_vector(16 downto 0);
+signal creal_o_net_0 : std_logic_vector(16 downto 0);
+signal creal_o_net_1 : std_logic_vector(16 downto 0);
+signal cimag_o_net_1 : std_logic_vector(16 downto 0);
 
 begin
 ----------------------------------------------------------------------
@@ -97,9 +97,9 @@ begin
 complex_multiplier_C0_0 : complex_multiplier
     generic map( 
         g_3DSP    => ( 1 ),
-        g_AWIDTH  => ( 16 ),
-        g_BWIDTH  => ( 16 ),
-        g_CWIDTH  => ( 33 ),
+        g_AWIDTH  => ( 8 ),
+        g_BWIDTH  => ( 8 ),
+        g_CWIDTH  => ( 17 ),
         g_DOROUND => ( 0 )
         )
     port map( 

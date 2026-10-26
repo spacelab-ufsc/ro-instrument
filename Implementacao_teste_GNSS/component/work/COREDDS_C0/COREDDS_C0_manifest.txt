@@ -1,29 +1,31 @@
 Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
 
-Date      :  Thu Aug 20 07:19:26 2026
-Project   :  C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS
+Date      :  Sun Oct 25 19:02:54 2026
+Project   :  C:\Users\Renato\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS
 Component :  COREDDS_C0
 Family    :  PolarFireSoC
 
 
 HDL source files for all Synthesis and Simulation tools:
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/plot.mon
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/dds.mon
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/TrigCorr.mon
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/lut.mon
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/lut.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/DDS_TOP.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vlog/core/dds_kit.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vlog/core/dds_module.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0.v
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/plot.mon
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/dds.mon
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/TrigCorr.mon
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/lut.mon
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/core/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/core/DDS_TOP.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/core/lut.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vhdl/core/dds_kit.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vhdl/core/dds_module.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vhdl/core/dds_rtl_pack.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0.vhd
 
 Stimulus files for all Simulation tools:
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/dds_bhvTestVectIn.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/dds_bhvTestVectOut.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/dds_bhvKit.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/coreparameters.v
-    C:/Users/renat/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/tb_dds.v
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/test/user/dds_bhvTestVectIn.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/test/user/dds_bhvTestVectOut.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREDDS/4.0.108/coreparameters.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vhdl/test/user/dds_bhv_pack.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/test/user/dds_bhvKit.vhd
+    C:/Users/Renato/OneDrive/Documentos/ro-instrument/Implementacao_teste_GNSS/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/test/user/tb_dds.vhd
 

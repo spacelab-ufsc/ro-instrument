@@ -34,35 +34,34 @@ end Acquisition_TestBench;
 
 architecture behavioral of Acquisition_TestBench is
 
-    constant SYSCLK_PERIOD : time := 100 ns; -- 10MHZ
-    constant PRNCLK_PERIOD : time := 977.5171 ns; -- 10MHZ
-    signal PRN_CLK : std_logic := '0';
-    signal SYSCLK, SYSCLKL_2 : std_logic := '0';
-    signal SYSRESET : std_logic := '1';
-    signal CA_PRN, PRN_VALID : std_logic;
-    signal MAX_I_INPUT: std_logic_vector(1 downto 0);
-    signal ACQ_OUTPUT_I, ACQ_OUTPUT_Q : std_logic_vector(15 downto 0);
-    signal pulso       : STD_LOGIC := '0';
+    constant SYSCLK_PERIOD      : time := 10 ns; -- 10MHZ
+    constant PRNCLK_PERIOD      : time := 977.5171 ns; -- 10MHZ
+    signal PRN_CLK              : std_logic := '0';
+    signal SYSCLK               : std_logic := '0';
+    signal SYSRESET             : std_logic := '1';
+    signal CA_PRN, PRN_VALID    : std_logic;
+    signal MAX_I_INPUT          : std_logic_vector(1 downto 0);
+    signal TB_DATAO_READY       : std_logic;
+    signal TB_ABS_OUT           : std_logic_vector(31 downto 0);
+    signal TB_F_Doppler         : std_logic_vector(5 downto 0);
+    signal TB_SAT_ID            : std_logic_vector(4 downto 0);
+    signal TB_CODE_DELAY        : std_logic_vector(15 downto 0);
+    signal pulso                : STD_LOGIC := '0';
     
-    component Acquisition
+    component Acquisition_V3
         -- ports
         port( 
-            -- Inputs
-            CLK : in std_logic;
-            CA_CLK : IN std_logic;
-            RST : in std_logic;
-            MAX_INPUT_I : in std_logic_vector(1 downto 0);
-            MAX_INPUT_Q : in std_logic_vector(1 downto 0);
-            MAX_INPUT_CLK : in std_logic;
-            READ_OUT : in std_logic;
-
-            -- Outputs
-            READ_OUT_V : out std_logic;
-            OUT_I : out std_logic_vector(15 downto 0);
-            OUT_Q : out std_logic_vector(15 downto 0)
-
-            -- Inouts
-
+            CLK             : IN  std_logic; -- example
+            CA_CLK          : IN  std_logic;
+            NRST            : IN  std_logic;
+            MAX_INPUT_I     : IN  std_logic_vector(1 downto 0); -- MAX INPUT IN PHASE SIGNAL
+            MAX_INPUT_Q     : IN  std_logic_vector(1 downto 0); -- MAX INPUT QUADRATURE SIGNAL
+            MAX_INPUT_CLK   : IN  std_logic; -- MAX INPUT CLOCK            
+            OUT_DATA_READY  : OUT std_logic;
+            ABS_OUT_DATA    : OUT std_logic_vector(31 downto 0);
+            F_Doppler_DATA  : OUT std_logic_vector(5 downto 0);
+            SAT_ID_DATA_O   : OUT std_logic_vector(4 downto 0);
+            CODE_DELAY_DATA : OUT std_logic_vector(15 downto 0)
         );
     end component;
 
@@ -86,7 +85,6 @@ begin
 
     -- Clock Driver
     SYSCLK <= not SYSCLK after (SYSCLK_PERIOD / 2.0 );
-    SYSCLKL_2 <= not SYSCLKL_2 after (SYSCLK_PERIOD*2.0 );
     PRN_CLK <= not PRN_CLK after (PRNCLK_PERIOD / 2.0 );
 
     
@@ -104,25 +102,21 @@ begin
 		);
     
     -- Instantiate Unit Under Test:  Acquisition
-    Acquisition_0 : Acquisition
+    Acquisition_0 : Acquisition_V3
         -- port map
         port map( 
             -- Inputs
-            CLK => SYSCLK,
-            CA_CLK => PRN_CLK,
-            RST => SYSRESET,
-            MAX_INPUT_I => MAX_I_INPUT,
-            MAX_INPUT_Q => (others=> '0'),
-            MAX_INPUT_CLK => PRN_VALID,
-            READ_OUT => SYSCLKL_2,
-
-            -- Outputs
-            READ_OUT_V =>  open,
-            OUT_I => ACQ_OUTPUT_I,
-            OUT_Q => ACQ_OUTPUT_Q
-
-            -- Inouts
-
+            CLK             =>  SYSCLK,
+            CA_CLK          => PRN_CLK,
+            NRST            => not SYSRESET,
+            MAX_INPUT_I     => MAX_I_INPUT,
+            MAX_INPUT_Q     => (others=> '0'),
+            MAX_INPUT_CLK   => PRN_VALID,
+            OUT_DATA_READY  => TB_DATAO_READY,
+            ABS_OUT_DATA    => TB_ABS_OUT,
+            F_Doppler_DATA  => TB_F_Doppler,
+            SAT_ID_DATA_O   => TB_SAT_ID,
+            CODE_DELAY_DATA => TB_CODE_DELAY
         );
         
         MAX_I_INPUT <= CA_PRN & '1';

@@ -1,6 +1,6 @@
 ----  RUN Data:   ----
 ctrlQrtrWave=1; octavo=512; lutDepth=4096. Config params:
-PH_ACC_BITS           = 17
+PH_ACC_BITS           = 20
 QUANTIZER_BITS        = 12
 OUTPUT_BITS           = 4
 URAM_MAXDEPTH         = 0

@@ -21,10 +21,10 @@ use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.all;
 
-entity Acquisition_Input is
+entity GNSS_Input is
 generic(
     DDS_Width   : integer := 5;
-    FFT_Width   : integer := 8
+    OUT_Width   : integer := 8
 );
 port (
     --<port_name> : <direction> <type>;
@@ -32,15 +32,15 @@ port (
     MAX_INPUT_Q : IN  std_logic_vector(1 downto 0); -- MAX INPUT QUADRATURE SIGNAL
     cos_signal  : IN  std_logic_vector(DDS_Width-1 downto 0); -- MAX INPUT IN PHASE SIGNAL
     sin_signal  : IN  std_logic_vector(DDS_Width-1 downto 0); -- MAX INPUT QUADRATURE SIGNAL
-    FFT_I       : OUT  std_logic_vector(FFT_Width-1 downto 0); -- OUTPUT REAL PART
-    FFT_Q       : OUT  std_logic_vector(FFT_Width-1 downto 0) -- OUTPUT IMAG PART
+    OUT_I       : OUT  std_logic_vector(OUT_Width-1 downto 0); -- OUTPUT REAL PART
+    OUT_Q       : OUT  std_logic_vector(OUT_Width-1 downto 0) -- OUTPUT IMAG PART
 );
-end Acquisition_Input;
+end GNSS_Input;
 
-architecture architecture_Acquisition_Input of Acquisition_Input is
+architecture architecture_GNSS_Input of GNSS_Input is
     -- signal, component etc. declarations
     signal I1_mult, I2_mult, Q1_mult, Q2_mult :  std_logic_vector(DDS_Width downto 0);
-    signal FFT_I_signal, FFT_Q_signal : std_logic_vector(FFT_Width-1 downto 0);
+    signal OUT_I_signal, OUT_Q_signal : std_logic_vector(OUT_Width-1 downto 0);
     
     component Multiplier_simplified is
     generic(
@@ -71,7 +71,7 @@ architecture architecture_Acquisition_Input of Acquisition_Input is
     end component;
 begin
     -- architecture body
-    Assert (DDS_Width < FFT_Width)
+    Assert (DDS_Width < OUT_Width)
         report "Error: DDS Width is greater than FFT WIDTH."
         severity error;
     
@@ -82,13 +82,13 @@ begin
     MULT_IN4: Multiplier_simplified generic map (data_width => DDS_Width) port map (sin_signal,    MAX_INPUT_Q, Q2_mult);
     
     ADDER_INPUT1: UAL generic map(data_width => DDS_Width + 1) 
-        port map (I1_mult, not Q2_mult,   '1', FFT_I_signal(DDS_Width downto 0), open);
+        port map (I1_mult, not Q2_mult,   '1', OUT_I_signal(DDS_Width downto 0), open);
     ADDER_INPUT2: UAL generic map(data_width => DDS_Width + 1) 
-        port map (I2_mult, Q1_mult,       '0', FFT_Q_signal(DDS_Width downto 0), open);
+        port map (I2_mult, Q1_mult,       '0', OUT_Q_signal(DDS_Width downto 0), open);
     
-    FFT_I_signal(FFT_Width - 1 downto DDS_Width + 1) <= (others => FFT_I_signal(DDS_Width));
-    FFT_Q_signal(FFT_Width - 1 downto DDS_Width + 1) <= (others => FFT_Q_signal(DDS_Width));
+    OUT_I_signal(OUT_Width - 1 downto DDS_Width + 1) <= (others => OUT_I_signal(DDS_Width));
+    OUT_Q_signal(OUT_Width - 1 downto DDS_Width + 1) <= (others => OUT_Q_signal(DDS_Width));
     
-    FFT_I <= FFT_I_signal;
-    FFT_Q <= FFT_Q_signal;
-end architecture_Acquisition_Input;
+    OUT_I <= OUT_I_signal;
+    OUT_Q <= OUT_Q_signal;
+end architecture_GNSS_Input;

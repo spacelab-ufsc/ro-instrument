@@ -52,6 +52,7 @@ end FFT_Correlator;
 
 architecture architecture_FFT_Correlator of FFT_Correlator is
    -- signal, component etc. declarations
+    constant FFT_Width  : natural := INPUT_WIDTH;
 	
     -- control signals
     signal slw_clk      : std_logic; 

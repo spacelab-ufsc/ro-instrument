@@ -1,61 +1,76 @@
 # Microsemi Corp.
-# Date: 2026-Oct-07 10:47:25
+# Date: 2026-Oct-25 19:18:34
 Libero Release : 2025.1
 Libero Version : 2025.1.0.14
 Operating System Name : Windows 8
-Ram Size : 7.71 GB (usable)
+Ram Size : 15.80 GB (usable)
 OS Type : 64-bit
 
 Environment Variables : 
 ---------------------
+	ACSetupSvcPort=23210
 	ALLUSERSPROFILE=C:\ProgramData
-	APPDATA=C:\Users\renat\AppData\Roaming
+	APPDATA=C:\Users\Renato\AppData\Roaming
+	asl.log=Destination=file
 	CommonProgramFiles=C:\Program Files (x86)\Common Files
 	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
 	CommonProgramW6432=C:\Program Files\Common Files
-	COMPUTERNAME=RENATO
-	ComSpec=C:\Windows\system32\cmd.exe
+	COMPUTERNAME=DESKTOP-RLEUGDF
+	ComSpec=C:\WINDOWS\system32\cmd.exe
 	DriverData=C:\Windows\System32\Drivers\DriverData
-	EFC_41204_1592913036=1
-	EFC_41204_344590478=1
-	EFC_41204_4126798990=1
+	EFC_21132_1262719628=1
+	EFC_21132_1592913036=1
+	EFC_21132_2283032206=1
+	EFC_21132_2775293581=1
+	EFC_21132_2946480783=1
+	EFC_21132_344590478=1
+	EFC_21132_3789132940=1
+	EFC_21132_4126798990=1
+	FPGA_WORKSPACE=C:\Users\Renato\Libero_Prj
+	FPGENPROG=C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer\bin64
+	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+	FPS_BROWSER_USER_PROFILE_STRING=Default
 	HOMEDRIVE=C:
-	HOMEPATH=\Users\renat
-	Link_SDC=C:\Users\renat\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl
-	LM_LICENSE_FILE=C:\Microchip\License\License.dat;
-	LOCALAPPDATA=C:\Users\renat\AppData\Local
-	LOGONSERVER=\\RENATO
-	MOZ_PLUGIN_PATH=C:\Program Files\Foxit Software\Foxit PDF Reader\plugins\
-	NUMBER_OF_PROCESSORS=12
-	OneDrive=C:\Users\renat\OneDrive - MINISTÉRIO DO TRABALHO E PREVIDÊNCIA
-	OneDriveCommercial=C:\Users\renat\OneDrive - MINISTÉRIO DO TRABALHO E PREVIDÊNCIA
-	OneDriveConsumer=C:\Users\renat\OneDrive
+	HOMEPATH=\Users\Renato
+	Link_SDC=C:\Users\Renato\OneDrive\Documentos\ro-instrument\Implementacao_teste_GNSS\hdl
+	LM_LICENSE_FILE=C:\Users\Renato\Downloads\License (1).dat;C:\flexlm\license.dat;
+	LOCALAPPDATA=C:\Users\Renato\AppData\Local
+	LOGONSERVER=\\DESKTOP-RLEUGDF
+	NUMBER_OF_PROCESSORS=16
+	OneDrive=C:\Users\Renato\OneDrive - Instituto Federal de Santa Catarina
+	OneDriveCommercial=C:\Users\Renato\OneDrive - Instituto Federal de Santa Catarina
+	OneDriveConsumer=C:\Users\Renato\OneDrive
 	OS=Windows_NT
-	Path=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Liquid Technologies\Liquid Studio\XmlDataBinder21\Redist21\cpp\win32\bin;C:\Program Files\Liquid Technologies\Liquid Studio\XmlDataBinder21\Redist21\cpp\win64\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\eim;C:\Espressif\tools\python;C:\Espressif\tools\python\Scripts;C:\Users\renat\.espressif\eim_gui;C:\Users\renat\.local\bin;C:\Users\renat\AppData\Local\Microsoft\WindowsApps;C:\Users\renat\AppData\Local\GitHubDesktop\bin;C:\Users\renat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\renat\AppData\Local\gitkraken\bin;C:\Users\renat\AppData\Local\Microsoft\WinGet\Links;
+	Path=C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Incredibuild;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2024a\bin;C:\Program Files (x86)\Ghdl\Bin;C:\Program Files\Liquid Technologies\Liquid Studio\XmlDataBinder21\Redist21\cpp\win32\bin;C:\Program Files\Liquid Technologies\Liquid Studio\XmlDataBinder21\Redist21\cpp\win64\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\texlive\2023\bin\windows;C:\Users\Renato\AppData\Local\Microsoft\WindowsApps;C:\Users\Renato\AppData\Local\GitHubDesktop\bin;C:\Users\Renato\.dotnet\tools;C:\Users\Renato\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Renato\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\UHD\bin;C:\intelFPGA_pro\24.1\questa_fse\win64;C:\intelFPGA_pro\24.1\questa_fe\win64;C:\msys64\mingw64\bin;C:\eda\GHDL\bin;C:\eda\gtkwave\bin;C:\Users\Renato\AppData\Local\Python\bin;C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer\bin;C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer\bin64;C:\Microchip\SoftConsole-v2022.2-RISC-V-747\riscv-unknown-elf-gcc\bin;
 	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 	PROCESSOR_ARCHITECTURE=x86
 	PROCESSOR_ARCHITEW6432=AMD64
-	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel
-	PROCESSOR_LEVEL=6
-	PROCESSOR_REVISION=ba02
+	PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+	PROCESSOR_LEVEL=25
+	PROCESSOR_REVISION=5000
 	ProgramData=C:\ProgramData
 	ProgramFiles=C:\Program Files (x86)
 	ProgramFiles(x86)=C:\Program Files (x86)
 	ProgramW6432=C:\Program Files
-	PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 	PUBLIC=C:\Users\Public
+	QSYS_ROOTDIR=C:\intelFPGA_pro\24.1\qsys\bin
+	QUARTUS_ROOTDIR=C:\intelFPGA_pro\24.1\quartus
+	RlsSvcPort=22112
+	SC_INSTALL_DIR=C:\Microchip\SoftConsole-v2022.2-RISC-V-747
 	SESSIONNAME=Console
 	SystemDrive=C:
-	SystemRoot=C:\Windows
-	TEMP=C:\Users\renat\AppData\Local\Temp
-	TMP=C:\Users\renat\AppData\Local\Temp
-	USERDOMAIN=RENATO
-	USERDOMAIN_ROAMINGPROFILE=RENATO
-	USERNAME=renat
-	USERPROFILE=C:\Users\renat
-	windir=C:\Windows
-	ZES_ENABLE_SYSMAN=1
+	SystemRoot=C:\WINDOWS
+	TEMP=C:\Users\Renato\AppData\Local\Temp
+	TMP=C:\Users\Renato\AppData\Local\Temp
+	USERDOMAIN=DESKTOP-RLEUGDF
+	USERDOMAIN_ROAMINGPROFILE=DESKTOP-RLEUGDF
+	USERNAME=Renato
+	USERPROFILE=C:\Users\Renato
+	VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+	VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+	windir=C:\WINDOWS
 	ACTEL_SW_DIR=C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer
 	AMHOME=C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/am
-	HOME=C:\Users\renat
+	HOME=C:\Users\Renato
 	TCL_LIBRARY=C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/lib/tcl8.5

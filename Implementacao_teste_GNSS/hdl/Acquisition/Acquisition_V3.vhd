@@ -21,7 +21,7 @@ use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.all;
 
-entity AcquisitionV2 is
+entity Acquisition_V3 is
 port (
     --<port_name> : <direction> <type>;
 	CLK             : IN  std_logic; -- example
@@ -29,22 +29,16 @@ port (
     NRST            : IN  std_logic;
 	MAX_INPUT_I     : IN  std_logic_vector(1 downto 0); -- MAX INPUT IN PHASE SIGNAL
     MAX_INPUT_Q     : IN  std_logic_vector(1 downto 0); -- MAX INPUT QUADRATURE SIGNAL
-    MAX_INPUT_CLK   : IN  std_logic; -- MAX INPUT CLOCK
-    -- READ_OUT        : IN  std_logic; -- READ  OUTPUT
-    -- OUT_READY       : OUT std_logic; -- READ  OUTPUT
-    -- READ_OUT_V      : OUT std_logic; -- VALID OUTPUT
-    -- OUT_I           : OUT std_logic_vector(15 downto 0); -- OUTPUT REAL PART
-    -- OUT_Q           : OUT std_logic_vector(15 downto 0) -- OUTPUT IMAG PART
-    
+    MAX_INPUT_CLK   : IN  std_logic; -- MAX INPUT CLOCK    
     OUT_DATA_READY  : OUT std_logic;
     ABS_OUT_DATA    : OUT std_logic_vector(31 downto 0);
-    F_Doppler_DATA  : OUT std_logic_vector(5 downto 0);
+    F_Doppler_DATA  : OUT std_logic_vector(4 downto 0);
     SAT_ID_DATA_O   : OUT std_logic_vector(4 downto 0);
     CODE_DELAY_DATA : OUT std_logic_vector(15 downto 0)
 );
-end AcquisitionV2;
+end Acquisition_V3;
 
-architecture architecture_AcquisitionV2 of AcquisitionV2 is
+architecture architecture_AcquisitionV3 of Acquisition_V3 is
     -- signal, component etc. declarations
     constant Contador_WIDTH     : integer := 10;
     constant DDS_Width          : integer := 5; -- Datawidth of the DDS
@@ -77,7 +71,6 @@ architecture architecture_AcquisitionV2 of AcquisitionV2 is
     -- Replica sinal C/A
     signal ca_prn           : std_logic;
     signal CA_RST           : std_logic;
-    signal Read_data        : std_logic;
     signal DDS_RSTN         : std_logic;
     signal counter_clk      : std_logic;
     signal sat_int          : integer range 0 to 31; -- 32 GPS
@@ -178,11 +171,12 @@ architecture architecture_AcquisitionV2 of AcquisitionV2 is
         VALID_IN        : IN std_logic;
         X_IN            : IN std_logic_vector(15 downto 0);
         Y_IN            : IN std_logic_vector(15 downto 0);
-        F_Doppler_IN    : IN std_logic_vector(5 downto 0);
+        F_Doppler_IN    : IN std_logic_vector(4 downto 0);
         SAT_ID_IN       : IN std_logic_vector(4 downto 0);
         --OUTPUT DATA
+        VALID_OUT       : OUT std_logic;
         A_OUT           : OUT std_logic_vector(31 downto 0);
-        F_Doppler_O     : OUT std_logic_vector(5 downto 0);
+        F_Doppler_O     : OUT std_logic_vector(4 downto 0);
         SAT_ID_O        : OUT std_logic_vector(4 downto 0);
         CODE_DELAY      : OUT std_logic_vector(15 downto 0)
     );
@@ -273,6 +267,7 @@ begin
             Y_IN            => IFFT_Q_signal,
             F_Doppler_IN    => FDoppler_Delay, 
             SAT_ID_IN       => SAT_ID_Delay,
+            VALID_OUT       => OUT_DATA_READY,
             A_OUT           => ABS_OUT_DATA,
             F_Doppler_O     => F_Doppler_DATA,
             SAT_ID_O        => SAT_ID_DATA_O,
@@ -315,4 +310,4 @@ begin
     
     CA_RST <= ca_rst_pulse;
     DDS_RSTN <= not CA_RST;
-end architecture_AcquisitionV2;
+end architecture_AcquisitionV3;
