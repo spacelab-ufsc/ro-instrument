@@ -51,7 +51,8 @@ architecture architecture_Acquisition_Detection of Acquisition_Detection is
     -- signals
 	signal ABS_VALID        : std_logic; 
     signal NEW_MAX_CORR_EN  : std_logic; 
-    signal reset_max        : std_logic;
+    signal reset_max        : std_logic; 
+    signal reset_counter    : std_logic;
     
     --signal cordic_x            : std_logic_vector (15 downto 0);
     --signal cordic_y            : std_logic_vector (15 downto 0);
@@ -236,9 +237,11 @@ begin
         generic map (data_width => FFT_length)
         port map (
         clk     =>  clk, 
-        init    =>  not reset_max, 
+        init    =>  not reset_counter, 
         count   =>  NEW_CODE_VAL
         );
+        
+    reset_counter <= NRST and clkd(4);
         
     CODE_DELAY_S <=
     std_logic_vector(resize(unsigned(NEW_CODE_VAL), CODE_DELAY_S'length));
