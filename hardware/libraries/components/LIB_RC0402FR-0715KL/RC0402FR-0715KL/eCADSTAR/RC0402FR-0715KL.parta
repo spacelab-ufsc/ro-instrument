@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_321320"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-09:50:45)
+    (utime 2026-01-26-15:28:04)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "RC0402FR-0715KL")
+)
+
+
+(pinAssign "ECS_321320"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-09:50:45)
+    (utime 2026-01-26-15:28:04)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_321320")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "RC0402FR-0715KL")
+)
+
+
+(part "RC0402FR-0715KL"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-09:50:45)
+    (utime 2026-01-26-15:28:04)
+    (packageRef "RC0402FR-0715KL")
+    (pinAssignRef "ECS_321320")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "Res SMD 0402 15K 1% 0.0625W T.C.100ppm Yageo RC Series Thick Film Surface Mount Resistor 0402 Case 15k +/-1% 0.063W +/-100ppm/C")
+    (property "Mouser_Part_Number" "603-RC0402FR-0715KL")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0715KL?qs=V1yeUXFNrkkV0Qg60g4JvA%3D%3D")
+    (property "Manufacturer_Name" "Yageo Group")
+    (property "Manufacturer_Part_Number" "RC0402FR-0715KL")
+    (property "Datasheet_Link" "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf")
+    (property "compAreaTopHeight" 0.4)
+)
+
+

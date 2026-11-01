@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RC0402FR_0715KL'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Yageo Group", "RC0402FR-0715KL" (!) = "", "RESC1005X40N", "Resistor Chip", "603-RC0402FR-0715KL", "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0715KL?qs=V1yeUXFNrkkV0Qg60g4JvA%3D%3D", "Res SMD 0402 15K 1% 0.0625W T.C.100ppm Yageo RC Series Thick Film Surface Mount Resistor 0402 Case 15k +/-1% 0.063W +/-100ppm/C", "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf", "0.4 mm"
+END_PART
+
+END.

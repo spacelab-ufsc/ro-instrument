@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RC0402FR-0715KL
+D Res SMD 0402 15K 1% 0.0625W T.C.100ppm Yageo RC Series Thick Film Surface Mount Resistor 0402 Case 15k +/-1% 0.063W +/-100ppm/C
+K
+F http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf
+$ENDCMP
+#
+#End Doc Library

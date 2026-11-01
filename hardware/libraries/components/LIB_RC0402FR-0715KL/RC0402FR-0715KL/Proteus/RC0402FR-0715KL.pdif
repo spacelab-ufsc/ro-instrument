@@ -1,0 +1,80 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RC0402FR-0715KL"
+   (description "Res SMD 0402 15K 1% 0.0625W T.C.100ppm Yageo RC Series Thick Film Surface Mount Resistor 0402 Case 15k +/-1% 0.063W +/-100ppm/C")
+   (family "RES")
+   (package "RESC1005X40N")
+   (attribute "Datasheet Link" "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf")
+   (attribute "Geometry.Height" "0.4mm")
+   (attribute "Mouser Part Number" "603-RC0402FR-0715KL")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0715KL?qs=V1yeUXFNrkkV0Qg60g4JvA%3D%3D")
+   (attribute "Manufacturer_Name" "Yageo Group")
+   (attribute "Manufacturer_Part_Number" "RC0402FR-0715KL")
+   (gate
+    (symbol "RC0402FR-0715KL")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "RC0402FR-0715KL"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESC1005X40N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.175 0.55)
+      (pt 1.175 0.55)
+      (pt 1.175 -0.55)
+      (pt -1.175 -0.55)
+      (pt -1.175 0.55))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.5 0.25)
+      (pt 0.5 0.25)
+      (pt 0.5 -0.25)
+      (pt -0.5 -0.25)
+      (pt -0.5 0.25))))
+   (leg 1 (pt -0.55 0) (padstack 0))
+   (leg 2 (pt 0.55 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.6 0.75 0 0 0))
+   )
+  )
+ )
+)

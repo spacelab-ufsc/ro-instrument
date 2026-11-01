@@ -1,0 +1,15 @@
+.RC0402FR-0715KL :1 ;Res SMD 0402 15K 1% 0.0625W T.C.100ppm Yageo RC Series Thick Film Surface Mount Resistor 0402 Case 15k +/-1% 0.063W +/-100ppm/C
+RESC1005X40N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN RC0402FR-0715KL
+~!Mouser Part Number (603-RC0402FR-0715KL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Yageo/RC0402FR-0715KL?qs=V1yeUXFNrkkV0Qg60g4JvA%3D%3D)
+~!Manufacturer_Name (Yageo Group)
+~!Manufacturer_Part_Number (RC0402FR-0715KL)
+~!Link Datasheet (http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6_r.pdf)
+~!Height (0.4mm)
+RC0402FR-0715KL
+1.1!U 2.1!U 

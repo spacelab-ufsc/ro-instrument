@@ -2680,8 +2680,8 @@
 		)
 	)
 	(rectangle
-		(start 67.31 128.27)
-		(end 266.7 139.7)
+		(start 346.71 64.77)
+		(end 360.68 74.93)
 		(stroke
 			(width 0)
 			(type default)
@@ -2689,31 +2689,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "4a786367-1d6a-4096-8a79-8adefe2f2759")
-	)
-	(rectangle
-		(start 217.17 64.77)
-		(end 233.68 76.2)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "cde8da5a-568e-45fa-af33-d4a68cb4f2d5")
-	)
-	(rectangle
-		(start 46.99 34.29)
-		(end 58.42 41.91)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "dd6a8f38-d55e-4df1-8e52-4dd1dd75403e")
+		(uuid "d4cde7ea-b386-493d-8316-b4b2787d389f")
 	)
 	(rectangle
 		(start 45.72 67.31)
@@ -2744,8 +2720,9 @@
 		(at 354.33 50.8 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.3175)
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
 			)
 		)
 		(uuid "2fd97de1-63b6-41ba-b921-a1760ff1672c")
@@ -2764,11 +2741,12 @@
 	)
 	(text "TEMPERATURE SENSOR"
 		(exclude_from_sim no)
-		(at 305.816 48.514 0)
+		(at 299.466 48.514 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.3175)
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
 			)
 		)
 		(uuid "8099e16b-fee3-4271-9fda-e1333c6d067a")
@@ -3203,7 +3181,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 63.5) (xy 284.48 58.42)
+			(xy 278.13 63.5) (xy 278.13 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3363,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 73.66) (xy 325.12 68.58)
+			(xy 318.77 73.66) (xy 318.77 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3643,7 +3621,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 78.74) (xy 325.12 78.74)
+			(xy 313.69 78.74) (xy 318.77 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3873,7 +3851,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 78.74) (xy 325.12 82.55)
+			(xy 318.77 78.74) (xy 318.77 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4073,7 +4051,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 63.5) (xy 284.48 63.5)
+			(xy 284.48 63.5) (xy 278.13 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4203,7 +4181,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 73.66) (xy 325.12 73.66)
+			(xy 313.69 73.66) (xy 318.77 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4432,7 +4410,7 @@
 		(uuid "10db9f83-0fa1-49c4-b3bf-74c00cc54ff0")
 	)
 	(label "VCC_3V3"
-		(at 325.12 68.58 0)
+		(at 318.77 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4472,7 +4450,7 @@
 		(uuid "6ad8fe2e-f3a2-4dfc-8f80-da2f3dc15f31")
 	)
 	(label "VCC_3V3"
-		(at 284.48 58.42 0)
+		(at 278.13 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5263,7 +5241,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_TVS"
+		(property "Value" "ESDPSA0402V05"
 			(at 53.34 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5356,7 +5334,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 223.52 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5449,7 +5427,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 256.54 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5624,7 +5602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 173.99 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5717,7 +5695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 156.21 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6435,7 +6413,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 123.19 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6528,7 +6506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 139.7 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6621,7 +6599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 73.66 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9115,7 +9093,7 @@
 	)
 	(symbol
 		(lib_id "payload-sym:TMP112AQDRLRQ1")
-		(at 290.83 62.23 0)
+		(at 284.48 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9126,7 +9104,7 @@
 		(fields_autoplaced yes)
 		(uuid "952825b7-9c4d-4e80-b88a-3331f3cb71d9")
 		(property "Reference" "IC14"
-			(at 305.308 54.61 0)
+			(at 298.958 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9136,7 +9114,7 @@
 			)
 		)
 		(property "Value" "TMP112AQDRLRQ1"
-			(at 305.308 57.15 0)
+			(at 298.958 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9146,7 +9124,7 @@
 			)
 		)
 		(property "Footprint" "SOTFL50P160X60-6N"
-			(at 317.5 157.15 0)
+			(at 311.15 157.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9158,7 +9136,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/tmp112-q1"
-			(at 317.5 257.15 0)
+			(at 311.15 257.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9170,7 +9148,7 @@
 			)
 		)
 		(property "Description" "Automotive Grade, 1.4V-Capable +/-0.5C Temperature Sensor with Alert Function and I2C/SMBus"
-			(at 290.83 62.23 0)
+			(at 284.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9181,7 +9159,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 317.5 457.15 0)
+			(at 311.15 457.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9193,7 +9171,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TMP112AQDRLRQ1"
-			(at 317.5 557.15 0)
+			(at 311.15 557.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,7 +9183,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP112AQDRLRQ1?qs=asCBFxFfL1Q5YmJCm%252BGnCQ%3D%3D"
-			(at 317.5 657.15 0)
+			(at 311.15 657.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9217,7 +9195,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 317.5 757.15 0)
+			(at 311.15 757.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9229,7 +9207,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TMP112AQDRLRQ1"
-			(at 317.5 857.15 0)
+			(at 311.15 857.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9703,7 +9681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 106.68 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9952,7 +9930,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 240.03 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10317,7 +10295,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 325.12 82.55 0)
+		(at 318.77 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10328,7 +10306,7 @@
 		(fields_autoplaced yes)
 		(uuid "b098dd12-2fd5-45ae-ba8a-737dc2f21809")
 		(property "Reference" "#PWR0165"
-			(at 325.12 88.9 0)
+			(at 318.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10339,7 +10317,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 325.12 87.63 0)
+			(at 318.77 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10349,7 +10327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 82.55 0)
+			(at 318.77 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10360,7 +10338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 82.55 0)
+			(at 318.77 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10371,7 +10349,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 325.12 82.55 0)
+			(at 318.77 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10427,7 +10405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 207.01 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10588,7 +10566,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "LRB520S-30T1G"
 			(at 53.34 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10599,7 +10577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11020,7 +10998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 190.5 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11191,7 +11169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11354,7 +11332,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_TVS"
+		(property "Value" "ESDPSA0402V05"
 			(at 64.77 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11525,7 +11503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
 			(at 223.52 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12977,5 +12955,4 @@
 			(page "4")
 		)
 	)
-	(embedded_fonts no)
 )

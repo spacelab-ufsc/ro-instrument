@@ -1724,18 +1724,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 186.69 109.22)
-		(end 214.63 129.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "b066dee9-0326-4b0a-93de-c49b3c99d04b")
-	)
 	(text "ADC"
 		(exclude_from_sim no)
 		(at 170.942 39.37 0)
@@ -3428,7 +3416,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "DNP"
 			(at 200.66 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6030,5 +6018,4 @@
 			(page "6")
 		)
 	)
-	(embedded_fonts no)
 )
