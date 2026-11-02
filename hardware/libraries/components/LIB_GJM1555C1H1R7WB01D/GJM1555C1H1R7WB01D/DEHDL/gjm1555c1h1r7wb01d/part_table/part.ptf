@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'GJM1555C1H1R7WB01D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "GJM1555C1H1R7WB01D" (!) = "", "CAPC1005X55N", "Capacitor Chip Non-polarised", "81-GJM1555C1H1R7WB1D", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GJM1555C1H1R7WB01D?qs=YLLXL5qGyDvq5L%2F8T16uJQ%3D%3D", "Capacitor GJM15_0.10 L=1.0mm W=0.5mm T=0.5mm", "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H1R7WB01-01A.pdf", "0.55 mm"
+END_PART
+
+END.

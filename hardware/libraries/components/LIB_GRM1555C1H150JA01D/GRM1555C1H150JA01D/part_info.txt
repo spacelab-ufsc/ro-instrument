@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=GRM1555C1H150JA01D
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=4.1
+Released=2023-03-07 08:50:36
+Downloaded=2026-11-01 22:55:00
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ERJ_6GEYJ153V'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "ERJ-6GEYJ153V" (!) = "", "RESC2012X70N", "Resistor Chip", "667-ERJ-6GEYJ153V", "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-6GEYJ153V?qs=gybxhQrZOyE8NVeFJR%2FEkg%3D%3D", "Panasonic ERJ6GE Series Thick Film Surface Mount Fixed Resistor 0805 Case 15k +/-5% 0.125W +/-200ppm/C", "https://datasheet.datasheetarchive.com/originals/distributors/DKDS40/DSANUWW0010935.pdf", "0.7 mm"
+END_PART
+
+END.

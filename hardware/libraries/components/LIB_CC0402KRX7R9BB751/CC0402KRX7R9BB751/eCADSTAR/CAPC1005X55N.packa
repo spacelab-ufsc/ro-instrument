@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CC0402KRX7R9BB751"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-04-13-13:14:05)
+    (mountForm default
+        (footprintRef "CAPC1005X55N")
+        (spec "System")
+    )
+)

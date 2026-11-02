@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=GJM1555C1H1R7WB01D
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=2.1
+Released=2019-10-01 09:24:05
+Downloaded=2026-11-01 20:43:28
+3D=Y

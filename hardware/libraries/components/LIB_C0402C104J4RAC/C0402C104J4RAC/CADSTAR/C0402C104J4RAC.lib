@@ -1,0 +1,16 @@
+.C0402C104J4RAC :1 ;Multilayer Ceramic Capacitors MLCC - SMD/SMT 16volts 0.1uF 5% X7R
+C0402C104J4RACTU
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C0402C104J4RAC
+~!Mouser Part Number (80-C0402C104J4RAC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104J4RAC?qs=kP14MTe6w4LoDChw2h9e8Q%3D%3D)
+~!Manufacturer_Name (Yageo Group)
+~!Manufacturer_Part_Number (C0402C104J4RAC)
+~!Link Datasheet (https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf)
+~!Height (0.55mm)
+~!3D_Model (C0402C104J4RAC)
+C0402C104J4RAC
+1.1!U 2.1!U 

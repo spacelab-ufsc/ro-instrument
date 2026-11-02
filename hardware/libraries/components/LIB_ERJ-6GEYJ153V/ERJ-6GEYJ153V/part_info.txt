@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERJ-6GEYJ153V
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=2.1
+Released=2016-07-12 14:41:49
+Downloaded=2026-11-01 22:50:31
+3D=Y

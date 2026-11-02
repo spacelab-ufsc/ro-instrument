@@ -1,0 +1,106 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "C0402C101J5GAC"
+   (description "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50volts 100pF 5% C0G")
+   (family "CAP")
+   (package "C0402C104J4RACTU")
+   (attribute "Datasheet Link" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf")
+   (attribute "Geometry.Height" "0.55mm")
+   (attribute "Mouser Part Number" "80-C0402C101J5GAC")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C101J5GAC?qs=cr8T4Ugre44Eq9iZl6w%252BvA%3D%3D")
+   (attribute "Manufacturer_Name" "Yageo Group")
+   (attribute "Manufacturer_Part_Number" "C0402C101J5GAC")
+   (gate
+    (symbol "C0402C101J5GAC")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "C0402C101J5GAC"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "C0402C104J4RACTU"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.5 0.25)
+      (pt 0.5 0.25)
+      (pt 0.5 -0.25)
+      (pt -0.5 -0.25)
+      (pt -0.5 0.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.26 0.81)
+      (pt 1.26 0.81)
+      (pt 1.26 -0.81)
+      (pt -1.26 -0.81)
+      (pt -1.26 0.81))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 0.05)
+      (arc (pt -1.000 0.050) (pt -1.050 -0.050) (pt -0.950 0.050) (start 180.0) (sweep 90.0))
+      (pt -1 -0.05)
+      (arc (pt -1.000 -0.050) (pt -1.050 -0.050) (pt -0.950 0.050) (start 180.0) (sweep -90.0))
+      (pt -1 0.05))))
+   (leg 1 (pt -0.450 0.000) (padstack 0))
+   (leg 2 (pt 0.450 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 0.620))
+   )
+   (model "C0402C101J5GAC.stp"
+    (euler 90 0 0)
+    (offset -0.5199999809265137 -0.2800000011920929 0)
+   )
+  )
+ )
+)

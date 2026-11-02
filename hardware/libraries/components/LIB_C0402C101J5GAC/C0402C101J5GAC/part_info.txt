@@ -1,0 +1,9 @@
+Manufacturer=Yageo Group
+PartNumber=C0402C101J5GAC
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2023-03-07 11:14:17
+Downloaded=2026-11-01 21:45:31
+3D=Y

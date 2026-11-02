@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_3430549"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-01-09:24:05)
+    (utime 2025-01-03-17:23:11)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "GJM1555C1H1R7WB01D")
+)
+
+
+(pinAssign "ECS_3430549"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-01-09:24:05)
+    (utime 2025-01-03-17:23:11)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_3430549")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "GJM1555C1H1R7WB01D")
+)
+
+
+(part "GJM1555C1H1R7WB01D"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-01-09:24:05)
+    (utime 2025-01-03-17:23:11)
+    (packageRef "GJM1555C1H1R7WB01D")
+    (pinAssignRef "ECS_3430549")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Capacitor GJM15_0.10 L=1.0mm W=0.5mm T=0.5mm")
+    (property "Mouser_Part_Number" "81-GJM1555C1H1R7WB1D")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GJM1555C1H1R7WB01D?qs=YLLXL5qGyDvq5L%2F8T16uJQ%3D%3D")
+    (property "Manufacturer_Name" "Murata Electronics")
+    (property "Manufacturer_Part_Number" "GJM1555C1H1R7WB01D")
+    (property "Datasheet_Link" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H1R7WB01-01A.pdf")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

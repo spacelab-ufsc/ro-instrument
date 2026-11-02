@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_766175"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-01-12:21:36)
+    (utime 2025-01-03-15:31:59)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "LQW18AN6N5C8ZD")
+)
+
+
+(pinAssign "ECS_766175"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-01-12:21:36)
+    (utime 2025-01-03-15:31:59)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_766175")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "LQW18AN6N5C8ZD")
+)
+
+
+(part "LQW18AN6N5C8ZD"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-01-12:21:36)
+    (utime 2025-01-03-15:31:59)
+    (packageRef "LQW18AN6N5C8ZD")
+    (pinAssignRef "ECS_766175")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "LQW18AN_8Z Series Inductor 6.5nH +/-0.2nH 0603 (1608)")
+    (property "Mouser_Part_Number" "81-LQW18AN6N5C8ZD")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQW18AN6N5C8ZD?qs=qkDYIeTQ%252BEkCwtcGH3BvVg%3D%3D")
+    (property "Manufacturer_Name" "Murata Electronics")
+    (property "Manufacturer_Part_Number" "LQW18AN6N5C8ZD")
+    (property "Datasheet_Link" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9133.pdf")
+    (property "compAreaTopHeight" 1)
+)
+
+

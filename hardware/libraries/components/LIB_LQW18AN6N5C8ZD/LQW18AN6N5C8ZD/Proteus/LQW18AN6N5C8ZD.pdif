@@ -1,0 +1,107 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LQW18AN6N5C8ZD"
+   (description "LQW18AN_8Z Series Inductor 6.5nH +/-0.2nH 0603 (1608)")
+   (family "IND")
+   (package "LQW18AN10NG80D")
+   (attribute "Datasheet Link" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9133.pdf")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Mouser Part Number" "81-LQW18AN6N5C8ZD")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQW18AN6N5C8ZD?qs=qkDYIeTQ%252BEkCwtcGH3BvVg%3D%3D")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "LQW18AN6N5C8ZD")
+   (gate
+    (symbol "LQW18AN6N5C8ZD")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "LQW18AN6N5C8ZD"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 200 0) (pt 200 -52) (pt 300 48) (start -175.4) (sweep 177.7)) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 300 0) (pt 300 -52) (pt 400 48) (start -175.4) (sweep 177.7)) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 400 0) (pt 400 -52) (pt 500 48) (start -175.4) (sweep 177.7)) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 500 0) (pt 500 -52) (pt 600 48) (start -175.4) (sweep 177.7)) (pt 600 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LQW18AN10NG80D"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.825 0.495)
+      (pt 0.825 0.495)
+      (pt 0.825 -0.495)
+      (pt -0.825 -0.495)
+      (pt -0.825 0.495))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 1.495)
+      (pt 2 1.495)
+      (pt 2 -1.495)
+      (pt -2 -1.495)
+      (pt -2 1.495))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 0.3)
+      (pt 0 -0.3))))
+   (leg 1 (pt -0.715 0.000) (padstack 0))
+   (leg 2 (pt 0.715 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.570 1.150 0 0 90.000))
+   )
+   (model "LQW18AN6N5C8ZD.stp"
+    (euler 90 0 0)
+    (offset 0 0 0.5)
+   )
+  )
+ )
+)

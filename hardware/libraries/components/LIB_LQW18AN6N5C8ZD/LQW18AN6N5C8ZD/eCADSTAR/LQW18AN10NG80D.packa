@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LQW18AN6N5C8ZD"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-05-22-09:22:32)
+    (mountForm default
+        (footprintRef "LQW18AN10NG80D")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GRM1555C1H150JA01D
+D Ceramic Capacitors MLCC 0402 15pF 50V Murata 0402 GRM 15pF Ceramic Multilayer Capacitor, 50 V dc C0G Dielectric +/-5% SMD
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H150JA01-01A.pdf
+$ENDCMP
+#
+#End Doc Library

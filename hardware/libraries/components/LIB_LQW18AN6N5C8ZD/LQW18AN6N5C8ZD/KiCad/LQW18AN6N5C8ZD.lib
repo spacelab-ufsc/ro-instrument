@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LQW18AN6N5C8ZD
+#/766175/1743273/2.50/2/2/Inductor
+DEF LQW18AN6N5C8ZD L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "LQW18AN6N5C8ZD" 650 150 50 H V L CNN
+F2 "LQW18AN10NG80D" 650 50 50 H I L CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9133.pdf" 650 -50 50 H I L CNN
+F4 "LQW18AN_8Z Series Inductor 6.5nH +/-0.2nH 0603 (1608)" 650 -150 50 H I L CNN "Description"
+F5 "1" 650 -250 50 H I L CNN "Height"
+F6 "81-LQW18AN6N5C8ZD" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQW18AN6N5C8ZD?qs=qkDYIeTQ%252BEkCwtcGH3BvVg%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "LQW18AN6N5C8ZD" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#End Library

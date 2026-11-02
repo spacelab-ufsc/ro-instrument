@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_349029"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-11:14:17)
+    (utime 2023-03-07-11:14:17)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "C0402C101J5GAC")
+)
+
+
+(pinAssign "ECS_349029"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-11:14:17)
+    (utime 2023-03-07-11:14:17)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_349029")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "C0402C101J5GAC")
+)
+
+
+(part "C0402C101J5GAC"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-11:14:17)
+    (utime 2023-03-07-11:14:17)
+    (packageRef "C0402C101J5GAC")
+    (pinAssignRef "ECS_349029")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50volts 100pF 5% C0G")
+    (property "Mouser_Part_Number" "80-C0402C101J5GAC")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C101J5GAC?qs=cr8T4Ugre44Eq9iZl6w%252BvA%3D%3D")
+    (property "Manufacturer_Name" "Yageo Group")
+    (property "Manufacturer_Part_Number" "C0402C101J5GAC")
+    (property "Datasheet_Link" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

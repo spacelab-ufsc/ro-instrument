@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_267621"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-08:50:36)
+    (utime 2025-01-03-17:06:55)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "GRM1555C1H150JA01D")
+)
+
+
+(pinAssign "ECS_267621"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-08:50:36)
+    (utime 2025-01-03-17:06:55)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_267621")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "GRM1555C1H150JA01D")
+)
+
+
+(part "GRM1555C1H150JA01D"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-08:50:36)
+    (utime 2025-01-03-17:06:55)
+    (packageRef "GRM1555C1H150JA01D")
+    (pinAssignRef "ECS_267621")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Ceramic Capacitors MLCC 0402 15pF 50V Murata 0402 GRM 15pF Ceramic Multilayer Capacitor, 50 V dc C0G Dielectric +/-5% SMD")
+    (property "Mouser_Part_Number" "81-GRM1555C1H150JA1D")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H150JA01D?qs=to8XolpOzrO6zLQlNbgtVA%3D%3D")
+    (property "Manufacturer_Name" "Murata Electronics")
+    (property "Manufacturer_Part_Number" "GRM1555C1H150JA01D")
+    (property "Datasheet_Link" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H150JA01-01A.pdf")
+    (property "compAreaTopHeight" 0.7)
+)
+
+

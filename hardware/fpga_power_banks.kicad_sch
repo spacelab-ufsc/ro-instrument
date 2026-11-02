@@ -27802,102 +27802,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 48.26 255.27)
-		(end 63.5 265.43)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "2f6201b5-f0b9-48da-917e-dc3296f1cdbb")
-	)
-	(rectangle
-		(start 176.53 256.54)
-		(end 191.77 265.43)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "3370951d-a5c7-4381-a7a3-9e576cb30433")
-	)
-	(rectangle
-		(start 40.64 214.63)
-		(end 48.26 223.52)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "35ed3c69-97d7-4955-9c67-eb2fcc04bdeb")
-	)
-	(rectangle
-		(start 83.82 215.9)
-		(end 91.44 223.52)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "3fe23422-784c-4998-857a-e6822538d558")
-	)
-	(rectangle
-		(start 245.11 215.9)
-		(end 261.62 224.79)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "43a40295-d521-4431-88db-30c98cc00721")
-	)
-	(rectangle
-		(start 97.79 255.27)
-		(end 113.03 264.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "b7075f16-f3ad-4f6a-83c0-04114f9da1d7")
-	)
-	(rectangle
-		(start 33.02 173.99)
-		(end 95.25 185.42)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "bd87c0f0-79ca-42fd-ac7f-6d18969df678")
-	)
-	(rectangle
-		(start 167.64 176.53)
-		(end 184.15 184.15)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "fa643cba-53f2-4d4c-8e31-86a3db08403a")
-	)
 	(text "POWER BANKS"
 		(exclude_from_sim no)
 		(at 154.94 22.352 0)
@@ -38136,7 +38040,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 45.466 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38147,7 +38051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 43.4848 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -38457,7 +38361,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7nF"
 			(at 87.376 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38468,7 +38372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 85.3948 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -38619,7 +38523,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 60.706 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38630,7 +38534,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 58.7248 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -38862,7 +38766,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nF"
 			(at 83.566 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38873,7 +38777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 81.5848 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -38943,7 +38847,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 180.086 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38954,7 +38858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 178.1048 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -39105,7 +39009,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7nF"
 			(at 249.936 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39116,7 +39020,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 247.9548 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -39186,7 +39090,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 188.976 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39197,7 +39101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 186.9948 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -39669,7 +39573,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 59.436 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39680,7 +39584,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 57.4548 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -41678,7 +41582,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 68.326 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41689,7 +41593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 66.3448 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -42557,7 +42461,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nF"
 			(at 91.186 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42568,7 +42472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 89.2048 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -43433,7 +43337,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 51.816 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43444,7 +43348,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 49.8348 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -43754,7 +43658,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 53.086 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43765,7 +43669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 51.1048 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -43995,7 +43899,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 257.556 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44006,7 +43910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 255.5748 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -44076,7 +43980,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7nF"
 			(at 102.616 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44087,7 +43991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 100.6348 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -44317,7 +44221,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7nF"
 			(at 172.466 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44328,7 +44232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 170.4848 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -44560,7 +44464,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7nF"
 			(at 44.196 221.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44571,7 +44475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 42.2148 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -44884,7 +44788,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nF"
 			(at 75.946 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44895,7 +44799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 73.9648 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -48497,7 +48401,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 110.236 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48508,7 +48412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 108.2548 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -49379,7 +49283,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 181.356 262.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49390,7 +49294,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 179.3748 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -50021,7 +49925,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 37.846 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50032,7 +49936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 35.8648 176.53 0)
 			(hide yes)
 			(show_name no)

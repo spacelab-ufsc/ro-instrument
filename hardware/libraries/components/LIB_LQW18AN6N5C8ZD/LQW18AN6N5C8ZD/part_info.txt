@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=LQW18AN6N5C8ZD
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2019-10-01 12:21:36
+Downloaded=2026-11-01 23:08:14
+3D=Y

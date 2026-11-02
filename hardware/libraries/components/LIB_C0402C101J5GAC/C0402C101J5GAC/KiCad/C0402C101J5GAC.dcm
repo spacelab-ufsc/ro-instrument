@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C0402C101J5GAC
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 50volts 100pF 5% C0G
+K
+F https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
+$ENDCMP
+#
+#End Doc Library

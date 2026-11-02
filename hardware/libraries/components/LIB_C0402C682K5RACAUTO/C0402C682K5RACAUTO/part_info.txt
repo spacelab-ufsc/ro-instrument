@@ -1,0 +1,9 @@
+Manufacturer=Yageo Group
+PartNumber=C0402C682K5RACAUTO
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=6.1
+Released=2019-05-31 09:23:30
+Downloaded=2026-11-01 20:40:02
+3D=Y

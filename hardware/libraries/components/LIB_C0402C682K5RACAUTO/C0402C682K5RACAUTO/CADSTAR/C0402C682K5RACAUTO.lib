@@ -1,0 +1,16 @@
+.C0402C682K5RACAUTO :1 ;SMD Auto X7R, Ceramic, 6800 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Automotive Grade, 2.5 % , 100 GOhms, 1.21 mg, 0402, 1mm, 0.5mm, 0.5mm, 0.3mm, 0.3mm, 10000, 78  Weeks, 80
+C0402
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C0402C682K5RACAUTO
+~!Mouser Part Number (80-C0402C682K5RAUTO)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KEMET/C0402C682K5RACAUTO/?qs=2FIyTMJ0hNneL0lnwLfXBw%3D%3D)
+~!Manufacturer_Name (Yageo Group)
+~!Manufacturer_Part_Number (C0402C682K5RACAUTO)
+~!Link Datasheet (https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf)
+~!Height (0.55mm)
+~!3D_Model (C0402C682K5RACAUTO)
+C0402C682K5RACAUTO
+1.1!U 2.1!U 

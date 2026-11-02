@@ -1,0 +1,16 @@
+.GJM1555C1H1R7WB01D :1 ;Capacitor GJM15_0.10 L=1.0mm W=0.5mm T=0.5mm
+CAPC1005X55N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN GJM1555C1H1R7WB01D
+~!Mouser Part Number (81-GJM1555C1H1R7WB1D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GJM1555C1H1R7WB01D?qs=YLLXL5qGyDvq5L%2F8T16uJQ%3D%3D)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (GJM1555C1H1R7WB01D)
+~!Link Datasheet (https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H1R7WB01-01A.pdf)
+~!Height (0.55mm)
+~!3D_Model (GJM1555C1H1R7WB01D)
+GJM1555C1H1R7WB01D
+1.1!U 2.1!U 

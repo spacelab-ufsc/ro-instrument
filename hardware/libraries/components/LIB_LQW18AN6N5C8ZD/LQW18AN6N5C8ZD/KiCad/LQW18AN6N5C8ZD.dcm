@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LQW18AN6N5C8ZD
+D LQW18AN_8Z Series Inductor 6.5nH +/-0.2nH 0603 (1608)
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9133.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -2680,18 +2680,6 @@
 		)
 	)
 	(rectangle
-		(start 346.71 64.77)
-		(end 360.68 74.93)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "d4cde7ea-b386-493d-8316-b4b2787d389f")
-	)
-	(rectangle
 		(start 45.72 67.31)
 		(end 72.39 81.28)
 		(stroke
@@ -3318,6 +3306,16 @@
 			(type default)
 		)
 		(uuid "5154ba58-02c4-4ff8-b3c0-a8715e9ed510")
+	)
+	(wire
+		(pts
+			(xy 279.4 73.66) (xy 284.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518d9c3c-3a21-4a46-b38d-d5182454a366")
 	)
 	(wire
 		(pts
@@ -4171,6 +4169,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 68.58) (xy 284.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2207c97-e411-4a20-a08e-4bfbfac87dfe")
+	)
+	(wire
+		(pts
 			(xy 107.95 55.88) (xy 113.03 55.88)
 		)
 		(stroke
@@ -4468,6 +4476,26 @@
 			(justify left bottom)
 		)
 		(uuid "d25fbf9a-f844-42b7-9d0e-04e0644119fe")
+	)
+	(label "I2C1_SDA"
+		(at 279.4 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db97f101-b407-496a-8ccc-b45984148224")
+	)
+	(label "I2C1_SCL"
+		(at 279.4 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6311526-376b-45b9-8f3f-c412d4983f89")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -11250,7 +11278,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 354.076 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11261,7 +11289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 352.0948 66.04 0)
 			(hide yes)
 			(show_name no)

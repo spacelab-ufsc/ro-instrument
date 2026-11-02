@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "GRM1555C1H150JA01D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-25-13:44:57)
+    (mountForm default
+        (footprintRef "CAPC1005X70N")
+        (spec "System")
+    )
+)

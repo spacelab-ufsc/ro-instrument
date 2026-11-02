@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C0402C104J4RAC"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-16-10:42:08)
+    (mountForm default
+        (footprintRef "C0402C104J4RACTU")
+        (spec "System")
+    )
+)

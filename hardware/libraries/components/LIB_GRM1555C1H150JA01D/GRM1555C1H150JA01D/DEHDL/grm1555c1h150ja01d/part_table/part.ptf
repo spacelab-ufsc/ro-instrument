@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'GRM1555C1H150JA01D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "GRM1555C1H150JA01D" (!) = "", "CAPC1005X70N", "Capacitor Chip Non-polarised", "81-GRM1555C1H150JA1D", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H150JA01D?qs=to8XolpOzrO6zLQlNbgtVA%3D%3D", "Ceramic Capacitors MLCC 0402 15pF 50V Murata 0402 GRM 15pF Ceramic Multilayer Capacitor, 50 V dc C0G Dielectric +/-5% SMD", "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H150JA01-01A.pdf", "0.7 mm"
+END_PART
+
+END.

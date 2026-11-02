@@ -1,0 +1,9 @@
+Manufacturer=Yageo Group
+PartNumber=CC0402KRX7R9BB751
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2022-02-16 08:22:28
+Downloaded=2026-11-01 22:58:25
+3D=Y
