@@ -8151,4 +8151,5 @@
 			(page "5")
 		)
 	)
+	(embedded_fonts no)
 )

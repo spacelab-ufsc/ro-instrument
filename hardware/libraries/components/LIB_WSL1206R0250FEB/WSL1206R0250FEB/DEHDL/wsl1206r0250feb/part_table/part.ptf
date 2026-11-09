@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'WSL1206R0250FEB'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "WSL1206R0250FEB" (!) = "", "RESC3216X89N", "Resistor Chip", "71-WSL1206-0.025-E3", "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSL1206R0250FEB?qs=X763L6ZzTB9Rxc1HFjvuWA%3D%3D", "Current Sense Resistors - SMD 1/4watt .025ohms 1%", "https://www.vishay.com/docs/30100/wsl.pdf", "0.889 mm"
+END_PART
+
+END.

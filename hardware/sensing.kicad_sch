@@ -1339,162 +1339,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 226.06 48.26)
-		(end 240.03 59.69)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "012ab4c3-bbaa-4cf1-9b0e-9836549fb1c0")
-	)
-	(rectangle
-		(start 226.06 102.87)
-		(end 240.03 114.3)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "0a0f60e4-bd48-4f3e-a5a6-2d6574bf379c")
-	)
-	(rectangle
-		(start 31.75 104.14)
-		(end 44.45 119.38)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "0ad7a81b-a82f-43a0-a621-d4a29f29f3f1")
-	)
-	(rectangle
-		(start 113.03 48.26)
-		(end 125.73 58.42)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "20104c44-2cbe-422a-971a-b5484a358665")
-	)
-	(rectangle
-		(start 107.95 157.48)
-		(end 121.92 168.91)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "372dffe1-d067-42f5-9f38-a426ade47432")
-	)
-	(rectangle
-		(start 110.49 101.6)
-		(end 124.46 111.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "805b62b4-d9ad-45df-a86b-588a646e4c61")
-	)
-	(rectangle
-		(start 144.78 105.41)
-		(end 160.02 121.92)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "a5eca3e2-3d36-4206-b4a3-c80e94ca82b1")
-	)
-	(rectangle
-		(start 33.02 52.07)
-		(end 45.72 66.04)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "a61bf0f1-909d-4988-ae1d-dda773d5d071")
-	)
-	(rectangle
-		(start 16.51 13.97)
-		(end 402.59 278.13)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "c0d6ad9c-2d4b-4836-a84d-1972d9b902f0")
-	)
-	(rectangle
-		(start 146.05 52.07)
-		(end 160.02 66.04)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "c194b084-60f6-4a44-9e3d-de1d5f292431")
-	)
-	(rectangle
-		(start 107.95 212.09)
-		(end 120.65 223.52)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "c2470c83-d36a-4811-8cb9-24aefe86131e")
-	)
-	(rectangle
-		(start 26.67 215.9)
-		(end 39.37 228.6)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "df8f8b7f-dbad-462a-9129-b930eedc7a2e")
-	)
-	(rectangle
-		(start 27.94 160.02)
-		(end 40.64 175.26)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "fab29db0-9715-4b83-9ef0-513dd89786bd")
-	)
 	(text "DECOUPLING\nCAPACITOR"
 		(exclude_from_sim no)
 		(at 118.11 34.29 0)
@@ -4948,7 +4792,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 112.0648 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -5365,7 +5209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprint:RESC3216X89N"
 			(at 36.576 58.674 90)
 			(hide yes)
 			(show_name no)
@@ -5680,7 +5524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 230.1748 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6108,7 +5952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 114.6048 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6888,7 +6732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprint:RESC3216X89N"
 			(at 150.876 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -7073,7 +6917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprint:RESC3216X89N"
 			(at 32.766 167.894 90)
 			(hide yes)
 			(show_name no)
@@ -7486,7 +7330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 110.7948 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -8215,7 +8059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprint:RESC3216X89N"
 			(at 31.496 222.504 90)
 			(hide yes)
 			(show_name no)
@@ -9017,7 +8861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprint:RESC3216X89N"
 			(at 35.306 112.014 90)
 			(hide yes)
 			(show_name no)
@@ -9911,7 +9755,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 115.8748 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9992,7 +9836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprints:CAPC0603X35N"
 			(at 230.1748 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10152,7 +9996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "payload_footprint:RESC3216X89N"
 			(at 150.876 58.674 90)
 			(hide yes)
 			(show_name no)
@@ -10308,4 +10152,5 @@
 			(page "15")
 		)
 	)
+	(embedded_fonts no)
 )

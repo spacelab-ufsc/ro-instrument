@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "WSL1206R0250FEB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-09-04:00:50)
+    (mountForm default
+        (footprintRef "RESC3216X89N")
+        (spec "System")
+    )
+)

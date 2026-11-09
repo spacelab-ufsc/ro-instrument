@@ -10559,18 +10559,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 76.2 240.03)
-		(end 87.63 264.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "927cacb8-e85e-48e7-9620-c0bdadabe09f")
-	)
 	(text "PROGRAMING THE SPI FLASH\nUSING EXTERNAL MASTER\n"
 		(exclude_from_sim no)
 		(at 357.124 41.656 0)
@@ -15871,7 +15859,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.994 243.586 90)
 			(hide yes)
 			(show_name no)
@@ -18512,7 +18500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.994 258.826 90)
 			(hide yes)
 			(show_name no)
@@ -20156,4 +20144,5 @@
 			(page "10")
 		)
 	)
+	(embedded_fonts no)
 )

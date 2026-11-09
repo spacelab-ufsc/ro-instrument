@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_2002563"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-08-04-11:03:04)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "WSL1206R0250FEB")
+)
+
+
+(pinAssign "ECS_2002563"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-08-04-11:03:04)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2002563")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "WSL1206R0250FEB")
+)
+
+
+(part "WSL1206R0250FEB"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-08-04-11:03:04)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "WSL1206R0250FEB")
+    (pinAssignRef "ECS_2002563")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "Current Sense Resistors - SMD 1/4watt .025ohms 1%")
+    (property "Mouser_Part_Number" "71-WSL1206-0.025-E3")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSL1206R0250FEB?qs=X763L6ZzTB9Rxc1HFjvuWA%3D%3D")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "WSL1206R0250FEB")
+    (property "Datasheet_Link" "https://www.vishay.com/docs/30100/wsl.pdf")
+    (property "compAreaTopHeight" 0.889)
+)
+
+

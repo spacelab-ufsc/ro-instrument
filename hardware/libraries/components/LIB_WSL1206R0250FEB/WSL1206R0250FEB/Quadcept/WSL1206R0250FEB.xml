@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/2002563/1743273/2.50/2/2/Resistor/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r185_120" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="47.244094488188" height="72.83464566929" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="55.11811023622" height="80.708661417322" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="47.244094488188" height="72.83464566929" />
+  </padstyle>
+  <footprint name="RESC3216X89N" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r185_120" originx="-59.055118110235" originy="0" rotation="0" />
+    <pcbpin number="2" name="2" style="r185_120" originx="59.055118110235" originy="0" rotation="0" />
+    <line layer="TOP_PLACE_BOUND" originx="-92.519685039369" originy="47.244094488188" endx="92.519685039369" endy="47.244094488188" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="92.519685039369" originy="47.244094488188" endx="92.519685039369" endy="-47.244094488188" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="92.519685039369" originy="-47.244094488188" endx="-92.519685039369" endy="-47.244094488188" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-92.519685039369" originy="-47.244094488188" endx="-92.519685039369" endy="47.244094488188" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="-62.992125984251" originy="31.496062992126" endx="62.992125984251" endy="31.496062992126" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="62.992125984251" originy="31.496062992126" endx="62.992125984251" endy="-31.496062992126" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="62.992125984251" originy="-31.496062992126" endx="-62.992125984251" endy="-31.496062992126" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-62.992125984251" originy="-31.496062992126" endx="-62.992125984251" endy="31.496062992126" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="0" originy="27.55905511811" endx="0" endy="-27.55905511811" width="7.8740157480314" />
+  </footprint>
+  <symbol name="WSL1206R0250FEB" originx="0" originy="0">
+    <line originx="200" originy="50" endx="500" endy="50" width="0" />
+    <line originx="500" originy="-50" endx="500" endy="50" width="0" />
+    <line originx="500" originy="-50" endx="200" endy="-50" width="0" />
+    <line originx="200" originy="50" endx="200" endy="-50" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-10" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="1" />
+      <text name="pindes" originx="0" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="500" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="700" originy="-10" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="2" />
+      <text name="pindes" originx="700" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+  </symbol>
+  <component name="WSL1206R0250FEB" designatorprefix="R" height="35" footprint="RESC3216X89N">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <attached_symbol gate="1" name="WSL1206R0250FEB" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.vishay.com/docs/30100/wsl.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Current Sense Resistors - SMD 1/4watt .025ohms 1%" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="71-WSL1206-0.025-E3" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSL1206R0250FEB?qs=X763L6ZzTB9Rxc1HFjvuWA%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Vishay" />
+    <text name="Manufacturer_Part_Number" originx="550" originy="150" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="WSL1206R0250FEB" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,91 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "WSL1206R0250FEB"
+   (description "Current Sense Resistors - SMD 1/4watt .025ohms 1%")
+   (family "RES")
+   (package "RESC3216X89N")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/30100/wsl.pdf")
+   (attribute "Geometry.Height" "0.889mm")
+   (attribute "Mouser Part Number" "71-WSL1206-0.025-E3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSL1206R0250FEB?qs=X763L6ZzTB9Rxc1HFjvuWA%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "WSL1206R0250FEB")
+   (gate
+    (symbol "WSL1206R0250FEB")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "WSL1206R0250FEB"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESC3216X89N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.35 1.2)
+      (pt 2.35 1.2)
+      (pt 2.35 -1.2)
+      (pt -2.35 -1.2)
+      (pt -2.35 1.2))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 0.8)
+      (pt 1.6 0.8)
+      (pt 1.6 -0.8)
+      (pt -1.6 -0.8)
+      (pt -1.6 0.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 0.7)
+      (pt 0 -0.7))))
+   (leg 1 (pt -1.5 0) (padstack 0))
+   (leg 2 (pt 1.5 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.2 1.85 0 0 90))
+   )
+   (model "WSL1206R0250FEB.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

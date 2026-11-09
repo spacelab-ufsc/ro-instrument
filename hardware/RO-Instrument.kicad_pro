@@ -518,8 +518,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -732,7 +732,7 @@
         "uuid": "5337db32-22c1-4efb-902e-4f77e772cb4f"
       }
     ],
-    "used_designators": "#PWR57,#PWR157-160,#PWR224,IC29,IC33-36,U18-22",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

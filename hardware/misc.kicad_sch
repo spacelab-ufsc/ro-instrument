@@ -12983,4 +12983,5 @@
 			(page "4")
 		)
 	)
+	(embedded_fonts no)
 )
