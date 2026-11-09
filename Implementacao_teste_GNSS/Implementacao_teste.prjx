@@ -265,7 +265,11 @@ SIZE="4422"
 ENDFILE
 VALUE "<project>/component/work/COREDDS_C0/COREDDS_C0.v,hdl"
 STATE="utd"
+<<<<<<< Updated upstream
 TIME="1792027166"
+=======
+TIME="1793444770"
+>>>>>>> Stashed changes
 SIZE="4908"
 PARENT="<project>/component/work/COREDDS_C0/COREDDS_C0.cxf"
 IS_READONLY="TRUE"
@@ -294,7 +298,11 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/COREDDS_C0/COREDDS_C0_0/coreparameters.v,tb_hdl"
 STATE="utd"
+<<<<<<< Updated upstream
 TIME="1792027166"
+=======
+TIME="1793444770"
+>>>>>>> Stashed changes
 SIZE="892"
 PARENT="<project>/component/work/COREDDS_C0/COREDDS_C0_0/COREDDS_C0_COREDDS_C0_0_COREDDS.cxf"
 IS_READONLY="TRUE"
@@ -368,7 +376,11 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/COREFFT_C2/COREFFT_C0_0/coreparameters.v,tb_hdl"
 STATE="utd"
+<<<<<<< Updated upstream
 TIME="1792027025"
+=======
+TIME="1793444770"
+>>>>>>> Stashed changes
 SIZE="1018"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>/component/work/COREFFT_C2/COREFFT_C0_0/COREFFT_C2_COREFFT_C0_0_COREFFT.cxf"
@@ -429,7 +441,11 @@ SIZE="5332"
 ENDFILE
 VALUE "<project>/component/work/COREFFT_C2/COREFFT_C2.v,hdl"
 STATE="utd"
+<<<<<<< Updated upstream
 TIME="1792027025"
+=======
+TIME="1793444770"
+>>>>>>> Stashed changes
 SIZE="6902"
 PARENT="<project>/component/work/COREFFT_C2/COREFFT_C2.cxf"
 IS_READONLY="TRUE"
@@ -450,7 +466,11 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/COREFFT_C3/COREFFT_C1_0/coreparameters.v,tb_hdl"
 STATE="utd"
+<<<<<<< Updated upstream
 TIME="1792027018"
+=======
+TIME="1793444770"
+>>>>>>> Stashed changes
 SIZE="1017"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>/component/work/COREFFT_C3/COREFFT_C1_0/COREFFT_C3_COREFFT_C1_0_COREFFT.cxf"
@@ -511,19 +531,31 @@ SIZE="5332"
 ENDFILE
 VALUE "<project>/component/work/COREFFT_C3/COREFFT_C3.v,hdl"
 STATE="utd"
+<<<<<<< Updated upstream
 TIME="1792027018"
+=======
+TIME="1793444770"
+>>>>>>> Stashed changes
 SIZE="6893"
 PARENT="<project>/component/work/COREFFT_C3/COREFFT_C3.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/COREFFT_C4/COREFFT_C4.cxf,actgen_cxf"
 STATE="utd"
+<<<<<<< Updated upstream
 TIME="1792027421"
+=======
+TIME="1793444770"
+>>>>>>> Stashed changes
 SIZE="5332"
 ENDFILE
 VALUE "<project>/component/work/COREFFT_C4/COREFFT_C4.v,hdl"
 STATE="utd"
+<<<<<<< Updated upstream
 TIME="1792027421"
+=======
+TIME="1793444770"
+>>>>>>> Stashed changes
 SIZE="6893"
 PARENT="<project>/component/work/COREFFT_C4/COREFFT_C4.cxf"
 IS_READONLY="TRUE"
@@ -544,7 +576,11 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/COREFFT_C4/COREFFT_C4_0/coreparameters.v,tb_hdl"
 STATE="utd"
+<<<<<<< Updated upstream
 TIME="1792027420"
+=======
+TIME="1793444770"
+>>>>>>> Stashed changes
 SIZE="1017"
 LIBRARY="COREFFT_LIB"
 PARENT="<project>/component/work/COREFFT_C4/COREFFT_C4_0/COREFFT_C4_COREFFT_C4_0_COREFFT.cxf"
@@ -652,6 +688,106 @@ VALUE "<project>/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/te
 VALUE "<project>/component/work/COREFFT_C2/COREFFT_C0_0/rtl/in_place/vlog/test/user/in_place_FFT_tb.v,tb_hdl"
 VALUE "<project>/component/work/COREFFT_C2/COREFFT_C0_0/coreparameters.v,tb_hdl"
 ENDLIST
+<<<<<<< Updated upstream
+=======
+LIST AssociatedStimulus
+VALUE "<project>/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/test/user/bhvKit.v,tb_hdl"
+VALUE "<project>/component/work/COREFFT_C2/COREFFT_C0_0/rtl/in_place/vlog/test/user/in_place_FFT_tb.v,tb_hdl"
+VALUE "<project>/component/work/COREFFT_C2/COREFFT_C0_0/coreparameters.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl5
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl7
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl8
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl9
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+>>>>>>> Stashed changes
 ENDLIST
 LIST "COREFFT_C3_COREFFT_C1_0_COREFFT::COREFFT_LIB"
 FILE "<project>/component/work/COREFFT_C3/COREFFT_C1_0/rtl/in_place/vlog/core/COREFFT_TOP.v,hdl"
@@ -660,6 +796,106 @@ VALUE "<project>/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/te
 VALUE "<project>/component/work/COREFFT_C3/COREFFT_C1_0/rtl/in_place/vlog/test/user/in_place_FFT_tb.v,tb_hdl"
 VALUE "<project>/component/work/COREFFT_C3/COREFFT_C1_0/coreparameters.v,tb_hdl"
 ENDLIST
+<<<<<<< Updated upstream
+=======
+LIST AssociatedStimulus
+VALUE "<project>/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/test/user/bhvKit.v,tb_hdl"
+VALUE "<project>/component/work/COREFFT_C3/COREFFT_C1_0/rtl/in_place/vlog/test/user/in_place_FFT_tb.v,tb_hdl"
+VALUE "<project>/component/work/COREFFT_C3/COREFFT_C1_0/coreparameters.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl5
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl7
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl8
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl9
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+>>>>>>> Stashed changes
 ENDLIST
 LIST "COREFFT_C4_COREFFT_C4_0_COREFFT::COREFFT_LIB"
 FILE "<project>/component/work/COREFFT_C4/COREFFT_C4_0/rtl/in_place/vlog/core/COREFFT_TOP.v,hdl"
@@ -668,6 +904,106 @@ VALUE "<project>/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/te
 VALUE "<project>/component/work/COREFFT_C4/COREFFT_C4_0/rtl/in_place/vlog/test/user/in_place_FFT_tb.v,tb_hdl"
 VALUE "<project>/component/work/COREFFT_C4/COREFFT_C4_0/coreparameters.v,tb_hdl"
 ENDLIST
+<<<<<<< Updated upstream
+=======
+LIST AssociatedStimulus
+VALUE "<project>/component/Actel/DirectCore/COREFFT/8.1.100/rtl/in_place/vlog/test/user/bhvKit.v,tb_hdl"
+VALUE "<project>/component/work/COREFFT_C4/COREFFT_C4_0/rtl/in_place/vlog/test/user/in_place_FFT_tb.v,tb_hdl"
+VALUE "<project>/component/work/COREFFT_C4/COREFFT_C4_0/coreparameters.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl5
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl7
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl8
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl9
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+>>>>>>> Stashed changes
 ENDLIST
 LIST "COREDDS_C0_COREDDS_C0_0_COREDDS::COREDDS_LIB"
 FILE "<project>/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/DDS_TOP.v,hdl"
@@ -678,6 +1014,108 @@ VALUE "<project>/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/dds_b
 VALUE "<project>/component/work/COREDDS_C0/COREDDS_C0_0/coreparameters.v,tb_hdl"
 VALUE "<project>/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/tb_dds.v,tb_hdl"
 ENDLIST
+<<<<<<< Updated upstream
+=======
+LIST AssociatedStimulus
+VALUE "<project>/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/dds_bhvTestVectIn.v,tb_hdl"
+VALUE "<project>/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/dds_bhvTestVectOut.v,tb_hdl"
+VALUE "<project>/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/dds_bhvKit.v,tb_hdl"
+VALUE "<project>/component/work/COREDDS_C0/COREDDS_C0_0/coreparameters.v,tb_hdl"
+VALUE "<project>/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/tb_dds.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl5
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl7
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl8
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl9
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+>>>>>>> Stashed changes
 ENDLIST
 ENDLIST
 LIST AssociatedStimulus
@@ -805,6 +1243,374 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "COREFFT_C2_COREFFT_C0_0_COREFFT::COREFFT_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl5
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl7
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl8
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl9
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "COREFFT_C3_COREFFT_C1_0_COREFFT::COREFFT_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl5
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl7
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl8
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl9
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "COREFFT_C4_COREFFT_C4_0_COREFFT::COREFFT_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl5
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl7
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl8
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl9
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "COREDDS_C0_COREDDS_C0_0_COREDDS::COREDDS_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl3
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl4
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl5
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl7
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl8
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl9
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -818,9 +1624,18 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+<<<<<<< Updated upstream
 HDL;component/work/COREFFT_C4/COREFFT_C4_0/rtl/in_place/vlog/core/fftDp.v;0
 HDL;hdl/Acquisition/Acquisition.vhd;0
 ACTIVEVIEW;component/work/COREFFT_C4/COREFFT_C4_0/rtl/in_place/vlog/core/fftDp.v
+=======
+HDL;hdl/Acquisition/Acquisition-Renato.vhd;0
+HDL;hdl/Acquisition/Complex_multiplier.vhd;0
+HDL;hdl/Acquisition/reg16.vhd;0
+HDL;stimulus/Acquisition_TestBench.vhd;0
+StartPage;StartPage;0
+ACTIVEVIEW;stimulus/Acquisition_TestBench.vhd
+>>>>>>> Stashed changes
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Acquisition::work","component/work/Acquisition/Acquisition.cxf","TRUE","FALSE"
@@ -878,6 +1693,8 @@ LIST "bhvEdge::work","component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/
 ENDLIST
 LIST "bhvRAM_fabric::work","component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/dds_bhvKit.v","FALSE","TRUE"
 ENDLIST
+LIST "clock_driver::work","component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/clock_driver.v","FALSE","TRUE"
+ENDLIST
 LIST "Complex_multiplier::work","","FALSE","FALSE"
 ENDLIST
 LIST "costas_loop_tb::work","component/Microchip/SolutionCore/costas_loop/1.1.0/Stimulus/costas_loop_tb.v","FALSE","TRUE"
@@ -903,7 +1720,22 @@ LIST "bhvDelay::work","component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user
 ENDLIST
 LIST "dds_kitCountS::COREDDS_LIB","","FALSE","FALSE"
 ENDLIST
+LIST "fifo_driver::work","component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/fifo_driver.v","FALSE","TRUE"
+ENDLIST
+LIST "fifo_monitor::work","component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/fifo_monitor.v","FALSE","TRUE"
+ENDLIST
+LIST "g4_dp_ext_mem::work","component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/g4_dp_ext_mem.v","FALSE","TRUE"
+SUBBLOCK "MEM_WeqR::work","component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/MEM_WeqR.v","FALSE","TRUE"
+SUBBLOCK "MEM_WgtR::work","component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/MEM_WgtR.v","FALSE","TRUE"
+SUBBLOCK "MEM_WltR::work","component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/MEM_WltR.v","FALSE","TRUE"
+ENDLIST
 LIST "L1_CA_generator::work","","FALSE","FALSE"
+ENDLIST
+LIST "MEM_WeqR::work","component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/MEM_WeqR.v","FALSE","TRUE"
+ENDLIST
+LIST "MEM_WgtR::work","component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/MEM_WgtR.v","FALSE","TRUE"
+ENDLIST
+LIST "MEM_WltR::work","component/Actel/DirectCore/COREFIFO/3.1.101/rtl/vlog/test/user/MEM_WltR.v","FALSE","TRUE"
 ENDLIST
 LIST "testbench::work","component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/test/user/tb_dds.v","FALSE","TRUE"
 SUBBLOCK "COREDDS_C0_COREDDS_C0_0_COREDDS::COREDDS_LIB","component/work/COREDDS_C0/COREDDS_C0_0/rtl/vlog/core/DDS_TOP.v","FALSE","FALSE"
