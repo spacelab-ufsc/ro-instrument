@@ -128,6 +128,8 @@ begin
         MAX_I_INPUT <= CA_PRN & '1';
         pulso <= not pulso after (200 ns);
         
+        MAX_Q_INPUT <= 
+        
         process (pulso, PRN_VALID) is
             variable previous_pulse : std_logic := '0';
         begin
